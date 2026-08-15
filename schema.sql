@@ -14,6 +14,7 @@ create table if not exists public.nodes (
   sources     jsonb  not null default '[]',   -- [{t, u, stand, geprueft}]
   dach        jsonb,                  -- {de, at, ch}
   images      jsonb  not null default '[]',   -- [{path, caption, credit, lizenz}]
+  ord         int,                    -- Anzeige-Reihenfolge (entspricht der Objektreihenfolge in data.mjs)
   status      text not null default 'generiert'
               check (status in ('generiert','strukturgeprüft','fachgeprüft')),
   reviewed_by text,
@@ -25,6 +26,7 @@ create table if not exists public.nodes (
 create index if not exists nodes_parent_idx on public.nodes (parent_id);
 create index if not exists nodes_persp_idx  on public.nodes (perspective, level);
 create index if not exists nodes_status_idx on public.nodes (status);
+create index if not exists nodes_ord_idx    on public.nodes (ord);
 
 -- updated_at automatisch pflegen
 create or replace function public.touch_updated_at()
