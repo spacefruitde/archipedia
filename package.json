@@ -7,6 +7,7 @@
   "scripts": {
     "build": "node build.mjs",
     "check-links": "node check-links.mjs",
-    "gen-seed": "node gen-seed.mjs"
+    "gen-seed": "node gen-seed.mjs",
+    "pull-data": "node pull-data.mjs"
   }
 }

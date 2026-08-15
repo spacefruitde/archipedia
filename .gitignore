@@ -4,3 +4,6 @@ dist/
 seed_0*.sql
 .env
 .env.*
+
+# Local Netlify folder
+.netlify
