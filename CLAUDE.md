@@ -43,7 +43,7 @@ Organisation: **Spacefruit** (dort läuft auch bugsnap). Ben hat ein neues Proje
 
 ## Deployment
 
-Ziel: Netlify. Build-Command `npm run build && npm run check-links`, Publish-Verzeichnis `dist`. Der Wortmarken-Text steckt nur in `build.mjs` (Header + Titel), Umbenennung ist eine Zeile.
+Live: https://ao-prototyp.netlify.app — Site `ao-prototyp` im Netlify-Konto **ben@spacefruit.de** (Team „Archi-tektur", eigenes Konto nur für dieses Projekt; NICHT das ältere Konto b.chr@me.com). Deploy manuell per `netlify deploy --prod --dir dist`. Build-Command `npm run build && npm run check-links`, Publish-Verzeichnis `dist` (siehe netlify.toml). Der Wortmarken-Text steckt nur in `build.mjs` (Header + Titel), Umbenennung ist eine Zeile.
 
 ## Status (15.08.2026)
 
