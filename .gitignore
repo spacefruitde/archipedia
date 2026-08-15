@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.png
+seed_0*.sql
+.env
+.env.*

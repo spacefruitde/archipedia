@@ -1,0 +1,12 @@
+{
+  "name": "archipedia",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Wissensplattform für Architekten (Arbeitsname, wird umbenannt) – Datenbasis, Build und Pipeline",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check-links": "node check-links.mjs",
+    "gen-seed": "node gen-seed.mjs"
+  }
+}
