@@ -2,7 +2,7 @@
    Felder: p Perspektive · lv Ebene · pa Eltern · t Titel · t1/t2/t3 Lesetiefen
    ln Querverweise · src Normen/Quellen [{t, u?}] · dach {de, at, ch} Länder-Besonderheiten */
 
-export const P = { k:{name:'Konstruktion',cls:'k'}, e:{name:'Entwurf',cls:'e'}, x:{name:'Kontext',cls:'x'} };
+export const P = { k:{name:'Konstruktion',cls:'k'}, e:{name:'Entwurf',cls:'e'}, x:{name:'Kontext',cls:'x'}, p:{name:'Prozess',cls:'p'} };
 
 /* Startseiten-Karten: Reihenfolge und Beschreibung der Einstiegs-Äste */
 export const ROOTS = [

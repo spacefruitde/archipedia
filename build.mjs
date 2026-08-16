@@ -5,7 +5,7 @@ const DEPTHS = [['t1','Überblick'],['t2','Vertiefung'],['t3','Spezifikation']];
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const kidsOf = id => Object.entries(N).filter(([,n]) => n.pa === id).map(([k]) => k);
 const pathOf = id => { const p=[]; let c=id; while(c){p.unshift(c); c=N[c].pa;} return p; };
-const colOf = p => p==='k' ? '#2f5d7c' : p==='e' ? '#b05c3a' : '#4f7350';
+const colOf = p => p==='k' ? '#2f5d7c' : p==='e' ? '#b05c3a' : p==='p' ? '#665a7c' : '#4f7350';
 
 function netzSVG(id){
   const n = N[id];
@@ -108,8 +108,8 @@ const cards = ROOTS.map(([id,desc])=>{
 }).join('');
 
 const home = `<section id="home">
-  <p class="intro">Ein Wissensraum, drei Perspektiven, jede Tiefe.</p>
-  <p class="intro-sub">Prototyp der Navigationsidee mit zwei Themen: „Türen" (Muster-Ast) und „Treppen" (nach Autoren-Spezifikation generierter Testlauf). Jeder Eintrag zeigt einen Überblick; „Vertiefung" und „Spezifikation" lassen sich aufklappen, wo es sie gibt. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
+  <p class="intro">Ein Wissensraum, vier Perspektiven, jede Tiefe.</p>
+  <p class="intro-sub">Begehbares Gerüst der gesamten Themenlandkarte: Konstruktion, Entwurf, Kontext und Prozess, jeweils bis Ebene 3 mit Überblickstexten; die Muster-Äste Türen und Treppen reichen tiefer. „Vertiefung" und „Spezifikation" lassen sich aufklappen, wo es sie gibt. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
   ${cards}
   <footer>ArchiPedia Prototyp · Stand 08/2026 · Inhalte sind Demonstrationstexte (KI-generiert, nicht fachgeprüft) und zeigen Struktur, Tonlage und Tiefenstaffelung, nicht finale Fachinformation. Normbezüge ohne Gewähr.</footer>
 </section>`;
@@ -125,7 +125,7 @@ const html = `<!DOCTYPE html>
 <style>
   :root{
     --bg:#faf8f4; --ink:#1c1a17; --muted:#6f6a61; --line:#e5e0d6; --card:#ffffff;
-    --k:#2f5d7c; --k-bg:#eaf1f6; --e:#b05c3a; --e-bg:#f8ece5; --x:#4f7350; --x-bg:#ebf2ea;
+    --k:#2f5d7c; --k-bg:#eaf1f6; --e:#b05c3a; --e-bg:#f8ece5; --x:#4f7350; --x-bg:#ebf2ea; --p:#665a7c; --p-bg:#efecf3;
     --radius:10px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
@@ -152,7 +152,7 @@ const html = `<!DOCTYPE html>
   .crumbs .here{color:var(--ink)}
   .meta{display:flex;gap:10px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
   .badge{font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:99px}
-  .b-k{background:var(--k-bg);color:var(--k)} .b-e{background:var(--e-bg);color:var(--e)} .b-x{background:var(--x-bg);color:var(--x)}
+  .b-k{background:var(--k-bg);color:var(--k)} .b-e{background:var(--e-bg);color:var(--e)} .b-x{background:var(--x-bg);color:var(--x)} .b-p{background:var(--p-bg);color:var(--p)}
   .levels{display:flex;gap:3px;align-items:center}
   .levels i{width:7px;height:7px;border-radius:50%;background:var(--line);display:inline-block}
   .levels i.on{background:var(--ink)}
@@ -187,7 +187,7 @@ const html = `<!DOCTYPE html>
   .endnote{font-size:13.5px;color:var(--muted)}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px}
   .xlink{border:1px solid;border-radius:99px;padding:6px 13px;font-size:13px;background:#fff;display:inline-block}
-  .xl-k{color:var(--k);border-color:#bcd0de} .xl-e{color:var(--e);border-color:#e4c3b3} .xl-x{color:var(--x);border-color:#c2d4c3}
+  .xl-k{color:var(--k);border-color:#bcd0de} .xl-e{color:var(--e);border-color:#e4c3b3} .xl-x{color:var(--x);border-color:#c2d4c3} .xl-p{color:var(--p);border-color:#cdc5d8}
   details.netz{border-top:1px solid var(--line);padding-top:4px;margin-top:4px}
   details.netz summary{list-style:none;cursor:pointer;padding:9px 0;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
   details.netz summary::-webkit-details-marker{display:none}
