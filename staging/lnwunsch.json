@@ -1,0 +1,308 @@
+{
+ "kgr3wahl": [
+  "P3 Baurecht: Baugrundgutachten und Genehmigungspflichten"
+ ],
+ "kgr3perimmat": [
+  "K13 Material: Dämmstoffe im Vergleich"
+ ],
+ "kgr3sockel": [
+  "K9 Böden: Sockelanschluss außen",
+  "K15 Außenanlagen: Übergang Gebäude und Gelände"
+ ],
+ "kro2beton": [
+  "K13 Material: Beton und Betonoberflächen"
+ ],
+ "kro2holz": [
+  "K13 Material: Holz und Holzwerkstoffe"
+ ],
+ "kro3brand": [
+  "P3 Baurecht: Sonderbauten und Brandschutzanforderungen"
+ ],
+ "kro2aussteif": [
+  "E8 Ordnung und Struktur: Primär- und Sekundärstruktur"
+ ],
+ "kfa3schwachwdvs": [
+  "K5 Fenster: Baukörperanschluss und Montage (RAL)"
+ ],
+ "kfa2vhf": [
+  "K13 Material: Metalle im Ausbau",
+  "K13 Material: Naturstein und Keramik"
+ ],
+ "kfa2pfriegel": [
+  "K5 Fenster: Verglasung Wärme- und Sonnenschutz"
+ ],
+ "kfa2sichtbeton": [
+  "E5 Material und Fügung: Tektonik, zeigen wie es gebaut ist"
+ ],
+ "kfa3pv": [
+  "K4 Dach: Solarfassade und Dachintegration von PV",
+  "P7 Nachhaltigkeit: Förderlandschaft für Fassadenbegrünung"
+ ],
+ "kda1": [
+  "Entwurf: Dach als fünfte Fassade",
+  "Kontext: Dachlandschaft im Städtebau"
+ ],
+ "kda3gaubenform": [
+  "Entwurf: Gaube als Fassadenelement"
+ ],
+ "kda3durchdring": [
+  "Prozess: Förderung und Anschluss von Photovoltaik"
+ ],
+ "kda3retention": [
+  "Außenanlagen: Entwässerung im Freiraum (K15)"
+ ],
+ "kfe1": [
+  "Entwurf: Tageslichtführung (E2 Licht)",
+  "Entwurf: Öffnung und Wand, das Verhältnis (E2 Licht)"
+ ],
+ "kfe3profil": [
+  "Kontext: Fenstersanierung im Baudenkmal"
+ ],
+ "kiw3schacht": [
+  "Böden: Abdichtung im Nassraum am Bodenübergang (K9)"
+ ],
+ "kbo1": [
+  "Gründung: Bodenplatte und Perimeterdämmung (K1)",
+  "Entwurf: Bodenmaterial als Raumwirkung (E5)"
+ ],
+ "kbo3giess": [
+  "Material- und Produktkunde: Reaktionsharzböden (K13)"
+ ],
+ "kde1": [
+  "Kontext: historische Deckengestaltung als Fallstudie (X)"
+ ],
+ "kde3integration": [
+  "TGA: Installationszonen und Deckenspiegel-Koordination (K12)"
+ ],
+ "kde3kuehldecke": [
+  "TGA: Kühldecke und Taupunktregelung (K12)"
+ ],
+ "kab1": [
+  "Dach: Dampfbremse im Steildachaufbau (K4)",
+  "Tragwerk: Fugenplanung im Rohbau (K2)"
+ ],
+ "kab3konstruktiv": [
+  "Außenwand und Fassade: Balkonanschluss und thermische Trennung (K3)"
+ ],
+ "ktg3flaeche": [
+  "Böden: Fußbodenheizung im Aufbau"
+ ],
+ "ktg3fuehr": [
+  "Decken(bekleidungen): Integration von Technik in die Decke"
+ ],
+ "ktg3pv": [
+  "Dach: PV-Montagesystem und Durchdringungen",
+  "Fassadenbegrünung und Solarfassade"
+ ],
+ "ktg3vorwand": [
+  "Innenwände und Trockenbau: Vorsatzschalen und Installationswände"
+ ],
+ "ktg3entwaesser": [
+  "Gründung und erdberührte Bauteile: Rückstausicherung im Kellergeschoss"
+ ],
+ "kma3werkstoff": [
+  "Innenwände und Trockenbau: Trockenbauwände, Ständerwerk und Beplankung"
+ ],
+ "kma3glasart": [
+  "Fenster und Verglasung: Verglasung (Wärme-, Sonnen-, Schallschutz)"
+ ],
+ "kma3putz": [
+  "WDVS: Putzsysteme im Wärmedämmverbund"
+ ],
+ "kma3membran": [
+  "Abdichtung und Bauphysik im Detail: Luftdichtheit und Dampfdiffusion"
+ ],
+ "kbe3schadstoff": [
+  "Material- und Produktkunde: Baustoffe des 20. Jahrhunderts und ihre Risiken"
+ ],
+ "kbe3statik": [
+  "Tragwerk und Rohbau: Verstärkungssysteme im Bestand"
+ ],
+ "kbe3energ": [
+  "Fenster und Verglasung: Bestandsfenster ertüchtigen oder ersetzen"
+ ],
+ "kbe3install": [
+  "Technische Gebäudeausrüstung: Vorwandinstallation und Bestandsleitungen"
+ ],
+ "kbe3verfahren": [
+  "Rechtliche Grundlagen: Denkmalschutzgesetze der Länder im Vergleich"
+ ],
+ "kbe3anbau": [
+  "Tragwerk und Rohbau: Fugenausbildung zwischen Neu- und Altbau"
+ ],
+ "kbe3aufstock": [
+  "Tragwerk und Rohbau: Holzbau als Leichtbaulösung im Bestand"
+ ],
+ "kbe3umnutz": [
+  "Entwurf: Umnutzung und neue Grundrisslogik"
+ ],
+ "kbe3ruecksb": [
+  "Material- und Produktkunde: Kreislaufwirtschaft und Bauteilbörsen"
+ ],
+ "kau3entw": [
+  "Abdichtung und Bauphysik im Detail: Bauwerksfugen und Bewegung"
+ ],
+ "kau3mauer": [
+  "Gründung und erdberührte Bauteile: Fundamentierung von Stützmauern"
+ ],
+ "kau3stellplatz": [
+  "Barrierefreies Bauen: Bewegungsflächen und Stellplatznachweis"
+ ],
+ "kau3leitsystem": [
+  "Barrierefreies Bauen: Taktile Leitsysteme im Gebäudeinneren"
+ ],
+ "erp3verhaeltnis": [
+  "Fenster: Fensterproportion und Wandöffnung"
+ ],
+ "erp3modulor": [
+  "Baukörper: serielles Bauen und Modulkoordination"
+ ],
+ "erp3achsmass": [
+  "Tragwerk: Stützenraster und Spannweite"
+ ],
+ "eli3seite": [
+  "Fenster: Fensterhöhe und Sturzlogik"
+ ],
+ "eli3zwei": [
+  "Fenster: Eckfenster und Statik"
+ ],
+ "eli3lenk": [
+  "Material: Oberflächenreflexion und Putzqualität"
+ ],
+ "eli3jahreszeit": [
+  "Fenster: Verschattung und sommerlicher Wärmeschutz"
+ ],
+ "eli3anteil": [
+  "Fenster: Glasanteil und U-Wert"
+ ],
+ "eli3grundlicht": [
+  "Elektro: Lichtplanung und Schaltungskonzept"
+ ],
+ "eli3indirekt": [
+  "Trockenbau: Lichtvouten und Abhangdecken"
+ ],
+ "eer3adresse": [
+  "Briefkasten- und Klingelanlagen als Adressträger"
+ ],
+ "eer3verteiler": [
+  "Grundrissorganisation: Wege zuerst statt zuletzt entwerfen"
+ ],
+ "esw3klima": [
+  "Fenster: Wintergartenverglasung und Bauphysik"
+ ],
+ "esw3vorgarten": [
+  "Außenanlagen: Einfriedung und Vorgartenordnung"
+ ],
+ "esw3loggia": [
+  "Balkon und Loggia: Konstruktion und Absturzsicherung"
+ ],
+ "esw3innenhof": [
+  "Städtebau: Innenhof und Blockrand"
+ ],
+ "esw3temp": [
+  "Bauphysik: unbeheizte Pufferzonen und Taupunkt"
+ ],
+ "ema1": [
+  "K13 Material- und Produktkunde: Gesamtast"
+ ],
+ "ema3patina": [
+  "K13 Material- und Produktkunde: Bewitterungsverhalten"
+ ],
+ "ema3rohbau": [
+  "K3 Außenwand und Fassade: Sichtbeton und Sichtmauerwerk"
+ ],
+ "ety3flex": [
+  "K2 Tragwerk und Rohbau: Tragendes Raster und Wandposition"
+ ],
+ "ety3buero": [
+  "K8 Innenwände und Trockenbau: Systemtrennwände"
+ ],
+ "ety3mischnutz": [
+  "K10 Decken(bekleidungen) und Akustik: Schallschutz zwischen Nutzungen"
+ ],
+ "ety3umnutz": [
+  "K2 Tragwerk und Rohbau: Geschosshöhen-Reserve"
+ ],
+ "eko3materialbezug": [
+  "K13 Material- und Produktkunde: Regionale Materialpaletten"
+ ],
+ "eko3fassadenlinie": [
+  "P3 Baurecht und Genehmigung: Baulinien und Abstandsflächen"
+ ],
+ "eko3topografie": [
+  "K1 Gründung und erdberührte Bauteile: Bauen im Hang"
+ ],
+ "eko3wasser": [
+  "K11 Abdichtung und Bauphysik: Wasser am Gebäude"
+ ],
+ "eor3konstrraster": [
+  "K2 Tragwerk und Rohbau: Stützenraster und Spannweite"
+ ],
+ "eor3traeger": [
+  "K2 Tragwerk und Rohbau: Weitspannende Systeme"
+ ],
+ "xre2kritik": [
+  "Entwurf: Typologie und Programm, Wohnungsbau Typen und Grundrissfragen (E6)"
+ ],
+ "xkm2neuesbauen": [
+  "Konstruktion: Stahlbetonbau und Skelettbau als Systementscheidung (K2)"
+ ],
+ "xnb2wiederaufbau": [
+  "Konstruktion: Plattenbau und Fertigteilsysteme (K2)"
+ ],
+ "xkr2material": [
+  "Konstruktion: Sichtmauerwerk und Naturstein als Fassadenmaterial (K3/K13)"
+ ],
+ "xzp1": [
+  "Fallstudie: ein zeitgenössisches Umbau- oder Weiterbau-Projekt (noch nicht angelegt)"
+ ],
+ "xzp2niemals": [
+  "Konstruktion: Bauen im Bestand, Anbauen, Aufstocken, Umnutzen (K14)"
+ ],
+ "xzp2klima": [
+  "Prozess: Zirkularität, Rückbau, Wiederverwendung (P7)"
+ ],
+ "pab3ausfuehrung": [
+  "Ausschreibung: Leistungsverzeichnis und Vergabeunterlagen (P5)"
+ ],
+ "pab3bauueberw": [
+  "Bauleitung: Abnahme und ihre Rechtsfolgen (P6)"
+ ],
+ "pab3aia": [
+  "Ausschreibung: BIM-basierte Vergabe (P5)"
+ ],
+ "pho2haftpfl": [
+  "Bauleitung: Mängelmanagement und Gewährleistung (P6)"
+ ],
+ "pho3realisierung": [
+  "Ausschreibung: Verhandlungsvergabe nach Wettbewerb (P5)"
+ ],
+ "pba3stellplatz": [
+  "Konstruktion: Tiefgaragen und Erschließung (noch nicht angelegt)"
+ ],
+ "pko2lebenszyklus": [
+  "Nachhaltigkeit: Zertifizierungssysteme und Lebenszyklusanalyse (P7)"
+ ],
+ "pko3nutzungskost": [
+  "Nachhaltigkeit: Energierecht und Betriebskosten (P7)"
+ ],
+ "pav1": [
+  "Baurecht: Genehmigungsverfahren als Voraussetzung der Ausschreibung (P3)",
+  "Kosten: Kostenberechnung als Basis des Leistungsverzeichnisses (P4)"
+ ],
+ "pav2verg": [
+  "Honorar und Vertrag: Vergabeverfahren für Planungsleistungen selbst (P2)"
+ ],
+ "pbl2gewaehr": [
+  "Baurecht: Nutzungsuntersagung bei sicherheitsrelevanten Mängeln (P3)"
+ ],
+ "pna2energie": [
+  "Konstruktion: U-Wert-Anforderungen an Fenster und Fassade (künftiger K-Ast)"
+ ],
+ "pna2foerder": [
+  "Kosten: Lebenszykluskosten und Förderwirkung zusammen gedacht (P4)"
+ ],
+ "pna2zirk": [
+  "Konstruktion: Lösbare Verbindungstechnik im Innenausbau (künftiger K-Ast)"
+ ]
+}

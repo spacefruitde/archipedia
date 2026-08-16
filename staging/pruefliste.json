@@ -1,0 +1,665 @@
+{
+ "pab2phasen": [
+  "HOAI",
+  "ÖNORM LM.VM",
+  "SIA 112",
+  "SIA 102"
+ ],
+ "pab3grundlagen": [
+  "HOAI",
+  "SIA 112",
+  "SIA 102"
+ ],
+ "pab3vorentwurf": [
+  "HOAI",
+  "SIA 112",
+  "SIA 102"
+ ],
+ "pab3genehmigung": [
+  "HOAI",
+  "OIB-Richtlinien",
+  "SIA 112"
+ ],
+ "pab3ausfuehrung": [
+  "HOAI",
+  "SIA 112",
+  "SIA 102"
+ ],
+ "pab3bauueberw": [
+  "HOAI",
+  "SIA 112",
+  "SIA 102"
+ ],
+ "pab2org": [
+  "HOAI",
+  "SIA"
+ ],
+ "pab3objektpl": [
+  "HOAI",
+  "SIA"
+ ],
+ "pab3fachpl": [
+  "HOAI",
+  "SIA"
+ ],
+ "pab3pm": [
+  "HOAI"
+ ],
+ "pab2termin": [
+  "HOAI",
+  "VOB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pab3terminplan": [
+  "HOAI",
+  "VOB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pab3ablauf": [
+  "VOB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pab3verzug": [
+  "BGB",
+  "VOB",
+  "ÖNORM B 2110",
+  "SIA 118",
+  "Obligationenrecht"
+ ],
+ "pab2digital": [
+  "VDI",
+  "ÖNORM A 6241",
+  "SIA 2051"
+ ],
+ "pab3bim": [
+  "VDI",
+  "ÖNORM A 6241",
+  "SIA 2051"
+ ],
+ "pab3aia": [
+  "VDI",
+  "ÖNORM A 6241",
+  "SIA 2051"
+ ],
+ "pab3bimrolle": [
+  "HOAI",
+  "SIA 2051"
+ ],
+ "pho2honorar": [
+  "HOAI",
+  "SIA"
+ ],
+ "pho3honorarzone": [
+  "HOAI",
+  "SIA"
+ ],
+ "pho3honorarmodelle": [
+  "HOAI",
+  "SIA"
+ ],
+ "pho3nebenkosten": [
+  "HOAI",
+  "SIA"
+ ],
+ "pho3honorarstreit": [
+  "SIA"
+ ],
+ "pho2vertrag": [
+  "BGB",
+  "ABGB",
+  "Obligationenrecht"
+ ],
+ "pho3vertragstyp": [
+  "BGB",
+  "ABGB",
+  "Obligationenrecht"
+ ],
+ "pho3leistungsbild": [
+  "HOAI",
+  "SIA 102"
+ ],
+ "pho3haftung": [
+  "BGB",
+  "ABGB",
+  "Obligationenrecht"
+ ],
+ "pho3urheber": [
+  "Urheberrechtsgesetz"
+ ],
+ "pho2haftpfl": [
+  "Kammergesetze"
+ ],
+ "pho3schadenfall": [
+  "Versicherungsvertragsgesetz"
+ ],
+ "pho3nachhaft": [
+  "BGB",
+  "ABGB",
+  "Obligationenrecht"
+ ],
+ "pho2wettb": [
+  "RPW",
+  "WOA",
+  "SIA 142",
+  "SIA 143"
+ ],
+ "pho3wettbverfahren": [
+  "RPW",
+  "WOA",
+  "SIA 142"
+ ],
+ "pho3preisgericht": [
+  "RPW",
+  "WOA",
+  "SIA 142"
+ ],
+ "pho3realisierung": [
+  "RPW",
+  "WOA",
+  "SIA 142",
+  "SIA 143"
+ ],
+ "pba2planungsr": [
+  "BauGB",
+  "BauNVO",
+  "RPG"
+ ],
+ "pba3flaechenwid": [
+  "BauGB",
+  "BauNVO",
+  "RPG"
+ ],
+ "pba3bebauungspl": [
+  "BauGB",
+  "RPG"
+ ],
+ "pba3innenaussen": [
+  "BauGB",
+  "RPG"
+ ],
+ "pba2ordnungsr": [
+  "MBO",
+  "Landesbauordnungen",
+  "OIB-Richtlinien",
+  "IVHB"
+ ],
+ "pba3gebklasse": [
+  "Landesbauordnungen",
+  "OIB-Richtlinien",
+  "IVHB"
+ ],
+ "pba3brandabschn": [
+  "Landesbauordnungen",
+  "OIB-Richtlinien",
+  "VKF"
+ ],
+ "pba3stellplatz": [
+  "Landesbauordnungen"
+ ],
+ "pba2verfahren": [
+  "Landesbauordnungen"
+ ],
+ "pba3verfahrensart": [
+  "Landesbauordnungen"
+ ],
+ "pba3bauvorlagen": [
+  "Bauvorlagenverordnungen",
+  "Landesbauordnungen"
+ ],
+ "pba3baubeginn": [
+  "Landesbauordnungen"
+ ],
+ "pba3nachbarbet": [
+  "Landesbauordnungen"
+ ],
+ "pba2abstand": [
+  "Landesbauordnungen"
+ ],
+ "pba3abstandsflberech": [
+  "Landesbauordnungen"
+ ],
+ "pba3grenzbebauung": [
+  "Landesbauordnungen"
+ ],
+ "pba3nachbarzust": [
+  "Landesbauordnungen"
+ ],
+ "pba2sonder": [
+  "Landesbauordnungen",
+  "OIB-Richtlinien",
+  "VKF"
+ ],
+ "pba3sonderbautypen": [
+  "Landesbauordnungen",
+  "OIB-Richtlinien",
+  "VKF"
+ ],
+ "pba3abweichung": [
+  "Landesbauordnungen"
+ ],
+ "pba3brandschutzkonz": [
+  "OIB-Richtlinien",
+  "VKF"
+ ],
+ "pko2gliederung": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3kostengruppen": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3systematikvgl": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3kostenrahmen": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko2ermittlung": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3schaetzung": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3berechnung": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3anschlag": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3steuerung": [
+  "DIN 276",
+  "HOAI",
+  "ÖNORM B 1801",
+  "eBKP-H",
+  "SIA 112"
+ ],
+ "pko2benchmark": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko3kennwerte": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H",
+  "SIA"
+ ],
+ "pko3vergleichbark": [
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H"
+ ],
+ "pko2lebenszyklus": [
+  "DIN 18960",
+  "DIN 276",
+  "ÖNORM B 1801",
+  "eBKP-H",
+  "SIA"
+ ],
+ "pko3investnutzung": [
+  "DIN 276",
+  "DIN 18960",
+  "ÖNORM B 1801",
+  "eBKP-H",
+  "SIA"
+ ],
+ "pko3nutzungskost": [
+  "DIN 18960",
+  "SIA"
+ ],
+ "pko3lebenszyklusanalyse": [
+  "DIN 18960",
+  "VDI",
+  "ÖNORM B 1801",
+  "SIA"
+ ],
+ "pav2lb": [
+  "VOB/C",
+  "ÖNORM A 2063",
+  "NPK"
+ ],
+ "pav3funk": [
+  "VOB/A",
+  "ÖNORM A 2063",
+  "NPK"
+ ],
+ "pav3pos": [
+  "STLB",
+  "NPK"
+ ],
+ "pav3gaa": [
+  "BVergG",
+  "BöB",
+  "IVöB"
+ ],
+ "pav3lv30": [
+  "OIB"
+ ],
+ "pav2vertrag": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3preis": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3frist": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3zahlung": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3kuend": [
+  "BGB",
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav2verg": [
+  "VgV",
+  "UVgO",
+  "BVergG",
+  "BöB",
+  "IVöB"
+ ],
+ "pav3verfahren": [
+  "VgV",
+  "UVgO",
+  "BVergG",
+  "BöB",
+  "IVöB"
+ ],
+ "pav3eign": [
+  "VgV",
+  "BVergG",
+  "BöB",
+  "IVöB"
+ ],
+ "pav3schwell": [
+  "VgV",
+  "UVgO",
+  "BVergG",
+  "BöB",
+  "IVöB"
+ ],
+ "pav3nachpr": [
+  "BVergG"
+ ],
+ "pav2nachtrag": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3ursache": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3anspr": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3preisfort": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pav3streit": [
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl2bau": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3tageb": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3besprech": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3anordnung": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3qualsich": [
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl2abnahme": [
+  "BGB",
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3form": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3vorbehalt": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3rechtsfolgen": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3teilabnahme": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl2gewaehr": [
+  "BGB",
+  "VOB/B",
+  "ÖNORM B 2110",
+  "OR",
+  "SIA 118"
+ ],
+ "pbl3frist": [
+  "BGB",
+  "VOB/B",
+  "ÖNORM B 2110",
+  "OR",
+  "SIA 118"
+ ],
+ "pbl3ruege": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "OR",
+  "SIA 118"
+ ],
+ "pbl3verjaehr": [
+  "BGB",
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3sicherh": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl2maengel": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3ruegeform": [
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3nacherf": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3vorrecht": [
+  "VOB/B",
+  "BGB",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pbl3fluchtweg": [
+  "VOB/B",
+  "ÖNORM B 2110",
+  "SIA 118"
+ ],
+ "pna2zert": [
+  "DGNB",
+  "QNG",
+  "klimaaktiv",
+  "ÖGNI",
+  "Minergie",
+  "SNBS"
+ ],
+ "pna3kriterien": [
+  "DGNB",
+  "QNG",
+  "klimaaktiv",
+  "ÖGNI",
+  "Minergie",
+  "SNBS"
+ ],
+ "pna3koppel": [
+  "QNG",
+  "klimaaktiv",
+  "Minergie",
+  "SNBS"
+ ],
+ "pna3aufwand": [
+  "QNG",
+  "DGNB",
+  "klimaaktiv",
+  "ÖGNI",
+  "Minergie",
+  "SNBS"
+ ],
+ "pna3systemvergl": [
+  "DGNB",
+  "QNG",
+  "klimaaktiv",
+  "ÖGNI",
+  "Minergie",
+  "SNBS"
+ ],
+ "pna2energie": [
+  "GEG",
+  "OIB-Richtlinie 6",
+  "MuKEn"
+ ],
+ "pna3anforderung": [
+  "GEG",
+  "OIB-Richtlinie 6",
+  "MuKEn"
+ ],
+ "pna3nachweis": [
+  "GEG",
+  "OIB-Richtlinie 6",
+  "GEAK"
+ ],
+ "pna3anlagentech": [
+  "GEG",
+  "OIB-Richtlinie 6",
+  "MuKEn"
+ ],
+ "pna3klimaschutz": [
+  "GEG",
+  "OIB-Richtlinie 6",
+  "MuKEn"
+ ],
+ "pna2foerder": [
+  "BEG",
+  "KfW",
+  "BAFA",
+  "Das Gebäudeprogramm"
+ ],
+ "pna3foerderarten": [
+  "BEG",
+  "KfW",
+  "BAFA",
+  "Das Gebäudeprogramm"
+ ],
+ "pna3foerderweg": [
+  "KfW",
+  "BAFA",
+  "Das Gebäudeprogramm"
+ ],
+ "pna3kombi": [
+  "BEG",
+  "Das Gebäudeprogramm"
+ ],
+ "pna3risiko": [
+  "BEG",
+  "KfW",
+  "Das Gebäudeprogramm"
+ ],
+ "pna2zirk": [
+  "KrWG",
+  "AWG",
+  "SIA",
+  "DGNB",
+  "QNG",
+  "klimaaktiv"
+ ],
+ "pna3design": [
+  "KrWG",
+  "AWG",
+  "SIA"
+ ],
+ "pna3passport": [
+  "DGNB",
+  "QNG",
+  "klimaaktiv",
+  "SNBS"
+ ],
+ "pna3rueckbau": [
+  "KrWG",
+  "AWG",
+  "SIA"
+ ],
+ "pna3wiederverw": [
+  "SIA"
+ ]
+}

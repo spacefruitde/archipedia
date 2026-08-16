@@ -1,5 +1,15 @@
 # Wiederaufnahme-Punkt (16.08.2026, Pause wegen Kontingent)
 
+## AKTUALISIERUNG 02:20 Uhr: Merge und Deploy sind schon passiert
+
+Alle 10 Agenten fertig, 603 neue Knoten in `staging/*.json` gesichert UND bereits in `data.mjs` gemergt (700 Knoten, 48 ROOTS), gebaut und auf https://ao-prototyp.netlify.app deployt. `pruefen`/`lnwunsch` liegen abgetrennt in `staging/pruefliste.json` und `staging/lnwunsch.json`.
+
+**WICHTIG, bevor irgendetwas anderes passiert: `npm run pull-data` NICHT ausführen!** Die 603 neuen Knoten sind noch NICHT in Supabase; pull-data würde data.mjs auf die 97 DB-Knoten zurücksetzen. Erster Schritt bei Wiederaufnahme ist deshalb der DB-Insert der neuen Knoten (aus data.mjs generieren, `npm run gen-seed` erzeugt das volle Seed; nur die neuen 603 einspielen oder Tabelle leeren und komplett neu seeden, ord = Dateireihenfolge). Erst danach ist pull-data wieder sicher.
+
+**Bekannte Warnung:** Build meldet „mehr als 7 Kinder: kma1" (K13 Material hat laut Landkarte 8 Hauptgruppen, Spec erlaubt 7). Entscheidung von Ben nötig: zwei Gruppen zusammenlegen oder Regel für Wurzelknoten lockern.
+
+Die Schritte 1 bis 3 unten sind damit erledigt bzw. überholt; offen bleiben DB-Insert (siehe oben), src-Verifikation der P-Knoten gegen `staging/pruefliste.json` und Stichproben-Stilkontrolle.
+
 Stand beim Pausieren: Aufgaben 1, 2 und Netlify sind fertig (siehe Git-Log). MVP Stufe 1 läuft: 10 Sonnet-Agenten generieren die Themenlandkarte (alle Äste bis E3, nur T1). Fable 5 hat pausiert, bevor die Agenten fertig wurden.
 
 ## Wo die Agenten-Ausgaben liegen
