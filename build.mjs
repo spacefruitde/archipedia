@@ -100,21 +100,48 @@ function nodeSection(id){
 </section>`;
 }
 
-const cards = ROOTS.map(([id,desc])=>{
-  const n = N[id], pp = P[n.p];
-  return `<a class="persp-card" href="#${id}">
-    <span class="tag b-${pp.cls}">${pp.name}</span>
-    <h2>${esc(n.t)}</h2><p>${esc(desc)}</p></a>`;
+/* Perspektiven als Einstiegsebene */
+const PDESC = {
+  k: 'Das Bauteilwissen: vom Themenfeld bis zum Ausschreibungsdetail, in bis zu 7 Ebenen.',
+  e: 'Das gestalterische Wissen: Entwurfsfragen quer zu den Bauteilen, von der Proportion bis zur Fügung.',
+  x: 'Das Referenzwissen: Fallstudien und Haltungen, vom Städtebau bis zum Türgriff erschlossen.',
+  p: 'Das Berufswissen: Ablauf, Honorar, Recht, Kosten und Vergabe, immer im Vergleich DE, AT, CH.'
+};
+const PORDER = ['k','e','x','p'];
+const perspRoots = p => ROOTS.filter(([id]) => N[id].p === p);
+
+const perspCards = PORDER.map(p => {
+  const roots = perspRoots(p);
+  const nodes = Object.values(N).filter(n => n.p === p).length;
+  return `<a class="persp-card home-card hc-${p}" href="#persp-${p}">
+    <span class="tag b-${p}">${P[p].name}</span>
+    <p>${esc(PDESC[p])}</p>
+    <p class="counts">${roots.length} Themenfelder · ${nodes} Einträge</p></a>`;
 }).join('');
 
 const home = `<section id="home">
   <p class="intro">Ein Wissensraum, vier Perspektiven, jede Tiefe.</p>
-  <p class="intro-sub">Begehbares Gerüst der gesamten Themenlandkarte: Konstruktion, Entwurf, Kontext und Prozess, jeweils bis Ebene 3 mit Überblickstexten; die Muster-Äste Türen und Treppen reichen tiefer. „Vertiefung" und „Spezifikation" lassen sich aufklappen, wo es sie gibt. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
-  ${cards}
+  <p class="intro-sub">Begehbares Gerüst der gesamten Themenlandkarte, jedes Themenfeld bis Ebene 3 mit Überblickstexten; die Muster-Äste Türen und Treppen reichen tiefer. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
+  ${perspCards}
   <footer>ArchiPedia Prototyp · Stand 08/2026 · Inhalte sind Demonstrationstexte (KI-generiert, nicht fachgeprüft) und zeigen Struktur, Tonlage und Tiefenstaffelung, nicht finale Fachinformation. Normbezüge ohne Gewähr.</footer>
 </section>`;
 
-const sections = home + Object.keys(N).map(nodeSection).join('\n');
+const perspSections = PORDER.map(p => `<section id="persp-${p}">
+  <nav class="crumbs"><a href="#home">Start</a><span class="sep">›</span><span class="here">${P[p].name}</span></nav>
+  <div class="meta"><span class="badge b-${p}">${P[p].name}</span></div>
+  <h1 class="node">${P[p].name}</h1>
+  <p class="intro-sub">${esc(PDESC[p])}</p>
+  ${perspRoots(p).map(([id,desc])=>`<a class="persp-card" href="#${id}"><h2>${esc(N[id].t)}</h2><p>${esc(desc)}</p></a>`).join('')}
+</section>`).join('\n');
+
+/* Menü: alle Themenfelder, nach Perspektive gruppiert */
+const menu = `<details class="menu"><summary>Themen ☰</summary><div class="menu-panel">${
+  PORDER.map(p => `<p class="menu-h" style="color:var(--${p})"><a href="#persp-${p}">${P[p].name}</a></p>${
+    perspRoots(p).map(([id]) => `<a class="menu-a" href="#${id}">${esc(N[id].t)}</a>`).join('')
+  }`).join('')
+}</div></details>`;
+
+const sections = home + perspSections + Object.keys(N).map(nodeSection).join('\n');
 
 const html = `<!DOCTYPE html>
 <html lang="de">
@@ -132,8 +159,21 @@ const html = `<!DOCTYPE html>
   body{background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:40px}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:760px;margin:0 auto;padding:0 18px}
-  header{border-bottom:1px solid var(--line);background:var(--bg)}
-  .head-in{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0 12px}
+  header{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:20}
+  .head-in{display:flex;align-items:center;justify-content:space-between;padding:12px 0 8px}
+  .topnav{display:flex;gap:7px;flex-wrap:wrap;padding-bottom:10px}
+  .topnav .badge{border:1px solid transparent}
+  .menu{position:relative}
+  .menu summary{list-style:none;cursor:pointer;font-size:12.5px;letter-spacing:.05em;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:5px 12px;background:var(--card)}
+  .menu summary::-webkit-details-marker{display:none}
+  .menu-panel{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;width:min(80vw,340px);max-height:72vh;overflow:auto;box-shadow:0 10px 28px rgba(28,26,23,.12);z-index:30}
+  .menu-h{font-size:11px;letter-spacing:.09em;text-transform:uppercase;margin:12px 0 4px;font-weight:600}
+  .menu-h:first-child{margin-top:0}
+  .menu-a{display:block;font-size:13.5px;padding:3px 0;border-bottom:1px dotted var(--line)}
+  .menu-a:last-of-type{border-bottom:0}
+  .home-card{border-left:4px solid var(--line)}
+  .hc-k{border-left-color:var(--k)} .hc-e{border-left-color:var(--e)} .hc-x{border-left-color:var(--x)} .hc-p{border-left-color:var(--p)}
+  .home-card .counts{font-size:12px;color:var(--muted);margin-top:7px}
   .wordmark{font-family:Georgia,'Times New Roman',serif;font-size:22px;letter-spacing:.3px}
   .wordmark span{color:var(--muted);font-size:12px;font-family:-apple-system,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-left:8px}
   main{padding-top:22px}
@@ -202,7 +242,14 @@ const html = `<!DOCTYPE html>
 <body>
 <header><div class="wrap"><div class="head-in">
   <a class="wordmark" href="#home">ArchiPedia<span>Prototyp</span></a>
-</div></div></header>
+  ${menu}
+</div>
+<nav class="topnav">
+  <a class="badge b-k" href="#persp-k">Konstruktion</a>
+  <a class="badge b-e" href="#persp-e">Entwurf</a>
+  <a class="badge b-x" href="#persp-x">Kontext</a>
+  <a class="badge b-p" href="#persp-p">Prozess</a>
+</nav></div></header>
 <main class="wrap">
 ${sections}
 </main>
@@ -215,6 +262,7 @@ ${sections}
       var on = s.id === h; s.style.display = on ? 'block' : 'none'; if(on) any = true;
     });
     if(!any) document.getElementById('home').style.display = 'block';
+    document.querySelectorAll('details.menu').forEach(function(d){ d.open = false; });
     window.scrollTo(0,0);
   }
   window.addEventListener('hashchange', sync); sync();
