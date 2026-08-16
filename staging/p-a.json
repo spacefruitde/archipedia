@@ -1,0 +1,401 @@
+[
+{"id":"pab1","p":"p","lv":1,"t":"Projektablauf und Leistungsbild",
+ "t1":"Ein Bauprojekt verläuft nicht linear, sondern in aufeinander aufbauenden Phasen, von der ersten Idee bis zur Übergabe. Wie diese Phasen heißen, wer welche Leistung erbringt und wie eng Auftraggeber und Planer dabei verzahnt sind, unterscheidet sich zwischen Deutschland, Österreich und der Schweiz erheblich, obwohl die eigentliche Projektlogik überall dieselbe ist. Wer das Leistungsbild kennt, weiß, wofür er beauftragt ist und wofür nicht, das schützt vor Streit ebenso wie vor Lücken."},
+
+{"id":"pab2phasen","p":"p","lv":2,"pa":"pab1","t":"Phasenmodelle im Vergleich",
+ "t1":"Jedes Land teilt ein Bauprojekt in nummerierte oder benannte Leistungsphasen, doch Zuschnitt und Detailtiefe unterscheiden sich spürbar. Wer über Ländergrenzen hinweg plant oder ein internationales Team koordiniert, muss die Phasenmodelle übersetzen können, nicht nur die Sprache. Die Struktur entscheidet außerdem darüber, wann welches Honorar fällig wird und wann eine Leistung als erbracht gilt.",
+ "dach":{"de":"Die Leistungsphasen 1 bis 9 der HOAI gliedern das Projekt von der Grundlagenermittlung bis zur Objektbetreuung und sind die in Deutschland übliche Referenz für Honorarstufen und Leistungsbeschreibung.","at":"In Österreich strukturieren Leistungsmodelle nach ÖNORM, insbesondere das Leistungsmodell Verfahren und Vertrag (LM.VM), den Ablauf, wobei die Phaseneinteilung freier vereinbart wird als im deutschen System.","ch":"Die Schweiz ordnet Projekte nach dem Phasenmodell der SIA 112, während die zugehörigen Planerleistungen in der SIA 102 beschrieben sind, beide bilden gemeinsam die Referenz für Leistungsbild und Ablauf."},
+ "pruefen":["HOAI","ÖNORM LM.VM","SIA 112","SIA 102"]},
+
+{"id":"pab3grundlagen","p":"p","lv":3,"pa":"pab2phasen","t":"Grundlagenermittlung und Bedarfsplanung",
+ "t1":"Am Anfang steht die Klärung der Aufgabe: Bedarf, Rahmenbedingungen, Budget und Ziele werden erfasst, bevor die erste Linie gezeichnet wird. Diese frühe Phase entscheidet über Machbarkeit und Kosten mehr als jede spätere Detailplanung, wird aber oft zu knapp bemessen. Eine sauber dokumentierte Grundlagenermittlung ist die Versicherung gegen spätere Zielkonflikte.",
+ "dach":{"de":"Grundlagenermittlung und Vorplanung entsprechen den Leistungsphasen 1 und 2 der HOAI und bilden die Honorargrundlage für alle folgenden Phasen.","at":"Die vergleichbaren Leistungen werden in Österreich meist als Grundlagen- und Vorentwurfsphase frei zwischen Planer und Bauherrn vereinbart, ohne festen Phasenkatalog.","ch":"In der Schweiz zählen diese Schritte nach SIA 112 zur strategischen Planung und zum Vorprojekt, mit eigenständiger Honorierung nach SIA 102."},
+ "pruefen":["HOAI","SIA 112","SIA 102"]},
+
+{"id":"pab3vorentwurf","p":"p","lv":3,"pa":"pab2phasen","t":"Vorplanung und Entwurfsplanung",
+ "t1":"In dieser Phase wird aus der Aufgabenstellung ein räumliches und gestalterisches Konzept, das Grundriss, Volumen und Konstruktion erstmals verbindlich festlegt. Änderungen sind hier noch günstig, ab der Genehmigungsplanung werden sie teuer. Der Entwurf ist zugleich die Phase, in der Bauherr und Planer ihr gemeinsames Bild des Projekts endgültig abgleichen müssen.",
+ "dach":{"de":"Diese Phase deckt die Leistungsphasen 2 und 3 der HOAI ab, Vorplanung und Entwurfsplanung, mit jeweils eigenen Teilleistungen und Honoraranteilen.","at":"In Österreich wird dieser Schritt häufig als Vorentwurf und Einreichplanung bezeichnet, wobei die genaue Abgrenzung vertraglich statt normativ festgelegt wird.","ch":"Nach SIA 112 entspricht dies dem Vorprojekt und dem Bauprojekt, deren Leistungsinhalte die SIA 102 beschreibt."},
+ "pruefen":["HOAI","SIA 112","SIA 102"]},
+
+{"id":"pab3genehmigung","p":"p","lv":3,"pa":"pab2phasen","t":"Genehmigungsplanung",
+ "t1":"Die Genehmigungsplanung übersetzt den Entwurf in die Sprache der Behörde: vollständige, prüffähige Unterlagen, die eine Baugenehmigung ermöglichen. Wie viel Detail dafür nötig ist und wie das Verfahren abläuft, regelt nicht das Leistungsbild, sondern das Baurecht des jeweiligen Landes. Wer diese Phase unterschätzt, riskiert Verzögerungen, die sich durch das ganze Projekt ziehen.",
+ "dach":{"de":"Diese Leistung entspricht der Leistungsphase 4 der HOAI und mündet in den Bauantrag nach Landesbauordnung.","at":"In Österreich heißt die vergleichbare Leistung Einreichplanung, die Anforderungen ergeben sich aus den jeweiligen Landesbauordnungen und den OIB-Richtlinien.","ch":"In der Schweiz entspricht dies dem Baubewilligungsverfahren nach kantonalem Baugesetz, das Baugesuch wird auf Basis des Bauprojekts nach SIA 112 eingereicht."},
+ "pruefen":["HOAI","OIB-Richtlinien","SIA 112"],
+ "ln":["pba2verfahren"]},
+
+{"id":"pab3ausfuehrung","p":"p","lv":3,"pa":"pab2phasen","t":"Ausführungsplanung und Vergabevorbereitung",
+ "t1":"Nach der Genehmigung folgt die Übersetzung in baubare Details: Pläne, Beschreibungen und Mengen, die eine Baufirma kalkulieren und ausführen kann. Diese Phase bindet die meiste Planungszeit und ist zugleich die Schnittstelle zu Fachplanern und zur Vergabe. Wird hier ungenau gearbeitet, zeigt sich das später als Nachtrag auf der Baustelle.",
+ "dach":{"de":"Ausführungsplanung, Vorbereitung und Mitwirkung bei der Vergabe entsprechen den Leistungsphasen 5 bis 7 der HOAI.","at":"In Österreich folgen Ausführungsplanung und Vergabeverfahren als eigenständige, meist gesondert beauftragte Leistungen.","ch":"Nach SIA 112 zählt dies zur Ausschreibung und zur Ausführungsprojektierung, mit eigener Leistungsbeschreibung in der SIA 102."},
+ "pruefen":["HOAI","SIA 112","SIA 102"],
+ "lnwunsch":["Ausschreibung: Leistungsverzeichnis und Vergabeunterlagen (P5)"]},
+
+{"id":"pab3bauueberw","p":"p","lv":3,"pa":"pab2phasen","t":"Bauüberwachung und Objektbetreuung",
+ "t1":"Die letzte Phase begleitet die eigentliche Bauausführung: Kontrolle der Ausführungsqualität, Termine und Kosten bis zur Abnahme und darüber hinaus. Sie verlangt eine andere Arbeitsweise als das Planen am Zeichentisch, nämlich schnelle Entscheidungen unter Baustellenbedingungen. Wie weit diese Betreuung reicht, ist eine der häufigsten Streitfragen im Leistungsbild.",
+ "dach":{"de":"Diese Phase entspricht den Leistungsphasen 8 und 9 der HOAI, Objektüberwachung und Objektbetreuung.","at":"In Österreich wird die örtliche Bauaufsicht meist als eigene, oft separat vergebene Leistung neben der Planung geführt.","ch":"Nach SIA 112 zählt dies zur Bewirtschaftung und Realisierung, die Bauleitung wird als eigenständige Leistung nach SIA 102 beschrieben."},
+ "pruefen":["HOAI","SIA 112","SIA 102"],
+ "lnwunsch":["Bauleitung: Abnahme und ihre Rechtsfolgen (P6)"]},
+
+{"id":"pab2org","p":"p","lv":2,"pa":"pab1","t":"Projektorganisation und Rollen",
+ "t1":"Ein Bauprojekt hat nie nur einen Kopf: Objektplaner, Fachplaner und oft ein separates Projektmanagement teilen sich Verantwortung, die sich in der Praxis überschneidet. Wer welche Entscheidung treffen darf und wer dafür haftet, muss vertraglich geklärt sein, bevor es zum Konflikt kommt. Klare Rollen sind kein Formalismus, sie verhindern, dass am Ende zwei sich zuständig fühlen oder keiner.",
+ "dach":{"de":"In Deutschland ordnet die HOAI über ihre Leistungsbilder die Aufgaben der Objektplanung, während Fachplaner eigene Leistungsbilder mit eigener Vergütung haben.","at":"In Österreich regeln Planungsverträge, oft in Anlehnung an Standards der Ziviltechnikerkammer, die Aufgabenteilung zwischen Objektplaner, Fachplanern und einer häufig eigenständigen örtlichen Bauaufsicht.","ch":"In der Schweiz strukturieren die SIA-Ordnungen für Architektur- und Ingenieurleistungen Rollen und Zusammenarbeit, mit der Bauleitung als traditionell eigenständiger Funktion."},
+ "pruefen":["HOAI","SIA"]},
+
+{"id":"pab3objektpl","p":"p","lv":3,"pa":"pab2org","t":"Objektplaner und Generalplaner",
+ "t1":"Der Objektplaner führt die Fäden eines Projekts zusammen, koordiniert Fachplaner und trägt die Gesamtverantwortung für Entwurf und Ausführung. Tritt er als Generalplaner auf, bündelt er zusätzlich mehrere Planungsleistungen unter einem Vertrag und einer Haftung. Für den Bauherrn bedeutet das einen Ansprechpartner, aber auch eine Instanz, die entsprechend honoriert werden will.",
+ "dach":{"de":"In Deutschland ist der Objektplaner meist der Architekt, dessen koordinierende Rolle die HOAI mit einem eigenen Leistungsbild unterlegt.","at":"In Österreich übernimmt diese Rolle regelmäßig der Ziviltechniker als Objektplaner, die Generalplanung wird vertraglich eigenständig geregelt.","ch":"In der Schweiz ist die Bezeichnung Gesamtleitung gebräuchlich, deren Aufgaben die SIA-Ordnungen beschreiben."},
+ "pruefen":["HOAI","SIA"]},
+
+{"id":"pab3fachpl","p":"p","lv":3,"pa":"pab2org","t":"Fachplaner und Sonderfachleute",
+ "t1":"Tragwerksplanung, Technische Ausrüstung, Bauphysik: Je komplexer ein Projekt, desto mehr Fachplaner arbeiten parallel zum Objektplaner und müssen von ihm koordiniert werden. Jede Fachdisziplin hat ein eigenes Leistungsbild und eigene Vertragspartner, die Schnittstellen dazwischen sind die häufigste Fehlerquelle. Gute Koordination entscheidet oft mehr über die Bauqualität als jede Einzelleistung.",
+ "dach":{"de":"Die HOAI beschreibt eigene Leistungsbilder für Tragwerksplanung, Technische Ausrüstung und weitere Fachplanungen mit jeweils eigenem Honorar.","at":"In Österreich sind Fachplaner meist als Sonderfachleute eigenständig beauftragt, mit eigener Haftung neben dem Objektplaner.","ch":"In der Schweiz sind die entsprechenden Fachingenieurleistungen in eigenen SIA-Ordnungen geregelt."},
+ "pruefen":["HOAI","SIA"]},
+
+{"id":"pab3pm","p":"p","lv":3,"pa":"pab2org","t":"Projektsteuerung und Projektmanagement",
+ "t1":"Projektsteuerung ist keine Planungsleistung, sondern die Organisation von Terminen, Kosten und Qualitäten aus Sicht des Bauherrn, oft von einer eigenen Stelle wahrgenommen. Sie steht zwischen Bauherr und Planern und kann Reibung ebenso abbauen wie erzeugen, je nachdem wie klar ihre Kompetenzen definiert sind. Bei kleineren Projekten übernimmt oft der Objektplaner diese Funktion informell mit.",
+ "dach":{"de":"Projektsteuerung ist in Deutschland als eigene, von der Planungsleistung nach HOAI unterschiedene Leistung etabliert und wird gesondert honoriert.","at":"In Österreich wird Projektmanagement zunehmend als eigene Dienstleistung neben der klassischen Planung nachgefragt, ohne einheitliches Leistungsbild.","ch":"In der Schweiz übernimmt häufig die Gesamtleitung projektsteuernde Aufgaben, eigenständiges Projektmanagement ist bei Großprojekten verbreitet."},
+ "pruefen":["HOAI"]},
+
+{"id":"pab3bauherr","p":"p","lv":3,"pa":"pab2org","t":"Bauherr und Bauherrenvertretung",
+ "t1":"Der Bauherr trägt das wirtschaftliche Risiko und die zentralen Entscheidungen, delegiert aber oft an eine Bauherrenvertretung, wenn ihm Erfahrung oder Zeit fehlt. Diese Vertretung kann Chancen und Risiken bündeln, verändert aber auch, wer am Ende wirklich entscheidet. Für Planer ist entscheidend, wer im Zweifel bindend erklären darf, was gilt.",
+ "dach":{"de":"Die Bauherrenvertretung ist in Deutschland keine gesetzlich definierte Rolle, sondern wird individuell vertraglich mit Vollmachten ausgestattet.","at":"In Österreich ist die Bauherrenvertretung ebenfalls vertraglich frei gestaltbar, bei öffentlichen Bauherren oft an feste Gremien gebunden.","ch":"In der Schweiz tritt bei institutionellen Bauherren häufig eine eigene Bauherrenberatung auf, deren Kompetenzen projektspezifisch festgelegt werden."}},
+
+{"id":"pab2termin","p":"p","lv":2,"pa":"pab1","t":"Termin- und Ablaufplanung",
+ "t1":"Ein Terminplan ist zugleich Organisationswerkzeug und, sobald Fristen vertraglich fixiert werden, ein scharfes Druckmittel zwischen den Parteien. Wie verbindlich Termine sind und was ihre Überschreitung auslöst, unterscheidet sich zwischen den DACH-Ländern deutlich. Wer Terminplanung nur als Excel-Übung versteht, unterschätzt ihre rechtliche Wirkung.",
+ "dach":{"de":"In Deutschland ist die Terminplanung HOAI-Grundleistung, verbindliche Bauzeiten regelt meist zusätzlich die VOB.","at":"In Österreich bildet die ÖNORM B 2110 die vertragliche Grundlage für Fristen und deren Folgen.","ch":"In der Schweiz regelt die SIA 118 Fristen und Verzug im Werkvertrag."},
+ "pruefen":["HOAI","VOB","ÖNORM B 2110","SIA 118"],
+ "ln":["pko3steuerung"]},
+
+{"id":"pab3terminplan","p":"p","lv":3,"pa":"pab2termin","t":"Terminplanarten und Steuerungsebenen",
+ "t1":"Ein Terminplan ist nie nur einer: Rahmenterminplan, Grobterminplan und Feinterminplan bilden unterschiedliche Steuerungsebenen mit unterschiedlicher Reichweite und Verantwortung. Wer alle Ebenen vermischt, verliert entweder den Überblick oder die Kontrolle über Details. Der Terminplan ist zugleich Vertragsinstrument, sobald Fristen darin verbindlich vereinbart werden.",
+ "dach":{"de":"In Deutschland gehört die Terminplanung zu den HOAI-Grundleistungen, verbindliche Bauzeiten werden meist zusätzlich vertraglich, oft über die VOB, geregelt.","at":"In Österreich regelt die ÖNORM B 2110 Fristen und deren Folgen im Bauvertrag, die Terminplanung selbst bleibt Organisationsaufgabe der Beteiligten.","ch":"In der Schweiz bildet die SIA 118 die Grundlage für Fristen und Terminverzug im Werkvertrag."},
+ "pruefen":["HOAI","VOB","ÖNORM B 2110","SIA 118"]},
+
+{"id":"pab3ablauf","p":"p","lv":3,"pa":"pab2termin","t":"Ablauf- und Kapazitätsplanung im Bauablauf",
+ "t1":"Der Bauablauf ordnet Gewerke in eine sinnvolle Reihenfolge und prüft, ob Kapazitäten, Zufahrten und Lagerflächen tatsächlich zusammenpassen. Eine gute Ablaufplanung verhindert, dass sich Gewerke gegenseitig blockieren oder auf der Baustelle im Weg stehen. Sie ist Handwerk und Erfahrungswissen zugleich, kaum normierbar, aber entscheidend für den Bauerfolg.",
+ "dach":{"de":"Rechtlich verbindlich wird der Bauablauf in Deutschland meist über die VOB, die auch Regeln zu Behinderung und Verzug enthält.","at":"In Österreich regelt die ÖNORM B 2110 Bauablaufstörungen und deren vertragliche Folgen.","ch":"In der Schweiz bildet die SIA 118 die Grundlage für Ablaufstörungen und deren Geltendmachung."},
+ "pruefen":["VOB","ÖNORM B 2110","SIA 118"]},
+
+{"id":"pab3verzug","p":"p","lv":3,"pa":"pab2termin","t":"Verzug, Bauzeitverlängerung und Pönale",
+ "t1":"Gerät der Bau in Verzug, wird der Terminplan zum Streitgegenstand: Wer war verantwortlich, wie lange dauert die berechtigte Verlängerung, greift eine vereinbarte Vertragsstrafe. Sauber geführte Bautagebücher und dokumentierte Behinderungsanzeigen entscheiden hier oft mehr als das gute Recht. Wer erst beim Streit zu dokumentieren beginnt, hat schon verloren.",
+ "dach":{"de":"In Deutschland regeln BGB und VOB Verzug, Behinderung und Vertragsstrafe, mit unterschiedlichen Fristen- und Anzeigepflichten.","at":"In Österreich regelt die ÖNORM B 2110 Verzug, Pönale und die Voraussetzungen für Fristverlängerungen im Detail.","ch":"In der Schweiz regelt die SIA 118 Verzug und Konventionalstrafe, ergänzt durch das Obligationenrecht."},
+ "pruefen":["BGB","VOB","ÖNORM B 2110","SIA 118","Obligationenrecht"]},
+
+{"id":"pab2digital","p":"p","lv":2,"pa":"pab1","t":"Digitale Methoden",
+ "t1":"BIM verändert nicht nur das Zeichenwerkzeug, sondern die Zusammenarbeit selbst: Wer welche Information wann liefert, muss vorab festgelegt werden, sonst entstehen unabgestimmte Einzelmodelle statt eines gemeinsamen digitalen Bildes. Die Methodik ist in den DACH-Ländern unterschiedlich weit verbindlich verankert. Digitale Methoden ersetzen kein Leistungsbild, sie brauchen ein eigenes.",
+ "dach":{"de":"In Deutschland stützt sich die BIM-Abwicklung öffentlicher Auftraggeber auf Stufenpläne und die VDI-Richtlinienreihe zu BIM, eine flächendeckende gesetzliche Pflicht besteht nicht.","at":"In Österreich entwickelt sich die BIM-Methodik entlang der ÖNORM A 6241-Reihe, die Anwendung ist überwiegend vertraglich statt gesetzlich verankert.","ch":"In der Schweiz bildet die SIA 2051 den anerkannten Rahmen für BIM-Anwendung, Abwicklungspläne und Informationsanforderungen."},
+ "pruefen":["VDI","ÖNORM A 6241","SIA 2051"]},
+
+{"id":"pab3bim","p":"p","lv":3,"pa":"pab2digital","t":"BIM-Abwicklungsplan (BAP)",
+ "t1":"Der BIM-Abwicklungsplan legt fest, wie ein Projekt digital modelliert, ausgetauscht und geprüft wird, von Modellierrichtlinien bis zu Verantwortlichkeiten je Gewerk. Er übersetzt die Anforderungen des Auftraggebers in ein gemeinsames, prüfbares Vorgehen für alle Beteiligten. Ohne ihn wird BIM schnell zum Sammelsurium unterschiedlich modellierter Einzeldateien.",
+ "dach":{"de":"In Deutschland orientiert sich der BAP an den Stufenplänen öffentlicher Auftraggeber und an der VDI-Richtlinienreihe zu BIM.","at":"In Österreich stützt sich die BIM-Abwicklung zunehmend auf die ÖNORM A 6241-Reihe zu BIM-Leistungsbildern.","ch":"In der Schweiz bildet die SIA 2051 den Rahmen für BIM-Anwendung und Abwicklungspläne."},
+ "pruefen":["VDI","ÖNORM A 6241","SIA 2051"]},
+
+{"id":"pab3aia","p":"p","lv":3,"pa":"pab2digital","t":"Auftraggeber-Informationsanforderungen (AIA)",
+ "t1":"Die AIA formulieren, was der Auftraggeber von einem digitalen Modell erwartet: Zwecke, Detailtiefe, Formate, Zeitpunkte der Übergabe. Sie stehen am Anfang jedes BIM-Projekts und sind die Grundlage, gegen die der Abwicklungsplan später geprüft wird. Unklare AIA sind der häufigste Grund, warum BIM-Projekte im Ergebnis enttäuschen.",
+ "dach":{"de":"In Deutschland sind AIA fester Bestandteil öffentlicher BIM-Ausschreibungen und lehnen sich an die VDI-Richtlinienreihe zu BIM an.","at":"In Österreich entwickeln sich Auftraggeber-Informationsanforderungen entlang der ÖNORM A 6241-Reihe.","ch":"In der Schweiz stützen sich Informationsanforderungen auf die SIA 2051 und die zugehörigen Merkblätter."},
+ "pruefen":["VDI","ÖNORM A 6241","SIA 2051"],
+ "lnwunsch":["Ausschreibung: BIM-basierte Vergabe (P5)"]},
+
+{"id":"pab3bimrolle","p":"p","lv":3,"pa":"pab2digital","t":"BIM-Koordination: Rollen im Projekt",
+ "t1":"BIM braucht eigene Rollen, die es vorher so nicht gab: BIM-Koordinatoren prüfen und takten die Fachmodelle je Disziplin, ein BIM-Gesamtkoordinator führt sie zusammen. Diese Rollen sind Organisationsarbeit, keine Software-Bedienung, und gehören früh vertraglich verankert. Fehlt die Gesamtkoordination, kollidieren Fachmodelle spätestens auf der Baustelle.",
+ "dach":{"de":"In Deutschland werden BIM-Koordinationsleistungen zunehmend als besondere Leistungen neben dem klassischen HOAI-Leistungsbild vereinbart.","at":"In Österreich ist die BIM-Koordination noch selten eigenständig normiert und wird vertraglich individuell geregelt.","ch":"In der Schweiz beschreibt die SIA 2051 auch die Rollen der BIM-Koordination im Projektteam."},
+ "pruefen":["HOAI","SIA 2051"]},
+
+{"id":"pho1","p":"p","lv":1,"t":"Honorar und Vertrag",
+ "t1":"Wer plant, muss auch wissen, wie er bezahlt wird und wofür er haftet: Honorar und Vertrag bilden das wirtschaftliche und rechtliche Fundament jeder Planungsleistung. Die drei DACH-Länder gehen damit sehr unterschiedlich um, von der einst staatlich verbindlichen Honorarordnung bis zur freien Vereinbarung. Ein unklarer Vertrag kostet am Ende oft mehr als das strittige Honorar selbst."},
+
+{"id":"pho2honorar","p":"p","lv":2,"pa":"pho1","t":"Honorarermittlung",
+ "t1":"Wie ein Honorar berechnet wird, folgt keiner einheitlichen DACH-Logik: feste Tafelwerke, freie Verhandlung oder Empfehlungswerte stehen nebeneinander. Für Planer entscheidet diese Grundlage darüber, wie viel Verhandlungsspielraum überhaupt besteht. Wer die Systematik seines Landes nicht kennt, verschenkt Honorar oder verspricht zu wenig.",
+ "dach":{"de":"Die HOAI dient nach der Entscheidung des Europäischen Gerichtshofs nur noch als Orientierung, verbindliche Mindest- und Höchstsätze gibt es nicht mehr, das Honorar wird frei vereinbart.","at":"In Österreich ist das Honorar grundsätzlich frei vereinbar, verbindliche Honorarleitlinien der Kammer bestehen kartellrechtlich nicht mehr.","ch":"In der Schweiz dienen die SIA-Ordnungen als kartellrechtlich unverbindliche Empfehlung für die Honorarberechnung."},
+ "pruefen":["HOAI","SIA"],
+ "ln":["pko2gliederung"]},
+
+{"id":"pho3honorarzone","p":"p","lv":3,"pa":"pho2honorar","t":"Honorarzonen und Bewertungskriterien",
+ "t1":"Nicht jedes Gebäude ist gleich anspruchsvoll zu planen: Honorarzonen bewerten die Schwierigkeit eines Projekts anhand von Kriterien wie Komplexität und Integrationsgrad. Je höher die Zone, desto höher der übliche Honorarsatz je Kostengruppe. Die Einstufung ist oft der erste Streitpunkt in der Honorarverhandlung.",
+ "dach":{"de":"In Deutschland ordnet die HOAI Objekte anhand von Bewertungsmerkmalen in Honorarzonen, an die sich Honorartafeln als Orientierung anlehnen.","at":"In Österreich gibt es keine verbindliche Zoneneinteilung mehr, vergleichbare Komplexitätsmerkmale fließen in die freie Honorarverhandlung ein.","ch":"In der Schweiz differenzieren die SIA-Ordnungen die Vergütung über Schwierigkeitsgrad und Zeitaufwand statt über feste Zonen."},
+ "pruefen":["HOAI","SIA"]},
+
+{"id":"pho3honorarmodelle","p":"p","lv":3,"pa":"pho2honorar","t":"Vergütungsmodelle: Pauschal, Zeit, Prozent",
+ "t1":"Pauschalhonorar, Zeithonorar oder Honorar als Prozentsatz der Baukosten: Jedes Modell verteilt das wirtschaftliche Risiko anders zwischen Planer und Bauherr. Pauschalen belohnen Effizienz, bestrafen aber unterschätzten Aufwand, Zeithonorare sind fair, aber schwer zu budgetieren. Die Wahl des Modells gehört früh und bewusst in den Vertrag, nicht als Formsache am Ende.",
+ "dach":{"de":"Deutsche Verträge orientieren sich häufig an der HOAI-Struktur, kombinieren aber zunehmend Pauschal- und Zeithonorare frei.","at":"In Österreich sind Pauschal- und Zeithonorare gleichermaßen üblich, die Wahl folgt reiner Vertragsfreiheit.","ch":"In der Schweiz sind Zeithonorar und Pauschale nach SIA-Ordnung gleichrangige, häufig kombinierte Modelle."},
+ "pruefen":["HOAI","SIA"]},
+
+{"id":"pho3nebenkosten","p":"p","lv":3,"pa":"pho2honorar","t":"Nebenkosten und Erstattungen",
+ "t1":"Neben dem eigentlichen Honorar entstehen Nebenkosten für Reisen, Vervielfältigungen oder besondere Leistungen, die separat vereinbart und abgerechnet werden müssen. Wer sie im Vertrag vergisst, trägt sie am Ende selbst. Kleine Position, große Wirkung über die Projektlaufzeit.",
+ "dach":{"de":"In Deutschland regelt die HOAI Nebenkosten als eigenen Abrechnungsposten, der pauschal oder nach Nachweis vereinbart werden kann.","at":"In Österreich werden Nebenkosten frei vertraglich geregelt, üblich sind Pauschalsätze auf das Honorar.","ch":"In der Schweiz sehen die SIA-Ordnungen Nebenkosten als gesonderten Vergütungsbestandteil vor."},
+ "pruefen":["HOAI","SIA"]},
+
+{"id":"pho3honorarstreit","p":"p","lv":3,"pa":"pho2honorar","t":"Honorarstreitigkeiten und Nachweispflicht",
+ "t1":"Kommt es zum Streit ums Honorar, entscheidet meist, wer die erbrachte Leistung besser dokumentiert hat, nicht wer im Recht zu sein glaubt. Stundennachweise, Leistungsverzeichnisse und Abnahmeprotokolle sind die Munition in solchen Auseinandersetzungen. Vorsorge ist hier billiger als jeder Prozess.",
+ "dach":{"de":"In Deutschland ist die Honorarschlussrechnung prüffähig aufzustellen, formale Mängel führen häufig zu Auseinandersetzungen vor Gericht.","at":"In Österreich sind Honorarstreitigkeiten mangels fixer Honorarordnung besonders auf eine klare vertragliche Leistungsbeschreibung angewiesen.","ch":"In der Schweiz bildet die SIA-Ordnung eine anerkannte Auslegungsgrundlage, wenn der Vertrag selbst schweigt."},
+ "pruefen":["SIA"]},
+
+{"id":"pho2vertrag","p":"p","lv":2,"pa":"pho1","t":"Architektenvertrag, Haftung und Urheberrecht",
+ "t1":"Der Architektenvertrag ist die rechtliche Grundlage der Zusammenarbeit und bestimmt, welche Leistung geschuldet wird, wer für Fehler haftet und wem das geistige Eigentum am Entwurf gehört. Diese drei Themen greifen ineinander: Ein unklarer Leistungsumfang erschwert später auch die Haftungsfrage. Ein guter Vertrag ist die günstigste Versicherung im ganzen Projekt.",
+ "dach":{"de":"In Deutschland ist der Architektenvertrag rechtlich ein Werkvertrag nach BGB, das Urheberrecht schützt schöpferische Bauwerke eigenständig.","at":"In Österreich gilt der Planungsvertrag überwiegend als Werkvertrag nach ABGB, ergänzt durch das österreichische Urheberrechtsgesetz.","ch":"In der Schweiz ist der Planervertrag werkvertragsähnlich nach Obligationenrecht ausgestaltet, das Urheberrecht schützt die Bauwerke als Werke der Baukunst."},
+ "pruefen":["BGB","ABGB","Obligationenrecht"]},
+
+{"id":"pho3vertragstyp","p":"p","lv":3,"pa":"pho2vertrag","t":"Vertragstypen und Vertragsschluss",
+ "t1":"Nicht jeder Planungsvertrag ist gleich: Werkvertrag, Dienstvertrag oder gemischte Formen unterscheiden sich in Erfolgshaftung und Kündigungsfolgen erheblich. Schon die Einordnung entscheidet, welche gesetzlichen Regeln überhaupt greifen, wenn der Vertrag selbst schweigt. Mündliche Absprachen sind gültig, aber im Streitfall kaum beweisbar.",
+ "dach":{"de":"Der Architektenvertrag gilt in Deutschland als Werkvertrag nach BGB mit Erfolgshaftung für die geschuldete Planung.","at":"In Österreich wird der Planungsvertrag überwiegend als Werkvertrag nach ABGB eingeordnet, mit vergleichbarer Erfolgshaftung.","ch":"In der Schweiz ist der Planervertrag nach Obligationenrecht meist ein Auftrag mit werkvertraglichen Elementen, die Einordnung im Einzelfall ist rechtlich umstritten."},
+ "pruefen":["BGB","ABGB","Obligationenrecht"]},
+
+{"id":"pho3leistungsbild","p":"p","lv":3,"pa":"pho2vertrag","t":"Leistungsbild und Leistungsumfang im Vertrag",
+ "t1":"Das Leistungsbild listet, welche Teilleistungen der Vertrag tatsächlich umfasst, von der Grundlagenermittlung bis zur Objektbetreuung. Wird nur pauschal auf ein Regelwerk verwiesen, bleibt oft unklar, was im Einzelfall wirklich geschuldet ist. Präzise Leistungsbeschreibung ist der wirksamste Schutz vor späterem Streit über Nachträge.",
+ "dach":{"de":"In Deutschland orientieren sich Verträge meist an den Leistungsbildern der HOAI, die als Auslegungshilfe auch ohne verbindliche Honorierung dienen.","at":"In Österreich fehlt ein vergleichbares gesetzliches Leistungsbild, weshalb Musterverträge der Kammer als Orientierung dienen.","ch":"In der Schweiz beschreibt die SIA 102 detailliert die Grundleistungen der Architekten, an denen sich Verträge orientieren."},
+ "pruefen":["HOAI","SIA 102"]},
+
+{"id":"pho3haftung","p":"p","lv":3,"pa":"pho2vertrag","t":"Planerhaftung und Mängelhaftung",
+ "t1":"Planer haften für Fehler in Entwurf, Ausführungsplanung oder Bauüberwachung, auch wenn der Baumangel erst Jahre später sichtbar wird. Die Haftung trifft nicht nur den Architekten, sondern verteilt sich zwischen allen Planungsbeteiligten je nach Verursachungsanteil. Wer diese Verteilung nicht versteht, unterschätzt sein eigenes Risiko systematisch.",
+ "dach":{"de":"Die Planerhaftung folgt in Deutschland dem Werkvertragsrecht des BGB mit eigenständigen Verjährungsfristen für Bauwerke.","at":"In Österreich regelt das ABGB die Gewährleistung, mit eigenen, kürzeren Fristen als im deutschen Recht.","ch":"In der Schweiz regelt das Obligationenrecht die Werkmängelhaftung des Planers mit eigener Fristensystematik."},
+ "pruefen":["BGB","ABGB","Obligationenrecht"]},
+
+{"id":"pho3urheber","p":"p","lv":3,"pa":"pho2vertrag","t":"Urheberrecht am Bauwerk und Änderungsbefugnis",
+ "t1":"Ein Gebäude kann urheberrechtlichen Schutz genießen, wenn es eine ausreichende gestalterische Eigenleistung zeigt, das schützt den Entwurf auch nach der Fertigstellung. Daraus folgt ein heikles Spannungsfeld: Der Eigentümer will sein Haus verändern dürfen, der Architekt sein Werk bewahren. Gerichte wägen hier regelmäßig zwischen Eigentumsrecht und Urheberpersönlichkeitsrecht ab.",
+ "dach":{"de":"In Deutschland schützt das Urheberrechtsgesetz Bauwerke mit ausreichender Schöpfungshöhe, Änderungen bedürfen bei Eingriffen in die Werksubstanz der Zustimmung.","at":"In Österreich schützt das Urheberrechtsgesetz vergleichbar gestaltete Bauwerke, mit ähnlicher Abwägung zwischen Eigentümer- und Urheberinteressen.","ch":"In der Schweiz schützt das Urheberrechtsgesetz Bauwerke als Werke der Baukunst, die Änderungsbefugnis des Eigentümers wird ebenfalls im Einzelfall abgewogen."},
+ "pruefen":["Urheberrechtsgesetz"]},
+
+{"id":"pho2haftpfl","p":"p","lv":2,"pa":"pho1","t":"Berufshaftpflicht und Deckung",
+ "t1":"Weil Planungsfehler oft erst Jahre nach Fertigstellung sichtbar werden, braucht jeder Planer eine Berufshaftpflichtversicherung, die genau diesen Zeitraum abdeckt. Deckungssumme, Selbstbehalt und der räumliche Geltungsbereich der Police entscheiden im Schadenfall über die eigene Existenz. Eine zu knapp bemessene Versicherung ist eine der teuersten Sparmaßnahmen im Planerberuf.",
+ "dach":{"de":"In Deutschland ist die Berufshaftpflichtversicherung für Architekten und Ingenieure über die Kammergesetze der Länder verpflichtend vorgeschrieben.","at":"In Österreich schreibt die Ziviltechnikerkammer eine Berufshaftpflichtversicherung mit Mindestdeckungssummen für ihre Mitglieder vor.","ch":"In der Schweiz besteht keine gesetzliche Versicherungspflicht für Architekten, eine Berufshaftpflicht wird aber von Auftraggebern und Verbänden dringend erwartet."},
+ "pruefen":["Kammergesetze"],
+ "lnwunsch":["Bauleitung: Mängelmanagement und Gewährleistung (P6)"]},
+
+{"id":"pho3deckung","p":"p","lv":3,"pa":"pho2haftpfl","t":"Deckungssummen und Versicherungsumfang",
+ "t1":"Nicht jede Police deckt jedes Risiko: Vermögensschäden, Personenschäden und Sachschäden können unterschiedlich versichert sein, ebenso Auslandstätigkeiten oder besondere Bauaufgaben. Die Deckungssumme sollte sich am tatsächlichen Projektrisiko orientieren, nicht am Mindestmaß der Kammer. Wer ein Großprojekt mit einer Standardpolice betreut, plant seine eigene Unterdeckung mit.",
+ "dach":{"de":"Deutsche Kammern schreiben Mindestdeckungssummen vor, viele Büros versichern für größere Projekte deutlich darüber hinaus.","at":"Die österreichische Ziviltechnikerkammer legt ebenfalls Mindestdeckungssummen fest, projektbezogene Zusatzdeckungen sind üblich.","ch":"In der Schweiz wird die Deckungssumme frei zwischen Versicherer und Büro vereinbart, oft orientiert an Auftraggeberanforderungen."}},
+
+{"id":"pho3schadenfall","p":"p","lv":3,"pa":"pho2haftpfl","t":"Schadenfall und Anzeigepflichten",
+ "t1":"Im Schadenfall zählt zuerst die rechtzeitige Meldung an den Versicherer, verspätete Anzeigen können den Versicherungsschutz gefährden. Parallel beginnt meist eine eigene Beweissicherung, denn spätere Rekonstruktion ist selten überzeugend. Wer den Schaden erst regelt und dann meldet, hat oft schon gegen die Police verstoßen.",
+ "dach":{"de":"Deutsche Versicherungsverträge verlangen unverzügliche Schadenmeldung, Verstöße können nach Versicherungsvertragsgesetz zur Leistungskürzung führen.","at":"In Österreich gelten vergleichbare Anzeigepflichten aus dem Versicherungsvertragsgesetz, mit ähnlichen Folgen bei Verspätung.","ch":"In der Schweiz regelt das Versicherungsvertragsgesetz Anzeigepflichten im Schadenfall, die Police konkretisiert die Fristen meist zusätzlich."},
+ "pruefen":["Versicherungsvertragsgesetz"]},
+
+{"id":"pho3nachhaft","p":"p","lv":3,"pa":"pho2haftpfl","t":"Nachhaftung nach Vertragsende",
+ "t1":"Die Verantwortung des Planers endet nicht mit der Schlussrechnung: Für Mängel, die erst Jahre später auftreten, haftet er weiterhin bis zum Ablauf der jeweiligen Verjährungsfrist. Deshalb muss die Berufshaftpflicht auch nach Bürowechsel, Pensionierung oder Geschäftsaufgabe weiterlaufen, sogenannte Nachhaftungsdeckung. Wer das vergisst, steht im Schadenfall plötzlich ohne Versicherung da.",
+ "dach":{"de":"Die Verjährungsfristen für Bauwerksmängel nach BGB verlangen in Deutschland eine entsprechend lange Nachhaftungsdeckung der Berufshaftpflicht.","at":"In Österreich gelten nach ABGB andere, meist kürzere Verjährungsfristen, an denen sich die Nachhaftungsdeckung orientiert.","ch":"In der Schweiz richten sich Nachhaftungsfristen nach den Verjährungsregeln des Obligationenrechts für Werkmängel."},
+ "pruefen":["BGB","ABGB","Obligationenrecht"]},
+
+{"id":"pho2wettb","p":"p","lv":2,"pa":"pho1","t":"Wettbewerb und Vergabe für Planungsleistungen",
+ "t1":"Ein Wettbewerb ist für Bauherren die Chance auf mehrere Entwürfe zur Auswahl, für Planer eine Investition ohne Erfolgsgarantie. Faire Verfahren regeln Auslobung, Beurteilung und die Aussicht auf einen Folgeauftrag, damit die Vorleistung nicht ins Leere läuft. Wie ernsthaft ein Verfahren gemeint ist, zeigt sich oft schon an der Qualität der Auslobungsunterlagen.",
+ "dach":{"de":"In Deutschland regelt die Richtlinie für Planungswettbewerbe (RPW) Ablauf, Preisgericht und die Zusage eines Auftrags an Preisträger.","at":"In Österreich orientieren sich Wettbewerbe an den WOA-Standards der Bundeskammer der Ziviltechniker.","ch":"In der Schweiz regeln die SIA 142 für offene Wettbewerbe und die SIA 143 für Studienaufträge das Verfahren."},
+ "pruefen":["RPW","WOA","SIA 142","SIA 143"]},
+
+{"id":"pho3wettbverfahren","p":"p","lv":3,"pa":"pho2wettb","t":"Wettbewerbsverfahren und Auslobung",
+ "t1":"Die Auslobung ist die Verfassung eines Wettbewerbs: Sie legt Aufgabe, Beurteilungskriterien, Teilnahmebedingungen und Preisgeld verbindlich fest. Eine schlampige Auslobung produziert unvergleichbare Entwürfe und einen enttäuschenden Wettbewerb. Für teilnehmende Büros ist sie die einzige verlässliche Grundlage, um Aufwand und Chance abzuschätzen.",
+ "dach":{"de":"In Deutschland gibt die RPW den formalen Rahmen für Auslobung und Verfahren offener und nichtoffener Wettbewerbe vor.","at":"In Österreich strukturieren die WOA-Standards Auslobung und Ablauf von Architekturwettbewerben.","ch":"In der Schweiz regelt die SIA 142 Ablauf und Inhalte der Auslobung bei offenen Wettbewerbsverfahren."},
+ "pruefen":["RPW","WOA","SIA 142"]},
+
+{"id":"pho3preisgericht","p":"p","lv":3,"pa":"pho2wettb","t":"Preisgericht und Beurteilung",
+ "t1":"Das Preisgericht entscheidet über den Wettbewerb, besetzt mit Fach- und Sachpreisrichtern, die Entwürfe anonym beurteilen sollen. Die Zusammensetzung und die Anonymität des Verfahrens sind der eigentliche Qualitätsgarant, nicht die Anzahl der Teilnehmer. Ein einseitig besetztes Preisgericht untergräbt das Vertrauen in das ganze Verfahren.",
+ "dach":{"de":"Die RPW schreibt in Deutschland eine Mehrheit an Fachpreisrichtern und ein anonymes Verfahren bis zur Entscheidung vor.","at":"Die WOA-Standards regeln in Österreich vergleichbar die Zusammensetzung und Anonymität des Preisgerichts.","ch":"In der Schweiz gibt die SIA 142 Regeln für die paritätische Besetzung und die Unabhängigkeit des Preisgerichts vor."},
+ "pruefen":["RPW","WOA","SIA 142"]},
+
+{"id":"pho3realisierung","p":"p","lv":3,"pa":"pho2wettb","t":"Realisierungsfolge nach Wettbewerbsgewinn",
+ "t1":"Ein gewonnener Wettbewerb ist kein automatischer Bauauftrag: Die Zusage weiterer Beauftragung hängt vom Verfahren und von der Bereitschaft des Auslobers ab, den Siegerentwurf auch tatsächlich zu bauen. Zwischen Wettbewerbsentwurf und Ausführung liegt oft eine zweite, härtere Verhandlung. Wer diese Lücke unterschätzt, verliert nach dem gewonnenen Wettbewerb noch das Projekt.",
+ "dach":{"de":"Die RPW empfiehlt in Deutschland die Beauftragung des ersten Preisträgers, verpflichtend ist sie ohne entsprechende vertragliche Zusage nicht.","at":"In Österreich sehen die WOA-Standards eine Empfehlung zur Weiterbeauftragung vor, deren Verbindlichkeit vom Auslober abhängt.","ch":"In der Schweiz regeln SIA 142 und SIA 143 die Aussicht auf Weiterbearbeitung unterschiedlich klar, je nach Verfahrensart."},
+ "pruefen":["RPW","WOA","SIA 142","SIA 143"],
+ "lnwunsch":["Ausschreibung: Verhandlungsvergabe nach Wettbewerb (P5)"]},
+
+{"id":"pba1","p":"p","lv":1,"t":"Baurecht und Genehmigung",
+ "t1":"Baurecht entscheidet, ob und wie überhaupt gebaut werden darf, bevor irgendeine Entwurfsfrage relevant wird. Es gliedert sich grob in die Frage, was auf einem Grundstück zulässig ist, und die Frage, wie ein konkretes Gebäude beschaffen sein muss. Beide Ebenen sind in Deutschland, Österreich und der Schweiz unterschiedlich organisiert, oft sogar innerhalb eines Landes von Region zu Region."},
+
+{"id":"pba2planungsr","p":"p","lv":2,"pa":"pba1","t":"Bauplanungsrecht",
+ "t1":"Das Bauplanungsrecht regelt, was auf einem Grundstück grundsätzlich zulässig ist: Nutzungsart, Maß der Bebauung, Erschließung. Es entscheidet vor jeder Entwurfsidee, ob ein Vorhaben überhaupt denkbar ist. Wer diese Ebene übersieht und gleich mit dem Gebäude beginnt, plant möglicherweise am Grundstück vorbei.",
+ "dach":{"de":"In Deutschland regeln das Baugesetzbuch und die Baunutzungsverordnung Bauleitplanung und zulässige Nutzung auf Bundesebene.","at":"In Österreich ist die Raumordnung Landessache, jedes Bundesland hat ein eigenes Raumordnungsgesetz mit eigener Systematik.","ch":"In der Schweiz bildet das Raumplanungsgesetz den Bundesrahmen, konkretisiert durch kantonale Raumplanungs- und Baugesetze."},
+ "pruefen":["BauGB","BauNVO","RPG"]},
+
+{"id":"pba3flaechenwid","p":"p","lv":3,"pa":"pba2planungsr","t":"Flächenwidmung und Nutzungsplanung",
+ "t1":"Bevor gebaut wird, legt die Flächenwidmung fest, wofür ein Grundstück überhaupt genutzt werden darf: Wohnen, Gewerbe, Landwirtschaft oder Sonderzweck. Diese Widmung ist die Wurzel jeder weiteren Planungsentscheidung, sie zu ändern ist ein eigenes, oft langwieriges Verfahren. Ein Bauvorhaben, das der Widmung widerspricht, scheitert unabhängig von seiner architektonischen Qualität.",
+ "dach":{"de":"In Deutschland ergibt sich die zulässige Nutzung aus dem Flächennutzungsplan und dem Bebauungsplan nach Baugesetzbuch und Baunutzungsverordnung.","at":"In Österreich weist der Flächenwidmungsplan nach dem jeweiligen Landesraumordnungsgesetz die zulässigen Nutzungen aus.","ch":"In der Schweiz erfolgt die Nutzungszuweisung über die kommunale Nutzungsplanung im Rahmen des Raumplanungsgesetzes."},
+ "pruefen":["BauGB","BauNVO","RPG"]},
+
+{"id":"pba3bebauungspl","p":"p","lv":3,"pa":"pba2planungsr","t":"Bebauungsplan und Festsetzungen",
+ "t1":"Ein Bebauungsplan konkretisiert die Widmung bis auf Maß, Bauweise und Baugrenzen eines einzelnen Grundstücks. Er ist verbindliches Ortsrecht, keine Empfehlung, Abweichungen brauchen ein eigenes Verfahren. Wer einen Bebauungsplan gründlich liest, kennt schon vor dem ersten Entwurf viele Grenzen seines Spielraums.",
+ "dach":{"de":"In Deutschland sind Bebauungspläne nach Baugesetzbuch verbindliche Satzungen der Gemeinde mit unmittelbarer Rechtswirkung.","at":"In Österreich übernimmt der Bebauungsplan nach Landesrecht eine vergleichbare Funktion, oft ergänzt um Bebauungsbestimmungen der Gemeinde.","ch":"In der Schweiz konkretisieren kommunale Bau- und Zonenordnungen im Rahmen des Raumplanungsgesetzes die zulässige Bebauung."},
+ "pruefen":["BauGB","RPG"]},
+
+{"id":"pba3innenaussen","p":"p","lv":3,"pa":"pba2planungsr","t":"Bauen im Innen- und Außenbereich",
+ "t1":"Ob ein Grundstück im Innenbereich einer Ortschaft oder im unbeplanten Außenbereich liegt, entscheidet über die Zulässigkeit fast wie ein Schalter: Innen ist bauen meist möglich, außen die Ausnahme. Diese Unterscheidung schützt Landschaft und Freiraum, ist aber für Bauherren oft schwer nachvollziehbar. Gerade am Ortsrand wird diese Grenze zum Streitfall.",
+ "dach":{"de":"Das Baugesetzbuch unterscheidet in Deutschland zwischen unbeplantem Innenbereich, Bebauungsplangebiet und Außenbereich mit jeweils eigenen Zulässigkeitsregeln.","at":"In Österreich regeln die Landesraumordnungsgesetze das Bauen außerhalb gewidmeter Bauflächen sehr restriktiv.","ch":"In der Schweiz trennt das Raumplanungsgesetz Bauzonen streng vom Nichtbaugebiet, Bauten außerhalb der Bauzone sind nur ausnahmsweise zulässig."},
+ "pruefen":["BauGB","RPG"]},
+
+{"id":"pba2ordnungsr","p":"p","lv":2,"pa":"pba1","t":"Bauordnungsrecht",
+ "t1":"Während das Planungsrecht klärt, was auf einem Grundstück zulässig ist, regelt das Bauordnungsrecht, wie das konkrete Gebäude beschaffen sein muss: Standsicherheit, Brandschutz, Abstände, Aufenthaltsqualität. Es ist das dichteste Regelwerk im ganzen Bauprozess und unterscheidet sich selbst innerhalb eines Landes regional. Ohne seine Grundzüge zu kennen, lässt sich kein genehmigungsfähiges Gebäude entwerfen.",
+ "dach":{"de":"Deutschland regelt das Bauordnungsrecht über 16 eigenständige Landesbauordnungen, die sich an der Musterbauordnung orientieren, aber im Detail abweichen.","at":"In Österreich setzen die Landesbauordnungen die OIB-Richtlinien technisch aus, mit landesspezifischen Abweichungen im Verfahren.","ch":"In der Schweiz gelten kantonale Baugesetze, deren technische Anforderungen die interkantonale Vereinbarung IVHB harmonisiert."},
+ "pruefen":["MBO","Landesbauordnungen","OIB-Richtlinien","IVHB"]},
+
+{"id":"pba3gebklasse","p":"p","lv":3,"pa":"pba2ordnungsr","t":"Gebäudeklassen und Anwendungsbereich",
+ "t1":"Gebäudeklassen staffeln Anforderungen nach Höhe, Nutzung und Personenzahl: Ein Einfamilienhaus wird anders behandelt als ein Hochhaus. Diese Einstufung entscheidet über nahezu alle weiteren Anforderungen, von Rettungswegen bis Brandschutz. Ein falsch eingestuftes Gebäude plant an den eigentlichen Anforderungen vorbei.",
+ "dach":{"de":"Die Landesbauordnungen staffeln in Deutschland Gebäude in fünf Gebäudeklassen mit jeweils steigenden Anforderungen.","at":"Österreich staffelt vergleichbar über die OIB-Richtlinien nach Gebäudehöhe und Nutzung, die Umsetzung erfolgt über die Landesbauordnungen.","ch":"Die Schweiz differenziert kantonal, orientiert an durch die IVHB harmonisierten Nutzungs- und Gebäudekategorien."},
+ "pruefen":["Landesbauordnungen","OIB-Richtlinien","IVHB"]},
+
+{"id":"pba3brandabschn","p":"p","lv":3,"pa":"pba2ordnungsr","t":"Brandschutzanforderungen der Bauordnung",
+ "t1":"Brandschutz ist der umfangreichste Einzelbereich des Bauordnungsrechts: Rettungswege, Brandabschnitte, Feuerwiderstand von Bauteilen, alles staffelt sich nach Gebäudeklasse und Nutzung. Anders als bei Statik gibt es hier selten eine einzelne richtige Lösung, sondern ein Gesamtkonzept aus baulichen, technischen und organisatorischen Maßnahmen. Wer Brandschutz erst am Ende mitdenkt, muss das Gebäude oft nachträglich verteuern.",
+ "dach":{"de":"In Deutschland ergeben sich die Brandschutzanforderungen aus den Landesbauordnungen, konkretisiert durch Sonderbauverordnungen und technische Richtlinien.","at":"In Österreich bildet die OIB-Richtlinie 2 die zentrale Grundlage für Brandschutzanforderungen im Hochbau.","ch":"In der Schweiz setzen die Brandschutzvorschriften der Vereinigung Kantonaler Feuerversicherungen (VKF) den technischen Standard, kantonal umgesetzt."},
+ "pruefen":["Landesbauordnungen","OIB-Richtlinien","VKF"],
+ "ln":["k3t30","k3rs","kt2not"]},
+
+{"id":"pba3stellplatz","p":"p","lv":3,"pa":"pba2ordnungsr","t":"Stellplatzpflicht und Erschließung",
+ "t1":"Wer ein Gebäude errichtet, muss meist auch eine bestimmte Zahl an Stellplätzen nachweisen und die verkehrliche Erschließung sichern. Diese Pflicht wirkt oft banal, entscheidet aber über Grundstücksfläche, Kosten und manchmal über die Machbarkeit eines Projekts überhaupt. Innerstädtisch wird die Stellplatzfrage zunehmend politisch diskutiert und gelockert.",
+ "dach":{"de":"Die Stellplatzpflicht ist in Deutschland Sache der Landesbauordnungen und kommunaler Stellplatzsatzungen, mit Ablösemöglichkeiten gegen Zahlung.","at":"In Österreich regeln die Landesbauordnungen beziehungsweise eigene Stellplatzverordnungen der Länder die Stellplatzpflicht.","ch":"In der Schweiz legen kantonale und kommunale Vorschriften, teils mit eigenen Normen des Straßen- und Verkehrsingenieurwesens, die Stellplatzzahl fest."},
+ "pruefen":["Landesbauordnungen"],
+ "lnwunsch":["Konstruktion: Tiefgaragen und Erschließung (noch nicht angelegt)"]},
+
+{"id":"pba2verfahren","p":"p","lv":2,"pa":"pba1","t":"Genehmigungsverfahren und Bauvorlagen",
+ "t1":"Das Genehmigungsverfahren ist die formale Brücke zwischen Entwurf und Baurecht: Welche Unterlagen nötig sind, wer sie prüft und wie lange das dauert, unterscheidet sich stark nach Vorhabenart und Bundesland oder Kanton. Ein gut vorbereiteter Antrag verkürzt die Wartezeit oft mehr als jedes Nachfragen bei der Behörde. Verfahrensfehler treffen am Ende immer das Projekt, selten die Behörde.",
+ "dach":{"de":"In Deutschland unterscheiden die Landesbauordnungen genehmigungsfreie, vereinfachte und reguläre Baugenehmigungsverfahren.","at":"In Österreich reichen die Verfahren von der Anzeige bis zur Baubewilligung, gestaffelt nach den jeweiligen Landesbauordnungen.","ch":"In der Schweiz durchläuft ein Bauvorhaben je nach Kanton ein ordentliches oder vereinfachtes Baubewilligungsverfahren."},
+ "pruefen":["Landesbauordnungen"],
+ "ln":["pab3genehmigung"]},
+
+{"id":"pba3verfahrensart","p":"p","lv":3,"pa":"pba2verfahren","t":"Verfahrensarten: frei, vereinfacht, voll",
+ "t1":"Nicht jedes Bauvorhaben braucht eine volle Baugenehmigung: Kleine Vorhaben sind oft anzeigepflichtig oder sogar verfahrensfrei, größere durchlaufen ein vereinfachtes oder reguläres Verfahren mit voller Prüfung. Welches Verfahren greift, hängt von Größe, Nutzung und Lage ab, nicht vom Wunsch des Bauherrn. Die falsche Einschätzung der Verfahrensart ist ein häufiger Projektverzug am Anfang.",
+ "dach":{"de":"Die Landesbauordnungen listen in Deutschland verfahrensfreie Vorhaben und unterscheiden vereinfachtes von regulärem Genehmigungsverfahren.","at":"In Österreich reicht die Bandbreite von der bloßen Bauanzeige bis zur vollständigen Baubewilligung nach Landesbauordnung.","ch":"In der Schweiz kennen viele Kantone ein vereinfachtes Meldeverfahren neben dem ordentlichen Baubewilligungsverfahren."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba3bauvorlagen","p":"p","lv":3,"pa":"pba2verfahren","t":"Bauvorlagen und Antragsunterlagen",
+ "t1":"Bauvorlagen sind die geprüfte Sprache der Behörde: Lagepläne, Bauzeichnungen, Berechnungen und Nachweise in vorgeschriebener Form. Fehlt ein Dokument oder stimmt ein Maßstab nicht, wird der Antrag als unvollständig zurückgewiesen, unabhängig von der Qualität des Entwurfs. Vollständigkeit ist hier wichtiger als Eleganz.",
+ "dach":{"de":"In Deutschland definieren die Bauvorlagenverordnungen der Länder Inhalt und Form der einzureichenden Unterlagen.","at":"In Österreich schreiben die Landesbauordnungen und ergänzende Verordnungen den Umfang der Einreichunterlagen vor.","ch":"In der Schweiz legen kantonale Baugesuchsverordnungen fest, welche Pläne und Nachweise ein Baugesuch enthalten muss."},
+ "pruefen":["Bauvorlagenverordnungen","Landesbauordnungen"]},
+
+{"id":"pba3baubeginn","p":"p","lv":3,"pa":"pba2verfahren","t":"Baubeginn und Fertigstellungsanzeigen",
+ "t1":"Auch nach erteilter Genehmigung bleibt das Verfahren nicht stehen: Baubeginn, bestimmte Bauzustände und die Fertigstellung müssen der Behörde angezeigt werden, teils verbunden mit Zwischenabnahmen. Wer diese Anzeigen versäumt, riskiert Baustopp oder Probleme bei der späteren Nutzungsfreigabe. Das Verfahren endet formal erst mit der behördlichen Fertigstellungsanzeige oder Abnahme.",
+ "dach":{"de":"In Deutschland verlangen die Landesbauordnungen Anzeigen zu Baubeginn und Rohbaufertigstellung, die Nutzung setzt oft eine Fertigstellungsanzeige voraus.","at":"In Österreich sind Baubeginn und Fertigstellung nach Landesbauordnung anzuzeigen, die Benützung folgt teils eigenen Bewilligungen.","ch":"In der Schweiz melden Bauherren Baubeginn und Bauvollendung den kantonalen Behörden, die Bewilligung zur Nutzung schließt das Verfahren ab."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba3nachbarbet","p":"p","lv":3,"pa":"pba2verfahren","t":"Nachbarbeteiligung im Verfahren",
+ "t1":"Nachbarn haben im Genehmigungsverfahren eigene Rechte: Sie können angehört werden und bestimmte Verstöße, etwa gegen Abstandsflächen, rechtlich anfechten. Diese Beteiligung kann ein Verfahren erheblich verzögern, wenn Konflikte nicht früh geklärt werden. Ein informelles Gespräch mit dem Nachbarn vor Antragstellung erspart oft ein förmliches Verfahren später.",
+ "dach":{"de":"In Deutschland werden Nachbarn nach Landesbauordnung beteiligt und können nachbarschützende Vorschriften, etwa Abstandsflächen, klagend geltend machen.","at":"In Österreich sind Nachbarn nach Landesbauordnung Parteien im Verfahren mit eigenem Einspruchsrecht.","ch":"In der Schweiz können Nachbarn ein Baugesuch während der öffentlichen Auflage einsehen und dagegen Einsprache erheben."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba2abstand","p":"p","lv":2,"pa":"pba1","t":"Abstandsflächen und Nachbarrecht",
+ "t1":"Abstandsflächen sichern Belichtung, Belüftung und Brandschutz zwischen Gebäuden und sind zugleich die häufigste Quelle von Nachbarstreit. Sie werden meist aus der Gebäudehöhe berechnet und wirken sich direkt auf die mögliche Ausnutzung eines Grundstücks aus. Kaum ein anderes Bauordnungsthema wird so oft im Vorentwurf übersehen und im Genehmigungsverfahren zum Problem.",
+ "dach":{"de":"In Deutschland berechnen die Landesbauordnungen Abstandsflächen meist als Vielfaches der Wandhöhe, mit Sonderregeln für Grenzbebauung.","at":"In Österreich regeln die Landesbauordnungen Bauwiche und Abstände zur Grundgrenze mit jeweils eigener Berechnungslogik.","ch":"In der Schweiz bestimmen kantonale Baugesetze Grenz- und Gebäudeabstände, oft in Abhängigkeit von der Gebäudehöhe."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba3abstandsflberech","p":"p","lv":3,"pa":"pba2abstand","t":"Berechnung der Abstandsfläche",
+ "t1":"Die Abstandsfläche wird meist aus der Wandhöhe abgeleitet und vor die Fassade gelegt, mit Sonderregeln für Dachformen, Erker oder Giebel. Schon kleine Höhenunterschiede in der Berechnung verschieben Baugrenzen spürbar. Diese Berechnung gehört in jede Vorplanung, nicht erst in die Genehmigungsplanung.",
+ "dach":{"de":"Deutsche Landesbauordnungen berechnen die Abstandsfläche meist als Bruchteil der Wandhöhe, mit unterschiedlichen Faktoren je Bundesland.","at":"Österreichische Landesbauordnungen berechnen den Bauwich ähnlich aus der Gebäudehöhe, mit eigenen Mindestmaßen je Bundesland.","ch":"Kantonale Baugesetze in der Schweiz leiten den Grenzabstand ebenfalls meist aus der Gebäudehöhe ab, die Faktoren variieren kantonal stark."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba3grenzbebauung","p":"p","lv":3,"pa":"pba2abstand","t":"Grenzbebauung und Ausnahmen",
+ "t1":"Manchmal darf direkt an die Grundstücksgrenze gebaut werden, etwa bei Garagen, Nebengebäuden oder in geschlossener Bauweise historischer Ortskerne. Diese Ausnahmen sind eng gefasst und meist an Bedingungen wie Höhe oder Nutzung geknüpft. Wer sie ausreizen will, braucht eine sehr genaue Kenntnis der lokalen Regelung.",
+ "dach":{"de":"Die Landesbauordnungen erlauben in Deutschland Grenzbebauung unter engen Voraussetzungen, etwa für Garagen bis zu bestimmten Maßen.","at":"In Österreich lassen Landesbauordnungen Grenzbebauung meist nur für Nebengebäude oder in geschlossener Bauweise zu.","ch":"In der Schweiz definieren kantonale Baugesetze Ausnahmen von der Abstandspflicht, häufig eng an Nutzung und Grenzbaurecht des Nachbarn gekoppelt."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba3nachbarzust","p":"p","lv":3,"pa":"pba2abstand","t":"Nachbarzustimmung und Nachbarrechtsbehelfe",
+ "t1":"Wo Abstandsflächen unterschritten werden sollen, kann eine Nachbarzustimmung den Weg öffnen, verweigert der Nachbar sie, bleibt oft nur der Rechtsweg. Nachbarn können sich gegen Verstöße gegen nachbarschützende Vorschriften wehren, selbst wenn die Baugenehmigung bereits erteilt ist. Diese Rechtsbehelfe können ein fertig geplantes Projekt noch spät zu Fall bringen.",
+ "dach":{"de":"In Deutschland kann eine Abstandsflächenübernahme oder Nachbarzustimmung Unterschreitungen ermöglichen, andernfalls bleibt der Nachbarwiderspruch beziehungsweise die Klage.","at":"In Österreich kann eine Zustimmung des Nachbarn Abweichungen von Abstandsvorschriften ermöglichen, sonst steht ihm der Einspruch im Verfahren offen.","ch":"In der Schweiz kann eine Näherbaurechtsvereinbarung mit dem Nachbarn Grenzabstände unterschreiten, andernfalls bleibt die Einsprachemöglichkeit."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba2sonder","p":"p","lv":2,"pa":"pba1","t":"Sonderbauten und Abweichungen",
+ "t1":"Sonderbauten wie Versammlungsstätten, Hochhäuser oder Krankenhäuser folgen nicht den Standardanforderungen der Bauordnung, sondern eigenen, meist strengeren Regeln, weil ihr Gefährdungspotenzial höher ist. Für sie braucht es oft ein eigenständiges Brandschutzkonzept statt der Regelanforderung. Wo die Bauordnung nicht ausreicht, ermöglichen Abweichungen und Ausnahmen im Einzelfall trotzdem ein Bauvorhaben.",
+ "dach":{"de":"In Deutschland definieren die Landesbauordnungen Sonderbauten, konkretisiert durch Sonderbauverordnungen wie Versammlungsstätten- oder Verkaufsstättenverordnungen.","at":"In Österreich regeln die OIB-Richtlinien besondere Anforderungen an bestimmte Nutzungsklassen, die Landesbauordnungen ergänzen sie.","ch":"In der Schweiz gelten für Sonderbauten erhöhte Anforderungen der VKF-Brandschutzvorschriften, kantonal umgesetzt."},
+ "pruefen":["Landesbauordnungen","OIB-Richtlinien","VKF"]},
+
+{"id":"pba3sonderbautypen","p":"p","lv":3,"pa":"pba2sonder","t":"Typen von Sonderbauten",
+ "t1":"Hochhaus, Versammlungsstätte, Verkaufsstätte, Krankenhaus: Jeder Sonderbautyp bringt ein eigenes Gefährdungsprofil mit und damit eigene, oft deutlich strengere Anforderungen als der Standardbau. Schon die Einstufung als Sonderbau verändert Genehmigungsverfahren und benötigte Nachweise grundlegend. Wer einen Sonderbau wie ein Standardgebäude plant, muss spätestens im Verfahren nachbessern.",
+ "dach":{"de":"Deutsche Landesbauordnungen listen Sonderbautypen und verweisen für viele davon auf eigene Sonderbauverordnungen der Länder.","at":"Österreichische OIB-Richtlinien unterscheiden Nutzungsklassen mit erhöhten Anforderungen für bestimmte Sonderbautypen.","ch":"Die Schweiz stuft Sonderbauten über die VKF-Brandschutzvorschriften in erhöhte Risikokategorien ein."},
+ "pruefen":["Landesbauordnungen","OIB-Richtlinien","VKF"]},
+
+{"id":"pba3abweichung","p":"p","lv":3,"pa":"pba2sonder","t":"Abweichungen, Ausnahmen und Befreiungen",
+ "t1":"Wo eine Regel im Einzelfall unangemessen wäre, sehen Bauordnungen Abweichungen, Ausnahmen oder Befreiungen vor, meist an eine Abwägung mit den Schutzzielen der Vorschrift gebunden. Sie sind kein Freifahrtschein, sondern verlangen eine nachvollziehbare Begründung und oft Kompensationsmaßnahmen. Gute Abweichungsanträge argumentieren mit dem Schutzziel, nicht mit dem Wunsch des Bauherrn.",
+ "dach":{"de":"Die Landesbauordnungen erlauben in Deutschland Abweichungen, wenn das Schutzziel der Vorschrift auf andere Weise gleichwertig erreicht wird.","at":"In Österreich können Landesbauordnungen Ausnahmen zulassen, sofern die dahinterstehenden Schutzinteressen gewahrt bleiben.","ch":"In der Schweiz erlauben kantonale Baugesetze Ausnahmebewilligungen, wenn wichtige Gründe vorliegen und öffentliche Interessen nicht überwiegen."},
+ "pruefen":["Landesbauordnungen"]},
+
+{"id":"pba3brandschutzkonz","p":"p","lv":3,"pa":"pba2sonder","t":"Brandschutzkonzept bei Sonderbauten",
+ "t1":"Für Sonderbauten reicht die Regelanforderung der Bauordnung meist nicht aus, gefordert wird ein individuelles Brandschutzkonzept, das Rettungswege, Kompartimentierung und Anlagentechnik als Gesamtsystem nachweist. Es wird von einer eigenen Fachplanung erstellt und ist Teil der Genehmigungsunterlagen. Ein gutes Konzept denkt Nutzung und Gebäude zusammen, nicht nur Vorschrift für Vorschrift.",
+ "dach":{"de":"In Deutschland verlangen viele Sonderbauverordnungen ein eigenständiges Brandschutzkonzept, geprüft von Sachverständigen oder Prüfingenieuren.","at":"In Österreich wird das Brandschutzkonzept meist auf Basis der OIB-Richtlinie 2 erstellt und von der Behörde geprüft.","ch":"In der Schweiz erstellen Brandschutzfachleute das Konzept nach den VKF-Brandschutzvorschriften, mit kantonaler Prüfung."},
+ "pruefen":["OIB-Richtlinien","VKF"],
+ "ln":["k3t30"]},
+
+{"id":"pko1","p":"p","lv":1,"t":"Kosten",
+ "t1":"Baukosten entstehen nicht am Ende, sondern werden von der ersten Skizze an mitgeplant: Jede Entwurfsentscheidung hat einen Preis, auch wenn er erst später sichtbar wird. Wie Kosten gegliedert, ermittelt und über die Projektphasen fortgeschrieben werden, folgt in Deutschland, Österreich und der Schweiz unterschiedlichen, aber strukturell verwandten Systemen. Wer Kosten erst am Ende zählt, hat sie längst nicht mehr im Griff."},
+
+{"id":"pko2gliederung","p":"p","lv":2,"pa":"pko1","t":"Kostenplanung und Gliederung",
+ "t1":"Bevor Kosten geplant werden können, müssen sie gegliedert werden: in Bauwerk, Technik, Außenanlagen, Nebenkosten und mehr, sonst bleibt jede Summe unvergleichbar. Diese Gliederung ist die gemeinsame Sprache zwischen Planer, Bauherr und Kostenplaner. Jedes DACH-Land hat dafür ein eigenes, aber ähnlich aufgebautes System.",
+ "dach":{"de":"In Deutschland gliedert die DIN 276 Baukosten in Kostengruppen von der Grundstücksbeschaffung bis zu den Baunebenkosten.","at":"In Österreich übernimmt die ÖNORM B 1801 eine vergleichbare Gliederungsfunktion für Kostenermittlung und Kostenverfolgung.","ch":"In der Schweiz strukturiert der eBKP-H, der Baukostenplan Hochbau, Kosten nach Bauteilen statt nach Gewerken."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"],
+ "ln":["pho2honorar"]},
+
+{"id":"pko3kostengruppen","p":"p","lv":3,"pa":"pko2gliederung","t":"Kostengruppen und Gliederungstiefe",
+ "t1":"Kostengruppen fassen ähnliche Kostenanteile zusammen, etwa Baukonstruktion oder Technische Anlagen, und lassen sich je nach Planungstiefe grober oder feiner gliedern. Am Anfang genügt eine grobe Einteilung, später wird bis auf einzelne Bauteile heruntergebrochen. Wer zu früh zu fein gliedert, verliert Zeit an Zahlen, die sich noch ändern.",
+ "dach":{"de":"Die DIN 276 gliedert in Deutschland Kosten in Kostengruppen erster bis dritter Ebene, von grob bis detailliert.","at":"Die ÖNORM B 1801 gliedert in Österreich vergleichbar nach Kostengruppen mit zunehmender Detailtiefe über die Projektphasen.","ch":"Der eBKP-H gliedert in der Schweiz nach Bauteilen und Elementen statt nach klassischen Gewerkegruppen."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko3systematikvgl","p":"p","lv":3,"pa":"pko2gliederung","t":"Nationale Gliederungssysteme im Vergleich",
+ "t1":"DIN 276, ÖNORM B 1801 und eBKP-H sortieren Kosten nach unterschiedlicher Logik, die einen nach Gewerken, die anderen nach Bauteilen, das erschwert direkte Vergleiche zwischen Ländern. Für internationale Projekte oder Benchmarks braucht es eine bewusste Übersetzung zwischen den Systemen. Ein Kostenkennwert ohne Angabe der Gliederungssystematik ist im Grunde wertlos.",
+ "dach":{"de":"Die DIN 276 gliedert überwiegend gewerkeorientiert entlang des klassischen deutschen Bauablaufs.","at":"Die ÖNORM B 1801 orientiert sich strukturell an der DIN 276, mit eigenständigen Kostengruppen und Begriffen.","ch":"Der eBKP-H gliedert bauteilorientiert nach Elementen, was Vergleiche mit gewerkeorientierten Systemen erschwert."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko3kostenrahmen","p":"p","lv":3,"pa":"pko2gliederung","t":"Kostenrahmen und Budgetstruktur",
+ "t1":"Der Kostenrahmen steckt zu Beginn eines Projekts die finanzielle Obergrenze ab, oft noch bevor ein Entwurf existiert. Er sollte eine Reserve für Unvorhergesehenes enthalten, die mit fortschreitender Planung planmäßig abschmilzt. Ein Kostenrahmen ohne Reserve ist ein Versprechen, das selten eingehalten wird.",
+ "dach":{"de":"In Deutschland wird der Kostenrahmen meist grob nach DIN 276 strukturiert und dient als erste Budgetgrundlage der Bedarfsplanung.","at":"In Österreich bildet ein grober Kostenrahmen nach vergleichbarer Logik zur ÖNORM B 1801 die erste Budgetorientierung.","ch":"In der Schweiz dient ein grober eBKP-H-Rahmen als frühe Kostenorientierung vor dem Vorprojekt."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko2ermittlung","p":"p","lv":2,"pa":"pko1","t":"Kostenschätzung, -berechnung und -steuerung",
+ "t1":"Kosten werden nicht einmal ermittelt, sondern mit zunehmender Planungstiefe immer genauer fortgeschrieben, von der groben Schätzung bis zur exakten Abrechnung. Jede Stufe hat eine eigene erlaubte Ungenauigkeit, die dem Bauherrn kommuniziert werden muss. Wer eine frühe Schätzung wie eine spätere Abrechnung behandelt, weckt Erwartungen, die das Projekt nicht halten kann.",
+ "dach":{"de":"In Deutschland unterscheidet die DIN 276 Kostenschätzung, Kostenberechnung, Kostenanschlag und Kostenfeststellung als aufeinanderfolgende Genauigkeitsstufen.","at":"In Österreich folgt die ÖNORM B 1801 einer vergleichbaren Stufenfolge von Kostenschätzung bis Kostenfeststellung.","ch":"In der Schweiz durchläuft die Kostenermittlung nach eBKP-H ähnliche Stufen von Kostenschätzung bis Bauabrechnung."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko3schaetzung","p":"p","lv":3,"pa":"pko2ermittlung","t":"Kostenschätzung in der Vorplanung",
+ "t1":"Die Kostenschätzung ist die erste belastbare Zahl, meist auf Basis von Flächen- und Rauminhaltswerten früherer Projekte ermittelt, noch ohne detaillierte Mengen. Sie trägt entsprechend große Unsicherheit und sollte nie ohne Bandbreite kommuniziert werden. Diese frühe Zahl prägt trotzdem oft die ganze weitere Erwartungshaltung des Bauherrn.",
+ "dach":{"de":"Die Kostenschätzung nach DIN 276 basiert in Deutschland meist auf groben Kennwerten wie Bruttorauminhalt oder Bruttogrundfläche.","at":"Die vergleichbare Kostenschätzung nach ÖNORM B 1801 stützt sich in Österreich ebenfalls auf grobe Flächen- und Rauminhaltswerte.","ch":"In der Schweiz erfolgt die frühe Kostenschätzung nach eBKP-H häufig anhand von Kennwerten pro Geschossfläche."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko3berechnung","p":"p","lv":3,"pa":"pko2ermittlung","t":"Kostenberechnung in der Entwurfsplanung",
+ "t1":"Mit dem Entwurf wird die Kostenberechnung genauer: Sie stützt sich auf tatsächliche Mengen aus Grundriss und Konstruktion, nicht mehr nur auf Kennwerte. Diese Zahl ist meist die Grundlage für die endgültige Finanzierungsentscheidung des Bauherrn. Weicht die spätere Ausführungsplanung stark davon ab, war entweder der Entwurf unklar oder die Berechnung zu grob.",
+ "dach":{"de":"Die Kostenberechnung nach DIN 276 basiert in Deutschland auf den Mengen der Entwurfsplanung und ist deutlich genauer als die Kostenschätzung.","at":"Die Kostenberechnung nach ÖNORM B 1801 stützt sich in Österreich ebenfalls auf entwurfsbasierte Mengenermittlung.","ch":"In der Schweiz beruht die Kostenberechnung nach eBKP-H auf den Mengen des Bauprojekts."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko3anschlag","p":"p","lv":3,"pa":"pko2ermittlung","t":"Kostenanschlag und Kostenfeststellung",
+ "t1":"Der Kostenanschlag entsteht aus tatsächlichen Angeboten und Verträgen, die Kostenfeststellung erst nach Abrechnung aller Leistungen, sie ist die einzige wirklich belastbare Zahl im Projekt. Zwischen früher Schätzung und finaler Feststellung liegt oft eine erhebliche Lernkurve. Der Vergleich beider Zahlen ist die wichtigste Rückmeldung für die nächste Kostenschätzung.",
+ "dach":{"de":"Kostenanschlag und Kostenfeststellung nach DIN 276 bilden in Deutschland die vertrags- beziehungsweise abrechnungsbasierten Endstufen der Kostenermittlung.","at":"In Österreich schließen Kostenanschlag und Kostenfeststellung nach ÖNORM B 1801 die Kostenermittlung ab.","ch":"In der Schweiz entspricht dem die Bauabrechnung nach eBKP-H als endgültige Kostenfeststellung."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko3steuerung","p":"p","lv":3,"pa":"pko2ermittlung","t":"Kostensteuerung und Abweichungsmanagement",
+ "t1":"Kostensteuerung heißt, laufend zu vergleichen, was geplant und was tatsächlich gebunden wurde, und bei Abweichungen frühzeitig gegenzulenken. Wer nur am Ende addiert, kann nicht mehr steuern, nur noch feststellen. Ein funktionierendes Kostencontrolling ist deshalb kein Kosten-, sondern ein Zeitfaktor, es muss parallel zur Planung laufen.",
+ "dach":{"de":"Kostensteuerung ist in Deutschland keine eigene DIN-276-Stufe, sondern ergänzende Leistung, oft im Rahmen der HOAI-Leistungsphasen vereinbart.","at":"In Österreich ist Kostensteuerung meist als gesonderte, laufend zu erbringende Leistung neben der Kostenermittlung nach ÖNORM B 1801 vereinbart.","ch":"In der Schweiz begleitet das Kostenmanagement nach eBKP-H die Projektsteuerung über alle Phasen der SIA 112."},
+ "pruefen":["DIN 276","HOAI","ÖNORM B 1801","eBKP-H","SIA 112"],
+ "ln":["pab2termin"]},
+
+{"id":"pko2benchmark","p":"p","lv":2,"pa":"pko1","t":"Benchmarks und Kostenkennwerte",
+ "t1":"Kostenkennwerte erlauben es, ein Projekt früh grob einzuschätzen, ohne dass ein Entwurf existiert, indem sie Erfahrungswerte vergleichbarer Bauten heranziehen. Sie sind nur so gut wie ihre Vergleichbarkeit, ein falsch übertragener Kennwert wird schnell zur Fehlprognose. Benchmarks ersetzen keine Berechnung, sie sind ihr erster, grober Anker.",
+ "dach":{"de":"In Deutschland veröffentlichen Institutionen wie das Baukosteninformationszentrum Kennwerte nach DIN-276-Kostengruppen und Gebäudetyp.","at":"In Österreich existieren vergleichbare Kennwertsammlungen, häufig kammer- oder verbandsgestützt, nach ÖNORM-B-1801-Systematik.","ch":"In der Schweiz veröffentlicht unter anderem das Bundesamt für Statistik regionale Kennwerte nach eBKP-H."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko3kennwerte","p":"p","lv":3,"pa":"pko2benchmark","t":"Kostenkennwerte je Flächen und Rauminhalt",
+ "t1":"Kosten je Quadratmeter Bruttogrundfläche oder je Kubikmeter Bruttorauminhalt sind die gängigsten Kennwerte, weil sie schnell zu berechnen und leicht zu kommunizieren sind. Sie verschweigen aber viel: Gebäudeform, Ausstattungsstandard und Grundstückslage schlagen sich kaum in einer einzigen Zahl nieder. Wer nur mit dem Quadratmeterpreis plant, übersieht die eigentlichen Kostentreiber.",
+ "dach":{"de":"In Deutschland werden Kennwerte meist als Kosten je Bruttogrundfläche oder Bruttorauminhalt nach DIN 276 angegeben.","at":"In Österreich sind vergleichbare Flächen- und Rauminhaltskennwerte nach ÖNORM B 1801 gebräuchlich.","ch":"In der Schweiz werden Kennwerte meist je Geschossfläche nach eBKP-H und SIA-Flächendefinitionen angegeben."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H","SIA"]},
+
+{"id":"pko3indexierung","p":"p","lv":3,"pa":"pko2benchmark","t":"Baupreisindex und regionale Anpassung",
+ "t1":"Ein Kennwert von vor mehreren Jahren ist heute wenig wert, wenn er nicht mit dem Baupreisindex fortgeschrieben wird, Baupreise schwanken stärker als viele andere Wirtschaftsbereiche. Zusätzlich unterscheiden sich Baukosten regional erheblich, zwischen Ballungsraum und ländlicher Lage oft um ein Vielfaches. Wer beides ignoriert, rechnet mit einer Illusion statt mit einem realistischen Budget.",
+ "dach":{"de":"In Deutschland veröffentlicht das Statistische Bundesamt den Baupreisindex zur Fortschreibung von Kennwerten über die Zeit.","at":"In Österreich veröffentlicht die Statistik Austria einen vergleichbaren Baukostenindex zur zeitlichen Anpassung von Kennwerten.","ch":"In der Schweiz erhebt das Bundesamt für Statistik den Baupreisindex, regionale Unterschiede werden zusätzlich gesondert ausgewiesen."}},
+
+{"id":"pko3vergleichbark","p":"p","lv":3,"pa":"pko2benchmark","t":"Vergleichbarkeit von Kostenkennwerten",
+ "t1":"Zwei Kennwerte sind nur vergleichbar, wenn sie nach derselben Gliederungssystematik, demselben Bezugsjahr und derselben Flächendefinition ermittelt wurden, das wird in der Praxis oft übersehen. Schon ob Baunebenkosten enthalten sind oder nicht, verändert einen Kennwert erheblich. Seriöses Benchmarking beginnt deshalb mit der Frage, was in der Zahl überhaupt steckt.",
+ "dach":{"de":"Kennwerte nach DIN 276 sind in Deutschland nur vergleichbar, wenn Kostengruppenumfang und Bezugsgröße übereinstimmen.","at":"Kennwerte nach ÖNORM B 1801 sind in Österreich ebenso nur bei gleicher Kostengruppenabgrenzung vergleichbar.","ch":"Kennwerte nach eBKP-H sind in der Schweiz nur vergleichbar, wenn dieselbe Elementgliederung und Flächendefinition zugrunde liegt."},
+ "pruefen":["DIN 276","ÖNORM B 1801","eBKP-H"]},
+
+{"id":"pko2lebenszyklus","p":"p","lv":2,"pa":"pko1","t":"Lebenszykluskosten",
+ "t1":"Ein Gebäude kostet nicht nur beim Bauen, sondern über Jahrzehnte im Betrieb, oft übersteigen die Nutzungskosten die Erstellungskosten deutlich. Wer nur die Investition optimiert, verschiebt Kosten häufig nur in die Zukunft, etwa durch billige, aber wartungsintensive Bauteile. Lebenszykluskosten zwingen dazu, ein Gebäude über seine ganze Lebensdauer zu denken, nicht nur bis zur Schlussrechnung.",
+ "dach":{"de":"In Deutschland ordnet die DIN 18960 Nutzungskosten von Gebäuden, ergänzend zur Investitionskostengliederung der DIN 276.","at":"In Österreich fasst die ÖNORM B 1801 auch Folgekosten der Nutzung in ihrer Gliederung mit, wenn auch weniger detailliert als die Investitionskosten.","ch":"In der Schweiz erfasst der eBKP-H primär Erstellungskosten, Betriebskosten werden ergänzend nach eigenen SIA-Grundlagen betrachtet."},
+ "pruefen":["DIN 18960","DIN 276","ÖNORM B 1801","eBKP-H","SIA"],
+ "lnwunsch":["Nachhaltigkeit: Zertifizierungssysteme und Lebenszyklusanalyse (P7)"]},
+
+{"id":"pko3investnutzung","p":"p","lv":3,"pa":"pko2lebenszyklus","t":"Investitions- und Nutzungskosten",
+ "t1":"Investitionskosten fallen einmalig an, Nutzungskosten laufend, über zwanzig oder dreißig Jahre kann Letzteres die Erstellung finanziell weit übertreffen. Diese Gegenüberstellung verändert oft die Bewertung einer scheinbar teuren Entwurfsentscheidung: Eine bessere Gebäudehülle rechnet sich meist erst im Betrieb. Wer nur die Baukosten vergleicht, vergleicht die falsche Zahl.",
+ "dach":{"de":"In Deutschland stehen sich Investitionskosten nach DIN 276 und Nutzungskosten nach DIN 18960 als getrennt gegliederte, aber zusammengehörige Größen gegenüber.","at":"In Österreich werden Investitions- und Folgekosten innerhalb der ÖNORM-B-1801-Systematik gemeinsam betrachtet, wenn auch mit Schwerpunkt auf der Investition.","ch":"In der Schweiz stehen Erstellungskosten nach eBKP-H und Betriebskosten nach SIA-Grundlagen ebenfalls als getrennte, aber verglichene Größen nebeneinander."},
+ "pruefen":["DIN 276","DIN 18960","ÖNORM B 1801","eBKP-H","SIA"]},
+
+{"id":"pko3nutzungskost","p":"p","lv":3,"pa":"pko2lebenszyklus","t":"Nutzungskosten und Betriebskostensystematik",
+ "t1":"Nutzungskosten umfassen Betrieb, Instandhaltung, Verwaltung und Versorgung, alles, was ein Gebäude laufend kostet, nachdem der Bauherr die Schlüssel erhalten hat. Sie werden oft grob geschätzt, obwohl sie langfristig entscheidender sind als die Baukosten. Eine saubere Nutzungskostenplanung beginnt idealerweise schon im Entwurf, nicht erst nach dem Einzug.",
+ "dach":{"de":"Die DIN 18960 gliedert in Deutschland Nutzungskosten in Kapital-, Betriebs- und Instandsetzungskosten von Gebäuden.","at":"In Österreich fehlt eine eigenständige Nutzungskostennorm, Betriebskosten werden meist gebäudetypspezifisch nach eigener Praxis erfasst.","ch":"In der Schweiz strukturieren SIA-Grundlagen zur Lebenszykluskostenrechnung die Betriebs- und Unterhaltskosten von Gebäuden."},
+ "pruefen":["DIN 18960","SIA"],
+ "lnwunsch":["Nachhaltigkeit: Energierecht und Betriebskosten (P7)"]},
+
+{"id":"pko3lebenszyklusanalyse","p":"p","lv":3,"pa":"pko2lebenszyklus","t":"Lebenszyklusanalyse als Entscheidungshilfe",
+ "t1":"Eine Lebenszyklusanalyse rechnet Investitions- und Nutzungskosten über einen definierten Betrachtungszeitraum zu einer vergleichbaren Kennzahl zusammen und macht so unterschiedliche Entwurfsvarianten wirtschaftlich vergleichbar. Sie braucht Annahmen zu Zinssatz, Nutzungsdauer und künftigen Preisen, die jede Berechnung unsicher machen. Trotzdem ist sie oft das einzige Argument, das teurere, aber langfristig wirtschaftlichere Lösungen gegen den Bauherren-Reflex verteidigen kann.",
+ "dach":{"de":"In Deutschland orientieren sich Lebenszyklusanalysen an DIN 18960 für Nutzungskosten, ergänzt um Verfahren der VDI-Richtlinienreihe zur Wirtschaftlichkeitsberechnung.","at":"In Österreich existiert kein eigenständiges Normwerk für Lebenszyklusanalysen, die Praxis orientiert sich an internationalen Verfahren und der ÖNORM-B-1801-Kostenbasis.","ch":"In der Schweiz stützen sich Lebenszyklusanalysen auf SIA-Grundlagen zur Lebenszykluskostenrechnung im Bauwesen."},
+ "pruefen":["DIN 18960","VDI","ÖNORM B 1801","SIA"]}
+]

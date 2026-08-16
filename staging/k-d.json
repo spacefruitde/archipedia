@@ -1,0 +1,409 @@
+[
+  {
+    "id": "ktg1",
+    "p": "k",
+    "lv": 1,
+    "t": "Technische Gebäudeausrüstung",
+    "t1": "Technische Gebäudeausrüstung ist in diesem Ast bewusst nicht als eigene Fachplanung aufbereitet, sondern als das Wissen, das ein Architekt braucht, um mit Fachplanern zu koordinieren: wo welches Gewerk Platz, Höhe oder einen Schacht braucht. Wer diese Schnittstellen ignoriert, plant Schächte zu knapp und Decken zu niedrig und merkt es erst, wenn die Fachplanung die Ausführungsplanung zurückwirft. Der Ast versammelt Heizung und Kühlung, Lüftung, Elektro, Sanitär und Gebäudeautomation aus genau dieser koordinierenden Perspektive."
+  },
+  {
+    "id": "ktg2heiz",
+    "p": "k",
+    "lv": 2,
+    "pa": "ktg1",
+    "t": "Heizung und Kühlung",
+    "t1": "Ob Wärmepumpe, Fernwärme oder Kessel: Die Wahl des Wärmeerzeugers entscheidet über Flächenbedarf, Aufstellort und oft auch über die Fassadengestaltung, etwa bei Außengeräten. Architekten müssen früh wissen, welches System welchen Raum braucht, nicht wie es im Detail funktioniert. Kühlung rückt zunehmend gleichrangig neben die Heizung, weil sommerlicher Wärmeschutz zur Pflichtaufgabe geworden ist."
+  },
+  {
+    "id": "ktg3erzeug",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2heiz",
+    "t": "Wärmeerzeugung: System und Raumbedarf",
+    "t1": "Wärmepumpe, Fernwärme, Pelletkessel oder Hybridlösung: Jedes System stellt andere Anforderungen an Technikraum, Aufstellort im Freien und Schallschutz zum Nachbarn. Die Grundsatzentscheidung fällt oft schon in der Vorplanung und bindet Flächen, die später kaum verschiebbar sind. Für den Architekten zählt weniger die Heiztechnik selbst als die Fläche, die Zuleitung und das Betriebsgeräusch, das sie mitbringt."
+  },
+  {
+    "id": "ktg3verteil",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2heiz",
+    "t": "Wärmeverteilung: Leitungsführung und Höhen",
+    "t1": "Vom Erzeuger bis zum Raum braucht die Wärme Leitungen, und die brauchen Platz: in Schächten, unter Decken, in Wandschlitzen. Wie diese Verteilung geführt wird, entscheidet mit über die lichte Raumhöhe und darüber, ob abgehängte Decken nötig werden. Wer die Trassenführung erst nach der Grundrissplanung klärt, verliert regelmäßig Deckenhöhe genau dort, wo sie am meisten fehlt."
+  },
+  {
+    "id": "ktg3flaeche",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2heiz",
+    "t": "Flächenheizung und Flächenkühlung",
+    "t1": "Fußbodenheizung, Wandheizung oder Deckenkühlung verteilen Wärme und Kälte über große, träge Flächen statt über einzelne Heizkörper. Das verändert den Grundriss kaum, aber Bodenaufbau und Regelverhalten spürbar: Ein Raum mit Flächenheizung reagiert langsamer auf Sonneneinstrahlung oder eine volle Wohnung. Die Entscheidung dafür fällt am besten zusammen mit der Wahl des Bodenbelags, nicht danach.",
+    "lnwunsch": ["Böden: Fußbodenheizung im Aufbau"]
+  },
+  {
+    "id": "ktg3kuehl",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2heiz",
+    "t": "Kühlung: Bauteilaktivierung und Klimageräte",
+    "t1": "Passive Kühlung über aktivierte Betondecken braucht Speichermasse und eine Nachtauskühlung, die architektonisch mitgedacht werden will, etwa über Lüftungsflügel oder ein Nachtlüftungskonzept. Aktive Klimageräte lösen das schneller, aber mit Außeneinheiten, die einen Platz an der Fassade oder auf dem Dach brauchen und dort selten schön sind. Je später die Kühlung mitgedacht wird, desto sichtbarer wird sie am Ende."
+  },
+  {
+    "id": "ktg2lueft",
+    "p": "k",
+    "lv": 2,
+    "pa": "ktg1",
+    "t": "Lüftung: Geräte, Führung, Auslässe",
+    "t1": "Kontrollierte Wohnraumlüftung ist inzwischen eher Standard als Ausnahme, weil dichte Gebäudehüllen ohne sie zu Feuchteschäden neigen. Für den Architekten zählt vor allem, ob die Anlage zentral mit einem Gerät und Kanalnetz arbeitet oder dezentral mit vielen kleinen Geräten in der Fassade, denn das entscheidet über Schachtbedarf, Deckenhöhe und Fassadenbild. Die Entscheidung sollte in der Vorplanung fallen, nicht als Reaktion auf einen bereits gezeichneten Grundriss."
+  },
+  {
+    "id": "ktg3anlagentyp",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2lueft",
+    "t": "Lüftungsanlagen: zentral, dezentral, hybrid",
+    "t1": "Die zentrale Anlage sitzt mit einem Gerät im Technikraum und verteilt Luft über ein Kanalnetz, leise im Raum, aber flächenintensiv in der Decke. Dezentrale Geräte sitzen einzeln in der Außenwand jedes Raums, sparen Kanäle, brauchen aber Fassadendurchbrüche und sind im Betrieb hörbarer. Hybridlösungen mischen beides und verlangen von Anfang an eine klare Zuordnung, welcher Raum wie belüftet wird."
+  },
+  {
+    "id": "ktg3fuehr",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2lueft",
+    "t": "Luftführung und Schachtbedarf",
+    "t1": "Zuluft, Abluft, Außenluft und Fortluft brauchen jeweils eigene Kanäle, deren Querschnitte größer ausfallen, als die meisten Grundrisse auf den ersten Blick hergeben. Wo Schächte gebündelt werden können, spart das Fläche, verlangt aber eine frühe Festlegung, denn Lüftungskanäle sind kaum nachträglich zu verlegen. Die Koordination mit anderen vertikalen Leitungen entscheidet oft über die Wirtschaftlichkeit des ganzen Schachtkonzepts.",
+    "ln": ["ktg3schacht", "kt3aufzug"],
+    "lnwunsch": ["Decken(bekleidungen): Integration von Technik in die Decke"]
+  },
+  {
+    "id": "ktg3auslass",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2lueft",
+    "t": "Auslässe und ihr Platz im Deckenraster",
+    "t1": "Lüftungsauslässe wollen in ein Deckenraster passen, das oft schon von Beleuchtung und Akustikdecke besetzt ist. Wer Auslässe erst nach der Deckenplanung platziert, findet selten die elegante Lösung, sondern verteilt Ventile dort, wo noch Platz ist. Ein gemeinsames Deckenraster für Licht, Lüftung und Akustik früh mit allen Beteiligten abzustimmen, erspart genau diese Verlegenheitslösung."
+  },
+  {
+    "id": "ktg3fassade",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2lueft",
+    "t": "Außenluftdurchlässe an der Fassade",
+    "t1": "Jede dezentrale Lüftung und jeder Abluftventilator braucht eine Öffnung in der Fassade, klein, aber gestalterisch heikel, weil sie Regen, Schall und Einbruch gleichzeitig abwehren muss. Serienmäßige Lüftungsgitter sind selten das, was der Entwurf verspricht, wenn sie erst am Bau auftauchen. Wer die Durchlässe früh im Fassadenraster mitzeichnet, vermeidet nachträgliche Kompromisse."
+  },
+  {
+    "id": "ktg2elektro",
+    "p": "k",
+    "lv": 2,
+    "pa": "ktg1",
+    "t": "Elektro: Installationszonen und Verteiler",
+    "t1": "Elektroplanung beginnt für den Architekten nicht bei der Steckdose, sondern bei den Zonen in der Wand, in denen Leitungen liegen dürfen, und beim Platz für Verteiler und Hausanschluss. Wer diese Zonen im Grundriss nicht reserviert, verliert die Kontrolle über Schlitze und Stemmarbeiten, sobald auf der Baustelle improvisiert wird. Mit Photovoltaik und Ladeinfrastruktur wächst der Koordinationsbedarf zusätzlich, weil beide auf den Baukörper selbst wirken."
+  },
+  {
+    "id": "ktg3zonen",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2elektro",
+    "t": "Installationszonen im Grundriss",
+    "t1": "Elektroinstallation folgt üblichen Installationszonen, waagerecht und senkrecht gemessene Streifen an Wänden, in denen Leitungen erwartet werden dürfen. Wer davon abweicht, etwa mit frei diagonal geführten Leitungen, riskiert später jeden Nagel und jede Dübelbohrung. Für den Architekten heißt das vor allem, Möblierung und Elektroplanung gemeinsam zu denken, nicht nacheinander."
+  },
+  {
+    "id": "ktg3verteiler",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2elektro",
+    "t": "Verteiler und Technikräume",
+    "t1": "Zählerschrank, Unterverteiler und zunehmend auch Speicher oder Wechselrichter brauchen einen eigenen, meist unterschätzten Platz, oft in der Nähe des Hausanschlusses. Wird dieser Raum zu knapp geplant, wächst er später auf Kosten eines Abstellraums oder einer Garderobe. Bei größeren Gebäuden kommt die Frage nach Zugänglichkeit für Ablesung und Wartung dazu, ohne dass fremde Personen die Wohnung betreten müssen."
+  },
+  {
+    "id": "ktg3pv",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2elektro",
+    "t": "Photovoltaik und Ladeinfrastruktur",
+    "t1": "Photovoltaik ist längst keine Zutat mehr, sondern eine Fassaden- oder Dachentscheidung, die Statik, Verschattung und Kabelführung von Anfang an mitbestimmt. Ladeinfrastruktur für Fahrzeuge verlangt Leitungsreserven vom Zählerschrank bis zum Stellplatz, die im Rohbau günstig und im Nachhinein teuer sind. Beides gehört in die frühe Leitungsplanung, nicht in die Ausstattungsliste am Ende.",
+    "lnwunsch": ["Dach: PV-Montagesystem und Durchdringungen", "Fassadenbegrünung und Solarfassade"]
+  },
+  {
+    "id": "ktg2sanitaer",
+    "p": "k",
+    "lv": 2,
+    "pa": "ktg1",
+    "t": "Sanitär: Schächte, Vorwände, Entwässerung",
+    "t1": "Sanitärinstallation ist das Gewerk, das am stärksten auf gestapelte Grundrisse angewiesen ist: Nassräume übereinander sparen Schächte und Kosten, seitlich verschobene kosten beides. Vorwandinstallationen verändern Wandstärken, Entwässerung verlangt Gefälle, das im Bodenaufbau Platz braucht. Wer Sanitärachsen erst nach der Grundrissplanung sucht, findet sie selten dort, wo sie hinpassen."
+  },
+  {
+    "id": "ktg3schacht",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2sanitaer",
+    "t": "Sanitärschächte: Dimensionierung und Lage",
+    "t1": "Fallstränge für Abwasser brauchen Gefälle und damit Querschnitt, der größer ausfällt, als ein einzelner Anschluss vermuten lässt. Am wirtschaftlichsten liegen Bäder und Küchen übereinander an einem gemeinsamen Schacht, jede Verschiebung dagegen kostet zusätzliche Leitungslängen und Deckenabhängungen. Die Schachtlage gehört deshalb zu den Entscheidungen, die im Idealfall vor der ersten Grundrissvariante feststehen."
+  },
+  {
+    "id": "ktg3vorwand",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2sanitaer",
+    "t": "Vorwandinstallation und Wandaufbau",
+    "t1": "Vorwandsysteme verstecken Spülkästen und Anschlussleitungen hinter einer zusätzlichen Wandschale und verändern damit die tatsächliche Raumtiefe gegenüber der gezeichneten Wand spürbar. Wird diese Aufbaustärke im Grundriss nicht berücksichtigt, schrumpft der Nassraum um mehrere Zentimeter, die an anderer Stelle fehlen. Die Vorwand ist konstruktiv einfach, aber im Maßkonzept eine der häufigsten Fehlerquellen kleiner Bäder.",
+    "lnwunsch": ["Innenwände und Trockenbau: Vorsatzschalen und Installationswände"]
+  },
+  {
+    "id": "ktg3entwaesser",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2sanitaer",
+    "t": "Entwässerung: Gefälle und Rückstau",
+    "t1": "Abwasser fließt nur mit Gefälle, und dieses Gefälle summiert sich über lange Leitungswege zu spürbarer Aufbauhöhe, die im Bodenaufbau eingeplant sein will. Tiefliegende Räume brauchen zusätzlich eine Rückstausicherung, damit bei überlasteter Kanalisation kein Abwasser zurück ins Gebäude drückt. Beide Themen wirken unscheinbar, bis ein Keller nach dem ersten Starkregen beweist, dass sie fehlten.",
+    "lnwunsch": ["Gründung und erdberührte Bauteile: Rückstausicherung im Kellergeschoss"]
+  },
+  {
+    "id": "ktg3trinkwasser",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2sanitaer",
+    "t": "Trinkwasserhygiene und Leitungslänge",
+    "t1": "Stehendes Wasser in überlangen oder selten genutzten Leitungen ist das Haupteinfallstor für Keimbildung, weshalb kurze Leitungswege schon in der Planung Hygiene bedeuten. Die Bündelung von Bädern hilft nicht nur der Wirtschaftlichkeit, sondern auch der Wasserqualität. Wer Bäder weit auseinanderzieht, plant im Zweifel eine Zirkulationsleitung mit, die selbst wieder Platz und Dämmung braucht."
+  },
+  {
+    "id": "ktg2automation",
+    "p": "k",
+    "lv": 2,
+    "pa": "ktg1",
+    "t": "Gebäudeautomation und Smart Building",
+    "t1": "Bussysteme vernetzen Licht, Beschattung, Heizung und Sicherheitstechnik über eine gemeinsame Steuerungsebene und ersetzen viele einzelne Schalterkreise durch wenige zentrale Leitungen. Für den Architekten verschiebt sich die Frage von der einzelnen Schalterstelle hin zur Bedienlogik im ganzen Haus: Wer steuert was, von wo, und was passiert, wenn die Technik ausfällt. Automation ist keine Zugabe am Ende der Planung, sondern eine Entscheidung, die Verkabelung und Bedienstellen von Anfang an prägt."
+  },
+  {
+    "id": "ktg3bus",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2automation",
+    "t": "Bussysteme und Verkabelung im Rohbau",
+    "t1": "Ein Bussystem braucht eigene, meist zweiadrige Leitungen zu jedem Teilnehmer, zusätzlich zur klassischen Stromleitung, und diese Leitungen müssen im Rohbau mitgedacht werden, sonst fehlen sie beim Innenausbau unwiderruflich. Nachrüstung ist möglich, aber deutlich teurer und sichtbarer als geplante Verkabelung. Die Grundsatzentscheidung für oder gegen Automation gehört deshalb in eine sehr frühe Planungsphase."
+  },
+  {
+    "id": "ktg3schnittstelle",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2automation",
+    "t": "Schnittstelle zu den TGA Gewerken",
+    "t1": "Heizung, Lüftung, Beschattung und Licht kommen aus getrennten Gewerken, sollen aber am Ende aus einer Hand bedienbar sein, und genau dort entstehen Zuständigkeitslücken. Der Architekt übernimmt in der Praxis oft die koordinierende Rolle, weil er als einziger alle Gewerke im Blick hat. Eine früh festgelegte Automationsmatrix, wer welches Signal liefert und wer es verarbeitet, verhindert teuren Streit in der Ausführungsphase."
+  },
+  {
+    "id": "ktg3bedien",
+    "p": "k",
+    "lv": 3,
+    "pa": "ktg2automation",
+    "t": "Bedienstellen und ihre Platzierung im Raum",
+    "t1": "Ob Schalter, Taster oder Display: Jede Bedienstelle ist auch ein gestalterisches Element, das mit Türanschlag, Möblierung und Blickachsen zusammenpasst oder eben nicht. Zentrale Bedienpanels reduzieren die Zahl der Schalterstellen, verlangen aber, dass Bewohner sich in einer Menüstruktur zurechtfinden statt einen Lichtschalter zu ertasten. Die beste Automationstechnik scheitert an einer Bedienung, die niemand intuitiv findet.",
+    "ln": ["k4drueck"]
+  },
+  {
+    "id": "kma1",
+    "p": "k",
+    "lv": 1,
+    "t": "Material- und Produktkunde",
+    "t1": "Dieser Ast bündelt das Wissen zu Baustoffen und Materialien, das in den Bauteil-Ästen sonst an jeder Ecke wiederkehren würde: was Holz kann, was Naturstein kann, wie Kupfer altert, wie sich ein Putzsystem mit dem nächsten verträgt. Bauteile wie Fassade, Fenster oder Boden verweisen von hier aus auf die Materialeigenschaften, statt sie jedes Mal neu zu erklären. Wer Material zuerst versteht, wählt Bauteile nicht nach Katalogbild, sondern nach Eignung."
+  },
+  {
+    "id": "kma2holz",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Holz und Holzwerkstoffe",
+    "t1": "Holz ist der einzige tragende Baustoff, der nachwächst, und genau deshalb so unterschiedlich in Qualität und Verhalten wie die Bäume, aus denen er stammt. Vollholz und die vielen Holzwerkstoffe, verleimt, gepresst oder geschichtet, unterscheiden sich stark in Tragfähigkeit, Maßhaltigkeit und Sichtbarkeit. Die Wahl zwischen beiden ist selten eine reine Optik, sondern meist eine Konstruktionsfrage."
+  },
+  {
+    "id": "kma3vollholz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2holz",
+    "t": "Vollholz und Holzarten im Ausbau",
+    "t1": "Nadelhölzer wie Fichte und Kiefer sind der wirtschaftliche Standard, Laubhölzer wie Eiche oder Buche härter, schwerer und im Ausbau meist teurer, aber langlebiger in der sichtbaren Nutzung. Jede Holzart bringt ihre eigene Maserung, Farbe und Neigung zum Vergrauen im Freien mit, die sich nicht wegbehandeln, nur begleiten lässt. Wer Holz unbehandelt einsetzt, entscheidet sich bewusst für ein Material, das sichtbar altert.",
+    "ln": ["kt3holz"]
+  },
+  {
+    "id": "kma3werkstoff",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2holz",
+    "t": "Holzwerkstoffe: Platten und Verbundstoffe",
+    "t1": "Sperrholz, OSB, MDF oder Brettschichtholz entstehen aus verleimten oder gepressten Holzanteilen und gewinnen dadurch Maßhaltigkeit und Formate, die Vollholz nicht liefert. Der Verleimungsgrad entscheidet über Feuchtebeständigkeit und Einsatzort, von der unsichtbaren Beplankung bis zur sichtbaren Möbelplatte. Für den Architekten zählt vor allem, welche Emissions- und Feuchtebeständigkeitsklasse ein Werkstoff mitbringt, bevor er in den Innenraum kommt.",
+    "lnwunsch": ["Innenwände und Trockenbau: Trockenbauwände, Ständerwerk und Beplankung"]
+  },
+  {
+    "id": "kma2beton",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Beton und Betonoberflächen",
+    "t1": "Beton ist formbar und tragfähig, und im Rohzustand längst nicht mehr nur grau: Die Oberfläche entscheidet, ob er als reine Konstruktion verschwindet oder als Sichtbeton zum gestalterischen Statement wird. Die Ausführungsqualität dieser Oberfläche hängt fast vollständig von der Schalung ab, nicht von der Betonrezeptur allein. Wer Sichtbeton will, plant die Schalung wie ein eigenes Bauteil."
+  },
+  {
+    "id": "kma3sichtbeton",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2beton",
+    "t": "Sichtbeton: Schalung und Ausführungsklassen",
+    "t1": "Sichtbeton wird durch die gewählte Schalhaut geprägt: glatte Stahlschalung, strukturiertes Holz oder Sonderschalungen hinterlassen jeweils eine eigene Handschrift auf der Fläche. Die Ausführungsklasse, mit der Fugenbild, Porigkeit und Farbtongleichheit vereinbart werden, gehört früh in die Ausschreibung, nicht erst zur Bemusterung. Nachträgliche Korrekturen an Sichtbeton sind aufwendig und selten unsichtbar."
+  },
+  {
+    "id": "kma3fertigteil",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2beton",
+    "t": "Betonfertigteile, Oberflächen und Fugen",
+    "t1": "Fertigteile bringen werkseitige Maßgenauigkeit und glatte Untersichten auf die Baustelle, verlangen dafür aber eine frühe, verbindliche Planung, denn Änderungen nach der Produktion sind kaum mehr möglich. Die Fuge zwischen zwei Fertigteilen ist nie unsichtbar zu bekommen und sollte deshalb als gestalterisches Element behandelt werden, nicht als notwendiges Übel. Oberflächen reichen von werkroh bis gestrahlt oder geschliffen und werden am besten am Musterelement entschieden.",
+    "ln": ["kt3beton"]
+  },
+  {
+    "id": "kma2naturstein",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Naturstein und Keramik",
+    "t1": "Naturstein und Keramik sind mineralische Oberflächen mit gegensätzlicher Herkunft, gewachsen und einzigartig der eine, industriell gebrannt und wiederholbar die andere, aber beide langlebig und alterungsarm. Die Wahl zwischen ihnen ist oft eine zwischen Unikat mit Streuung und Industrieprodukt mit Gleichmaß. Beide verlangen eine sorgfältige Prüfung von Frostverhalten, Rutschfestigkeit und Verlegeart vor dem ersten Einsatz."
+  },
+  {
+    "id": "kma3gestein",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2naturstein",
+    "t": "Natursteinarten und ihre Eignung",
+    "t1": "Granit ist hart und frostbeständig, Marmor edel, aber empfindlich gegen Säure, Sandstein porös und pflegeintensiv: Jede Gesteinsart bringt ihr eigenes Anforderungsprofil an Ort und Nutzung mit. Die Herkunft der Platten beeinflusst nicht nur den Farbton, sondern auch die zu erwartende Streuung innerhalb einer Lieferung. Wer Naturstein plant, bemustert immer am realen Los, nie am Katalogbild.",
+    "ln": ["x4bogen"]
+  },
+  {
+    "id": "kma3keramik",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2naturstein",
+    "t": "Keramik und Feinsteinzeug",
+    "t1": "Feinsteinzeug wird bei hohen Temperaturen dicht gebrannt und dadurch besonders wasseraufnahmearm und robust, glasierte Keramik bleibt empfindlicher gegenüber Stößen, aber vielseitiger in Farbe und Glanz. Großformate verändern die Verlegelogik: Sie brauchen ebenere Untergründe und eine andere Klebetechnik als kleinformatige Fliesen. Rutschhemmung und Wasseraufnahme sind die beiden Kennwerte, die vor jeder Verlegung im Nassbereich zu klären sind."
+  },
+  {
+    "id": "kma2metall",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Metalle im Ausbau",
+    "t1": "Stahl trägt und schützt, Edelstahl bleibt beständig, Aluminium ist leicht, Messing und Kupfer altern sichtbar mit Patina: Metalle im Ausbau sind selten reine Konstruktion, sondern fast immer auch Oberfläche. Die Legierung entscheidet über Korrosionsverhalten, Gewicht und Kosten, die Oberflächenbehandlung über das Erscheinungsbild über Jahrzehnte. Wer Metall sichtbar einsetzt, plant seine Alterung mit, nicht nur seinen Neuzustand."
+  },
+  {
+    "id": "kma3stahl",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2metall",
+    "t": "Stahl, Edelstahl und ihre Oberflächen",
+    "t1": "Unlegierter Stahl braucht einen Korrosionsschutz, meist Beschichtung oder Feuerverzinkung, Edelstahl trägt seinen Schutz in der Legierung selbst und bleibt deshalb pflegearm sichtbar. Die Oberflächengüte, von gebürstet bis hochglanzpoliert, verändert nicht nur die Optik, sondern auch die Fingerabdruck- und Kratzempfindlichkeit im Alltag. Für Außenbauteile entscheidet die Legierungsklasse darüber, ob Edelstahl an der Küste überhaupt bestehen bleibt.",
+    "ln": ["kt3stahl"]
+  },
+  {
+    "id": "kma3ne",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2metall",
+    "t": "NE-Metalle: Aluminium, Messing, Kupfer, Zink",
+    "t1": "Aluminium ist leicht und formstabil, läuft aber unbehandelt schnell matt an. Messing und Kupfer verändern ihre Farbe mit der Zeit sichtbar zu einer Patina, die viele bewusst suchen, aber selten in ihrer Geschwindigkeit vorhersehen. Zink deckt Dächer seit Generationen und bildet dabei eine eigene, selbstschützende Oberflächenschicht aus.",
+    "ln": ["e3druecker"]
+  },
+  {
+    "id": "kma2glas",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Glas",
+    "t1": "Glas ist längst kein einfaches Fensterprodukt mehr, sondern ein Baustoff mit eigener Typenvielfalt: Wärmeschutz, Sonnenschutz, Schallschutz und Sicherheit lassen sich einzeln oder kombiniert in den Glasaufbau einbringen. Jede zusätzliche Funktion verändert Aufbau, Gewicht und Lichtdurchlässigkeit der Scheibe. Die Glasauswahl ist deshalb immer eine Abwägung zwischen Funktion und der gewünschten Transparenz."
+  },
+  {
+    "id": "kma3glasart",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2glas",
+    "t": "Glasarten und ihre Eigenschaften",
+    "t1": "Floatglas ist die Basis fast jeder Verglasung, Verbundsicherheitsglas hält im Bruchfall zusammen, Einscheibensicherheitsglas zerfällt in kleine, stumpfe Krümel. Isolierglas kombiniert mehrere Scheiben mit Zwischenraum zu einem Wärmeschutzpaket, dessen Dicke mit jeder zusätzlichen Funktion wächst. Welche Kombination nötig ist, ergibt sich aus Einbauort, Absturzsicherung und den Anforderungen an Wärme oder Schall.",
+    "lnwunsch": ["Fenster und Verglasung: Verglasung (Wärme-, Sonnen-, Schallschutz)"]
+  },
+  {
+    "id": "kma3glasoberfl",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2glas",
+    "t": "Glasveredelung und Bedruckung",
+    "t1": "Beschichtungen machen Glas reflektierend, entspiegelt oder selbstreinigend, ohne dass man ihnen das auf den ersten Blick ansieht. Siebdruck, Ätzung oder Folierung machen aus der transparenten Scheibe ein blickdichtes oder gemustertes Bauteil, oft zur Sichtschutz- oder Absturzsicherungslösung zugleich. Jede Veredelung verändert Lichtdurchlässigkeit und Farbwirkung und sollte deshalb am Musterelement geprüft werden, nicht am Datenblatt."
+  },
+  {
+    "id": "kma2putz",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Putze, Farben, Beschichtungen",
+    "t1": "Putz, Farbe und Beschichtung sind die Materialien, die ein Gebäude am Ende tatsächlich zeigt, unabhängig davon, was darunterliegt. Mineralische Systeme regulieren Feuchte, organische Systeme sind robuster gegen Risse, und beide vertragen sich schlecht miteinander, wenn man sie mischt. Die Systementscheidung, mineralisch oder organisch, gehört deshalb an den Anfang der Fassaden- oder Innenraumplanung, nicht ans Ende."
+  },
+  {
+    "id": "kma3putz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2putz",
+    "t": "Putzsysteme innen und außen",
+    "t1": "Kalk- und Kalkzementputze sind diffusionsoffen und regulieren Raumfeuchte, Kunstharzputze sind widerstandsfähiger, aber dichter und daher anfälliger für Feuchteschäden im falschen Untergrund. Außen entscheidet zusätzlich die Körnung über die Robustheit gegenüber Verschmutzung und Regen. Ein Putzsystem funktioniert nur als Ganzes: Grundputz, Armierung und Oberputz müssen aufeinander abgestimmt sein, nicht einzeln ausgewählt.",
+    "lnwunsch": ["WDVS: Putzsysteme im Wärmedämmverbund"]
+  },
+  {
+    "id": "kma3farbe",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2putz",
+    "t": "Anstriche und Beschichtungen",
+    "t1": "Ein Anstrich ist selten nur Farbe, sondern immer auch eine bauphysikalische Entscheidung: diffusionsoffen oder dicht, matt oder glänzend, jede Eigenschaft wirkt auf den Untergrund darunter zurück. Fassadenfarben müssen zusätzlich UV-Beständigkeit und Algenresistenz mitbringen, Innenfarben vor allem Deckkraft und Abriebfestigkeit. Farbtonkonstanz über eine ganze Fassadenfläche ist ein eigenes Qualitätsthema, das mit der Ausschreibung beginnt.",
+    "ln": ["x4farbe"]
+  },
+  {
+    "id": "kma2kunststoff",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Kunststoffe und Membranen",
+    "t1": "Kunststoffe und Membranen übernehmen im Bau oft unsichtbare, aber entscheidende Aufgaben: abdichten, dämmen, trennen. Ihre Funktion hängt stark von der genauen molekularen Zusammensetzung ab, weshalb zwei ähnlich aussehende Bahnen völlig unterschiedlich diffusionsoffen sein können. Der Umgang mit ihnen verlangt Sorgfalt gerade dort, wo sie nach dem Einbau nicht mehr sichtbar sind."
+  },
+  {
+    "id": "kma3kunststoff",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2kunststoff",
+    "t": "Kunststoffe im Bauteilaufbau",
+    "t1": "PVC, Polyethylen oder Polycarbonat unterscheiden sich stark in Härte, UV-Beständigkeit und Brandverhalten, obwohl sie äußerlich oft ähnlich wirken. Im Innenausbau punkten Kunststoffe mit Pflegeleichtigkeit, im Freien mit Wetterbeständigkeit, aber selten mit derselben Alterungswürde wie klassische Materialien. Recyclingfähigkeit wird zum zunehmend wichtigen Auswahlkriterium neben der reinen Funktion."
+  },
+  {
+    "id": "kma3membran",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2kunststoff",
+    "t": "Membranen und Foliensysteme",
+    "t1": "Dampfbremsen, Dampfsperren und diffusionsoffene Unterdeckbahnen unterscheiden sich in einem einzigen, aber entscheidenden Wert: wie viel Feuchte sie durchlassen. Verwechslungen zwischen diesen Bahnen sind eine der häufigsten Ursachen für Feuchteschäden in Dach- und Wandaufbauten. Membranen wirken nur luftdicht verklebt: eine Naht zu wenig macht die ganze Ebene wirkungslos.",
+    "lnwunsch": ["Abdichtung und Bauphysik im Detail: Luftdichtheit und Dampfdiffusion"]
+  },
+  {
+    "id": "kma2lehm",
+    "p": "k",
+    "lv": 2,
+    "pa": "kma1",
+    "t": "Lehm und alternative Baustoffe",
+    "t1": "Lehm dämmt kaum, speichert aber Feuchte und Wärme und reguliert damit das Raumklima auf eine Weise, die viele mineralische Baustoffe nicht leisten. Neben Lehm rücken weitere nachwachsende oder recycelte Baustoffe in den Fokus, weil sie graue Energie sparen, wo Beton oder Ziegel viel davon binden. Der Umgang mit diesen Materialien verlangt oft ein Umdenken bei Detailausbildung und Zeitplan, nicht nur beim Material selbst."
+  },
+  {
+    "id": "kma3lehmbau",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2lehm",
+    "t": "Lehmbaustoffe und ihre Anwendung",
+    "t1": "Stampflehm, Lehmsteine oder Lehmputz unterscheiden sich in Verarbeitung und Tragfähigkeit stark, eint sie aber die Fähigkeit, Feuchte aufzunehmen und wieder abzugeben, ohne Schaden zu nehmen. Tragende Lehmwände brauchen andere Fundament- und Feuchteschutzdetails als klassisches Mauerwerk, weil aufsteigende Nässe den Baustoff direkt angreift. Lehm verlangt zudem längere Trocknungszeiten im Bauablauf, die früh im Terminplan berücksichtigt werden müssen."
+  },
+  {
+    "id": "kma3alternativ",
+    "p": "k",
+    "lv": 3,
+    "pa": "kma2lehm",
+    "t": "Weitere alternative Baustoffe",
+    "t1": "Stroh, Hanf, Schilf oder recycelte Materialien wie aufbereiteter Abbruchbeton erweitern die Palette jenseits der etablierten, nachwachsenden Baustoffe, oft mit dem Argument geringerer grauer Energie. Viele dieser Baustoffe haben noch keine breite bauaufsichtliche Zulassung und verlangen deshalb Sonderprüfungen oder Einzelfallzustimmungen im Projekt. Wer sie einsetzt, plant den Zulassungsweg von Anfang an mit, nicht als nachträgliche Hürde."
+  }
+]

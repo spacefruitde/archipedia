@@ -1,0 +1,555 @@
+[
+  {
+    "id": "erp1",
+    "p": "e",
+    "lv": 1,
+    "t": "Raum und Proportion",
+    "t1": "Raum wird nicht über seine Fläche erlebt, sondern über das Verhältnis seiner Maße zueinander: Länge zu Breite, Breite zu Höhe. Dieses Verhältnis entscheidet, ob ein Zimmer beengt, großzügig, intim oder repräsentativ wirkt, oft unabhängig von der reinen Quadratmeterzahl. Diese Perspektive versammelt das Wissen um Maßsysteme, Proportion und die Frage, wie offen oder gefasst sich ein Raum anfühlt."
+  },
+  {
+    "id": "erp2mass",
+    "p": "e",
+    "lv": 2,
+    "pa": "erp1",
+    "t": "Raumproportionen und Maßsysteme",
+    "t1": "Von den klassischen Raumproportionen der Renaissance bis zum Modulor: Architekten haben immer wieder versucht, angenehme Raummaße in Zahlenverhältnisse zu fassen. Keines dieser Systeme ist Naturgesetz, aber jedes schärft den Blick für das Zusammenspiel von Länge, Breite und Höhe."
+  },
+  {
+    "id": "erp3verhaeltnis",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2mass",
+    "t": "Seitenverhältnisse und Raumcharakter",
+    "t1": "Ein quadratischer Grundriss wirkt ruhig und zentriert, ein stark gestrecktes Zimmer lenkt Blick und Bewegung in eine Richtung. Schon geringe Verschiebungen im Verhältnis von Länge zu Breite verändern, ob ein Raum als Aufenthaltsort oder als Durchgang gelesen wird.",
+    "lnwunsch": ["Fenster: Fensterproportion und Wandöffnung"]
+  },
+  {
+    "id": "erp3modulor",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2mass",
+    "t": "Maßsysteme: vom Goldenen Schnitt zum Modulor",
+    "t1": "Der Goldene Schnitt, der Modulor Le Corbusiers oder das japanische Tatami Raster sind Versuche, den menschlichen Körper zur Grundlage von Raummaßen zu machen. Ihr Wert liegt weniger in der exakten Zahl als in der Disziplin, Maße nicht beliebig zu setzen, sondern aus einer Logik heraus zu entwickeln.",
+    "lnwunsch": ["Baukörper: serielles Bauen und Modulkoordination"]
+  },
+  {
+    "id": "erp3achsmass",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2mass",
+    "t": "Konstruktionsraster und Achsmaß",
+    "t1": "Viele Raumproportionen sind keine freie Entwurfsentscheidung, sondern Folge eines Konstruktionsrasters: Stützenabstände, Fertigteilbreiten oder serielle Bauweisen setzen ein Achsmaß, dem die Räume folgen müssen. Wer das Raster kennt, entwirft Proportion mit der Konstruktion statt gegen sie.",
+    "lnwunsch": ["Tragwerk: Stützenraster und Spannweite"]
+  },
+  {
+    "id": "erp3wahrnehm",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2mass",
+    "t": "Proportion als Wahrnehmungssache",
+    "t1": "Zwei Räume mit identischer Fläche können völlig unterschiedlich wirken, weil das Auge Verhältnisse liest, keine Quadratmeterzahlen. Diese Wahrnehmungslogik ist der Grund, warum eine Proportionsstudie im Schnitt oder am Modell oft ehrlicher ist als die reine Flächenbilanz."
+  },
+  {
+    "id": "erp2hoehe",
+    "p": "e",
+    "lv": 2,
+    "pa": "erp1",
+    "t": "Raumhöhe als Entwurfsmittel",
+    "t1": "Die Raumhöhe ist das am leichtesten unterschätzte Entwurfsmittel: Sie kostet Volumen und damit Geld, wirkt aber unmittelbar auf Stimmung und Maßstab. Wechselnde Höhen innerhalb eines Hauses gehören zu den wirksamsten Mitteln, eine Raumfolge zu gliedern, ohne eine einzige zusätzliche Wand zu ziehen."
+  },
+  {
+    "id": "erp3standard",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2hoehe",
+    "t": "Normalhöhe und ihre Wirkung",
+    "t1": "Die übliche Geschosshöhe im Wohnungsbau ist ein wirtschaftliches Optimum, kein gestalterisches Ideal: Sie ist so knapp bemessen, dass sie Räume neutral, aber selten großzügig wirken lässt. Wer bewusst darüber oder darunter geht, verlässt diesen neutralen Grundton mit Absicht."
+  },
+  {
+    "id": "erp3hochraum",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2hoehe",
+    "t": "Hohe Räume: Geste und Konsequenz",
+    "t1": "Ein Raum, der deutlich höher ist als üblich, wird allein dadurch zum Höhepunkt einer Raumfolge, noch bevor eine weitere Geste dazukommt. Die Kehrseite ist konstruktiv und energetisch spürbar: Mehr Volumen bedeutet mehr Fassadenfläche, mehr Heizvolumen und oft eine andere Statik.",
+    "ln": ["e3raumhoch"]
+  },
+  {
+    "id": "erp3niedrig",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2hoehe",
+    "t": "Niedrige Zonen als Kompression",
+    "t1": "Eine bewusst abgesenkte Decke vor einem hohen Raum steigert dessen Wirkung, weil der Körper den Wechsel spürt, bevor der Kopf ihn versteht. Diese Kompression ist ein günstiges und oft unterschätztes Mittel, um Übergänge im Grundriss überhaupt erst spürbar zu machen.",
+    "ln": ["esw3sockel"]
+  },
+  {
+    "id": "erp3schnitt",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2hoehe",
+    "t": "Höhenstaffelung im Schnitt",
+    "t1": "Split Level, Galerien oder abgehängte Zonen erzeugen Höhenunterschiede innerhalb eines Geschosses und damit Blickbeziehungen, die ein durchgehend gleich hohes Haus nicht kennt. Der Schnitt wird damit zum eigentlichen Entwurfswerkzeug, nicht allein der Grundriss.",
+    "ln": ["et2skulptur"]
+  },
+  {
+    "id": "erp2offen",
+    "p": "e",
+    "lv": 2,
+    "pa": "erp1",
+    "t": "Offenheit und Fassung",
+    "t1": "Ein Raum kann als klar gefasster Körper gebaut sein oder als offene Zone, die in Nachbarräume ausläuft. Zwischen diesen Polen liegt die Frage, wie viel Begrenzung ein Grundriss überhaupt noch braucht, um als eigener Raum lesbar zu bleiben."
+  },
+  {
+    "id": "erp3fassung",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2offen",
+    "t": "Der gefasste Raum",
+    "t1": "Vier Wände, eine Decke, eine erkennbare Mitte: Der gefasste Raum ist die älteste und robusteste Raumidee überhaupt, weil er unabhängig von Möblierung und Nutzung funktioniert. Seine Stärke ist die Eindeutigkeit, seine Schwäche die Unflexibilität gegenüber wechselnden Ansprüchen."
+  },
+  {
+    "id": "erp3fliess",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2offen",
+    "t": "Der fließende Raum",
+    "t1": "Wo Wände zu Möbeln, Nischen oder bloßen Andeutungen werden, entsteht der fließende Raum: Zonen statt Zimmer, definiert durch Licht, Bodenbelag oder Möblierung statt durch Mauerwerk. Die offene Fläche verlangt dafür eine umso genauere Regie von Blickachsen und Nutzungszonen.",
+    "ln": ["e2artik"]
+  },
+  {
+    "id": "erp3zonier",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2offen",
+    "t": "Zonierung ohne Wand",
+    "t1": "Ein Niveauwechsel, ein Deckensprung, ein anderer Bodenbelag oder ein freistehendes Möbel können einen Bereich ebenso deutlich abgrenzen wie eine Wand, ohne die Durchlässigkeit des Raums zu verlieren. Diese Werkzeuge sind das eigentliche Handwerk des offenen Grundrisses.",
+    "ln": ["eer3nutzflur"]
+  },
+  {
+    "id": "erp3massstab",
+    "p": "e",
+    "lv": 3,
+    "pa": "erp2offen",
+    "t": "Maßstab im offenen Raum",
+    "t1": "Ein großer offener Raum verliert schnell seinen menschlichen Maßstab, wenn ihn keine kleineren, gefassten Zonen rhythmisieren. Die eigentliche Aufgabe ist, Weite zuzulassen und trotzdem Orte zu schaffen, an denen man sich aufhalten will.",
+    "ln": ["et2ort"]
+  },
+  {
+    "id": "eli1",
+    "p": "e",
+    "lv": 1,
+    "t": "Licht",
+    "t1": "Licht ist das einzige Baumaterial, das sich nicht einbauen, sondern nur einladen oder verwehren lässt: Es kommt durch Öffnungen, wird von Oberflächen reflektiert und verändert sich über Tag und Jahreszeit. Kein anderes Entwurfsmittel prägt die Stimmung eines Raums so unmittelbar und so kostenlos."
+  },
+  {
+    "id": "eli2tag",
+    "p": "e",
+    "lv": 2,
+    "pa": "eli1",
+    "t": "Tageslichtführung",
+    "t1": "Tageslicht lässt sich lenken, filtern, stauen oder gezielt an einen Ort führen, über Fensterposition, Raumtiefe, Oberlichter oder reflektierende Flächen. Gute Tageslichtführung ist selten die größte Öffnung, sondern die am klügsten platzierte."
+  },
+  {
+    "id": "eli3seite",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2tag",
+    "t": "Einseitiges Licht und Raumtiefe",
+    "t1": "Licht von nur einer Seite erzeugt einen klaren Hell-Dunkel-Verlauf im Raum, der die hintere Zone spürbar abwertet, sobald die Raumtiefe das Zwei- bis Dreifache der Fensterhöhe überschreitet. Diese einfache Faustregel entscheidet oft schon in der Grundrissphase über die Möblierbarkeit eines Zimmers.",
+    "lnwunsch": ["Fenster: Fensterhöhe und Sturzlogik"]
+  },
+  {
+    "id": "eli3zwei",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2tag",
+    "t": "Licht von zwei Seiten und Eckfenster",
+    "t1": "Zwei gegenüberliegende oder über Eck stehende Lichtquellen heben Schlagschatten auf und lassen einen Raum gleichmäßiger und größer wirken, als es seine Fläche hergibt. Das Eckfenster ist dabei das wirkungsvollste, aber auch konstruktiv anspruchsvollste Mittel.",
+    "lnwunsch": ["Fenster: Eckfenster und Statik"]
+  },
+  {
+    "id": "eli3oben",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2tag",
+    "t": "Oberlicht und Zenitlicht",
+    "t1": "Licht von oben erreicht auch fensterferne Raumtiefen und Innenzonen ohne Außenwand, verhält sich aber im Jahresverlauf und bei direkter Sonne anders als seitliches Licht und braucht deshalb ein eigenes Blendschutzkonzept.",
+    "ln": ["et2licht"]
+  },
+  {
+    "id": "eli3lenk",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2tag",
+    "t": "Lichtlenkung durch Material und Farbe",
+    "t1": "Helle, matte Oberflächen streuen Licht tief in den Raum, dunkle oder glänzende schlucken oder spiegeln es gezielt. Wände und Decken sind damit ein ebenso wirksames Lichtwerkzeug wie das Fenster selbst, und ein deutlich günstigeres.",
+    "lnwunsch": ["Material: Oberflächenreflexion und Putzqualität"]
+  },
+  {
+    "id": "eli3jahreszeit",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2tag",
+    "t": "Lichteinfall im Jahresverlauf",
+    "t1": "Sonnenstand und Tageslänge verändern Lichtqualität und Schattenwurf eines Raums über das Jahr erheblich: Ein Fenster, das im Winter blendet, kann im Sommer beschatten, oder umgekehrt. Wer nur den bequemsten Zeitpunkt prüft, plant am eigentlich kritischen vorbei.",
+    "lnwunsch": ["Fenster: Verschattung und sommerlicher Wärmeschutz"]
+  },
+  {
+    "id": "eli2verh",
+    "p": "e",
+    "lv": 2,
+    "pa": "eli1",
+    "t": "Öffnung und Wand: das Verhältnis",
+    "t1": "Zwischen der geschlossenen Wand und der ganzflächigen Verglasung liegt ein breites Feld an Möglichkeiten, in dem Öffnungsanteil, Format und Position der Fenster über Lichtqualität, Energiebilanz und Privatheit zugleich entscheiden."
+  },
+  {
+    "id": "eli3anteil",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2verh",
+    "t": "Öffnungsanteil und Fassadencharakter",
+    "t1": "Der Anteil verglaster Fläche an der Fassade ist nicht nur eine Energiefrage, er bestimmt auch, ob eine Fassade als massiv oder als leicht gelesen wird. Ein hoher Glasanteil ist keine automatische Qualität, wenn er Blendung und sommerliche Überhitzung erst nachträglich lösen muss.",
+    "lnwunsch": ["Fenster: Glasanteil und U-Wert"]
+  },
+  {
+    "id": "eli3format",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2verh",
+    "t": "Fensterformat: liegend, stehend, raumhoch",
+    "t1": "Ein liegendes Format betont die Horizontale und den Ausblick auf Augenhöhe, ein stehendes Format wirkt zurückhaltender und lässt mehr Wandfläche für Möblierung, ein raumhohes Element löst die Grenze zwischen innen und außen fast auf."
+  },
+  {
+    "id": "eli3wandanteil",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2verh",
+    "t": "Die geschlossene Wand als Gegenpart",
+    "t1": "Wo eine Fassade nur noch aus Öffnungen bestünde, verliert sie ihre Fähigkeit, Rückzug und Geborgenheit anzubieten: Die geschlossene Wandfläche ist kein Rest, sondern eine eigenständige Entscheidung neben dem Fenster.",
+    "ln": ["erp3fassung"]
+  },
+  {
+    "id": "eli3privat",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2verh",
+    "t": "Öffnung und Einsichtnahme",
+    "t1": "Je größer und tiefer eine Öffnung, desto genauer muss geklärt sein, wer von außen hineinsieht und wann. Brüstungshöhe, Verglasungsart und Ausrichtung sind die eigentlichen Stellschrauben, lange bevor ein Vorhang gebraucht wird.",
+    "ln": ["esw3transparenz"]
+  },
+  {
+    "id": "eli2kunst",
+    "p": "e",
+    "lv": 2,
+    "pa": "eli1",
+    "t": "Kunstlicht als Architektur",
+    "t1": "Kunstlicht ist kein Ersatz für Tageslicht, sondern ein eigenes Entwurfsthema: Es kann Architektur nachts neu erzählen, Wege markieren oder Material sichtbar machen, das bei Tag selbstverständlich wirkt."
+  },
+  {
+    "id": "eli3grundlicht",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2kunst",
+    "t": "Grundlicht und Akzentlicht",
+    "t1": "Eine gleichmäßige Grundhelligkeit macht einen Raum benutzbar, aber selten interessant: Erst gezielt gesetztes Akzentlicht auf Wand, Material oder Objekt gibt einem Kunstlichtkonzept eine eigene Architektur.",
+    "lnwunsch": ["Elektro: Lichtplanung und Schaltungskonzept"]
+  },
+  {
+    "id": "eli3indirekt",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2kunst",
+    "t": "Indirektes Licht",
+    "t1": "Licht, das über eine Fläche reflektiert statt direkt zu blenden, wirkt weicher und lässt die Lichtquelle selbst verschwinden. Dieses Prinzip verlangt aber Disziplin in der Detailplanung, sonst wird aus der eleganten Lichtvoute ein sichtbarer Blechkasten.",
+    "lnwunsch": ["Trockenbau: Lichtvouten und Abhangdecken"]
+  },
+  {
+    "id": "eli3fassnacht",
+    "p": "e",
+    "lv": 3,
+    "pa": "eli2kunst",
+    "t": "Fassaden und Wege bei Nacht",
+    "t1": "Ein Gebäude, das bei Nacht nur seine Fenster zeigt, verschwindet im Stadtraum; gezielt beleuchtete Eingänge, Wege oder Fassadenausschnitte geben Orientierung und Sicherheit, ohne den Nachthimmel zu fluten.",
+    "ln": ["eer2ankommen"]
+  },
+  {
+    "id": "eer1",
+    "p": "e",
+    "lv": 1,
+    "t": "Erschließung und Bewegung",
+    "t1": "Erschließung ist mehr als der kürzeste Weg von A nach B: Wie ein Gebäude betreten, durchquert und im Inneren verteilt wird, prägt Adresse, Orientierung und Aufenthaltsqualität gleichermaßen. Zwei Bauteile tragen dieses Thema so stark, dass sie eigene Äste bekommen haben: die Tür als Schwelle jeder Bewegung, die Treppe als deren vertikale Choreographie. Diese Perspektive versammelt das übrige Wissen um Ankommen, Wegeführung und die Räume dazwischen.",
+    "ln": ["e1", "et1"]
+  },
+  {
+    "id": "eer2ankommen",
+    "p": "e",
+    "lv": 2,
+    "pa": "eer1",
+    "t": "Ankommen und Adressbildung",
+    "t1": "Bevor ein Besucher einen Raum betritt, hat er sich längst eine Meinung über das Haus gebildet: Wegeführung, Vorplatz und die Lesbarkeit des Eingangs entscheiden, ob ein Gebäude eine erkennbare Adresse hat oder gesucht werden muss."
+  },
+  {
+    "id": "eer3vorplatz",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2ankommen",
+    "t": "Vorplatz und Ankunftszone",
+    "t1": "Der Bereich unmittelbar vor dem Eingang ist die letzte Außenzone und die erste Geste des Hauses zugleich: Seine Größe, Überdachung und Möblierung signalisieren, ob Besucher willkommen oder nur geduldet sind.",
+    "ln": ["x3tor"]
+  },
+  {
+    "id": "eer3lesbar",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2ankommen",
+    "t": "Die Lesbarkeit des Eingangs",
+    "t1": "Ein Eingang, den man erst suchen muss, ist ein gescheiterter Entwurf, egal wie elegant die Tür selbst gestaltet ist. Materialwechsel, Vordach, Hausnummer oder ein einfacher Wegeknick zum Haus hin reichen oft, um Orientierung ohne Beschilderung herzustellen.",
+    "ln": ["e3portal"]
+  },
+  {
+    "id": "eer3adresse",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2ankommen",
+    "t": "Adressbildung im Geschosswohnungsbau",
+    "t1": "Wo viele Wohnungen einen gemeinsamen Eingang teilen, verlangt Adressbildung eine eigene Choreographie: Vom Haupteingang über Briefkastenwand und Treppenhaus bis zur eigenen Tür muss jede Station erkennbar zur eigenen Adresse gehören, sonst bleibt der Weg anonym.",
+    "lnwunsch": ["Briefkasten- und Klingelanlagen als Adressträger"]
+  },
+  {
+    "id": "eer3barriere",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2ankommen",
+    "t": "Ankommen ohne Hindernis",
+    "t1": "Ein einladender Eingang, der nur über Stufen erreichbar ist, lädt nicht alle ein: Barrierefreies Ankommen ist kein nachträglicher Rampenanbau, sondern eine Frage, die schon in der Wegeführung zum Gebäude beantwortet werden sollte.",
+    "ln": ["kt3rampe", "esw1"]
+  },
+  {
+    "id": "eer2weg",
+    "p": "e",
+    "lv": 2,
+    "pa": "eer1",
+    "t": "Wegeführung, Sequenz, Promenade",
+    "t1": "Ein Weg durch ein Gebäude kann die schnellste Verbindung sein oder eine Erzählung in Etappen: Was man sieht, wann man es sieht, und wo der Weg sich verengt oder weitet, lässt sich ebenso entwerfen wie ein Grundriss selbst."
+  },
+  {
+    "id": "eer3sequenz",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2weg",
+    "t": "Raumfolge als Sequenz",
+    "t1": "Eine Abfolge von Räumen wirkt völlig unterschiedlich, je nachdem, ob sie sich stufenlos steigert, abrupt wechselt oder bewusst Umwege einbaut. Sequenzplanung heißt, den Weg selbst zum Entwurfsgegenstand zu machen, nicht nur sein Ziel.",
+    "ln": ["e2folge"]
+  },
+  {
+    "id": "eer3umweg",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2weg",
+    "t": "Der bewusste Umweg",
+    "t1": "Der kürzeste Weg ist selten der beste: Ein gezielter Umweg an einem Hof, einer Aussicht oder einem Lichtraum vorbei kann ein Gebäude reicher erleben lassen, ohne die Funktion zu stören. Voraussetzung ist, dass man den Grund des Umwegs unterwegs auch versteht.",
+    "ln": ["et2prom"]
+  },
+  {
+    "id": "eer3blick",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2weg",
+    "t": "Blickachsen entlang des Wegs",
+    "t1": "Wer beim Gehen etwas sieht, ein Oberlicht, einen Hof, eine ferne Wand, erlebt den Weg als Ziel und nicht nur als Verbindung. Blickachsen entstehen selten zufällig, sie werden im Schnitt und im Grundriss gemeinsam gezeichnet.",
+    "ln": ["x3platz"]
+  },
+  {
+    "id": "eer3tempo",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2weg",
+    "t": "Wegbreite und Bewegungstempo",
+    "t1": "Ein enger Gang beschleunigt den Schritt, ein breiter Weg lädt zum Verweilen ein: Die Breite einer Erschließung ist damit auch eine Aussage darüber, ob hier gegangen oder verweilt werden soll.",
+    "ln": ["kt3nutz"]
+  },
+  {
+    "id": "eer2flure",
+    "p": "e",
+    "lv": 2,
+    "pa": "eer1",
+    "t": "Flure, die keine Flure sind",
+    "t1": "Der reine Verteilerflur ist die am schlechtesten genutzte Fläche vieler Grundrisse: schmal, fensterlos, ohne eigene Funktion. Wo Erschließungsfläche zusätzlich Aufenthalt, Stauraum oder Ausblick bietet, verliert sie ihren Charakter als bloßer Verkehrsweg."
+  },
+  {
+    "id": "eer3verteiler",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2flure",
+    "t": "Der reine Verteilerflur",
+    "t1": "Ein Flur, der nur verbindet, ist oft das Ergebnis eines Grundrisses, der zuerst die Räume und erst danach die Wege verteilt hat. Wird die Erschließung von Anfang an mitentworfen, verschwindet ein Teil dieser Restfläche von selbst.",
+    "lnwunsch": ["Grundrissorganisation: Wege zuerst statt zuletzt entwerfen"]
+  },
+  {
+    "id": "eer3nutzflur",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2flure",
+    "t": "Erschließung mit Zusatznutzen",
+    "t1": "Ein verbreiterter Gang mit Regal, Sitznische oder Arbeitsplatz verwandelt reine Bewegungsfläche in nutzbaren Raum, ohne die Wohnfläche formal zu erhöhen. Schon wenig zusätzliche Breite reicht oft aus, um aus einem Flur eine Zone zu machen.",
+    "ln": ["erp3zonier"]
+  },
+  {
+    "id": "eer3flurlicht",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2flure",
+    "t": "Licht im Flur",
+    "t1": "Ein fensterloser Innenflur bleibt auch mit bester Kunstlichtplanung ein Angstraum ohne Aufenthaltsqualität; ein Oberlicht, ein verglaster Durchblick zum Nachbarraum oder ein Fenster an der Stirnseite verändert seinen Charakter grundlegend.",
+    "ln": ["eli3oben"]
+  },
+  {
+    "id": "eer3galerie",
+    "p": "e",
+    "lv": 3,
+    "pa": "eer2flure",
+    "t": "Der Flur als Galerie",
+    "t1": "In mehrgeschossigen Häusern kann die Erschließungsebene selbst zum Erlebnis werden, wenn sie sich zu einem Luftraum öffnet oder Ausblick auf angrenzende Ebenen bietet. Aus dem Weg wird dann ein Ort, an dem man sich aufhält, nicht nur vorbeigeht.",
+    "ln": ["et2ort"]
+  },
+  {
+    "id": "esw1",
+    "p": "e",
+    "lv": 1,
+    "t": "Schwelle und Übergang",
+    "t1": "Jeder Wechsel zwischen zwei Zuständen, draußen und drinnen, öffentlich und privat, laut und still, braucht einen Ort, an dem dieser Wechsel stattfindet: die Schwelle. Diese Perspektive behandelt die Schwelle als allgemeines Entwurfsthema, von der Grundstücksgrenze bis zum Übergang zwischen zwei Innenräumen. Das türspezifische Schwellenwissen ist bereits im eigenen Ast vertieft; hier geht es um das Prinzip dahinter.",
+    "ln": ["e2schwelle", "x3tor"]
+  },
+  {
+    "id": "esw2innen",
+    "p": "e",
+    "lv": 2,
+    "pa": "esw1",
+    "t": "Innen und außen",
+    "t1": "Der Übergang zwischen innen und außen ist die älteste und folgenreichste Schwelle der Architektur: Er entscheidet über Klima, Sicherheit und die Frage, wie sehr sich ein Gebäude der Umgebung öffnet oder von ihr abschottet."
+  },
+  {
+    "id": "esw3abrupt",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2innen",
+    "t": "Der abrupte Übergang",
+    "t1": "Eine Wand, eine Tür, ein Schritt, und man ist drin: Der abrupte Übergang ist konstruktiv am einfachsten und klimatisch am sparsamsten, verzichtet aber bewusst auf jede Vermittlung zwischen den Sphären."
+  },
+  {
+    "id": "esw3gestuft",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2innen",
+    "t": "Der gestufte Übergang",
+    "t1": "Vorzone, Windfang, Diele: Wird der Wechsel von außen nach innen in mehrere Stationen zerlegt, entsteht Zeit für das Ankommen und ein klimatischer Puffer, der sich energetisch auszahlt.",
+    "ln": ["e3schwellenr"]
+  },
+  {
+    "id": "esw3fliess",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2innen",
+    "t": "Der fließende Übergang",
+    "t1": "Große Verglasungen, Terrassentüren ohne Schwelle oder ein durchlaufender Bodenbelag lassen innen und außen ineinander übergehen. Der Effekt trägt nur, wenn Abdichtung, Wärmeschutz und Barrierefreiheit ihn technisch mittragen, sonst bleibt es eine Geste mit Folgeschäden.",
+    "ln": ["k4null"]
+  },
+  {
+    "id": "esw3klima",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2innen",
+    "t": "Klimapuffer als Übergangszone",
+    "t1": "Wintergarten, Loggia oder überdachter Vorbereich sind keine bloßen Vorräume, sie sind klimatische Zwischenzonen, die den Wechsel abfedern und zusätzlich nutzbaren Raum schaffen, wenn man sie nicht nur als Restfläche behandelt.",
+    "lnwunsch": ["Fenster: Wintergartenverglasung und Bauphysik"]
+  },
+  {
+    "id": "esw2oeffprivat",
+    "p": "e",
+    "lv": 2,
+    "pa": "esw1",
+    "t": "Öffentlich und privat",
+    "t1": "Nicht jede Grenze zwischen öffentlich und privat ist eine Wand: Ein Vorgarten, eine Stufe, ein anderer Belag können ebenso deutlich signalisieren, wo die Öffentlichkeit endet und das Private beginnt."
+  },
+  {
+    "id": "esw3vorgarten",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2oeffprivat",
+    "t": "Der Vorgarten als weiche Grenze",
+    "t1": "Ein schmaler Vorgarten zwischen Gehweg und Haus ist selten eine Nutzfläche, aber eine wirksame Distanzzone: Er signalisiert Privatbesitz, ohne die Straße auszuschließen, und ist damit eine der ältesten Formen sanfter Abgrenzung.",
+    "lnwunsch": ["Außenanlagen: Einfriedung und Vorgartenordnung"]
+  },
+  {
+    "id": "esw3sockel",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2oeffprivat",
+    "t": "Sockel und Niveauwechsel als Grenze",
+    "t1": "Ein leicht erhöhtes Erdgeschoss oder eine einzelne Stufe zur Haustür markiert Privatheit, ohne dass eine sichtbare Mauer nötig wäre. Der Körper registriert den Niveauwechsel als Grenze, lange bevor der Kopf ihn als solche benennt.",
+    "ln": ["erp3niedrig"]
+  },
+  {
+    "id": "esw3transparenz",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2oeffprivat",
+    "t": "Transparenz als Kontrolle der Öffentlichkeit",
+    "t1": "Wie viel Einblick ein Gebäude von der Straße aus zulässt, ist eine bewusste Entscheidung zwischen Repräsentation und Rückzug: Ein einsehbares Erdgeschoss belebt die Straße, ein blickdichtes schützt die Bewohner, beides ist legitim, solange es gewollt ist.",
+    "ln": ["eli3privat"]
+  },
+  {
+    "id": "esw3gemeinschaft",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2oeffprivat",
+    "t": "Gemeinschaftliche Schwellen im Wohnungsbau",
+    "t1": "Hauseingang, Treppenhaus und Wohnungstür sind drei gestaffelte Schwellen zwischen Stadt und privater Wohnung. Wird eine dieser Stufen übersprungen oder unklar gestaltet, kippt entweder die Sicherheit oder die Gastfreundschaft der Adresse.",
+    "ln": ["kt3raum"]
+  },
+  {
+    "id": "esw2raum",
+    "p": "e",
+    "lv": 2,
+    "pa": "esw1",
+    "t": "Schwellenräume",
+    "t1": "Manche Übergänge brauchen keinen Punkt, sondern einen eigenen Raum: Windfang, Loggia, Laube oder Wintergarten sind Zwischenräume, die weder ganz drinnen noch ganz draußen sind und gerade darin ihren Wert haben."
+  },
+  {
+    "id": "esw3windfang",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2raum",
+    "t": "Windfang und Klimaschleuse",
+    "t1": "Der Windfang ist die pragmatischste Form des Schwellenraums: Er hält Zugluft, Kälte und Lärm vom eigentlichen Innenraum fern und schafft nebenbei eine erste Ablagefläche für Schuhe, Schirme und Pakete.",
+    "ln": ["e3schwellenr"]
+  },
+  {
+    "id": "esw3loggia",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2raum",
+    "t": "Loggia und Laube",
+    "t1": "Anders als der Balkon liegt die Loggia im Baukörper und ist von drei Seiten gefasst: ein Außenraum mit der Geborgenheit eines Innenraums. Sie eignet sich deshalb besonders als Übergang zwischen privater Wohnung und öffentlicher Fassade.",
+    "lnwunsch": ["Balkon und Loggia: Konstruktion und Absturzsicherung"]
+  },
+  {
+    "id": "esw3innenhof",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2raum",
+    "t": "Der Innenhof als introvertierte Schwelle",
+    "t1": "Ein Innenhof kehrt die übliche Schwellenlogik um: Er liegt innerhalb des Gebäudes, ist aber Außenraum, und schafft damit einen geschützten Übergang, der von der Straße aus unsichtbar bleibt.",
+    "lnwunsch": ["Städtebau: Innenhof und Blockrand"]
+  },
+  {
+    "id": "esw3temp",
+    "p": "e",
+    "lv": 3,
+    "pa": "esw2raum",
+    "t": "Saisonale Schwellenräume",
+    "t1": "Ein offener Wintergarten oder eine unbeheizte Veranda ist im Sommer Aufenthaltsraum und im Winter nur noch Pufferzone: Schwellenräume müssen nicht das ganze Jahr gleich funktionieren, um das ganze Jahr sinnvoll zu sein.",
+    "lnwunsch": ["Bauphysik: unbeheizte Pufferzonen und Taupunkt"]
+  }
+]

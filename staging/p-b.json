@@ -1,0 +1,1187 @@
+[
+ {
+  "id": "pav1",
+  "p": "p",
+  "lv": 1,
+  "t": "Ausschreibung und Vergabe",
+  "t1": "Zwischen fertigem Entwurf und Baustelle liegt ein Übersetzungsschritt: Die Leistungsbeschreibung macht aus Plänen eindeutige, vergleichbare Positionen, die Vergabe wählt daraus den passenden Auftragnehmer nach einem nachvollziehbaren Verfahren. Wer hier ungenau bleibt, zahlt später in Nachträgen und Streit. Dieser Ast begleitet den Weg von der Leistungsbeschreibung über die Vertragsordnung und das Vergabeverfahren bis zum Umgang mit Änderungen im Bauablauf.",
+  "ln": [
+   "pbl1"
+  ],
+  "lnwunsch": [
+   "Baurecht: Genehmigungsverfahren als Voraussetzung der Ausschreibung (P3)",
+   "Kosten: Kostenberechnung als Basis des Leistungsverzeichnisses (P4)"
+  ]
+ },
+ {
+  "id": "pav2lb",
+  "p": "p",
+  "lv": 2,
+  "pa": "pav1",
+  "t": "Leistungsbeschreibung und LV",
+  "t1": "Das Leistungsverzeichnis, kurz LV, gliedert ein Bauvorhaben in einzeln beschriebene, mengen und einheitspreisbezogene Positionen und ist damit die Grundlage jedes Angebotsvergleichs. Seine Qualität entscheidet, ob Angebote überhaupt vergleichbar sind oder ob jeder Bieter etwas anderes anbietet. Eine gute Leistungsbeschreibung ist so eindeutig, dass zwei Firmen unabhängig voneinander dasselbe kalkulieren.",
+  "dach": {
+   "de": "Ausschreibungstexte stützen sich meist auf VOB/C mit standardisierten Leistungsbeschreibungstexten als Formulierungshilfe.",
+   "at": "Die standardisierte Leistungsbeschreibung nach ÖNORM A 2063 liefert vergleichbare Textbausteine für öffentliche und private Vergaben.",
+   "ch": "Das Baukostenplan und Positionssystem NPK strukturiert Leistungsverzeichnisse einheitlich nach Bauteilen und Arbeitsgattungen."
+  },
+  "pruefen": [
+   "VOB/C",
+   "ÖNORM A 2063",
+   "NPK"
+  ]
+ },
+ {
+  "id": "pav3funk",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2lb",
+  "t": "Funktional oder detailliert ausschreiben",
+  "t1": "Ein Leistungsverzeichnis kann jede Position einzeln vorgeben, detailliert, oder nur das gewünschte Ergebnis beschreiben und die Lösung dem Bieter überlassen, funktional. Detaillierte Ausschreibung schafft Vergleichbarkeit und Kostensicherheit, funktionale Ausschreibung nutzt das Know how der ausführenden Firmen, verlangt dafür aber eine sehr klare Beschreibung der Anforderungen statt der Lösung.",
+  "dach": {
+   "de": "Neben der klassischen detaillierten Leistungsbeschreibung erlaubt die VOB/A auch das Leistungsprogramm als funktionale Variante, etwa bei Generalunternehmervergaben.",
+   "at": "Standardisierte Leistungsbeschreibungen nach ÖNORM A 2063 sind überwiegend detailliert aufgebaut, funktionale Ausschreibungen bleiben die Ausnahme.",
+   "ch": "Das NPK System ist grundsätzlich auf detaillierte Positionen ausgelegt, funktionale Leistungsbeschreibungen etablieren sich vor allem bei Totalunternehmermodellen."
+  },
+  "pruefen": [
+   "VOB/A",
+   "ÖNORM A 2063",
+   "NPK"
+  ]
+ },
+ {
+  "id": "pav3pos",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2lb",
+  "t": "Positionen, Mengen und Vordersätze",
+  "t1": "Jede LV Position besteht aus einem beschreibenden Text und einer Menge, dem sogenannten Vordersatz, gegen die der Bieter seinen Einheitspreis anbietet. Ungenaue oder falsch ermittelte Mengen sind eine der häufigsten Nachtragsquellen überhaupt, weil sich reale und ausgeschriebene Menge dann unterscheiden. Sorgfältige Mengenermittlung aus dem Plan ist deshalb keine Nebensache, sondern Kernarbeit der Ausschreibung.",
+  "dach": {
+   "de": "Standardisierte Texte aus dem STLB Bau erleichtern die Formulierung, ersetzen aber nicht die projektbezogene Mengenermittlung.",
+   "at": "Das Standardleistungsverzeichnis liefert vorformulierte Positionen, die Mengenermittlung bleibt Aufgabe der Planung.",
+   "ch": "Der NPK gliedert Positionen nach Bauteilen und Arbeitsgattungen und schafft damit eine einheitliche Struktur für Mengenermittlung und Vergleich."
+  },
+  "pruefen": [
+   "STLB",
+   "NPK"
+  ]
+ },
+ {
+  "id": "pav3gaa",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2lb",
+  "t": "Gewerkeaufteilung und Vergabeeinheiten",
+  "t1": "Bevor ausgeschrieben wird, ist zu entscheiden, wie das Projekt in Lose zerschnitten wird: viele Einzelgewerke mit direkter Steuerung durch die Bauleitung oder wenige große Pakete bis hin zum Generalunternehmer mit weniger Koordinationsaufwand, aber weniger Einfluss auf Details. Diese Entscheidung prägt Vergabeverfahren, Bauleitungsaufwand und Risikoverteilung für den Rest des Projekts.",
+  "dach": {
+   "de": "Öffentliche Auftraggeber sind über den Grundsatz der Fach und Teillosvergabe gehalten, mittelständische Betriebe durch kleinere Lose zu beteiligen.",
+   "at": "Das Bundesvergabegesetz verankert ebenfalls den Grundsatz der Losaufteilung zugunsten kleinerer und mittlerer Unternehmen.",
+   "ch": "Beschaffungsrecht auf Bund und Kantonsebene sieht eine Losaufteilung vor, wo dies wirtschaftlich und technisch sinnvoll ist."
+  },
+  "pruefen": [
+   "BVergG",
+   "BöB",
+   "IVöB"
+  ]
+ },
+ {
+  "id": "pav3lv30",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2lb",
+  "t": "Sonderfall Brandschutztüren im LV",
+  "t1": "Zugelassene Bauteile wie Brandschutztüren dürfen im Leistungsverzeichnis nicht bis ins letzte Detail vorgeschrieben werden, weil die Ausführung an die jeweilige Zulassung des Herstellers gebunden ist. Ausgeschrieben wird deshalb die geforderte Leistungsklasse, nicht ein Konstruktionsdetail, sonst widerspricht die Ausschreibung am Ende der tatsächlich lieferbaren, zugelassenen Ware.",
+  "dach": {
+   "de": "Ausgeschrieben wird die Feuerwiderstandsklasse mit Verweis auf die erforderliche bauaufsichtliche Zulassung, nicht ein konkretes Konstruktionsdetail des Herstellers.",
+   "at": "Die Leistungsbeschreibung nennt die geforderte Klassifizierung und die Kennzeichnungspflicht nach den einschlägigen OIB Vorgaben, die Ausführung bleibt der Zulassung des Produkts vorbehalten.",
+   "ch": "Ausgeschrieben wird die geforderte Feuerwiderstandsklasse mit Bezug auf die VKF Anerkennung des Produkts, die konkrete Konstruktion liegt in der Verantwortung des Herstellers."
+  },
+  "pruefen": [
+   "OIB"
+  ],
+  "ln": [
+   "k3kombi",
+   "k4t30z"
+  ]
+ },
+ {
+  "id": "pav2vertrag",
+  "p": "p",
+  "lv": 2,
+  "pa": "pav1",
+  "t": "Bauvertragsordnungen",
+  "t1": "Über dem allgemeinen Vertragsrecht liegt im Bauwesen meist eine spezielle Vertragsordnung, die Fristen, Zahlung, Mängel und Kündigung baupraxisnah regelt und damit Streit vorbeugen soll. Wird sie nicht ausdrücklich vereinbart, gilt allein das allgemeine Zivilrecht, das für die Besonderheiten einer Baustelle oft zu grob geschnitten ist. Welche Ordnung gilt, ist deshalb eine der ersten Fragen jedes Bauvertrags.",
+  "dach": {
+   "de": "Die VOB/B als vereinbartes Klauselwerk ergänzt das allgemeine Bauvertragsrecht des BGB um baupraktische Regelungen zu Fristen, Vergütung und Mängeln.",
+   "at": "Die ÖNORM B 2110 ist die verbreitete Vertragsgrundlage für Bauleistungen und regelt das Verhältnis zwischen Auftraggeber und Auftragnehmer detailliert.",
+   "ch": "Die SIA Norm 118 bildet die Allgemeinen Bedingungen für Bauarbeiten und wird durch ausdrückliche Vereinbarung Vertragsbestandteil."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3preis",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2vertrag",
+  "t": "Vergütungsarten im Vergleich",
+  "t1": "Der Einheitspreisvertrag rechnet nach tatsächlich ausgeführter Menge ab und verteilt das Mengenrisiko zwischen den Parteien, der Pauschalvertrag fixiert einen Festpreis für eine definierte Leistung und verlagert das Mengenrisiko zum Auftragnehmer, der Stundenlohnvertrag eignet sich für schwer kalkulierbare Kleinleistungen. Die Wahl der Vergütungsart ist eine Risikoentscheidung, keine reine Formsache.",
+  "dach": {
+   "de": "Neben dem klassischen Einheitspreisvertrag kennt die VOB/B auch Pauschalvertrag und Stundenlohnarbeiten mit jeweils eigener Abrechnungslogik.",
+   "at": "Die ÖNORM B 2110 unterscheidet ebenfalls Einheitspreis und Pauschalvertrag und regelt die jeweiligen Anpassungsmechanismen bei Mengenabweichungen.",
+   "ch": "Die SIA 118 kennt Einheitspreis, Pauschalpreis und Globalpreis als Vergütungsarten mit unterschiedlicher Risikoverteilung."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3frist",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2vertrag",
+  "t": "Fristen, Verzug und Behinderung",
+  "t1": "Bauzeitpläne sind Vertragsbestandteil, ihre Überschreitung kann Verzug auslösen, aber auch der Auftragnehmer kann durch fehlende Mitwirkung des Auftraggebers behindert sein. Entscheidend ist, wer eine Behinderung wann und wie anzeigt, denn ohne rechtzeitige Anzeige verliert man oft den Anspruch auf Fristverlängerung. Diese Anzeigepflicht ist eine der meistübersehenen Formalien am Bau.",
+  "dach": {
+   "de": "Die VOB/B verlangt eine unverzügliche Behinderungsanzeige als Voraussetzung für spätere Fristverlängerung, das BGB regelt Verzug allgemeiner.",
+   "at": "Die ÖNORM B 2110 sieht eigene Regeln zur Anzeige von Behinderungen und zur Anpassung der Leistungsfrist vor.",
+   "ch": "Die SIA 118 verpflichtet den Unternehmer zur unverzüglichen Anzeige von Hindernissen, sonst drohen Ansprüche zu verfallen."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3zahlung",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2vertrag",
+  "t": "Zahlungsplan und Sicherheiten",
+  "t1": "Abschlagszahlungen nach Baufortschritt halten den Auftragnehmer liquide, ein Sicherheitseinbehalt oder eine Bürgschaft schützt den Auftraggeber vor Mängeln, die erst später sichtbar werden. Wie hoch der Einbehalt ausfällt und wodurch er abgelöst werden kann, gehört früh in den Vertrag, nicht erst in die Schlussrechnung.",
+  "dach": {
+   "de": "Abschlagszahlungen nach Leistungsstand sind über die VOB/B üblich, ein Sicherheitseinbehalt lässt sich meist durch eine Gewährleistungsbürgschaft ablösen.",
+   "at": "Die ÖNORM B 2110 kennt Teilrechnungen und einen Deckungsrücklass, der ebenfalls durch eine Bankgarantie abgelöst werden kann.",
+   "ch": "Nach SIA 118 erfolgen Akontozahlungen nach Baufortschritt, Garantien sichern spätere Gewährleistungsansprüche."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3kuend",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2vertrag",
+  "t": "Kündigung und vorzeitige Vertragsbeendigung",
+  "t1": "Bauverträge lassen sich, anders als viele andere Verträge, oft auch ohne wichtigen Grund kündigen, dann aber gegen Vergütung der bereits erbrachten und teils auch der entgangenen Leistung. Daneben steht die Kündigung aus wichtigem Grund, etwa bei gravierenden Mängeln oder Zahlungsverzug. Beide Wege unterscheiden sich stark in ihren finanziellen Folgen.",
+  "dach": {
+   "de": "Das BGB erlaubt die freie Kündigung gegen Vergütung, die VOB/B ergänzt eigene Kündigungsgründe für besondere Bausituationen.",
+   "at": "Die ÖNORM B 2110 regelt die Auflösung des Vertrags aus wichtigem Grund und die Abrechnung bei vorzeitiger Beendigung eigenständig.",
+   "ch": "Die SIA 118 kennt den Rücktritt des Bauherrn und die Auflösung aus wichtigem Grund mit jeweils eigener Abrechnungsregel."
+  },
+  "pruefen": [
+   "BGB",
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav2verg",
+  "p": "p",
+  "lv": 2,
+  "pa": "pav1",
+  "t": "Öffentliche Vergabe",
+  "t1": "Öffentliche Auftraggeber dürfen Bauleistungen nicht frei nach Sympathie vergeben, sondern müssen ein geregeltes Verfahren durchlaufen, das Transparenz, Gleichbehandlung und Wirtschaftlichkeit sichert. Oberhalb bestimmter Auftragswerte greift zusätzlich europäisches Vergaberecht. Für Planende bedeutet das: Verfahren, Fristen und Dokumentation sind so verbindlich wie die Bauausführung selbst.",
+  "dach": {
+   "de": "Oberhalb der EU Schwellenwerte gilt die Vergabeverordnung VgV, darunter die Unterschwellenvergabeordnung UVgO der Länder und Kommunen.",
+   "at": "Das Bundesvergabegesetz BVergG bildet den einheitlichen Rahmen für öffentliche Vergaben unabhängig vom Schwellenwert.",
+   "ch": "Das Beschaffungswesen des Bundes richtet sich nach dem BöB, Kantone und Gemeinden nach der interkantonalen Vereinbarung IVöB."
+  },
+  "pruefen": [
+   "VgV",
+   "UVgO",
+   "BVergG",
+   "BöB",
+   "IVöB"
+  ],
+  "lnwunsch": [
+   "Honorar und Vertrag: Vergabeverfahren für Planungsleistungen selbst (P2)"
+  ]
+ },
+ {
+  "id": "pav3verfahren",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2verg",
+  "t": "Vergabeverfahren im Überblick",
+  "t1": "Das offene Verfahren lädt unbeschränkt zur Angebotsabgabe ein, das nicht offene und das Verhandlungsverfahren schränken den Bieterkreis vorab ein oder erlauben Nachverhandlung. Welches Verfahren zulässig ist, hängt vom Auftragswert und von sachlichen Gründen ab, es ist keine freie Wahl des Auftraggebers.",
+  "dach": {
+   "de": "VgV und UVgO unterscheiden offenes Verfahren, nicht offenes Verfahren, Verhandlungsverfahren und weitere Sonderformen mit jeweils eigenen Zulässigkeitsvoraussetzungen.",
+   "at": "Das BVergG kennt ebenfalls offenes, nicht offenes und Verhandlungsverfahren sowie die Direktvergabe für kleinere Aufträge.",
+   "ch": "BöB und IVöB unterscheiden offenes, selektives und Einladungsverfahren sowie den freihändigen Zuschlag für geringe Auftragswerte."
+  },
+  "pruefen": [
+   "VgV",
+   "UVgO",
+   "BVergG",
+   "BöB",
+   "IVöB"
+  ]
+ },
+ {
+  "id": "pav3eign",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2verg",
+  "t": "Eignung und Zuschlagskriterien",
+  "t1": "Vergabeverfahren trennen zwei Fragen strikt: Ist der Bieter überhaupt geeignet, fachkundig, leistungsfähig, zuverlässig, und welches der geeigneten Angebote bekommt den Zuschlag. Der Zuschlag muss nicht zwingend an das billigste Angebot gehen, sondern an das wirtschaftlichste, in das auch Qualität und Ausführungskonzept einfließen können.",
+  "dach": {
+   "de": "Nach VgV wird zwischen Eignungsprüfung und Zuschlag nach dem wirtschaftlichsten Angebot unterschieden, das reine Preiskriterium ist die Ausnahme.",
+   "at": "Das BVergG trennt ebenso Eignung und Angebotsbewertung und lässt neben dem Preis weitere Zuschlagskriterien ausdrücklich zu.",
+   "ch": "BöB und IVöB verlangen eine Eignungsprüfung vor der Bewertung und öffnen die Zuschlagskriterien ausdrücklich für Qualität neben dem Preis."
+  },
+  "pruefen": [
+   "VgV",
+   "BVergG",
+   "BöB",
+   "IVöB"
+  ]
+ },
+ {
+  "id": "pav3schwell",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2verg",
+  "t": "Schwellenwerte und Losgrenzen",
+  "t1": "Ob ein Auftrag europaweit oder nur national ausgeschrieben werden muss, entscheidet sein geschätzter Wert im Vergleich zu festgelegten Schwellenwerten. Wird ein Vorhaben künstlich in kleinere Lose zerlegt, um darunter zu bleiben, ist das unzulässig und als Umgehung angreifbar.",
+  "dach": {
+   "de": "Oberhalb der EU Schwellenwerte greift die VgV, unterhalb regeln Länder und Kommunen die Vergabe meist über die UVgO.",
+   "at": "Das BVergG differenziert zwischen Ober und Unterschwellenbereich mit jeweils eigenen Verfahrensanforderungen.",
+   "ch": "BöB und IVöB legen eigene Schwellenwerte fest, ab denen das offene oder selektive Verfahren zwingend wird."
+  },
+  "pruefen": [
+   "VgV",
+   "UVgO",
+   "BVergG",
+   "BöB",
+   "IVöB"
+  ]
+ },
+ {
+  "id": "pav3nachpr",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2verg",
+  "t": "Nachprüfung und Vergaberechtsschutz",
+  "t1": "Fühlt sich ein Bieter benachteiligt, kann er das Verfahren rügen und notfalls von einer Nachprüfungsinstanz überprüfen lassen. Wer zu spät rügt, verliert dieses Recht meist unabhängig davon, ob die Rüge inhaltlich berechtigt gewesen wäre. Für Auftraggeber heißt das: sauber dokumentieren, von der ersten Bekanntmachung an.",
+  "dach": {
+   "de": "Vergabekammern prüfen auf Antrag die Rechtmäßigkeit eines Verfahrens, eine unverzügliche Rüge ist meist Voraussetzung dafür.",
+   "at": "Das Bundesverwaltungsgericht entscheidet über Nachprüfungsanträge im Vergaberecht, auch hier gilt eine Rügeobliegenheit.",
+   "ch": "Beschwerdeinstanzen von Bund und Kantonen prüfen Vergabeentscheide auf Antrag innerhalb kurzer Fristen."
+  },
+  "pruefen": [
+   "BVergG"
+  ]
+ },
+ {
+  "id": "pav2nachtrag",
+  "p": "p",
+  "lv": 2,
+  "pa": "pav1",
+  "t": "Nachtragsmanagement",
+  "t1": "Kaum ein Bauvertrag kommt ohne Nachträge aus, weil sich Planung, Bestand und Bauablauf während der Ausführung fast immer verändern. Entscheidend ist nicht, Nachträge zu verhindern, sondern sie sauber zu erkennen, zu prüfen und zeitnah zu vereinbaren, bevor sie sich zu einem unübersichtlichen Streitpaket auftürmen. Gute Nachtragskultur beginnt mit einer präzisen Ursprungsausschreibung.",
+  "dach": {
+   "de": "Anspruchsgrundlage für Nachträge sind meist geänderte oder zusätzliche Leistungen im Sinn der VOB/B beziehungsweise die Regeln des BGB Bauvertragsrechts.",
+   "at": "Die ÖNORM B 2110 regelt Mehr und Minderleistungen sowie deren Preisermittlung als eigenständiges Kapitel des Vertrags.",
+   "ch": "Die SIA 118 enthält eigene Bestimmungen zu Zusatzleistungen und deren Vergütung, die von den ursprünglich vereinbarten Preisen ausgehen."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3ursache",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2nachtrag",
+  "t": "Typische Nachtragsursachen",
+  "t1": "Die häufigsten Auslöser sind Planänderungen während der Ausführung, Abweichungen zwischen Bestand und Planungsannahme sowie ein gestörter, verzögerter Bauablauf mit Folgekosten für alle Beteiligten. Wer diese drei Ursachen kennt, erkennt Nachtragspotenzial schon in der Ausschreibung, nicht erst auf der Rechnung.",
+  "dach": {
+   "de": "Rechtlich wird meist zwischen geänderten Leistungen, zusätzlichen Leistungen und Folgen gestörten Bauablaufs unterschieden, mit jeweils eigener Anspruchsgrundlage nach VOB/B.",
+   "at": "Die ÖNORM B 2110 unterscheidet Mehrleistungen, geänderte Leistungen und Behinderungsfolgen mit eigenen Regeln zur Anspruchsermittlung.",
+   "ch": "Die SIA 118 differenziert Zusatzleistungen von Folgen gestörten Bauablaufs, beides mit eigener Nachweispflicht des Unternehmers."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3anspr",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2nachtrag",
+  "t": "Anspruch dem Grunde und der Höhe nach",
+  "t1": "Ein Nachtrag wird in zwei Schritten geprüft: Besteht überhaupt ein Anspruch, dem Grunde nach, und wenn ja, in welcher Höhe. Wer beide Fragen vermischt, verhandelt am Ende über Zahlen, obwohl der Grund noch strittig ist. Saubere Nachtragsprüfung trennt diese Schritte konsequent.",
+  "dach": {
+   "de": "Die Prüfung folgt der VOB/B Systematik aus Anspruchsgrund und Preisermittlung, oft anhand der Urkalkulation des Auftragnehmers.",
+   "at": "Nach ÖNORM B 2110 ist zunächst die vertragliche Grundlage des Mehranspruchs zu klären, erst danach die Preisfindung.",
+   "ch": "Die SIA 118 verlangt ebenfalls den Nachweis der Berechtigung, bevor über die Höhe der Vergütung verhandelt wird."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3preisfort",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2nachtrag",
+  "t": "Preisfortschreibung bei Änderungen",
+  "t1": "Für geänderte Leistungen wird kein neuer Preis frei erfunden, sondern aus der ursprünglichen Kalkulation des Auftragnehmers fortgeschrieben, damit das ursprüngliche Preisniveau erhalten bleibt. Genau deshalb ist die Urkalkulation, so lästig ihre frühzeitige Anforderung erscheint, im Streitfall Gold wert.",
+  "dach": {
+   "de": "Die VOB/B verlangt die Fortschreibung der Preise aus der Urkalkulation, um das ursprünglich vereinbarte Preisniveau fortzuführen.",
+   "at": "Die ÖNORM B 2110 stützt die Preisfindung bei Mehrleistungen auf die vereinbarten Einheitspreise und deren Kalkulationsgrundlagen.",
+   "ch": "Nach SIA 118 werden Nachtragspreise grundsätzlich aus den vertraglich vereinbarten Ansätzen abgeleitet."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pav3streit",
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2nachtrag",
+  "t": "Umgang mit strittigen Nachträgen",
+  "t1": "Nicht jeder Nachtrag lässt sich einvernehmlich klären, gerade wenn der Anspruch dem Grunde nach umstritten ist. Wichtig ist, weiterzubauen und parallel sauber zu dokumentieren, statt die Baustelle wegen eines einzelnen Nachtrags stillstehen zu lassen. Eskalation in klar gestuften Schritten schützt Termine und Beziehung gleichermaßen.",
+  "dach": {
+   "de": "Bleibt eine Einigung aus, folgt meist der Weg über Schiedsgutachten oder ordentliche Gerichte, eine förmliche Schlichtungsstelle fehlt im Regelfall.",
+   "at": "Die ÖNORM B 2110 sieht eine eigene Schlichtungsstelle als vorgeschaltete Instanz vor der Klage vor.",
+   "ch": "Die SIA 118 empfiehlt Schlichtungsverfahren, bevor ein Streit vor ein staatliches Gericht oder Schiedsgericht gebracht wird."
+  },
+  "pruefen": [
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl1",
+  "p": "p",
+  "lv": 1,
+  "t": "Bauleitung und Qualität",
+  "t1": "Mit Baubeginn wechselt die Aufgabe von der Ausschreibung zur Aufsicht: Bauleitung heißt, Termine, Kosten und Ausführungsqualität parallel zu steuern und am Ende eine Leistung förmlich abzunehmen. Von dieser Abnahme hängen Gewährleistung und Verjährung ab, weshalb sie einer der folgenreichsten Momente im ganzen Projekt ist. Dieser Ast begleitet Überwachung, Abnahme, Gewährleistung und Mängelmanagement als zusammenhängende Kette.",
+  "ln": [
+   "pav1"
+  ]
+ },
+ {
+  "id": "pbl2bau",
+  "p": "p",
+  "lv": 2,
+  "pa": "pbl1",
+  "t": "Bauüberwachung und Dokumentation",
+  "t1": "Bauüberwachung heißt, die Ausführung fortlaufend mit Plan und Vertrag abzugleichen, Fehler früh zu erkennen statt sie nach Fertigstellung aufzudecken. Ohne durchgehende Dokumentation, Bautagebuch, Protokolle, Fotos, ist im Streitfall kaum zu beweisen, was wann auf der Baustelle tatsächlich geschah. Wer schlecht dokumentiert, verliert im Zweifel auch dann, wenn er inhaltlich recht hatte.",
+  "dach": {
+   "de": "Die Objektüberwachung entspricht der Leistungsphase 8, ihr Umfang wird über das Honorarrecht der Planenden mitgeprägt, die Anordnungsbefugnis regelt die VOB/B.",
+   "at": "Die örtliche Bauaufsicht ist Ländersache und wird durch Landesbauordnungen sowie durch die ÖNORM B 2110 im Vertragsverhältnis konkretisiert.",
+   "ch": "Die Bauleitung zählt zu den Grundleistungen nach SIA Ordnung, ihre vertraglichen Befugnisse regelt die SIA 118."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3tageb",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2bau",
+  "t": "Bautagebuch und Baustellendokumentation",
+  "t1": "Das Bautagebuch hält Wetter, Personal, Geräte, besondere Vorkommnisse und Baufortschritt tagesgenau fest und wird oft erst Monate später wichtig, wenn ein Nachtrag oder ein Bauzeitstreit belegt werden muss. Konsequent geführt ist es das billigste Beweismittel, das eine Baustelle hat.",
+  "dach": {
+   "de": "Eine Formvorschrift für das Bautagebuch gibt es nicht, in der Praxis hat es sich als Beweismittel im Rahmen der VOB/B Abwicklung fest etabliert.",
+   "at": "Bautagebücher werden häufig nach standardisierten Formularen geführt, die sich an der ÖNORM B 2110 orientieren.",
+   "ch": "Nach SIA 118 gehört die Führung eines Bauprotokolls zu den üblichen Pflichten der Bauleitung."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3besprech",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2bau",
+  "t": "Baubesprechung und Protokollführung",
+  "t1": "Regelmäßige Baubesprechungen sind der Ort, an dem Entscheidungen fallen, oft mündlich und unter Zeitdruck. Erst das Protokoll macht diese Entscheidungen belastbar, deshalb sollte es zeitnah verteilt werden und ein Widerspruchsrecht mit klarer Frist enthalten, sonst gilt am Ende, was zuletzt unwidersprochen im Protokoll stand.",
+  "dach": {
+   "de": "Eine gesetzliche Pflicht zur Protokollierung besteht nicht, üblich ist eine Widerspruchsfrist, die sich an der VOB/B Praxis orientiert.",
+   "at": "Die ÖNORM B 2110 sieht ausdrücklich vor, wie Besprechungsprotokolle zu behandeln sind und wann ihnen widersprochen werden kann.",
+   "ch": "Nach SIA 118 gilt ein Bauprotokoll als Vertragsdokument, sobald es unwidersprochen bleibt."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3anordnung",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2bau",
+  "t": "Anordnungsrecht und Bedenkenanzeige",
+  "t1": "Die Bauleitung darf Anordnungen zur Ausführung treffen, die ausführende Firma muss diesen grundsätzlich folgen, darf und muss aber Bedenken anmelden, wenn sie Fehler in Plan oder Vorleistung erkennt. Diese Bedenkenanzeige schützt beide Seiten: die Firma vor Haftung, die Bauleitung vor einem übersehenen Fehler.",
+  "dach": {
+   "de": "Die VOB/B gibt dem Auftraggeber ein Anordnungsrecht und verpflichtet den Auftragnehmer im Gegenzug zur unverzüglichen Bedenkenanzeige.",
+   "at": "Die ÖNORM B 2110 kennt vergleichbare Anzeigepflichten des Auftragnehmers bei erkannten Mängeln der Vorgaben.",
+   "ch": "Die SIA 118 verpflichtet den Unternehmer zur Anzeige erkannter Mängel an Plänen oder Vorleistungen, bevor er weiterbaut."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3qualsich",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2bau",
+  "t": "Bemusterung und Prüfpläne",
+  "t1": "Bemusterung legt vorab fest, wie eine Ausführung konkret aussehen und sich anfühlen soll, Prüfpläne legen fest, was während der Ausführung wann kontrolliert wird. Beides verhindert, dass Qualität erst am fertigen Bauteil diskutiert wird, wenn eine Korrektur schon teuer ist. Besonders bei sicherheitsrelevanten oder zugelassenen Bauteilen gehört die Kontrolle auf der Baustelle selbst dazu, nicht nur die Abnahme am Ende.",
+  "dach": {
+   "de": "Für zugelassene Bauteile gehört die Kontrolle des Kennzeichnungsschilds zur laufenden Bauüberwachung, unabhängig von der allgemeinen VOB/B Abwicklung.",
+   "at": "Bemusterungen werden häufig im Bauzeitplan verankert und über die ÖNORM B 2110 vertraglich eingefordert.",
+   "ch": "Prüfpläne und Bemusterungen sind übliche Instrumente der Bauleitung nach SIA 118, ihre Ergebnisse werden protokolliert."
+  },
+  "pruefen": [
+   "ÖNORM B 2110",
+   "SIA 118"
+  ],
+  "ln": [
+   "k4t30z",
+   "kt3nutz"
+  ]
+ },
+ {
+  "id": "pbl2abnahme",
+  "p": "p",
+  "lv": 2,
+  "pa": "pbl1",
+  "t": "Abnahme und ihre Rechtsfolgen",
+  "t1": "Die Abnahme ist der Moment, in dem der Auftraggeber die Leistung als im Wesentlichen vertragsgemäß anerkennt, und sie ist ein Wendepunkt mit weitreichenden Folgen: Gefahr und Beweislast wechseln, die Vergütung wird fällig, die Gewährleistungsfrist beginnt zu laufen. Wer eine mangelhafte Leistung ohne Vorbehalt abnimmt, verschlechtert seine eigene Position erheblich.",
+  "dach": {
+   "de": "Die Abnahme regeln BGB und VOB/B, sie kann förmlich, durch schlüssiges Verhalten oder unter bestimmten Voraussetzungen auch fiktiv erfolgen.",
+   "at": "Der vergleichbare Vorgang heißt Übernahme und wird nach ÖNORM B 2110 förmlich mit Protokoll durchgeführt.",
+   "ch": "Die SIA 118 kennt die förmliche Abnahme sowie die Vermutung der Abnahme bei vorbehaltloser Ingebrauchnahme des Werks."
+  },
+  "pruefen": [
+   "BGB",
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ],
+  "ln": [
+   "pav2vertrag"
+  ]
+ },
+ {
+  "id": "pbl3form",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2abnahme",
+  "t": "Abnahmeformen: förmlich, konkludent, fiktiv",
+  "t1": "Neben der klassischen, mit Termin und Protokoll durchgeführten Abnahme gibt es die stillschweigende Abnahme durch schlüssiges Verhalten, etwa Nutzung ohne Beanstandung, und in manchen Konstellationen sogar eine fiktive Abnahme allein durch Zeitablauf. Wer eine förmliche Abnahme will, sollte das im Vertrag ausdrücklich vereinbaren, statt es dem Zufall zu überlassen.",
+  "dach": {
+   "de": "Neben der förmlichen Abnahme nach VOB/B kennt das BGB die stillschweigende und unter Voraussetzungen die fiktive Abnahme.",
+   "at": "Die ÖNORM B 2110 sieht primär die förmliche Übernahme mit Protokoll vor, daneben ist auch eine Zwischenfeststellung möglich.",
+   "ch": "Nach SIA 118 gilt eine förmliche Abnahme als Regelfall, die widerspruchslose Ingebrauchnahme kann als Abnahme gewertet werden."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3vorbehalt",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2abnahme",
+  "t": "Mängelvorbehalt bei der Abnahme",
+  "t1": "Ein bei der Abnahme bereits bekannter Mangel muss ausdrücklich vorbehalten werden, sonst drohen dafür später Ansprüche zu entfallen oder sich zumindest deutlich zu verschlechtern. Deshalb gehört zu jeder Abnahmebegehung eine sorgfältige, schriftliche Mängelliste, nicht nur ein Kopfnicken vor Ort.",
+  "dach": {
+   "de": "Nimmt der Auftraggeber einen bekannten Mangel ohne Vorbehalt ab, gefährdet das nach VOB/B Systematik spätere Ansprüche wegen genau dieses Mangels.",
+   "at": "Die ÖNORM B 2110 verlangt die Aufnahme bekannter Mängel in das Übernahmeprotokoll, sonst drohen Rechtsnachteile.",
+   "ch": "Nach SIA 118 sind erkennbare Mängel bei der Abnahme zu rügen, ansonsten gelten sie als genehmigt."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3rechtsfolgen",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2abnahme",
+  "t": "Rechtsfolgen der Abnahme",
+  "t1": "Mit der Abnahme kippt die Beweislast: Vorher muss der Auftragnehmer die Mangelfreiheit beweisen, danach der Auftraggeber den Mangel. Gleichzeitig geht die Gefahr des zufälligen Untergangs über, die Vergütung wird fällig und die Verjährung von Mängelansprüchen beginnt zu laufen. Diese vier Folgen zusammen machen die Abnahme zum wichtigsten Stichtag eines Bauvertrags.",
+  "dach": {
+   "de": "Gefahrübergang, Beweislastumkehr und Fälligkeit der Vergütung treten nach VOB/B und BGB gleichermaßen mit der Abnahme ein.",
+   "at": "Nach ÖNORM B 2110 setzt die Übernahme vergleichbare Wirkungen in Gang, insbesondere den Beginn der Gewährleistungsfrist.",
+   "ch": "Die SIA 118 knüpft an die Abnahme ebenfalls Gefahrübergang und den Beginn der Garantiefrist."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3teilabnahme",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2abnahme",
+  "t": "Teilabnahme und Zwischenabnahmen",
+  "t1": "Bei langen oder in Bauabschnitte gegliederten Projekten lässt sich die Abnahme aufteilen, sodass fertige Teile schon vor Gesamtfertigstellung förmlich abgenommen werden. Das setzt für diese Teile bereits Fristen und Rechtsfolgen in Gang und kann sinnvoll sein, wenn ein Bauabschnitt genutzt werden soll, während andere noch laufen.",
+  "dach": {
+   "de": "Teilabnahmen sind über die VOB/B möglich, sofern in sich abgeschlossene Teile der Leistung vorliegen und dies vereinbart wurde.",
+   "at": "Die ÖNORM B 2110 erlaubt Teilübernahmen für abgrenzbare Leistungsteile mit eigenen Rechtsfolgen.",
+   "ch": "Nach SIA 118 können Teile eines Werks vorzeitig abgenommen werden, wenn sie selbständig nutzbar sind."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl2gewaehr",
+  "p": "p",
+  "lv": 2,
+  "pa": "pbl1",
+  "t": "Gewährleistung und Verjährungsfristen",
+  "t1": "Nach der Abnahme beginnt die Zeit, in der der Auftragnehmer für Mängel einzustehen hat, doch Dauer, Beginn und Systematik dieser Frist unterscheiden sich zwischen den drei Ländern spürbar. Wer grenzüberschreitend oder länderübergreifend berät, darf hier keine Systematik unbesehen übertragen. Diese Frist zu kennen gehört zur Grundausstattung jeder Projektsteuerung.",
+  "dach": {
+   "de": "Die Gewährleistung folgt dem BGB Werkvertragsrecht beziehungsweise der VOB/B, mit eigener Systematik für bewegliche und feste Bauteile.",
+   "at": "Das österreichische Recht trennt Gewährleistung wegen Sachmängeln und Schadenersatz als zwei eigenständige Anspruchssysteme, die ÖNORM B 2110 konkretisiert die Vertragspraxis.",
+   "ch": "Das Obligationenrecht bildet die gesetzliche Grundlage, die SIA 118 ergänzt eigene Garantiefristen und eine strenge Rügeobliegenheit."
+  },
+  "pruefen": [
+   "BGB",
+   "VOB/B",
+   "ÖNORM B 2110",
+   "OR",
+   "SIA 118"
+  ],
+  "lnwunsch": [
+   "Baurecht: Nutzungsuntersagung bei sicherheitsrelevanten Mängeln (P3)"
+  ]
+ },
+ {
+  "id": "pbl3frist",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2gewaehr",
+  "t": "Regelfristen im Vergleich",
+  "t1": "Alle drei Länder kennen mehrjährige Fristen für Baumängel, doch die Systematik dahinter unterscheidet sich: mal eine einzige Regelfrist, mal getrennte Fristen für Sachmängel und Schadenersatz, mal unterschiedliche Fristen für bewegliche und fest verbundene Teile. Die konkrete Frist eines Projekts lässt sich deshalb nur im jeweiligen Vertrag und Rechtssystem verlässlich bestimmen, nie pauschal.",
+  "dach": {
+   "de": "Das BGB kennt eine Regelfrist für Bauwerke, die VOB/B erlaubt davon abweichende, meist kürzere vertragliche Fristen.",
+   "at": "Das österreichische Gewährleistungsrecht und das Schadenersatzrecht laufen mit eigener Fristensystematik nebeneinander, die ÖNORM B 2110 konkretisiert die vertragliche Anwendung.",
+   "ch": "Das Obligationenrecht und die SIA 118 kennen eigene, vom deutschen und österreichischen System abweichende Garantiefristen."
+  },
+  "pruefen": [
+   "BGB",
+   "VOB/B",
+   "ÖNORM B 2110",
+   "OR",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3ruege",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2gewaehr",
+  "t": "Rügeobliegenheit und Anzeigefristen",
+  "t1": "Wer einen Mangel entdeckt, muss ihn anzeigen, und zwar in manchen Rechtssystemen sehr rasch, sonst verliert er seine Ansprüche unabhängig davon, wie gravierend der Mangel ist. Diese Rügeobliegenheit trifft besonders im gewerblichen Verkehr hart und wird in der Praxis regelmäßig unterschätzt.",
+  "dach": {
+   "de": "Im Verbraucherbau ist die Rügeobliegenheit milder ausgestaltet als im gewerblichen Bereich, wo die VOB/B strengere Anzeigepflichten kennt.",
+   "at": "Die ÖNORM B 2110 verlangt eine Anzeige von Mängeln innerhalb angemessener Frist nach Entdeckung.",
+   "ch": "Das Obligationenrecht und die SIA 118 verlangen eine unverzügliche Mängelrüge, verspätete Rügen lassen Ansprüche regelmäßig entfallen."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "OR",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3verjaehr",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2gewaehr",
+  "t": "Verjährungsbeginn und Hemmung",
+  "t1": "Die Uhr der Gewährleistungsfrist beginnt regelmäßig mit der Abnahme zu laufen, kann aber durch eine Mängelrüge oder eine laufende Nachbesserung gehemmt werden, sodass sich die Frist entsprechend verlängert. Wer das nicht dokumentiert, verliert im Streitfall den Nachweis, dass die Frist tatsächlich gehemmt war.",
+  "dach": {
+   "de": "Nach BGB und VOB/B beginnt die Verjährung mit Abnahme, eine Nacherfüllung kann die Verjährung neu in Gang setzen oder hemmen.",
+   "at": "Die Gewährleistungsfrist beginnt mit der Übernahme nach ÖNORM B 2110, Verbesserungsversuche können den Fristlauf beeinflussen.",
+   "ch": "Nach SIA 118 beginnt die Garantiefrist mit der Abnahme, eine Nachbesserung kann für den nachgebesserten Teil eine neue Frist auslösen."
+  },
+  "pruefen": [
+   "BGB",
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3sicherh",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2gewaehr",
+  "t": "Gewährleistungssicherheit und Einbehalt",
+  "t1": "Damit Mängel, die erst nach Jahren sichtbar werden, nicht am fehlenden Geld scheitern, wird oft ein Teil der Vergütung einbehalten oder durch eine Bürgschaft ersetzt, die über die gesamte Gewährleistungsfrist läuft. Für den Auftragnehmer bindet das Kapital, für den Auftraggeber ist es die wichtigste Sicherheit nach der Abnahme.",
+  "dach": {
+   "de": "Üblich ist eine Gewährleistungsbürgschaft, die den sonst fälligen Sicherheitseinbehalt nach VOB/B ablöst.",
+   "at": "Nach ÖNORM B 2110 wird häufig ein Haftrücklass vereinbart, der durch eine Bankgarantie ersetzt werden kann.",
+   "ch": "Die SIA 118 sieht einen Garantierückbehalt vor, der ebenfalls gegen eine Garantie ausgetauscht werden kann."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl2maengel",
+  "p": "p",
+  "lv": 2,
+  "pa": "pbl1",
+  "t": "Mängelmanagement",
+  "t1": "Ein Mangel wird erst durch den Umgang mit ihm zum Problem oder zur Routine: sauber rügen, angemessene Frist zur Nachbesserung setzen, erst danach eskalieren. Die Reihenfolge der Rechte ist in allen drei Ländern ähnlich gestuft, aber nicht identisch, und wer sie überspringt, riskiert eigene Ansprüche zu verlieren.",
+  "dach": {
+   "de": "Die VOB/B und das BGB sehen den Vorrang der Nacherfüllung vor Minderung oder Selbstvornahme vor, jeweils nach angemessener Fristsetzung.",
+   "at": "Die ÖNORM B 2110 räumt dem Auftragnehmer ein Recht zur Verbesserung ein, bevor der Auftraggeber zur Preisminderung greifen kann.",
+   "ch": "Die SIA 118 stellt das Nachbesserungsrecht des Unternehmers ebenfalls vor andere Mängelrechte des Bauherrn."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3ruegeform",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2maengel",
+  "t": "Mängelrüge: Form, Frist, Beweissicherung",
+  "t1": "Eine wirksame Mängelrüge beschreibt den Mangel konkret, nennt eine angemessene Frist zur Beseitigung und wird so dokumentiert, dass sich Zugang und Zeitpunkt später beweisen lassen. Fotos, Datum und ein nachweisbarer Versand sind dabei wichtiger als die juristische Eleganz der Formulierung.",
+  "dach": {
+   "de": "Eine gesetzliche Formvorschrift für die Mängelrüge besteht nicht, aus Beweisgründen empfiehlt sich Schriftform mit nachweisbarem Zugang.",
+   "at": "Die ÖNORM B 2110 verlangt eine Anzeige innerhalb angemessener Frist, die Praxis empfiehlt auch hier Schriftform.",
+   "ch": "Nach SIA 118 muss die Rüge unverzüglich und in nachvollziehbarer Form erfolgen, sonst drohen Ansprüche zu verfallen."
+  },
+  "pruefen": [
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3nacherf",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2maengel",
+  "t": "Nacherfüllung, Selbstvornahme, Minderung",
+  "t1": "Der Auftraggeber muss dem Auftragnehmer zunächst Gelegenheit zur Nachbesserung geben, erst wenn diese ausbleibt oder scheitert, kommen Selbstvornahme auf Kosten des Auftragnehmers oder eine Minderung der Vergütung infrage. Diese Stufenfolge zu respektieren ist Voraussetzung dafür, dass die eigenen Ansprüche später Bestand haben.",
+  "dach": {
+   "de": "VOB/B und BGB räumen dem Auftragnehmer ein Recht zur Nacherfüllung ein, erst danach sind Selbstvornahme oder Minderung möglich.",
+   "at": "Die ÖNORM B 2110 sieht ebenfalls vorrangig die Verbesserung durch den Auftragnehmer vor, bevor weitergehende Rechte greifen.",
+   "ch": "Die SIA 118 stellt die Nachbesserung durch den Unternehmer voran, erst danach kommen Ersatzvornahme oder Minderung in Betracht."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3vorrecht",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2maengel",
+  "t": "Nachbesserungsrecht des Unternehmers",
+  "t1": "In allen drei Ländern hat der Auftragnehmer das Recht, einen Mangel zunächst selbst zu beheben, bevor der Auftraggeber zu anderen Mitteln greift. Dieses Recht schützt vor vorschnellem Fremdvergabe Ärger, setzt aber eine klare Fristsetzung voraus, sonst lässt sich später schwer nachweisen, dass die Chance zur Nachbesserung überhaupt bestand.",
+  "dach": {
+   "de": "Nach VOB/B und BGB steht dem Auftragnehmer grundsätzlich ein Recht zur zweiten Andienung zu, gebunden an eine angemessene Frist.",
+   "at": "Die ÖNORM B 2110 räumt das Verbesserungsrecht besonders deutlich als vorrangiges Recht des Auftragnehmers ein.",
+   "ch": "Die SIA 118 gewährt dem Unternehmer ausdrücklich den Vorrang der Nachbesserung vor anderen Mängelrechten des Bauherrn."
+  },
+  "pruefen": [
+   "VOB/B",
+   "BGB",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ]
+ },
+ {
+  "id": "pbl3fluchtweg",
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2maengel",
+  "t": "Mängel an sicherheitsrelevanten Bauteilen",
+  "t1": "Ein Mangel an einer Brandschutztür oder an einem Fluchtweg ist kein gewöhnlicher Baumangel, sondern ein Sicherheitsrisiko, das die Nutzung des Gebäudes infrage stellen kann. Hier gilt die übliche Frist zur Nachbesserung nicht uneingeschränkt: Bauaufsicht oder Nutzer können schnelleres Handeln verlangen, unabhängig vom sonst üblichen Ablauf des Mängelmanagements.",
+  "dach": {
+   "de": "Sicherheitsrelevante Mängel können eine Nutzungsuntersagung durch die Bauaufsicht nach Landesbauordnung auslösen, unabhängig vom zivilrechtlichen Mängelverfahren nach VOB/B.",
+   "at": "Bei Gefährdung kann die Übernahme nach ÖNORM B 2110 verweigert oder eingeschränkt werden, zusätzlich greifen bauordnungsrechtliche Vorgaben der Länder.",
+   "ch": "Sicherheitsmängel unterliegen einer Meldepflicht nach kantonalem Baurecht, unabhängig von der vertraglichen Mängelabwicklung nach SIA 118."
+  },
+  "pruefen": [
+   "VOB/B",
+   "ÖNORM B 2110",
+   "SIA 118"
+  ],
+  "ln": [
+   "kt2not",
+   "kt3nutz",
+   "k4t30z"
+  ]
+ },
+ {
+  "id": "pna1",
+  "p": "p",
+  "lv": 1,
+  "t": "Nachhaltigkeit und Förderung",
+  "t1": "Nachhaltigkeit ist längst kein Zusatzwunsch mehr, sondern eine eigene Planungsebene neben Kosten, Terminen und Qualität: Zertifizierungssysteme bewerten Gebäude, das Energierecht setzt verbindliche Mindeststandards, Förderprogramme steuern über Geld, was ökologisch gewünscht ist. Wer diese drei Ebenen nicht früh zusammendenkt, verschenkt entweder Fördergeld oder verbaut sich spätere Zertifizierungsoptionen. Dieser Ast schließt mit dem wachsenden Feld der Zirkularität, dem Bauen mit dem, was schon da ist.",
+  "ln": [
+   "pav1"
+  ]
+ },
+ {
+  "id": "pna2zert",
+  "p": "p",
+  "lv": 2,
+  "pa": "pna1",
+  "t": "Zertifizierungssysteme",
+  "t1": "Gebäudezertifikate bewerten ein Bauwerk nach einem festen Kriterienraster, meist entlang Ökologie, Ökonomie, sozialer und funktionaler Qualität sowie Planungs und Bauprozess. Sie sind kein Selbstzweck, sondern ein Kommunikationsmittel, das Nachhaltigkeit für Investoren, Nutzer und Fördergeber vergleichbar macht. Wie viel ein Label über die tatsächliche Qualität eines Gebäudes aussagt, hängt stark davon ab, wie ernst die zugrunde liegenden Kriterien genommen wurden.",
+  "dach": {
+   "de": "Verbreitet sind die Zertifizierung der DGNB und das staatliche Qualitätssiegel Nachhaltiges Gebäude QNG, das häufig an Förderprogramme gekoppelt ist.",
+   "at": "Klimaaktiv als staatliche Initiative und die Zertifizierung der ÖGNI sind die etablierten Systeme im österreichischen Markt.",
+   "ch": "Minergie ist das bekannteste Schweizer Label, der Standard Nachhaltiges Bauen Schweiz SNBS deckt eine breitere Nachhaltigkeitsdefinition ab."
+  },
+  "pruefen": [
+   "DGNB",
+   "QNG",
+   "klimaaktiv",
+   "ÖGNI",
+   "Minergie",
+   "SNBS"
+  ]
+ },
+ {
+  "id": "pna3kriterien",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zert",
+  "t": "Kriteriengruppen und Bewertungslogik",
+  "t1": "Die meisten Systeme wiegen ökologische, ökonomische und soziokulturelle Qualität sowie Prozess und technische Qualität gegeneinander ab und aggregieren das Ergebnis zu einer Gesamtnote oder einem Zertifizierungslevel. Wer früh weiß, welche Kriteriengruppe im Projekt am schwersten wiegt, kann Entwurfsentscheidungen gezielt darauf ausrichten, statt am Ende nachzubessern.",
+  "dach": {
+   "de": "Die DGNB gewichtet mehrere Themenfelder etwa gleich stark, das QNG konzentriert sich stärker auf ökologische und energetische Mindestkriterien.",
+   "at": "Klimaaktiv legt den Schwerpunkt auf Energie und Ökologie, die ÖGNI orientiert sich stärker an einer breiten Nachhaltigkeitsbetrachtung.",
+   "ch": "Minergie fokussiert auf Energieeffizienz, der SNBS bewertet zusätzlich Gesellschaft und Wirtschaft gleichrangig."
+  },
+  "pruefen": [
+   "DGNB",
+   "QNG",
+   "klimaaktiv",
+   "ÖGNI",
+   "Minergie",
+   "SNBS"
+  ]
+ },
+ {
+  "id": "pna3koppel",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zert",
+  "t": "Kopplung an Förderung",
+  "t1": "In allen drei Ländern hängt ein Teil der Fördermittel an einem Nachweis über ein Zertifikat oder einen vergleichbaren Standard, sodass die Entscheidung für oder gegen eine Zertifizierung auch eine Entscheidung über Fördergeld ist. Wird das erst spät im Projekt bedacht, ist der günstigste Zeitpunkt für kostenwirksame Weichenstellungen meist schon verstrichen.",
+  "dach": {
+   "de": "Das Qualitätssiegel Nachhaltiges Gebäude QNG ist Voraussetzung für bestimmte Förderkredite der Bundesförderung effiziente Gebäude.",
+   "at": "Landesförderungen setzen teils eine Zertifizierung nach klimaaktiv oder vergleichbaren Standards voraus.",
+   "ch": "Kantonale Förderprogramme im Rahmen des Gebäudeprogramms verlangen teils den Nachweis nach Minergie oder SNBS."
+  },
+  "pruefen": [
+   "QNG",
+   "klimaaktiv",
+   "Minergie",
+   "SNBS"
+  ],
+  "ln": [
+   "pna2foerder"
+  ]
+ },
+ {
+  "id": "pna3aufwand",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zert",
+  "t": "Zertifizierungsaufwand im Projektablauf",
+  "t1": "Ein Zertifikat verlangt Nachweise, Berechnungen und Dokumentation über den gesamten Planungs und Bauprozess, nicht nur am Ende. Wer die Zertifizierungsentscheidung erst nach der Entwurfsplanung trifft, muss oft Nachweise nachträglich beschaffen, die viel günstiger gleich mitgelaufen wären. Der Dokumentationsaufwand überschneidet sich stark mit der ohnehin nötigen Bauüberwachung.",
+  "dach": {
+   "de": "Für das QNG und die DGNB Zertifizierung sind Nachweise über weite Teile der Leistungsphasen zu führen, nicht nur zur Abnahme.",
+   "at": "Klimaaktiv und ÖGNI verlangen Nachweise, die parallel zur örtlichen Bauaufsicht dokumentiert werden müssen.",
+   "ch": "Minergie und SNBS Nachweise entstehen begleitend zur Bauleitung nach SIA Ordnung, nicht als nachträgliche Zusammenstellung."
+  },
+  "pruefen": [
+   "QNG",
+   "DGNB",
+   "klimaaktiv",
+   "ÖGNI",
+   "Minergie",
+   "SNBS"
+  ],
+  "ln": [
+   "pbl2bau"
+  ]
+ },
+ {
+  "id": "pna3systemvergl",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zert",
+  "t": "Systemvergleich: Substanz statt Label",
+  "t1": "Kein Zertifikat ist per se besser, jedes setzt eigene Schwerpunkte, und ein Label allein sagt noch nichts über die tatsächliche Aufenthaltsqualität oder den realen Energieverbrauch eines Gebäudes aus. Die Empfehlung lautet deshalb, das Zertifizierungsziel aus den echten Projektzielen abzuleiten, nicht aus dem, was gerade am prominentesten vermarktet wird.",
+  "dach": {
+   "de": "DGNB und QNG verfolgen unterschiedliche Schwerpunkte, ein pauschaler Vergleich ohne Blick auf das konkrete Projektziel führt selten weiter.",
+   "at": "Klimaaktiv und ÖGNI unterscheiden sich in Reichweite und Detailtiefe, die Wahl sollte sich am jeweiligen Förderkontext orientieren.",
+   "ch": "Minergie und SNBS beantworten unterschiedliche Fragen, Energieeffizienz allein ist nicht dasselbe wie umfassende Nachhaltigkeit."
+  },
+  "pruefen": [
+   "DGNB",
+   "QNG",
+   "klimaaktiv",
+   "ÖGNI",
+   "Minergie",
+   "SNBS"
+  ]
+ },
+ {
+  "id": "pna2energie",
+  "p": "p",
+  "lv": 2,
+  "pa": "pna1",
+  "t": "Energierecht",
+  "t1": "Das Energierecht setzt Mindeststandards für die energetische Qualität von Gebäuden und greift damit unmittelbar in Entwurf und Konstruktion ein, von der Dämmstärke bis zur Anlagentechnik. Anders als eine Zertifizierung ist es keine freiwillige Kür, sondern eine bauordnungsrechtlich durchsetzbare Pflicht. Wer Energieeffizienz erst nach der Entwurfsplanung mitdenkt, verbaut sich fast immer die günstigsten Lösungen.",
+  "dach": {
+   "de": "Das Gebäudeenergiegesetz GEG bündelt Anforderungen an Neubau und Bestand sowie an die Anlagentechnik in einem Regelwerk.",
+   "at": "Die OIB Richtlinie 6 setzt den fachlichen Rahmen, ihre bauordnungsrechtliche Umsetzung liegt bei den Bundesländern.",
+   "ch": "Die Mustervorschriften der Kantone im Energiebereich, kurz MuKEn, bilden die Vorlage, die jeder Kanton eigenständig umsetzt."
+  },
+  "pruefen": [
+   "GEG",
+   "OIB-Richtlinie 6",
+   "MuKEn"
+  ],
+  "lnwunsch": [
+   "Konstruktion: U-Wert-Anforderungen an Fenster und Fassade (künftiger K-Ast)"
+  ]
+ },
+ {
+  "id": "pna3anforderung",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2energie",
+  "t": "Anforderungsniveau: Neubau vs. Bestand",
+  "t1": "Neubauten müssen ein deutlich höheres energetisches Niveau erreichen als Sanierungen im Bestand, wo oft nur bei größeren Eingriffen überhaupt Anforderungen greifen. Diese Abstufung ist bewusst gewählt, weil eine Vollsanierung auf Neubauniveau technisch und wirtschaftlich nicht immer machbar ist, doch sie verleitet auch dazu, energetische Chancen bei kleineren Eingriffen zu übersehen.",
+  "dach": {
+   "de": "Das GEG unterscheidet Anforderungen an Neubauten von Nachrüst und Ersatzpflichten im Bestand, die meist an bestimmte Bauteile anknüpfen.",
+   "at": "Die OIB Richtlinie 6 unterscheidet ebenfalls Neubau und Bestand, die konkrete Anwendung obliegt den Landesbauordnungen.",
+   "ch": "Die MuKEn Systematik der Kantone kennt eigene, meist mildere Anforderungen für Sanierungen gegenüber Neubauten."
+  },
+  "pruefen": [
+   "GEG",
+   "OIB-Richtlinie 6",
+   "MuKEn"
+  ]
+ },
+ {
+  "id": "pna3nachweis",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2energie",
+  "t": "Energieausweis und Nachweisverfahren",
+  "t1": "Der Energieausweis dokumentiert die energetische Qualität eines Gebäudes und wird bei Verkauf oder Vermietung Pflicht, oft lange bevor die eigentliche Sanierung geplant ist. Für Planende ist er weniger ein Formular als ein Werkzeug, um frühzeitig Schwachstellen der Gebäudehülle sichtbar zu machen.",
+  "dach": {
+   "de": "Das GEG unterscheidet Bedarfs und Verbrauchsausweis als zwei methodisch unterschiedliche Nachweisformen.",
+   "at": "Der Energieausweis nach OIB Richtlinie 6 ist bundesweit einheitlich methodisch geregelt, seine Ausstellung ist Ländersache.",
+   "ch": "Der Gebäudeenergieausweis der Kantone, kurz GEAK, ist das schweizerische Pendant mit eigener Bewertungsskala."
+  },
+  "pruefen": [
+   "GEG",
+   "OIB-Richtlinie 6",
+   "GEAK"
+  ]
+ },
+ {
+  "id": "pna3anlagentech",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2energie",
+  "t": "Pflichten zu erneuerbaren Energien",
+  "t1": "Beim Neubau und zunehmend auch beim Heizungstausch im Bestand ist ein Mindestanteil erneuerbarer Energie an der Wärmeversorgung vorgeschrieben, mit unterschiedlichen Wegen, wie dieser Anteil nachgewiesen werden darf. Für die Planung heißt das, Anlagentechnik nicht erst am Ende, sondern parallel zur Gebäudehülle zu entwickeln.",
+  "dach": {
+   "de": "Das GEG verlangt beim Heizungstausch einen Mindestanteil erneuerbarer Energien mit mehreren zulässigen Erfüllungsoptionen.",
+   "at": "Erneuerbaren Pflichten variieren je nach Bundesland und werden über die Landesbauordnungen in Verbindung mit der OIB Richtlinie 6 durchgesetzt.",
+   "ch": "Die kantonalen MuKEn Module verlangen bei Heizungsersatz häufig einen Anteil erneuerbarer Wärme, die genaue Ausgestaltung bleibt kantonal."
+  },
+  "pruefen": [
+   "GEG",
+   "OIB-Richtlinie 6",
+   "MuKEn"
+  ]
+ },
+ {
+  "id": "pna3klimaschutz",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2energie",
+  "t": "Schnittstelle zu Klimaschutzgesetzen",
+  "t1": "Über dem gebäudebezogenen Energierecht liegt in allen drei Ländern eine übergeordnete Klimaschutzgesetzgebung mit Sektorzielen, die das Energierecht regelmäßig verschärft. Für die Praxis heißt das, heutige Anforderungen als Zwischenstand zu verstehen, nicht als Endpunkt, und robuste, nachrüstbare Lösungen zu bevorzugen.",
+  "dach": {
+   "de": "Klimaschutzgesetzgebung auf Bundesebene setzt Sektorziele, an denen sich Verschärfungen des GEG orientieren.",
+   "at": "Klimaschutzrecht wirkt über Bund und Länder auf die OIB Richtlinien und deren bauordnungsrechtliche Umsetzung zurück.",
+   "ch": "CO2 Gesetzgebung auf Bundesebene beeinflusst die Weiterentwicklung der kantonalen MuKEn Module."
+  },
+  "pruefen": [
+   "GEG",
+   "OIB-Richtlinie 6",
+   "MuKEn"
+  ]
+ },
+ {
+  "id": "pna2foerder",
+  "p": "p",
+  "lv": 2,
+  "pa": "pna1",
+  "t": "Förderlandschaft",
+  "t1": "Förderprogramme können über die Wirtschaftlichkeit eines nachhaltigen Bauvorhabens entscheiden, ändern sich aber häufig und unterscheiden sich stark zwischen Bund, Ländern und einzelnen Regionen. ArchiPedia behandelt deshalb die Systematik, nicht die tagesaktuellen Konditionen, die vor jedem Projekt neu geprüft werden müssen. Wer Förderung erst nach Baubeginn beantragt, hat sie in der Regel schon verloren.",
+  "dach": {
+   "de": "Die Bundesförderung effiziente Gebäude BEG wird über KfW und BAFA abgewickelt und bündelt Zuschüsse und Kredite.",
+   "at": "Wohnbauförderung ist Landessache, jedes Bundesland betreibt eigene Programme mit eigenen Konditionen.",
+   "ch": "Das Gebäudeprogramm von Bund und Kantonen bildet das Rückgrat, ergänzt um eigenständige kantonale Zusatzprogramme."
+  },
+  "pruefen": [
+   "BEG",
+   "KfW",
+   "BAFA",
+   "Das Gebäudeprogramm"
+  ],
+  "lnwunsch": [
+   "Kosten: Lebenszykluskosten und Förderwirkung zusammen gedacht (P4)"
+  ]
+ },
+ {
+  "id": "pna3foerderarten",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2foerder",
+  "t": "Förderarten: Zuschuss, Kredit, Steuervorteil",
+  "t1": "Förderung kommt in unterschiedlicher Form: als direkter Zuschuss, als zinsvergünstigter Kredit oder als steuerliche Entlastung, mit jeweils eigener Wirkung auf Liquidität und Wirtschaftlichkeitsrechnung. Für die Beratung ist wichtig, diese Formen nicht zu vermischen, wenn sie unterschiedliche Zeitpunkte im Projekt betreffen.",
+  "dach": {
+   "de": "Die BEG kombiniert Zuschüsse und zinsgünstige Kredite über KfW und BAFA, steuerliche Förderung ergänzt dies für Sanierungen im Bestand.",
+   "at": "Die Wohnbauförderung der Länder setzt überwiegend auf Zuschüsse und geförderte Darlehen mit unterschiedlicher Ausgestaltung.",
+   "ch": "Das Gebäudeprogramm arbeitet primär mit Förderbeiträgen, steuerliche Abzüge ergänzen dies auf Bundes und Kantonsebene."
+  },
+  "pruefen": [
+   "BEG",
+   "KfW",
+   "BAFA",
+   "Das Gebäudeprogramm"
+  ]
+ },
+ {
+  "id": "pna3foerderweg",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2foerder",
+  "t": "Antragsweg und Zeitpunkt im Projekt",
+  "t1": "Der klassische Fehler ist, zuerst zu bauen und dann Förderung zu beantragen, dabei setzen fast alle Programme voraus, dass der Antrag vor Maßnahmenbeginn gestellt wird. Diese Reihenfolge gehört so früh wie möglich in die Projektsteuerung, am besten schon in der Kostenplanung berücksichtigt.",
+  "dach": {
+   "de": "Die Antragstellung bei KfW oder BAFA muss vor Beginn der geförderten Maßnahme erfolgen, ein rückwirkender Antrag ist ausgeschlossen.",
+   "at": "Die Länderprogramme verlangen überwiegend eine Antragstellung vor Baubeginn, die genauen Fristen unterscheiden sich je Bundesland.",
+   "ch": "Kantonale Programme im Rahmen des Gebäudeprogramms setzen eine Anmeldung vor Ausführungsbeginn voraus."
+  },
+  "pruefen": [
+   "KfW",
+   "BAFA",
+   "Das Gebäudeprogramm"
+  ]
+ },
+ {
+  "id": "pna3kombi",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2foerder",
+  "t": "Kombination und Kumulierung von Förderungen",
+  "t1": "Bundes, Landes und kommunale Programme lassen sich teils kombinieren, teils schließen sie sich gegenseitig aus oder begrenzen die Gesamtförderhöhe. Ohne einen Überblick über diese Kumulierungsregeln wird leicht Geld verschenkt oder ein Antrag im Nachhinein zurückgefordert.",
+  "dach": {
+   "de": "Die BEG lässt sich unter Bedingungen mit Landes und Kommunalprogrammen kombinieren, Doppelförderung derselben Maßnahme ist meist ausgeschlossen.",
+   "at": "Bundes und Landesförderung lassen sich teils kumulieren, die einzelnen Wohnbauförderungen der Länder regeln dies unterschiedlich.",
+   "ch": "Bundesbeiträge aus dem Gebäudeprogramm lassen sich mit kantonalen Zusatzprogrammen verbinden, die Regeln dazu variieren kantonal."
+  },
+  "pruefen": [
+   "BEG",
+   "Das Gebäudeprogramm"
+  ]
+ },
+ {
+  "id": "pna3risiko",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2foerder",
+  "t": "Förderrisiko und Rückforderung",
+  "t1": "Wird eine geförderte Anforderung im Nachhinein nicht eingehalten, etwa weil ein Zertifikat scheitert oder ein Wert nicht erreicht wird, drohen Rückforderungen, die ein knapp kalkuliertes Projekt in Schieflage bringen können. Sauber dokumentierte Zielwerte während der gesamten Bauzeit sind deshalb keine Bürokratie, sondern Risikovorsorge.",
+  "dach": {
+   "de": "Werden Fördervoraussetzungen der BEG nachträglich nicht erfüllt, kann die KfW gewährte Mittel zurückfordern.",
+   "at": "Landesförderstellen können bei Nichteinhaltung zugesicherter Standards Fördermittel zurückverlangen.",
+   "ch": "Das Gebäudeprogramm kann Beiträge kürzen oder zurückfordern, wenn zugesicherte Werte nicht nachgewiesen werden."
+  },
+  "pruefen": [
+   "BEG",
+   "KfW",
+   "Das Gebäudeprogramm"
+  ],
+  "ln": [
+   "pna2zert"
+  ]
+ },
+ {
+  "id": "pna2zirk",
+  "p": "p",
+  "lv": 2,
+  "pa": "pna1",
+  "t": "Zirkularität, Rückbau, Wiederverwendung",
+  "t1": "Zirkuläres Bauen denkt ein Gebäude vom Ende her: trennbar konstruiert, dokumentiert, sodass Bauteile später zerlegt statt zerkleinert werden können. Das ist noch kein Mainstream, aber der Bereich, in dem sich künftige Anforderungen am schnellsten verschärfen dürften, weil Ressourcenschonung neben Energieeffizienz zum zweiten großen Nachhaltigkeitsthema wird.",
+  "dach": {
+   "de": "Das Kreislaufwirtschaftsgesetz setzt den abfallrechtlichen Rahmen, freiwillige Systeme wie DGNB und QNG honorieren Rückbaubarkeit zusätzlich.",
+   "at": "Das Abfallwirtschaftsgesetz bildet den rechtlichen Rahmen, Zertifizierungssysteme wie klimaaktiv setzen zusätzliche freiwillige Anreize.",
+   "ch": "SIA Empfehlungen zu Rückbau und Entsorgung ergänzen das kantonale Abfallrecht als anerkannte Regel der Technik."
+  },
+  "pruefen": [
+   "KrWG",
+   "AWG",
+   "SIA",
+   "DGNB",
+   "QNG",
+   "klimaaktiv"
+  ],
+  "lnwunsch": [
+   "Konstruktion: Lösbare Verbindungstechnik im Innenausbau (künftiger K-Ast)"
+  ]
+ },
+ {
+  "id": "pna3design",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zirk",
+  "t": "Trennbarkeit als Entwurfsprinzip",
+  "t1": "Design for Disassembly bedeutet, Verbindungen von vornherein lösbar zu planen, geschraubt statt geklebt, geschichtet statt verbundstoffvermischt, damit ein Gebäude am Ende seines Lebens in sortenreine Bestandteile zerlegt werden kann. Diese Entscheidung fällt im Entwurf, nicht erst beim Rückbau, und lässt sich später kaum nachrüsten.",
+  "dach": {
+   "de": "Eine eigenständige gesetzliche Pflicht zur trennbaren Bauweise besteht nicht, das Kreislaufwirtschaftsgesetz setzt aber Anreize über die Abfallhierarchie.",
+   "at": "Vergleichbare Anreize entstehen über das Abfallwirtschaftsgesetz und über freiwillige Zertifizierungskriterien.",
+   "ch": "SIA Empfehlungen zur Rückbaubarkeit gelten als anerkannte Regel der Technik, eine gesetzliche Pflicht besteht nicht durchgängig."
+  },
+  "pruefen": [
+   "KrWG",
+   "AWG",
+   "SIA"
+  ]
+ },
+ {
+  "id": "pna3passport",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zirk",
+  "t": "Materialpass und Rückbaudokumentation",
+  "t1": "Ein Materialpass listet auf, welche Materialien und Bauteile in welcher Menge und Verbindung verbaut wurden, damit ein späterer Rückbau nicht erst mühsam erkunden muss, was überhaupt vorhanden ist. Je früher diese Dokumentation beginnt, desto vollständiger und günstiger wird sie.",
+  "dach": {
+   "de": "Materialpässe sind freiwillig, werden aber im Rahmen von DGNB und QNG Zertifizierungen zunehmend honoriert oder vorausgesetzt.",
+   "at": "Vergleichbare freiwillige Systeme entstehen im Umfeld von klimaaktiv, eine flächendeckende Pflicht besteht nicht.",
+   "ch": "Materialpässe werden im Kontext von SNBS Zertifizierungen und kantonalen Vorgaben zunehmend nachgefragt."
+  },
+  "pruefen": [
+   "DGNB",
+   "QNG",
+   "klimaaktiv",
+   "SNBS"
+  ]
+ },
+ {
+  "id": "pna3rueckbau",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zirk",
+  "t": "Rückbau statt Abriss: Verwertungsquote",
+  "t1": "Selektiver Rückbau trennt Materialien vor Ort nach Wiederverwendbarkeit und Wertstoffart, statt alles gemeinsam abzureißen und zu entsorgen. Das kostet zunächst mehr Zeit, senkt aber Entsorgungskosten und ermöglicht erst die Wiederverwendung einzelner Bauteile.",
+  "dach": {
+   "de": "Das Kreislaufwirtschaftsgesetz verlangt eine Verwertung vor Beseitigung von Bauabfällen, sofern technisch und wirtschaftlich zumutbar.",
+   "at": "Das Abfallwirtschaftsgesetz setzt eine vergleichbare Verwertungshierarchie für Bauabfälle voraus.",
+   "ch": "SIA Normen zur Entsorgung von Bauabfällen und kantonale Vorschriften regeln die Trennung und Verwertung auf der Baustelle."
+  },
+  "pruefen": [
+   "KrWG",
+   "AWG",
+   "SIA"
+  ]
+ },
+ {
+  "id": "pna3wiederverw",
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zirk",
+  "t": "Wiederverwendung von Bauteilen",
+  "t1": "Fenster, Türen, Träger oder Fassadenelemente aus dem Rückbau lassen sich wiederverwenden, wenn Qualität, Maße und Nachweise stimmen, doch Logistik und Verfügbarkeit sind bisher der Flaschenhals, nicht der Wille. Wer wiederverwendete Bauteile einplant, sollte das früh im Entwurf offenlassen und erst mit realer Verfügbarkeit verbindlich festlegen.",
+  "dach": {
+   "de": "Wiederverwendete Bauteile benötigen im Einzelfall einen Verwendbarkeitsnachweis, da die ursprüngliche Zulassung meist nicht automatisch fortgilt.",
+   "at": "Auch in Österreich ist für tragende oder sicherheitsrelevante wiederverwendete Bauteile ein eigener Nachweis erforderlich.",
+   "ch": "Die Wiederverwendung wird in der Schweiz zunehmend durch SIA Empfehlungen begleitet, ein Nachweis der Eigenschaften bleibt Voraussetzung."
+  },
+  "pruefen": [
+   "SIA"
+  ]
+ }
+]

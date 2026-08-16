@@ -1,0 +1,498 @@
+[
+  {
+    "id": "kbo1",
+    "p": "k",
+    "lv": 1,
+    "t": "Böden und Beläge",
+    "t1": "Böden sind die am stärksten benutzte Fläche im Gebäude: Sie tragen Lasten, dämmen Schall, führen Heizwärme und entscheiden allein durch Material und Fuge über die Anmutung eines Raums. Dieses Themenfeld gliedert sich vom tragenden Estrich über die Fußbodenheizung bis zum sichtbaren Belag und seinen Übergängen.",
+    "lnwunsch": [
+      "Gründung: Bodenplatte und Perimeterdämmung (K1)",
+      "Entwurf: Bodenmaterial als Raumwirkung (E5)"
+    ]
+  },
+  {
+    "id": "kbo2estrich",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbo1",
+    "t": "Estriche und Bodenaufbauten",
+    "t1": "Der Estrich ist die tragende, ebene Schicht zwischen Rohdecke und Belag; er nimmt Lasten auf, gleicht Unebenheiten aus und bettet oft die Fußbodenheizung ein. Seine Wahl entscheidet über Trocknungszeit, den Zeitpunkt, ab dem der Belag aufgebracht werden darf, und die zulässige Belastung des gesamten Aufbaus."
+  },
+  {
+    "id": "kbo3zement",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2estrich",
+    "t": "Zementestrich",
+    "t1": "Zementestrich ist der robuste Standard: unempfindlich gegen Feuchte während der Bauphase, gut für Nassräume geeignet, aber mit vergleichsweise langer Trocknungszeit. Er verträgt raue Baustellenbedingungen besser als jede Alternative und bleibt deshalb im Rohbau die sichere Wahl."
+  },
+  {
+    "id": "kbo3calcium",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2estrich",
+    "t": "Calciumsulfatestrich (Anhydrit)",
+    "t1": "Anhydritestrich fließt beim Einbau selbstnivellierend, trocknet schneller als Zementestrich und eignet sich besonders gut für Fußbodenheizungen, weil er die Wärme gleichmäßig überträgt. Seine Schwäche ist die Feuchteempfindlichkeit: Schon kurzer Wasserkontakt vor der Belegung kann die Festigkeit dauerhaft schädigen."
+  },
+  {
+    "id": "kbo3daemm",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2estrich",
+    "t": "Schwimmender Estrich und Trittschall",
+    "t1": "Beim schwimmenden Estrich liegt die Estrichplatte auf einer Dämmschicht, vollständig von Wänden und Rohdecke akustisch getrennt. Diese Entkopplung ist die wirksamste bauliche Maßnahme gegen Trittschall, den Schall, den Gehen und Stöße auf dem Boden ins Geschoss darunter übertragen, und verzeiht keine Nebenwege wie eine mitgegossene Randfuge.",
+    "ln": ["kt4schall"]
+  },
+  {
+    "id": "kbo2fbh",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbo1",
+    "t": "Fußbodenheizung im Aufbau",
+    "t1": "Die Fußbodenheizung liegt im oder unter dem Estrich und verwandelt die gesamte Fläche in eine Heizfläche mit niedriger Vorlauftemperatur. Für die Planung zählt weniger das Heizsystem selbst als sein Zusammenspiel mit Aufbauhöhe, Belag und Regelung, denn nachträgliche Korrekturen sind praktisch unmöglich."
+  },
+  {
+    "id": "kbo3nassfbh",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2fbh",
+    "t": "Nasssystem: Rohre im Estrich",
+    "t1": "Beim Nasssystem werden die Heizrohre direkt in den Estrich eingegossen, der dadurch selbst zum Wärmespeicher wird. Das ergibt ein träges, aber gleichmäßiges Raumklima, verlangt jedoch die größte Aufbauhöhe aller Fußbodenheizungssysteme."
+  },
+  {
+    "id": "kbo3trockenfbh",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2fbh",
+    "t": "Trockensystem im Bestand und Holzbau",
+    "t1": "Trockene Fußbodenheizungssysteme betten die Rohre in vorgefertigte Dämm- und Wärmeleitplatten statt in nassen Estrich und sparen dadurch Aufbauhöhe und Trocknungszeit. Sie sind die typische Lösung bei der Sanierung von Holzbalkendecken, reagieren wegen der geringeren Speichermasse aber auch schneller und unruhiger auf die Regelung."
+  },
+  {
+    "id": "kbo3fbhbelag",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2fbh",
+    "t": "Belagseignung über Fußbodenheizung",
+    "t1": "Nicht jeder Belag leitet Wärme gleich gut: Fliese und Naturstein geben sie fast ungebremst ab, dicker Teppich oder unpassendes Parkett dämmen sie spürbar. Wer den Belag erst nach der Heizlastberechnung wählt, riskiert eine Anlage, die ihre Leistung nie erreicht."
+  },
+  {
+    "id": "kbo2belag",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbo1",
+    "t": "Beläge",
+    "t1": "Der Belag ist die einzige Schicht des Bodenaufbaus, die man sieht und spürt, entsprechend groß ist seine Bandbreite von Parkett über Naturstein bis zu elastischen und gegossenen Systemen. Jede Gattung bringt ein eigenes Verhältnis aus Haptik, Pflegeaufwand und Belastbarkeit mit."
+  },
+  {
+    "id": "kbo3parkett",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2belag",
+    "t": "Parkett und Holzböden",
+    "t1": "Parkett bringt als einziger Bodenbelag ein natürlich gewachsenes Material in die Fläche, mit allen Vorzügen wie Wärme und Reparierbarkeit durch Abschliff und den Empfindlichkeiten von Massivholz gegenüber Feuchte und Kratzern. Verlegeart und Holzart entscheiden gemeinsam über Optik und Lebensdauer."
+  },
+  {
+    "id": "kbo3stein",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2belag",
+    "t": "Naturstein und Fliese",
+    "t1": "Naturstein und keramische Fliese sind die unempfindlichsten Beläge gegenüber Feuchte, Hitze und Nutzung und deshalb der Standard in Bad, Küche und stark frequentierten Flächen. Der Unterschied liegt im Detail: Naturstein streut in Maß und Farbe, Fliese ist normiert und beliebig nachbestellbar."
+  },
+  {
+    "id": "kbo3elast",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2belag",
+    "t": "Elastische und textile Beläge",
+    "t1": "Vinyl, Linoleum und Teppich sind elastische beziehungsweise textile Beläge, die leiser und wärmer unter dem Fuß sowie günstiger im Unterhalt sind als harte Beläge, dafür aber empfindlicher gegen Punktlasten und mechanische Beschädigung. Sie werden meist vollflächig verklebt oder lose verlegt, selten geschraubt oder genagelt."
+  },
+  {
+    "id": "kbo3giess",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2belag",
+    "t": "Gegossene Böden",
+    "t1": "Gegossene Böden aus Epoxidharz oder Zement werden flüssig aufgetragen und ergeben eine fugenlose, homogene Fläche, die gestalterisch reizvoll, aber reparaturaufwendig ist: Ein Riss oder ein Fleck lässt sich kaum unsichtbar ausbessern. Sie verlangen einen tragfähigen, absolut ebenen Untergrund, jede Unebenheit zeichnet sich ab.",
+    "lnwunsch": ["Material- und Produktkunde: Reaktionsharzböden (K13)"]
+  },
+  {
+    "id": "kbo2sockel",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbo1",
+    "t": "Sockel- und Übergangsdetails",
+    "t1": "Am Wandfuß und an jedem Belagwechsel trifft der Boden auf eine andere Fläche oder ein anderes Material, und genau dort entscheidet sich, ob ein Bodenaufbau sauber wirkt. Sockelleisten, Übergangsprofile und Türanschlüsse sind klein im Material, aber groß in der Wirkung auf den Gesamteindruck."
+  },
+  {
+    "id": "kbo3sockelleiste",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2sockel",
+    "t": "Sockelleisten und Wandanschluss",
+    "t1": "Die Sockelleiste kaschiert die Bewegungsfuge zwischen Boden und Wand und schützt die Wandfläche vor Stößen, ihre Höhe und ihr Vorsprung sollten früh mit Zargenspiegel und Türanschlägen abgestimmt werden. Alternativen wie die Schattenfuge verzichten bewusst auf die Leiste zugunsten einer ruhigeren Fläche.",
+    "ln": ["k5spiegel"]
+  },
+  {
+    "id": "kbo3belagwechsel",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2sockel",
+    "t": "Übergangsprofile zwischen Belägen",
+    "t1": "Wo zwei Beläge unterschiedlicher Dicke oder Härte aufeinandertreffen, braucht es ein Übergangsprofil, das den Höhenversatz auffängt und die Kante vor Ausbrüchen schützt. Die unauffälligste Lösung ist die exakt gleiche Aufbauhöhe beider Beläge, die aber selten ohne Zusatzaufwand gelingt."
+  },
+  {
+    "id": "kbo3tuerueberg",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2sockel",
+    "t": "Bodenübergang an der Tür",
+    "t1": "Unter jeder Tür trifft der Bodenaufbau auf die Schwelle, und genau hier addieren sich die Toleranzen aus Estrich, Belag und Zargenmaß. Wer die Belagsstärke erst nach der Zargenbestellung kennt, riskiert eine Schwelle, die zu hoch, zu niedrig oder schief sitzt.",
+    "ln": ["k3schwelle", "k5maul"]
+  },
+  {
+    "id": "kbo2doppel",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbo1",
+    "t": "Doppel- und Hohlraumböden",
+    "t1": "Doppel- und Hohlraumböden schaffen einen zugänglichen Raum unter der Nutzfläche für Kabel, Leitungen und Klimatechnik und lösen damit ein Problem, das ein klassischer Estrichaufbau gar nicht kennt: die spätere Änderung der Installation ohne Aufstemmen. Der Unterschied zwischen beiden Systemen liegt vor allem im Grad der Zugänglichkeit."
+  },
+  {
+    "id": "kbo3doppelboden",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2doppel",
+    "t": "Doppelboden: Aufbau und Zugänglichkeit",
+    "t1": "Der Doppelboden besteht aus einzelnen Platten auf höhenverstellbaren Stützen und lässt sich an jeder Stelle öffnen, ohne Nachbarflächen zu berühren. Diese vollständige Zugänglichkeit macht ihn zum Standard im Büro- und Rechenzentrumsbau, wo Installationen häufig geändert werden."
+  },
+  {
+    "id": "kbo3hohlraum",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2doppel",
+    "t": "Hohlraumboden: Nassestrich mit Kanälen",
+    "t1": "Der Hohlraumboden trägt eine geschlossene Estrichplatte auf Stützen, unter der Kabel in Kanälen statt frei im Raum liegen, geöffnet wird nur punktuell an vorgesehenen Revisionsstellen. Er ist ruhiger im Trittschall und günstiger als der Doppelboden, aber deutlich weniger flexibel nachrüstbar."
+  },
+  {
+    "id": "kbo3doppelwahl",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbo2doppel",
+    "t": "Systementscheidung Doppel- vs. Hohlraumboden",
+    "t1": "Die Wahl zwischen beiden Systemen ist selten eine Geschmacksfrage, sondern eine Nutzungsfrage: Wie oft ändert sich die Belegung, wie viel Aufbauhöhe steht zur Verfügung, wie wichtig ist Trittschall gegenüber Flexibilität. Wer das früh klärt, vermeidet einen teuren Systemwechsel mitten in der Ausführungsplanung."
+  },
+  {
+    "id": "kde1",
+    "p": "k",
+    "lv": 1,
+    "t": "Deckenbekleidungen und Akustik",
+    "t1": "Die Decke ist die am wenigsten berührte, aber oft am meisten unterschätzte Fläche im Raum: Sie prägt Akustik, Lichtverteilung und die Sicht auf die technische Gebäudeausrüstung. Dieses Themenfeld reicht von der abgehängten Unterdecke über gezielte Raumakustik bis zur bewusst gezeigten Rohdecke.",
+    "lnwunsch": ["Kontext: historische Deckengestaltung als Fallstudie (X)"]
+  },
+  {
+    "id": "kde2unterdecke",
+    "p": "k",
+    "lv": 2,
+    "pa": "kde1",
+    "t": "Unterdecken und Abhangsysteme",
+    "t1": "Unterdecken hängen an einer eigenen Unterkonstruktion unter der Rohdecke und schaffen dort Raum für Leitungen, Dämmung und Akustik, den eine Sichtdecke nicht bieten kann. Material und Abhanghöhe entscheiden gemeinsam, wie viel Technik sich verstecken lässt und wie tief der Raum dadurch wirklich wird."
+  },
+  {
+    "id": "kde3gipskarton",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2unterdecke",
+    "t": "Gipskarton-Unterdecke",
+    "t1": "Die Gipskartondecke ist die geschlossene, flächige Variante der Unterdecke: fugenlos verspachtelt wirkt sie wie eine massive Decke, erlaubt aber kaum punktuelle Revisionsöffnungen. Sie ist die Standardlösung überall dort, wo Ruhe in der Fläche wichtiger ist als spätere Zugänglichkeit."
+  },
+  {
+    "id": "kde3metall",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2unterdecke",
+    "t": "Metall-Rasterdecke",
+    "t1": "Die Rasterdecke aus einzelnen, in ein Traggerüst eingelegten Platten macht jedes Feld einzeln zugänglich und ist deshalb Standard im Büro- und Objektbau, wo Leuchten, Sprinkler und Lüftung regelmäßig gewartet werden müssen. Der sichtbare Raster prägt die Deckenoptik so stark wie sonst kaum ein Bauteil."
+  },
+  {
+    "id": "kde3akustikplatte",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2unterdecke",
+    "t": "Mineralfaser- und Akustikplatten",
+    "t1": "Poröse Mineralfaserplatten schlucken Schall, statt ihn zu reflektieren, und verbinden damit die Funktion der Unterdecke gleich mit der Raumakustik. Sie sind der einfachste Weg, ein akustisches Problem in einem Bestandsraum zu lösen, ohne die Wände anzufassen."
+  },
+  {
+    "id": "kde2akustik",
+    "p": "k",
+    "lv": 2,
+    "pa": "kde1",
+    "t": "Raumakustik-Maßnahmen",
+    "t1": "Raumakustik regelt, wie lange und wie klar ein Schall im Raum nachklingt, unabhängig davon, wie gut der Raum gegen den Nachbarraum gedämmt ist. Wo Schallschutz Grenzen zwischen Räumen zieht, sorgt Raumakustik für Verständlichkeit innerhalb eines einzigen Raums, ein oft verwechseltes Begriffspaar."
+  },
+  {
+    "id": "kde3nachhall",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2akustik",
+    "t": "Nachhallzeit als Planungsziel",
+    "t1": "Die Nachhallzeit beschreibt, wie lange ein Ton im Raum hörbar nachklingt, bis er verklungen ist, und ist die zentrale Zielgröße jeder Raumakustikplanung. Ein Klassenzimmer und ein Konzertsaal brauchen bewusst unterschiedliche Nachhallzeiten, weil Sprachverständlichkeit und musikalische Fülle gegensätzliche Anforderungen stellen."
+  },
+  {
+    "id": "kde3absorber",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2akustik",
+    "t": "Absorber: Platten, Baffles, Wolken",
+    "t1": "Absorber wandeln Schallenergie in Wärme um, statt sie zu reflektieren, und kommen als Deckenplatte, als hängender Baffle oder als frei schwebende Wolke zum Einsatz, je nachdem wie viel Fläche zur Verfügung steht. Ihre Wirkung hängt stark von der Frequenz ab: Tiefe Töne brauchen deutlich mehr Material als hohe."
+  },
+  {
+    "id": "kde3akustikputz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2akustik",
+    "t": "Akustikputz und -spachtel",
+    "t1": "Akustikputz wirkt schallschluckend über eine mikroporöse Oberfläche und lässt sich dabei fugenlos wie eine gewöhnliche Putzdecke gestalten, ein Vorteil überall dort, wo sichtbare Platten oder Raster nicht gewünscht sind. Seine Absorptionswirkung bleibt jedoch meist hinter der von dickeren Faserabsorbern zurück."
+  },
+  {
+    "id": "kde2sicht",
+    "p": "k",
+    "lv": 2,
+    "pa": "kde1",
+    "t": "Sichtdecken",
+    "t1": "Die Sichtdecke verzichtet bewusst auf jede Bekleidung und zeigt Beton oder Holz als tragendes Material zugleich als Oberfläche. Das spart eine ganze Bauschicht, verlangt aber von Rohbau und Ausbau eine Präzision, die eine verdeckte Decke nie beweisen müsste."
+  },
+  {
+    "id": "kde3sichtbeton",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2sicht",
+    "t": "Sichtbetondecke",
+    "t1": "Bei der Sichtbetondecke wird die Schalhaut selbst zur gestalterischen Entscheidung, denn jede Fuge, jeder Ankerpunkt bleibt für immer sichtbar. Nachträgliche Leitungsführung ist praktisch ausgeschlossen, weshalb Elektro- und Lüftungsplanung schon vor dem Betonieren feststehen müssen."
+  },
+  {
+    "id": "kde3sichtholz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2sicht",
+    "t": "Sichtholzdecke: Balken- und Massivholz",
+    "t1": "Holzbalken- oder Massivholzdecken zeigen ihre Konstruktion als Oberfläche und bringen damit Wärme und Struktur in den Raum, verlangen aber wie die Sichtbetondecke eine früh festgelegte Haustechnik. Zusätzlich braucht die sichtbare Holzoberfläche Nachweise zu Brand- und, je nach Nutzung, Schallschutz, die bei einer bekleideten Decke entfallen würden."
+  },
+  {
+    "id": "kde3akustiksicht",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2sicht",
+    "t": "Akustisch wirksame Sichtdecken",
+    "t1": "Perforierter Sichtbeton oder genutete Holzoberflächen lösen den scheinbaren Widerspruch zwischen offener Rohdecke und Raumakustik: Die Öffnungen an der Oberfläche führen zu einer dahinterliegenden Absorberschicht, unsichtbar für das Auge, wirksam für das Ohr. Diese Systeme sind aufwendiger in der Planung, aber die einzige Antwort, wenn Sichtdecke und Nachhallzeit gleichzeitig gefordert sind."
+  },
+  {
+    "id": "kde2technik",
+    "p": "k",
+    "lv": 2,
+    "pa": "kde1",
+    "t": "Integration von Technik in die Decke",
+    "t1": "Kaum eine Fläche im Gebäude bündelt so viel Haustechnik wie die Decke: Beleuchtung, Lüftung, Sprinkler und zunehmend auch Heizung und Kühlung laufen hier zusammen. Die Deckenplanung entscheidet deshalb wesentlich mit über die Koordination aller technischen Gewerke."
+  },
+  {
+    "id": "kde3integration",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2technik",
+    "t": "Leuchten, Sprinkler und Lüftung in der Decke",
+    "t1": "Jedes technische Element in der Decke braucht seinen eigenen Freiraum über der sichtbaren Fläche, und diese Freiräume konkurrieren miteinander um dieselbe Abhanghöhe. Eine frühe Abstimmung im Deckenspiegel, der zeichnerischen Übersicht aller Deckeneinbauten, verhindert, dass Lüftungskanal und Sprinklerleitung erst auf der Baustelle aufeinandertreffen.",
+    "lnwunsch": ["TGA: Installationszonen und Deckenspiegel-Koordination (K12)"]
+  },
+  {
+    "id": "kde3revision",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2technik",
+    "t": "Revisionsöffnungen und Zugänglichkeit",
+    "t1": "Jede Anlage hinter der Decke, die gewartet werden muss, braucht eine erreichbare Öffnung, und diese Öffnungen sollten von Anfang an in ein Rastermaß der Deckengestaltung eingeplant werden statt später nachträglich eingeschnitten. Eine geschlossene Gipskartondecke ohne geplante Revisionsstellen ist eine spätere Baustelle, die noch niemand sieht."
+  },
+  {
+    "id": "kde3kuehldecke",
+    "p": "k",
+    "lv": 3,
+    "pa": "kde2technik",
+    "t": "Kühl- und Heizdecken",
+    "t1": "Thermoaktive Decken heizen oder kühlen über eine im Deckenaufbau geführte Wasserleitung und nutzen dafür die große Fläche der Decke für niedrige Vorlauf- beziehungsweise hohe Kühlwassertemperaturen. Sie verlangen eine glatte, gut wärmeleitende Oberfläche und vertragen sich deshalb schlecht mit dicken Akustikabsorbern an derselben Stelle.",
+    "lnwunsch": ["TGA: Kühldecke und Taupunktregelung (K12)"]
+  },
+  {
+    "id": "kab1",
+    "p": "k",
+    "lv": 1,
+    "t": "Abdichtung und Bauphysik im Detail",
+    "t1": "Abdichtung und Bauphysik entscheiden nicht an der großen Linie, sondern im Detail: an der Fuge, am Anschluss, an der Durchdringung. Dieses Themenfeld versammelt das Wissen, das Schäden durch Feuchte, Wärmeverlust und Bewegung verhindert, oft unsichtbar, aber folgenreich, wenn es fehlt.",
+    "lnwunsch": [
+      "Dach: Dampfbremse im Steildachaufbau (K4)",
+      "Tragwerk: Fugenplanung im Rohbau (K2)"
+    ]
+  },
+  {
+    "id": "kab2luft",
+    "p": "k",
+    "lv": 2,
+    "pa": "kab1",
+    "t": "Luftdichtheit und Dampfdiffusion",
+    "t1": "Die luftdichte Ebene verhindert, dass warme, feuchte Innenluft unkontrolliert durch die Gebäudehülle strömt und dort auskühlt, während die Dampfdiffusion den viel langsameren Weg des Wasserdampfs durch das Bauteil selbst beschreibt. Werden beide Mechanismen verwechselt, entstehen genau dort Feuchteschäden, wo man sie am wenigsten erwartet."
+  },
+  {
+    "id": "kab3luftdicht",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2luft",
+    "t": "Die luftdichte Ebene im Bauteilaufbau",
+    "t1": "Die luftdichte Ebene muss als durchgehende Linie im Schnitt nachweisbar sein, von der Bodenplatte bis zum First, ohne eine einzige Lücke an Anschlüssen, Durchdringungen oder Bauteilwechseln. Schon eine vergessene Steckdose in der Außenwand kann die gesamte Luftdichtheit des Hauses messbar verschlechtern."
+  },
+  {
+    "id": "kab3dampfbremse",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2luft",
+    "t": "Dampfbremse und Dampfsperre",
+    "t1": "Die Dampfbremse lässt Wasserdampf kontrolliert und langsam hindurch, die Dampfsperre praktisch gar nicht, welche der beiden richtig ist, hängt vom restlichen Bauteilaufbau und der Rücktrocknungsfähigkeit nach außen ab. Die falsche Wahl kann Tauwasser im Bauteilinneren einschließen, wo es niemand sieht, bis der Schaden längst da ist."
+  },
+  {
+    "id": "kab3blowerdoor",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2luft",
+    "t": "Blower-Door-Test und Leckageortung",
+    "t1": "Beim Blower-Door-Test erzeugt ein Gebläse einen Unter- oder Überdruck im Gebäude, sodass sich undichte Stellen der Hülle als spürbarer Luftzug oder mit Nebel und Wärmebildkamera sichtbar aufspüren lassen. Der Test lohnt sich schon während des Rohbaus, denn dann sind gefundene Lecks noch mit vertretbarem Aufwand zu schließen."
+  },
+  {
+    "id": "kab2waermebruecke",
+    "p": "k",
+    "lv": 2,
+    "pa": "kab1",
+    "t": "Wärmebrücken",
+    "t1": "Eine Wärmebrücke ist eine Stelle in der Gebäudehülle, an der mehr Wärme nach außen entweicht als in der umgebenden Fläche, meist erkennbar an einer niedrigeren Oberflächentemperatur innen. Neben dem Energieverlust ist die eigentliche Gefahr das Tauwasser- und Schimmelrisiko, das an dieser kälteren Stelle zuerst entsteht."
+  },
+  {
+    "id": "kab3konstruktiv",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2waermebruecke",
+    "t": "Konstruktive Wärmebrücken",
+    "t1": "Konstruktive Wärmebrücken entstehen, wo ein durchgehendes Bauteil, etwa eine Balkonplatte oder ein Ringanker, die Dämmebene unterbricht und Wärme gewissermaßen an der Dämmung vorbeileitet. Sie lassen sich meist nur durch eine gezielte thermische Trennung im Bauteil selbst lösen, nicht durch dickere Dämmung an anderer Stelle.",
+    "lnwunsch": ["Außenwand und Fassade: Balkonanschluss und thermische Trennung (K3)"]
+  },
+  {
+    "id": "kab3geometrisch",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2waermebruecke",
+    "t": "Geometrische Wärmebrücken",
+    "t1": "Geometrische Wärmebrücken entstehen allein durch die Form des Bauteils, zum Beispiel an einer Außenecke, wo die kalte Außenfläche im Verhältnis zur warmen Innenfläche besonders groß ist. Sie lassen sich nicht wegkonstruieren, nur durch ausreichende Dämmstärke in ihrer Wirkung entschärfen."
+  },
+  {
+    "id": "kab3vermeidung",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2waermebruecke",
+    "t": "Wärmebrückenfreies Konstruieren",
+    "t1": "Wärmebrückenfreies Konstruieren bedeutet, die Dämmebene im Schnitt als durchgehende, ungestörte Linie zu zeichnen und jeden Materialwechsel des Bauteils schon im Entwurf an dieser Linie zu prüfen. Wer Wärmebrücken erst in der Ausführungsplanung sucht, findet sie meist dort, wo eine Korrektur am teuersten ist."
+  },
+  {
+    "id": "kab2schlagregen",
+    "p": "k",
+    "lv": 2,
+    "pa": "kab1",
+    "t": "Schlagregen und Spritzwasserschutz",
+    "t1": "Schlagregen trifft die Fassade nicht senkrecht, sondern schräg und mit Druck, und genau deshalb versagen an dieser Stelle Anschlüsse, die einem ruhigen Regen ohne Wind durchaus standhalten würden. Fenster-, Tür- und Sockelanschlüsse sind die typischen Schwachstellen, weil hier mehrere Bauteile und Gewerke aufeinandertreffen."
+  },
+  {
+    "id": "kab3fassade",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2schlagregen",
+    "t": "Schlagregenschutz an der Fassade",
+    "t1": "Der Schlagregenschutz einer Fassade entsteht aus dem Zusammenspiel mehrerer Verteidigungslinien: einer wasserabweisenden Oberfläche, einer dahinterliegenden Ebene, die eindringendes Wasser kontrolliert ableitet, und Anschlüssen, die keine wassersammelnden Kanten bilden. Eine einzelne perfekte Schicht reicht nicht, wenn die Fuge daneben offen bleibt."
+  },
+  {
+    "id": "kab3fenster",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2schlagregen",
+    "t": "Fenster- und Türanschluss an die Abdichtung",
+    "t1": "Fenster- und Türanschlüsse sind die am dichtesten regulierten Stellen der Fassade, weil hier innen die luftdichte Ebene, außen die schlagregendichte Ebene und dazwischen die Wärmedämmung sauber ineinandergreifen müssen. Innen wird traditionell dichter ausgeführt als außen, damit anfallende Feuchte nach außen entweichen kann, doch das gelingt nur mit handwerklich sauberer Ausführung.",
+    "ln": ["k4null"]
+  },
+  {
+    "id": "kab3sockel",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2schlagregen",
+    "t": "Spritzwasserzone am Sockel",
+    "t1": "Der Sockelbereich eines Gebäudes wird durch aufspritzendes Regenwasser deutlich stärker beansprucht als die Fassade darüber und braucht deshalb eigene, robustere Materialien und eine eigene Abdichtungsebene. Wer hier mit dem Fassadenaufbau der oberen Geschosse spart, riskiert Feuchteschäden schon im ersten Winter."
+  },
+  {
+    "id": "kab2fuge",
+    "p": "k",
+    "lv": 2,
+    "pa": "kab1",
+    "t": "Bauwerksfugen und Bewegung",
+    "t1": "Gebäude bewegen sich ständig geringfügig, durch Temperatur, Schwinden des Betons oder Setzung des Baugrunds, und Bauwerksfugen sind die geplanten Stellen, an denen diese Bewegung stattfinden darf, statt unkontrolliert einen Riss zu erzeugen. Eine fehlende oder falsch bemessene Fuge zeigt sich fast immer erst Jahre später als Schaden."
+  },
+  {
+    "id": "kab3bewegungsfuge",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2fuge",
+    "t": "Bewegungsfugen im Hochbau",
+    "t1": "Bewegungsfugen trennen große Bauteile in Abschnitte, die sich unabhängig voneinander ausdehnen oder zusammenziehen können, üblich bei langen Fassaden, großen Bodenplatten oder am Übergang zwischen Neubau und Bestand. Ihre Lage folgt der Statik, nicht der Architektur, weshalb sie früh mit dem Tragwerksplaner abgestimmt werden muss."
+  },
+  {
+    "id": "kab3abdichtfuge",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2fuge",
+    "t": "Abdichten von Fugen: Fugenband und Fugenmasse",
+    "t1": "Eine Bewegungsfuge muss trotz ständiger Bewegung dicht bleiben, wofür entweder ein elastisches Fugenband einbetoniert oder eine dauerelastische Fugenmasse nachträglich eingebracht wird. Beide Systeme haben eine begrenzte Lebensdauer und gehören deshalb zu den wenigen Bauteilen, deren Wartung von Anfang an mitgeplant werden sollte."
+  },
+  {
+    "id": "kab3anschlussfuge",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2fuge",
+    "t": "Anschlussfugen an Bauteilübergängen",
+    "t1": "Anders als die Bewegungsfuge trennt die Anschlussfuge keine gleichartigen Bauteile, sondern verbindet unterschiedliche, etwa ein Fensterelement mit dem Mauerwerk, und muss deren unterschiedliches Bewegungsverhalten ausgleichen. Sie ist die eigentliche Belastungsprobe jeder Fassadenabdichtung, weil hier die meisten Materialwechsel zusammenkommen."
+  },
+  {
+    "id": "kab2nassraum",
+    "p": "k",
+    "lv": 2,
+    "pa": "kab1",
+    "t": "Feuchteschutz im Bad und Nassraum",
+    "t1": "Im Bad trifft ständige Wasserbelastung auf empfindliche Bauteile wie Trockenbauwände und Holzdecken darunter, weshalb hier eine eigene, geprüfte Abdichtungsebene unter dem sichtbaren Belag liegt. Diese Ebene sieht man nie, ihr Fehlen aber irgendwann umso deutlicher."
+  },
+  {
+    "id": "kab3verbund",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2nassraum",
+    "t": "Verbundabdichtung unter Fliesenbelag",
+    "t1": "Die Verbundabdichtung ist eine flüssig aufgetragene oder bahnenförmige Schicht direkt unter dem Fliesenbelag, die das Wasser stoppt, bevor es in den Untergrund eindringt. Sie ist in bestimmten Beanspruchungsklassen zwingend vorgeschrieben und trotzdem eine der am häufigsten mangelhaft ausgeführten Schichten am Bau.",
+    "ln": ["kbo3stein"]
+  },
+  {
+    "id": "kab3ablauf",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2nassraum",
+    "t": "Bodenablauf und Gefälle",
+    "t1": "Ein Bodenablauf funktioniert nur mit einem sauber ausgeführten Gefälle im gesamten umgebenden Belag, sonst bleibt Wasser stehen, statt abzulaufen. Besonders bei bodengleichen Duschen ist das Gefälle eines der planerisch anspruchsvollsten Details, weil es mit der Barrierefreiheit der Fläche konkurriert.",
+    "ln": ["k4null"]
+  },
+  {
+    "id": "kab3feuchtraum",
+    "p": "k",
+    "lv": 3,
+    "pa": "kab2nassraum",
+    "t": "Feuchträume außerhalb des Bads",
+    "t1": "Küchen, Hauswirtschaftsräume und bestimmte Kellerbereiche gelten bauphysikalisch ebenfalls als feuchtebelastet, auch wenn sie im Alltag nicht als Nassraum wahrgenommen werden. Wer hier den Feuchteschutz auf das Niveau eines trockenen Wohnraums reduziert, unterschätzt eine Beanspruchung, die sich erst nach Jahren als Schimmel zeigt."
+  }
+]

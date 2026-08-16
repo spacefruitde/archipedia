@@ -1,0 +1,341 @@
+[
+  {
+    "id": "kbe1",
+    "p": "k",
+    "lv": 1,
+    "t": "Bauen im Bestand",
+    "t1": "Der größte Teil der Bauaufgaben liegt heute nicht im Neubau, sondern in vorhandener Substanz: Umbauen, Ertüchtigen, Weiterbauen. Wer im Bestand plant, arbeitet gegen Unbekannte wie verdeckte Konstruktionen, undokumentierte Änderungen und gewachsene Toleranzen und muss Anforderungen erfüllen, die beim ursprünglichen Bau noch niemand kannte. Dieses Themenfeld sammelt das Handwerkszeug von der Aufnahme über die Ertüchtigung bis zur Umnutzung.",
+    "ln": ["k2b", "x1"]
+  },
+  {
+    "id": "kbe2aufnahme",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbe1",
+    "t": "Bestandsaufnahme und Schadensbilder",
+    "t1": "Jede Bestandsplanung beginnt mit einem ehrlichen Blick auf das, was wirklich da ist, nicht auf das, was der Bestandsplan behauptet. Aufmaß, Bauteilöffnungen und die Lektüre von Schadensbildern liefern die Grundlage, auf der alle späteren Entscheidungen stehen. Wer hier spart, zahlt später in Nachträgen."
+  },
+  {
+    "id": "kbe3aufmass",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2aufnahme",
+    "t": "Aufmaß, Bauteilöffnung und Bestandspläne",
+    "t1": "Vorhandene Baupläne sind ein Startpunkt, kein Beweis, denn sie zeigen selten spätere Umbauten oder tatsächlich ausgeführte Abweichungen. Ein belastbares Aufmaß und gezielte Bauteilöffnungen an kritischen Stellen wie Deckenauflagern, Wandaufbauten oder Leitungsführung ersetzen Vermutungen durch Fakten, bevor die Planung darauf aufbaut."
+  },
+  {
+    "id": "kbe3schad",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2aufnahme",
+    "t": "Schadensbilder lesen: Ursache vor Symptom",
+    "t1": "Ein Riss, ein feuchter Fleck oder abplatzender Putz sind Symptome, keine Diagnosen. Wer nur das Symptom kaschiert, sieht den Schaden in wenigen Jahren wieder, oft größer. Die eigentliche Aufgabe ist, aus dem Schadensbild auf die Ursache zurückzuschließen, etwa auf eine gestörte Feuchtebalance oder eine überlastete Konstruktion."
+  },
+  {
+    "id": "kbe3schadstoff",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2aufnahme",
+    "t": "Schadstoffe im Bestand erkennen",
+    "t1": "Asbest, teerhaltige Kleber oder alte Holzschutzmittel stecken oft dort, wo man sie nicht vermutet, etwa in Fliesenklebern, Bodenbelägen oder Dämmstoffen der Baujahre bis in die 1990er. Eine Schadstofferkundung vor Abbruch oder Rückbau ist keine Formalie, sondern schützt Gesundheit und Bauablauf gleichermaßen.",
+    "lnwunsch": ["Material- und Produktkunde: Baustoffe des 20. Jahrhunderts und ihre Risiken"]
+  },
+  {
+    "id": "kbe3zustand",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2aufnahme",
+    "t": "Bauzustandsbewertung und Beweissicherung",
+    "t1": "Vor jedem Eingriff in ein Nachbargebäude oder eine gemeinsame Wand lohnt eine dokumentierte Zustandsaufnahme, sie ist die beste Versicherung gegen spätere Streitigkeiten über Rissursachen. Auch für die eigene Planung liefert die systematische Bewertung von Tragwerk, Hülle und Ausbau die Prioritätenliste, an der sich Budget und Bauabschnitte orientieren."
+  },
+  {
+    "id": "kbe2ertuecht",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbe1",
+    "t": "Ertüchtigung: Statik, Brandschutz, Energie",
+    "t1": "Bestehende Gebäude erfüllen fast nie die heutigen Anforderungen an Tragfähigkeit, Brandschutz oder Energieeffizienz, wurden aber für eine andere Zeit und oft für einen anderen Zweck gebaut. Ertüchtigung heißt, diese Lücke zu schließen, ohne die Substanz zu zerstören, die den Bestand überhaupt erhaltenswert macht."
+  },
+  {
+    "id": "kbe3statik",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2ertuecht",
+    "t": "Statisch ertüchtigen statt ersetzen",
+    "t1": "Ob Kohlefaserlamelle, aufgedoppelte Decke oder zusätzliche Stütze: Die statische Ertüchtigung sucht meist den kleinsten Eingriff, der eine geforderte Tragfähigkeit sicherstellt. Entscheidend ist, das Bestandstragwerk erst zu verstehen, bevor man es verstärkt, denn viele Konstruktionen tragen anders, als der ursprüngliche Plan vermuten lässt.",
+    "lnwunsch": ["Tragwerk und Rohbau: Verstärkungssysteme im Bestand"]
+  },
+  {
+    "id": "kbe3brand",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2ertuecht",
+    "t": "Brandschutzertüchtigung im laufenden Betrieb",
+    "t1": "Fluchtwege, Brandabschnitte und Feuerwiderstände lassen sich im Bestand selten nach Neubaulogik lösen, weil Treppenräume, Wanddicken und Deckenaufbauten bereits feststehen. Häufig entscheidet sich die Lösung zwischen der Ertüchtigung vorhandener Bauteile und der Kompensation über Anlagentechnik wie Rauchmelder oder Sprinkler.",
+    "ln": ["k3t30"]
+  },
+  {
+    "id": "kbe3energ",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2ertuecht",
+    "t": "Energetische Ertüchtigung und ihre Grenzen",
+    "t1": "Eine nachträgliche Dämmung verändert das Feuchteverhalten der ganzen Wand, deshalb ist energetische Ertüchtigung nie nur eine Frage der Dämmstärke. Wer außen dämmt, ohne Innendämmfälle und Wärmebrücken am Bestand mitzudenken, riskiert neue Schäden an alter Substanz.",
+    "lnwunsch": ["Fenster und Verglasung: Bestandsfenster ertüchtigen oder ersetzen"]
+  },
+  {
+    "id": "kbe3install",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2ertuecht",
+    "t": "Haustechnik im Bestand nachrüsten",
+    "t1": "Neue Leitungen, Lüftung oder Fußbodenheizung wollen durch eine Konstruktion, die dafür nicht vorgesehen war. Vorwandinstallationen, Sockelleistenkanäle oder dezentrale Lüftungsgeräte sind die üblichen Antworten, wenn Schlitzen und Stemmen die Substanz zu sehr angreifen würden.",
+    "lnwunsch": ["Technische Gebäudeausrüstung: Vorwandinstallation und Bestandsleitungen"]
+  },
+  {
+    "id": "kbe2denkmal",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbe1",
+    "t": "Denkmalpflege: Prinzipien und Praxis",
+    "t1": "Denkmalpflege ist kein Bauen von gestern, sondern eine eigene Entwurfsdisziplin mit eigenen Regeln: Substanzschutz vor Neuerung, Lesbarkeit der Eingriffe, Reversibilität wo möglich. Wer diese Prinzipien versteht, kann auch in denkmalgeschützter Substanz zeitgemäß planen, statt nur zu verwalten."
+  },
+  {
+    "id": "kbe3prinz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2denkmal",
+    "t": "Substanzschutz und Reversibilität als Prinzip",
+    "t1": "Der Grundsatz der Denkmalpflege lautet, so wenig wie möglich und so viel wie nötig einzugreifen und Eingriffe nach Möglichkeit rückbaubar zu gestalten. Das schließt moderne Ertüchtigung nicht aus, verlangt aber, sie als erkennbare, ablösbare Schicht zu denken statt als Fälschung des Originals.",
+    "ln": ["k3ertuecht"]
+  },
+  {
+    "id": "kbe3ansatz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2denkmal",
+    "t": "Rekonstruktion, Ergänzung oder Kontrast",
+    "t1": "Fehlt ein Bauteil, stehen drei Haltungen zur Wahl: originalgetreu rekonstruieren, sinngemäß ergänzen oder bewusst zeitgenössisch kontrastieren. Keine Haltung ist grundsätzlich richtiger, aber jede erzeugt eine andere Lesbarkeit des Gebäudes und muss zur jeweiligen Bedeutung des Denkmals passen."
+  },
+  {
+    "id": "kbe3verfahren",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2denkmal",
+    "t": "Genehmigungsverfahren und Denkmalbehörde",
+    "t1": "Bei denkmalgeschützten Objekten läuft die Genehmigung parallel zum Bauantrag über eine eigene Fachbehörde, deren frühe Einbindung über Erfolg oder Verzögerung des Projekts entscheidet. Wer die Denkmalbehörde erst mit fertiger Planung konfrontiert, riskiert, wesentliche Teile davon wieder zu verlieren.",
+    "lnwunsch": ["Rechtliche Grundlagen: Denkmalschutzgesetze der Länder im Vergleich"]
+  },
+  {
+    "id": "kbe3material",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2denkmal",
+    "t": "Historische Materialien und Handwerk",
+    "t1": "Kalkputz, historisches Glas oder handgestrichene Ziegel verhalten sich physikalisch anders als ihre modernen Pendants, und genau darin liegt oft die Ursache, warum ein Altbau bis heute funktioniert. Reparaturen mit zu dichtem oder zu hartem Ersatzmaterial gehören zu den häufigsten Schadensursachen im Baubestand.",
+    "ln": ["k3hist"]
+  },
+  {
+    "id": "kbe2umbau",
+    "p": "k",
+    "lv": 2,
+    "pa": "kbe1",
+    "t": "Anbauen, Aufstocken, Umnutzen",
+    "t1": "Die wirtschaftlichste Erweiterung eines Gebäudes ist oft nicht der Neubau daneben, sondern die Weiterentwicklung des Vorhandenen. Anbau, Aufstockung und Umnutzung teilen die gleiche Grundfrage: Wie viel trägt der Bestand noch, und wo endet seine Belastbarkeit, konstruktiv wie gestalterisch?"
+  },
+  {
+    "id": "kbe3anbau",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2umbau",
+    "t": "Anbau: Fügung an den Bestand",
+    "t1": "Ein Anbau muss sich entscheiden, ob er sich unterordnet, gleichwertig anschließt oder bewusst als eigene Zeitschicht auftritt. Konstruktiv entscheidend ist die Fuge selbst: Setzungsunterschiede, unterschiedliche Gründungstiefen und abweichende Wärmedehnung verlangen ein Anschlussdetail, das Bewegung zulässt, statt sie zu verhindern.",
+    "lnwunsch": ["Tragwerk und Rohbau: Fugenausbildung zwischen Neu- und Altbau"]
+  },
+  {
+    "id": "kbe3aufstock",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2umbau",
+    "t": "Aufstockung: Lastreserven und Leichtbau",
+    "t1": "Ob ein Gebäude eine weitere Etage tragen kann, entscheidet sich an Fundament und Bestandstragwerk, nicht am Wunsch der Planung. Leichtbaukonstruktionen aus Holz oder Stahl sind deshalb die typische Antwort, wenn die Lastreserve knapp, die zusätzliche Nutzfläche aber attraktiv ist.",
+    "lnwunsch": ["Tragwerk und Rohbau: Holzbau als Leichtbaulösung im Bestand"]
+  },
+  {
+    "id": "kbe3umnutz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2umbau",
+    "t": "Umnutzung: neue Funktion, altes Tragwerk",
+    "t1": "Ein Fabrikgebäude wird Wohnhaus, eine Kirche wird Bibliothek: Umnutzung stellt neue Anforderungen an Erschließung, Brandschutz und Belichtung an eine Struktur, die für einen anderen Zweck gebaut wurde. Der Reiz liegt oft genau in der Spannung zwischen alter Großzügigkeit und neuer, kleinteiligerer Nutzung.",
+    "lnwunsch": ["Entwurf: Umnutzung und neue Grundrisslogik"]
+  },
+  {
+    "id": "kbe3ruecksb",
+    "p": "k",
+    "lv": 3,
+    "pa": "kbe2umbau",
+    "t": "Rückbau und Bauteilrecycling",
+    "t1": "Was nicht weiterverwendet werden kann, muss zumindest sortenrein zurückgebaut werden, denn ungetrennter Abbruch verschenkt Material und erzeugt vermeidbaren Deponieraum. Sichtbare Bauteile wie Balken, Türen oder Fliesen finden zunehmend über spezialisierte Handelsplätze ein zweites Leben in anderen Projekten.",
+    "lnwunsch": ["Material- und Produktkunde: Kreislaufwirtschaft und Bauteilbörsen"]
+  },
+  {
+    "id": "kau1",
+    "p": "k",
+    "lv": 1,
+    "t": "Außenanlagen und Übergänge",
+    "t1": "Wo das Gebäude endet, beginnt die Außenanlage, und genau an dieser Naht entscheiden sich viele der hartnäckigsten Mängel: Feuchte am Sockel, stolpernde Übergänge, unwirtliche Wege. Dieses Themenfeld versammelt das Wissen zu Belägen, Einfriedungen und dem Anschluss des Gebäudes an sein Gelände, immer mit Blick auf Entwässerung und Barrierefreiheit als durchgängige Themen.",
+    "ln": ["k4null", "kt3rampe"]
+  },
+  {
+    "id": "kau2belag",
+    "p": "k",
+    "lv": 2,
+    "pa": "kau1",
+    "t": "Beläge und Entwässerung außen",
+    "t1": "Außenbeläge tragen mehr Verantwortung, als ihre Optik vermuten lässt: Sie lenken Wasser, tragen Lasten und altern sichtbar unter freiem Himmel. Die Wahl von Material, Verlegeart und Gefälle entscheidet, ob eine Fläche in zehn Jahren noch eben und trocken ist."
+  },
+  {
+    "id": "kau3pflaster",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2belag",
+    "t": "Pflasterbeläge: Aufbau und Fugenbild",
+    "t1": "Unter jedem Pflaster liegt ein Tragschichtaufbau, der die eigentliche Lebensdauer bestimmt, das sichtbare Steinformat ist nur die oberste Schicht. Fugenbreite und Fugenmaterial steuern zusätzlich, wie viel Wasser versickert und wie leicht sich die Fläche später instand setzen lässt."
+  },
+  {
+    "id": "kau3wasser",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2belag",
+    "t": "Wassergebundene und sickerfähige Beläge",
+    "t1": "Rasengittersteine, Splittdecken oder wassergebundene Wegedecken lassen Regenwasser vor Ort versickern, statt es in den Kanal zu leiten, ein Vorteil, der bei zunehmender Flächenversiegelung an Gewicht gewinnt. Der Kompromiss liegt in der Pflege: Diese Beläge brauchen regelmäßige Nacharbeit, um eben und stabil zu bleiben."
+  },
+  {
+    "id": "kau3entw",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2belag",
+    "t": "Entwässerung: Gefälle, Rinnen, Versickerung",
+    "t1": "Wasser folgt dem Gefälle, nicht dem Wunsch der Planung, deshalb beginnt jede Außenanlagenplanung mit der Frage, wohin das Regenwasser tatsächlich abfließt. Rinnen, Drainagen und Versickerungsflächen sind die sichtbaren Werkzeuge einer Logik, die schon in der Geländemodellierung angelegt sein muss.",
+    "lnwunsch": ["Abdichtung und Bauphysik im Detail: Bauwerksfugen und Bewegung"]
+  },
+  {
+    "id": "kau3terrasse",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2belag",
+    "t": "Terrassenbeläge und Plattenlager",
+    "t1": "Auf Stelzlagern verlegte Platten lösen Gefälle und Belag voneinander, das darunterliegende Abdichtungsgefälle bleibt unabhängig von der sichtbar ebenen Nutzfläche. Diese Entkopplung erleichtert spätere Kontrolle und Austausch erheblich gegenüber vollflächig verklebten Aufbauten."
+  },
+  {
+    "id": "kau2einfried",
+    "p": "k",
+    "lv": 2,
+    "pa": "kau1",
+    "t": "Einfriedungen und Stützmauern",
+    "t1": "Zaun, Hecke oder Mauer markieren die Grenze eines Grundstücks und prägen die Straßenansicht oft stärker als das Gebäude selbst. Stützmauern übernehmen dazu eine tragende Aufgabe: Sie halten Erdreich, wo das Gelände springt, und unterliegen deshalb eigenen statischen Regeln."
+  },
+  {
+    "id": "kau3zaun",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2einfried",
+    "t": "Zäune und Hecken als Grundstücksgrenze",
+    "t1": "Eine Hecke braucht Jahre, um ihre Wirkung zu entfalten, ein Zaun steht sofort, dafür bleibt er immer sichtbares Bauteil statt gewachsene Grenze. Die Entscheidung ist selten nur gestalterisch, sie hat auch mit Pflegeaufwand, Sichtschutz und Nachbarschaftsrecht zu tun."
+  },
+  {
+    "id": "kau3mauer",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2einfried",
+    "t": "Stützmauern: Erddruck und Material",
+    "t1": "Eine Stützmauer hält nicht nur ihr eigenes Gewicht, sondern den Erddruck des dahinterliegenden Geländes, weshalb Fundamentierung und Entwässerung hinter der Mauer über ihre Standsicherheit entscheiden. Gabionen, Betonwinkelsteine oder klassisches Mauerwerk unterscheiden sich vor allem darin, wie viel Handarbeit und wie viel System im Aufbau steckt.",
+    "lnwunsch": ["Gründung und erdberührte Bauteile: Fundamentierung von Stützmauern"]
+  },
+  {
+    "id": "kau3sockelmauer",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2einfried",
+    "t": "Sockelmauerwerk und Spritzwasserschutz",
+    "t1": "Der unterste Meter jeder Fassade ist der am meisten beanspruchte: Spritzwasser, Tausalz und mechanischer Stoß treffen hier zusammen. Ein eigenes, robusteres Sockelmaterial oberhalb der Erdanschlusshöhe schützt die eigentliche Fassade davor, diesen Verschleiß mittragen zu müssen."
+  },
+  {
+    "id": "kau3tor",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2einfried",
+    "t": "Einfahrtstore und Zugangssituationen",
+    "t1": "Ein Tor ist die Haustür des Grundstücks und verdient entsprechende Sorgfalt bei Antrieb, Anschlag und Übergang zum Belag. Elektrische Antriebe verlangen früh geklärte Leitungswege, sonst endet die Automatisierung als nachträglich sichtbares Kabel auf dem Pflaster."
+  },
+  {
+    "id": "kau2uebergang",
+    "p": "k",
+    "lv": 2,
+    "pa": "kau1",
+    "t": "Der Übergang Gebäude/Gelände",
+    "t1": "Am Fußpunkt der Fassade treffen zwei Systeme aufeinander, die unterschiedlichen Regeln folgen: die trockene Gebäudehülle und das feuchte, bewegliche Gelände. Wie sauber dieser Übergang gelöst ist, entscheidet über Jahrzehnte, ob Feuchte im Sockel eine Ausnahme oder ein Dauerzustand ist.",
+    "ln": ["x3platz"]
+  },
+  {
+    "id": "kau3sockelanschl",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2uebergang",
+    "t": "Sockelanschluss und Spritzwasserschutz",
+    "t1": "Direkt am Gebäude braucht die Abdichtung ausreichend Anschlusshöhe über dem fertigen Gelände, klassisch etwa 15 Zentimeter, sonst dringt Feuchte über Spritzwasser und Kapillarwirkung in die Wand. Dieser Wert steht in ständiger Spannung zur Forderung nach schwellenlosen Zugängen und wird dort zum eigentlichen Planungsproblem.",
+    "ln": ["k4null"]
+  },
+  {
+    "id": "kau3gefaelle",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2uebergang",
+    "t": "Gefälle vom Gebäude weg als Grundregel",
+    "t1": "Die einfachste und wirksamste Regel der Außenanlagenplanung lautet, das Gelände unmittelbar am Gebäude immer fallend anzulegen, nie eben und niemals zum Haus hin geneigt. Wird diese Grundregel missachtet, hilft auch die beste Abdichtung nur begrenzt, weil Wasser dauerhaft am Bauwerk steht, statt abzulaufen."
+  },
+  {
+    "id": "kau3vordach",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2uebergang",
+    "t": "Vordach und Rücksprung als Wetterschutz",
+    "t1": "Ein Vordach oder ein zurückgesetzter Eingang hält Schlagregen von Fassade und Schwelle fern, bevor überhaupt eine Abdichtung gefordert ist. Diese vorbeugende Wirkung wird in der Planung oft unterschätzt, dabei ist sie meist günstiger als jede nachträgliche technische Lösung am selben Problem."
+  },
+  {
+    "id": "kau2barriere",
+    "p": "k",
+    "lv": 2,
+    "pa": "kau1",
+    "t": "Barrierefreie Außenerschließung",
+    "t1": "Barrierefreiheit endet nicht an der Haustür, sie beginnt am Straßenrand: Stellplatz, Weg und Rampe müssen ebenso durchdacht sein wie der Eingang selbst. Wer die Außenerschließung erst nach dem Gebäude plant, verbaut sich oft die Fläche, die eine stufenlose Lösung eigentlich braucht."
+  },
+  {
+    "id": "kau3rampenweg",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2barriere",
+    "t": "Rampen und Wege im Freien",
+    "t1": "Ein barrierefreier Weg im Freien braucht nicht nur die richtige Neigung, sondern auch einen griffigen, ebenen Belag, der bei Nässe und Laub nicht zur Rutschbahn wird. Wo eine durchgehende Rampe zu lang würde, sind Zwischenpodeste zum Ausruhen kein Komfortdetail, sondern Voraussetzung für die Nutzbarkeit.",
+    "ln": ["kt3rampe"]
+  },
+  {
+    "id": "kau3stellplatz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2barriere",
+    "t": "Barrierefreie Stellplätze und Absenkung",
+    "t1": "Ein barrierefreier Stellplatz braucht Bewegungsfläche neben dem Fahrzeug für den Umstieg in einen Rollstuhl, das ist mehr als nur eine breitere Markierung. Die Bordsteinabsenkung zum Gehweg gehört als durchgehende Linie mitgeplant, sonst endet die Barrierefreiheit genau an der Stelle, wo sie beginnen sollte.",
+    "lnwunsch": ["Barrierefreies Bauen: Bewegungsflächen und Stellplatznachweis"]
+  },
+  {
+    "id": "kau3leitsystem",
+    "p": "k",
+    "lv": 3,
+    "pa": "kau2barriere",
+    "t": "Taktile Leitsysteme im Außenraum",
+    "t1": "Rillen- und Noppenplatten führen sehbehinderte Menschen ertastbar durch den Außenraum, ihre Wirkung hängt aber vollständig von einer durchgängigen, unterbrechungsfreien Linienführung ab. Ein Leitsystem, das an einer Kreuzung einfach endet, ist gefährlicher als gar keines, weil es Orientierung verspricht, die es nicht hält.",
+    "lnwunsch": ["Barrierefreies Bauen: Taktile Leitsysteme im Gebäudeinneren"]
+  }
+]

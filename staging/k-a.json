@@ -1,0 +1,557 @@
+[
+  {
+    "id": "kgr1",
+    "p": "k",
+    "lv": 1,
+    "t": "Gründung und erdberührte Bauteile",
+    "t1": "Die Gründung überträgt die Lasten des Gebäudes in den Baugrund und ist zugleich die erste Abdichtungsebene gegen Bodenfeuchte und Wasser. Fehler hier sind später kaum korrigierbar, weil jede Nachbesserung durch massives Erdreich hindurch muss. Das Themenfeld reicht von der Wahl des Gründungssystems über die wasserdichte Wanne bis zur Dämmung und Sockelausbildung am Übergang zum aufgehenden Bauteil."
+  },
+  {
+    "id": "kgr2fund",
+    "p": "k",
+    "lv": 2,
+    "pa": "kgr1",
+    "t": "Flach- und Tiefgründungen",
+    "t1": "Ob ein Gebäude flach oder tief gegründet wird, entscheidet der Baugrund, nicht der Architekt allein: Tragfähigkeit, Grundwasserstand und Nachbarbebauung setzen die Randbedingungen. Flachgründungen sind der Regelfall im Hochbau, Tiefgründungen kommen bei schlechtem Baugrund oder hohen Lasten ins Spiel. Die Entscheidung fällt gemeinsam mit dem Tragwerksplaner, meist schon in der Vorplanung."
+  },
+  {
+    "id": "kgr3streifen",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2fund",
+    "t": "Streifen- und Einzelfundamente",
+    "t1": "Streifenfundamente unter tragenden Wänden und Einzelfundamente unter Stützen sind die einfachste Form der Flachgründung: flach, robust, in fast jedem Baugrund wirtschaftlich. Ihre Tiefe richtet sich nach der Frostgrenze, ihre Breite nach der zulässigen Bodenpressung. Bei ungleichmäßigem Baugrund drohen Setzungsunterschiede, denen mit einer durchgehenden Bodenplatte oft besser zu begegnen ist."
+  },
+  {
+    "id": "kgr3platte",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2fund",
+    "t": "Bodenplatte",
+    "t1": "Die Bodenplatte gründet flächig statt linear und verteilt die Last gleichmäßiger als einzelne Streifen: Sie ist heute bei Wohn- und Kleingebäuden der Regelfall, oft kombiniert mit Fußbodenheizung im Aufbau. Bewehrung und Dicke richten sich nach Lastabtrag und Baugrund, die Ebenheit nach den Anforderungen des folgenden Bodenaufbaus."
+  },
+  {
+    "id": "kgr3pfahl",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2fund",
+    "t": "Pfahlgründung",
+    "t1": "Wo der tragfähige Baugrund erst in mehreren Metern Tiefe liegt, leiten Pfähle die Last an der schlechten Bodenschicht vorbei: Sie tragen über Mantelreibung, Spitzendruck oder beides. Pfahlgründungen sind aufwendig und teuer, aber oft die einzige Lösung bei weichen Böden, hohen Lasten oder strengen Setzungsvorgaben in dichter Nachbarschaft."
+  },
+  {
+    "id": "kgr3wahl",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2fund",
+    "t": "Baugrunduntersuchung und Gründungswahl",
+    "t1": "Das Baugrundgutachten ist die Grundlage jeder Gründungsentscheidung und gehört früh beauftragt, nicht erst zur Ausführungsplanung: Es liefert Tragfähigkeit, Grundwasserstand und Hinweise auf Altlasten oder Hohlräume. Wer hier spart, riskiert teure Umplanungen mitten in der Bauausführung.",
+    "lnwunsch": ["P3 Baurecht: Baugrundgutachten und Genehmigungspflichten"]
+  },
+  {
+    "id": "kgr2keller",
+    "p": "k",
+    "lv": 2,
+    "pa": "kgr1",
+    "t": "Kellerwände und Weiße Wanne",
+    "t1": "Kellerwände tragen nicht nur, sie müssen zugleich dem Wasserdruck des umgebenden Bodens standhalten. Die Weiße Wanne aus wasserundurchlässigem Beton hat die klassische Außenabdichtung in vielen Projekten abgelöst, weil sie Tragwerk und Abdichtung in einem Bauteil vereint. Die Wahl zwischen weißer und schwarzer Wanne fällt früh und ist später kaum revidierbar."
+  },
+  {
+    "id": "kgr3wu",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2keller",
+    "t": "Weiße Wanne: Konstruktionsprinzip",
+    "t1": "Wasserundurchlässiger Beton (WU-Beton) dichtet nicht durch eine Membran, sondern durch das Material selbst: dichtes Gefüge, kontrollierte Rissbreite, durchdachte Fugenausbildung. Das Prinzip funktioniert nur, wenn Bewehrung, Betonrezeptur und Fugenplanung als Gesamtsystem gedacht werden, nicht als Summe von Einzelentscheidungen."
+  },
+  {
+    "id": "kgr3schwarz",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2keller",
+    "t": "Schwarze und Braune Wanne im Vergleich",
+    "t1": "Die schwarze Wanne dichtet mit Bitumenbahnen von außen ab, die braune Wanne mit Bentonit, das bei Wasserkontakt aufquillt: Beide sind Alternativen zur weißen Wanne, wenn WU-Beton konstruktiv oder wirtschaftlich nicht passt. Schwäche beider Systeme ist die Durchdringung, jede Leitung und jeder Anker durch die Abdichtungsebene ist eine potenzielle Schwachstelle."
+  },
+  {
+    "id": "kgr3ziegel",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2keller",
+    "t": "Kellerwand aus Mauerwerk",
+    "t1": "Gemauerte Kellerwände mit nachträglicher Außenabdichtung sind der traditionelle Weg und im kleinvolumigen Bau noch verbreitet: einfach zu handwerken, aber auf eine zuverlässige, separate Abdichtungsebene angewiesen. Anders als die Weiße Wanne trennt dieses System Tragfunktion und Dichtfunktion sauber, was Reparaturen erschwert, sobald die Wand hinterfüllt ist."
+  },
+  {
+    "id": "kgr3durchdring",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2keller",
+    "t": "Durchdringungen der Weißen Wanne",
+    "t1": "Jede Leitung, jeder Anker und jede Arbeitsfuge durchbricht die Dichtheit des WU-Betons und muss mit eigens dafür entwickelten Systemen abgedichtet werden: Fugenbändern, Injektionsschläuchen, Dichtmanschetten. In der Praxis entstehen die meisten Wasserschäden nicht in der Fläche, sondern genau an diesen Stellen."
+  },
+  {
+    "id": "kgr2abdicht",
+    "p": "k",
+    "lv": 2,
+    "pa": "kgr1",
+    "t": "Abdichtung erdberührter Bauteile",
+    "t1": "Abdichtung erdberührter Bauteile schützt vor Bodenfeuchte, aufstauendem und drückendem Wasser, drei Belastungsklassen mit sehr unterschiedlichen Anforderungen an das Abdichtungssystem. Welche Klasse vorliegt, entscheidet die Wasserbeanspruchung am Standort, nicht die Bauteilart allein. Wer die Klasse falsch einschätzt, dichtet entweder unnötig aufwendig oder zu knapp."
+  },
+  {
+    "id": "kgr3weklasse",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2abdicht",
+    "t": "Wassereinwirkungsklassen im Überblick",
+    "t1": "Bodenfeuchte, aufstauendes Sickerwasser und drückendes Wasser sind die drei zentralen Belastungsfälle, denen eine Abdichtung standhalten muss, jeweils mit eigenem Anforderungsprofil an Material und Ausführung. Die Einstufung erfolgt über Baugrundgutachten und Grundwasserstand und bestimmt praktisch alles Weitere an der Abdichtung."
+  },
+  {
+    "id": "kgr3bitumen",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2abdicht",
+    "t": "Bitumen- und Kunststoffbahnen",
+    "t1": "Bahnenabdichtungen werden mehrlagig verschweißt oder verklebt und sind das traditionelle System für drückendes Wasser: robust, aber auf handwerklich saubere Nähte und Anschlüsse angewiesen. Jede Durchdringung, jede Ecke und jede Bauteilfuge ist ein Detail, das in der Ausführung über die gesamte Lebensdauer entscheidet."
+  },
+  {
+    "id": "kgr3fluessig",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2abdicht",
+    "t": "Flüssigabdichtung",
+    "t1": "Flüssig aufgetragene Abdichtungen bilden eine fugenlose Membran und eignen sich besonders für komplexe Geometrien, Anschlüsse und Nachträge im Bestand, wo Bahnen schwer zu verlegen wären. Die Qualität hängt stark von Schichtdicke und Untergrundvorbereitung ab, beides ist auf der Baustelle schwerer zu kontrollieren als eine im Werk vorgefertigte Bahn."
+  },
+  {
+    "id": "kgr3drainage",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2abdicht",
+    "t": "Drainage und Sickerwasser",
+    "t1": "Eine Drainage nimmt drückendes Wasser vom Gebäude weg, bevor es die Abdichtung überhaupt belastet, und kann so aus einer aufwendigen Abdichtung gegen drückendes Wasser eine einfachere gegen Bodenfeuchte machen. Sie funktioniert aber nur mit Gefälle zum Vorfluter oder Sickerschacht und braucht regelmäßige Wartung, sonst versagt sie unbemerkt unter der Erde."
+  },
+  {
+    "id": "kgr2perim",
+    "p": "k",
+    "lv": 2,
+    "pa": "kgr1",
+    "t": "Perimeterdämmung und Sockelausbildung",
+    "t1": "Am Übergang vom erdberührten zum aufgehenden Bauteil treffen Abdichtung, Dämmung und Sockelausbildung auf engstem Raum aufeinander, und genau hier entstehen die meisten Wärmebrücken und Feuchteschäden am Gebäude. Perimeterdämmung muss druckwasserbeständig und dauerhaft feuchteunempfindlich sein, ganz andere Anforderungen als Dämmung im aufgehenden Mauerwerk."
+  },
+  {
+    "id": "kgr3perimmat",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2perim",
+    "t": "Perimeterdämmung: Materialwahl",
+    "t1": "Nur wenige Dämmstoffe vertragen dauerhaften Erdkontakt und Feuchte ohne Leistungsverlust: extrudiertes Polystyrol (XPS) und Schaumglas sind die gängigen Systeme, geschlossenzellig und druckfest genug für die Hinterfüllung. Mineralische Dämmstoffe scheiden hier aus, sie verlieren bei Durchfeuchtung ihre Dämmwirkung dauerhaft.",
+    "lnwunsch": ["K13 Material: Dämmstoffe im Vergleich"]
+  },
+  {
+    "id": "kgr3sockel",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2perim",
+    "t": "Sockelausbildung und Spritzwasserschutz",
+    "t1": "Der Sockel nimmt Spritzwasser und mechanische Belastung auf und bildet oft auch die sichtbare Materialgrenze zwischen Fassade und Erdreich, ein bauphysikalisches ebenso wie ein gestalterisches Detail. Die Höhe der Abdichtung über Gelände steht dabei in ständiger Spannung zur barrierefreien, schwellenlosen Erschließung an Eingängen.",
+    "ln": ["k4null", "k3schwelle"],
+    "lnwunsch": ["K9 Böden: Sockelanschluss außen", "K15 Außenanlagen: Übergang Gebäude und Gelände"]
+  },
+  {
+    "id": "kgr3waermebr",
+    "p": "k",
+    "lv": 3,
+    "pa": "kgr2perim",
+    "t": "Wärmebrücke am Gebäudesockel",
+    "t1": "Am Sockel läuft die Dämmebene der Fassade selten bruchlos in die Perimeterdämmung über, ein klassischer Ort für geometrische und materialbedingte Wärmebrücken. Sorgfältige Detailplanung mit durchlaufender Dämmebene reduziert hier spürbar den Energieverlust und verhindert Tauwasser an der Innenoberfläche.",
+    "ln": ["kfa2wdvs"]
+  },
+  {
+    "id": "kro1",
+    "p": "k",
+    "lv": 1,
+    "t": "Tragwerk und Rohbau",
+    "t1": "Das Tragwerk trägt nicht nur die Lasten, es legt auch fest, was später noch änderbar ist: Spannweiten, Stützenraster und Wandstellungen aus der Rohbauphase begleiten ein Gebäude über seine gesamte Nutzungsdauer. Die Wahl des Baustoffs, Mauerwerk, Stahlbeton, Holz oder Stahl, ist deshalb eine der folgenreichsten Entscheidungen im Entwurf, weit über die Statik hinaus."
+  },
+  {
+    "id": "kro2mauer",
+    "p": "k",
+    "lv": 2,
+    "pa": "kro1",
+    "t": "Mauerwerksbau",
+    "t1": "Mauerwerk trägt und dämmt zugleich in einem Bauteil, was es zur wirtschaftlichsten Lösung für viele Wohngebäude macht, solange Spannweiten und Geschosszahl moderat bleiben. Die Vielfalt der Steinformate von Ziegel über Kalksandstein bis Porenbeton erlaubt eine feine Abstimmung von Tragfähigkeit, Dämmwert und Schallschutz auf die jeweilige Wand.",
+    "ln": ["kfa2sicht"]
+  },
+  {
+    "id": "kro3steine",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2mauer",
+    "t": "Mauerwerksarten und Steinformate",
+    "t1": "Ziegel, Kalksandstein und Porenbeton unterscheiden sich in Rohdichte, Wärmeleitfähigkeit und Druckfestigkeit erheblich, und diese Eigenschaften stehen meist im Zielkonflikt: Ein leichter, gut dämmender Stein trägt weniger als ein schwerer, dichter. Die Wandstärke gleicht diesen Konflikt aus, weshalb monolithische Wände aus leichten Steinen oft dicker ausfallen als gedämmte Verblendkonstruktionen."
+  },
+  {
+    "id": "kro3tragend",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2mauer",
+    "t": "Tragende und aussteifende Wände",
+    "t1": "Nicht jede Wand trägt vertikale Lasten ab, aber fast jede aussteifende Wand übernimmt eine strukturelle Aufgabe: Sie leitet Horizontallasten aus Wind in die Fundamente. Wer im Bestand eine Wand entfernen will, muss deshalb beide Funktionen prüfen, nicht nur die offensichtliche Traglast."
+  },
+  {
+    "id": "kro3knick",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2mauer",
+    "t": "Schlankheit und Knicklänge im Mauerwerk",
+    "t1": "Eine schlanke Mauerwerkswand kann knicken, bevor sie ihre rechnerische Druckfestigkeit erreicht, ähnlich wie ein zu dünner Stab unter Last ausweicht. Das Verhältnis von Wandhöhe zu Wanddicke begrenzt deshalb die zulässige Schlankheit und damit indirekt auch die minimale Wandstärke bei hohen Räumen."
+  },
+  {
+    "id": "kro2beton",
+    "p": "k",
+    "lv": 2,
+    "pa": "kro1",
+    "t": "Stahlbetonbau: Ortbeton und Fertigteile",
+    "t1": "Stahlbeton verbindet die Druckfestigkeit des Betons mit der Zugfestigkeit der Bewehrung und ermöglicht damit Spannweiten und Formen, die Mauerwerk nicht leisten kann. Die Grundsatzentscheidung fällt zwischen Ortbeton, vor Ort geschalt und gegossen, und Fertigteilen, im Werk produziert und montiert: Ortbeton ist flexibler in der Form, Fertigteile sind schneller und präziser auf der Baustelle.",
+    "ln": ["kfa2sichtbeton"],
+    "lnwunsch": ["K13 Material: Beton und Betonoberflächen"]
+  },
+  {
+    "id": "kro3ortbeton",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2beton",
+    "t": "Ortbeton: Schalung und Bewehrung",
+    "t1": "Ortbeton entsteht vor Ort in einer Schalung, die die endgültige Oberfläche mitbestimmt, glatt, strukturiert oder als Sichtbeton behandelt. Bewehrungsführung und Betonierabschnitte müssen früh mit dem Tragwerksplaner abgestimmt werden, weil sie Bauablauf und spätere Fugenlage festlegen.",
+    "ln": ["kt3beton"]
+  },
+  {
+    "id": "kro3fertig",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2beton",
+    "t": "Betonfertigteile und Elementbauweise",
+    "t1": "Fertigteile werden im Werk unter kontrollierten Bedingungen hergestellt und liefern gleichbleibende Qualität, verkürzen aber die Planungsfreiheit vor Ort: Änderungen nach der Fertigung sind aufwendig bis unmöglich. Die Fugen zwischen den Elementen sind konstruktiv und gestalterisch entscheidend und verdienen eigene Aufmerksamkeit in der Planung."
+  },
+  {
+    "id": "kro2holz",
+    "p": "k",
+    "lv": 2,
+    "pa": "kro1",
+    "t": "Holzbau: Massivholz, Skelett, Rahmen",
+    "t1": "Holzbau hat sich von der Nische zur ernsthaften Alternative im mehrgeschossigen Bau entwickelt, getrieben von Vorfertigung, Bauzeit und dem Wunsch nach einem nachwachsenden Baustoff. Drei Grundsysteme prägen das Feld: Massivholz aus großformatigen Platten, Skelettbau mit Stützen und Trägern, und Rahmenbau mit stabverstärkten Wänden.",
+    "lnwunsch": ["K13 Material: Holz und Holzwerkstoffe"]
+  },
+  {
+    "id": "kro3massiv",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2holz",
+    "t": "Massivholzbau (Brettsperrholz)",
+    "t1": "Brettsperrholz, kreuzweise verleimte Bretterlagen, verhält sich wie eine flächige Massivscheibe und trägt in beide Richtungen: Wände und Decken übernehmen Trag- und Raumabschlussfunktion in einem Bauteil. Der sichtbare Holzcharakter ist gestalterisch gewollt, verlangt aber besondere Sorgfalt beim Brand- und Schallschutz.",
+    "ln": ["kt3holz"]
+  },
+  {
+    "id": "kro3skelett",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2holz",
+    "t": "Holzskelettbau",
+    "t1": "Stützen und Träger aus Holz oder Brettschichtholz tragen die Lasten, während die Wände von der Tragfunktion befreit sind und frei gestaltet werden können: viel Licht, große Öffnungen, flexible Grundrisse. Das System eignet sich besonders für Hallen und öffentliche Bauten mit großen Spannweiten."
+  },
+  {
+    "id": "kro3rahmen",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2holz",
+    "t": "Holzrahmenbau",
+    "t1": "Im Holzrahmenbau übernehmen schlanke, dicht gestellte Ständer die Tragfunktion, die Zwischenräume nehmen Dämmung auf: eine sehr materialsparende, hoch vorfertigbare Bauweise, verbreitet im Ein- und Zweifamilienhausbau. Die Luftdichtheit entscheidet über die Bauphysik der Wand und muss handwerklich präzise ausgeführt werden."
+  },
+  {
+    "id": "kro2stahl",
+    "p": "k",
+    "lv": 2,
+    "pa": "kro1",
+    "t": "Stahl- und Hybridbau",
+    "t1": "Stahl trägt bei geringem Eigengewicht enorme Lasten und erlaubt die größten Spannweiten aller gängigen Baustoffe, verlangt dafür aber konsequenten Brand- und Korrosionsschutz. Hybridbauweisen kombinieren Stahl gezielt mit Beton oder Holz und nutzen die jeweiligen Stärken der Materialien in einem Bauteil."
+  },
+  {
+    "id": "kro3profile",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2stahl",
+    "t": "Stahlskelettbau und Profile",
+    "t1": "Genormte Walzprofile wie I- und H-Träger stehen als Halbzeug bereit und werden im Werk vorkonfektioniert, was Stahlbau zur schnellsten Rohbauweise macht. Die Verbindungen, geschweißt oder geschraubt, prägen dabei ebenso die Tragwirkung wie die Profile selbst.",
+    "ln": ["kt3stahl"]
+  },
+  {
+    "id": "kro3verbund",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2stahl",
+    "t": "Verbundbau: Stahl und Beton kombiniert",
+    "t1": "Verbundkonstruktionen lassen Beton auf Druck und Stahl auf Zug arbeiten, jeweils dort, wo sie es am besten können, etwa als Verbundträger mit Betonplatte auf Stahlprofil. Das Ergebnis sind schlankere Bauteile als bei reiner Stahl- oder Betonbauweise, bei etwas höherem Planungsaufwand für die Verbundmittel."
+  },
+  {
+    "id": "kro3brand",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2stahl",
+    "t": "Brandschutz im Stahlbau",
+    "t1": "Stahl verliert bei Brandtemperaturen rasch seine Tragfähigkeit, anders als Beton oder Holz, das langsamer abbrennt und dabei eine schützende Kohleschicht bildet. Brandschutzbekleidungen, Dämmschichtsysteme oder das bewusste Überdimensionieren der Profile kompensieren diese Schwäche, jede Lösung mit eigenen Kosten- und Gestaltungsfolgen.",
+    "lnwunsch": ["P3 Baurecht: Sonderbauten und Brandschutzanforderungen"]
+  },
+  {
+    "id": "kro2decken",
+    "p": "k",
+    "lv": 2,
+    "pa": "kro1",
+    "t": "Decken und Unterzüge",
+    "t1": "Decken trennen Geschosse und tragen gleichzeitig horizontale Lasten in die aussteifenden Bauteile ab, eine Doppelrolle, die bei jeder Deckenöffnung neu durchdacht werden muss. Unterzüge fangen dabei punktuelle oder linienförmige Lasten ab, wo die Decke allein die Spannweite nicht bewältigt."
+  },
+  {
+    "id": "kro3decksys",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2decken",
+    "t": "Deckensysteme im Vergleich",
+    "t1": "Ortbetondecken sind monolithisch und frei formbar, Fertigteildecken schneller montiert und präziser, Holzbalkendecken leicht und schnell, aber schalltechnisch anspruchsvoller: Jedes System bringt eigene Anforderungen an Spannweite, Bauzeit und Schallschutz mit. Die Wahl hängt oft stärker vom übrigen Tragwerk ab als von der Decke selbst."
+  },
+  {
+    "id": "kro3unterzug",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2decken",
+    "t": "Unterzüge und Spannweiten",
+    "t1": "Ein Unterzug erlaubt größere Deckenspannweiten, kostet dafür aber Raumhöhe oder verlangt eine abgehängte Decke, die ihn verdeckt: ein klassischer Zielkonflikt zwischen Tragwerk und lichter Raumhöhe. Wo Unterzüge in Stützenachsen fallen, verschwinden sie fast, außerhalb dieser Achsen werden sie zum sichtbaren Entwurfsthema."
+  },
+  {
+    "id": "kro2aussteif",
+    "p": "k",
+    "lv": 2,
+    "pa": "kro1",
+    "t": "Aussteifung und Fugen",
+    "t1": "Ein Gebäude braucht neben der vertikalen Tragfähigkeit auch Stabilität gegen Wind und Erdbeben, die Aussteifung: Wände, Kerne oder Verbände leiten diese Horizontallasten kontrolliert ab. Bauwerksfugen wiederum trennen bewusst, wo unterschiedliche Bewegungen, aus Temperatur, Setzung oder Gebäudehöhe, sonst Risse erzwingen würden.",
+    "lnwunsch": ["E8 Ordnung und Struktur: Primär- und Sekundärstruktur"]
+  },
+  {
+    "id": "kro3ausstbau",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2aussteif",
+    "t": "Aussteifende Bauteile",
+    "t1": "Treppenhauskerne, massive Wandscheiben oder diagonale Verbände übernehmen die Aussteifung eines Gebäudes gegen Wind und andere Horizontallasten und müssen deshalb früh im Grundriss verortet werden, nicht nachträglich eingefügt. Wo sie fehlen oder zu knapp bemessen sind, wird das gesamte Tragwerk instabil, unabhängig von der Festigkeit der Einzelbauteile."
+  },
+  {
+    "id": "kro3fugen",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2aussteif",
+    "t": "Bauwerksfugen: Dehnung, Setzung, Trennung",
+    "t1": "Dehnungsfugen nehmen Temperaturbewegungen auf, Setzungsfugen trennen Gebäudeteile mit unterschiedlicher Gründung, und Gebäudetrennfugen grenzen ganze Bauwerke gegeneinander ab: Alle drei verhindern Risse, indem sie Bewegung gezielt zulassen, statt sie zu unterdrücken. Fugenabstand und Fugenbreite folgen dabei aus Material, Bauteillänge und Temperaturspanne."
+  },
+  {
+    "id": "kro3schwinden",
+    "p": "k",
+    "lv": 3,
+    "pa": "kro2aussteif",
+    "t": "Schwinden und Kriechen im Tragwerk",
+    "t1": "Beton verkürzt sich nach dem Erhärten messbar durch Schwinden, und unter Dauerlast verformt er sich weiter durch Kriechen, beides Vorgänge, die erst Monate bis Jahre nach der Fertigstellung abgeschlossen sind. Wer das ignoriert, riskiert Risse an Anschlüssen zu steiferen Bauteilen, die eigentlich nur unterschiedlich stark schwinden."
+  },
+  {
+    "id": "kfa1",
+    "p": "k",
+    "lv": 1,
+    "t": "Außenwand und Fassade",
+    "t1": "Die Fassade ist die Schnittstelle zwischen innen und außen, sie muss zugleich tragen oder verkleiden, dämmen, entwässern und über Jahrzehnte wettergerecht bleiben. Kein anderes Bauteil vereint so viele bauphysikalische Anforderungen mit so hoher gestalterischer Wirkung. Die Wahl des Fassadenprinzips, monolithisch, gedämmt, vorgehängt oder als Elementfassade, entscheidet früh über Erscheinung, Kosten und Wartungsaufwand."
+  },
+  {
+    "id": "kfa2mono",
+    "p": "k",
+    "lv": 2,
+    "pa": "kfa1",
+    "t": "Monolithische Außenwände",
+    "t1": "Eine monolithische Wand dämmt allein durch ihre Materialstärke, ohne zusätzliche Dämmschicht: einschalig, aber massiv genug, um heutige Wärmeschutzanforderungen zu erfüllen. Der Verzicht auf ein mehrschaliges System vereinfacht die Konstruktion, verlangt aber Wandstärken, die andere Systeme nicht brauchen."
+  },
+  {
+    "id": "kfa3ziegelmono",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2mono",
+    "t": "Hochlochziegel und Leichtbeton",
+    "t1": "Hochlochziegel mit feiner Lochgeometrie und porosierte Leichtbetonsteine erreichen ihren Dämmwert über den Luftanteil im Stein selbst, nicht über eine zusätzliche Schicht. Beide Baustoffe verlangen sorgfältige Verarbeitung, weil jede Wärmebrücke durch Mörtelfugen oder Anker den rechnerischen Dämmwert der ganzen Wand schmälert."
+  },
+  {
+    "id": "kfa3grenzmono",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2mono",
+    "t": "Grenzen der monolithischen Bauweise",
+    "t1": "Je strenger die Wärmeschutzanforderungen, desto dicker muss eine monolithische Wand werden, irgendwann auf Kosten der Nutzfläche: Ab einem bestimmten Dämmstandard wird eine gedämmte, mehrschalige Wand wirtschaftlicher als noch mehr Wandstärke. Wo dieser Punkt liegt, verschiebt sich mit jeder Verschärfung der Energievorschriften."
+  },
+  {
+    "id": "kfa2wdvs",
+    "p": "k",
+    "lv": 2,
+    "pa": "kfa1",
+    "t": "WDVS",
+    "t1": "Das Wärmedämmverbundsystem (WDVS) klebt oder dübelt eine Dämmschicht außen auf die tragende Wand und trägt einen Putz als Witterungsschutz, die verbreitetste Fassadenlösung im deutschsprachigen Neubau. Es ist wirtschaftlich und gut dämmend, aber empfindlich an Details wie Sockel, Fensteranschluss und Brandriegel, wo die Systemdicke an Grenzen stößt.",
+    "ln": ["kgr3waermebr"]
+  },
+  {
+    "id": "kfa3daemmwdvs",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2wdvs",
+    "t": "Dämmstoffe im WDVS",
+    "t1": "Expandiertes Polystyrol (EPS) ist der wirtschaftliche Standard, Mineralwolle bringt besseren Brand- und Schallschutz, Holzfaser überzeugt bei ökologischer Bilanz und sommerlichem Wärmeschutz: Die Materialwahl im WDVS ist immer ein Kompromiss zwischen diesen drei Eigenschaften. Brennbare Dämmstoffe brauchen ab bestimmten Gebäudehöhen zusätzliche Brandriegel aus Mineralwolle."
+  },
+  {
+    "id": "kfa3schwachwdvs",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2wdvs",
+    "t": "Schwachstellen am WDVS",
+    "t1": "Am Sockel, am Fensteranschluss und an jedem Durchbruch verliert das WDVS seine gleichmäßige Dämmwirkung, genau dort häufen sich Wärmebrücken und Rissbildung im Putz. Die Detailplanung dieser Übergänge entscheidet stärker über die Lebensdauer der Fassade als die Wahl des Dämmstoffs in der Fläche.",
+    "lnwunsch": ["K5 Fenster: Baukörperanschluss und Montage (RAL)"]
+  },
+  {
+    "id": "kfa2vhf",
+    "p": "k",
+    "lv": 2,
+    "pa": "kfa1",
+    "t": "Vorgehängte hinterlüftete Fassade",
+    "t1": "Bei der vorgehängten hinterlüfteten Fassade (VHF) trennt ein Luftspalt die Bekleidung konstruktiv von der Dämmebene: Feuchte kann abtrocknen, statt in der Konstruktion zu verbleiben, was das System besonders dauerhaft macht. Die Unterkonstruktion aus Metall oder Holz trägt dabei sowohl die Bekleidung als auch die Anschlusspunkte an die tragende Wand.",
+    "lnwunsch": ["K13 Material: Metalle im Ausbau", "K13 Material: Naturstein und Keramik"]
+  },
+  {
+    "id": "kfa3ukonvhf",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2vhf",
+    "t": "Unterkonstruktion und Hinterlüftung",
+    "t1": "Die Unterkonstruktion überbrückt die Dämmebene mit möglichst wenigen, punktuellen Befestigungen und muss dabei Eigengewicht, Windsog und Wärmebrücken gleichzeitig im Griff behalten. Der Hinterlüftungsspalt braucht eine Mindestbreite und durchgehende Öffnungen unten und oben, sonst funktioniert die Trocknung nicht."
+  },
+  {
+    "id": "kfa3bekleidvhf",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2vhf",
+    "t": "Bekleidungsmaterialien im Überblick",
+    "t1": "Von Faserzementplatten über Metallpaneele bis zu Naturstein oder Keramik lässt die VHF nahezu jedes plattenförmige Material als sichtbare Fassadenhaut zu, weil die Bekleidung keine tragende oder dämmende Funktion übernehmen muss. Das macht das System gestalterisch flexibel und beliebt bei Sanierungen mit hohen Ansprüchen an die Optik."
+  },
+  {
+    "id": "kfa3befestvhf",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2vhf",
+    "t": "Befestigung und Wärmebrücken",
+    "t1": "Jeder Befestigungspunkt der Unterkonstruktion durchdringt die Dämmebene und wird damit zur punktuellen Wärmebrücke: Konsolen aus Edelstahl oder thermisch getrennte Systeme reduzieren diesen Effekt, ganz vermeiden lässt er sich nicht. Die Zahl und Anordnung der Befestigungspunkte ist deshalb eine bauphysikalische, nicht nur eine statische Entscheidung."
+  },
+  {
+    "id": "kfa2sicht",
+    "p": "k",
+    "lv": 2,
+    "pa": "kfa1",
+    "t": "Sichtmauerwerk und Verblendschalen",
+    "t1": "Sichtmauerwerk zeigt den Stein als fertige Oberfläche, ohne Putz oder Verkleidung, und verlangt deshalb höchste Verarbeitungsqualität, jede Fuge bleibt sichtbar. Als vorgesetzte Verblendschale übernimmt es dabei meist keine tragende Funktion mehr, sondern schützt und gestaltet die dahinterliegende, gedämmte Tragschale."
+  },
+  {
+    "id": "kfa3verblend",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2sicht",
+    "t": "Verblendschale und Luftschicht",
+    "t1": "Zwischen tragender Wand und Verblendschale bleibt eine belüftete Luftschicht, damit eindringende Feuchte wieder abtrocknen kann, ähnlich dem Prinzip der hinterlüfteten Fassade, nur mit Mauerwerk als Bekleidung. Öffnungen am Wandfuß für Entwässerung und Belüftung sind dabei kein optionales Detail, sondern Bedingung für die Funktion."
+  },
+  {
+    "id": "kfa3anker",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2sicht",
+    "t": "Ankertechnik und Mauerwerksanker",
+    "t1": "Mauerwerksanker aus nichtrostendem Stahl halten die Verblendschale an der Tragschale und müssen Windlast, Eigengewicht und die freie Bewegung beider Schalen gegeneinander gleichzeitig ermöglichen. Falsch dimensionierte oder korrodierte Anker sind eine der häufigsten Ursachen für nachträgliche Verformungen an Verblendmauerwerk.",
+    "ln": ["kro2mauer"]
+  },
+  {
+    "id": "kfa2pfriegel",
+    "p": "k",
+    "lv": 2,
+    "pa": "kfa1",
+    "t": "Pfosten-Riegel- und Elementfassaden",
+    "t1": "Pfosten-Riegel-Fassaden bauen ein Tragraster aus vertikalen Pfosten und horizontalen Riegeln vor Ort zusammen, Elementfassaden liefern ganze, im Werk vorgefertigte Module zur Montage: beide Systeme sind die Standardlösung für großflächig verglaste Fassaden im Geschossbau. Die Wahl zwischen beiden ist vor allem eine Frage von Bauzeit, Fassadengröße und Kostenrahmen.",
+    "lnwunsch": ["K5 Fenster: Verglasung Wärme- und Sonnenschutz"]
+  },
+  {
+    "id": "kfa3pfsystem",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2pfriegel",
+    "t": "Pfosten-Riegel-Systeme",
+    "t1": "Pfosten tragen vertikal, Riegel horizontal, dazwischen sitzen Glas- oder Paneelfüllungen in Dichtprofilen: ein flexibles Baukastenprinzip, das sich an fast jede Gebäudegeometrie anpassen lässt. Die Montage vor Ort macht das System langsamer als Elementfassaden, aber unempfindlicher gegenüber Maßabweichungen im Rohbau."
+  },
+  {
+    "id": "kfa3element",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2pfriegel",
+    "t": "Elementfassaden: Vorfertigung und Montage",
+    "t1": "Elementfassaden entstehen geschossweise vorgefertigt im Werk und werden als komplette Module samt Verglasung, Dämmung und Anschlüssen an der Baustelle eingehängt: schnell montiert, aber mit engen Toleranzanforderungen an den Rohbau. Fehler im Rohbaumaß rächen sich hier deutlich schneller als bei vor Ort gefertigten Systemen."
+  },
+  {
+    "id": "kfa3dicht",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2pfriegel",
+    "t": "Dichtungsebenen und Entwässerung",
+    "t1": "Elementfassaden arbeiten meist mit zwei getrennten Dichtungsebenen, einer äußeren Wetterschale gegen Schlagregen und einer inneren Luftdichtheitsebene, dazwischen liegt eine drucklose Entwässerungskammer. Dieses Prinzip verzeiht kleine Undichtigkeiten der äußeren Ebene, solange die Entwässerung nach außen funktioniert."
+  },
+  {
+    "id": "kfa2sichtbeton",
+    "p": "k",
+    "lv": 2,
+    "pa": "kfa1",
+    "t": "Sichtbeton als Fassade",
+    "t1": "Sichtbeton macht die Schalhaut zur Gestaltungsebene: Jede Schalungsfuge, jeder Ankerpunkt bleibt sichtbar und muss deshalb von Anfang an geplant, nicht nachträglich kaschiert werden. Als Fassadenmaterial verlangt Sichtbeton eine Präzision im Bauablauf, die weit über statische Anforderungen hinausgeht.",
+    "ln": ["kro2beton"],
+    "lnwunsch": ["E5 Material und Fügung: Tektonik, zeigen wie es gebaut ist"]
+  },
+  {
+    "id": "kfa3schaltech",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2sichtbeton",
+    "t": "Schalungstechnik für Sichtbeton",
+    "t1": "Die Schalhaut, ob Holz, Kunststoff oder Stahl, prägt Textur und Porenbild der fertigen Oberfläche und muss über den gesamten Betoniervorgang absolut dicht und formstabil bleiben. Ein Ausbessern nach dem Ausschalen ist bei Sichtbeton kaum möglich, ohne den Flicken sichtbar zu machen."
+  },
+  {
+    "id": "kfa3fugenbild",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2sichtbeton",
+    "t": "Fugenbild und Ansichtsplanung",
+    "t1": "Schalungsfugen und Ankerlöcher sind bei Sichtbeton kein technisches Nebenprodukt, sondern Teil der Gestaltung und gehören deshalb in einen eigenen Ansichtsplan, lange vor der ersten Schalungsbestellung. Nachträglich geänderte Fugenraster sind der häufigste Grund für unbefriedigende Sichtbetonfassaden."
+  },
+  {
+    "id": "kfa2gruen",
+    "p": "k",
+    "lv": 2,
+    "pa": "kfa1",
+    "t": "Fassadenbegrünung und Solarfassade",
+    "t1": "Begrünte und aktive Fassaden verwandeln die Außenwand von einer passiven Hülle in ein Bauteil mit ökologischer oder energetischer Zusatzfunktion, sei es Verdunstungskühlung und Biodiversität bei Begrünung oder Stromertrag bei Photovoltaik. Beide Ansätze stellen zusätzliche Anforderungen an Statik, Wartungszugang und Anschlussdetails, die bei klassischen Fassaden nicht anfallen."
+  },
+  {
+    "id": "kfa3boden",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2gruen",
+    "t": "Bodengebundene und wandgebundene Begrünung",
+    "t1": "Bodengebundene Begrünung wächst aus dem Erdreich an der Fassade hoch und braucht Rankhilfen, wandgebundene Systeme tragen Substrat oder Pflanztaschen direkt an der Wand und benötigen dafür eine eigene Bewässerungstechnik. Wandgebundene Systeme sind aufwendiger und wartungsintensiver, wirken dafür unabhängig von der Gebäudehöhe sofort."
+  },
+  {
+    "id": "kfa3pv",
+    "p": "k",
+    "lv": 3,
+    "pa": "kfa2gruen",
+    "t": "Photovoltaik und Solarthermie in der Fassade",
+    "t1": "Als vorgehängte Fassadenbekleidung übernehmen Photovoltaikmodule zugleich Witterungsschutz und Stromerzeugung, allerdings mit geringerem Ertrag als auf dem Dach, weil die vertikale Ausrichtung weniger Einstrahlung sammelt. Solarthermische Fassaden sind seltener, folgen aber demselben Prinzip für die Wärmeerzeugung statt für Strom.",
+    "lnwunsch": ["K4 Dach: Solarfassade und Dachintegration von PV", "P7 Nachhaltigkeit: Förderlandschaft für Fassadenbegrünung"]
+  }
+]
