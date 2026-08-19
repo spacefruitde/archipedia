@@ -16,10 +16,10 @@
   <rect x="184" y="74" width="154" height="12" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
 
   <!-- Beschriftungen -->
-  <line x1="190" y1="180" x2="130" y2="180" stroke="#1c1a17" stroke-width="1.1"/><circle cx="190" cy="180" r="1.6" fill="#1c1a17"/>
-  <text x="126" y="184" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">UA-Profil ab ca. 25 kg Blattgewicht</text>
+  <line x1="190" y1="200" x2="140" y2="288" stroke="#1c1a17" stroke-width="1.1"/><circle cx="190" cy="200" r="1.6" fill="#1c1a17"/>
+  <text x="140" y="300" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">UA-Profil ab ca. 25 kg Blattgewicht</text>
   <line x1="261" y1="74" x2="261" y2="54" stroke="#1c1a17" stroke-width="1.1"/><circle cx="261" cy="74" r="1.6" fill="#1c1a17"/>
   <text x="261" y="46" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Sturz, UA-verstärkt</text>
-  <line x1="110" y1="220" x2="70" y2="250" stroke="#1c1a17" stroke-width="1.1"/><circle cx="110" cy="220" r="1.6" fill="#1c1a17"/>
-  <text x="66" y="264" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">CW-Ständer, Regelabstand</text>
+  <line x1="372" y1="200" x2="360" y2="288" stroke="#1c1a17" stroke-width="1.1"/><circle cx="372" cy="200" r="1.6" fill="#1c1a17"/>
+  <text x="360" y="300" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">CW-Ständer, Regelabstand</text>
 </svg>

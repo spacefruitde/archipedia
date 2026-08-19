@@ -90,9 +90,15 @@ function nodeSection(id){
   let imgHTML = '';
   if (n.images && n.images.length) {
     imgHTML = n.images.map(im => {
-      if (!im.path || !existsSync(im.path)) return '';
-      const svg = readFileSync(im.path, 'utf8').replace(/<\?xml[^>]*\?>\s*/, '');
-      return `<figure class="zeichnung">${svg}<figcaption>${esc(im.caption || '')}<span class="credit">${esc(im.credit || '')}${im.lizenz ? ' · ' + esc(im.lizenz) : ''}</span></figcaption></figure>`;
+      let inhalt = '';
+      if (im.u) {
+        /* Externes Foto (Wikimedia Commons): verlinkt, nicht eingebettet; Namensnennung Pflicht */
+        inhalt = `<img src="${im.u}" alt="${esc(im.caption || '')}" loading="lazy">`;
+      } else if (im.path && existsSync(im.path)) {
+        inhalt = readFileSync(im.path, 'utf8').replace(/<\?xml[^>]*\?>\s*/, '');
+      } else return '';
+      const quelle = im.quelle ? ` · <a href="${im.quelle}" target="_blank" rel="noopener">Quelle ↗</a>` : '';
+      return `<figure class="zeichnung${im.u ? ' foto' : ''}">${inhalt}<figcaption>${esc(im.caption || '')}<span class="credit">${esc(im.credit || '')}${im.lizenz ? ' · ' + esc(im.lizenz) : ''}${quelle}</span></figcaption></figure>`;
     }).join('');
   }
 
@@ -248,6 +254,10 @@ const html = `<!DOCTYPE html>
   figure.zeichnung svg{width:100%;height:auto;display:block}
   figure.zeichnung figcaption{font-size:12.5px;color:#6f6a61;margin-top:8px;border-top:1px dotted #e5e0d6;padding-top:7px}
   figure.zeichnung .credit{display:block;font-size:11px;margin-top:2px;color:#a29b8d}
+  figure.zeichnung.foto{background:var(--card)}
+  figure.zeichnung.foto img{width:100%;height:auto;display:block;border-radius:6px}
+  figure.zeichnung.foto figcaption{color:var(--muted);border-top-color:var(--line)}
+  figure.zeichnung.foto .credit a{text-decoration:underline;text-underline-offset:2px}
   .thema{font-size:12.5px;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:5px 12px;background:var(--card);cursor:pointer;margin-right:8px}
   .thread{background:#f4f1ea;border:1px solid var(--line);border-radius:var(--radius);padding:12px 15px;margin-bottom:26px}
   .th-row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
