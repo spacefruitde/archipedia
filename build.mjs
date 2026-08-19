@@ -26,27 +26,35 @@ function netzSVG(id){
     nodes.push({id:k, x:(i-(kids.length-1)/2)*(400/Math.max(spread,2)), y:138}); });
   /* rechts: ausgehende Querverweise · links: eingehende */
   const raus = (n.ln||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l)).slice(0,4);
-  raus.forEach((l,i)=>nodes.push({id:l, x:205, y:-78+i*52, xl:true}));
   const rein = (BACK[id]||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l)).slice(0,4);
-  rein.forEach((l,i)=>nodes.push({id:l, x:-205, y:-78+i*52, xl:true, ein:true}));
-  const W=480, H=380, cx=W/2, cy=H/2-15;
+  raus.forEach((l,i)=>nodes.push({id:l, x:150, y:-86+i*64, xl:true}));
+  rein.forEach((l,i)=>nodes.push({id:l, x:-150, y:-86+i*64, xl:true}));
+  /* Höhe an den Inhalt anpassen: ohne Kinder kein leerer Sockel */
+  const seitZeilen = Math.max(raus.length, rein.length);
+  const unten = kids.length ? 200 : Math.max(0, -86 + seitZeilen*64 - 20);
+  const W=480, H=190+unten+40, cx=W/2, cy=176;
+  /* Beschriftung: zentriert unter dem Knoten, maximal zwei Zeilen */
+  const wrap = (t, x, y, ctr) => {
+    const worte = t.split(' '); const zeilen = ['']; let z = 0;
+    for (const w of worte) {
+      if ((zeilen[z] + ' ' + w).trim().length > 19 && zeilen[z]) { if (z === 1) { zeilen[z] = zeilen[z].slice(0,17).trim() + '…'; break; } zeilen[++z] = w; }
+      else zeilen[z] = (zeilen[z] + ' ' + w).trim();
+    }
+    return `<text x="${x}" y="${y}" text-anchor="middle" ${ctr?'class="ctr"':''}>${zeilen.map((s,i)=>`<tspan x="${x}" dy="${i?12.5:0}">${esc(s)}</tspan>`).join('')}</text>`;
+  };
   const edges = nodes.filter(m=>!m.c).map(m=>{
     const dash = m.xl ? 'stroke-dasharray="4 4"' : '';
     const col = m.xl ? colOf(N[m.id].p) : '#d8d2c4';
     return `<line x1="${cx}" y1="${cy}" x2="${cx+m.x}" y2="${cy+m.y}" stroke="${col}" stroke-width="1.2" ${dash} opacity="${m.xl?0.55:1}"/>`;
   }).join('');
   const circles = nodes.map(m=>{
-    const t = N[m.id].t;
-    const short = t.length>24 ? t.slice(0,23)+'…' : t;
-    const anchor = m.xl ? (m.x<0?'end':'start') : 'middle';
-    const tx = cx+m.x + (m.xl ? (m.x<0?-12:12) : 0);
-    const ty = cy+m.y + (m.xl ? 4 : m.y>=0 && !m.c ? 24 : m.c ? -22 : -18);
     const col = colOf(N[m.id].p);
-    const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'#fff'}" stroke="${col}" stroke-width="2"/>
-      <text x="${tx}" y="${ty}" text-anchor="${anchor}" ${m.c?'class="ctr"':''}>${esc(short)}</text>`;
+    const oben = m.id === n.pa || m.c; /* Eltern und Zentrum: Beschriftung über dem Knoten */
+    const ty = oben ? cy+m.y-(m.c?36:32) : cy+m.y+20;
+    const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'#fff'}" stroke="${col}" stroke-width="2"/>${wrap(N[m.id].t, cx+m.x, ty, m.c)}`;
     return m.c ? `<g>${inner}</g>` : `<a href="#${m.id}">${inner}</a>`;
   }).join('');
-  const lgd = `<text x="8" y="${H-8}" font-size="10" fill="#6f6a61">← verweist hierher</text><text x="${W-8}" y="${H-8}" font-size="10" fill="#6f6a61" text-anchor="end">verweist auf →</text>`;
+  const lgd = (rein.length?`<text x="8" y="${H-8}" font-size="10" fill="#6f6a61">← verweist hierher</text>`:'')+(raus.length?`<text x="${W-8}" y="${H-8}" font-size="10" fill="#6f6a61" text-anchor="end">verweist auf →</text>`:'');
   return `<svg viewBox="0 0 ${W} ${H}">${edges}${circles}${lgd}</svg>`;
 }
 
