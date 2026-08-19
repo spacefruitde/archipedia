@@ -95,3 +95,13 @@ Strukturprüfung (schnell, jeder Knoten): Ebene plausibel? Unter 7 Kindern? Quer
 Fachprüfung (nur T3 + gekennzeichnete Zahlen): Stimmen Werte, Klassen, Normstände? Prüfer, Datum, Normausgabe im Knoten dokumentieren. Bis zur Fachprüfung trägt der Knoten sichtbar den Status „ungeprüft" – der Status ist Teil des Produkts, nicht dessen Schwäche.
 
 Stilprüfung (Stichprobe, 1 von 10): Klingt T1 nach dem Muster? Kein Katalogton, keine Gedankenstriche, Haltung erkennbar?
+
+## 8. Ergänzungen aus dem Qualitäts-Gate vom 19.08.2026 (Opus-Lesedurchgang, von Ben zu bestätigen)
+
+1. **Kind wiederholt Eltern nicht.** Der Elterntext wird beim Generieren mitgegeben; der Kindknoten setzt ihn voraus und beginnt bei der Frage, die er offen lässt (wie entschieden wird, woran es scheitert, was es kostet).
+2. **Jeder t1 endet mit einem befolgbaren Satz.** Verboten sind übertragbare Leerformeln („sorgfältige Planung verhindert X") und Wertungen ohne Träger („beliebt", „hochwertig", „punktet mit").
+3. **Varianten brauchen ein Auswahlkriterium.** Wer drei Optionen nennt, nennt im selben Absatz die Größe, an der sich die Wahl entscheidet, und den Regelfall-Gewinner. Attrappen-Sätze („beides ist legitim", „keine ist grundsätzlich überlegen") sind verboten; zulässig ist nur die benannte Bedingung, unter der eine Option gewinnt.
+4. **Kontext-Knoten:** T2 („Was daraus folgt") ist ab E1 Pflicht; jede Jahreszahl, jeder Eigenname und jede Zuschreibung ist prüfpflichtig wie T3-Zahlen; wiederkehrende Schlussformeln („Wer … verstehen will, findet hier …") sind verboten und werden astweit geprüft, nicht per Einzelstichprobe.
+5. **dach nur bei echtem Unterschied.** Ein dach-Eintrag setzt voraus, dass sich mindestens ein Land in der Sache unterscheidet, nicht nur im Normnamen; sonst gehört „gilt in allen drei Ländern" in den Fließtext und das Feld bleibt leer. In AT/CH-Einträgen sind „vergleichbar/ebenfalls/ähnlich/entsprechend" als Prädikat verboten (Deutschland ist nicht die Referenz, von der andere abweichen).
+6. **Bindestrich-Regel präzisiert:** Verboten sind Gedankenstriche (– —) und Kaskaden ab drei Bindestrichen. Normale Komposita- und Ergänzungsbindestriche (Mehr- und Minderleistungen, OIB-Richtlinie) sind Pflicht; ihr Entfernen ist sinnentstellend.
+7. **Anti-Dubletten-Kontext:** Beim Generieren werden Titel und t1 von Eltern, Geschwistern und den Musterknoten mitgegeben; kein Bild, Beispiel oder Formulierung daraus wiederverwenden. Build-seitig wird auf n-Gramm-Überlappung geprüft.

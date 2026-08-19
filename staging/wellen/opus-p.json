@@ -1,0 +1,247 @@
+{
+  "pab2phasen": {
+    "dach": {
+      "de": "Die Leistungsphasen 1 bis 9 der HOAI gliedern das Projekt von der Grundlagenermittlung bis zur Objektbetreuung und sind die in Deutschland übliche Referenz für Honorarstufen und Leistungsbeschreibung.",
+      "at": "In Österreich beschreibt das Leistungs- und Vergütungsmodell LM.VM der Bundeskammer der Ziviltechniker die Planungsleistungen und ihre Abfolge. Es ist keine ÖNORM und nicht verbindlich, sondern eine Empfehlung, an der sich Verträge orientieren; die Phaseneinteilung selbst wird frei vereinbart.",
+      "ch": "Die Schweiz ordnet Projekte nach dem Phasenmodell der SIA 112, während die zugehörigen Planerleistungen in der SIA 102 beschrieben sind, beide bilden gemeinsam die Referenz für Leistungsbild und Ablauf."
+    }
+  },
+  "pab3grundlagen": {
+    "dach": {
+      "de": "In Deutschland ist die Grundlagenermittlung die erste Leistungsphase der HOAI. Die Bedarfsplanung selbst zählt dort nicht zu den Grundleistungen, sie ist Sache des Bauherrn oder muss gesondert beauftragt werden, was in der Praxis regelmäßig untergeht.",
+      "at": "In Österreich werden Bedarfsklärung und erste Machbarkeitsüberlegungen frei zwischen Bauherr und Planer vereinbart. Einen verbindlichen Phasenkatalog, an den ein Honoraranspruch anknüpft, gibt es nicht.",
+      "ch": "In der Schweiz liegen diese Schritte nach SIA 112 in der strategischen Planung und in den Vorstudien. Die Bedürfnisformulierung ist dort ausdrücklich als eigene Phase vor dem Vorprojekt angelegt und wird nach SIA 102 gesondert honoriert."
+    }
+  },
+  "pab3bauueberw": {
+    "dach": {
+      "de": "Diese Phase entspricht den Leistungsphasen 8 und 9 der HOAI, Objektüberwachung und Objektbetreuung.",
+      "at": "In Österreich wird die örtliche Bauaufsicht meist als eigene, oft separat vergebene Leistung neben der Planung geführt.",
+      "ch": "In der Schweiz gehört die Bauleitung nach SIA 112 zur Phase Realisierung. Was in Deutschland Objektbetreuung heißt, fällt dort in die anschließende Bewirtschaftung. Die SIA 102 beschreibt die Bauleitung als eigenständige Leistung."
+    }
+  },
+  "pab3terminplan": {
+    "dach": {
+      "de": "In Deutschland gehört die Terminplanung zu den Grundleistungen des HOAI-Leistungsbilds und bleibt damit zunächst ein Planungsinstrument. Vertragswirkung bekommt ein Termin erst, wenn er ausdrücklich als Vertragsfrist vereinbart wird.",
+      "at": "In Österreich ist die Terminplanung Teil des vereinbarten Leistungsbilds und meist der örtlichen Bauaufsicht zugeordnet. Verbindlich wird ein Termin erst über die Vertragsfristen der ÖNORM B 2110.",
+      "ch": "In der Schweiz liegt die Terminplanung bei der Gesamtleitung nach SIA-Ordnung. Die SIA 118 trennt dabei ausdrücklich zwischen bloß vorgesehenen Terminen und vereinbarten Vertragsfristen, nur letztere lösen bei Überschreitung Rechtsfolgen aus."
+    }
+  },
+  "pab3bim": {
+    "dach": {
+      "de": "In Deutschland verlangen öffentliche Auftraggeber den Abwicklungsplan als Antwort des Planungsteams auf ihre Informationsanforderungen. Aufbau und Begriffe folgen den Stufenplänen des Bundes und der VDI-Richtlinienreihe zu BIM.",
+      "at": "In Österreich liefert die ÖNORM-A-6241-Reihe Begriffe und Datenstruktur, den Abwicklungsplan selbst regelt der Vertrag. Ein einheitliches Musterdokument öffentlicher Auftraggeber fehlt bislang.",
+      "ch": "In der Schweiz ordnet die SIA 2051 den Abwicklungsplan in die Phasen der SIA 112 ein, sodass Informationslieferungen an Projektphasen gebunden werden statt an frei gesetzte Termine."
+    }
+  },
+  "pab3aia": {
+    "dach": {
+      "de": "In Deutschland gehören Auftraggeber-Informationsanforderungen zu den Vergabeunterlagen öffentlicher BIM-Projekte. Private Auftraggeber formulieren sie selten selbst und übernehmen meist Vorlagen ihres Planungsteams.",
+      "at": "In Österreich benennt die ÖNORM-A-6241-Reihe, welche Informationen ein Modell je Ausbaustufe tragen soll. Auftraggeber leiten ihre Anforderungen daraus ab, einen Behördenstandard gibt es nicht.",
+      "ch": "In der Schweiz stellt die SIA 2051 den Verwendungszweck in den Vordergrund: Gefordert wird begründet, wofür eine Information später gebraucht wird, statt pauschal eine Detaillierungsstufe zu verlangen."
+    }
+  },
+  "pho2vertrag": {
+    "dach": {
+      "de": "In Deutschland ist der Architektenvertrag rechtlich ein Werkvertrag nach BGB, das Urheberrecht schützt schöpferische Bauwerke eigenständig.",
+      "at": "In Österreich gilt der Planungsvertrag überwiegend als Werkvertrag nach ABGB, ergänzt durch das österreichische Urheberrechtsgesetz.",
+      "ch": "In der Schweiz kennt das Obligationenrecht keinen eigenen Planervertrag. Die Rechtsprechung behandelt ihn als gemischten Vertrag, dessen Planungsteil werkvertraglich und dessen Beratungs- und Bauleitungsteil auftragsrechtlich zu beurteilen ist. Das Urheberrecht schützt Bauwerke als Werke der Baukunst."
+    }
+  },
+  "pho3urheber": {
+    "dach": {
+      "de": "Das deutsche Urheberrechtsgesetz kennt kein ausdrückliches Änderungsrecht des Eigentümers. Jeder Eingriff und selbst der Abriss wird über den Schutz vor Entstellung und eine Abwägung im Einzelfall gelöst, in der die Gerichte das Eigentum regelmäßig hoch gewichten.",
+      "at": "In Österreich entscheidet ebenfalls der Schutz vor Entstellung des Werks, die Rechtsprechung misst bei Bauwerken jedoch dem Nutzungsinteresse des Eigentümers mehr Gewicht bei als bei anderen Werkarten.",
+      "ch": "Das Schweizer Urheberrechtsgesetz geht am weitesten: Es erlaubt dem Eigentümer eines Bauwerks die Änderung ausdrücklich. Der Architekt kann sich nur gegen eine Entstellung wehren und verlangen, das Werk vor dem Eingriff auf eigene Kosten zu dokumentieren."
+    }
+  },
+  "pho2wettb": {
+    "dach": {
+      "de": "In Deutschland regelt die Richtlinie für Planungswettbewerbe (RPW) Ablauf, Preisgericht und die Zusage eines Auftrags an Preisträger.",
+      "at": "In Österreich orientieren sich Wettbewerbe an den WOA-Standards der Bundeskammer der Ziviltechniker.",
+      "ch": "In der Schweiz gilt die SIA 142 für Wettbewerbe in offener wie in selektiver Form, die SIA 143 für Studienaufträge. Die Aufgabenstellung heißt dort Programm, nicht Auslobung."
+    }
+  },
+  "pho3wettbverfahren": {
+    "dach": {
+      "de": "In Deutschland gibt die RPW den formalen Rahmen für Auslobung und Verfahren offener und nichtoffener Wettbewerbe vor.",
+      "at": "In Österreich strukturieren die WOA-Standards Auslobung und Ablauf von Architekturwettbewerben.",
+      "ch": "In der Schweiz regelt die SIA 142 Inhalt und Ablauf des Programms, wie die Wettbewerbsunterlage dort heißt, und zwar für offene und für selektive Verfahren gleichermaßen."
+    }
+  },
+  "pba2ordnungsr": {
+    "dach": {
+      "de": "Deutschland regelt das Bauordnungsrecht über 16 eigenständige Landesbauordnungen, die sich an der Musterbauordnung orientieren, aber im Detail abweichen.",
+      "at": "In Österreich erlassen die Länder eigene Bauordnungen und erklären darin die bundesweit einheitlich formulierten OIB-Richtlinien für verbindlich. Verfahren, Zuständigkeiten und einzelne Abweichungen bleiben landesspezifisch.",
+      "ch": "In der Schweiz regeln kantonale Baugesetze das Bauordnungsrecht. Die interkantonale Vereinbarung IVHB vereinheitlicht dabei nur Begriffe und Messweisen wie Gebäudehöhe oder Geschosszahl. Die technischen Anforderungen kommen aus den Brandschutzvorschriften der VKF und den Energievorschriften der Kantone."
+    }
+  },
+  "pba3gebklasse": {
+    "dach": {
+      "de": "Die Landesbauordnungen staffeln in Deutschland Gebäude in fünf Gebäudeklassen mit jeweils steigenden Anforderungen.",
+      "at": "In Österreich staffelt die OIB-Richtlinie zum Brandschutz die Anforderungen nach Gebäudehöhe und Nutzung, die Länder übernehmen diese Einteilung in ihre Bauordnungen.",
+      "ch": "In der Schweiz gibt es keine Gebäudeklassen nach deutschem Muster. Die Brandschutzvorschriften der VKF unterscheiden Bauten nach Höhe und Nutzung, die IVHB legt dazu nur fest, wie diese Höhe zu messen ist."
+    }
+  },
+  "pba2abstand": {
+    "t1": "Abstandsflächen sichern Belichtung, Belüftung und Brandschutz zwischen Gebäuden und sind zugleich die häufigste Quelle von Nachbarstreit. Wie ihr Maß zustande kommt, ist die erste Frage: aus der Wandhöhe abgeleitet, als festes Mindestmaß gesetzt oder aus beidem kombiniert, das beantwortet jedes Land und oft jede Region anders. Das Ergebnis wirkt sich unmittelbar auf die mögliche Ausnutzung eines Grundstücks aus. Kaum ein anderes Bauordnungsthema wird so oft im Vorentwurf übersehen und im Genehmigungsverfahren zum Problem.",
+    "dach": {
+      "de": "In Deutschland berechnen die Landesbauordnungen Abstandsflächen meist als Vielfaches der Wandhöhe, mit Sonderregeln für Grenzbebauung.",
+      "at": "In Österreich regeln die Landesbauordnungen Bauwiche und Abstände zur Grundgrenze mit jeweils eigener Berechnungslogik, teils aus der Gebäudehöhe, teils über feste Mindestmaße.",
+      "ch": "In der Schweiz setzen Kantone und Gemeinden Grenz- und Gebäudeabstände überwiegend als feste Mindestmaße fest, ergänzt um Zuschläge für Höhe oder Fassadenlänge. Die IVHB vereinheitlicht nur die Messweise, nicht das Maß."
+    }
+  },
+  "pba3abstandsflberech": {
+    "t1": "Ob sich das Abstandsmaß aus der Wandhöhe ableitet oder als feste Zahl im Gesetz steht, entscheidet darüber, wie stark die Fassadenhöhe die Grundstücksausnutzung steuert. Dazu kommen Sonderregeln für Dachformen, Erker oder Giebel, die kleine Höhenunterschiede spürbar in verschobene Baugrenzen übersetzen. Diese Berechnung gehört in jede Vorplanung, nicht erst in die Genehmigungsplanung.",
+    "dach": {
+      "de": "Deutsche Landesbauordnungen berechnen die Abstandsfläche meist als Bruchteil der Wandhöhe, mit unterschiedlichen Faktoren je Bundesland.",
+      "at": "Österreichische Landesbauordnungen leiten den Bauwich teils aus der Gebäudehöhe ab, setzen daneben aber eigene Mindestmaße je Bundesland, die auch bei niedrigen Bauten nicht unterschritten werden dürfen.",
+      "ch": "In der Schweiz steht meist ein festes Mindestmaß in der kommunalen Bau- und Zonenordnung, das um Zuschläge für Gebäudehöhe oder Fassadenlänge ergänzt wird. Die IVHB regelt dazu nur, wie Höhe und Abstand zu messen sind."
+    }
+  },
+  "pba3flaechenwid": {
+    "t1": "Bevor gebaut wird, weist die Nutzungsplanung einem Grundstück eine Zweckbestimmung zu: Wohnen, Gewerbe, Landwirtschaft oder Sonderzweck. Jedes Land nennt dieses Instrument anders, die Wirkung ist überall dieselbe. Es ist die Wurzel jeder weiteren Planungsentscheidung, und es zu ändern ist ein eigenes, oft langwieriges Verfahren. Ein Bauvorhaben, das der zugewiesenen Nutzung widerspricht, scheitert unabhängig von seiner architektonischen Qualität."
+  },
+  "pko3systematikvgl": {
+    "dach": {
+      "de": "Die DIN 276 gliedert die Baukonstruktion nach Bauteilgruppen und stellt ihr die technischen Anlagen, die Außenanlagen und die Baunebenkosten als eigene Kostengruppen gegenüber.",
+      "at": "Die ÖNORM B 1801 folgt einer der DIN 276 nahen Logik, verwendet aber eigene Kostengruppennummern und eigene Begriffe. Werte lassen sich daher nicht ohne Übersetzungsschritt übernehmen.",
+      "ch": "Der eBKP-H gliedert nach Elementen mit fest definierten Bezugsmengen. Das bindet jede Kostenposition unmittelbar an eine Menge und macht Kennwerte innerhalb der Schweiz gut vergleichbar, mit den beiden anderen Systemen dagegen nur über eine Zuordnungstabelle."
+    }
+  },
+  "pko2benchmark": {
+    "dach": {
+      "de": "In Deutschland veröffentlichen Institutionen wie das Baukosteninformationszentrum Kennwerte nach DIN-276-Kostengruppen und Gebäudetyp.",
+      "at": "In Österreich stammen Kennwertsammlungen überwiegend von Kammern, Verbänden und Fachverlagen und folgen der ÖNORM-B-1801-Systematik, eine zentrale amtliche Sammlung gibt es nicht.",
+      "ch": "In der Schweiz veröffentlicht das CRB als Herausgeber des eBKP-H Baukostenkennwerte nach Elementen. Das Bundesamt für Statistik liefert dazu den Baupreisindex, nicht die Kennwerte selbst."
+    }
+  },
+  "pko2lebenszyklus": {
+    "dach": {
+      "de": "In Deutschland ordnet die DIN 18960 Nutzungskosten von Gebäuden, ergänzend zur Investitionskostengliederung der DIN 276.",
+      "at": "In Österreich deckt die ÖNORM-B-1801-Reihe beide Seiten ab: ein Teil die Kosten der Objekterrichtung, ein weiterer die Objekt-Folgekosten im Betrieb.",
+      "ch": "In der Schweiz erfasst der eBKP-H die Erstellungskosten. Betriebs- und Unterhaltskosten werden daneben nach eigenen SIA-Grundlagen zur Wirtschaftlichkeitsrechnung betrachtet."
+    }
+  },
+  "pko3investnutzung": {
+    "dach": {
+      "de": "In Deutschland stehen sich Investitionskosten nach DIN 276 und Nutzungskosten nach DIN 18960 als getrennt gegliederte, aber zusammengehörige Größen gegenüber.",
+      "at": "In Österreich bildet die ÖNORM-B-1801-Reihe beide Seiten in zwei eigenständig gegliederten Teilen ab, Objekterrichtung und Objekt-Folgekosten, mit aufeinander abgestimmter Struktur.",
+      "ch": "In der Schweiz steht der eBKP-H für die Erstellungskosten, die Betriebskosten folgen eigenen SIA-Grundlagen. Die Verknüpfung beider Seiten stellt hier die Wirtschaftlichkeitsrechnung her, nicht eine gemeinsame Gliederung."
+    }
+  },
+  "pko3nutzungskost": {
+    "dach": {
+      "de": "Die DIN 18960 gliedert in Deutschland Nutzungskosten in Kapital-, Betriebs- und Instandsetzungskosten von Gebäuden.",
+      "at": "In Österreich behandelt ein eigener Teil der ÖNORM-B-1801-Reihe die Objekt-Folgekosten, also Betrieb, Instandhaltung und Verwaltung, getrennt von der Kostengliederung für die Errichtung.",
+      "ch": "In der Schweiz strukturieren SIA-Grundlagen zur Lebenszykluskostenrechnung die Betriebs- und Unterhaltskosten von Gebäuden."
+    }
+  },
+  "pav2lb": {
+    "dach": {
+      "de": "In Deutschland liefert die VOB/C je Gewerk die technischen Vertragsbedingungen samt Abrechnungsregeln und Hinweisen zum Aufstellen der Leistungsbeschreibung. Die fertigen Textbausteine für das Leistungsverzeichnis stammen dagegen aus dem Standardleistungsbuch Bau.",
+      "at": "In Österreich liefern die standardisierten Leistungsbeschreibungen des Bundes die Positionstexte. Die ÖNORM A 2063 regelt daneben, in welchem Datenformat Leistungsverzeichnisse, Angebote und Abrechnungen zwischen den Beteiligten ausgetauscht werden.",
+      "ch": "In der Schweiz strukturiert der Normpositionen-Katalog NPK die Leistungsverzeichnisse nach Arbeitsgattungen und liefert die Positionstexte. Die Kostengliederung übernimmt daneben der eBKP-H, beide werden von derselben Stelle herausgegeben."
+    }
+  },
+  "pav3pos": {
+    "dach": {
+      "de": "Standardisierte Texte aus dem Standardleistungsbuch Bau erleichtern die Formulierung, ersetzen aber nicht die projektbezogene Mengenermittlung.",
+      "at": "Die standardisierten Leistungsbeschreibungen des Bundes liefern vorformulierte Positionen, die Mengenermittlung bleibt Aufgabe der Planung.",
+      "ch": "Der NPK gliedert Positionen nach Arbeitsgattungen und schafft damit eine einheitliche Struktur für Mengenermittlung und Angebotsvergleich."
+    }
+  },
+  "pav2verg": {
+    "dach": {
+      "de": "Oberhalb der EU-Schwellenwerte gilt in Deutschland die Vergabeverordnung VgV. Darunter greift die Unterschwellenvergabeordnung UVgO, die der Bund erlassen hat, die aber erst durch das Haushaltsrecht des jeweiligen Landes verbindlich wird. Unterhalb der Schwelle ist die Rechtslage deshalb uneinheitlicher als darüber.",
+      "at": "Das Bundesvergabegesetz BVergG bildet den einheitlichen Rahmen für öffentliche Vergaben unabhängig vom Schwellenwert.",
+      "ch": "Das Beschaffungswesen des Bundes richtet sich nach dem BöB, Kantone und Gemeinden nach der interkantonalen Vereinbarung IVöB."
+    }
+  },
+  "pav3nachpr": {
+    "dach": {
+      "de": "In Deutschland prüfen Vergabekammern ein Verfahren nur oberhalb der EU-Schwellenwerte. Darunter bleibt einem übergangenen Bieter allein der Weg zu den Zivilgerichten, und eine unverzügliche Rüge ist auch dort meist Voraussetzung.",
+      "at": "In Österreich entscheidet über Nachprüfungsanträge das Bundesverwaltungsgericht bei Vergaben des Bundes und das jeweilige Landesverwaltungsgericht bei Vergaben von Ländern und Gemeinden. Die Rügeobliegenheit gilt in beiden Fällen.",
+      "ch": "In der Schweiz geht die Beschwerde bei Vergaben des Bundes an das Bundesverwaltungsgericht, bei kantonalen und kommunalen Vergaben an das kantonale Verwaltungsgericht. Die Fristen sind kurz und laufen ab Veröffentlichung des Zuschlags."
+    }
+  },
+  "pav3streit": {
+    "dach": {
+      "de": "In Deutschland ist dem Bauvertrag keine Schlichtungsinstanz vorgeschaltet. Bleibt eine Einigung aus, folgen Schiedsgutachten, selbständiges Beweisverfahren oder die ordentlichen Gerichte.",
+      "at": "In Österreich sieht die ÖNORM B 2110 ein gestuftes Verfahren zur Streitbeilegung vor, in dem eine Schlichtung der Klage vorgeschaltet werden kann.",
+      "ch": "Die SIA 118 empfiehlt Schlichtungsverfahren, bevor ein Streit vor ein staatliches Gericht oder Schiedsgericht gebracht wird."
+    }
+  },
+  "pbl2bau": {
+    "dach": {
+      "de": "In Deutschland ist die Objektüberwachung die vorletzte Leistungsphase des HOAI-Leistungsbilds. Ein eigenes Anordnungsrecht gegenüber der ausführenden Firma hat der bauleitende Architekt dabei nicht: Die VOB/B weist dieses Recht dem Auftraggeber zu, der Architekt handelt aus dessen Vollmacht.",
+      "at": "Die örtliche Bauaufsicht ist Ländersache und wird durch Landesbauordnungen sowie durch die ÖNORM B 2110 im Vertragsverhältnis konkretisiert.",
+      "ch": "Die Bauleitung zählt zu den Grundleistungen nach SIA-Ordnung, ihre vertraglichen Befugnisse gegenüber dem Unternehmer regelt die SIA 118."
+    }
+  },
+  "pbl2gewaehr": {
+    "dach": {
+      "de": "In Deutschland richtet sich die Gewährleistung nach dem Werkvertragsrecht des BGB, sofern die Parteien nicht die VOB/B vereinbaren. Beide Regelwerke setzen unterschiedlich lange Fristen an und unterscheiden dabei das Bauwerk von Werkleistungen ohne feste Verbindung mit dem Gebäude.",
+      "at": "Das österreichische Recht trennt Gewährleistung wegen Sachmängeln und Schadenersatz als zwei eigenständige Anspruchssysteme, die ÖNORM B 2110 konkretisiert die Vertragspraxis.",
+      "ch": "Das Obligationenrecht bildet die gesetzliche Grundlage, die SIA 118 ergänzt eigene Garantiefristen und eine strenge Rügeobliegenheit."
+    }
+  },
+  "pbl3frist": {
+    "dach": {
+      "de": "Das BGB kennt eine Regelfrist für Bauwerke, die VOB/B erlaubt davon abweichende, meist kürzere vertragliche Fristen.",
+      "at": "Das österreichische Gewährleistungsrecht und das Schadenersatzrecht laufen mit eigener Fristensystematik nebeneinander, die ÖNORM B 2110 konkretisiert die vertragliche Anwendung.",
+      "ch": "Die Schweiz kennt zwei gestaffelte Zeiträume statt einer Frist: eine Garantiefrist nach SIA 118, in der auch offene Mängel jederzeit gerügt werden können, und danach eine längere Verjährungsfrist des Obligationenrechts, in der nur noch verdeckte Mängel und diese sofort nach Entdeckung geltend zu machen sind."
+    }
+  },
+  "pbl3ruegeform": {
+    "dach": {
+      "de": "In Deutschland ist die Mängelrüge formfrei. Entscheidend ist im Streit der Nachweis, dass sie den Auftragnehmer erreicht hat, weshalb sich Textform mit belegbarem Zugang durchgesetzt hat.",
+      "at": "In Österreich ist die Rüge ebenfalls formfrei möglich, die Beweisfunktion übernimmt in der Praxis aber das Übernahmeprotokoll, in dem bekannte Mängel ohnehin festzuhalten sind.",
+      "ch": "In der Schweiz muss die Rüge den Mangel so genau bezeichnen, dass der Unternehmer erkennt, was beanstandet wird. Eine pauschale Beanstandung genügt den Anforderungen der SIA 118 nicht."
+    }
+  },
+  "pbl3vorrecht": {
+    "t1": "In allen drei Ländern darf der Auftragnehmer einen Mangel zunächst selbst beheben, bevor der Auftraggeber zu anderen Mitteln greift. Aufschlussreich ist, woher dieses Recht jeweils stammt: mal aus dem Gesetz, mal erst aus der vereinbarten Vertragsordnung. Davon hängt ab, ob es auch dann gilt, wenn die Parteien dazu nichts geregelt haben. Wer dem Auftragnehmer diese Chance nimmt, verliert im Streit meist die eigenen Ansprüche, selbst wenn der Mangel unstrittig war.",
+    "dach": {
+      "de": "In Deutschland folgt das Recht zur zweiten Andienung schon aus dem Werkvertragsrecht des BGB. Die VOB/B ordnet es lediglich in den Bauablauf ein und knüpft es an eine Fristsetzung.",
+      "at": "In Österreich ist die Verbesserung durch den Auftragnehmer der gesetzlich vorrangige Gewährleistungsbehelf des ABGB. Preisminderung und Wandlung kommen erst zum Zug, wenn die Verbesserung scheitert oder unzumutbar ist.",
+      "ch": "In der Schweiz liegt die Wahl unter den Mängelrechten nach dem Obligationenrecht eigentlich beim Bauherrn. Erst die vereinbarte SIA 118 dreht das um und gibt dem Unternehmer den Vorrang der Nachbesserung. Ohne diese Vereinbarung gilt der Vorrang nicht."
+    }
+  },
+  "pbl3fluchtweg": {
+    "dach": {
+      "de": "Sicherheitsrelevante Mängel können eine Nutzungsuntersagung durch die Bauaufsicht nach Landesbauordnung auslösen, unabhängig vom zivilrechtlichen Mängelverfahren nach VOB/B.",
+      "at": "Bei Gefährdung kann die Übernahme nach ÖNORM B 2110 verweigert oder eingeschränkt werden, zusätzlich greifen bauordnungsrechtliche Vorgaben der Länder.",
+      "ch": "In der Schweiz können die kantonale Baubehörde und die Brandschutzbehörde die Nutzung einschränken oder untersagen, solange ein sicherheitsrelevanter Mangel besteht. Brandschutzeinrichtungen unterliegen zudem einer eigenen behördlichen Abnahme, die von der vertraglichen Mängelabwicklung nach SIA 118 unabhängig ist."
+    }
+  },
+  "pna2zirk": {
+    "dach": {
+      "de": "Das Kreislaufwirtschaftsgesetz setzt den abfallrechtlichen Rahmen, freiwillige Systeme wie DGNB und QNG honorieren Rückbaubarkeit zusätzlich.",
+      "at": "Das Abfallwirtschaftsgesetz bildet den rechtlichen Rahmen, Zertifizierungssysteme wie klimaaktiv setzen zusätzliche freiwillige Anreize.",
+      "ch": "In der Schweiz setzt das eidgenössische Umwelt- und Abfallrecht den Rahmen für Bauabfälle, den Vollzug leisten die Kantone. SIA-Empfehlungen zu Rückbau und Entsorgung gelten daneben als anerkannte Regel der Technik."
+    }
+  },
+  "pna3rueckbau": {
+    "dach": {
+      "de": "Das Kreislaufwirtschaftsgesetz verlangt eine Verwertung vor Beseitigung von Bauabfällen, sofern technisch und wirtschaftlich zumutbar.",
+      "at": "Das Abfallwirtschaftsgesetz schreibt eine gestufte Verwertungshierarchie für Bauabfälle vor und verlangt bei größeren Vorhaben eine Erkundung der Schadstoffe vor dem Rückbau.",
+      "ch": "In der Schweiz gibt das eidgenössische Abfallrecht die Trennung und Verwertung von Bauabfällen vor, die Kantone vollziehen und kontrollieren auf der Baustelle. SIA-Normen konkretisieren die technische Umsetzung."
+    }
+  },
+  "pna3nachweis": {
+    "t1": "Der Energieausweis dokumentiert die energetische Qualität eines Gebäudes und wird meist bei Verkauf oder Vermietung verlangt, oft lange bevor eine Sanierung überhaupt geplant ist. Wie streng diese Pflicht greift, unterscheidet sich zwischen den drei Ländern erheblich. Für Planende ist das Dokument weniger ein Formular als ein Werkzeug, um Schwachstellen der Gebäudehülle früh sichtbar zu machen.",
+    "dach": {
+      "de": "Das GEG unterscheidet Bedarfs- und Verbrauchsausweis als zwei methodisch unterschiedliche Nachweisformen und knüpft die Vorlagepflicht an Verkauf und Vermietung.",
+      "at": "In Österreich beschreibt die OIB-Richtlinie zur Energieeinsparung die Berechnungsmethode, ein eigenes Bundesgesetz verpflichtet zur Vorlage bei Verkauf und Vermietung, ausgestellt wird der Ausweis nach Landesrecht.",
+      "ch": "Der Gebäudeenergieausweis der Kantone, kurz GEAK, ist das schweizerische Pendant mit eigener Bewertungsskala. Eine landesweite Pflicht bei Handänderung besteht nicht, einzelne Kantone schreiben ihn jedoch vor."
+    }
+  },
+  "pna3anlagentech": {
+    "dach": {
+      "de": "Das GEG verlangt beim Heizungstausch einen Mindestanteil erneuerbarer Energien mit mehreren zulässigen Erfüllungsoptionen.",
+      "at": "In Österreich stehen Bundes- und Landesrecht zu erneuerbarer Wärme nebeneinander. Durchgesetzt werden die Pflichten im Baubewilligungsverfahren über die Landesbauordnungen und die OIB-Richtlinie zur Energieeinsparung.",
+      "ch": "Die kantonalen Energievorschriften nach dem Muster der MuKEn verlangen beim Heizungsersatz häufig einen Anteil erneuerbarer Wärme, die genaue Ausgestaltung bleibt kantonal."
+    }
+  }
+}
