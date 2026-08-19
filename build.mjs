@@ -21,18 +21,25 @@ function netzSVG(id){
   const n = N[id];
   const nodes = [{id, x:0, y:0, c:true}];
   if (n.pa) nodes.push({id:n.pa, x:0, y:-132});
-  const kids = kidsOf(id).slice(0,7);
-  kids.forEach((k,i)=>{ const spread=Math.min(kids.length,5);
-    nodes.push({id:k, x:(i-(kids.length-1)/2)*(400/Math.max(spread,2)), y:138}); });
-  /* rechts: ausgehende Querverweise · links: eingehende */
-  const raus = (n.ln||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l)).slice(0,4);
-  const rein = (BACK[id]||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l)).slice(0,4);
-  raus.forEach((l,i)=>nodes.push({id:l, x:150, y:-86+i*64, xl:true}));
-  rein.forEach((l,i)=>nodes.push({id:l, x:-150, y:-86+i*64, xl:true}));
-  /* Höhe an den Inhalt anpassen: ohne Kinder kein leerer Sockel */
-  const seitZeilen = Math.max(raus.length, rein.length);
-  const unten = kids.length ? 200 : Math.max(0, -86 + seitZeilen*64 - 20);
-  const W=480, H=190+unten+40, cx=W/2, cy=176;
+  /* Kinder: ALLE zeigen; ab 6 Stück versetzt in zwei Zeilen, damit die Beschriftungen nicht kollidieren */
+  const kids = kidsOf(id);
+  const zickzack = kids.length > 5;
+  kids.forEach((k,i)=>{ const step=440/Math.max(kids.length,2);
+    nodes.push({id:k, x:(i-(kids.length-1)/2)*step, y: zickzack ? (i%2 ? 200 : 132) : 144}); });
+  /* rechts: ausgehende Querverweise · links: eingehende. Bis 6 je Seite, darüber Zähler. */
+  const rausAlle = (n.ln||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l));
+  const reinAlle = (BACK[id]||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l));
+  const seite = (alle) => alle.length > 6 ? { zeig: alle.slice(0,5), rest: alle.length-5 } : { zeig: alle, rest: 0 };
+  const raus = seite(rausAlle), rein = seite(reinAlle);
+  raus.zeig.forEach((l,i)=>nodes.push({id:l, x:150, y:-86+i*64, xl:true}));
+  rein.zeig.forEach((l,i)=>nodes.push({id:l, x:-150, y:-86+i*64, xl:true}));
+  /* Höhe an den Inhalt anpassen */
+  const seitZeilen = Math.max(raus.zeig.length + (raus.rest?1:0), rein.zeig.length + (rein.rest?1:0));
+  const seitUnten = seitZeilen ? -86 + (seitZeilen-1)*64 + 40 : 0;
+  const kidsUnten = kids.length ? (zickzack ? 200 : 144) + 40 : 0;
+  const unten = Math.max(seitUnten, kidsUnten, 0);
+  const W=480, H=190+unten+42, cx=W/2, cy=176;
+  const mehr = (r, x) => r.rest ? `<text x="${cx+x}" y="${cy-86+r.zeig.length*64+4}" text-anchor="middle" font-size="10.5" fill="#6f6a61">+${r.rest} weitere</text>` : '';
   /* Beschriftung: zentriert unter dem Knoten, maximal zwei Zeilen */
   const wrap = (t, x, y, ctr) => {
     const worte = t.split(' '); const zeilen = ['']; let z = 0;
@@ -54,8 +61,8 @@ function netzSVG(id){
     const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'#fff'}" stroke="${col}" stroke-width="2"/>${wrap(N[m.id].t, cx+m.x, ty, m.c)}`;
     return m.c ? `<g>${inner}</g>` : `<a href="#${m.id}">${inner}</a>`;
   }).join('');
-  const lgd = (rein.length?`<text x="8" y="${H-8}" font-size="10" fill="#6f6a61">← verweist hierher</text>`:'')+(raus.length?`<text x="${W-8}" y="${H-8}" font-size="10" fill="#6f6a61" text-anchor="end">verweist auf →</text>`:'');
-  return `<svg viewBox="0 0 ${W} ${H}">${edges}${circles}${lgd}</svg>`;
+  const lgd = (rein.zeig.length?`<text x="8" y="${H-8}" font-size="10" fill="#6f6a61">← verweist hierher</text>`:'')+(raus.zeig.length?`<text x="${W-8}" y="${H-8}" font-size="10" fill="#6f6a61" text-anchor="end">verweist auf →</text>`:'');
+  return `<svg viewBox="0 0 ${W} ${H}">${edges}${circles}${mehr(rein,-150)}${mehr(raus,150)}${lgd}</svg>`;
 }
 
 function nodeSection(id){
