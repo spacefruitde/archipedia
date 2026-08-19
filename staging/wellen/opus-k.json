@@ -1,0 +1,53 @@
+{
+  "kgr3platte": {
+    "t1": "Die Bodenplatte gründet flächig statt linear und verteilt die Last gleichmäßiger, was sie bei ungleichmäßigem oder setzungsempfindlichem Baugrund den einzelnen Streifen überlegen macht. Im Wohnungsbau ist sie der Regelfall, weil sie Gründung und tragenden Untergrund für den gesamten Bodenaufbau in einem Bauteil erledigt. Planungsrelevant ist vor allem ihre Oberseite: Was hier an Ebenheit nicht erreicht wird, muss der Dämm- und Estrichaufbau darüber ausgleichen, und jede Toleranz frisst Aufbauhöhe, die später an Türschwellen und Anschlüssen fehlt."
+  },
+  "kgr3ziegel": {
+    "t1": "Gemauerte Kellerwände mit einer separat aufgebrachten Abdichtung von außen sind der traditionelle Weg und im kleinvolumigen Bauen weiterhin verbreitet: handwerklich einfach, aber vollständig davon abhängig, dass die Abdichtungsebene lückenlos ausgeführt wird. Anders als bei der Weißen Wanne dichtet hier nicht das Bauteil selbst, sondern eine dünne Schicht auf seiner Außenseite. Sobald die Baugrube verfüllt ist, ist genau diese Schicht unerreichbar, und jede Nachbesserung heißt aufgraben."
+  },
+  "kgr3weklasse": {
+    "t1": "Die Einstufung in eine Wassereinwirkungsklasse ist die folgenreichste Zeile im Baugrundgutachten: Sie entscheidet, ob eine einfache Abdichtung genügt oder ob das ganze Untergeschoss als wasserdichte Wanne auszubilden ist. Maßgebend sind nicht allein der gemessene Grundwasserstand, sondern auch die Durchlässigkeit des anstehenden Bodens und die Einbindetiefe des Bauteils, denn ein bindiger Boden staut Sickerwasser dort auf, wo ein durchlässiger es abführt. Der klassische Fehler ist die Einstufung nach einer einzigen Messung aus einer trockenen Jahreszeit; anzusetzen ist der über die Lebensdauer des Gebäudes zu erwartende Höchststand."
+  },
+  "kgr3perimmat": {
+    "t1": "Perimeterdämmung liegt dauerhaft im feuchten, hinterfüllten Erdreich und muss deshalb zwei Dinge gleichzeitig können: praktisch kein Wasser aufnehmen und den Erddruck ohne bleibende Zusammendrückung aushalten. Extrudiertes Polystyrol ist der wirtschaftliche Regelfall, Schaumglas die teurere Alternative, wenn hohe Lasten oder dauernder Wasserkontakt im Spiel sind. Ausgeschlossen sind alle offenporigen, saugenden Dämmstoffe: Was sich einmal vollsaugt, dämmt nicht mehr und trocknet unter der Hinterfüllung nie wieder aus."
+  },
+  "kgr3waermebr": {
+    "t1": "Am Sockel stoßen zwei Dämmungen mit gegensätzlichen Anforderungen aufeinander: oben die dicke, verputzbare Fassadendämmung, unten die dünnere, druckfeste und wasserunempfindliche Perimeterdämmung. Der Versatz zwischen beiden ist die eigentliche Schwachstelle, dazu kommt die Bodenplatte, die als durchlaufendes Bauteil Wärme an der Dämmebene vorbei nach außen leitet. Wer den Sockel im Schnitt durchzeichnet, sieht den Bruch sofort; wer ihn nur im Grundriss plant, findet ihn später als kalte Innenecke über dem fertigen Fußboden."
+  },
+  "kro2holz": {
+    "t1": "Holzbau ist aus der Nische heraus, getrieben von Vorfertigung, kurzer Bauzeit und dem Wunsch nach einem nachwachsenden Tragwerk. Drei Grundsysteme prägen das Feld: der Massivholzbau aus großformatigen, kreuzweise verleimten Platten, der Skelettbau mit Stützen und Trägern und der Rahmenbau mit dicht gestellten Ständern und aussteifender Beplankung. Die Wahl zwischen ihnen ist weniger eine Materialfrage als eine der Vorfertigungstiefe: Je mehr im Werk passiert, desto früher müssen Grundriss, Öffnungen und Haustechnik endgültig feststehen."
+  },
+  "kro3brand": {
+    "t1": "Stahl brennt nicht, verliert unter Brandtemperaturen aber rasch seine Festigkeit und damit seine Tragfähigkeit, während Beton und Holz ihre Last spürbar länger halten. Bekleidungen aus Platten, dämmschichtbildende Anstriche oder ein bewusst überdimensioniertes Profil sind die üblichen Antworten, jede mit eigenen Kosten- und Gestaltungsfolgen. Wer Stahl sichtbar lassen will, klärt die geforderte Feuerwiderstandsdauer, bevor die Profile gezeichnet sind, denn eine Bekleidung verändert Schlankheit und Kante genau des Bauteils, das man zeigen wollte."
+  },
+  "kfa3bekleidvhf": {
+    "t1": "Weil die Bekleidung der hinterlüfteten Fassade weder trägt noch dämmt, ist die Materialwahl fast frei: Faserzement, Metall, Keramik, Naturstein und Holz hängen an derselben Unterkonstruktion. Entschieden wird deshalb nicht nach Technik, sondern nach Format, Fugenbild und Alterung: Wie groß darf die Platte werden, wie sichtbar ist die Befestigung, und wie sieht das Material nach einem Jahrzehnt Bewitterung aus. Der wirtschaftliche Hebel liegt im Format und im Fugenraster, nicht im Preis je Quadratmeter, denn jedes Sonderformat erzeugt Verschnitt und Passstücke an jeder Öffnung."
+  },
+  "kiw3beplank": {
+    "t1": "Gipskarton ist der Standard für trockene Räume, Gipsfaser die härtere Platte für mechanisch beanspruchte Wände, zementgebundene Platten übernehmen Feuchtbereiche und Außenanwendungen. Die zweite Plattenlage ist die wirksamste Stellschraube der Trockenbauwand: Sie verbessert Schall- und Brandverhalten deutlich, ohne Ständerwerk oder Achsmaß zu verändern, kostet aber Material und einen zusätzlichen Arbeitsgang. Wer Schallschutz zusagt, schreibt Plattenart und Lagenzahl aus und nicht nur die Wanddicke, denn zwei gleich dicke Wände können sehr verschieden klingen."
+  },
+  "kbo3daemm": {
+    "t1": "Beim schwimmenden Estrich liegt die Estrichplatte auf einer Dämmschicht und berührt weder Rohdecke noch Wand. Diese Entkopplung ist die wirksamste bauliche Maßnahme gegen Trittschall, also gegen das, was Schritte und Stöße ins Geschoss darunter tragen. Ihre Wirkung steht und fällt mit dem Rand: Ein zu früh abgeschnittener Randstreifen oder Estrich, der bis an den Putz läuft, macht aus der schwimmenden Platte eine starr angeschlossene. Solche Schallbrücken entstehen in Minuten und lassen sich später nur durch Aufschneiden der Randfuge beheben."
+  },
+  "kbo3parkett": {
+    "t1": "Parkett ist der einzige verbreitete Belag, der sich mehrfach abschleifen und damit wörtlich erneuern lässt, und zugleich der, der am deutlichsten auf das Raumklima reagiert: Er quillt und schwindet mit der Luftfeuchte, sichtbar an den Fugen im Winter. Massivparkett, Fertigparkett und die Verlegeart entscheiden gemeinsam darüber, wie oft diese Erneuerung möglich ist und wie ruhig die Fläche über die Jahre bleibt. Wer Parkett plant, plant deshalb auch Raumluftfeuchte und Einbauzeitpunkt mit, nicht nur Holzart und Muster."
+  },
+  "kbo3elast": {
+    "t1": "Linoleum, Vinyl und textile Beläge sind die leisen, warmen und fußfreundlichen Böden: Sie schlucken Gehgeräusche im Raum und fühlen sich weicher an als Stein oder Keramik. Der Preis dafür ist Empfindlichkeit gegenüber Punktlasten und scharfkantigem Schmutz, bei textilen Belägen dazu ein Reinigungsaufwand, den harte Beläge nicht kennen. Entscheidend ist fast immer der Untergrund: Diese Beläge sind dünn und meist vollflächig verklebt, deshalb zeichnet sich jede Unebenheit und jeder Estrichriss früher oder später an der Oberfläche ab."
+  },
+  "kde3nachhall": {
+    "t1": "Die Nachhallzeit ist die Größe, in der Raumakustik überhaupt verhandelbar wird: Sie beschreibt, wie lange ein abgeschalteter Schall im Raum noch nachwirkt, und ergibt sich aus dem Raumvolumen und der absorbierenden Fläche darin. Damit ist sie planbar statt Geschmackssache, denn wer das Volumen kennt, kann abschätzen, wie viel Fläche an Decke oder Wand belegt werden muss. Der Zielwert hängt an der Nutzung: Ein Unterrichtsraum braucht Sprachverständlichkeit, ein Konzertsaal Fülle, und ein Raum für beides ist ein Kompromiss, kein Optimum."
+  },
+  "kma3ne": {
+    "t1": "Aluminium, Messing, Kupfer und Zink eint, dass sie nicht rosten, sondern sich mit einer eigenen Deckschicht selbst schützen, und genau diese Schicht ist ihr Erscheinungsbild. Wer sie sichtbar einsetzt, entscheidet damit über einen Alterungsverlauf und nicht über einen Farbton: Kupfer und Zink verändern sich über Jahre, Messing schon nach Monaten und je nach Handkontakt ungleichmäßig. Planungsrelevant ist vor allem die Verträglichkeit untereinander und mit ablaufendem Wasser, denn Wasser trägt Metall mit und färbt darunterliegende Flächen, und der Kontakt unterschiedlicher Metalle in feuchter Umgebung greift immer das unedlere an."
+  },
+  "kma2kunststoff": {
+    "t1": "Kunststoffe und Membranen erledigen im Bauteil die Aufgaben, die niemand mehr sieht: abdichten, trennen, dämmen, Dampf bremsen. Ihre Tücke ist, dass zwei fast gleich aussehende Bahnen gegensätzlich wirken können, die eine diffusionsoffen, die andere sperrend, unterschieden nur durch den Aufdruck auf der Rolle. Deshalb gehören bei diesen Produkten Bezeichnung und Kennwert in die Ausschreibung und in die Bauüberwachung, nicht die Materialgruppe: Eine verwechselte Bahn fällt erst auf, wenn der Aufbau längst geschlossen ist."
+  },
+  "kma3kunststoff": {
+    "t1": "PVC, Polyethylen und Polycarbonat sehen sich ähnlicher, als sie sind: Sie unterscheiden sich deutlich in Härte, UV-Beständigkeit und Brandverhalten, und keiner der drei verträgt ohne Weiteres die Einbausituation des anderen. Im Innenausbau sind Kunststoffe pflegeleicht und günstig, im Freien entscheidet die UV-Stabilisierung darüber, ob eine Fläche nach wenigen Jahren vergilbt und verspröder wird oder nicht. Ihr größter Nachteil im Entwurf ist, dass sie nicht schön altern: Wo Holz und Metall Patina ansetzen, wirkt Kunststoff nur gebraucht, was ihn für sichtbare Bauteile zu einer bewussten Entscheidung macht."
+  },
+  "kma3alternativ": {
+    "t1": "Stroh, Hanf, Schilf und aufbereitete Abbruchmaterialien treten dort an, wo graue Energie und Rückbaubarkeit zu Entwurfskriterien werden, und sie leisten bauphysikalisch mehr, als ihr Ruf vermuten lässt. Der Engpass ist selten das Material, sondern der Nachweis: Vieles davon hat keine breite bauaufsichtliche Verwendbarkeit und braucht im Projekt eine Zustimmung im Einzelfall, die Zeit und Gutachterhonorar kostet. Wer solche Baustoffe einsetzen will, klärt den Zulassungsweg in der Vorplanung und legt den Zeitpuffer dafür in den Bauzeitenplan, statt ihn später herausschneiden zu müssen."
+  }
+}
