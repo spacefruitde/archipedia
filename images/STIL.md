@@ -10,6 +10,7 @@ Wiedererkennungsstil nach dem Vorbild klassischer Fachheft-Strichzeichnungen: re
 - Genau EINE Akzentfarbe: `#b05c3a` (Flächenfüllung mit `fill-opacity="0.18"` oder Akzentlinie), nur für das eine Element, um das es geht.
 - Geschnittenes Material als Schraffur: `<pattern>` mit 45-Grad-Linien, Abstand 6, Strichstärke 0.7. Dämmstoff als lockere Wellen- oder Kreuzschraffur, Beton als Punkt-Dreieck-Andeutung sparsam.
 - Beschriftung: `font-family="-apple-system,sans-serif"` `font-size="11"`, Fülle `#1c1a17`; Hinweislinien 1.1 mit kleinem Endpunkt (`circle r="1.6"`). Maximal 6 Beschriftungen pro Zeichnung.
+- **Layout-Pflichtregel: Kein Text darf den Zeichenbereich verlassen.** Faustformel Textbreite ≈ 6,2 px je Zeichen; bei `text-anchor="middle"` muss `x ± Breite/2` in [8, 472] liegen, bei `start` entsprechend `x + Breite ≤ 472`, bei `end` `x − Breite ≥ 8`. Lange Beschriftungen ober- oder unterhalb der Zeichnung zentrieren und per Hinweislinie anbinden, niemals seitlich neben den Rand setzen. Vor Abgabe automatisiert prüfen (Regex über alle `<text>`-Elemente mit obiger Faustformel).
 - Keine Verläufe, keine Schatten, keine Isometrie-Spielereien; Schnitt oder einfache Axonometrie mit zwei Fluchten.
 
 ## Inhalt

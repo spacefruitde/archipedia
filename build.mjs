@@ -40,15 +40,17 @@ function netzSVG(id){
   const unten = Math.max(seitUnten, kidsUnten, 0);
   const W=480, H=190+unten+42, cx=W/2, cy=176;
   const mehr = (r, x) => r.rest ? `<text x="${cx+x}" y="${cy-86+r.zeig.length*64+4}" text-anchor="middle" font-size="10.5" fill="#6f6a61">+${r.rest} weitere</text>` : '';
-  /* Beschriftung: zentriert unter dem Knoten, maximal zwei Zeilen */
-  const wrap = (t, x, y, ctr) => {
-    const worte = t.split(' '); const zeilen = ['']; let z = 0;
-    for (const w of worte) {
-      if ((zeilen[z] + ' ' + w).trim().length > 19 && zeilen[z]) { if (z === 1) { zeilen[z] = zeilen[z].slice(0,17).trim() + '…'; break; } zeilen[++z] = w; }
+  /* Beschriftung: zentriert, Zeilenumbruch; Zentrum darf drei Zeilen */
+  const zeilenOf = (t, max) => {
+    const zeilen = ['']; let z = 0;
+    for (const w of t.split(' ')) {
+      if ((zeilen[z] + ' ' + w).trim().length > 19 && zeilen[z]) { if (z === max-1) { zeilen[z] = zeilen[z].slice(0,17).trim() + '…'; return zeilen; } zeilen[++z] = w; }
       else zeilen[z] = (zeilen[z] + ' ' + w).trim();
     }
-    return `<text x="${x}" y="${y}" text-anchor="middle" ${ctr?'class="ctr"':''}>${zeilen.map((s,i)=>`<tspan x="${x}" dy="${i?12.5:0}">${esc(s)}</tspan>`).join('')}</text>`;
+    return zeilen;
   };
+  const wrap = (zeilen, x, y, ctr) =>
+    `<text x="${x}" y="${y}" text-anchor="middle" ${ctr?'class="ctr"':''}>${zeilen.map((s,i)=>`<tspan x="${x}" dy="${i?12.5:0}">${esc(s)}</tspan>`).join('')}</text>`;
   const edges = nodes.filter(m=>!m.c).map(m=>{
     const dash = m.xl ? 'stroke-dasharray="4 4"' : '';
     const col = m.xl ? colOf(N[m.id].p) : '#d8d2c4';
@@ -57,8 +59,9 @@ function netzSVG(id){
   const circles = nodes.map(m=>{
     const col = colOf(N[m.id].p);
     const oben = m.id === n.pa || m.c; /* Eltern und Zentrum: Beschriftung über dem Knoten */
-    const ty = oben ? cy+m.y-(m.c?36:32) : cy+m.y+20;
-    const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'#fff'}" stroke="${col}" stroke-width="2"/>${wrap(N[m.id].t, cx+m.x, ty, m.c)}`;
+    const zeilen = zeilenOf(N[m.id].t, m.c ? 3 : 2);
+    const ty = oben ? cy+m.y-(m.c?23:20)-12.5*(zeilen.length-1) : cy+m.y+20;
+    const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'#fff'}" stroke="${col}" stroke-width="2"/>${wrap(zeilen, cx+m.x, ty, m.c)}`;
     return m.c ? `<g>${inner}</g>` : `<a href="#${m.id}">${inner}</a>`;
   }).join('');
   const lgd = (rein.zeig.length?`<text x="8" y="${H-8}" font-size="10" fill="#6f6a61">← verweist hierher</text>`:'')+(raus.zeig.length?`<text x="${W-8}" y="${H-8}" font-size="10" fill="#6f6a61" text-anchor="end">verweist auf →</text>`:'');
@@ -209,6 +212,13 @@ const html = `<!DOCTYPE html>
     --k:#2f5d7c; --k-bg:#eaf1f6; --e:#b05c3a; --e-bg:#f8ece5; --x:#4f7350; --x-bg:#ebf2ea; --p:#665a7c; --p-bg:#efecf3;
     --radius:10px;
   }
+  [data-theme="dark"]{
+    --bg:#181613; --ink:#e9e5dd; --muted:#a49c90; --line:#37332c; --card:#211e1a;
+    --k:#82abc9; --k-bg:#1e2933; --e:#d69275; --e-bg:#33251e; --x:#96b797; --x-bg:#212b20; --p:#a99cbd; --p-bg:#282232;
+  }
+  [data-theme="dark"] details.depth{background:#1c1915}
+  [data-theme="dark"] .dach,[data-theme="dark"] .thread,[data-theme="dark"] .srcbox .stand{background:#26221c}
+  [data-theme="dark"] .unchecked{background:#33291a;color:#d9b988}
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:40px}
   a{color:inherit;text-decoration:none}
@@ -234,10 +244,11 @@ const html = `<!DOCTYPE html>
   body[data-land="at"] .dach-row.dr-de, body[data-land="at"] .dach-row.dr-ch,
   body[data-land="ch"] .dach-row.dr-de, body[data-land="ch"] .dach-row.dr-at{display:none}
   .dach-hint{font-size:11.5px;color:var(--muted);margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
-  figure.zeichnung{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 14px 10px;margin:0 0 14px}
+  figure.zeichnung{background:#fdfcfa;border:1px solid var(--line);border-radius:var(--radius);padding:14px 14px 10px;margin:0 0 14px}
   figure.zeichnung svg{width:100%;height:auto;display:block}
-  figure.zeichnung figcaption{font-size:12.5px;color:var(--muted);margin-top:8px;border-top:1px dotted var(--line);padding-top:7px}
+  figure.zeichnung figcaption{font-size:12.5px;color:#6f6a61;margin-top:8px;border-top:1px dotted #e5e0d6;padding-top:7px}
   figure.zeichnung .credit{display:block;font-size:11px;margin-top:2px;color:#a29b8d}
+  .thema{font-size:12.5px;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:5px 12px;background:var(--card);cursor:pointer;margin-right:8px}
   .thread{background:#f4f1ea;border:1px solid var(--line);border-radius:var(--radius);padding:12px 15px;margin-bottom:26px}
   .th-row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
   .th-nav{font-size:13.5px;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}
@@ -298,23 +309,24 @@ const html = `<!DOCTYPE html>
   .child small{display:block;color:var(--muted);font-size:12px;margin-top:1px}
   .endnote{font-size:13.5px;color:var(--muted)}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px}
-  .xlink{border:1px solid;border-radius:99px;padding:6px 13px;font-size:13px;background:#fff;display:inline-block}
+  .xlink{border:1px solid;border-radius:99px;padding:6px 13px;font-size:13px;background:var(--card);display:inline-block}
   .xl-k{color:var(--k);border-color:#bcd0de} .xl-e{color:var(--e);border-color:#e4c3b3} .xl-x{color:var(--x);border-color:#c2d4c3} .xl-p{color:var(--p);border-color:#cdc5d8}
   details.netz{border-top:1px solid var(--line);padding-top:4px;margin-top:4px}
   details.netz summary{list-style:none;cursor:pointer;padding:9px 0;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
   details.netz summary::-webkit-details-marker{display:none}
-  .netzbox{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:6px}
+  .netzbox{background:#fdfcfa;border:1px solid var(--line);border-radius:var(--radius);padding:6px}
   svg{width:100%;height:auto;display:block}
-  svg text{font-size:11px;fill:var(--ink);font-family:-apple-system,sans-serif}
+  svg text{font-size:11px;fill:#1c1a17;font-family:-apple-system,sans-serif}
   svg text.ctr{font-size:12.5px;font-weight:600}
   .netz-note{font-size:12.5px;color:var(--muted);text-align:center;margin-top:8px}
   footer{margin-top:34px;padding:16px 0 8px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
 </style>
+<script>(function(){var t=localStorage.getItem('ao_theme')||'auto';var d=t==='dark'||(t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';})();</script>
 </head>
 <body>
 <header><div class="wrap"><div class="head-in">
   <a class="wordmark" href="#home">ArchiPedia<span>Prototyp</span></a>
-  ${menu}
+  <span style="display:flex;align-items:center"><button class="thema" id="thema" type="button">◐ Auto</button>${menu}</span>
 </div>
 <nav class="topnav">
   <a class="badge b-k" href="#persp-k">Konstruktion</a>
@@ -388,6 +400,24 @@ ${sections}
     wende();
   });
   wende();
+
+  /* Darstellung: Auto / Dunkel / Hell */
+  var themaBtn = document.getElementById('thema');
+  var THEMA_LABEL = { auto: '◐ Auto', dark: '● Dunkel', light: '○ Hell' };
+  function themaAnwenden(){
+    var t = localStorage.getItem('ao_theme') || 'auto';
+    var dunkel = t === 'dark' || (t === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
+    document.documentElement.dataset.theme = dunkel ? 'dark' : 'light';
+    themaBtn.textContent = THEMA_LABEL[t];
+  }
+  themaBtn.addEventListener('click', function(){
+    var reihe = ['auto','dark','light'];
+    var t = localStorage.getItem('ao_theme') || 'auto';
+    localStorage.setItem('ao_theme', reihe[(reihe.indexOf(t)+1)%3]);
+    themaAnwenden();
+  });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', themaAnwenden);
+  themaAnwenden();
 })();
 </script>
 </body>
