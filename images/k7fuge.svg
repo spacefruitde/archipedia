@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Drei Detailschnitte: Pressfuge, Acrylfuge und Schattenfuge zwischen Zargenspiegel und Wand">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- Panel 1: Pressfuge -->
+  <rect x="60" y="140" width="40" height="100" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="100" y="150" width="35" height="80" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+
+  <!-- Panel 2: Acrylfuge -->
+  <rect x="200" y="140" width="40" height="100" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="246" y="150" width="35" height="80" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="240" y="150" width="6" height="80" fill="#1c1a17"/>
+
+  <!-- Panel 3: Schattenfuge -->
+  <rect x="340" y="140" width="40" height="100" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="388" y="150" width="35" height="80" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="380" y="150" width="8" height="80" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1"/>
+
+  <!-- Beschriftungen -->
+  <line x1="100" y1="200" x2="100" y2="250" stroke="#1c1a17" stroke-width="1.1"/><circle cx="100" cy="200" r="1.6" fill="#1c1a17"/>
+  <text x="100" y="264" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Pressfuge</text>
+  <line x1="243" y1="200" x2="243" y2="250" stroke="#1c1a17" stroke-width="1.1"/><circle cx="243" cy="200" r="1.6" fill="#1c1a17"/>
+  <text x="243" y="264" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Acrylfuge</text>
+  <line x1="384" y1="200" x2="384" y2="250" stroke="#1c1a17" stroke-width="1.1"/><circle cx="384" cy="200" r="1.6" fill="#1c1a17"/>
+  <text x="384" y="264" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Schattenfuge ca. 5 mm</text>
+</svg>

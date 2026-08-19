@@ -1,0 +1,197 @@
+{
+ "kfe1": {
+  "p": "k",
+  "lv": 1,
+  "t": "Fenster und Verglasung",
+  "t1": "Fenster entscheiden über Licht, Aussicht, Lüftung und den Wärmehaushalt eines Gebäudes zugleich und sind damit eines der konfliktreichsten Bauteile der Planung. Kaum ein anderes Element verbindet so viele Gewerke: Rahmenbau, Glasindustrie, Sonnenschutz und die handwerkliche Montage am Baukörper. Dieses Themenfeld gliedert sich nach Konstruktion, Verglasung, Anschluss, Verschattung und den flankierenden Bauteilen.",
+  "ln": [
+   "k1",
+   "kda1"
+  ]
+ },
+ "kfe2konstr": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfe1",
+  "t": "Fensterkonstruktionen und Rahmenmaterialien",
+  "t1": "Der Rahmen trägt das Glas, dichtet gegen Wind und Wetter und bestimmt zugleich, wie schlank oder massiv ein Fenster wirkt. Holz, Kunststoff, Aluminium und ihre Kombinationen unterscheiden sich in Wärmeleitung, Wartungsaufwand und der möglichen Profilschlankheit, nicht nur im Preis. Öffnungsart und Rahmenwahl zusammen entscheiden am Ende über Bedienkomfort, Dichtheit und Lebensdauer des ganzen Fensters."
+ },
+ "kfe3rahmen": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2konstr",
+  "t": "Rahmenmaterialien",
+  "t1": "Holzrahmen dämmen von Natur aus gut und altern sichtbar, brauchen dafür regelmäßige Pflege der Oberfläche. Kunststoffrahmen sind wartungsarm und günstig, wirken aber massiver in der Ansichtsbreite. Aluminium ist formstabil und schlank, leitet Wärme jedoch stark und braucht deshalb eine thermische Trennung im Profil, Holz-Alu-Fenster verbinden die warme Innenseite mit der robusten Außenschale."
+ },
+ "kfe3fluegel": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2konstr",
+  "t": "Flügeltypen und Öffnungsarten",
+  "t1": "Dreh- und Kippflügel sind der Wohnbaustandard und lassen sich sowohl weit öffnen als auch spaltlüften, Hebeschiebetüren und große Schiebeelemente öffnen raumhohe Fassaden fast schwellenlos zum Außenraum. Je größer und schwerer der Flügel, desto anspruchsvoller werden Beschlag und Rahmenstatik. Die Öffnungsart ist deshalb auch eine Frage der Elementgröße, nicht nur des Bedienkomforts.",
+  "ln": [
+   "k4null",
+   "k4schiebe"
+  ]
+ },
+ "kfe3profil": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2konstr",
+  "t": "Profilsysteme und Bautiefe",
+  "t1": "Die Bautiefe eines Profils bestimmt, wie viele Dichtungsebenen und Kammern für Wärmedämmung Platz finden, und damit indirekt den erreichbaren Wärmeschutz. Schlanke, historisch anmutende Profile und hochgedämmte Passivhausprofile stehen deshalb in einem echten Zielkonflikt zwischen Optik und Energiebilanz. Bei der Sanierung denkmalgeschützter Fassaden ist dieser Konflikt oft die zentrale Planungsfrage."
+ },
+ "kfe2glas": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfe1",
+  "t": "Verglasung (Wärme-, Sonnen-, Schallschutz)",
+  "t1": "Die Verglasung leistet heute den größten Teil dessen, was früher allein der Rahmen tragen musste: Wärmedämmung, Schallschutz, Sonnenschutz und Sicherheit stecken alle im Glasaufbau selbst. Mehrfachverglasungen mit Gasfüllung und beschichteten Scheiben haben den U-Wert von Glas in wenigen Jahrzehnten drastisch gesenkt. Die Herausforderung liegt heute weniger im einzelnen Glas als in der Kombination mehrerer, teils gegenläufiger Anforderungen in derselben Scheibe."
+ },
+ "kfe3waermeglas": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2glas",
+  "t": "Wärmeschutzverglasung",
+  "t1": "Zwei oder drei Scheiben mit Gasfüllung im Zwischenraum und einer unsichtbaren, wärmereflektierenden Beschichtung bilden heute den Standard der Wärmeschutzverglasung. Je niedriger der U-Wert, desto weniger Heizenergie geht über das Fenster verloren, aber auch desto schwerer wird die Scheibe, was wiederum Rahmen und Beschlag stärker fordert. Die Wahl der Verglasung ist damit auch eine Frage der zulässigen Flügelgröße."
+ },
+ "kfe3sonnenglas": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2glas",
+  "t": "Sonnenschutzverglasung und g-Wert",
+  "t1": "Der g-Wert beschreibt, wie viel Sonnenenergie eine Scheibe durchlässt, und ist damit das Gegenstück zum Wärmeschutz: Ein niedriger Wert hält im Sommer die Hitze draußen, schluckt im Winter aber auch willkommene Sonnenwärme. Sonnenschutzglas wirkt permanent und lässt sich, anders als ein bewegliches Verschattungssystem, nicht tageszeitabhängig steuern. Deshalb ersetzt es selten den mechanischen Sonnenschutz, sondern ergänzt ihn."
+ },
+ "kfe3schallglas": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2glas",
+  "t": "Schallschutzverglasung",
+  "t1": "Schallschutz im Glas entsteht vor allem durch unterschiedlich dicke Scheiben im selben Element, denn gleiche Dicken schwingen im selben Frequenzbereich und schwächen sich gegenseitig kaum. Sonderfolien und breitere Scheibenzwischenräume verbessern die Dämmung zusätzlich, gehen aber zulasten von Gewicht und manchmal des Lichtdurchlasses. An lauten Lagen entscheidet oft weniger das Glas als die Fugendichtheit der gesamten Fensterkonstruktion über das tatsächliche Ergebnis.",
+  "ln": [
+   "k3schall"
+  ]
+ },
+ "kfe2montage": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfe1",
+  "t": "Baukörperanschluss und Montage (RAL)",
+  "t1": "Ein Fenster ist nur so gut wie sein Anschluss an die Wand: Selbst das beste Element mit falscher Montage wird zur Schwachstelle für Wärme, Luft und Feuchte. Die RAL-Montage beschreibt drei getrennte Dichtebenen, innen luftdicht, außen schlagregendicht, dazwischen wärmegedämmt, die nie miteinander vertauscht werden dürfen. Weil die Montage nach der Rohbauöffnung, aber vor dem Innenausbau passiert, ist sie ein Nadelöhr im Bauablauf."
+ },
+ "kfe3raldicht": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2montage",
+  "t": "Die drei Dichtungsebenen der RAL-Montage",
+  "t1": "Innen muss die Fuge luftdichter sein als außen, sonst wandert warme Innenluft in die Fuge, kühlt ab und die enthaltene Feuchte kondensiert in der Dämmebene. Diese Reihenfolge, innen dichter als außen, ist die wichtigste Regel der Montage und lässt sich nicht durch bessere Materialien allein reparieren, wenn die Prinzipien vertauscht werden. Vorkomprimierte Dichtbänder, Folien und Klebesysteme sind nur Werkzeuge, um dieses eine Prinzip umzusetzen."
+ },
+ "kfe3laibung": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2montage",
+  "t": "Laibung, Sturz und Brüstung",
+  "t1": "Jede Fensteröffnung hat vier Anschlusskanten, Sturz, Brüstung und zwei seitliche Laibungen, und jede davon verlangt ein eigenes, sorgfältig durchdachtes Detail. Innenseitig treffen diese Anschlüsse häufig auf Trockenbau oder Putz, außenseitig auf WDVS oder eine hinterlüftete Fassade, mit jeweils eigenen Anschlussregeln. Wer die Laibung erst auf der Baustelle löst statt in der Planung, riskiert sichtbare Risse an genau dieser Stelle.",
+  "ln": [
+   "k6trocken",
+   "kiw3beplank"
+  ]
+ },
+ "kfe3daemmkeil": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2montage",
+  "t": "Montagelage in der Dämmebene",
+  "t1": "Ein Fenster, das mittig in der Wärmedämmung statt in der tragenden Wand sitzt, vermeidet Wärmebrücken deutlich besser als die klassische Montage in der Mauerwerksebene. Diese vorgesetzte oder vorgemauerte Montage braucht dafür eine tragfähige Konsole oder einen Montagerahmen, der die Lasten zusätzlich in die Wand einleitet. Bei WDVS-Fassaden ist die vorgesetzte Montage inzwischen fast Standard, bei tragenden Vormauerschalen bleibt sie eine Sonderlösung."
+ },
+ "kfe2sonnenschutz": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfe1",
+  "t": "Sonnenschutz und Verschattung",
+  "t1": "Verschattung ist der bewegliche, tageszeitlich steuerbare Teil des sommerlichen Wärmeschutzes und ergänzt die feste Sonnenschutzverglasung dort, wo Flexibilität gefragt ist. Außen liegender Sonnenschutz wirkt bauphysikalisch am wirksamsten, weil er die Wärme vor der Scheibe abfängt statt dahinter. Die Wahl des Systems ist zugleich eine Fassadenentscheidung, denn Kästen, Führungsschienen und Antriebe wollen von Anfang an mitgeplant sein."
+ },
+ "kfe3aussenliegend": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2sonnenschutz",
+  "t": "Außenliegender Sonnenschutz",
+  "t1": "Raffstoren mit neigbaren Lamellen erlauben Verschattung bei gleichzeitigem Ausblick, Rollläden blocken vollständig und übernehmen nebenbei Einbruch- und Sichtschutz in der Nacht. Weil die Sonnenwärme hier vor dem Glas abgefangen wird, bevor sie überhaupt in den Raum gelangt, ist außen liegender Sonnenschutz dem innen liegenden bauphysikalisch klar überlegen. Der Preis dafür ist ein Fassadenelement, das Wind, Wetter und Wartungszugang aushalten muss."
+ },
+ "kfe3innenliegend": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2sonnenschutz",
+  "t": "Innenliegender und integrierter Sonnenschutz",
+  "t1": "Innen liegende Systeme wie Vorhänge oder Jalousien sind einfach nachzurüsten und ungeschützt gegen Wind, verhindern die Aufheizung des Raumes aber erst, nachdem die Sonnenwärme bereits durch das Glas gedrungen ist. Zwischen den Scheiben integrierte Lamellen verbinden beide Welten: geschützt wie innen liegende Systeme, aber näher an der Wirksamkeit außen liegender. Sie sind allerdings bei Defekt kaum zugänglich, ein Kompromiss, der früh mitentschieden werden muss."
+ },
+ "kfe3steuerung": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2sonnenschutz",
+  "t": "Steuerung und Verschattungsautomation",
+  "t1": "Manuell bedienter Sonnenschutz wird in der Praxis selten optimal genutzt, weil niemand ständig nachjustiert, automatisierte Steuerung nach Sonnenstand, Helligkeit oder Windgeschwindigkeit hält den Ertrag konstanter. Die Automation ist zugleich ein Sicherheitsthema, denn Windwächter müssen Lamellen bei Sturm rechtzeitig einfahren, bevor sie beschädigt werden. Je mehr Fensterflächen ein Gebäude hat, desto stärker rechtfertigt sich der Aufwand einer zentralen Steuerung."
+ },
+ "kfe2bank": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfe1",
+  "t": "Fensterbänke innen/außen",
+  "t1": "Die Fensterbank ist ein kleines Bauteil mit großer Wirkung: außen schützt sie die Fassade unter dem Fenster vor Schlagregen, innen bildet sie die Möbelkante des Raumes. Beide Bänke werden oft getrennt betrachtet, gehören aber zum selben Anschluss und sollten gemeinsam geplant werden. Fehler an der äußeren Fensterbank zeigen sich meist erst Jahre später als Fassadenschaden."
+ },
+ "kfe3bankaussen": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2bank",
+  "t": "Außenfensterbank und Entwässerung",
+  "t1": "Die äußere Fensterbank führt Schlagregen von der Fassade weg und braucht dafür ein durchgängiges Gefälle sowie hochgezogene, wasserdichte Seitenteile, sogenannte Aufkantungen, an den Laibungen. Wird dieser seitliche Anschluss vernachlässigt, läuft Wasser genau dort in die Fassade, wo man es am wenigsten erwartet. Material und Farbe der Bank sind eine Fassadenentscheidung, ihre Funktion aber ist reine Bauphysik."
+ },
+ "kfe3bankinnen": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2bank",
+  "t": "Innenfensterbank als Möbel und Übergang",
+  "t1": "Innen wird die Fensterbank zur Ablage, Sitzfläche oder Heizkörperabdeckung und damit zu einem Möbelstück, das gleichzeitig eine bauliche Anschlussaufgabe löst. Ihre Tiefe entscheidet mit über die nutzbare Fensterlaibung als Sitzplatz, ihre Höhe über das Zusammenspiel mit einem darunterliegenden Heizkörper. Ohne Innenbank bleibt die Laibung roh, mit ihr wird sie Teil der Rauminszenierung."
+ },
+ "kfe3bankmat": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2bank",
+  "t": "Materialwahl der Fensterbank",
+  "t1": "Naturstein und Kunststein sind robust und pflegeleicht und deshalb der Standard für die wetterexponierte Außenbank, Holz und Kunststoff dominieren innen, wo Haptik und Wärme zählen. Metallbänke tauchen an beiden Seiten auf, außen als schlanke, moderne Alternative, innen selten wegen der geringen Wärmedämmung im Kontakt. Die Materialwahl folgt damit weniger dem Geschmack als der jeweiligen Beanspruchung."
+ },
+ "kfe2absturz": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfe1",
+  "t": "Absturzsicherung am Fenster",
+  "t1": "Sobald ein Fenster tief genug herunterreicht, dass ein Sturz aus ihm möglich ist, wird Absturzsicherung zur Pflichtaufgabe, nicht zur gestalterischen Kür. Die Lösung reicht vom einfachen Geländer über absturzsichernde Verglasung bis zur festen Brüstungshöhe, die den Konflikt gar nicht erst entstehen lässt. Bei raumhohen Fenstern und Balkontüren wird dieses Thema besonders häufig übersehen, weil es im Entwurf spät auftaucht."
+ },
+ "kfe3absturzhoehe": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2absturz",
+  "t": "Brüstungshöhen und Sicherungspflicht",
+  "t1": "Ab welcher Absturzhöhe eine Sicherung Pflicht wird und wie hoch sie mindestens sein muss, hängt von der Nutzung des Raumes und der Fallhöhe dahinter ab und ist eines der wenigen Fenstermaße mit direkter Sicherheitsrelevanz. Bei Fenstern mit geringer Brüstungshöhe, etwa raumhohen Elementen, wird die Absturzsicherung zur zentralen Entwurfsaufgabe statt zur Nachkontrolle. Die genauen Höhen unterscheiden sich zwischen den DACH-Ländern und gehören früh geklärt.",
+  "ln": [
+   "kt3gelh"
+  ]
+ },
+ "kfe3absturzglas": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2absturz",
+  "t": "Absturzsichernde Verglasung",
+  "t1": "Verbundsicherheitsglas kann die Funktion eines Geländers übernehmen, wenn es als geprüftes System für Absturzsicherung ausgelegt ist, und macht dann ein zusätzliches Geländer überflüssig. Das setzt eine bestimmte Scheibendicke und einen eigens geprüften Nachweis voraus, ein normales Isolierglas reicht dafür nicht. Gestalterisch verspricht die Lösung freie Sicht ohne Brüstung, konstruktiv bleibt sie anspruchsvoll in der Befestigung."
+ },
+ "kfe3absturzgel": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2absturz",
+  "t": "Vorgesetzte Geländer und Fenstergitter",
+  "t1": "Wo Verglasung allein nicht ausreicht oder nicht gewollt ist, sichert ein vor das Fenster gesetztes Geländer oder Gitter die Öffnung, innen oder außen montiert. Innen liegende Geländer beanspruchen Raumfläche und müssen mit der Fensterbank koordiniert werden, außen liegende werden Teil der Fassadenoptik. Beide Varianten müssen dieselben Kräfte aufnehmen wie ein Treppengeländer, nur horizontal statt entlang eines Laufs.",
+  "ln": [
+   "kt3fuell"
+  ]
+ }
+}

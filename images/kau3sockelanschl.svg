@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt: Sockelanschluss mit Anschlusshöhe der Abdichtung von ca. 15 cm über Gelände und Spritzwasserzone">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Wand -->
+  <rect x="200" y="40" width="60" height="250" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+
+  <!-- Fertiges Gelände -->
+  <line x1="60" y1="230" x2="200" y2="230" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="260" y1="230" x2="420" y2="230" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="80" y1="230" x2="74" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="110" y1="230" x2="104" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="140" y1="230" x2="134" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="170" y1="230" x2="164" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="290" y1="230" x2="284" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="320" y1="230" x2="314" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="350" y1="230" x2="344" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="380" y1="230" x2="374" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+
+  <!-- Abdichtung, hochgeführt bis 15 cm über Gelände -->
+  <line x1="196" y1="290" x2="196" y2="185" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="5 3"/>
+
+  <!-- Spritzwasserzone (Akzent) -->
+  <rect x="195" y="185" width="10" height="45" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1"/>
+
+  <!-- Maßlinie 15 cm -->
+  <line x1="144" y1="230" x2="156" y2="230" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="144" y1="185" x2="156" y2="185" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="150" y1="230" x2="150" y2="185" stroke="#1c1a17" stroke-width="1.1"/>
+  <text x="138" y="211" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">ca. 15 cm</text>
+
+  <!-- Beschriftungen -->
+  <line x1="200" y1="195" x2="140" y2="140" stroke="#1c1a17" stroke-width="1.1"/><circle cx="200" cy="195" r="1.6" fill="#1c1a17"/>
+  <text x="136" y="136" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Spritzwasserzone</text>
+  <line x1="300" y1="230" x2="340" y2="270" stroke="#1c1a17" stroke-width="1.1"/><circle cx="300" cy="230" r="1.6" fill="#1c1a17"/>
+  <text x="344" y="274" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">fertiges Gelände</text>
+</svg>

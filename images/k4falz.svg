@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Zwei Schnitte: gefälztes Türblatt im Vergleich zu stumpf einschlagendem Türblatt">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Trennlinie zwischen den beiden Details -->
+  <line x1="240" y1="60" x2="240" y2="260" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <!-- Panel A: gefälzt (überdeckend) -->
+  <rect x="95" y="100" width="20" height="120" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="108" y="90" width="45" height="140" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="108" y="100" width="7" height="120" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1"/>
+
+  <!-- Panel B: stumpf einschlagend -->
+  <rect x="355" y="100" width="20" height="120" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="377" y="90" width="45" height="140" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <line x1="376" y1="100" x2="376" y2="220" stroke="#b05c3a" stroke-width="2.2"/>
+
+  <!-- Beschriftungen -->
+  <line x1="115" y1="150" x2="70" y2="270" stroke="#1c1a17" stroke-width="1.1"/><circle cx="115" cy="150" r="1.6" fill="#1c1a17"/>
+  <text x="66" y="284" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">gefälzt: Blatt überdeckt Zarge</text>
+  <line x1="376" y1="150" x2="410" y2="270" stroke="#1c1a17" stroke-width="1.1"/><circle cx="376" cy="150" r="1.6" fill="#1c1a17"/>
+  <text x="414" y="284" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">stumpf: Blatt schließt flächig</text>
+</svg>

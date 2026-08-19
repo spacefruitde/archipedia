@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt: Trittschallentkopplung des Treppenauflagers mit Elastomerlager und freier Fuge zur Wand">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Auflager / Podestwand (stumme Kontur) -->
+  <rect x="80" y="190" width="340" height="40" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Angrenzende Wand -->
+  <rect x="420" y="100" width="40" height="130" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+
+  <!-- Podestplatte (Beton, sparsame Punkt-Dreieck-Andeutung) -->
+  <rect x="100" y="140" width="300" height="40" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 140 165 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+  <path d="M 220 170 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+  <path d="M 300 165 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+  <path d="M 360 170 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+
+  <!-- Elastomerlager (Akzent) -->
+  <rect x="140" y="180" width="60" height="10" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <rect x="320" y="180" width="60" height="10" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+
+  <!-- Beschriftungen -->
+  <line x1="170" y1="185" x2="130" y2="260" stroke="#1c1a17" stroke-width="1.1"/><circle cx="170" cy="185" r="1.6" fill="#1c1a17"/>
+  <text x="126" y="274" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Elastomerlager</text>
+  <line x1="410" y1="165" x2="440" y2="70" stroke="#1c1a17" stroke-width="1.1"/><circle cx="410" cy="165" r="1.6" fill="#1c1a17"/>
+  <text x="440" y="58" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">freie Fuge, kein Mörtelkontakt</text>
+</svg>

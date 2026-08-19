@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Treppenschnitt mit Steigung s, Auftritt a und der Schrittmaßformel">
+  <!-- Boden, stumme Kontur -->
+  <line x1="40" y1="280" x2="300" y2="280" stroke="#1c1a17" stroke-width="1.1"/>
+
+  <!-- Treppenlauf als Stufenprofil (Beton, sparsame Punkt-Dreieck-Andeutung) -->
+  <path d="M 70 260 L 70 228 L 116 228 L 116 196 L 162 196 L 162 164 L 208 164 L 208 132 L 254 132 L 254 280 L 70 280 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 90 268 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+  <path d="M 140 262 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+  <path d="M 190 250 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+  <path d="M 230 220 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+  <path d="M 100 245 l 4 0 l -2 -4 z" fill="#1c1a17"/>
+
+  <!-- Referenzstufe hervorgehoben (Akzent) -->
+  <line x1="116" y1="228" x2="116" y2="196" stroke="#b05c3a" stroke-width="2.2"/>
+  <line x1="116" y1="196" x2="162" y2="196" stroke="#b05c3a" stroke-width="2.2"/>
+
+  <!-- Maßlinie s (Steigung) -->
+  <line x1="102" y1="196" x2="114" y2="196" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="102" y1="228" x2="114" y2="228" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="108" y1="196" x2="108" y2="228" stroke="#1c1a17" stroke-width="1.1"/>
+  <text x="97" y="216" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">s</text>
+
+  <!-- Maßlinie a (Auftritt) -->
+  <line x1="116" y1="174" x2="116" y2="186" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="162" y1="174" x2="162" y2="186" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="116" y1="180" x2="162" y2="180" stroke="#1c1a17" stroke-width="1.1"/>
+  <text x="139" y="172" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">a</text>
+
+  <!-- Schrittmaßformel -->
+  <text x="330" y="150" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Schrittmaß:</text>
+  <text x="330" y="168" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">2s + a = 59 bis 65 cm</text>
+</svg>

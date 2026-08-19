@@ -1,0 +1,95 @@
+[
+  {
+    "titel": "Vom Portal zur Brandschutztür",
+    "kurz": "Die festliche Portalgeste der Margarethenhöhe und die zugelassene, veränderungsverbotene Brandschutztür zeigen zwei Enden derselben Bauteilgattung, bis hinunter zur Ausschreibungsposition.",
+    "ids": [
+      "x4bogen",
+      "e3portal",
+      "k3t30",
+      "k4t30z",
+      "pav3lv30"
+    ]
+  },
+  {
+    "titel": "Nullschwelle bis zur Abweichung",
+    "kurz": "Was die Margarethenhöhe über Übergänge lehrt, führt über Nullschwelle, Rampe und barrierefreie Außenerschließung bis zur formalen Abweichung, wenn der Bestand die Norm nicht hergibt.",
+    "ids": [
+      "x4lernen",
+      "k4null",
+      "kt3rampe",
+      "kau2barriere",
+      "pba3abweichung"
+    ]
+  },
+  {
+    "titel": "Sichtbeton vom Manifest zur Schalung",
+    "kurz": "Vom Brutalismus als Bekenntnis zum rohen Beton über die Idee der unveredelten Oberfläche bis zur Schalungs- und Bewehrungstechnik, die diese Rohheit erst möglich macht.",
+    "ids": [
+      "xnb2brutalismus",
+      "ema3rohbau",
+      "kfa2sichtbeton",
+      "kma3sichtbeton",
+      "kro3ortbeton"
+    ]
+  },
+  {
+    "titel": "Zenitlicht von Vals zur Lichtkuppel",
+    "kurz": "Von den Lichtschlitzen der Therme Vals über die Idee des Zenitlichts und seine Wirkung im Treppenraum bis zur bauteilgenauen Lichtkuppel und Verglasung im Dach.",
+    "ids": [
+      "xtv1",
+      "eli3oben",
+      "et2licht",
+      "kt3kopf",
+      "kda3lichtkuppel",
+      "kfe2glas"
+    ]
+  },
+  {
+    "titel": "Vom Türgriff zur Bedienstelle",
+    "kurz": "Vom handwerklichen Detail der Margarethenhöhe über den Drücker als Handschlag des Gebäudes und seine Haptik bis zur Bedienstelle als Griffpunkt des ganzen Raums.",
+    "ids": [
+      "x4farbe",
+      "e2hand",
+      "e3druecker",
+      "ema3haptik",
+      "kma3ne",
+      "k4drueck",
+      "ktg3bedien"
+    ]
+  },
+  {
+    "titel": "Der Treppenraum als Pflichtfall",
+    "kurz": "Vom gestalterischen Wunsch, die Treppe offen zu zeigen, über den notwendigen Treppenraum und die Brandschutztür bis zur Bauordnung und zum Mangel am sicherheitsrelevanten Bauteil.",
+    "ids": [
+      "et2zeigen",
+      "kt3raum",
+      "k3t30",
+      "pba3brandabschn",
+      "pbl3fluchtweg"
+    ]
+  },
+  {
+    "titel": "Vom Weiterbauen zum Materialpass",
+    "kurz": "Von der Haltung, nicht abzureißen, über Umbau und Bauteilrecycling bis zum Materialpass, der Wiederverwendung erst nachweisbar macht.",
+    "ids": [
+      "xzp2niemals",
+      "kbe2umbau",
+      "kbe3ruecksb",
+      "pna2zirk",
+      "pna3passport",
+      "pna3wiederverw"
+    ]
+  },
+  {
+    "titel": "Weiterbauen bis zur Abstandsfläche",
+    "kurz": "Von der gewöhnlichen Stadt als Vorbild über Parzellenlogik und Baulinie bis zur Bebauungsplanfestsetzung und Abstandsflächenberechnung, an der die Kontinuität oft zerbricht.",
+    "ids": [
+      "xzp2sergison",
+      "eko3kontinuitaet",
+      "eko3parzelle",
+      "eko3fassadenlinie",
+      "pba3bebauungspl",
+      "pba3abstandsflberech"
+    ]
+  }
+]

@@ -1,0 +1,701 @@
+id · Perspektive+Ebene · Titel · Eltern · Querverweise
+k1 · k1 · Türen · - · e1+x3haustuer+kt1
+k2i · k2 · Innentüren · k1 · -
+k3blatt · k3 · Türblatt · k2i · -
+k4aufbau · k4 · Aufbau: Wabe, Röhrenspan, Vollspan · k3blatt · -
+k4oberfl · k4 · Oberflächen: CPL, HPL, Furnier, Lack · k3blatt · -
+k4falz · k4 · Gefälzt oder stumpf einschlagend · k3blatt · e3unsichtbar
+k3zarge · k3 · Zarge · k2i · e2artik
+k4umf · k4 · Umfassungszarge · k3zarge · -
+k5spiegel · k5 · Zargenspiegel · k4umf · e4spiegelgest
+k6breite · k6 · Spiegelbreite und Proportion · k5spiegel · -
+k6kante · k6 · Kantenausbildung · k5spiegel · -
+k6mat · k6 · Materialität und Oberfläche · k5spiegel · e2artik
+k5maul · k5 · Falzbekleidung und Maulweite · k4umf · -
+k5wand · k5 · Wandanschluss und Montage · k4umf · -
+k6trocken · k6 · Anschluss an Trockenbau vs. Massivwand · k5wand · -
+k7fuge · k7 · Detail: Schattenfuge Zarge/Wand, Toleranzen · k6trocken · -
+k4block · k4 · Blockzarge · k3zarge · -
+k4eck · k4 · Eckzarge · k3zarge · -
+k4verdeckt · k4 · Verdeckte Zarge, flächenbündige Systeme · k3zarge · e3unsichtbar
+k3besch · k3 · Beschläge · k2i · e2hand
+k4band · k4 · Bänder: aufliegend, verdeckt, 3D-verstellbar · k3besch · -
+k4drueck · k4 · Drücker und Schlösser · k3besch · e3druecker
+k4schliess · k4 · Türschließer und Feststellanlagen · k3besch · -
+k3oeff · k3 · Öffnungsarten · k2i · -
+k4anschlag · k4 · Anschlagtür, DIN links/rechts · k3oeff · -
+k4schiebe · k4 · Schiebetür: vor der Wand, in der Wand · k3oeff · -
+k4sonst · k4 · Falt-, Pendel-, Drehtür · k3oeff · -
+k2a · k2 · Außen- und Haustüren · k1 · x3haustuer+e2schwelle
+k3waerme · k3 · Aufbau und Wärmeschutz · k2a · -
+k3rc · k3 · Einbruchschutz: RC-Klassen · k2a · -
+k3schwelle · k3 · Schwelle und Barrierefreiheit · k2a · e2schwelle
+k4null · k4 · Nullschwelle: Abdichtung vs. Barrierefreiheit · k3schwelle · kt3rampe
+k2f · k2 · Funktionstüren · k1 · -
+k3t30 · k3 · Brandschutztüren (T30/T60/T90) · k2f · kt3raum
+k4t30z · k4 · Zulassung und Veränderungsverbot · k3t30 · -
+k3rs · k3 · Rauchschutztüren (RS) · k2f · -
+k3schall · k3 · Schallschutztüren · k2f · -
+k3kombi · k3 · Kombinationsanforderungen · k2f · -
+k2b · k2 · Türen im Bestand · k1 · x1
+k3hist · k3 · Aufarbeitung historischer Türen · k2b · -
+k3ertuecht · k3 · Ertüchtigung im Denkmal · k2b · x4lernen
+e1 · e1 · Die Tür als Entwurfselement · - · k1+x3haustuer
+e2schwelle · e2 · Schwelle und Übergang · e1 · k3schwelle+x3tor
+e3zaesur · e3 · Die Tür als räumliche Zäsur · e2schwelle · -
+e3schwellenr · e3 · Schwellenräume: Windfang, Vorraum, Nische · e2schwelle · -
+e2prop · e2 · Proportion und Format · e1 · -
+e3raumhoch · e3 · Raumhohe Türen und der aufgelöste Sturz · e2prop · k6trocken
+e3breite · e3 · Türbreiten zwischen Norm und Geste · e2prop · -
+e2artik · e2 · Artikulation vs. Verschwinden · e1 · k3zarge
+e3portal · e3 · Die betonte Tür: Portal, Rahmung, Gewände · e2artik · x4bogen
+e4spiegelgest · e4 · Der Zargenspiegel als gestalterisches Mittel · e3portal · k5spiegel
+e3unsichtbar · e3 · Die unsichtbare Tür · e2artik · k4verdeckt+k4falz
+e2hand · e2 · Die Tür als Berührungspunkt · e1 · k3besch+kt3hand
+e3druecker · e3 · Der Drücker als Handschlag des Gebäudes · e2hand · k4drueck
+e2folge · e2 · Türen in der Raumfolge · e1 · -
+e3enfilade · e3 · Enfilade und Sichtachse · e2folge · et2prom
+e3position · e3 · Türposition im Raum: Ecke oder Mitte · e2folge · -
+x1 · x1 · Margarethenhöhe, Essen · - · e1+k1
+x2staedt · x2 · Städtebau der Gartenstadt · x1 · -
+x3tor · x3 · Torhaus und Brückenzugang · x2staedt · e2schwelle+e3zaesur
+x3platz · x3 · Platzfolgen und Straßenräume · x2staedt · et2prom
+x2typ · x2 · Gebäudetypen · x1 · -
+x3reihe · x3 · Reihenhaustypen und ihre Variation · x2typ · -
+x2fass · x2 · Fassadenelemente · x1 · -
+x3haustuer · x3 · Haustüren der Margarethenhöhe · x2fass · k2a+e3portal
+x4bogen · x4 · Rundbogenportale und Türgewände · x3haustuer · e3portal
+x4farbe · x4 · Farbigkeit und Handwerksdetail · x3haustuer · -
+x4lernen · x4 · Was heutige Planung daraus lernt · x3haustuer · k2a+k4null+e2artik
+kt1 · k1 · Treppen · - · et1+k1
+kt2geo · k2 · Laufgeometrie und Podeste · kt1 · -
+kt3steig · k3 · Steigungsverhältnis und Schrittmaß · kt2geo · et2prom
+kt3form · k3 · Grundformen: gerade, gewendelt, gewunden · kt2geo · et2skulptur
+kt3podest · k3 · Podeste, Antritt, Austritt · kt2geo · et2ort
+kt3kopf · k3 · Kopfhöhe und Durchgangshöhe · kt2geo · -
+kt2konst · k2 · Konstruktionen nach Material · kt1 · -
+kt3beton · k3 · Stahlbetontreppen · kt2konst · et2skulptur
+kt4schall · k4 · Trittschallentkopplung · kt3beton · -
+kt3holz · k3 · Holztreppen · kt2konst · -
+kt3stahl · k3 · Stahl- und Spindeltreppen · kt2konst · -
+kt3fertig · k3 · System- und Raumspartreppen · kt2konst · -
+kt2gel · k2 · Geländer und Handläufe · kt1 · -
+kt3gelh · k3 · Geländerhöhen und Öffnungsmaße · kt2gel · -
+kt3hand · k3 · Handlauf: Ergonomie und Pflicht · kt2gel · e2hand
+kt3fuell · k3 · Füllungen: Stab, Fläche, Netz · kt2gel · -
+kt2not · k2 · Notwendige Treppen und Fluchtwege · kt1 · -
+kt3nutz · k3 · Nutzbare Laufbreite · kt2not · -
+kt3raum · k3 · Der notwendige Treppenraum · kt2not · k3t30
+kt3aussen · k3 · Außentreppen als Rettungsweg · kt2not · -
+kt2rampe · k2 · Rampen und Aufzüge · kt1 · -
+kt3rampe · k3 · Rampen · kt2rampe · k4null
+kt3aufzug · k3 · Aufzüge: Schacht und Schnittstellen · kt2rampe · -
+et1 · e1 · Die Treppe als Entwurfselement · - · kt1+e1
+et2skulptur · e2 · Die Treppe als Raumskulptur · et1 · kt3beton+kt3stahl
+et2prom · e2 · Promenade: Steigen als Sequenz · et1 · kt3steig+e3enfilade+x3tor
+et2ort · e2 · Die Treppe als Ort · et1 · kt3podest+x3platz
+et2licht · e2 · Treppe und Licht · et1 · kt3kopf
+et2zeigen · e2 · Treppen zeigen oder verbergen · et1 · kt3raum
+kgr1 · k1 · Gründung und erdberührte Bauteile · - · -
+kgr2fund · k2 · Flach- und Tiefgründungen · kgr1 · -
+kgr3streifen · k3 · Streifen- und Einzelfundamente · kgr2fund · -
+kgr3platte · k3 · Bodenplatte · kgr2fund · -
+kgr3pfahl · k3 · Pfahlgründung · kgr2fund · -
+kgr3wahl · k3 · Baugrunduntersuchung und Gründungswahl · kgr2fund · -
+kgr2keller · k2 · Kellerwände und Weiße Wanne · kgr1 · -
+kgr3wu · k3 · Weiße Wanne: Konstruktionsprinzip · kgr2keller · -
+kgr3schwarz · k3 · Schwarze und Braune Wanne im Vergleich · kgr2keller · -
+kgr3ziegel · k3 · Kellerwand aus Mauerwerk · kgr2keller · -
+kgr3durchdring · k3 · Durchdringungen der Weißen Wanne · kgr2keller · -
+kgr2abdicht · k2 · Abdichtung erdberührter Bauteile · kgr1 · -
+kgr3weklasse · k3 · Wassereinwirkungsklassen im Überblick · kgr2abdicht · -
+kgr3bitumen · k3 · Bitumen- und Kunststoffbahnen · kgr2abdicht · -
+kgr3fluessig · k3 · Flüssigabdichtung · kgr2abdicht · -
+kgr3drainage · k3 · Drainage und Sickerwasser · kgr2abdicht · -
+kgr2perim · k2 · Perimeterdämmung und Sockelausbildung · kgr1 · -
+kgr3perimmat · k3 · Perimeterdämmung: Materialwahl · kgr2perim · -
+kgr3sockel · k3 · Sockelausbildung und Spritzwasserschutz · kgr2perim · k4null+k3schwelle
+kgr3waermebr · k3 · Wärmebrücke am Gebäudesockel · kgr2perim · kfa2wdvs
+kro1 · k1 · Tragwerk und Rohbau · - · -
+kro2mauer · k2 · Mauerwerksbau · kro1 · kfa2sicht
+kro3steine · k3 · Mauerwerksarten und Steinformate · kro2mauer · -
+kro3tragend · k3 · Tragende und aussteifende Wände · kro2mauer · -
+kro3knick · k3 · Schlankheit und Knicklänge im Mauerwerk · kro2mauer · -
+kro2beton · k2 · Stahlbetonbau: Ortbeton und Fertigteile · kro1 · kfa2sichtbeton
+kro3ortbeton · k3 · Ortbeton: Schalung und Bewehrung · kro2beton · kt3beton
+kro3fertig · k3 · Betonfertigteile und Elementbauweise · kro2beton · -
+kro2holz · k2 · Holzbau: Massivholz, Skelett, Rahmen · kro1 · -
+kro3massiv · k3 · Massivholzbau (Brettsperrholz) · kro2holz · kt3holz
+kro3skelett · k3 · Holzskelettbau · kro2holz · -
+kro3rahmen · k3 · Holzrahmenbau · kro2holz · -
+kro2stahl · k2 · Stahl- und Hybridbau · kro1 · -
+kro3profile · k3 · Stahlskelettbau und Profile · kro2stahl · kt3stahl
+kro3verbund · k3 · Verbundbau: Stahl und Beton kombiniert · kro2stahl · -
+kro3brand · k3 · Brandschutz im Stahlbau · kro2stahl · -
+kro2decken · k2 · Decken und Unterzüge · kro1 · -
+kro3decksys · k3 · Deckensysteme im Vergleich · kro2decken · -
+kro3unterzug · k3 · Unterzüge und Spannweiten · kro2decken · -
+kro2aussteif · k2 · Aussteifung und Fugen · kro1 · -
+kro3ausstbau · k3 · Aussteifende Bauteile · kro2aussteif · -
+kro3fugen · k3 · Bauwerksfugen: Dehnung, Setzung, Trennung · kro2aussteif · -
+kro3schwinden · k3 · Schwinden und Kriechen im Tragwerk · kro2aussteif · -
+kfa1 · k1 · Außenwand und Fassade · - · -
+kfa2mono · k2 · Monolithische Außenwände · kfa1 · -
+kfa3ziegelmono · k3 · Hochlochziegel und Leichtbeton · kfa2mono · -
+kfa3grenzmono · k3 · Grenzen der monolithischen Bauweise · kfa2mono · -
+kfa2wdvs · k2 · WDVS · kfa1 · kgr3waermebr
+kfa3daemmwdvs · k3 · Dämmstoffe im WDVS · kfa2wdvs · -
+kfa3schwachwdvs · k3 · Schwachstellen am WDVS · kfa2wdvs · -
+kfa2vhf · k2 · Vorgehängte hinterlüftete Fassade · kfa1 · -
+kfa3ukonvhf · k3 · Unterkonstruktion und Hinterlüftung · kfa2vhf · -
+kfa3bekleidvhf · k3 · Bekleidungsmaterialien im Überblick · kfa2vhf · -
+kfa3befestvhf · k3 · Befestigung und Wärmebrücken · kfa2vhf · -
+kfa2sicht · k2 · Sichtmauerwerk und Verblendschalen · kfa1 · -
+kfa3verblend · k3 · Verblendschale und Luftschicht · kfa2sicht · -
+kfa3anker · k3 · Ankertechnik und Mauerwerksanker · kfa2sicht · kro2mauer
+kfa2pfriegel · k2 · Pfosten-Riegel- und Elementfassaden · kfa1 · -
+kfa3pfsystem · k3 · Pfosten-Riegel-Systeme · kfa2pfriegel · -
+kfa3element · k3 · Elementfassaden: Vorfertigung und Montage · kfa2pfriegel · -
+kfa3dicht · k3 · Dichtungsebenen und Entwässerung · kfa2pfriegel · -
+kfa2sichtbeton · k2 · Sichtbeton als Fassade · kfa1 · kro2beton
+kfa3schaltech · k3 · Schalungstechnik für Sichtbeton · kfa2sichtbeton · -
+kfa3fugenbild · k3 · Fugenbild und Ansichtsplanung · kfa2sichtbeton · -
+kfa2gruen · k2 · Fassadenbegrünung und Solarfassade · kfa1 · -
+kfa3boden · k3 · Bodengebundene und wandgebundene Begrünung · kfa2gruen · -
+kfa3pv · k3 · Photovoltaik und Solarthermie in der Fassade · kfa2gruen · -
+kda1 · k1 · Dach · - · kfe1
+kda2geneigt · k2 · Geneigtes Dach · kda1 · -
+kda3aufbau · k3 · Kaltdach und Warmdach · kda2geneigt · -
+kda3deckung · k3 · Deckungsarten: Ziegel, Schiefer, Metall · kda2geneigt · -
+kda3daemm · k3 · Dämmebenen im Sparrenfeld · kda2geneigt · -
+kda2flach · k2 · Flachdach · kda1 · -
+kda3warmdach · k3 · Warmdach und Umkehrdach · kda2flach · -
+kda3abdicht · k3 · Abdichtungsbahnen und Systeme · kda2flach · -
+kda3gefaelle · k3 · Gefälledämmung und Entwässerungsgefälle · kda2flach · -
+kda2entw · k2 · Dachentwässerung · kda1 · -
+kda3rinne · k3 · Außenliegende Rinne und Fallrohr · kda2entw · -
+kda3innen · k3 · Innenliegende Entwässerung und Gully · kda2entw · -
+kda3notabl · k3 · Notentwässerung und Überflutungsnachweis · kda2entw · -
+kda2gauben · k2 · Gauben, Öffnungen, Durchdringungen · kda1 · -
+kda3gaubenform · k3 · Gaubenformen · kda2gauben · -
+kda3lichtkuppel · k3 · Dachflächenfenster und Lichtkuppeln · kda2gauben · kfe2glas
+kda3durchdring · k3 · Durchdringungen der Dachfläche · kda2gauben · -
+kda2gruen · k2 · Gründach und Retentionsdach · kda1 · -
+kda3extensiv · k3 · Extensive Begrünung · kda2gruen · -
+kda3intensiv · k3 · Intensive Begrünung und Dachgarten · kda2gruen · -
+kda3retention · k3 · Retentionsdach und Regenwassermanagement · kda2gruen · -
+kda2terrasse · k2 · Dachterrassen und begehbare Flächen · kda1 · e2schwelle
+kda3belag · k3 · Belagsaufbau: Plattenlager und Holz · kda2terrasse · -
+kda3abdichtterrasse · k3 · Abdichtung unter der Nutzschicht · kda2terrasse · -
+kda3attika · k3 · Attika und Geländeranschluss · kda2terrasse · kt3gelh
+kfe1 · k1 · Fenster und Verglasung · - · k1+kda1
+kfe2konstr · k2 · Fensterkonstruktionen und Rahmenmaterialien · kfe1 · -
+kfe3rahmen · k3 · Rahmenmaterialien · kfe2konstr · -
+kfe3fluegel · k3 · Flügeltypen und Öffnungsarten · kfe2konstr · k4null+k4schiebe
+kfe3profil · k3 · Profilsysteme und Bautiefe · kfe2konstr · -
+kfe2glas · k2 · Verglasung (Wärme-, Sonnen-, Schallschutz) · kfe1 · -
+kfe3waermeglas · k3 · Wärmeschutzverglasung · kfe2glas · -
+kfe3sonnenglas · k3 · Sonnenschutzverglasung und g-Wert · kfe2glas · -
+kfe3schallglas · k3 · Schallschutzverglasung · kfe2glas · k3schall
+kfe2montage · k2 · Baukörperanschluss und Montage (RAL) · kfe1 · -
+kfe3raldicht · k3 · Die drei Dichtungsebenen der RAL-Montage · kfe2montage · -
+kfe3laibung · k3 · Laibung, Sturz und Brüstung · kfe2montage · k6trocken+kiw3beplank
+kfe3daemmkeil · k3 · Montagelage in der Dämmebene · kfe2montage · -
+kfe2sonnenschutz · k2 · Sonnenschutz und Verschattung · kfe1 · -
+kfe3aussenliegend · k3 · Außenliegender Sonnenschutz · kfe2sonnenschutz · -
+kfe3innenliegend · k3 · Innenliegender und integrierter Sonnenschutz · kfe2sonnenschutz · -
+kfe3steuerung · k3 · Steuerung und Verschattungsautomation · kfe2sonnenschutz · -
+kfe2bank · k2 · Fensterbänke innen/außen · kfe1 · -
+kfe3bankaussen · k3 · Außenfensterbank und Entwässerung · kfe2bank · -
+kfe3bankinnen · k3 · Innenfensterbank als Möbel und Übergang · kfe2bank · -
+kfe3bankmat · k3 · Materialwahl der Fensterbank · kfe2bank · -
+kfe2absturz · k2 · Absturzsicherung am Fenster · kfe1 · -
+kfe3absturzhoehe · k3 · Brüstungshöhen und Sicherungspflicht · kfe2absturz · kt3gelh
+kfe3absturzglas · k3 · Absturzsichernde Verglasung · kfe2absturz · -
+kfe3absturzgel · k3 · Vorgesetzte Geländer und Fenstergitter · kfe2absturz · kt3fuell
+kiw1 · k1 · Innenwände und Trockenbau · - · k1
+kiw2massiv · k2 · Massive Innenwände · kiw1 · -
+kiw3mauerwerk · k3 · Mauerwerk als Innenwand · kiw2massiv · -
+kiw3beton · k3 · Stahlbetoninnenwände · kiw2massiv · -
+kiw3porenbeton · k3 · Porenbeton und Trennwandplatten · kiw2massiv · -
+kiw2trocken · k2 · Trockenbauwände (Ständerwerk, Beplankung) · kiw1 · -
+kiw3staender · k3 · Ständerwerk: Profile und Dimensionierung · kiw2trocken · -
+kiw3beplank · k3 · Beplankung: Gipskarton, Gipsfaser, Zement · kiw2trocken · -
+kiw3daemmung · k3 · Dämmung im Ständerhohlraum · kiw2trocken · -
+kiw3tuerintegr · k3 · Türöffnungen und Aussteifung im Ständerwerk · kiw2trocken · k6trocken
+kiw2vorsatz · k2 · Vorsatzschalen und Installationswände · kiw1 · -
+kiw3vorsatz · k3 · Vorsatzschale vor Massivwand · kiw2vorsatz · -
+kiw3installwand · k3 · Installationswand für Sanitärobjekte · kiw2vorsatz · -
+kiw3schacht · k3 · Schächte und Revisionsöffnungen · kiw2vorsatz · -
+kiw2schall · k2 · Schallschutz im Innenausbau · kiw1 · -
+kiw3trennwand · k3 · Trennwände zwischen Nutzungseinheiten · kiw2schall · -
+kiw3flankierend · k3 · Flankierende Bauteile und Schallnebenwege · kiw2schall · -
+kiw3tuerfuge · k3 · Türen und Fugen als Schallschwäche · kiw2schall · k3schall
+kiw2sonder · k2 · Trennwände in Sonderfunktion · kiw1 · -
+kiw3nasszelle · k3 · Wände im Nassraum · kiw2sonder · -
+kiw3brandwand · k3 · Brandwände und Trennwände · kiw2sonder · k3t30
+kiw3rauch · k3 · Rauchschutzwände in Fluchtwegen · kiw2sonder · k3rs
+kbo1 · k1 · Böden und Beläge · - · -
+kbo2estrich · k2 · Estriche und Bodenaufbauten · kbo1 · -
+kbo3zement · k3 · Zementestrich · kbo2estrich · -
+kbo3calcium · k3 · Calciumsulfatestrich (Anhydrit) · kbo2estrich · -
+kbo3daemm · k3 · Schwimmender Estrich und Trittschall · kbo2estrich · kt4schall
+kbo2fbh · k2 · Fußbodenheizung im Aufbau · kbo1 · -
+kbo3nassfbh · k3 · Nasssystem: Rohre im Estrich · kbo2fbh · -
+kbo3trockenfbh · k3 · Trockensystem im Bestand und Holzbau · kbo2fbh · -
+kbo3fbhbelag · k3 · Belagseignung über Fußbodenheizung · kbo2fbh · -
+kbo2belag · k2 · Beläge · kbo1 · -
+kbo3parkett · k3 · Parkett und Holzböden · kbo2belag · -
+kbo3stein · k3 · Naturstein und Fliese · kbo2belag · -
+kbo3elast · k3 · Elastische und textile Beläge · kbo2belag · -
+kbo3giess · k3 · Gegossene Böden · kbo2belag · -
+kbo2sockel · k2 · Sockel- und Übergangsdetails · kbo1 · -
+kbo3sockelleiste · k3 · Sockelleisten und Wandanschluss · kbo2sockel · k5spiegel
+kbo3belagwechsel · k3 · Übergangsprofile zwischen Belägen · kbo2sockel · -
+kbo3tuerueberg · k3 · Bodenübergang an der Tür · kbo2sockel · k3schwelle+k5maul
+kbo2doppel · k2 · Doppel- und Hohlraumböden · kbo1 · -
+kbo3doppelboden · k3 · Doppelboden: Aufbau und Zugänglichkeit · kbo2doppel · -
+kbo3hohlraum · k3 · Hohlraumboden: Nassestrich mit Kanälen · kbo2doppel · -
+kbo3doppelwahl · k3 · Systementscheidung Doppel- vs. Hohlraumboden · kbo2doppel · -
+kde1 · k1 · Deckenbekleidungen und Akustik · - · -
+kde2unterdecke · k2 · Unterdecken und Abhangsysteme · kde1 · -
+kde3gipskarton · k3 · Gipskarton-Unterdecke · kde2unterdecke · -
+kde3metall · k3 · Metall-Rasterdecke · kde2unterdecke · -
+kde3akustikplatte · k3 · Mineralfaser- und Akustikplatten · kde2unterdecke · -
+kde2akustik · k2 · Raumakustik-Maßnahmen · kde1 · -
+kde3nachhall · k3 · Nachhallzeit als Planungsziel · kde2akustik · -
+kde3absorber · k3 · Absorber: Platten, Baffles, Wolken · kde2akustik · -
+kde3akustikputz · k3 · Akustikputz und -spachtel · kde2akustik · -
+kde2sicht · k2 · Sichtdecken · kde1 · -
+kde3sichtbeton · k3 · Sichtbetondecke · kde2sicht · -
+kde3sichtholz · k3 · Sichtholzdecke: Balken- und Massivholz · kde2sicht · -
+kde3akustiksicht · k3 · Akustisch wirksame Sichtdecken · kde2sicht · -
+kde2technik · k2 · Integration von Technik in die Decke · kde1 · -
+kde3integration · k3 · Leuchten, Sprinkler und Lüftung in der Decke · kde2technik · -
+kde3revision · k3 · Revisionsöffnungen und Zugänglichkeit · kde2technik · -
+kde3kuehldecke · k3 · Kühl- und Heizdecken · kde2technik · -
+kab1 · k1 · Abdichtung und Bauphysik im Detail · - · -
+kab2luft · k2 · Luftdichtheit und Dampfdiffusion · kab1 · -
+kab3luftdicht · k3 · Die luftdichte Ebene im Bauteilaufbau · kab2luft · -
+kab3dampfbremse · k3 · Dampfbremse und Dampfsperre · kab2luft · -
+kab3blowerdoor · k3 · Blower-Door-Test und Leckageortung · kab2luft · -
+kab2waermebruecke · k2 · Wärmebrücken · kab1 · -
+kab3konstruktiv · k3 · Konstruktive Wärmebrücken · kab2waermebruecke · -
+kab3geometrisch · k3 · Geometrische Wärmebrücken · kab2waermebruecke · -
+kab3vermeidung · k3 · Wärmebrückenfreies Konstruieren · kab2waermebruecke · -
+kab2schlagregen · k2 · Schlagregen und Spritzwasserschutz · kab1 · -
+kab3fassade · k3 · Schlagregenschutz an der Fassade · kab2schlagregen · -
+kab3fenster · k3 · Fenster- und Türanschluss an die Abdichtung · kab2schlagregen · k4null
+kab3sockel · k3 · Spritzwasserzone am Sockel · kab2schlagregen · -
+kab2fuge · k2 · Bauwerksfugen und Bewegung · kab1 · -
+kab3bewegungsfuge · k3 · Bewegungsfugen im Hochbau · kab2fuge · -
+kab3abdichtfuge · k3 · Abdichten von Fugen: Fugenband und Fugenmasse · kab2fuge · -
+kab3anschlussfuge · k3 · Anschlussfugen an Bauteilübergängen · kab2fuge · -
+kab2nassraum · k2 · Feuchteschutz im Bad und Nassraum · kab1 · -
+kab3verbund · k3 · Verbundabdichtung unter Fliesenbelag · kab2nassraum · kbo3stein
+kab3ablauf · k3 · Bodenablauf und Gefälle · kab2nassraum · k4null
+kab3feuchtraum · k3 · Feuchträume außerhalb des Bads · kab2nassraum · -
+ktg1 · k1 · Technische Gebäudeausrüstung · - · -
+ktg2heiz · k2 · Heizung und Kühlung · ktg1 · -
+ktg3erzeug · k3 · Wärmeerzeugung: System und Raumbedarf · ktg2heiz · -
+ktg3verteil · k3 · Wärmeverteilung: Leitungsführung und Höhen · ktg2heiz · -
+ktg3flaeche · k3 · Flächenheizung und Flächenkühlung · ktg2heiz · -
+ktg3kuehl · k3 · Kühlung: Bauteilaktivierung und Klimageräte · ktg2heiz · -
+ktg2lueft · k2 · Lüftung: Geräte, Führung, Auslässe · ktg1 · -
+ktg3anlagentyp · k3 · Lüftungsanlagen: zentral, dezentral, hybrid · ktg2lueft · -
+ktg3fuehr · k3 · Luftführung und Schachtbedarf · ktg2lueft · ktg3schacht+kt3aufzug
+ktg3auslass · k3 · Auslässe und ihr Platz im Deckenraster · ktg2lueft · -
+ktg3fassade · k3 · Außenluftdurchlässe an der Fassade · ktg2lueft · -
+ktg2elektro · k2 · Elektro: Installationszonen und Verteiler · ktg1 · -
+ktg3zonen · k3 · Installationszonen im Grundriss · ktg2elektro · -
+ktg3verteiler · k3 · Verteiler und Technikräume · ktg2elektro · -
+ktg3pv · k3 · Photovoltaik und Ladeinfrastruktur · ktg2elektro · -
+ktg2sanitaer · k2 · Sanitär: Schächte, Vorwände, Entwässerung · ktg1 · -
+ktg3schacht · k3 · Sanitärschächte: Dimensionierung und Lage · ktg2sanitaer · -
+ktg3vorwand · k3 · Vorwandinstallation und Wandaufbau · ktg2sanitaer · -
+ktg3entwaesser · k3 · Entwässerung: Gefälle und Rückstau · ktg2sanitaer · -
+ktg3trinkwasser · k3 · Trinkwasserhygiene und Leitungslänge · ktg2sanitaer · -
+ktg2automation · k2 · Gebäudeautomation und Smart Building · ktg1 · -
+ktg3bus · k3 · Bussysteme und Verkabelung im Rohbau · ktg2automation · -
+ktg3schnittstelle · k3 · Schnittstelle zu den TGA Gewerken · ktg2automation · -
+ktg3bedien · k3 · Bedienstellen und ihre Platzierung im Raum · ktg2automation · k4drueck
+kma1 · k1 · Material- und Produktkunde · - · -
+kma2holz · k2 · Holz und Holzwerkstoffe · kma1 · -
+kma3vollholz · k3 · Vollholz und Holzarten im Ausbau · kma2holz · kt3holz
+kma3werkstoff · k3 · Holzwerkstoffe: Platten und Verbundstoffe · kma2holz · -
+kma2beton · k2 · Beton und Betonoberflächen · kma1 · -
+kma3sichtbeton · k3 · Sichtbeton: Schalung und Ausführungsklassen · kma2beton · -
+kma3fertigteil · k3 · Betonfertigteile, Oberflächen und Fugen · kma2beton · kt3beton
+kma2naturstein · k2 · Naturstein und Keramik · kma1 · -
+kma3gestein · k3 · Natursteinarten und ihre Eignung · kma2naturstein · x4bogen
+kma3keramik · k3 · Keramik und Feinsteinzeug · kma2naturstein · -
+kma2metall · k2 · Metalle im Ausbau · kma1 · -
+kma3stahl · k3 · Stahl, Edelstahl und ihre Oberflächen · kma2metall · kt3stahl
+kma3ne · k3 · NE-Metalle: Aluminium, Messing, Kupfer, Zink · kma2metall · e3druecker
+kma2glas · k2 · Glas · kma1 · -
+kma3glasart · k3 · Glasarten und ihre Eigenschaften · kma2glas · -
+kma3glasoberfl · k3 · Glasveredelung und Bedruckung · kma2glas · -
+kma2putz · k2 · Putze, Farben, Beschichtungen · kma1 · -
+kma3putz · k3 · Putzsysteme innen und außen · kma2putz · -
+kma3farbe · k3 · Anstriche und Beschichtungen · kma2putz · x4farbe
+kma2kunststoff · k2 · Kunststoffe und Membranen · kma1 · -
+kma3kunststoff · k3 · Kunststoffe im Bauteilaufbau · kma2kunststoff · -
+kma3membran · k3 · Membranen und Foliensysteme · kma2kunststoff · -
+kma2lehm · k2 · Lehm und alternative Baustoffe · kma1 · -
+kma3lehmbau · k3 · Lehmbaustoffe und ihre Anwendung · kma2lehm · -
+kma3alternativ · k3 · Weitere alternative Baustoffe · kma2lehm · -
+kbe1 · k1 · Bauen im Bestand · - · k2b+x1
+kbe2aufnahme · k2 · Bestandsaufnahme und Schadensbilder · kbe1 · -
+kbe3aufmass · k3 · Aufmaß, Bauteilöffnung und Bestandspläne · kbe2aufnahme · -
+kbe3schad · k3 · Schadensbilder lesen: Ursache vor Symptom · kbe2aufnahme · -
+kbe3schadstoff · k3 · Schadstoffe im Bestand erkennen · kbe2aufnahme · -
+kbe3zustand · k3 · Bauzustandsbewertung und Beweissicherung · kbe2aufnahme · -
+kbe2ertuecht · k2 · Ertüchtigung: Statik, Brandschutz, Energie · kbe1 · -
+kbe3statik · k3 · Statisch ertüchtigen statt ersetzen · kbe2ertuecht · -
+kbe3brand · k3 · Brandschutzertüchtigung im laufenden Betrieb · kbe2ertuecht · k3t30
+kbe3energ · k3 · Energetische Ertüchtigung und ihre Grenzen · kbe2ertuecht · -
+kbe3install · k3 · Haustechnik im Bestand nachrüsten · kbe2ertuecht · -
+kbe2denkmal · k2 · Denkmalpflege: Prinzipien und Praxis · kbe1 · -
+kbe3prinz · k3 · Substanzschutz und Reversibilität als Prinzip · kbe2denkmal · k3ertuecht
+kbe3ansatz · k3 · Rekonstruktion, Ergänzung oder Kontrast · kbe2denkmal · -
+kbe3verfahren · k3 · Genehmigungsverfahren und Denkmalbehörde · kbe2denkmal · -
+kbe3material · k3 · Historische Materialien und Handwerk · kbe2denkmal · k3hist
+kbe2umbau · k2 · Anbauen, Aufstocken, Umnutzen · kbe1 · -
+kbe3anbau · k3 · Anbau: Fügung an den Bestand · kbe2umbau · -
+kbe3aufstock · k3 · Aufstockung: Lastreserven und Leichtbau · kbe2umbau · -
+kbe3umnutz · k3 · Umnutzung: neue Funktion, altes Tragwerk · kbe2umbau · -
+kbe3ruecksb · k3 · Rückbau und Bauteilrecycling · kbe2umbau · -
+kau1 · k1 · Außenanlagen und Übergänge · - · k4null+kt3rampe
+kau2belag · k2 · Beläge und Entwässerung außen · kau1 · -
+kau3pflaster · k3 · Pflasterbeläge: Aufbau und Fugenbild · kau2belag · -
+kau3wasser · k3 · Wassergebundene und sickerfähige Beläge · kau2belag · -
+kau3entw · k3 · Entwässerung: Gefälle, Rinnen, Versickerung · kau2belag · -
+kau3terrasse · k3 · Terrassenbeläge und Plattenlager · kau2belag · -
+kau2einfried · k2 · Einfriedungen und Stützmauern · kau1 · -
+kau3zaun · k3 · Zäune und Hecken als Grundstücksgrenze · kau2einfried · -
+kau3mauer · k3 · Stützmauern: Erddruck und Material · kau2einfried · -
+kau3sockelmauer · k3 · Sockelmauerwerk und Spritzwasserschutz · kau2einfried · -
+kau3tor · k3 · Einfahrtstore und Zugangssituationen · kau2einfried · -
+kau2uebergang · k2 · Der Übergang Gebäude/Gelände · kau1 · x3platz
+kau3sockelanschl · k3 · Sockelanschluss und Spritzwasserschutz · kau2uebergang · k4null
+kau3gefaelle · k3 · Gefälle vom Gebäude weg als Grundregel · kau2uebergang · -
+kau3vordach · k3 · Vordach und Rücksprung als Wetterschutz · kau2uebergang · -
+kau2barriere · k2 · Barrierefreie Außenerschließung · kau1 · -
+kau3rampenweg · k3 · Rampen und Wege im Freien · kau2barriere · kt3rampe
+kau3stellplatz · k3 · Barrierefreie Stellplätze und Absenkung · kau2barriere · -
+kau3leitsystem · k3 · Taktile Leitsysteme im Außenraum · kau2barriere · -
+erp1 · e1 · Raum und Proportion · - · -
+erp2mass · e2 · Raumproportionen und Maßsysteme · erp1 · -
+erp3verhaeltnis · e3 · Seitenverhältnisse und Raumcharakter · erp2mass · -
+erp3modulor · e3 · Maßsysteme: vom Goldenen Schnitt zum Modulor · erp2mass · -
+erp3achsmass · e3 · Konstruktionsraster und Achsmaß · erp2mass · -
+erp3wahrnehm · e3 · Proportion als Wahrnehmungssache · erp2mass · -
+erp2hoehe · e2 · Raumhöhe als Entwurfsmittel · erp1 · -
+erp3standard · e3 · Normalhöhe und ihre Wirkung · erp2hoehe · -
+erp3hochraum · e3 · Hohe Räume: Geste und Konsequenz · erp2hoehe · e3raumhoch
+erp3niedrig · e3 · Niedrige Zonen als Kompression · erp2hoehe · esw3sockel
+erp3schnitt · e3 · Höhenstaffelung im Schnitt · erp2hoehe · et2skulptur
+erp2offen · e2 · Offenheit und Fassung · erp1 · -
+erp3fassung · e3 · Der gefasste Raum · erp2offen · -
+erp3fliess · e3 · Der fließende Raum · erp2offen · e2artik
+erp3zonier · e3 · Zonierung ohne Wand · erp2offen · eer3nutzflur
+erp3massstab · e3 · Maßstab im offenen Raum · erp2offen · et2ort
+eli1 · e1 · Licht · - · -
+eli2tag · e2 · Tageslichtführung · eli1 · -
+eli3seite · e3 · Einseitiges Licht und Raumtiefe · eli2tag · -
+eli3zwei · e3 · Licht von zwei Seiten und Eckfenster · eli2tag · -
+eli3oben · e3 · Oberlicht und Zenitlicht · eli2tag · et2licht
+eli3lenk · e3 · Lichtlenkung durch Material und Farbe · eli2tag · -
+eli3jahreszeit · e3 · Lichteinfall im Jahresverlauf · eli2tag · -
+eli2verh · e2 · Öffnung und Wand: das Verhältnis · eli1 · -
+eli3anteil · e3 · Öffnungsanteil und Fassadencharakter · eli2verh · -
+eli3format · e3 · Fensterformat: liegend, stehend, raumhoch · eli2verh · -
+eli3wandanteil · e3 · Die geschlossene Wand als Gegenpart · eli2verh · erp3fassung
+eli3privat · e3 · Öffnung und Einsichtnahme · eli2verh · esw3transparenz
+eli2kunst · e2 · Kunstlicht als Architektur · eli1 · -
+eli3grundlicht · e3 · Grundlicht und Akzentlicht · eli2kunst · -
+eli3indirekt · e3 · Indirektes Licht · eli2kunst · -
+eli3fassnacht · e3 · Fassaden und Wege bei Nacht · eli2kunst · eer2ankommen
+eer1 · e1 · Erschließung und Bewegung · - · e1+et1
+eer2ankommen · e2 · Ankommen und Adressbildung · eer1 · -
+eer3vorplatz · e3 · Vorplatz und Ankunftszone · eer2ankommen · x3tor
+eer3lesbar · e3 · Die Lesbarkeit des Eingangs · eer2ankommen · e3portal
+eer3adresse · e3 · Adressbildung im Geschosswohnungsbau · eer2ankommen · -
+eer3barriere · e3 · Ankommen ohne Hindernis · eer2ankommen · kt3rampe+esw1
+eer2weg · e2 · Wegeführung, Sequenz, Promenade · eer1 · -
+eer3sequenz · e3 · Raumfolge als Sequenz · eer2weg · e2folge
+eer3umweg · e3 · Der bewusste Umweg · eer2weg · et2prom
+eer3blick · e3 · Blickachsen entlang des Wegs · eer2weg · x3platz
+eer3tempo · e3 · Wegbreite und Bewegungstempo · eer2weg · kt3nutz
+eer2flure · e2 · Flure, die keine Flure sind · eer1 · -
+eer3verteiler · e3 · Der reine Verteilerflur · eer2flure · -
+eer3nutzflur · e3 · Erschließung mit Zusatznutzen · eer2flure · erp3zonier
+eer3flurlicht · e3 · Licht im Flur · eer2flure · eli3oben
+eer3galerie · e3 · Der Flur als Galerie · eer2flure · et2ort
+esw1 · e1 · Schwelle und Übergang · - · e2schwelle+x3tor
+esw2innen · e2 · Innen und außen · esw1 · -
+esw3abrupt · e3 · Der abrupte Übergang · esw2innen · -
+esw3gestuft · e3 · Der gestufte Übergang · esw2innen · e3schwellenr
+esw3fliess · e3 · Der fließende Übergang · esw2innen · k4null
+esw3klima · e3 · Klimapuffer als Übergangszone · esw2innen · -
+esw2oeffprivat · e2 · Öffentlich und privat · esw1 · -
+esw3vorgarten · e3 · Der Vorgarten als weiche Grenze · esw2oeffprivat · -
+esw3sockel · e3 · Sockel und Niveauwechsel als Grenze · esw2oeffprivat · erp3niedrig
+esw3transparenz · e3 · Transparenz als Kontrolle der Öffentlichkeit · esw2oeffprivat · eli3privat
+esw3gemeinschaft · e3 · Gemeinschaftliche Schwellen im Wohnungsbau · esw2oeffprivat · kt3raum
+esw2raum · e2 · Schwellenräume · esw1 · -
+esw3windfang · e3 · Windfang und Klimaschleuse · esw2raum · e3schwellenr
+esw3loggia · e3 · Loggia und Laube · esw2raum · -
+esw3innenhof · e3 · Der Innenhof als introvertierte Schwelle · esw2raum · -
+esw3temp · e3 · Saisonale Schwellenräume · esw2raum · -
+ema1 · e1 · Material und Fügung · - · -
+ema2mat · e2 · Materialität und Alterung · ema1 · -
+ema3patina · e3 · Patina als Entwurfsabsicht · ema2mat · -
+ema3haptik · e3 · Haptik und Sinneserfahrung · ema2mat · e3druecker
+ema3lebensdauer · e3 · Materialalterung und Lebenszyklus · ema2mat · -
+ema3rohbau · e3 · Rohe vs. veredelte Oberfläche · ema2mat · -
+ema2tekt · e2 · Tektonik: Konstruktion zeigen · ema1 · -
+ema3lastfluss · e3 · Lastfluss sichtbar machen · ema2tekt · -
+ema3fuegung · e3 · Die Fuge als Aussage · ema2tekt · k6kante
+ema3schichten · e3 · Schichtenaufbau zeigen oder verbergen · ema2tekt · -
+ema3massiv · e3 · Massivbau vs. Skelettbau · ema2tekt · -
+ema2detail · e2 · Das Detail als Haltung · ema1 · -
+ema3masssystem · e3 · Das Detail als Maßsystem · ema2detail · -
+ema3anschluss · e3 · Der Anschluss als Entwurfsmoment · ema2detail · k6kante
+ema3reduktion · e3 · Reduktion und das Weglassen · ema2detail · -
+ema3handwerk · e3 · Handwerkliche Präzision · ema2detail · -
+ema2farbe · e2 · Farbe · ema1 · -
+ema3materialfarbe · e3 · Materialfarbe vs. Anstrich · ema2farbe · -
+ema3kontrast · e3 · Farbe als Kontrast und Rahmung · ema2farbe · x4farbe
+ema3licht · e3 · Farbe im Licht über den Tag · ema2farbe · -
+ema3palette · e3 · Die kuratierte Farbpalette · ema2farbe · x4farbe
+ety1 · e1 · Typologie und Programm · - · -
+ety2wohn · e2 · Wohnungsbau: Typen und Grundriss · ety1 · -
+ety3grundriss · e3 · Grundrisstypen: Zeile, Punkt, Hof · ety2wohn · x2typ
+ety3zimmer · e3 · Zimmerlogik vs. offene Wohnform · ety2wohn · -
+ety3erschl · e3 · Erschließungstypen im Wohnungsbau · ety2wohn · -
+ety3flex · e3 · Flexible und teilbare Grundrisse · ety2wohn · eor3flexibel
+ety3aussenraum · e3 · Private Freiräume: Loggia, Garten · ety2wohn · -
+ety2programm · e2 · Arbeiten, Bildung, Kultur · ety1 · -
+ety3buero · e3 · Bürotypologien: Zelle bis Open Space · ety2programm · -
+ety3bildung · e3 · Schulbau: Cluster statt Flur · ety2programm · -
+ety3kultur · e3 · Kulturbauten: Bühne und Foyer · ety2programm · -
+ety3gesundheit · e3 · Gesundheitsbau: Funktion und Atmosphäre · ety2programm · -
+ety2hybrid · e2 · Hybride und Umnutzbarkeit · ety1 · -
+ety3mischnutz · e3 · Mischnutzung im selben Haus · ety2hybrid · -
+ety3umnutz · e3 · Umnutzbarkeit als Entwurfsprinzip · ety2hybrid · eor3sekundaer
+ety3strukturoffen · e3 · Strukturelle Offenheit · ety2hybrid · eor3primaer
+eko1 · e1 · Kontext und Ort · - · x1
+eko2einfuegen · e2 · Einfügen, Absetzen, Weiterbauen · eko1 · -
+eko3kontinuitaet · e3 · Weiterbauen als Entwurfshaltung · eko2einfuegen · x2staedt
+eko3kontrast · e3 · Bewusster Kontrast zum Bestand · eko2einfuegen · -
+eko3massstab · e3 · Maßstabssprung und Nachbarschaft · eko2einfuegen · -
+eko3materialbezug · e3 · Materialbezug zur Umgebung · eko2einfuegen · -
+eko3fassadenlinie · e3 · Baulinie, Rücksprung, Vorgarten · eko2einfuegen · -
+eko2koernung · e2 · Städtebauliche Figur und Körnung · eko1 · -
+eko3parzelle · e3 · Parzellenlogik und Blockrand · eko2koernung · x2staedt
+eko3dichte · e3 · Dichte, Höhe, Körnung im Vergleich · eko2koernung · -
+eko3fuge · e3 · Der Straßenraum als räumliche Fuge · eko2koernung · -
+eko3dachlandschaft · e3 · Dachlandschaft und Silhouette · eko2koernung · -
+eko2landschaft · e2 · Landschaft und Topographie · eko1 · -
+eko3topografie · e3 · Bauen im Hang: Sockel, Terrasse · eko2landschaft · -
+eko3ausblick · e3 · Ausblick als Entwurfsparameter · eko2landschaft · -
+eko3freiraum · e3 · Freiraum zwischen den Häusern · eko2landschaft · x3platz
+eko3wasser · e3 · Wasser und Topographie · eko2landschaft · -
+eor1 · e1 · Ordnung und Struktur · - · -
+eor2raster · e2 · Raster, Achse, Reihung · eor1 · -
+eor3konstrraster · e3 · Konstruktions- und Entwurfsraster · eor2raster · -
+eor3achse · e3 · Die Achse als Ordnungsmittel · eor2raster · -
+eor3reihung · e3 · Reihung und Rhythmus · eor2raster · -
+eor3modul · e3 · Modulares Bauen und Wiederholung · eor2raster · -
+eor2symmetrie · e2 · Symmetrie und ihre Brüche · eor1 · -
+eor3achsensymm · e3 · Achsensymmetrie und Repräsentation · eor2symmetrie · -
+eor3bruch · e3 · Der bewusste Bruch der Symmetrie · eor2symmetrie · -
+eor3asymm · e3 · Asymmetrische Komposition · eor2symmetrie · -
+eor2struktur · e2 · Struktur und Freiheit · eor1 · -
+eor3primaer · e3 · Primärstruktur als Ordnungsgeber · eor2struktur · ety3strukturoffen
+eor3sekundaer · e3 · Sekundärstruktur und Ausbaufreiheit · eor2struktur · ety3umnutz
+eor3traeger · e3 · Das tragende Raster als Freiheit · eor2struktur · -
+eor3flexibel · e3 · Strukturelle Reserve für Umnutzung · eor2struktur · ety3flex
+xws1 · x1 · Weißenhofsiedlung, Stuttgart · - · -
+xha1 · x1 · Siedlung Halen, Bern · - · -
+xbs1 · x1 · Borneo-Sporenburg, Amsterdam · - · -
+xun1 · x1 · Unité d'habitation, Marseille · - · -
+xga1 · x1 · Gallaratese, Mailand · - · -
+xwr1 · x1 · Wohnregal und Baugruppenprojekte Berlin · - · -
+xnn1 · x1 · Neue Nationalgalerie, Berlin · - · -
+xtv1 · x1 · Therme Vals · - · -
+xkl1 · x1 · Kolumba, Köln · - · -
+xph1 · x1 · Philharmonie, Berlin · - · -
+xre1 · x1 · Reformarchitektur und Gartenstadt · - · x1
+xre2howard · x2 · Die englische Gartenstadtidee · xre1 · -
+xre2werkbund · x2 · Deutscher Werkbund und Formreform · xre1 · -
+xre2heimat · x2 · Heimatschutzstil und regionales Bauen · xre1 · -
+xre2siedlung · x2 · Genossenschaftlicher Wohnungsbau vor 1914 · xre1 · x2staedt
+xre2kritik · x2 · Kritik an der Mietskaserne · xre1 · -
+xkm1 · x1 · Klassische Moderne · - · xws1+xun1
+xkm2neuesbauen · x2 · Prinzipien des Neuen Bauens · xkm1 · -
+xkm2bauhaus · x2 · Bauhaus als Schule und Netzwerk · xkm1 · -
+xkm2existenz · x2 · Existenzminimum und serielles Bauen · xkm1 · -
+xkm2ciam · x2 · CIAM und die funktionale Stadt · xkm1 · -
+xkm2ende · x2 · Bruch 1933 und Weiterleben im Exil · xkm1 · -
+xnb1 · x1 · Nachkriegsmoderne und Brutalismus · - · xnn1+xph1+xga1
+xnb2wiederaufbau · x2 · Wiederaufbau und Wohnungsnot · xnb1 · -
+xnb2brutalismus · x2 · Brutalismus und Sichtbeton · xnb1 · -
+xnb2grossstruktur · x2 · Megastrukturen und Großformen · xnb1 · -
+xnb2organisch · x2 · Organische Gegenentwürfe · xnb1 · -
+xnb2erbe · x2 · Umgang mit dem Betonerbe heute · xnb1 · -
+xkr1 · x1 · Kritischer Regionalismus · - · xtv1+xkl1
+xkr2frampton · x2 · Kenneth Framptons Theorie · xkr1 · -
+xkr2material · x2 · Lokales Material als Prinzip · xkr1 · -
+xkr2klima · x2 · Klima und Topografie als Entwurfsgrundlage · xkr1 · -
+xkr2vertreter · x2 · Wichtige Vertreter und Positionen · xkr1 · -
+xkr2kritik · x2 · Grenzen und Kritik · xkr1 · -
+xzp1 · x1 · Zeitgenössische Positionen · - · -
+xzp2niemals · x2 · Umbauen statt abreißen · xzp1 · -
+xzp2klima · x2 · Klimagerechtes und ressourcenschonendes Bauen · xzp1 · -
+xzp2einfach · x2 · Einfaches und robustes Bauen · xzp1 · -
+xzp2beteilig · x2 · Partizipation und Baugemeinschaften · xzp1 · -
+xzp2sergison · x2 · Die gewöhnliche Stadt als Vorbild · xzp1 · -
+pab1 · p1 · Projektablauf und Leistungsbild · - · -
+pab2phasen · p2 · Phasenmodelle im Vergleich · pab1 · -
+pab3grundlagen · p3 · Grundlagenermittlung und Bedarfsplanung · pab2phasen · -
+pab3vorentwurf · p3 · Vorplanung und Entwurfsplanung · pab2phasen · -
+pab3genehmigung · p3 · Genehmigungsplanung · pab2phasen · pba2verfahren
+pab3ausfuehrung · p3 · Ausführungsplanung und Vergabevorbereitung · pab2phasen · -
+pab3bauueberw · p3 · Bauüberwachung und Objektbetreuung · pab2phasen · -
+pab2org · p2 · Projektorganisation und Rollen · pab1 · -
+pab3objektpl · p3 · Objektplaner und Generalplaner · pab2org · -
+pab3fachpl · p3 · Fachplaner und Sonderfachleute · pab2org · -
+pab3pm · p3 · Projektsteuerung und Projektmanagement · pab2org · -
+pab3bauherr · p3 · Bauherr und Bauherrenvertretung · pab2org · -
+pab2termin · p2 · Termin- und Ablaufplanung · pab1 · pko3steuerung
+pab3terminplan · p3 · Terminplanarten und Steuerungsebenen · pab2termin · -
+pab3ablauf · p3 · Ablauf- und Kapazitätsplanung im Bauablauf · pab2termin · -
+pab3verzug · p3 · Verzug, Bauzeitverlängerung und Pönale · pab2termin · -
+pab2digital · p2 · Digitale Methoden · pab1 · -
+pab3bim · p3 · BIM-Abwicklungsplan (BAP) · pab2digital · -
+pab3aia · p3 · Auftraggeber-Informationsanforderungen (AIA) · pab2digital · -
+pab3bimrolle · p3 · BIM-Koordination: Rollen im Projekt · pab2digital · -
+pho1 · p1 · Honorar und Vertrag · - · -
+pho2honorar · p2 · Honorarermittlung · pho1 · pko2gliederung
+pho3honorarzone · p3 · Honorarzonen und Bewertungskriterien · pho2honorar · -
+pho3honorarmodelle · p3 · Vergütungsmodelle: Pauschal, Zeit, Prozent · pho2honorar · -
+pho3nebenkosten · p3 · Nebenkosten und Erstattungen · pho2honorar · -
+pho3honorarstreit · p3 · Honorarstreitigkeiten und Nachweispflicht · pho2honorar · -
+pho2vertrag · p2 · Architektenvertrag, Haftung und Urheberrecht · pho1 · -
+pho3vertragstyp · p3 · Vertragstypen und Vertragsschluss · pho2vertrag · -
+pho3leistungsbild · p3 · Leistungsbild und Leistungsumfang im Vertrag · pho2vertrag · -
+pho3haftung · p3 · Planerhaftung und Mängelhaftung · pho2vertrag · -
+pho3urheber · p3 · Urheberrecht am Bauwerk und Änderungsbefugnis · pho2vertrag · -
+pho2haftpfl · p2 · Berufshaftpflicht und Deckung · pho1 · -
+pho3deckung · p3 · Deckungssummen und Versicherungsumfang · pho2haftpfl · -
+pho3schadenfall · p3 · Schadenfall und Anzeigepflichten · pho2haftpfl · -
+pho3nachhaft · p3 · Nachhaftung nach Vertragsende · pho2haftpfl · -
+pho2wettb · p2 · Wettbewerb und Vergabe für Planungsleistungen · pho1 · -
+pho3wettbverfahren · p3 · Wettbewerbsverfahren und Auslobung · pho2wettb · -
+pho3preisgericht · p3 · Preisgericht und Beurteilung · pho2wettb · -
+pho3realisierung · p3 · Realisierungsfolge nach Wettbewerbsgewinn · pho2wettb · -
+pba1 · p1 · Baurecht und Genehmigung · - · -
+pba2planungsr · p2 · Bauplanungsrecht · pba1 · -
+pba3flaechenwid · p3 · Flächenwidmung und Nutzungsplanung · pba2planungsr · -
+pba3bebauungspl · p3 · Bebauungsplan und Festsetzungen · pba2planungsr · -
+pba3innenaussen · p3 · Bauen im Innen- und Außenbereich · pba2planungsr · -
+pba2ordnungsr · p2 · Bauordnungsrecht · pba1 · -
+pba3gebklasse · p3 · Gebäudeklassen und Anwendungsbereich · pba2ordnungsr · -
+pba3brandabschn · p3 · Brandschutzanforderungen der Bauordnung · pba2ordnungsr · k3t30+k3rs+kt2not
+pba3stellplatz · p3 · Stellplatzpflicht und Erschließung · pba2ordnungsr · -
+pba2verfahren · p2 · Genehmigungsverfahren und Bauvorlagen · pba1 · pab3genehmigung
+pba3verfahrensart · p3 · Verfahrensarten: frei, vereinfacht, voll · pba2verfahren · -
+pba3bauvorlagen · p3 · Bauvorlagen und Antragsunterlagen · pba2verfahren · -
+pba3baubeginn · p3 · Baubeginn und Fertigstellungsanzeigen · pba2verfahren · -
+pba3nachbarbet · p3 · Nachbarbeteiligung im Verfahren · pba2verfahren · -
+pba2abstand · p2 · Abstandsflächen und Nachbarrecht · pba1 · -
+pba3abstandsflberech · p3 · Berechnung der Abstandsfläche · pba2abstand · -
+pba3grenzbebauung · p3 · Grenzbebauung und Ausnahmen · pba2abstand · -
+pba3nachbarzust · p3 · Nachbarzustimmung und Nachbarrechtsbehelfe · pba2abstand · -
+pba2sonder · p2 · Sonderbauten und Abweichungen · pba1 · -
+pba3sonderbautypen · p3 · Typen von Sonderbauten · pba2sonder · -
+pba3abweichung · p3 · Abweichungen, Ausnahmen und Befreiungen · pba2sonder · -
+pba3brandschutzkonz · p3 · Brandschutzkonzept bei Sonderbauten · pba2sonder · k3t30
+pko1 · p1 · Kosten · - · -
+pko2gliederung · p2 · Kostenplanung und Gliederung · pko1 · pho2honorar
+pko3kostengruppen · p3 · Kostengruppen und Gliederungstiefe · pko2gliederung · -
+pko3systematikvgl · p3 · Nationale Gliederungssysteme im Vergleich · pko2gliederung · -
+pko3kostenrahmen · p3 · Kostenrahmen und Budgetstruktur · pko2gliederung · -
+pko2ermittlung · p2 · Kostenschätzung, -berechnung und -steuerung · pko1 · -
+pko3schaetzung · p3 · Kostenschätzung in der Vorplanung · pko2ermittlung · -
+pko3berechnung · p3 · Kostenberechnung in der Entwurfsplanung · pko2ermittlung · -
+pko3anschlag · p3 · Kostenanschlag und Kostenfeststellung · pko2ermittlung · -
+pko3steuerung · p3 · Kostensteuerung und Abweichungsmanagement · pko2ermittlung · pab2termin
+pko2benchmark · p2 · Benchmarks und Kostenkennwerte · pko1 · -
+pko3kennwerte · p3 · Kostenkennwerte je Flächen und Rauminhalt · pko2benchmark · -
+pko3indexierung · p3 · Baupreisindex und regionale Anpassung · pko2benchmark · -
+pko3vergleichbark · p3 · Vergleichbarkeit von Kostenkennwerten · pko2benchmark · -
+pko2lebenszyklus · p2 · Lebenszykluskosten · pko1 · -
+pko3investnutzung · p3 · Investitions- und Nutzungskosten · pko2lebenszyklus · -
+pko3nutzungskost · p3 · Nutzungskosten und Betriebskostensystematik · pko2lebenszyklus · -
+pko3lebenszyklusanalyse · p3 · Lebenszyklusanalyse als Entscheidungshilfe · pko2lebenszyklus · -
+pav1 · p1 · Ausschreibung und Vergabe · - · pbl1
+pav2lb · p2 · Leistungsbeschreibung und LV · pav1 · -
+pav3funk · p3 · Funktional oder detailliert ausschreiben · pav2lb · -
+pav3pos · p3 · Positionen, Mengen und Vordersätze · pav2lb · -
+pav3gaa · p3 · Gewerkeaufteilung und Vergabeeinheiten · pav2lb · -
+pav3lv30 · p3 · Sonderfall Brandschutztüren im LV · pav2lb · k3kombi+k4t30z
+pav2vertrag · p2 · Bauvertragsordnungen · pav1 · -
+pav3preis · p3 · Vergütungsarten im Vergleich · pav2vertrag · -
+pav3frist · p3 · Fristen, Verzug und Behinderung · pav2vertrag · -
+pav3zahlung · p3 · Zahlungsplan und Sicherheiten · pav2vertrag · -
+pav3kuend · p3 · Kündigung und vorzeitige Vertragsbeendigung · pav2vertrag · -
+pav2verg · p2 · Öffentliche Vergabe · pav1 · -
+pav3verfahren · p3 · Vergabeverfahren im Überblick · pav2verg · -
+pav3eign · p3 · Eignung und Zuschlagskriterien · pav2verg · -
+pav3schwell · p3 · Schwellenwerte und Losgrenzen · pav2verg · -
+pav3nachpr · p3 · Nachprüfung und Vergaberechtsschutz · pav2verg · -
+pav2nachtrag · p2 · Nachtragsmanagement · pav1 · -
+pav3ursache · p3 · Typische Nachtragsursachen · pav2nachtrag · -
+pav3anspr · p3 · Anspruch dem Grunde und der Höhe nach · pav2nachtrag · -
+pav3preisfort · p3 · Preisfortschreibung bei Änderungen · pav2nachtrag · -
+pav3streit · p3 · Umgang mit strittigen Nachträgen · pav2nachtrag · -
+pbl1 · p1 · Bauleitung und Qualität · - · pav1
+pbl2bau · p2 · Bauüberwachung und Dokumentation · pbl1 · -
+pbl3tageb · p3 · Bautagebuch und Baustellendokumentation · pbl2bau · -
+pbl3besprech · p3 · Baubesprechung und Protokollführung · pbl2bau · -
+pbl3anordnung · p3 · Anordnungsrecht und Bedenkenanzeige · pbl2bau · -
+pbl3qualsich · p3 · Bemusterung und Prüfpläne · pbl2bau · k4t30z+kt3nutz
+pbl2abnahme · p2 · Abnahme und ihre Rechtsfolgen · pbl1 · pav2vertrag
+pbl3form · p3 · Abnahmeformen: förmlich, konkludent, fiktiv · pbl2abnahme · -
+pbl3vorbehalt · p3 · Mängelvorbehalt bei der Abnahme · pbl2abnahme · -
+pbl3rechtsfolgen · p3 · Rechtsfolgen der Abnahme · pbl2abnahme · -
+pbl3teilabnahme · p3 · Teilabnahme und Zwischenabnahmen · pbl2abnahme · -
+pbl2gewaehr · p2 · Gewährleistung und Verjährungsfristen · pbl1 · -
+pbl3frist · p3 · Regelfristen im Vergleich · pbl2gewaehr · -
+pbl3ruege · p3 · Rügeobliegenheit und Anzeigefristen · pbl2gewaehr · -
+pbl3verjaehr · p3 · Verjährungsbeginn und Hemmung · pbl2gewaehr · -
+pbl3sicherh · p3 · Gewährleistungssicherheit und Einbehalt · pbl2gewaehr · -
+pbl2maengel · p2 · Mängelmanagement · pbl1 · -
+pbl3ruegeform · p3 · Mängelrüge: Form, Frist, Beweissicherung · pbl2maengel · -
+pbl3nacherf · p3 · Nacherfüllung, Selbstvornahme, Minderung · pbl2maengel · -
+pbl3vorrecht · p3 · Nachbesserungsrecht des Unternehmers · pbl2maengel · -
+pbl3fluchtweg · p3 · Mängel an sicherheitsrelevanten Bauteilen · pbl2maengel · kt2not+kt3nutz+k4t30z
+pna1 · p1 · Nachhaltigkeit und Förderung · - · pav1
+pna2zert · p2 · Zertifizierungssysteme · pna1 · -
+pna3kriterien · p3 · Kriteriengruppen und Bewertungslogik · pna2zert · -
+pna3koppel · p3 · Kopplung an Förderung · pna2zert · pna2foerder
+pna3aufwand · p3 · Zertifizierungsaufwand im Projektablauf · pna2zert · pbl2bau
+pna3systemvergl · p3 · Systemvergleich: Substanz statt Label · pna2zert · -
+pna2energie · p2 · Energierecht · pna1 · -
+pna3anforderung · p3 · Anforderungsniveau: Neubau vs. Bestand · pna2energie · -
+pna3nachweis · p3 · Energieausweis und Nachweisverfahren · pna2energie · -
+pna3anlagentech · p3 · Pflichten zu erneuerbaren Energien · pna2energie · -
+pna3klimaschutz · p3 · Schnittstelle zu Klimaschutzgesetzen · pna2energie · -
+pna2foerder · p2 · Förderlandschaft · pna1 · -
+pna3foerderarten · p3 · Förderarten: Zuschuss, Kredit, Steuervorteil · pna2foerder · -
+pna3foerderweg · p3 · Antragsweg und Zeitpunkt im Projekt · pna2foerder · -
+pna3kombi · p3 · Kombination und Kumulierung von Förderungen · pna2foerder · -
+pna3risiko · p3 · Förderrisiko und Rückforderung · pna2foerder · pna2zert
+pna2zirk · p2 · Zirkularität, Rückbau, Wiederverwendung · pna1 · -
+pna3design · p3 · Trennbarkeit als Entwurfsprinzip · pna2zirk · -
+pna3passport · p3 · Materialpass und Rückbaudokumentation · pna2zirk · -
+pna3rueckbau · p3 · Rückbau statt Abriss: Verwertungsquote · pna2zirk · -
+pna3wiederverw · p3 · Wiederverwendung von Bauteilen · pna2zirk · -

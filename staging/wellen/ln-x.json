@@ -1,0 +1,232 @@
+[
+  {
+    "von": "x2staedt",
+    "nach": "eko2koernung",
+    "warum": "Die Gartenstadt-Struktur der Margarethenhöhe mit Vorgärten und kurzen Blockrändern ist ein anschauliches Fallbeispiel für städtebauliche Körnung."
+  },
+  {
+    "von": "kau3zaun",
+    "nach": "x2staedt",
+    "warum": "Die niedrigen Zaun- und Heckenlinien entlang der Margarethenhöhe zeigen konkret, wie Grundstücksgrenzen als weiche Übergänge gestaltet werden."
+  },
+  {
+    "von": "x2typ",
+    "nach": "ety3grundriss",
+    "warum": "Die Doppel- und Reihenhaustypen der Margarethenhöhe zeigen früh die Grundrisslogik von Zeile und Hof im Wohnungsbau."
+  },
+  {
+    "von": "eor3reihung",
+    "nach": "x3reihe",
+    "warum": "Die Reihenhaustypen der Margarethenhöhe mit ihrer Variation im Detail sind ein gutes Studienbeispiel für Reihung und Rhythmus."
+  },
+  {
+    "von": "x2fass",
+    "nach": "eli2verh",
+    "warum": "Die Fassadenelemente der Margarethenhöhe zeigen exemplarisch, wie das Verhältnis von Öffnung und Wand einen Straßenzug prägt."
+  },
+  {
+    "von": "erp3massstab",
+    "nach": "x3platz",
+    "warum": "Die Platzfolgen der Margarethenhöhe sind ein Referenzbeispiel dafür, wie Maßstab im offenen Raum erlebbar wird."
+  },
+  {
+    "von": "x4bogen",
+    "nach": "kro3steine",
+    "warum": "Das gemauerte Rundbogenportal lässt sich nur mit passendem Steinformat und passender Bogenschichtung ausführen."
+  },
+  {
+    "von": "xws1",
+    "nach": "kda2flach",
+    "warum": "Das Flachdach ist bei der Weißenhofsiedlung das erklärte Manifest des Neuen Bauens, nicht nur eine Dachform."
+  },
+  {
+    "von": "eor3modul",
+    "nach": "xws1",
+    "warum": "Die Weißenhofsiedlung ist der Referenzfall für serielle Wohnungstypen als gebaute Modulidee."
+  },
+  {
+    "von": "xha1",
+    "nach": "eko3topografie",
+    "warum": "Die Terrassenzeilen von Halen folgen dem Hang und übersetzen Topografie unmittelbar in Wohnraum."
+  },
+  {
+    "von": "esw2oeffprivat",
+    "nach": "xha1",
+    "warum": "Die gestaffelten Vorzonen und Innenhöfe von Halen sind ein Referenzbeispiel für den Übergang von öffentlich zu privat."
+  },
+  {
+    "von": "xbs1",
+    "nach": "ety3grundriss",
+    "warum": "Die schmalen Kavelwoningen von Borneo-Sporenburg sind ein Fallbeispiel für den Hof-Grundrisstyp auf sehr schmaler Parzelle."
+  },
+  {
+    "von": "eko3parzelle",
+    "nach": "xbs1",
+    "warum": "Borneo-Sporenburg zeigt anschaulich, wie enge Parzellenbreiten eine ganze Stadtstruktur prägen können."
+  },
+  {
+    "von": "xun1",
+    "nach": "erp3modulor",
+    "warum": "Der Modulor wurde für die Unité entwickelt und ist an ihrem Baukörper unmittelbar ablesbar."
+  },
+  {
+    "von": "eor3primaer",
+    "nach": "xun1",
+    "warum": "Die Unité ist der Klassiker dafür, wie eine tragende Primärstruktur aus Stahlbeton eine freie Fassade dahinter ermöglicht."
+  },
+  {
+    "von": "xga1",
+    "nach": "kro3fertig",
+    "warum": "Die Wohnanlage Gallaratese ist in Betonfertigteilen errichtet und zeigt deren rhythmisierende Wirkung an der Fassade."
+  },
+  {
+    "von": "eor3reihung",
+    "nach": "xga1",
+    "warum": "Der endlose Laubengang von Gallaratese ist ein Lehrbeispiel für Reihung als Ordnungsprinzip."
+  },
+  {
+    "von": "xwr1",
+    "nach": "eor3flexibel",
+    "warum": "Das Wohnregal zeigt an einer tragenden Primärstruktur, wie viel Grundrissfreiheit eine Baugruppe im Ausbau gewinnt."
+  },
+  {
+    "von": "pab3bauherr",
+    "nach": "xwr1",
+    "warum": "Baugruppenprojekte wie das Wohnregal sind der Referenzfall, an dem sich eine grundlegend veränderte Bauherrenrolle studieren lässt."
+  },
+  {
+    "von": "xnn1",
+    "nach": "kro3profile",
+    "warum": "Das weit auskragende Dach der Neuen Nationalgalerie ruht auf acht Stahlstützen und ist ein Klassiker des sichtbaren Stahlskeletts."
+  },
+  {
+    "von": "erp3fliess",
+    "nach": "xnn1",
+    "warum": "Die stützenfreie Glashalle der Neuen Nationalgalerie ist der Prototyp des fließenden, universellen Raums."
+  },
+  {
+    "von": "xtv1",
+    "nach": "kma3gestein",
+    "warum": "Die Therme Vals ist aus Valser Quarzit geschichtet und zeigt Naturstein als tragendes und raumbildendes Material zugleich."
+  },
+  {
+    "von": "eli3oben",
+    "nach": "xtv1",
+    "warum": "Die schmalen Lichtschlitze über dem Becken der Therme Vals sind ein Musterbeispiel für gezieltes Zenitlicht."
+  },
+  {
+    "von": "xkl1",
+    "nach": "kbe3ansatz",
+    "warum": "Kolumba baut auf den Ruinen der Kirche weiter und ist ein Referenzfall für die Entscheidung zwischen Rekonstruktion, Ergänzung und Kontrast."
+  },
+  {
+    "von": "eli3lenk",
+    "nach": "xkl1",
+    "warum": "Das lichtdurchlässige Ziegelmauerwerk von Kolumba mit offenen Fugen zeigt Lichtlenkung durch Material in Reinform."
+  },
+  {
+    "von": "xph1",
+    "nach": "et2skulptur",
+    "warum": "Die Foyertreppen der Philharmonie sind das Standardbeispiel für die Treppe als eigenständige Raumskulptur."
+  },
+  {
+    "von": "eer3sequenz",
+    "nach": "xph1",
+    "warum": "Der Weg durch die Philharmonie ist als Raumfolge komponiert, die die Ankunft im Saal bewusst verzögert."
+  },
+  {
+    "von": "xre2heimat",
+    "nach": "kda2geneigt",
+    "warum": "Der Heimatschutzstil hält bewusst am geneigten Dach und am regionalen Material fest, gegen die spätere Flachdach-Moderne."
+  },
+  {
+    "von": "eli3seite",
+    "nach": "xre2kritik",
+    "warum": "Die Kritik an der Mietskaserne richtet sich vor allem gegen einseitig belichtete Hinterhofzimmer ohne echte Durchlüftung."
+  },
+  {
+    "von": "xre2howard",
+    "nach": "eko2landschaft",
+    "warum": "Die englische Gartenstadtidee macht Landschaft und Grünraum zum städtebaulichen Ordnungsprinzip, nicht zum Restraum."
+  },
+  {
+    "von": "xkm2neuesbauen",
+    "nach": "eor3primaer",
+    "warum": "Die fünf Punkte des Neuen Bauens beruhen auf einer tragenden Primärstruktur, die Wand und Grundriss von der Statik befreit."
+  },
+  {
+    "von": "xkm2existenz",
+    "nach": "ety3grundriss",
+    "warum": "Die Forschung zum Existenzminimum der 1920er Jahre hat die Zeilenbau-Grundrisstypen systematisch durchgetestet."
+  },
+  {
+    "von": "eor3konstrraster",
+    "nach": "xkm2bauhaus",
+    "warum": "Das Bauhausgebäude in Dessau macht das Konstruktionsraster selbst zum sichtbaren Fassadenthema."
+  },
+  {
+    "von": "xnb2brutalismus",
+    "nach": "kfa2sichtbeton",
+    "warum": "Der Brutalismus macht den rohen Sichtbeton selbst zur Fassade, mit der Schalungstextur als einzigem Oberflächenmittel."
+  },
+  {
+    "von": "eor3traeger",
+    "nach": "xnb2grossstruktur",
+    "warum": "Megastrukturen sind der Extremfall eines tragenden Grundrasters, das darunter Aneignung und Wandel erlaubt."
+  },
+  {
+    "von": "xnb2organisch",
+    "nach": "eor3bruch",
+    "warum": "Organische Gegenentwürfe der Nachkriegszeit brechen bewusst mit der Rastersymmetrie der klassischen Moderne."
+  },
+  {
+    "von": "kbe3energ",
+    "nach": "xnb2erbe",
+    "warum": "Der Umgang mit dem Betonerbe ist der Fall, an dem die Grenzen energetischer Ertüchtigung unter Denkmalauflagen sichtbar werden."
+  },
+  {
+    "von": "xnb2wiederaufbau",
+    "nach": "kro3fertig",
+    "warum": "Der Wiederaufbau nach 1945 industrialisierte den Wohnungsbau mit Betonfertigteilen im großen Maßstab."
+  },
+  {
+    "von": "xkr2material",
+    "nach": "eko3materialbezug",
+    "warum": "Der kritische Regionalismus macht den Bezug zum lokalen Material zum zentralen Entwurfsprinzip, nicht zur Behübschung."
+  },
+  {
+    "von": "eko3topografie",
+    "nach": "xkr2klima",
+    "warum": "Klima und Topografie als Entwurfsgrundlage lassen sich am kritischen Regionalismus konkret nachvollziehen."
+  },
+  {
+    "von": "xkr2frampton",
+    "nach": "ema2tekt",
+    "warum": "Framptons Theorie des kritischen Regionalismus beruht wesentlich auf dem Begriff der Tektonik, dem sichtbaren Zeigen von Konstruktion."
+  },
+  {
+    "von": "xzp2niemals",
+    "nach": "kbe2umbau",
+    "warum": "Umbauen statt Abreißen als Haltung setzt unmittelbar auf die Techniken der Ertüchtigung im Bestand."
+  },
+  {
+    "von": "kma2lehm",
+    "nach": "xzp2klima",
+    "warum": "Ressourcenschonendes Bauen ist der Rahmen, in dem Baustoffe wie Lehm ihre eigentliche Relevanz gewinnen."
+  },
+  {
+    "von": "xzp2einfach",
+    "nach": "ema3reduktion",
+    "warum": "Einfaches und robustes Bauen deckt sich unmittelbar mit der Entwurfshaltung der Reduktion und des bewussten Weglassens."
+  },
+  {
+    "von": "pab3bauherr",
+    "nach": "xzp2beteilig",
+    "warum": "Baugemeinschaften sind der Fall, an dem sich die Verschiebung der Bauherrenrolle von der Beauftragung zur Mitplanung studieren lässt."
+  },
+  {
+    "von": "xzp2sergison",
+    "nach": "eko3kontinuitaet",
+    "warum": "Die gewöhnliche Stadt als Vorbild bedeutet, an den vorhandenen Stadtkörper weiterzubauen statt ihn zu ersetzen."
+  }
+]

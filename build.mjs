@@ -1,5 +1,15 @@
-import { writeFileSync, mkdirSync } from 'fs';
-import { P, N, ROOTS } from './data.mjs';
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'fs';
+import * as D from './data.mjs';
+const { P, N, ROOTS } = D;
+const THREADS = D.THREADS || [];
+
+/* Rückverweise: wer zeigt auf diesen Knoten? */
+const BACK = {};
+for (const [id, n] of Object.entries(N)) for (const l of n.ln || []) (BACK[l] ||= []).push(id);
+
+/* Thread-Zugehörigkeit je Knoten */
+const THREADPOS = {};
+THREADS.forEach((th, ti) => th.ids.forEach((id, i) => (THREADPOS[id] ||= []).push({ ti, i })));
 
 const DEPTHS = [['t1','Überblick'],['t2','Vertiefung'],['t3','Spezifikation']];
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
@@ -10,30 +20,34 @@ const colOf = p => p==='k' ? '#2f5d7c' : p==='e' ? '#b05c3a' : p==='p' ? '#665a7
 function netzSVG(id){
   const n = N[id];
   const nodes = [{id, x:0, y:0, c:true}];
-  if (n.pa) nodes.push({id:n.pa, x:0, y:-130});
-  const kids = kidsOf(id);
+  if (n.pa) nodes.push({id:n.pa, x:0, y:-132});
+  const kids = kidsOf(id).slice(0,7);
   kids.forEach((k,i)=>{ const spread=Math.min(kids.length,5);
-    nodes.push({id:k, x:(i-(kids.length-1)/2)*(360/Math.max(spread,2)), y:135}); });
-  const links = (n.ln||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l));
-  links.forEach((l,i)=>{ const side=i%2?1:-1;
-    nodes.push({id:l, x:side*195, y:-45+Math.floor(i/2)*72, xl:true}); });
-  const W=480, H=360, cx=W/2, cy=H/2-15;
+    nodes.push({id:k, x:(i-(kids.length-1)/2)*(400/Math.max(spread,2)), y:138}); });
+  /* rechts: ausgehende Querverweise · links: eingehende */
+  const raus = (n.ln||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l)).slice(0,4);
+  raus.forEach((l,i)=>nodes.push({id:l, x:205, y:-78+i*52, xl:true}));
+  const rein = (BACK[id]||[]).filter(l=>N[l] && !nodes.some(m=>m.id===l)).slice(0,4);
+  rein.forEach((l,i)=>nodes.push({id:l, x:-205, y:-78+i*52, xl:true, ein:true}));
+  const W=480, H=380, cx=W/2, cy=H/2-15;
   const edges = nodes.filter(m=>!m.c).map(m=>{
     const dash = m.xl ? 'stroke-dasharray="4 4"' : '';
-    return `<line x1="${cx}" y1="${cy}" x2="${cx+m.x}" y2="${cy+m.y}" stroke="#d8d2c4" stroke-width="1.3" ${dash}/>`;
+    const col = m.xl ? colOf(N[m.id].p) : '#d8d2c4';
+    return `<line x1="${cx}" y1="${cy}" x2="${cx+m.x}" y2="${cy+m.y}" stroke="${col}" stroke-width="1.2" ${dash} opacity="${m.xl?0.55:1}"/>`;
   }).join('');
   const circles = nodes.map(m=>{
     const t = N[m.id].t;
-    const short = t.length>22 ? t.slice(0,21)+'…' : t;
-    const anchor = m.xl ? (m.x<0?'start':'end') : 'middle';
-    const tx = cx+m.x + (m.xl ? (m.x<0?-8:8) : 0);
-    const ty = cy+m.y + (m.y>=0 && !m.c ? 24 : m.c ? -22 : -18);
+    const short = t.length>24 ? t.slice(0,23)+'…' : t;
+    const anchor = m.xl ? (m.x<0?'end':'start') : 'middle';
+    const tx = cx+m.x + (m.xl ? (m.x<0?-12:12) : 0);
+    const ty = cy+m.y + (m.xl ? 4 : m.y>=0 && !m.c ? 24 : m.c ? -22 : -18);
     const col = colOf(N[m.id].p);
     const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'#fff'}" stroke="${col}" stroke-width="2"/>
       <text x="${tx}" y="${ty}" text-anchor="${anchor}" ${m.c?'class="ctr"':''}>${esc(short)}</text>`;
     return m.c ? `<g>${inner}</g>` : `<a href="#${m.id}">${inner}</a>`;
   }).join('');
-  return `<svg viewBox="0 0 ${W} ${H}">${edges}${circles}</svg>`;
+  const lgd = `<text x="8" y="${H-8}" font-size="10" fill="#6f6a61">← verweist hierher</text><text x="${W-8}" y="${H-8}" font-size="10" fill="#6f6a61" text-anchor="end">verweist auf →</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}">${edges}${circles}${lgd}</svg>`;
 }
 
 function nodeSection(id){
@@ -52,6 +66,16 @@ function nodeSection(id){
   }
   if (!n.t3 && n.lv>=3 && n.p!=='k') {
     depths += `<p class="nohint">Keine Stufe „Spezifikation": Entwurfs- und Kontextwissen endet hier bewusst mit dem Querverweis in die Konstruktions-Perspektive.</p>`;
+  }
+
+  /* Schemazeichnungen (inline eingebettet, damit dist eine Datei bleibt) */
+  let imgHTML = '';
+  if (n.images && n.images.length) {
+    imgHTML = n.images.map(im => {
+      if (!im.path || !existsSync(im.path)) return '';
+      const svg = readFileSync(im.path, 'utf8').replace(/<\?xml[^>]*\?>\s*/, '');
+      return `<figure class="zeichnung">${svg}<figcaption>${esc(im.caption || '')}<span class="credit">${esc(im.credit || '')}${im.lizenz ? ' · ' + esc(im.lizenz) : ''}</span></figcaption></figure>`;
+    }).join('');
   }
 
   /* DACH-Besonderheiten */
@@ -86,13 +110,25 @@ function nodeSection(id){
         links.map(l=>`<a class="xlink xl-${P[N[l].p].cls}" href="#${l}">${P[N[l].p].name}: ${esc(N[l].t)}</a>`).join('')
       }</div></div>` : '';
 
+  /* Entdeckungs-Threads: kuratierte Pfade quer durch die Perspektiven */
+  let threadHTML = '';
+  if (THREADPOS[id]) {
+    threadHTML = THREADPOS[id].map(({ti,i})=>{
+      const th = THREADS[ti];
+      const prev = i > 0 ? th.ids[i-1] : null, next = i < th.ids.length-1 ? th.ids[i+1] : null;
+      return `<div class="thread"><p class="sec-title">Entdeckungs-Thread · ${esc(th.titel)} · Station ${i+1}/${th.ids.length}</p><div class="th-row">${
+        prev ? `<a class="th-nav" href="#${prev}">‹ ${esc(N[prev].t)}</a>` : '<span></span>'}${
+        next ? `<a class="th-nav th-next" href="#${next}">${esc(N[next].t)} ›</a>` : '<span class="th-ende">Ende des Threads</span>'}</div></div>`;
+    }).join('');
+  }
+
   return `<section id="${id}">
   <nav class="crumbs">${crumbs}</nav>
   <div class="meta"><span class="badge b-${pp.cls}">${pp.name}</span>
     <span class="levels">${dots}<span class="lv">Ebene ${n.lv} von 7</span></span></div>
   <h1 class="node">${esc(n.t)}</h1>
   <div class="content">${depths}</div>
-  ${dachHTML}${srcHTML}${kidsHTML}${linksHTML}
+  ${imgHTML}${dachHTML}${srcHTML}${kidsHTML}${linksHTML}${threadHTML}
   <details class="netz"><summary>Netz-Ansicht <span class="plus">+</span></summary>
     <div class="netzbox">${netzSVG(id)}</div>
     <p class="netz-note">Durchgezogen: Hierarchie (oben Eltern, unten Kinder) · Gestrichelt: Querverweise. Antippen zum Navigieren.</p>
@@ -123,6 +159,9 @@ const home = `<section id="home">
   <p class="intro">Ein Wissensraum, vier Perspektiven, jede Tiefe.</p>
   <p class="intro-sub">Begehbares Gerüst der gesamten Themenlandkarte, jedes Themenfeld bis Ebene 3 mit Überblickstexten; die Muster-Äste Türen und Treppen reichen tiefer. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
   ${perspCards}
+  ${THREADS.length ? `<p class="entdecken-titel">Entdecken: kuratierte Threads quer durch die Perspektiven</p>` + THREADS.map(th=>`<a class="persp-card thread-card" href="#${th.ids[0]}">
+    <h2>${esc(th.titel)}</h2><p>${esc(th.kurz)}</p>
+    <p class="counts">${th.ids.length} Stationen: ${th.ids.map(i=>esc((N[i]||{t:i}).t)).join(' › ')}</p></a>`).join('') : ''}
   <footer>ArchiPedia Prototyp · Stand 08/2026 · Inhalte sind Demonstrationstexte (KI-generiert, nicht fachgeprüft) und zeigen Struktur, Tonlage und Tiefenstaffelung, nicht finale Fachinformation. Normbezüge ohne Gewähr.</footer>
 </section>`;
 
@@ -180,6 +219,18 @@ const html = `<!DOCTYPE html>
   body[data-land="at"] .dach-row.dr-de, body[data-land="at"] .dach-row.dr-ch,
   body[data-land="ch"] .dach-row.dr-de, body[data-land="ch"] .dach-row.dr-at{display:none}
   .dach-hint{font-size:11.5px;color:var(--muted);margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+  figure.zeichnung{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 14px 10px;margin:0 0 14px}
+  figure.zeichnung svg{width:100%;height:auto;display:block}
+  figure.zeichnung figcaption{font-size:12.5px;color:var(--muted);margin-top:8px;border-top:1px dotted var(--line);padding-top:7px}
+  figure.zeichnung .credit{display:block;font-size:11px;margin-top:2px;color:#a29b8d}
+  .thread{background:#f4f1ea;border:1px solid var(--line);border-radius:var(--radius);padding:12px 15px;margin-bottom:26px}
+  .th-row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .th-nav{font-size:13.5px;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}
+  .th-next{margin-left:auto;text-align:right}
+  .th-ende{font-size:12px;color:var(--muted);margin-left:auto}
+  .entdecken-titel{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:26px 0 10px}
+  .thread-card{border-left:4px solid #8a7f6a}
+  .thread-card .counts{white-space:normal;line-height:1.5}
   .wordmark{font-family:Georgia,'Times New Roman',serif;font-size:22px;letter-spacing:.3px}
   .wordmark span{color:var(--muted);font-size:12px;font-family:-apple-system,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-left:8px}
   main{padding-top:22px}

@@ -1,0 +1,108 @@
+[
+{"von":"k3blatt","nach":"e3breite","warum":"Türblatt-Statik und Verzugsgrenzen begrenzen, wie weit die Geste großer Türbreiten gehen kann"},
+{"von":"k3oeff","nach":"e3position","warum":"Öffnungsart (Anschlag, Schiebe, Falt) folgt aus der gewählten Türposition im Raum und dem Schwenkbereich"},
+{"von":"k2f","nach":"e3zaesur","warum":"Brand- und Rauchschutzanforderungen an Funktionstüren schränken ein, wie stark die Tür als räumliche Zäsur wirken darf"},
+{"von":"k3waerme","nach":"esw3klima","warum":"der Wärmeschutzanspruch der Haustür lässt sich architektonisch als Klimapuffer-Zone statt rein technisch lösen"},
+{"von":"k3rc","nach":"esw2oeffprivat","warum":"Einbruchschutz RC2/RC3 steht in Spannung zur gewünschten offenen, einladenden Schwelle zwischen öffentlich und privat"},
+{"von":"k3kombi","nach":"eer3lesbar","warum":"kombinierte Schutzanforderungen dürfen die Lesbarkeit und Einladung des Eingangs nicht zerstören"},
+{"von":"k3hist","nach":"eko3kontinuitaet","warum":"wie weit die Aufarbeitung historischer Türen geht, ist eine Frage der Weiterbauen-Haltung"},
+{"von":"k2b","nach":"eko3kontrast","warum":"die neue Tür im Bestand kann bewusster Kontrast oder unauffällige Fortsetzung sein"},
+{"von":"k2i","nach":"e2folge","warum":"Wahl und Takt der Innentüren gliedern die entworfene Raumfolge eines Grundrisses"},
+
+{"von":"erp2mass","nach":"kro3unterzug","warum":"ein gewünschtes Raumproportionsverhältnis setzt sich erst über Spannweite und Unterzugshöhe konstruktiv durch"},
+{"von":"erp3verhaeltnis","nach":"kro3decksys","warum":"Deckensystem und Spannrichtung entscheiden, welches Seitenverhältnis ein Raum überhaupt bekommen kann"},
+{"von":"erp3achsmass","nach":"kro2beton","warum":"das gewünschte Achsmaß braucht ein Stützenraster, das der Stahlbetonbau erst liefert"},
+{"von":"erp2hoehe","nach":"kde2unterdecke","warum":"wie viel lichte Raumhöhe von der Entwurfsidee übrig bleibt, entscheidet die Unterdecken- und Installationsebene"},
+{"von":"erp3standard","nach":"kbo2fbh","warum":"ein Bodenaufbau mit Fußbodenheizung verbraucht Aufbauhöhe, die von der geplanten Normalhöhe abgeht"},
+{"von":"erp3fassung","nach":"kiw2massiv","warum":"massive statt leichte Innenwände erzeugen erst die Schwere und Fassung, die der gefasste Raum sucht"},
+{"von":"erp3fliess","nach":"kiw2trocken","warum":"der fließende Raum muss sich gegen die Aussteifungslogik notwendiger Trockenbauwände behaupten"},
+{"von":"erp3zonier","nach":"kbo3belagwechsel","warum":"Zonierung ohne Wand wird oft erst durch einen Belagswechsel im Boden ablesbar"},
+
+{"von":"eli2tag","nach":"kfe2glas","warum":"die gewünschte Tageslichtmenge braucht eine Verglasung, die zwischen Lichtausbeute und Überhitzung vermittelt"},
+{"von":"eli3seite","nach":"kda3lichtkuppel","warum":"ein Dachflächenfenster kann die Raumtiefe bei einseitigem Licht zusätzlich belichten"},
+{"von":"eli3zwei","nach":"kfe3profil","warum":"der pfostenlose Eckstoß, den ein Eckfenster für Licht von zwei Seiten braucht, ist eine Frage des Profilsystems"},
+{"von":"eli3lenk","nach":"kma3glasoberfl","warum":"Mattierung oder Bedruckung des Glases lenkt das Licht technisch so, wie es der Entwurf will"},
+{"von":"eli3jahreszeit","nach":"kfe3aussenliegend","warum":"außenliegender Sonnenschutz steuert konstruktiv, wie der saisonal wechselnde Lichteinfall im Raum ankommt"},
+{"von":"eli2verh","nach":"kfa2pfriegel","warum":"ein hoher Öffnungsanteil zugunsten von Glas kippt die Fassade von der Lochfassade zur Pfosten-Riegel-Konstruktion"},
+{"von":"eli3anteil","nach":"kro2mauer","warum":"tragendes Mauerwerk setzt dem gewünschten Öffnungsanteil der Fassade statische Grenzen"},
+{"von":"eli3format","nach":"kiw3tuerintegr","warum":"ein raumhohes Öffnungsformat muss im Ständerwerk erst konstruktiv ausgesteift werden"},
+{"von":"eli2kunst","nach":"kde3integration","warum":"die Idee von Kunstlicht als Architektur wird erst über die technische Integration der Leuchten in die Decke real"},
+{"von":"eli3grundlicht","nach":"ktg3zonen","warum":"getrennte Grund- und Akzentlichtkreise müssen in den Installationszonen des Grundrisses vorbereitet sein"},
+
+{"von":"eer2ankommen","nach":"kau2uebergang","warum":"eine klare Adresse entsteht erst durch die konstruktive Lösung des Übergangs von Gelände zu Gebäude"},
+{"von":"eer2weg","nach":"kau3pflaster","warum":"die gestaltete Wegführung als Promenade braucht ein Belags- und Fugenbild, das sie im Boden ablesbar macht"},
+{"von":"eer2flure","nach":"kt2not","warum":"Zusatznutzung im Flur steht in Konkurrenz zur nutzbaren Breite, die der notwendige Rettungsweg verlangt"},
+
+{"von":"esw2innen","nach":"kfe3raldicht","warum":"der Übergang zwischen innen und außen wird konstruktiv erst an den drei Dichtungsebenen der Fenstermontage entschieden"},
+{"von":"esw3abrupt","nach":"kgr3sockel","warum":"der abrupte Wechsel von innen nach außen wird am Sockel mit Spritzwasserschutz und Höhenversatz konstruktiv real"},
+{"von":"esw3klima","nach":"ktg2lueft","warum":"ein Windfang als Klimapuffer funktioniert nur mit einer lüftungstechnisch durchdachten Schleuse"},
+{"von":"esw2oeffprivat","nach":"kau2einfried","warum":"Einfriedung, Zaun oder Mauer markieren konstruktiv die Grenze zwischen öffentlich und privat"},
+{"von":"esw3vorgarten","nach":"kau3zaun","warum":"die weiche Grenze des Vorgartens braucht einen niedrigen Zaun oder eine Hecke, die Offenheit nicht verspielt"},
+{"von":"esw2raum","nach":"kda2terrasse","warum":"eine Dachterrasse kann konstruktiv selbst zum Schwellenraum zwischen innen und Landschaft werden"},
+{"von":"esw3loggia","nach":"kau3vordach","warum":"eine Loggia braucht Rücksprung und Vordach als konstruktiven Witterungsschutz, um zu funktionieren"},
+{"von":"esw3innenhof","nach":"kau2belag","warum":"der introvertierte Innenhof muss konstruktiv entwässert und mit einem passenden Belag gefasst werden"},
+{"von":"esw3temp","nach":"kfe2sonnenschutz","warum":"saisonale Schwellenräume wie Wintergärten brauchen verstellbaren Sonnenschutz, um ganzjährig zu funktionieren"},
+
+{"von":"ema3patina","nach":"kma3stahl","warum":"erst die gewählte Stahloberfläche, roh, verzinkt oder Cortenstahl, liefert die gewünschte Patina"},
+{"von":"ema2mat","nach":"kfa2sicht","warum":"Sichtmauerwerk altert sichtbar, und diese Alterungsfähigkeit muss bei Stein- und Fugenwahl mitgeplant werden"},
+{"von":"ema3lebensdauer","nach":"kma3kunststoff","warum":"Kunststoffbauteile im Aufbau altern anders und kürzer als mineralische Materialien, was die Lebenszyklusfrage konkret macht"},
+{"von":"ema3rohbau","nach":"kro3ortbeton","warum":"die roh belassene Sichtbetonoberfläche als Entwurfsidee entsteht erst durch die passende Schalungstechnik"},
+{"von":"ema2tekt","nach":"kro2stahl","warum":"ein Stahlskelett kann den Lastfluss sichtbar zur Tektonik-Aussage des Entwurfs machen"},
+{"von":"ema3lastfluss","nach":"kro3unterzug","warum":"ob der Lastfluss ablesbar bleibt, entscheidet sich an Lage und Ausbildung der Unterzüge"},
+{"von":"ema3schichten","nach":"kiw3beplank","warum":"Trockenbau-Beplankung kann als sichtbare Schicht stehen bleiben oder hinter Putz verschwinden"},
+{"von":"ema3massiv","nach":"kro2holz","warum":"Massivholz- oder Skelettbauweise entscheidet konstruktiv zwischen massiver und leichter Anmutung"},
+{"von":"ema2detail","nach":"kbo3sockelleiste","warum":"Verzicht oder bewusste Ausbildung der Sockelleiste zeigt die Detailhaltung eines Entwurfs im Kleinen"},
+{"von":"ema3masssystem","nach":"kfa3fugenbild","warum":"das Fugenbild des Sichtbetons wird zum Maßsystem, das die gesamte Detailplanung durchzieht"},
+{"von":"ema3reduktion","nach":"k4verdeckt","warum":"eine flächenbündig verschwindende Zarge ist gebaute Konsequenz der Idee von Reduktion und Weglassen"},
+{"von":"ema2farbe","nach":"kma2putz","warum":"Putz- und Beschichtungssysteme setzen die Farbidee des Entwurfs technisch erst um"},
+{"von":"ema3materialfarbe","nach":"kma3farbe","warum":"ob Farbe Materialeigenschaft bleibt oder als Anstrich aufgetragen wird, ist eine konkrete Beschichtungsfrage"},
+{"von":"ema3licht","nach":"kma2beton","warum":"glatte oder sandgestrahlte Betonoberflächen verändern ihre Farbwirkung im Tagesverlauf unterschiedlich stark"},
+
+{"von":"kt2geo","nach":"et2ort","warum":"die gewählte Laufgeometrie kann die Treppe zu einem eigenen Ort statt reiner Erschließung machen"},
+{"von":"kt3kopf","nach":"et2zeigen","warum":"nur ausreichende Kopfhöhe erlaubt es, eine Treppe offen zu zeigen statt hinter einer Wand zu verbergen"},
+{"von":"kt3fuell","nach":"eli3privat","warum":"wie transparent die Geländerfüllung ist, entscheidet über Einsichtnahme und Privatheit in der Treppenhalle"},
+{"von":"kt3aussen","nach":"eko3topografie","warum":"eine notwendige Außentreppe muss sich in die topografische Idee eines Hanggebäudes einfügen"},
+{"von":"kt3aufzug","nach":"eer3barriere","warum":"der Aufzugsschacht ist die technische Voraussetzung dafür, dass Ankommen ohne Hindernis gelingt"},
+{"von":"kt3nutz","nach":"ety3erschl","warum":"die geforderte nutzbare Laufbreite beeinflusst, welche Erschließungstypologie im Wohnungsbau überhaupt möglich ist"},
+
+{"von":"kgr2keller","nach":"eko3topografie","warum":"die Wahl der Kellerkonstruktion entscheidet, wie tief sich ein Gebäude ins Gelände eingraben und die Topografie nutzen kann"},
+{"von":"kgr3perimmat","nach":"esw3sockel","warum":"die Perimeterdämmung muss am Sockel materialisiert werden, ohne dessen Wirkung als Grenze zu stören"},
+
+{"von":"kro3verbund","nach":"ema3massiv","warum":"eine Stahl-Beton-Verbundkonstruktion beantwortet die Frage Massivbau vs. Skelettbau als hybride Lösung"},
+{"von":"kro3brand","nach":"eor3traeger","warum":"die Brandschutzbekleidung des Stahltragwerks bestimmt, ob das tragende Raster als Freiheitsgeber sichtbar bleibt"},
+{"von":"kro3fugen","nach":"eko3massstab","warum":"ein Maßstabssprung zwischen Gebäudeteilen wird durch eine Bauwerksfuge konstruktiv ablesbar gemacht"},
+{"von":"kro3schwinden","nach":"ema3fuegung","warum":"Schwinden und Kriechen des Tragwerks zwingen zu einer Fuge, die als bewusste Aussage gestaltet werden kann"},
+
+{"von":"kfa2mono","nach":"ema3massiv","warum":"unverputzt oder verkleidet entscheidet, ob die monolithische Wand ihre Massivität überhaupt zeigt"},
+{"von":"kfa2vhf","nach":"ema3schichten","warum":"die vorgehängte hinterlüftete Fassade kann ihren Schichtenaufbau zeigen oder hinter homogener Bekleidung verbergen"},
+{"von":"kfa2gruen","nach":"eko3materialbezug","warum":"eine begrünte oder Solarfassade stellt bewusst einen Materialbezug zur landschaftlichen Umgebung her"},
+
+{"von":"kda2gruen","nach":"eko3dachlandschaft","warum":"ein Gründach prägt die von oben sichtbare Dachlandschaft und Silhouette des Gebäudes"},
+{"von":"kda2gauben","nach":"eko3dachlandschaft","warum":"Gauben und Durchdringungen verändern die ruhige Dachlandschaft und Silhouette des Baukörpers"},
+{"von":"kda2entw","nach":"eko3wasser","warum":"die Dachentwässerung führt das Regenwasser konstruktiv weiter zur landschaftlichen Idee von Wasser und Topografie"},
+
+{"von":"kfe2absturz","nach":"erp3hochraum","warum":"ein bodentiefes Fenster im hohen Raum braucht Absturzsicherung, die die Geste nicht stört"},
+
+{"von":"kiw2vorsatz","nach":"ema3reduktion","warum":"eine Installationswand als Vorsatzschale kann ganz verschwinden oder als Möbel ablesbar bleiben"},
+{"von":"kiw2schall","nach":"ety3zimmer","warum":"wie viel Schallschutz zwischen Räumen nötig ist, hängt an der Wahl zwischen Zimmerlogik und offener Wohnform"},
+{"von":"kiw2sonder","nach":"ety3mischnutz","warum":"Mischnutzung im selben Haus erzwingt Sonderfunktions-Trennwände wie Brand- und Rauchschutzwände"},
+
+{"von":"kbo2doppel","nach":"ety3buero","warum":"eine Open-Space-Bürotypologie mit hoher Verkabelungsdichte braucht einen Doppelboden statt klassischen Aufbau"},
+{"von":"kbo2sockel","nach":"esw3sockel","warum":"der Boden-Wand-Anschluss wird im Innenraum zum sichtbaren Sockel und Niveauwechsel als Grenze"},
+
+{"von":"kde2akustik","nach":"ety3kultur","warum":"ein Kulturbau mit Bühne und Foyer verlangt eigene Raumakustik-Maßnahmen jenseits des Standardfalls"},
+{"von":"kde2sicht","nach":"eor3traeger","warum":"eine Sichtdecke zeigt das tragende Raster unmittelbar als sichtbare Struktur"},
+
+{"von":"kab2waermebruecke","nach":"ema3anschluss","warum":"ein bewusst gestalteter Anschluss ist bauphysikalisch oft genau die Wärmebrücke, die vermieden werden soll"},
+{"von":"kab2fuge","nach":"eor3reihung","warum":"die notwendige Bewegungsfuge zwischen gereihten Baukörpern wird Teil des Fassadenrhythmus"},
+
+{"von":"ktg2elektro","nach":"eor3konstrraster","warum":"Installationszonen im Grundriss richten sich nach dem Konstruktions- und Entwurfsraster"},
+
+{"von":"kma2holz","nach":"eko3materialbezug","warum":"Holz als Baustoff schafft oft bewusst einen Materialbezug zur landschaftlichen oder baulichen Umgebung"},
+
+{"von":"kbe2ertuecht","nach":"eko3kontrast","warum":"energetische Ertüchtigung des Bestands kann als sichtbarer Kontrast oder unsichtbar integriert erscheinen"},
+{"von":"kbe2umbau","nach":"ety3umnutz","warum":"die bauliche Praxis des Umbauens und Aufstockens wird zum gestalterischen Prinzip der Umnutzbarkeit"},
+{"von":"kbe2denkmal","nach":"eko3kontinuitaet","warum":"Denkmalpflege folgt entweder dem Prinzip des Weiterbauens oder dem des bewussten Kontrasts zum Bestand"},
+
+{"von":"kau2einfried","nach":"eko3fassadenlinie","warum":"Zaun oder Mauer markieren konstruktiv, wo Baulinie und Rücksprung zum Vorgarten verlaufen"}
+]

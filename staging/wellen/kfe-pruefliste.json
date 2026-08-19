@@ -1,0 +1,106 @@
+{
+ "kfe3rahmen": [
+  "Rahmenbautiefe 70 bis 120 mm",
+  "Uf-Wert 1,0 bis über 2,0 W/m²K",
+  "DIN EN ISO 10077-2 Uf-Berechnung",
+  "DIN EN 12519 Terminologie Fenster und Türen"
+ ],
+ "kfe3fluegel": [
+  "Flügelgewicht Dreh-Kipp bis ca. 100 bis 150 kg",
+  "DIN EN 13126 Baubeschläge Anforderungen",
+  "DIN EN 12400 Mechanische Lebensdauer Klassifizierung",
+  "DIN EN 14351-1 Fenster und Türen Leistungsanforderungen"
+ ],
+ "kfe3profil": [
+  "Profilbautiefe 60 bis über 100 mm",
+  "Uf-Wert unter 0,8 W/m²K (Passivhausqualität)",
+  "Uf-Wert 1,3 bis 1,8 W/m²K (Standardprofile)",
+  "DIN EN ISO 10077-2 Uf-Berechnung"
+ ],
+ "kfe3waermeglas": [
+  "Ug-Wert 0,5 bis 0,7 W/m²K (Dreifachverglasung)",
+  "Ug-Wert 1,0 bis 1,3 W/m²K (Zweifachverglasung)",
+  "DIN EN 673 Ug-Berechnung",
+  "DIN EN ISO 10077-1 Uw-Berechnung Fenster",
+  "GEG Anforderungswerte",
+  "OIB-Richtlinie 6",
+  "MuKEn",
+  "SIA 380/1"
+ ],
+ "kfe3sonnenglas": [
+  "g-Wert 0,25 bis 0,50 (Sonnenschutzglas)",
+  "g-Wert über 0,60 (unbeschichtetes Isolierglas)",
+  "DIN EN 410 g-Wert und Lichttransmission",
+  "DIN 4108-2 Sommerlicher Wärmeschutz",
+  "OIB-Richtlinie 6",
+  "SIA 180"
+ ],
+ "kfe3schallglas": [
+  "Schalldämmklassen 32 bis 45 dB",
+  "DIN EN 12758 Glas im Bauwesen Schallschutz",
+  "DIN 4109 Schallschutz im Hochbau"
+ ],
+ "kfe3raldicht": [
+  "Fugenbreite 10 bis 30 mm",
+  "RAL-Montage Leitfaden",
+  "DIN 4108-7 Luftdichtheit",
+  "DIN 18542 Abdichten von Anschlussfugen mit Fugendichtungsbändern"
+ ],
+ "kfe3laibung": [
+  "DIN 18202 Toleranzen im Hochbau",
+  "Überdeckungsmaß mehrere Millimeter bis wenige Zentimeter"
+ ],
+ "kfe3daemmkeil": [
+  "RAL-Montage Leitfaden",
+  "Vorsatzmaß mehrere Zentimeter (dämmebenenabhängig)"
+ ],
+ "kfe3aussenliegend": [
+  "Raffstorenlamellenbreite ca. 80 bis 90 mm",
+  "Rollladenprofilbreite ca. 37 bis 55 mm",
+  "DIN EN 13659 Windwiderstandsklassen"
+ ],
+ "kfe3innenliegend": [
+  "Scheibenzwischenraum integrierter Systeme (einige Millimeter Mehrmaß)"
+ ],
+ "kfe3steuerung": [
+  "Windwächter Auslöseschwelle ca. 8 bis 15 m/s",
+  "DIN EN 13659 Windwiderstandsklassen"
+ ],
+ "kfe3bankaussen": [
+  "Gefälle ca. 5 bis 10 Prozent",
+  "Aufkantungshöhe mehrere Zentimeter",
+  "Tropfkantenmaß einige Zentimeter Auskragung"
+ ],
+ "kfe3bankinnen": [
+  "Auskragung ca. 2 bis 5 cm (Standard), ab 30 cm (Sitzfläche)",
+  "Luftspalt über Heizkörper mehrere Zentimeter"
+ ],
+ "kfe3bankmat": [
+  "Materialstärke Außenbank ca. 2 bis 3 cm",
+  "Materialstärke Innenbank ca. 2 bis 3 cm"
+ ],
+ "kfe3absturzhoehe": [
+  "Mindesthöhe 90 cm bis 12 m Absturzhöhe",
+  "Mindesthöhe 110 cm über 12 m Absturzhöhe",
+  "Öffnungsmaß ca. 12 cm Kugeldurchmesser",
+  "Landesbauordnungen (DE)",
+  "OIB-Richtlinie 4",
+  "SIA 358"
+ ],
+ "kfe3absturzglas": [
+  "Glasdicke ca. 20 bis 30 mm (Verbundsicherheitsglas)",
+  "DIN 18008-4 Absturzsichernde Verglasungen",
+  "DIN EN 12600 Pendelschlagversuch",
+  "ÖNORM B 3716",
+  "OIB-Richtlinie 4",
+  "SIA 358"
+ ],
+ "kfe3absturzgel": [
+  "DIN EN 1991-1-1 Einwirkungen auf Tragwerke Nutzlasten",
+  "Öffnungsmaß ca. 12 cm Kugeldurchmesser",
+  "Landesbauordnungen (DE)",
+  "OIB-Richtlinie 4",
+  "SIA 358",
+  "SIA 261"
+ ]
+}

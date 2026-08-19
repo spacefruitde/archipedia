@@ -1,0 +1,62 @@
+{
+  "k5spiegel": {
+    "path": "images/k5spiegel.svg",
+    "caption": "Der Zargenspiegel überdeckt den Wandanschluss der Umfassungszarge und macht die Maulweite zum kritischen Bestellmaß.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "k4falz": {
+    "path": "images/k4falz.svg",
+    "caption": "Das gefälzte Türblatt überdeckt die Zarge und verzeiht Toleranzen, das stumpf einschlagende schließt flächig und verlangt Präzision.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "k6trocken": {
+    "path": "images/k6trocken.svg",
+    "caption": "Schwere Türblätter brauchen im Trockenbau eine UA-Profil-Verstärkung der Öffnung im Ständerwerk, sonst fehlt der Zarge der Halt.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "k7fuge": {
+    "path": "images/k7fuge.svg",
+    "caption": "Pressfuge, Acrylfuge und Schattenfuge lösen den Übergang zwischen Zargenspiegel und Wand auf drei unterschiedliche Arten.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "kt3steig": {
+    "path": "images/kt3steig.svg",
+    "caption": "Die Schrittmaßregel 2s + a = 59 bis 65 cm verbindet Steigung und Auftritt zu einem bequemen Treppenschritt.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "kt3kopf": {
+    "path": "images/kt3kopf.svg",
+    "caption": "Die Kopfhöhe wird lotrecht über der Stufenvorderkante gemessen und ist an der Deckenkante des Treppenlochs am knappsten.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "kt4schall": {
+    "path": "images/kt4schall.svg",
+    "caption": "Elastomerlager und eine konsequent freigehaltene Fuge entkoppeln den Trittschall der Treppe vom Baukörper.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "kfe3waermeglas": {
+    "path": "images/kfe3waermeglas.svg",
+    "caption": "Mehrfachverglasung mit Gasfüllung und wärmereflektierender Beschichtung trägt heute den Hauptteil des Wärmeschutzes am Fenster.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "kfe3raldicht": {
+    "path": "images/kfe3raldicht.svg",
+    "caption": "Die RAL-Montage verlangt innen eine luftdichtere Ebene als außen, damit Feuchte aus der Fuge nach außen entweichen kann.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  },
+  "kau3sockelanschl": {
+    "path": "images/kau3sockelanschl.svg",
+    "caption": "Die Abdichtung braucht am Sockel klassisch etwa 15 cm Anschlusshöhe über Gelände, um die Spritzwasserzone sicher zu überdecken.",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0"
+  }
+}
