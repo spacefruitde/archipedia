@@ -57,8 +57,8 @@ function nodeSection(id){
   /* DACH-Besonderheiten */
   let dachHTML = '';
   if (n.dach) {
-    const row = (cc,label,txt)=> txt?`<div class="dach-row"><span class="cc">${cc}</span><span>${esc(txt)}</span></div>`:'';
-    dachHTML = `<div class="dach"><p class="sec-title">DACH: nationale Besonderheiten</p>${row('DE','de',n.dach.de)}${row('AT','at',n.dach.at)}${row('CH','ch',n.dach.ch)}</div>`;
+    const row = (cc,label,txt)=> txt?`<div class="dach-row dr-${label}"><span class="cc">${cc}</span><span>${esc(txt)}</span></div>`:'';
+    dachHTML = `<div class="dach"><p class="sec-title">DACH: nationale Besonderheiten</p>${row('DE','de',n.dach.de)}${row('AT','at',n.dach.at)}${row('CH','ch',n.dach.ch)}<p class="dach-hint" hidden></p></div>`;
   }
 
   /* Normen & Quellen */
@@ -174,6 +174,12 @@ const html = `<!DOCTYPE html>
   .home-card{border-left:4px solid var(--line)}
   .hc-k{border-left-color:var(--k)} .hc-e{border-left-color:var(--e)} .hc-x{border-left-color:var(--x)} .hc-p{border-left-color:var(--p)}
   .home-card .counts{font-size:12px;color:var(--muted);margin-top:7px}
+  .landwahl{margin-left:auto;display:flex;gap:6px}
+  .landwahl select{font-size:12px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:99px;padding:4px 9px;max-width:150px}
+  body[data-land="de"] .dach-row.dr-at, body[data-land="de"] .dach-row.dr-ch,
+  body[data-land="at"] .dach-row.dr-de, body[data-land="at"] .dach-row.dr-ch,
+  body[data-land="ch"] .dach-row.dr-de, body[data-land="ch"] .dach-row.dr-at{display:none}
+  .dach-hint{font-size:11.5px;color:var(--muted);margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
   .wordmark{font-family:Georgia,'Times New Roman',serif;font-size:22px;letter-spacing:.3px}
   .wordmark span{color:var(--muted);font-size:12px;font-family:-apple-system,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-left:8px}
   main{padding-top:22px}
@@ -249,6 +255,15 @@ const html = `<!DOCTYPE html>
   <a class="badge b-e" href="#persp-e">Entwurf</a>
   <a class="badge b-x" href="#persp-x">Kontext</a>
   <a class="badge b-p" href="#persp-p">Prozess</a>
+  <span class="landwahl">
+    <select id="land" aria-label="Land wählen">
+      <option value="alle">DACH: alle</option>
+      <option value="de">Deutschland</option>
+      <option value="at">Österreich</option>
+      <option value="ch">Schweiz</option>
+    </select>
+    <select id="region" aria-label="Region wählen" hidden></select>
+  </span>
 </nav></div></header>
 <main class="wrap">
 ${sections}
@@ -266,6 +281,47 @@ ${sections}
     window.scrollTo(0,0);
   }
   window.addEventListener('hashchange', sync); sync();
+
+  /* Land- und Regionswahl (wie eine Sprachauswahl; Auswahl bleibt gespeichert) */
+  var REGIONEN = {
+    de: ['Baden-Württemberg','Bayern','Berlin','Brandenburg','Bremen','Hamburg','Hessen','Mecklenburg-Vorpommern','Niedersachsen','Nordrhein-Westfalen','Rheinland-Pfalz','Saarland','Sachsen','Sachsen-Anhalt','Schleswig-Holstein','Thüringen'],
+    at: ['Burgenland','Kärnten','Niederösterreich','Oberösterreich','Salzburg','Steiermark','Tirol','Vorarlberg','Wien'],
+    ch: ['Aargau','Appenzell Ausserrhoden','Appenzell Innerrhoden','Basel-Landschaft','Basel-Stadt','Bern','Freiburg','Genf','Glarus','Graubünden','Jura','Luzern','Neuenburg','Nidwalden','Obwalden','Schaffhausen','Schwyz','Solothurn','St. Gallen','Tessin','Thurgau','Uri','Waadt','Wallis','Zug','Zürich']
+  };
+  var REGIONWORT = { de: 'Bundesland', at: 'Bundesland', ch: 'Kanton' };
+  var selLand = document.getElementById('land');
+  var selRegion = document.getElementById('region');
+  function fuelleRegionen(land){
+    if (land === 'alle') { selRegion.hidden = true; selRegion.innerHTML = ''; return; }
+    var opts = '<option value="">' + REGIONWORT[land] + ' wählen</option>';
+    REGIONEN[land].forEach(function(r){ opts += '<option value="' + r + '">' + r + '</option>'; });
+    selRegion.innerHTML = opts; selRegion.hidden = false;
+  }
+  function wende(){
+    var land = localStorage.getItem('ao_land') || 'alle';
+    var region = localStorage.getItem('ao_region') || '';
+    document.body.dataset.land = land;
+    selLand.value = land;
+    fuelleRegionen(land);
+    if (region && !selRegion.hidden) selRegion.value = region;
+    document.querySelectorAll('.dach-hint').forEach(function(h){
+      if (land === 'alle') { h.hidden = true; return; }
+      h.hidden = false;
+      h.textContent = region
+        ? 'Ausgewählt: ' + region + '. Landesspezifische Angaben folgen mit der Vertiefung; bis dahin gilt die nationale Systematik.'
+        : 'Gefiltert auf ' + selLand.options[selLand.selectedIndex].text + '. Über „DACH: alle" erscheinen wieder alle drei Länder.';
+    });
+  }
+  selLand.addEventListener('change', function(){
+    localStorage.setItem('ao_land', selLand.value);
+    localStorage.setItem('ao_region', '');
+    wende();
+  });
+  selRegion.addEventListener('change', function(){
+    localStorage.setItem('ao_region', selRegion.value);
+    wende();
+  });
+  wende();
 })();
 </script>
 </body>
