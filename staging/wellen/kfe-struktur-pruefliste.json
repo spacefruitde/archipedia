@@ -1,0 +1,30 @@
+{
+ "kfe5holzschutz": [
+  "Wartungsintervall werkseitige Beschichtung 8 bis 15 Jahre",
+  "Wartungsintervall Lasur 3 bis 5 Jahre"
+ ],
+ "kfe5kammer": [
+  "Kammernzahl Kunststoffprofil 5 bis 8",
+  "Bautiefe Kunststoffprofil 70 bis 90 mm",
+  "Uf-Wert Kunststoffprofil 0,9 bis 1,4 W/m²K"
+ ],
+ "kfe5thermtrenn": [
+  "Stegbreite thermische Trennung 20 bis 40 mm",
+  "Uf-Wert Aluminiumprofil mit thermischer Trennung 1,0 bis 2,2 W/m²K"
+ ],
+ "kfe4drehkipp": [
+  "Verriegelungspunkte Dreh-Kipp-Beschlag 4 bis 8"
+ ],
+ "kfe5abstandhalter": [
+  "linearer Wärmedurchgangskoeffizient Randverbund in W/mK"
+ ],
+ "kfe5lamelle": [
+  "Lamellenbreite Raffstore 80 bis 90 mm"
+ ],
+ "kfe5gewebe": [
+  "Offenheitsgrad Screengewebe 1 bis 10 Prozent"
+ ],
+ "kfe4banknatur": [
+  "Materialstärke Naturstein- und Kunststeinbank 2 bis 3 cm"
+ ]
+}

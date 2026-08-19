@@ -1,0 +1,322 @@
+[
+ {
+  "id": "kfe4rahmholz",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3rahmen",
+  "t": "Holzrahmen",
+  "t1": "Holzrahmen bestehen aus mehreren verleimten Lamellen und überzeugen durch geringe Wärmeleitfähigkeit und angenehme Haptik am Griff. Die sichtbare Maserung und die Möglichkeit farbiger Lasuren machen Holz zum Material der Wahl, wo Behaglichkeit und Ökobilanz zählen. Der Oberflächenschutz verlangt dafür wiederkehrende Pflege, die viele Bauherren unterschätzen.",
+  "t2": "Die Wahl fällt selten am Material selbst, sondern an der Bereitschaft, Oberflächen im Zyklus mehrerer Jahre nachzubehandeln, denn ungeschützt verwittert Holz sichtbar und ungleichmäßig. Massivholzlamellen und mehrschichtig verleimte Profile unterscheiden sich in der Formstabilität, Leimholz arbeitet weniger als Vollholz und ist deshalb der heutige Standard. Häufigster Fehler ist, dunkle Lasuren an sonnenexponierten Südfassaden zu wählen, weil dunkle Oberflächen sich stärker aufheizen und die Lasur schneller altert. Kostenlogik: Holzrahmen liegen preislich meist zwischen Kunststoff und Aluminium, ihre eigentlichen Folgekosten entstehen über die Nutzungsdauer durch den Pflegeaufwand, nicht durch die Anschaffung. Wer den Pflegeaufwand realistisch mit dem Bauherrn bespricht, vermeidet Enttäuschung nach den ersten verwitterten Jahren.",
+  "t3": "Verwendete Holzarten reichen von heimischen Nadelhölzern wie Kiefer und Fichte bis zu widerstandsfähigeren Laubhölzern wie Eiche und Meranti, die Wahl beeinflusst Härte und Verwitterungsverhalten der Oberfläche. Rahmenprofile werden meist aus mehreren, gegenläufig verleimten Lamellen gefertigt, um Verzug und Rissbildung gegenüber Vollholz deutlich zu reduzieren. In der Ausschreibung sind Holzart, Lamellenaufbau und das vorgesehene Beschichtungssystem getrennt zu benennen. Ab hier: Systemunterlagen des Profilherstellers und Musterbemusterung der Oberfläche.",
+  "ln": ["ema3patina", "kma3vollholz"]
+ },
+ {
+  "id": "kfe5holzschutz",
+  "p": "k",
+  "lv": 5,
+  "pa": "kfe4rahmholz",
+  "t": "Oberflächenschutz und Wartung",
+  "t1": "Holzoberflächen im Außenbereich brauchen einen Schutzanstrich, der UV-Strahlung, Feuchte und Temperaturwechsel abfängt, bevor sie das Holz selbst angreifen. Lasuren lassen die Maserung sichtbar, Lacke und Deckbeschichtungen verbergen sie zugunsten einer gleichmäßigeren Fläche. Ohne regelmäßige Nachbehandlung verwittert die Oberfläche ungleichmäßig, zuerst an sonnen- und wetterexponierten Seiten.",
+  "t2": "Die Wahl zwischen Lasur und Deckbeschichtung ist auch eine Wartungsfrage, denn Lasuren lassen sich leichter partiell ausbessern, während Deckbeschichtungen bei Beschädigung meist flächig erneuert werden müssen. Häufigster Fehler ist, das Wartungsintervall des gewählten Systems dem Bauherrn nicht verbindlich mitzuteilen, sodass die erste sichtbare Verwitterung als Mangel statt als erwartbarer Pflegefall wahrgenommen wird. Werkseitig industriell aufgebrachte Beschichtungssysteme halten in der Regel deutlich länger als eine nachträgliche Bemusterung vor Ort, weil Schichtaufbau und Trocknung kontrolliert erfolgen. Kostenlogik: Ein hochwertiges Beschichtungssystem verlängert die Wartungsintervalle spürbar und amortisiert den Mehrpreis über die Nutzungsdauer, ein einfacher Anstrich verlangt dafür häufigere, aber günstigere Nachbehandlung.",
+  "t3": "Werkseitige Beschichtungssysteme erreichen je nach Aufbau Wartungsintervalle von etwa 8 bis 15 Jahren, einfache Lasuren verlangen häufiger eine Nachbehandlung, oft bereits nach 3 bis 5 Jahren. Die Schichtdicke industrieller Beschichtungen liegt meist im Bereich weniger hundert Mikrometer, aufgebaut in mehreren Grundier- und Deckschichten. In der Ausschreibung sind Beschichtungsart, Schichtaufbau und das vom Hersteller zugesicherte Wartungsintervall getrennt zu benennen. Ab hier: Systemunterlagen des Beschichtungsherstellers und Wartungsvertrag.",
+  "pruefen": ["Wartungsintervall werkseitige Beschichtung 8 bis 15 Jahre", "Wartungsintervall Lasur 3 bis 5 Jahre"],
+  "ln": ["ema3lebensdauer"]
+ },
+ {
+  "id": "kfe4rahmholzalu",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3rahmen",
+  "t": "Holz-Aluminium-Rahmen",
+  "t1": "Holz-Aluminium-Rahmen verbinden eine raumseitige Holzschale mit einer wetterseitigen Aluminiumschale und vereinen so die Behaglichkeit von Holz mit der Wetterfestigkeit von Metall. Zwischen beiden Schalen liegt ein Luftraum, der zugleich thermisch trennt und Wartungszugang zur Holzoberfläche von außen erübrigt. Der Aufbau ist konstruktiv aufwändiger als ein einschaliges System und entsprechend teurer.",
+  "t2": "Der Charme des Systems liegt darin, dass die wartungsintensive Holzoberfläche komplett innen bleibt, während außen eine pflegearme, farbstabile Aluminiumschale Wind und Wetter trägt. Häufigster Fehler ist, die beiden Schalen bautechnisch als ein Bauteil zu behandeln, obwohl sie unterschiedliche Wärmeausdehnung haben und im Detail eigene Bewegungsspielräume brauchen. Die Aluminiumschale lässt sich zudem in nahezu jeder Farbe beschichten, ohne dass dies Einfluss auf die Innenraumwirkung des Holzes hat, ein Vorteil bei Fassaden mit strengen Farbvorgaben. Kostenlogik: Das System liegt in der Regel über reinen Holz- oder Kunststoffrahmen, rechtfertigt sich aber dort, wo lange Wartungsintervalle und eine warme Innenanmutung gleichermaßen gefordert sind. Wer die Farbwahl der Außenschale früh mit der Fassadenplanung abstimmt, vermeidet spätere Änderungswünsche am bereits bemusterten Profil.",
+  "ln": ["ema3materialfarbe", "kma3ne"]
+ },
+ {
+  "id": "kfe4rahmkunst",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3rahmen",
+  "t": "Kunststoffrahmen",
+  "t1": "Kunststoffrahmen bestehen aus mehrkammerigen Hohlprofilen, die ohne weitere Behandlung wetterfest, formstabil und wartungsarm bleiben. Sie sind heute der mengenmäßige Standard im Wohnungsbau, weil sie ein gutes Verhältnis aus Preis, Dämmwert und Pflegeaufwand bieten. Ihre Ansichtsbreiten wirken im Vergleich zu Aluminium meist massiver.",
+  "t2": "Die Kammerzahl der Hohlprofile ist die zentrale Stellschraube für den Wärmedurchgangskoeffizienten, mehr Kammern bedeuten in der Regel einen niedrigeren Uf-Wert, aber auch eine größere Profilbautiefe. Häufigster Fehler ist, ein Standardprofil unbesehen auch bei dunklen Farbtönen einzusetzen, denn dunkle Oberflächen erwärmen sich stärker und verlangen verstärkte Kammern oder eine besondere Stabilisierung gegen Verzug. Kunststoffprofile lassen sich zunehmend foliert oder lackiert in vielen Farben liefern, was den früheren Nachteil der reinen Weißoptik weitgehend aufgehoben hat. Kostenlogik: Kunststoffrahmen sind meist das günstigste der vier Systeme in der Anschaffung, ihre gestalterische Flexibilität bei Sonderfarben bleibt aber begrenzt. Wer hohe Farbtreue oder Dekorfolien wählt, sollte die Aufpreisstruktur früh mit dem Fensterbauer klären, da sie stark systemabhängig ist.",
+  "ln": ["kbe3energ", "eor3modul"]
+ },
+ {
+  "id": "kfe5kammer",
+  "p": "k",
+  "lv": 5,
+  "pa": "kfe4rahmkunst",
+  "t": "Kammersystem und Bautiefe",
+  "t1": "Kunststoffprofile bestehen aus mehreren durch Stege getrennten Hohlkammern, deren Anzahl und Anordnung den Wärmedurchgang und die Formstabilität des Rahmens bestimmen. Mehr Kammern bedeuten in der Regel eine bessere Dämmung, aber auch eine größere Profilbautiefe und ein höheres Gewicht. Manche Kammern nehmen zusätzlich Stahlverstärkungen auf, die dem sonst biegeweichen Kunststoff Stabilität verleihen.",
+  "t2": "Die Kammerzahl allein sagt wenig, entscheidend ist ihre Anordnung im Profilquerschnitt und ob mittlere Kammern gezielt gedämmt oder mit Verstärkung gefüllt sind. Häufigster Fehler ist, allein die Kammerzahl aus dem Prospekt zu vergleichen, ohne die tatsächliche Bautiefe und die Position der Stahlverstärkung zu prüfen, denn zwei Profile mit gleicher Kammerzahl können sehr unterschiedliche Uf-Werte erreichen. Bei großformatigen oder dunkel folierten Flügeln ist die Stahlverstärkung nicht optional, sondern trägt wesentlich zur Formstabilität gegen Wind- und Eigengewichtslasten bei. Kostenlogik: Zusätzliche Kammern und Verstärkungen verteuern das Profil nur moderat, ihr Fehlen bei großen Elementen führt aber zu Durchbiegung und undichten Flügeln, was teure Nachbesserung nach sich zieht.",
+  "t3": "Gängige Kunststoffprofile werden mit fünf bis acht Kammern angeboten, die Bautiefe liegt dabei meist zwischen etwa 70 und 90 mm. Der erreichbare Uf-Wert bewegt sich je nach Kammernzahl und Verglasungsaufnahme zwischen ungefähr 0,9 und 1,4 W/m²K. Stahlverstärkungen sind bei dunklen Folienoberflächen und bei Flügelbreiten über den systembedingten Grenzwerten des Profilherstellers zwingend vorzusehen. In der Ausschreibung sind Kammernzahl, Bautiefe, geforderter Uf-Wert und die Notwendigkeit einer Stahlverstärkung getrennt zu benennen. Ab hier: Systemunterlagen und statischer Nachweis des Profilherstellers.",
+  "pruefen": ["Kammernzahl Kunststoffprofil 5 bis 8", "Bautiefe Kunststoffprofil 70 bis 90 mm", "Uf-Wert Kunststoffprofil 0,9 bis 1,4 W/m²K"],
+  "ln": ["kfe3profil"]
+ },
+ {
+  "id": "kfe4rahmalu",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3rahmen",
+  "t": "Aluminiumrahmen",
+  "t1": "Aluminiumrahmen bestehen aus stranggepressten Profilen, die ohne große Bautiefe hohe Stabilität erreichen und deshalb die schlanksten Ansichten aller Rahmenmaterialien ermöglichen. Ohne thermische Trennung im Profilkern würde das Metall die Wärme jedoch ungebremst nach außen leiten. Aluminium ist deshalb vor allem dort gefragt, wo große, filigrane Verglasungen im Vordergrund stehen.",
+  "t2": "Die schlanke Ansicht ist der eigentliche Grund für Aluminium, sie erlaubt bei gleicher Rohbauöffnung mehr Glasfläche als Holz oder Kunststoff, was besonders bei großformatigen Schiebeelementen den Ausschlag gibt. Häufigster Fehler ist, die thermische Trennung im Profilkern als selbstverständlich vorauszusetzen und im Leistungsverzeichnis nicht als eigene Position zu prüfen, obwohl ihre Ausführung den Uf-Wert maßgeblich bestimmt. Aluminium ist zudem formstabil über große Profillängen, was es zum bevorzugten Material für Hebeschiebeelemente und pfostenriegelnahe Konstruktionen macht. Kostenlogik: Aluminiumrahmen liegen meist über Holz- und Kunststoffsystemen, der Mehrpreis wird häufig über die größere realisierbare Glasfläche und die lange, wartungsarme Lebensdauer der Oberfläche gerechtfertigt. Wer schlanke Ansichten fordert, sollte parallel das Gewicht der geplanten Verglasung prüfen, denn schwere Dreifachscheiben verlangen auch bei Aluminium ein Mindestmaß an Profiltiefe.",
+  "ln": ["kfa3pfsystem", "eli3anteil"]
+ },
+ {
+  "id": "kfe5thermtrenn",
+  "p": "k",
+  "lv": 5,
+  "pa": "kfe4rahmalu",
+  "t": "Thermische Trennung im Aluminiumprofil",
+  "t1": "Zwischen der inneren und äußeren Aluminiumschale sitzt ein Steg aus Kunststoff, der die beiden Metallteile mechanisch verbindet, aber thermisch trennt. Ohne diesen Steg würde das durchgehende Metall zur massiven Wärmebrücke, mit ihm sinkt der Wärmedurchgang des Rahmens deutlich. Die Stegbreite ist eine der wenigen Stellschrauben, mit denen sich der Uf-Wert eines Aluminiumprofils gezielt verbessern lässt.",
+  "t2": "Je breiter der thermische Steg, desto niedriger der erreichbare Uf-Wert, allerdings wächst mit der Stegbreite auch die gesamte Profilbautiefe, was wiederum die schlanke Aluminium-Optik einschränkt. Häufigster Fehler ist, ein passivhaustaugliches Profil zu fordern, ohne zu prüfen, ob die dafür nötige Stegbreite überhaupt zur gewünschten Ansichtsbreite passt. Systemhersteller bieten die thermische Trennung meist in mehreren Stufen an, sodass sich Wärmeschutz und Ansichtsbreite gegeneinander abwägen lassen, statt eine pauschale Höchststufe zu bestellen. Kostenlogik: Eine breitere thermische Trennung verteuert das Profil moderat, spart aber über die Nutzungsdauer Heizenergie, die Amortisation hängt stark von der Fassadenorientierung und dem Fensteranteil ab.",
+  "t3": "Übliche Stegbreiten der thermischen Trennung liegen zwischen etwa 20 und 40 mm, wobei breitere Stege den Uf-Wert spürbar senken. Aluminiumprofile mit thermischer Trennung erreichen je nach Stegbreite und Kammernzahl Uf-Werte zwischen etwa 1,0 und 2,2 W/m²K. Der Nachweis erfolgt rechnerisch nach dem Berechnungsverfahren für Rahmenprofile, unabhängig geprüfte Systemzertifikate sind in der Ausschreibung vorzuziehen. In der Ausschreibung sind Stegbreite, Kammernzahl und der geforderte Uf-Wert getrennt vom reinen Systemnamen anzugeben. Ab hier: Systemzertifikat des Profilherstellers und Wärmedurchgangsberechnung.",
+  "pruefen": ["Stegbreite thermische Trennung 20 bis 40 mm", "Uf-Wert Aluminiumprofil mit thermischer Trennung 1,0 bis 2,2 W/m²K"],
+  "ln": ["kab3konstruktiv"]
+ },
+ {
+  "id": "kfe4drehkipp",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3fluegel",
+  "t": "Dreh-Kipp-Fenster",
+  "t1": "Der Dreh-Kipp-Beschlag lässt einen einzigen Flügel wahlweise ganz aufschwenken oder nur kippen und ist damit der vielseitigste Standardbeschlag im Wohnungsbau. Für die Kippstellung genügt eine Vierteldrehung des Griffs, ohne die Verriegelungspunkte an Rahmen und Flügel umständlich einzeln zu bedienen. Die Mechanik steckt komplett im Profil und bleibt bis auf den Griff unsichtbar.",
+  "t2": "Der Beschlag verbindet zwei Funktionen, die sonst zwei getrennte Bauteile bräuchten, große Öffnungsweite zum Lüften und Reinigen sowie schmale Kippöffnung für dauerhafte Spaltlüftung ohne erhöhtes Einbruchrisiko. Häufigster Fehler ist, bei sehr breiten oder hohen Flügeln den Standardbeschlag ohne zusätzliche Verriegelungspunkte einzusetzen, wodurch sich der Flügel bei starkem Wind verzieht und schwergängig wird. Mit steigendem Flügelgewicht braucht der Beschlag mehr Verriegelungspunkte und robustere Bänder, die Grenze liegt systemabhängig. Kostenlogik: Der Dreh-Kipp-Beschlag selbst ist ein vergleichsweise günstiger Bauteil, die Mehrkosten bei großen Flügeln entstehen durch zusätzliche Verriegelungspunkte und verstärkte Bänder, nicht durch den Grundmechanismus.",
+  "t3": "Serienmäßige Dreh-Kipp-Beschläge verfügen meist über vier bis acht Verriegelungspunkte am Flügelumfang, bei größeren oder schwereren Flügeln steigt die Zahl der Punkte zur gleichmäßigen Krafteinleitung. Der Öffnungsspalt in Kippstellung liegt üblicherweise bei wenigen Zentimetern, ausreichend für Dauerlüftung, aber deutlich unter der vollen Drehöffnung. In der Ausschreibung sind Zahl der Verriegelungspunkte, maximales Flügelgewicht des Beschlags und die Kippbegrenzung getrennt zu benennen. Ab hier: Beschlagshersteller und Systemfreigabe für das jeweilige Flügelgewicht.",
+  "pruefen": ["Verriegelungspunkte Dreh-Kipp-Beschlag 4 bis 8"],
+  "ln": ["k4anschlag"]
+ },
+ {
+  "id": "kfe4hebeschiebe",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3fluegel",
+  "t": "Hebeschiebeelemente",
+  "t1": "Hebeschiebeelemente heben den schweren Flügel beim Öffnen leicht an, sodass er reibungsarm auf Laufwagen zur Seite gleitet, und senken ihn beim Verriegeln wieder dicht gegen den Rahmen ab. Sie öffnen große, schwere Glasflächen fast schwellenlos und sind deshalb Standard bei raumhohen Verbindungen zur Terrasse. Ihr Bedienkomfort hängt direkt von der Qualität der Laufwagen und der Bodenschiene ab.",
+  "t2": "Der entscheidende Unterschied zu einer einfachen Schiebetür liegt im Hub-Mechanismus, der den Flügel beim Öffnen anhebt und beim Schließen wieder in die Dichtebene absenkt, wodurch trotz großer Fläche eine zuverlässige Dichtheit entsteht. Häufigster Fehler ist, die Tragkraft der Laufwagen unterhalb der tatsächlich geplanten Flügelgröße zu bestellen, was zu schwergängiger Bedienung und vorzeitigem Verschleiß führt. Die Bodenschiene muss zugleich Wasser ableiten und barrierefreie Nutzung ermöglichen, ein Zielkonflikt, der eigens gelöst werden muss. Kostenlogik: Hebeschiebeelemente sind deutlich teurer als Dreh-Kipp-Fenster gleicher Fläche, der Aufpreis steckt vor allem in Laufwagen, Schienensystem und der größeren Profiltiefe für schwere Scheiben.",
+  "t3": "Laufwagen für Hebeschiebeelemente werden nach ihrer Tragkraft klassiert und tragen je nach System und Zahl der Laufwagen deutlich mehr Gewicht als ein Dreh-Kipp-Beschlag, maßgeblich sind die vom Hersteller freigegebene Flügelbreite und das Scheibengewicht. Die Bodenschiene wird meist als flach überfahrbare Schwelle ausgeführt, ihre Entwässerung erfolgt über ein eigenes Gefälle innerhalb der Schiene. In der Ausschreibung sind Systembreite der Laufschiene, Tragkraft der Laufwagen und die Schwellenausbildung getrennt zu benennen. Ab hier: Beschlagshersteller und statischer Nachweis der Laufwagentragkraft.",
+  "ln": ["k4null"]
+ },
+ {
+  "id": "kfe4fix",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3fluegel",
+  "t": "Festverglasung und Fixfelder",
+  "t1": "Ein Fixfeld ist fest im Rahmen verglast und lässt sich nicht öffnen, wodurch der Rahmenanteil an der Fassadenfläche sinkt und mehr Glas sichtbar bleibt. Fixverglasungen werden häufig mit einem daneben liegenden, öffenbaren Flügel kombiniert, um Aussicht und Lüftung zu trennen. Ohne Öffnungsmechanik entfällt zugleich ein möglicher Schwachpunkt für Luftdichtheit und Einbruchsicherheit.",
+  "t2": "Die Kombination aus einem großen Fixfeld und einem kleineren, öffenbaren Flügel ist oft wirtschaftlicher und gestalterisch ruhiger als ein einzelner, riesiger Dreh-Kipp-Flügel, weil das Fixfeld ohne Beschlag auskommt und schlanker gerahmt werden kann. Häufigster Fehler ist, ein Fixfeld so groß zu planen, dass spätere Reinigung von außen ohne Gerüst oder Reinigungsgondel unmöglich wird, besonders in oberen Geschossen. Fixverglasungen erreichen oft niedrigere Uw-Werte als vergleichbare öffenbare Flügel, weil der umlaufende Falz und die Beschlagsnut entfallen, die sonst Wärmebrücken bilden. Kostenlogik: Fixverglasung ist pro Quadratmeter günstiger als ein öffenbarer Flügel, wird aber unwirtschaftlich, wenn ihretwegen zusätzliche Reinigungstechnik am Gebäude nötig wird.",
+  "ln": ["eli3anteil"]
+ },
+ {
+  "id": "kfe4randverbund",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3waermeglas",
+  "t": "Randverbund und warme Kante",
+  "t1": "Der Randverbund hält die Scheiben eines Isolierglases im festgelegten Abstand und dichtet den Scheibenzwischenraum gegen Feuchte und Gasverlust ab. An dieser schmalen Kante trifft warme Innenluft auf kalte Außenluft, weshalb der Randverbund einen spürbaren Anteil am Wärmeverlust der gesamten Verglasung hat. Moderne, thermisch verbesserte Randverbundsysteme werden deshalb als warme Kante bezeichnet.",
+  "t2": "Ein einfacher Aluminiumabstandhalter leitet Wärme sehr gut, genau das ist am Scheibenrand unerwünscht, weshalb er zur klassischen Schwachstelle jeder sonst gut gedämmten Verglasung wird. Häufigster Fehler ist, den Ug-Wert der Scheibenmitte als alleinigen Qualitätsmaßstab zu betrachten und den linearen Wärmeverlust am Rand, der in die Berechnung des Uw-Werts einfließt, zu übersehen. Warme Kanten aus Kunststoff oder Edelstahl reduzieren diesen Randverlust deutlich und mindern zugleich das Kondensationsrisiko am inneren Scheibenrand im Winter. Kostenlogik: Eine warme Kante kostet gegenüber dem klassischen Aluminiumabstandhalter nur wenig mehr, wirkt sich aber messbar auf Uw-Wert und Kondensatrisiko aus, weshalb sie inzwischen bei hochwertiger Verglasung Standard ist.",
+  "ln": ["kab3geometrisch"]
+ },
+ {
+  "id": "kfe5abstandhalter",
+  "p": "k",
+  "lv": 5,
+  "pa": "kfe4randverbund",
+  "t": "Abstandhalterprofile im Vergleich",
+  "t1": "Abstandhalterprofile aus Aluminium sind der klassische, aber thermisch schwächste Standard, Profile aus Edelstahl oder verstärktem Kunststoff bilden die sogenannte warme Kante mit deutlich geringerem Wärmeverlust am Rand. Die Wahl beeinflusst nicht nur den Wärmeschutz, sondern auch die Kondensatneigung direkt am inneren Scheibenrand. Sichtbar wird der Unterschied vor allem bei schmalen Sprossen oder sehr schlanken Rahmenprofilen.",
+  "t2": "Der Wärmeverlust am Randverbund wird als linearer Wärmedurchgangskoeffizient ausgedrückt und getrennt vom Ug-Wert der Scheibenmitte betrachtet, weshalb zwei Scheiben mit identischem Ug-Wert unterschiedliche Uw-Werte ergeben können. Häufigster Fehler ist, den Randverbund im Leistungsverzeichnis nicht gesondert zu benennen und dem Glaslieferanten damit die Wahl zwischen warmer und klassischer Kante zu überlassen. Bei Sprossenfeldern und schmalen Scheiben wirkt sich der Randverbund überproportional stark aus, weil der Randbereich einen größeren Anteil an der Gesamtfläche einnimmt. Kostenlogik: Der Aufpreis für eine warme Kante ist gering im Verhältnis zur Gesamtscheibe, rechnet sich aber besonders bei kleinteiligen oder sprossenreichen Verglasungen überdurchschnittlich.",
+  "t3": "Der lineare Wärmedurchgangskoeffizient des Randverbunds liegt bei klassischen Aluminiumabstandhaltern deutlich über dem von warmen Kanten aus Edelstahl oder Kunststoff, die Werte werden in W/mK angegeben und fließen in die Uw-Berechnung des Gesamtfensters ein. Die Wahl des Randverbunds beeinflusst zudem die Taupunkttemperatur am inneren Scheibenrand und damit das Risiko von Kondensatbildung im Winter. In der Ausschreibung ist der Randverbundtyp als eigene Position neben Scheibenaufbau und Rahmenprofil zu benennen, ein pauschaler Verweis auf Dreifachverglasung genügt nicht. Ab hier: Systemunterlagen des Glasherstellers und Uw-Berechnung nach Norm.",
+  "pruefen": ["linearer Wärmedurchgangskoeffizient Randverbund in W/mK"],
+  "ln": ["kma3glasart"]
+ },
+ {
+  "id": "kfe4montagewand",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3daemmkeil",
+  "t": "Montage in der Wandebene",
+  "t1": "Bei der klassischen Montage in der Wandebene sitzt der Fensterrahmen innerhalb der tragenden Wand, meist mittig oder leicht zur Innenseite versetzt. Diese Lage ist am einfachsten auszuführen und verlangt keine zusätzliche Konsole oder Unterkonstruktion. Wärmebrückentechnisch ist sie jedoch die ungünstigste der drei Montagelagen, weil kaum Dämmstoff vor dem Rahmen liegt.",
+  "t2": "Die Montage in der Wandebene bleibt die wirtschaftlichste und am einfachsten zu kontrollierende Lösung, weil sie ohne zusätzliche Bauteile auskommt und in praktisch jedem Wandaufbau funktioniert. Häufigster Fehler ist, diese Standardlage bei stark gedämmten Wandaufbauten unreflektiert weiterzuverwenden, obwohl der umlaufende Wärmebrückenverlust hier höher ausfällt als bei vorgesetzter Montage. Bei innen gedämmten Bestandswänden oder einschaligem Mauerwerk ohne zusätzliches Dämmsystem bleibt sie oft die einzig sinnvolle Option, weil eine vorgesetzte Montage dort keinen Dämmstoff zum Einbinden vorfindet. Kostenlogik: Die Montage in der Wandebene ist die günstigste der drei Lagen, ihr energetischer Nachteil wird bei Gebäuden mit ohnehin bescheidenem Dämmstandard oft in Kauf genommen.",
+  "ln": ["kab3konstruktiv"]
+ },
+ {
+  "id": "kfe4montagevorgesetzt",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3daemmkeil",
+  "t": "Vorgesetzte Montage mit Konsolen",
+  "t1": "Bei der vorgesetzten Montage rückt der Rahmen aus der tragenden Wand heraus in die Dämmebene vor, sodass er von allen Seiten Dämmstoff umschließt und Wärmebrücken deutlich reduziert. Die Lasten des Fensters trägt dabei nicht mehr die Wand direkt, sondern eine oder mehrere Konsolen, die bis in den tragenden Untergrund reichen. Bei Wärmedämmverbundsystemen ist diese Lage heute weitgehend Standard.",
+  "t2": "Der energetische Vorteil ist deutlich messbar, weil das Rahmenprofil ringsum von Dämmstoff eingefasst wird statt an der kälteren Wandoberfläche zu sitzen. Häufigster Fehler ist, die zusätzliche Konsole statisch zu unterschätzen, besonders bei großen, schweren Elementen, deren Eigengewicht und Windlast vollständig über die Konsole in die Wand eingeleitet werden müssen. Die vorgesetzte Lage verlangt zudem eine durchgängige, ungestörte Anschlussfuge zwischen Rahmen, Konsole und Dämmebene, da hier sonst eine neue Wärmebrücke entsteht, die den gewonnenen Vorteil wieder auffrisst. Kostenlogik: Konsolen und der zusätzliche Befestigungsaufwand verteuern die Montage gegenüber der Wandebene, der eingesparte Heizwärmebedarf gleicht dies über die Nutzungsdauer meist aus.",
+  "ln": ["kfa2wdvs"]
+ },
+ {
+  "id": "kfe5konsole",
+  "p": "k",
+  "lv": 5,
+  "pa": "kfe4montagevorgesetzt",
+  "t": "Montagekonsolen: Statik und Ausführung",
+  "t1": "Montagekonsolen leiten das Eigengewicht des Fensters sowie Wind- und Bedienlasten von der vorgesetzten Position bis in die tragende Wand ein. Sie bestehen meist aus Metall und werden punktuell unter dem Rahmen sowie seitlich an den Ecken angeordnet. Ihre Zahl und Tragfähigkeit richten sich nach Elementgewicht und Fenstergröße, nicht nach einer pauschalen Regel.",
+  "t2": "Je größer und schwerer das Element, desto mehr Konsolen sind nötig, wobei die Lastverteilung so erfolgen muss, dass keine einzelne Konsole überlastet wird, während andere kaum tragen. Häufigster Fehler ist, die Konsolenzahl allein nach der Fensterbreite zu schätzen, statt einen statischen Nachweis für das tatsächliche Elementgewicht und die Windlast der Fassadenseite einzuholen. Konsolen aus wärmetechnisch optimierten Materialien vermeiden zusätzliche Wärmebrücken, die eine einfache Stahlkonsole an genau der Stelle erzeugen würde, an der die vorgesetzte Montage sie eigentlich vermeiden sollte. Kostenlogik: Konsolen sind ein kleiner Kostenposten gegenüber dem Gesamtelement, ihre Unterdimensionierung aber führt zu Durchbiegung, Klemmen der Flügel oder im schlimmsten Fall zum Versagen der Befestigung.",
+  "t3": "Die zulässige Traglast je Konsole wird vom Hersteller angegeben und ist gegen das tatsächliche Elementgewicht sowie die anzusetzende Windlast der jeweiligen Fassadenseite zu prüfen. Bei großformatigen Elementen sind mehrere Konsolen über die Rahmenbreite verteilt vorzusehen, die genaue Teilung ergibt sich aus dem statischen Nachweis. Konsolen aus thermisch getrennten oder wärmetechnisch optimierten Werkstoffen sind gegenüber einfachen Stahlwinkeln zu bevorzugen, um die Wärmebrückenwirkung der vorgesetzten Montage nicht zu unterlaufen. In der Ausschreibung sind Konsolentyp, zulässige Traglast je Konsole und die Anzahl der Konsolen je Element auszuweisen. Ab hier: Statischer Nachweis des Konsolensystems und Ausführungsdetail des Fassadenbauers.",
+  "ln": ["ema3lastfluss"]
+ },
+ {
+  "id": "kfe4montagevorgemauert",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3daemmkeil",
+  "t": "Vorgemauerte Montage in Vormauerschale",
+  "t1": "Bei zweischaligem Mauerwerk mit Vormauerschale, etwa Klinkerfassaden, sitzt das Fenster meist in der Dämmebene zwischen tragender Innenschale und vorgemauerter Außenschale. Diese Lage schützt den Rahmen vor direkter Bewitterung durch die vorgesetzte Schale, verlangt aber ein eigenes Anschlusskonzept an die Luftschicht dahinter. Sie ist konstruktiv anspruchsvoller als eine Fassade mit Wärmedämmverbundsystem, weil zwei unabhängig bewegliche Schalen aufeinandertreffen.",
+  "t2": "Der Anschluss muss sowohl die tragende Konsole in der Innenschale verankern als auch die seitliche Fuge zur beweglichen Vormauerschale dauerhaft dicht und bewegungsfähig halten, denn Klinkerschalen dehnen sich temperaturabhängig anders als das Fensterelement. Häufigster Fehler ist, die Fuge zur Vormauerschale wie eine starre Laibung zu behandeln, obwohl sie Bewegungen der Vorsatzschale aufnehmen muss, ohne dass Wasser eindringt. Die Lage des Fensters innerhalb der Dämmebene sollte mit der geplanten Auflagerhöhe der Vormauerschale koordiniert werden, damit Konsole und Mauerwerksauflager sich nicht gegenseitig behindern. Kostenlogik: Die vorgemauerte Montage ist aufwändiger als eine Montage vor einem Wärmedämmverbundsystem, weil sie eine eigene, bewegungsfähige Anschlussfuge und meist einen zusätzlichen Sturzträger über der Öffnung braucht.",
+  "ln": ["kfa2sicht"]
+ },
+ {
+  "id": "kfe4laibinnen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3laibung",
+  "t": "Innenlaibung: Trockenbau und Putz",
+  "t1": "Innenseitig trifft die Fensterlaibung meist auf Trockenbau oder mineralischen Putz, beide Materialien verlangen einen eigenen Anschluss an die Luftdichtheitsebene der Montagefuge. Die Laibungstiefe bestimmt zugleich, wie viel Licht seitlich einfällt und wie der Blick auf das Fenster wirkt. Ein sauber gearbeiteter Innenputz oder eine präzise Trockenbaukante machen den Unterschied zwischen einem ruhigen und einem unruhigen Fensterbild.",
+  "t2": "Bei Trockenbaulaibungen wird die innere Luftdichtheitsebene meist mit der Dampfbremse oder Folie der angrenzenden Wand verklebt, bei Putzlaibungen übernimmt ein Anputzprofil oder Kompriband dieselbe Aufgabe. Häufigster Fehler ist, den Übergang zwischen Fensterrahmen und Laibungskante ohne definiertes Kantenprofil auszuführen, wodurch Risse an genau dieser stark beanspruchten Stelle entstehen. Die Laibungstiefe sollte früh mit der geplanten Innenfensterbank abgestimmt werden, da beide Bauteile an derselben Kante zusammentreffen. Kostenlogik: Eine sauber geplante Innenlaibung kostet in der Planung kaum mehr, spart aber Nacharbeit an Rissen und ungenauen Kanten, die sich sonst erst nach dem ersten Winter zeigen.",
+  "ln": ["kma3putz"]
+ },
+ {
+  "id": "kfe4laibaussen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3laibung",
+  "t": "Außenlaibung: Wärmedämmverbundsystem",
+  "t1": "Bei Fassaden mit Wärmedämmverbundsystem wird die Außenlaibung meist mit einem schmalen Laibungsdämmstreifen und einem eigenen Laibungsputz ausgeführt, der die Dämmebene der Fassade lückenlos um die Fensteröffnung führt. Der Anschluss an den Fensterrahmen erfolgt über ein Anputzprofil mit integriertem Dichtband, das Bewegungen zwischen Putz und Rahmen aufnimmt. Wird die Laibungsdämmung zu dünn ausgeführt, entsteht genau dort eine sichtbare Wärmebrücke.",
+  "t2": "Die Laibungsdämmung sollte in Dicke und Dämmwert auf die Hauptdämmung der Fassade abgestimmt sein, eine zu dünne Laibungsdämmung schwächt den ansonsten guten Dämmstandard der Fläche spürbar ab. Häufigster Fehler ist, das Anputzprofil ohne ausreichende Überlappung zur Fassadendämmung einzubauen, wodurch am Übergang Risse und Wärmebrücken gleichzeitig entstehen. Bei tiefen Laibungen, etwa bei vorgesetzter Fenstermontage, wird die Laibungsdämmung selbst zum tragenden Gestaltungselement der Fassadenöffnung. Kostenlogik: Eine ausreichend dicke Laibungsdämmung kostet kaum mehr als eine knapp bemessene, verhindert aber sichtbare Schimmelbildung an der kältesten Stelle der Laibung im Winter.",
+  "ln": ["kfa3daemmwdvs"]
+ },
+ {
+  "id": "kfe4laibvhf",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3laibung",
+  "t": "Außenlaibung: hinterlüftete Fassade",
+  "t1": "Bei vorgehängten hinterlüfteten Fassaden muss die Laibung die Hinterlüftungsebene um die Fensteröffnung herumführen, ohne den Luftstrom zu unterbrechen oder Wasser in die Dämmebene zu leiten. Meist übernimmt ein spezielles Laibungsblech oder ein Laibungsprofil diese Aufgabe und schließt zugleich die Bekleidung sauber an den Rahmen an. Der Anschluss ist konstruktiv anspruchsvoller als bei einem Wärmedämmverbundsystem, weil hier eine belüftete Luftschicht statt einer massiven Putzebene endet.",
+  "t2": "Die Herausforderung liegt darin, die Hinterlüftung an der Laibung so zu führen, dass weder Zugluft noch eindringendes Wasser die Dämmebene erreichen, während gleichzeitig genug Luftaustausch für die Funktionsfähigkeit der Fassade erhalten bleibt. Häufigster Fehler ist, das Laibungsblech ohne eigenes Gefälle und ohne Tropfkante zu montieren, sodass Wasser aus der Hinterlüftungsebene direkt an der Fensteröffnung austritt. Die Bekleidungsfuge zur Laibung sollte mit der Rastermaß-Planung der Fassadenbekleidung abgestimmt werden, damit an der Fensteröffnung keine unschönen Schnittplatten entstehen. Kostenlogik: Laibungsbleche und Sonderprofile für die hinterlüftete Fassade sind aufwändiger als eine Laibung am Wärmedämmverbundsystem, sie verhindern aber Feuchteschäden an einer sonst schwer zugänglichen Stelle der Fassade.",
+  "ln": ["kfa3ukonvhf"]
+ },
+ {
+  "id": "kfe4raffstore",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3aussenliegend",
+  "t": "Raffstoren mit Lamellen",
+  "t1": "Raffstoren bestehen aus horizontal geführten, neigbaren Lamellen, die sich stufenlos zwischen ganz geöffnet und ganz geschlossen einstellen lassen. Anders als ein Rollladen blockt der Raffstore die Sonne, ohne den Blick nach draußen komplett zu nehmen, solange die Lamellen leicht geöffnet bleiben. Der aufgewickelte Lamellenstapel verschwindet in einem Kasten über dem Fenster.",
+  "t2": "Die stufenlose Neigung macht Raffstoren zum flexibelsten außen liegenden Sonnenschutz, weil sich Tageslichteinfall und Blendschutz unabhängig vom kompletten Verschluss steuern lassen. Häufigster Fehler ist eine zu knapp bemessene Kastentiefe, die spätere Wartung oder den Austausch einzelner defekter Lamellen unnötig erschwert und oft den Ausbau des ganzen Stapels erzwingt. Die Führungsschienen müssen bei größeren Elementbreiten ausreichend torsionssteif sein, sonst klappern die Lamellen bereits bei mäßigem Wind. Kostenlogik: Raffstoren sind teurer als Rollläden, bieten dafür eine differenzierte Tageslichtsteuerung, die sich bei Büro- und Wohnnutzung über den Komfortgewinn amortisiert.",
+  "ln": ["kfe3steuerung", "eli3jahreszeit"]
+ },
+ {
+  "id": "kfe5lamelle",
+  "p": "k",
+  "lv": 5,
+  "pa": "kfe4raffstore",
+  "t": "Lamellenprofil und Antriebsart",
+  "t1": "Die Lamelle ist das eigentliche Funktionsteil des Raffstores, ihre Breite, Form und der Neigungswinkel bestimmen, wie viel Licht bei welcher Stellung durchdringt. Gebogene Lamellenprofile blocken bei gleicher Neigung mehr Licht als flache, gerade Profile. Der Antrieb bewegt sowohl die Neigung als auch das Heben und Senken des gesamten Lamellenstapels über einen gemeinsamen oder zwei getrennte Mechanismen.",
+  "t2": "Breitere Lamellen wirken ruhiger in der Fassadenansicht, schmalere lassen sich feiner neigen und passen sich dem Sonnenstand präziser an, ein Zielkonflikt zwischen Optik und Steuerungsfeinheit. Häufigster Fehler ist, Antrieb und Neigungsmechanik getrennt zu betrachten, obwohl beide über dieselbe Welle oder denselben Motor laufen und bei Fehlfunktion gemeinsam ausfallen. Elektrische Einzelantriebe je Element erlauben eine feinere, zonierte Steuerung als eine mechanische Kopplung mehrerer Fenster an einen Antrieb. Kostenlogik: Schmalere Lamellen und Einzelantriebe erhöhen den Preis, verbessern aber die Steuerungsgenauigkeit, die sich bei sonnenexponierten Fassaden im Kühlbedarf messbar bemerkbar macht.",
+  "t3": "Übliche Lamellenbreiten liegen bei etwa 80 mm, seltener bei 90 mm, jeweils mit spezifischer Profilform des Herstellersystems. Die Lamellen sind stufenlos zwischen vollständig geöffnet und vollständig geschlossen neigbar, der Antrieb erfolgt elektrisch über Rohrmotoren, die zugleich die Hub- und die Wendefunktion steuern. In der Ausschreibung sind Lamellenbreite, Profilform und Antriebsart einschließlich der Ansteuerbarkeit für eine spätere Automation getrennt zu benennen. Ab hier: Systemunterlagen des Sonnenschutzherstellers und Abstimmung mit der Elektroplanung.",
+  "pruefen": ["Lamellenbreite Raffstore 80 bis 90 mm"],
+  "ln": ["ktg3bus"]
+ },
+ {
+  "id": "kfe4rollladen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3aussenliegend",
+  "t": "Rollläden",
+  "t1": "Rollläden bestehen aus gelenkig verbundenen Panzerstäben, die sich zu einem kompakten Wickel über dem Fenster aufrollen und im heruntergefahrenen Zustand die Öffnung vollständig verschließen. Sie blocken Licht und Sicht komplett, übernehmen dafür aber nebenbei Einbruch- und Sichtschutz in der Nacht, was ein Raffstore in dieser Konsequenz nicht leistet. Ihre Bedienung ist einfacher als bei Lamellensystemen, weil es nur die beiden Zustände offen und geschlossen sowie wenige Zwischenstufen gibt.",
+  "t2": "Der Verzicht auf stufenlose Lichtsteuerung ist der Kompromiss, den Rollläden gegenüber Raffstoren eingehen, dafür sind sie mechanisch robuster und meist günstiger in Anschaffung und Wartung. Häufigster Fehler ist, den Rollladenkasten nachträglich auf eine bereits gedämmte Fassade zu setzen, statt ihn von Anfang an als eigenes, gedämmtes Bauteil in die Fassade zu integrieren, wodurch sonst eine Wärmebrücke am Sturz entsteht. Bei Sanierungen im Bestand sind nachträglich montierte Aufsatzkästen eine verbreitete, aber wärmetechnisch schwächere Lösung gegenüber integrierten Kästen im Neubau. Kostenlogik: Rollläden sind meist die günstigste außen liegende Verschattung, ihr Wärmebrückenrisiko am Kasten sollte aber in die energetische Bilanz der Fassade eingerechnet werden.",
+  "ln": ["kbe3energ"]
+ },
+ {
+  "id": "kfe4screen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3aussenliegend",
+  "t": "Screens als textiler Sonnenschutz",
+  "t1": "Screens sind straff gespannte, meist gitterartig gewebte Behänge, die vor der Fassade vertikal geführt werden und Sonnenlicht filtern statt es vollständig zu blocken. Anders als Lamellensysteme bleiben sie im heruntergefahrenen Zustand blickdurchlässig, das Maß hängt vom Öffnungsgrad des Gewebes ab. Sie wirken optisch zurückhaltender als Raffstoren oder Rollläden und passen deshalb oft zu großflächig verglasten, ruhigen Fassaden.",
+  "t2": "Der Öffnungsgrad des Gewebes ist die zentrale Entscheidung, ein feines Gewebe blockt mehr Sonnenenergie, nimmt aber auch mehr Aussicht und Tageslicht, ein grobes Gewebe kehrt dieses Verhältnis um. Häufigster Fehler ist, ein Gewebe allein nach der Blendschutzwirkung zu wählen und dabei die Windempfindlichkeit zu übersehen, denn straff gespannte Screens sind bei Sturm empfindlicher als starre Lamellen und brauchen einen zuverlässigen Windwächter. Screens eignen sich besonders für große, ruhige Glasflächen ohne Sprossen, an gegliederten Fassaden wirken die seitlichen Führungsschienen dagegen schnell unruhig. Kostenlogik: Screens liegen preislich meist zwischen Rollladen und Raffstore, ihr Vorteil liegt in der ruhigen Optik und der Blickdurchlässigkeit, nicht im vollständigen Verdunkeln.",
+  "ln": ["eli3privat"]
+ },
+ {
+  "id": "kfe5gewebe",
+  "p": "k",
+  "lv": 5,
+  "pa": "kfe4screen",
+  "t": "Screengewebe und Offenheitsgrad",
+  "t1": "Der Offenheitsgrad eines Screengewebes gibt an, wie viel Fläche des Gewebes tatsächlich offen ist, und bestimmt damit direkt, wie viel Licht und Sicht hindurchdringt. Ein niedriger Offenheitsgrad blockt mehr Sonnenenergie, aber auch mehr Aussicht, ein hoher Offenheitsgrad kehrt dieses Verhältnis um. Die Gewebefarbe beeinflusst zusätzlich, wie stark Blendung und Aufheizung wahrgenommen werden.",
+  "t2": "Dunkle Gewebe lassen von innen betrachtet die Aussicht klarer erscheinen, weil weniger Streulicht am Gewebe selbst entsteht, hellere Gewebe reflektieren mehr Sonnenlicht und bleiben dadurch kühler an der Oberfläche. Häufigster Fehler ist, ein Gewebe allein nach dem gewünschten Verdunkelungsgrad zu wählen, ohne den Zielkonflikt zwischen Sonnenschutzwirkung und verbleibender Aussicht am Muster zu prüfen. Bei stark blendungsempfindlichen Nutzungen wie Bildschirmarbeitsplätzen ist ein niedrigerer Offenheitsgrad meist die bessere Wahl als bei reinen Wohnräumen mit gewünschtem Ausblick. Kostenlogik: Das Gewebe selbst ist ein kleiner Kostenanteil am Gesamtsystem, seine Eigenschaften bestimmen aber maßgeblich, ob der Screen die gewünschte Funktion tatsächlich erfüllt.",
+  "t3": "Gängige Offenheitsgrade von Screengeweben liegen zwischen etwa 1 und 10 Prozent, niedrige Werte blocken mehr Sonnenenergie und Aussicht zugleich, hohe Werte lassen mehr von beidem durch. In der Ausschreibung sind Offenheitsgrad, Gewebefarbe innen und außen sowie die Führungsart der Seitenschienen getrennt zu benennen. Ab hier: Musterbemusterung des Gewebes am Objekt und Systemunterlagen des Herstellers.",
+  "pruefen": ["Offenheitsgrad Screengewebe 1 bis 10 Prozent"],
+  "ln": ["kma3kunststoff"]
+ },
+ {
+  "id": "kfe4klappladen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3aussenliegend",
+  "t": "Klappläden",
+  "t1": "Klappläden sind fest an der Fassade angeschlagene Flügel aus Holz oder Metall, die von Hand oder motorisch vor das Fenster geklappt werden und an die historische Fensterladen-Tradition anknüpfen. Sie blocken Licht vollständig und bieten mechanischen Einbruchschutz, verlangen aber Wandfläche neben der Öffnung zum Aufklappen. Anders als Raffstore oder Rollladen bleiben sie bei Nichtgebrauch sichtbar an der Fassade stehen und wirken dadurch stark auf die Gestaltung.",
+  "t2": "Klappläden sind vor allem eine gestalterische Entscheidung, sie prägen die Fassadenansicht auch im geöffneten Zustand deutlich sichtbar, während Raffstoren und Rollläden im Kasten verschwinden. Häufigster Fehler ist, den nötigen Wandanschlag für die aufgeklappten Flügel in der frühen Fassadenplanung zu übersehen, sodass Klappläden benachbarter Öffnungen später kollidieren. Bei motorisierter Ausführung braucht der Antrieb eine robuste Mechanik gegen Windlast, da die Flügel im geöffneten Zustand voll der Windkraft ausgesetzt sind. Kostenlogik: Klappläden sind in einfacher, unmotorisierter Ausführung oft günstiger als Raffstoren, ihre wiederkehrende Instandhaltung als bewegtes Außenbauteil sollte aber eingeplant werden.",
+  "ln": ["x4farbe"]
+ },
+ {
+  "id": "kfe4innenjalousie",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3innenliegend",
+  "t": "Innen liegende Jalousien und Vorhänge",
+  "t1": "Innen liegende Jalousien und Vorhänge lassen sich unabhängig von Wind und Wetter jederzeit nachrüsten und sind die flexibelste, günstigste Form der Verschattung. Weil sie hinter der Scheibe sitzen, hat die Sonnenwärme das Glas bereits durchdrungen, bevor die Jalousie sie abfängt, ein systembedingter Nachteil gegenüber außen liegenden Systemen. Vorhänge wirken zusätzlich raumakustisch dämpfend, was Jalousien und Lamellen nicht leisten.",
+  "t2": "Der Nachrüstcharakter macht innen liegende Systeme ideal für Mietwohnungen und spätere Umbauten, wo bauliche Eingriffe an der Fassade vermieden werden sollen. Häufigster Fehler ist, innen liegende Jalousien als vollwertigen Ersatz für außen liegenden Sonnenschutz zu verkaufen, obwohl sie den sommerlichen Wärmeeintrag durch das Glas kaum verringern, sondern nur die Blendung im Raum mindern. Textile Vorhänge bieten zusätzlich raumakustische Dämpfung in halligen Räumen, was starre Jalousien nicht leisten, und lassen sich unkompliziert austauschen, wenn sich die Raumnutzung ändert. Kostenlogik: Innen liegende Systeme sind die günstigste Verschattungsart in Anschaffung und Wartung, ihr Nutzen für den sommerlichen Wärmeschutz bleibt aber begrenzt und sollte nicht überschätzt werden.",
+  "ln": ["kde3absorber"]
+ },
+ {
+  "id": "kfe4integriertlamelle",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3innenliegend",
+  "t": "Scheibenintegrierte Lamellen",
+  "t1": "Zwischen den Scheiben integrierte Lamellen sitzen geschützt im Scheibenzwischenraum und verbinden die Wartungsfreiheit innen liegender Systeme mit einer Wirkung, die näher an außen liegendem Sonnenschutz liegt. Der Antrieb erfolgt berührungslos über eine magnetische Kopplung durch die äußere Scheibe hindurch. Bei einem Defekt lässt sich nur das gesamte Isolierglaselement tauschen, eine Einzelreparatur der Lamellen ist nicht vorgesehen.",
+  "t2": "Der Kompromiss ist eingebaut: Integrierte Lamellen sind vor Staub und mechanischer Beschädigung geschützt und praktisch wartungsfrei, binden sich aber unlösbar an das Glaselement, was jede spätere Reparatur zum Glasaustausch macht. Häufigster Fehler ist, dieses System bei Elementen einzusetzen, deren Austausch später schwer zugänglich ist, etwa in großen Fassadenflächen ohne einfache Montageöffnung. Der breitere Scheibenzwischenraum für die Lamellen beeinflusst den Ug-Wert der Verglasung geringfügig, was in der Gesamtbilanz mitgerechnet werden sollte. Kostenlogik: Integrierte Systeme sind die teuerste Verschattungsvariante, weil sie Teil des Glaselements werden, sie sparen aber gegenüber außen liegenden Systemen den Wartungsaufwand über Jahrzehnte.",
+  "t3": "Der Scheibenzwischenraum für integrierte Lamellensysteme liegt meist einige Millimeter über dem einer Standardverglasung, um Bewegungsspielraum für die Lamellen zu schaffen. In der Ausschreibung ist zu benennen, dass ein Defekt den vollständigen Austausch des Isolierglaselements erfordert, damit dies im Wartungskonzept des Gebäudes berücksichtigt wird. Ab hier: Systemunterlagen zu scheibenintegrierten Sonnenschutzsystemen.",
+  "ln": ["kfe3sonnenglas"]
+ },
+ {
+  "id": "kfe4banknatur",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3bankmat",
+  "t": "Naturstein- und Kunststeinbänke",
+  "t1": "Naturstein- und Kunststeinbänke sind frostbeständig, mechanisch robust und praktisch wartungsfrei, deshalb der verbreitete Standard für die wetterexponierte Außenfensterbank. Ihre Fläche kann poliert, geschliffen oder gestockt ausgeführt werden, was Griffigkeit und Wirkung deutlich verändert. Kunststein bietet dabei eine gleichmäßigere, günstigere Alternative zu Naturstein bei ähnlicher Beständigkeit.",
+  "t2": "Naturstein überzeugt durch Langlebigkeit und eine unverwechselbare, natürlich gewachsene Zeichnung, verlangt aber die sorgfältige Auswahl geeigneter, frostbeständiger Steinarten, nicht jeder dekorative Naturstein eignet sich für den Außeneinsatz. Häufigster Fehler ist, eine glatt polierte Oberfläche zu wählen, die bei Nässe und Frost rutschig wird und an stark frequentierten Fensterbänken, etwa im Erdgeschoss, zum Sicherheitsrisiko werden kann. Kunststein aus Betonwerkstein bietet eine wirtschaftliche, in Farbe und Format gleichmäßigere Alternative, erreicht aber nicht die individuelle Zeichnung von Naturstein. Kostenlogik: Naturstein ist meist die teuerste, aber langlebigste Wahl, Kunststein liegt preislich darunter bei vergleichbarer Frostbeständigkeit und eignet sich gut für große, wiederkehrende Stückzahlen.",
+  "t3": "Übliche Materialstärken liegen bei Naturstein- und Kunststeinbänken bei etwa 2 bis 3 cm, abhängig von Auskragung und Spannweite der Bank. Die Oberflächenbearbeitung reicht von poliert über geschliffen bis gestockt, wobei rutschhemmendere Oberflächen an frequentierten Bänken vorzuziehen sind. In der Ausschreibung sind Steinart oder Kunststeintyp, Materialstärke und Oberflächenbearbeitung getrennt zu benennen. Ab hier: Materialmuster und Bemusterung mit dem Fassadenbetrieb.",
+  "pruefen": ["Materialstärke Naturstein- und Kunststeinbank 2 bis 3 cm"],
+  "ln": ["kma3gestein"]
+ },
+ {
+  "id": "kfe4bankmetall",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3bankmat",
+  "t": "Metallbänke",
+  "t1": "Metallbänke aus beschichtetem oder eloxiertem Blech sind schlank, leicht und lassen sich passgenau auf der Baustelle ablängen, weshalb sie besonders bei modernen, schlanken Fassaden gefragt sind. Sie wiegen deutlich weniger als Stein und eignen sich deshalb gut für große Auskragungen ohne zusätzliche Unterkonstruktion. Ohne ausreichende Unterkonstruktion können dünne Bleche jedoch klappern oder sich verformen.",
+  "t2": "Der Vorteil liegt in der geringen Bauhöhe und dem geringen Gewicht, wodurch Metallbänke auch bei filigranen Fassaden ohne sichtbaren Unterbau auskommen, ein Stein- oder Kunststeinformat in gleicher Schlankheit wäre kaum realisierbar. Häufigster Fehler ist, die Unterkonstruktion aus reinem Kostendruck zu dünn oder zu weit gespannt auszuführen, wodurch das Blech bei Wind hörbar klappert oder sich sichtbar durchbiegt. Die Farbgebung folgt meist der Fassade oder den Fensterprofilen, wodurch die Bank optisch zurücktritt statt als eigenes Element zu wirken. Kostenlogik: Metallbänke liegen preislich meist zwischen Kunststoff- und Natursteinbänken, ihr Vorteil ist weniger der Preis als die schlanke, leichte Bauweise für anspruchsvolle Fassadendetails.",
+  "ln": ["kma3ne"]
+ },
+ {
+  "id": "kfe4bankholz",
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3bankmat",
+  "t": "Holz- und Kunststoffbänke innen",
+  "t1": "Innen dominieren Holz und Kunststoff als Fensterbankmaterial, weil beide angenehm warm wirken, leicht zu bearbeiten sind und keine Frostbeständigkeit brauchen. Holzbänke lassen sich farblich auf Böden und Möbel abstimmen, Kunststoffbänke sind besonders pflegeleicht und unempfindlich gegen Feuchtigkeit, etwa unter Blumentöpfen. Beide Materialien werden meist deutlich dünner ausgeführt als eine Außenbank aus Stein.",
+  "t2": "Die Materialwahl folgt innen stärker der Gestaltung als der Beanspruchung, weil weder Frost noch Schlagregen eine Rolle spielen, wohl aber Kratzfestigkeit und Feuchteunempfindlichkeit an stark genutzten Bänken. Häufigster Fehler ist, eine Holzbank direkt über einem Heizkörper ohne ausreichenden Luftspalt zu montieren, wodurch sich das Holz durch die trockene, warme Luft verzieht oder reißt. Kunststoffbänke sind in dieser Hinsicht unempfindlicher, wirken aber weniger hochwertig und lassen sich bei Beschädigung schwerer ausbessern als Holz. Kostenlogik: Kunststoffbänke sind die günstigste Innenlösung, Holzbänke kosten mehr, lassen sich aber bei Kratzern nachschleifen und passen sich besser an hochwertige Innenausbauten an.",
+  "ln": ["kma3vollholz"]
+ }
+]
