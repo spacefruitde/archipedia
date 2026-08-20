@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Zwei Schnitte durch den unteren Glasrand: Mit Aluminiumabstandhalter erreicht die Taupunktisotherme die Raumseite der Scheibe, mit warmer Kante bleibt sie im Randverbund">
+  <!-- linke Hälfte: Aluminium -->
+  <text x="120" y="18" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Aluminium-Abstandhalter</text>
+  <rect x="90" y="34" width="10" height="150" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="140" y="34" width="10" height="150" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="100" y="158" width="40" height="26" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M72 250 V184 H168 V250" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Isothermen, Feld vertikal, am Rand zur Raumseite gezogen -->
+  <path d="M129 34 V150 Q129 190 110 206 L100 226" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <path d="M136 34 V160 Q136 200 120 218 L112 240" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <!-- Taupunktisotherme, Akzent: erreicht die Raumseite -->
+  <path d="M122 34 V140 Q122 170 96 178 L86 198" fill="none" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Tauwasser an der Raumseite -->
+  <g fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1">
+    <circle cx="86" cy="152" r="3"/><circle cx="85" cy="164" r="3"/><circle cx="86" cy="176" r="3"/>
+  </g>
+  <!-- rechte Hälfte: warme Kante -->
+  <text x="360" y="18" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">warme Kante</text>
+  <rect x="330" y="34" width="10" height="150" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="380" y="34" width="10" height="150" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="340" y="158" width="40" height="26" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M312 250 V184 H408 V250" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <path d="M369 34 V170 Q369 210 360 226 L356 246" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <path d="M376 34 V176 Q376 214 368 232 L364 250" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <!-- Taupunktisotherme, Akzent: bleibt im Randverbund -->
+  <path d="M362 34 V166 Q362 206 348 222 L342 246" fill="none" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Raumseite / Außenseite -->
+  <text x="12" y="110" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">innen</text>
+  <text x="228" y="110" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">außen</text>
+  <!-- Erläuterungen unten -->
+  <line x1="86" y1="176" x2="100" y2="262" stroke="#b05c3a" stroke-width="1.1"/><circle cx="86" cy="176" r="1.6" fill="#b05c3a"/>
+  <text x="120" y="280" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Taupunktisotherme erreicht</text>
+  <text x="120" y="292" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">die Raumseite: Tauwasser</text>
+  <line x1="348" y1="222" x2="352" y2="262" stroke="#b05c3a" stroke-width="1.1"/><circle cx="348" cy="222" r="1.6" fill="#b05c3a"/>
+  <text x="360" y="280" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Taupunktisotherme bleibt</text>
+  <text x="360" y="292" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">im Randverbund</text>
+</svg>

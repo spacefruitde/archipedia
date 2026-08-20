@@ -2,7 +2,7 @@
 
 Stand 20.08.2026. Ziel aus dem Review vom 20.08.: einen einzigen Strang vollständig bis E7 ausarbeiten, am Ende eine echte LV-Position mit Ausschreibungstext, Menge, Einheit. Strang: Fenster und Verglasung → Verglasung → Wärmeschutzverglasung → Randverbund → Abstandhalter → … → LV.
 
-Status: Vorschlag, noch keine Texte. Nach deiner Redaktion folgen Texte nach Spec (T1–T3, src mit Stand und geprueft, dach nur bei echtem Unterschied), alle Normen und Links per Websuche verifiziert.
+Status 20.08.2026: umgesetzt (Entscheidungen durch Claude auf Bens Bitte: LV-Position unter kfe6psi, kfe5dicht ja, kfe6sicht bleibt Konstruktion mit T2-Ende, Bundesverband Flachglas als Verbandsquelle zugelassen). Alle neuen Texte Status generiert, Quellen verifiziert am 20.08.2026. Ursprünglicher Vorschlag: Nach deiner Redaktion folgen Texte nach Spec (T1–T3, src mit Stand und geprueft, dach nur bei echtem Unterschied), alle Normen und Links per Websuche verifiziert.
 
 ## Bestand (bleibt, wird ergänzt)
 

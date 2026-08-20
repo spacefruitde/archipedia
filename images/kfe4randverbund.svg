@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt durch den unteren Glasrand eines Isolierglases: Abstandhalter mit Trockenmittel, Primärdichtung aus Butyl, Sekundärdichtung, Glasfalz">
+  <defs>
+    <pattern id="hatch-rv" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Glasfalz des Rahmens, stumme Kontur -->
+  <path d="M170 300 V238 H190 V292 M290 292 V238 H310 V300" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="176" y1="292" x2="304" y2="292" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- zwei Scheiben -->
+  <rect x="190" y="30" width="12" height="232" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="278" y="30" width="12" height="232" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Sekundärdichtung, geschnitten -->
+  <rect x="202" y="206" width="76" height="26" fill="url(#hatch-rv)" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Abstandhalter, Hohlprofil mit Trockenmittel -->
+  <rect x="208" y="172" width="64" height="34" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <g fill="#1c1a17">
+    <circle cx="216" cy="180" r="1.3"/><circle cx="226" cy="180" r="1.3"/><circle cx="236" cy="180" r="1.3"/><circle cx="246" cy="180" r="1.3"/><circle cx="256" cy="180" r="1.3"/><circle cx="266" cy="180" r="1.3"/>
+    <circle cx="221" cy="189" r="1.3"/><circle cx="231" cy="189" r="1.3"/><circle cx="241" cy="189" r="1.3"/><circle cx="251" cy="189" r="1.3"/><circle cx="261" cy="189" r="1.3"/>
+    <circle cx="216" cy="198" r="1.3"/><circle cx="226" cy="198" r="1.3"/><circle cx="236" cy="198" r="1.3"/><circle cx="246" cy="198" r="1.3"/><circle cx="256" cy="198" r="1.3"/><circle cx="266" cy="198" r="1.3"/>
+  </g>
+  <!-- Primärdichtung Butyl, Akzent -->
+  <rect x="202" y="172" width="6" height="34" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <rect x="272" y="172" width="6" height="34" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Beschriftungen -->
+  <text x="240" y="18" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Scheibenzwischenraum</text>
+  <line x1="240" y1="22" x2="240" y2="60" stroke="#1c1a17" stroke-width="1.1"/><circle cx="240" cy="60" r="1.6" fill="#1c1a17"/>
+
+  <line x1="196" y1="90" x2="150" y2="76" stroke="#1c1a17" stroke-width="1.1"/><circle cx="196" cy="90" r="1.6" fill="#1c1a17"/>
+  <text x="144" y="72" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Scheibe</text>
+
+  <line x1="240" y1="189" x2="330" y2="138" stroke="#1c1a17" stroke-width="1.1"/><circle cx="240" cy="189" r="1.6" fill="#1c1a17"/>
+  <text x="336" y="134" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Abstandhalter</text>
+  <text x="336" y="146" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">mit Trockenmittel</text>
+
+  <line x1="275" y1="196" x2="330" y2="196" stroke="#b05c3a" stroke-width="1.1"/><circle cx="275" cy="196" r="1.6" fill="#b05c3a"/>
+  <text x="336" y="200" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Primärdichtung Butyl</text>
+
+  <line x1="262" y1="220" x2="330" y2="246" stroke="#1c1a17" stroke-width="1.1"/><circle cx="262" cy="220" r="1.6" fill="#1c1a17"/>
+  <text x="336" y="250" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Sekundärdichtung</text>
+
+  <line x1="184" y1="270" x2="150" y2="270" stroke="#1c1a17" stroke-width="1.1"/><circle cx="184" cy="270" r="1.6" fill="#1c1a17"/>
+  <text x="144" y="274" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Glasfalz des Rahmens</text>
+</svg>

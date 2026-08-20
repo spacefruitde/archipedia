@@ -169,7 +169,9 @@ function nodeSection(id){
     imgHTML = n.images.map(im => {
       let inhalt = '';
       if (im.u) inhalt = `<img src="${im.u}" alt="${esc(im.caption || '')}" loading="lazy">`;
-      else if (im.path && existsSync(im.path)) inhalt = readFileSync(im.path, 'utf8').replace(/<\?xml[^>]*\?>\s*/, '');
+      else if (im.path && existsSync(im.path)) inhalt = readFileSync(im.path, 'utf8').replace(/<\?xml[^>]*\?>\s*/, '')
+        /* Pattern-/Marker-IDs pro Knoten eindeutig machen: Inline-SVGs teilen sich sonst im Single-File-Dokument die IDs, nur das erste gewinnt */
+        .replace(/\sid="([^"]+)"/g, (m, i) => ` id="${i}-${id}"`).replace(/url\(#([^)]+)\)/g, (m, i) => `url(#${i}-${id})`).replace(/href="#([^"]+)"/g, (m, i) => `href="#${i}-${id}"`);
       else return '';
       const quelle = im.quelle ? ` · <a href="${im.quelle}" target="_blank" rel="noopener">Quelle ↗</a>` : '';
       return `<figure class="fig${im.u ? ' foto' : ''}">${inhalt}<figcaption><span class="cap">${esc(im.caption || '')}</span><span class="credit">${esc(im.credit || '')}${im.lizenz ? ' · ' + esc(im.lizenz) : ''}${quelle}</span></figcaption></figure>`;
