@@ -27,7 +27,7 @@ Wissensplattform für Architekten im DACH-Raum: alle Themen des architektonische
 4. Länderabhängige Werte (Baurecht, Barrierefreiheit, Brand-, Schallschutz, Prozess) bekommen ein `dach`-Feld (de/at/ch). Deutsche Werte nie als universell ausgeben.
 5. T3-Inhalte tragen Status `generiert`, bis ein Mensch sie fachgeprüft hat. Status nie eigenmächtig hochstufen.
 6. Keine Gedankenstriche in Inhaltstexten, deutsch, keine Herstellernamen, keine Marketing-Adjektive.
-7. Bilder: nur eigene SVG-Schemazeichnungen oder Wikimedia Commons mit Lizenzvermerk (Feld `images`). Keine Fotos von ArchDaily/Detail/Herstellern.
+7. Bilder: eigene SVG-Schemazeichnungen, Wikimedia Commons mit Lizenzvermerk oder Unsplash (Fotografen-Nennung; Erweiterung Ben, 20.08.2026). Bei Fallstudien-Gebäuden bevorzugt Commons (dokumentierte Motiv-Herkunft und Panoramafreiheit). Jedes Bild geht vor Livegang durch eine visuelle Prüfung durch das stärkste Modell. Keine Fotos von ArchDaily/Detail/Herstellern; KI-generierte Bilder nur gekennzeichnet und nie als Beleg für reale Materialwirkung.
 
 ## Modellstrategie (Token-Ökonomie)
 
