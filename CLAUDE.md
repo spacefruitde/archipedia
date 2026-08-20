@@ -43,7 +43,7 @@ Organisation: **Spacefruit** (dort läuft auch bugsnap). Ben hat ein neues Proje
 
 ## Deployment
 
-Live: https://ao-prototyp.netlify.app — Site `ao-prototyp` im Netlify-Konto **ben@spacefruit.de** (Team „Archi-tektur", eigenes Konto nur für dieses Projekt; NICHT das ältere Konto b.chr@me.com). Deploy manuell per `netlify deploy --prod --dir dist`. Build-Command `npm run build && npm run check-links`, Publish-Verzeichnis `dist` (siehe netlify.toml). Der Wortmarken-Text steckt nur in `build.mjs` (Header + Titel), Umbenennung ist eine Zeile.
+Live: https://ao-prototyp.pages.dev — Cloudflare Pages, Projekt `ao-prototyp` (Direct Upload, zählt nicht gegen das 500-Builds-Limit; Free-Plan ohne Bandbreitenlimit). Deploy manuell per `npx wrangler pages deploy dist --project-name ao-prototyp --branch master --commit-dirty=true` (wrangler-Login liegt lokal vor). Wechsel am 20.08.2026, weil das Netlify-Free-Tier (Konto ben@spacefruit.de, Team „Archi-tektur") kreditbasiert ist und neue Deploys blockte; die alte Site https://ao-prototyp.netlify.app läuft noch, wird aber nicht mehr aktualisiert. Custom Domain (z. B. architektur.online) später direkt in Cloudflare aufschaltbar. Der Wortmarken-Text steckt nur in `build.mjs` (Header + Titel), Umbenennung ist eine Zeile.
 
 ## Status (15.08.2026)
 
