@@ -631,6 +631,51 @@ const html = `<!DOCTYPE html>
     .such{width:200px}
     .azgrp{grid-template-columns:1fr}
   }
+  /* Telefon: kompakter, nicht klebender Kopf, alles einspaltig */
+  @media(max-width:719px){
+    header{position:static}
+    .hrow{padding:12px 16px 14px;gap:10px;justify-content:center}
+    .wordmark{order:-1;flex:1 1 100%;text-align:center;font-size:22px}
+    .pills a{padding:8px 11px;font-size:12px}
+    .pills a.on{padding:8px 13px}
+    .hctl{flex:1 1 100%;justify-content:center;gap:10px}
+    .such{flex:1 1 auto;width:auto;min-width:0;padding:9px 16px}
+    .such input{font-size:16px}
+    .such-panel{left:0;right:0;width:auto}
+    .shell{padding-left:20px;padding-right:20px}
+    .hero{padding:32px 0 40px}
+    .hero-bild img{height:240px}
+    .hero-t{font-size:40px}
+    .hero-lead{font-size:17px}
+    h1.t1{font-size:40px}
+    h1.t3{font-size:32px}
+    .h2g{font-size:26px}
+    .g3 .sec-h .h2g{font-size:24px}
+    .tht{font-size:24px}
+    .thkarte{padding:22px}
+    .praster{grid-template-columns:1fr}
+    .pkarte{min-height:0;gap:18px}
+    .band{padding:26px 0 34px}
+    .band.bandw{padding:24px 0 30px}
+    .band-lead{font-size:16px}
+    .crumbs{font-size:10px;gap:6px;margin-bottom:18px}
+    .kick{gap:12px}
+    .elbl{font-size:10px}
+    .g3{padding-top:26px;padding-bottom:48px}
+    .g2{padding-top:26px;padding-bottom:48px;gap:36px}
+    .lead{font-size:19px}
+    .sekt{padding:40px 0 8px}
+    .sekt:last-child{padding-bottom:44px}
+    .fig{padding:14px}
+    .fig figcaption{flex-direction:column;align-items:flex-start;gap:6px}
+    .fig .credit{white-space:normal;text-align:left}
+    .rr-gross{font-size:18px}
+    .src-row{flex-direction:column;gap:6px}
+    .src-row .typ{padding-top:0}
+    .azb{font-size:30px}
+    .azrow .azp{display:none}
+    .frow{flex-direction:column;align-items:flex-start;gap:10px}
+  }
 </style>
 <script>var SUCHINDEX=${SUCHINDEX};</script>
 <script>(function(){var t=localStorage.getItem('ao_theme')||'auto';var d=t==='dark'||(t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';})();</script>
