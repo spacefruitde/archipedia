@@ -195,19 +195,21 @@ function nodeSection(id){
     }<p class="srcnote">Im Projekt stets aktuelle Fassung und Landesrecht prüfen; Angaben ohne Stand sind noch nicht quellengeprüft.</p></div>`;
   }
 
-  /* Ebene 1: Kinder als Kartenraster in der Mitte; das tiefste Feld als schwarze Fokus-Karte */
+  /* Kinder als Kartenraster in der Mitte, auf JEDER Ebene gleich (gelernter Klick-Flow);
+     das tiefste Feld als schwarze Fokus-Karte */
   const kids = kidsOf(id);
   let kidsHTML = '';
-  if (n.lv === 1 && kids.length) {
+  if (kids.length) {
     const tiefstes = kids.reduce((a,b)=> maxLv(b) > maxLv(a) ? b : a, kids[0]);
     const fokus = kids.length >= 4 && kids.filter(k=>maxLv(k)===maxLv(tiefstes)).length === 1 ? tiefstes : null;
-    kidsHTML = `<div class="sec"><div class="sec-h"><h2 class="h2g">Ebene 2 — tiefer</h2><span class="sec-n">${kids.length} Felder</span></div><div class="kraster">${
+    kidsHTML = `<div class="sec"><div class="sec-h"><h2 class="h2g">Ebene ${Math.min(n.lv+1,7)} — tiefer</h2><span class="sec-n">${kids.length} ${kids.length===1?'Feld':'Felder'}</span></div><div class="kraster">${
       kids.map(k=>{
-        const meta = [`bis Ebene ${maxLv(k)}`].concat(imgsIn(k)?[`${imgsIn(k)} Bilder`]:[]).join(' · ');
+        const uk = kidsOf(k).length;
+        const meta = [`bis Ebene ${maxLv(k)}`].concat(uk?[`${uk} Unterthemen`]:[]).concat(imgsIn(k)?[`${imgsIn(k)} Bild${imgsIn(k)>1?'er':''}`]:[]).join(' · ');
         return `<a class="kcard${k===fokus?' fokus':''}" href="#${k}"><span class="kt">${esc(N[k].t)}</span><span class="kfuss"><span>${meta}</span><span class="arr">→</span></span></a>`;
       }).join('')
     }</div></div>`;
-  } else if (!kids.length && n.p === 'k' && !n.t3) {
+  } else if (n.p === 'k' && !n.t3) {
     kidsHTML = `<p class="endnote">Vertiefung und Spezifikation zu diesem Thema folgen.</p>`;
   }
 
@@ -244,12 +246,10 @@ function nodeSection(id){
     <span class="nm-s" style="left:22%;top:24%"></span><span class="nm-s" style="left:74%;top:30%"></span>
     <span class="nm-s" style="left:30%;top:70%"></span><span class="nm-s" style="left:68%;top:66%"></span>
     </span><span class="nm-t">${verb} Verbindung${verb===1?'':'en'}</span></button>`;
-  const tiefer = n.lv > 1 && kids.length ? `<div class="rr rw"><p class="rr-t">Tiefer</p>${
-    kids.map(k=>`<a class="rr-z" href="#${k}"><span>${esc(N[k].t)}</span><span class="ekz">E${maxLv(k)}</span></a>`).join('')}</div>` : '';
   const railR = `<aside class="rail-r">${
     kosten ? `<div class="rr" style="background:${colOf('e')}"><p class="rr-t">Kostenlogik</p><p class="rr-gross">${esc(kosten)}</p></div>` : ''}${
     fehler ? `<div class="rr" style="background:${colOf('k')}"><p class="rr-t">Häufigster Fehler</p><p class="rr-text">${esc(fehler)}</p></div>` : ''}${
-    tiefer}${quer}${normen}${netzmini}</aside>`;
+    quer}${normen}${netzmini}</aside>`;
 
   const gridKlasse = n.lv === 1 ? 'g3' : 'g2';
   return `<section id="${id}" class="pp-${n.p}">
