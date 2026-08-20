@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Zwei Grundrisse eines Raumes: links ein Fenster in der Wandmitte mit Licht aus einer Richtung, rechts ein Eckfenster, das die Kante auflöst und Licht aus zwei Richtungen um die Ecke holt">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- links: Fenster in der Wandmitte -->
+  <text x="130" y="24" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Fenster in der Wand</text>
+  <path d="M50 50 H210 V220 H50 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="50" y="50" width="160" height="12" fill="url(#hatch)" stroke="none"/>
+  <rect x="50" y="50" width="12" height="170" fill="url(#hatch)" stroke="none"/>
+  <rect x="100" y="46" width="60" height="10" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M100 62 L80 200 H180 L160 62 Z" fill="#b05c3a" fill-opacity="0.18" stroke="none"/>
+  <!-- rechts: Eckfenster -->
+  <text x="350" y="24" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Eckfenster</text>
+  <path d="M270 50 H430 V220 H270 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="270" y="50" width="100" height="12" fill="url(#hatch)" stroke="none"/>
+  <rect x="270" y="50" width="12" height="100" fill="url(#hatch)" stroke="none"/>
+  <rect x="370" y="46" width="60" height="10" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="424" y="50" width="10" height="100" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M370 62 H424 V150 L330 205 Z" fill="#b05c3a" fill-opacity="0.18" stroke="none"/>
+  <path d="M370 62 L330 205 L424 150" fill="none" stroke="#b05c3a" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <!-- Beschriftungen -->
+  <line x1="130" y1="140" x2="130" y2="250" stroke="#b05c3a" stroke-width="1.1"/><circle cx="130" cy="140" r="1.6" fill="#b05c3a"/>
+  <text x="130" y="266" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Licht aus einer Richtung,</text>
+  <text x="130" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Ecken bleiben dunkel</text>
+  <line x1="390" y1="140" x2="350" y2="250" stroke="#b05c3a" stroke-width="1.1"/><circle cx="390" cy="140" r="1.6" fill="#b05c3a"/>
+  <text x="350" y="266" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Licht aus zwei Richtungen,</text>
+  <text x="350" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">die Ecke löst sich auf</text>
+  <text x="240" y="306" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Grundrisse, Außenwände oben und außen</text>
+</svg>

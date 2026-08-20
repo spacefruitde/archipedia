@@ -1,0 +1,564 @@
+[
+ {
+  "id": "kab4bgruppen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3fassade",
+  "t": "Beanspruchungsgruppen I bis III",
+  "t3": true,
+  "dach": true,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfa1",
+    "t": "Außenwand und Fassade"
+   },
+   {
+    "id": "pba2ordnungsr",
+    "t": "Bauordnungsrecht"
+   }
+  ],
+  "eltern": {
+   "id": "kab3fassade",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Schlagregenschutz an der Fassade",
+   "t1": "Der Schlagregenschutz einer Fassade entsteht aus dem Zusammenspiel mehrerer Verteidigungslinien: einer wasserabweisenden Oberfläche, einer dahinterliegenden Ebene, die eindringendes Wasser kontrolliert ableitet, und Anschlüssen, die keine wassersammelnden Kanten bilden. Eine einzelne perfekte Schicht reicht nicht, wenn die Fuge daneben offen bleibt."
+  },
+  "geschwister": [
+   {
+    "id": "kab4wasserwege",
+    "t": "Wege des Wassers in der Außenwand",
+    "neu": true
+   },
+   {
+    "id": "kab4fassfuge",
+    "t": "Fugen und Durchdringungen in der Fassade",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4wasserwege",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3fassade",
+  "t": "Wege des Wassers in der Außenwand",
+  "t3": true,
+  "dach": false,
+  "hint": "Varianten mit Auswahlkriterium und Regelfall-Gewinner (Spec 8.3).",
+  "lnKandidaten": [
+   {
+    "id": "kfa2vhf",
+    "t": "Vorgehängte hinterlüftete Fassade"
+   },
+   {
+    "id": "kfe4laibaussen",
+    "t": "Außenlaibung: Wärmedämmverbundsystem"
+   }
+  ],
+  "eltern": {
+   "id": "kab3fassade",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Schlagregenschutz an der Fassade",
+   "t1": "Der Schlagregenschutz einer Fassade entsteht aus dem Zusammenspiel mehrerer Verteidigungslinien: einer wasserabweisenden Oberfläche, einer dahinterliegenden Ebene, die eindringendes Wasser kontrolliert ableitet, und Anschlüssen, die keine wassersammelnden Kanten bilden. Eine einzelne perfekte Schicht reicht nicht, wenn die Fuge daneben offen bleibt."
+  },
+  "geschwister": [
+   {
+    "id": "kab4bgruppen",
+    "t": "Beanspruchungsgruppen I bis III",
+    "neu": true
+   },
+   {
+    "id": "kab4fassfuge",
+    "t": "Fugen und Durchdringungen in der Fassade",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4fassfuge",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3fassade",
+  "t": "Fugen und Durchdringungen in der Fassade",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kab3abdichtfuge",
+    "t": "Abdichten von Fugen: Fugenband und Fugenmasse"
+   },
+   {
+    "id": "kfa3befestvhf",
+    "t": "Befestigung und Wärmebrücken"
+   }
+  ],
+  "eltern": {
+   "id": "kab3fassade",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Schlagregenschutz an der Fassade",
+   "t1": "Der Schlagregenschutz einer Fassade entsteht aus dem Zusammenspiel mehrerer Verteidigungslinien: einer wasserabweisenden Oberfläche, einer dahinterliegenden Ebene, die eindringendes Wasser kontrolliert ableitet, und Anschlüssen, die keine wassersammelnden Kanten bilden. Eine einzelne perfekte Schicht reicht nicht, wenn die Fuge daneben offen bleibt."
+  },
+  "geschwister": [
+   {
+    "id": "kab4bgruppen",
+    "t": "Beanspruchungsgruppen I bis III",
+    "neu": true
+   },
+   {
+    "id": "kab4wasserwege",
+    "t": "Wege des Wassers in der Außenwand",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4anschlussunten",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3fenster",
+  "t": "Unterer Anschluss und Fensterbank",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4bankmontage",
+    "t": "Montage und zweite Dichtebene"
+   },
+   {
+    "id": "kfe5bankwaermebruecke",
+    "t": "Wärmebrücke am unteren Fensteranschluss"
+   }
+  ],
+  "eltern": {
+   "id": "kab3fenster",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Fenster- und Türanschluss an die Abdichtung",
+   "t1": "Fenster- und Türanschlüsse sind die am dichtesten regulierten Stellen der Fassade, weil hier innen die luftdichte Ebene, außen die schlagregendichte Ebene und dazwischen die Wärmedämmung sauber ineinandergreifen müssen. Innen wird traditionell dichter ausgeführt als außen, damit anfallende Feuchte nach außen entweichen kann, doch das gelingt nur mit handwerklich sauberer Ausführung."
+  },
+  "geschwister": [
+   {
+    "id": "kab4anschlussseite",
+    "t": "Seitlicher und oberer Anschluss",
+    "neu": true
+   },
+   {
+    "id": "kab4bodentief",
+    "t": "Bodentiefes Element und Schwelle",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4anschlussseite",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3fenster",
+  "t": "Seitlicher und oberer Anschluss",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4dichtaussen",
+    "t": "Äußere Ebene: Kompriband, Folie, Schlagregen"
+   },
+   {
+    "id": "kfe4laibvhf",
+    "t": "Außenlaibung: hinterlüftete Fassade"
+   }
+  ],
+  "eltern": {
+   "id": "kab3fenster",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Fenster- und Türanschluss an die Abdichtung",
+   "t1": "Fenster- und Türanschlüsse sind die am dichtesten regulierten Stellen der Fassade, weil hier innen die luftdichte Ebene, außen die schlagregendichte Ebene und dazwischen die Wärmedämmung sauber ineinandergreifen müssen. Innen wird traditionell dichter ausgeführt als außen, damit anfallende Feuchte nach außen entweichen kann, doch das gelingt nur mit handwerklich sauberer Ausführung."
+  },
+  "geschwister": [
+   {
+    "id": "kab4anschlussunten",
+    "t": "Unterer Anschluss und Fensterbank",
+    "neu": true
+   },
+   {
+    "id": "kab4bodentief",
+    "t": "Bodentiefes Element und Schwelle",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4bodentief",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3fenster",
+  "t": "Bodentiefes Element und Schwelle",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe5hsschwelle",
+    "t": "Nullschwelle am Hebeschiebeelement"
+   },
+   {
+    "id": "k4null",
+    "t": "Nullschwelle: Abdichtung vs. Barrierefreiheit"
+   }
+  ],
+  "eltern": {
+   "id": "kab3fenster",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Fenster- und Türanschluss an die Abdichtung",
+   "t1": "Fenster- und Türanschlüsse sind die am dichtesten regulierten Stellen der Fassade, weil hier innen die luftdichte Ebene, außen die schlagregendichte Ebene und dazwischen die Wärmedämmung sauber ineinandergreifen müssen. Innen wird traditionell dichter ausgeführt als außen, damit anfallende Feuchte nach außen entweichen kann, doch das gelingt nur mit handwerklich sauberer Ausführung."
+  },
+  "geschwister": [
+   {
+    "id": "kab4anschlussunten",
+    "t": "Unterer Anschluss und Fensterbank",
+    "neu": true
+   },
+   {
+    "id": "kab4anschlussseite",
+    "t": "Seitlicher und oberer Anschluss",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4spritzhoehe",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3sockel",
+  "t": "Spritzwasserhöhe und Sockelabdichtung",
+  "t3": true,
+  "dach": true,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kgr3sockel",
+    "t": "Sockelausbildung und Spritzwasserschutz"
+   },
+   {
+    "id": "kau3sockelanschl",
+    "t": "Sockelanschluss und Spritzwasserschutz"
+   }
+  ],
+  "eltern": {
+   "id": "kab3sockel",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Spritzwasserzone am Sockel",
+   "t1": "Der Sockelbereich eines Gebäudes wird durch aufspritzendes Regenwasser deutlich stärker beansprucht als die Fassade darüber und braucht deshalb eigene, robustere Materialien und eine eigene Abdichtungsebene. Wer hier mit dem Fassadenaufbau der oberen Geschosse spart, riskiert Feuchteschäden schon im ersten Winter."
+  },
+  "geschwister": [
+   {
+    "id": "kab4sockelwdvs",
+    "t": "Sockel bei WDVS: Perimeter und Übergang",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4sockelwdvs",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3sockel",
+  "t": "Sockel bei WDVS: Perimeter und Übergang",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kgr2perim",
+    "t": "Perimeterdämmung und Sockelausbildung"
+   },
+   {
+    "id": "kfe4laibaussen",
+    "t": "Außenlaibung: Wärmedämmverbundsystem"
+   }
+  ],
+  "eltern": {
+   "id": "kab3sockel",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Spritzwasserzone am Sockel",
+   "t1": "Der Sockelbereich eines Gebäudes wird durch aufspritzendes Regenwasser deutlich stärker beansprucht als die Fassade darüber und braucht deshalb eigene, robustere Materialien und eine eigene Abdichtungsebene. Wer hier mit dem Fassadenaufbau der oberen Geschosse spart, riskiert Feuchteschäden schon im ersten Winter."
+  },
+  "geschwister": [
+   {
+    "id": "kab4spritzhoehe",
+    "t": "Spritzwasserhöhe und Sockelabdichtung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4fugenabstand",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3bewegungsfuge",
+  "t": "Fugenabstände und Fugenbreite",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfa1",
+    "t": "Außenwand und Fassade"
+   },
+   {
+    "id": "kbo2sockel",
+    "t": "Sockel- und Übergangsdetails"
+   }
+  ],
+  "eltern": {
+   "id": "kab3bewegungsfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Bewegungsfugen im Hochbau",
+   "t1": "Bewegungsfugen trennen große Bauteile in Abschnitte, die sich unabhängig voneinander ausdehnen oder zusammenziehen können, üblich bei langen Fassaden, großen Bodenplatten oder am Übergang zwischen Neubau und Bestand. Ihre Lage folgt der Statik, nicht der Architektur, weshalb sie früh mit dem Tragwerksplaner abgestimmt werden muss."
+  },
+  "geschwister": [
+   {
+    "id": "kab4fugedurch",
+    "t": "Fuge durch alle Schichten: Dach, Wand, Boden",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4fugedurch",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3bewegungsfuge",
+  "t": "Fuge durch alle Schichten: Dach, Wand, Boden",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kda1",
+    "t": "Dach"
+   },
+   {
+    "id": "kbo1",
+    "t": "Böden und Beläge"
+   }
+  ],
+  "eltern": {
+   "id": "kab3bewegungsfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Bewegungsfugen im Hochbau",
+   "t1": "Bewegungsfugen trennen große Bauteile in Abschnitte, die sich unabhängig voneinander ausdehnen oder zusammenziehen können, üblich bei langen Fassaden, großen Bodenplatten oder am Übergang zwischen Neubau und Bestand. Ihre Lage folgt der Statik, nicht der Architektur, weshalb sie früh mit dem Tragwerksplaner abgestimmt werden muss."
+  },
+  "geschwister": [
+   {
+    "id": "kab4fugenabstand",
+    "t": "Fugenabstände und Fugenbreite",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4fugenmasse",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3abdichtfuge",
+  "t": "Fugenmasse: Dimensionierung und Hinterfüllung",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4dichtaussen",
+    "t": "Äußere Ebene: Kompriband, Folie, Schlagregen"
+   }
+  ],
+  "eltern": {
+   "id": "kab3abdichtfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Abdichten von Fugen: Fugenband und Fugenmasse",
+   "t1": "Eine Bewegungsfuge muss trotz ständiger Bewegung dicht bleiben, wofür entweder ein elastisches Fugenband einbetoniert oder eine dauerelastische Fugenmasse nachträglich eingebracht wird. Beide Systeme haben eine begrenzte Lebensdauer und gehören deshalb zu den wenigen Bauteilen, deren Wartung von Anfang an mitgeplant werden sollte."
+  },
+  "geschwister": [
+   {
+    "id": "kab4fugenband",
+    "t": "Fugenband und Fugenblech",
+    "neu": true
+   },
+   {
+    "id": "kab4wartungsfuge",
+    "t": "Wartungsfuge oder dauerhaft dichte Fuge",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4fugenband",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3abdichtfuge",
+  "t": "Fugenband und Fugenblech",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kgr1",
+    "t": "Gründung und erdberührte Bauteile"
+   }
+  ],
+  "eltern": {
+   "id": "kab3abdichtfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Abdichten von Fugen: Fugenband und Fugenmasse",
+   "t1": "Eine Bewegungsfuge muss trotz ständiger Bewegung dicht bleiben, wofür entweder ein elastisches Fugenband einbetoniert oder eine dauerelastische Fugenmasse nachträglich eingebracht wird. Beide Systeme haben eine begrenzte Lebensdauer und gehören deshalb zu den wenigen Bauteilen, deren Wartung von Anfang an mitgeplant werden sollte."
+  },
+  "geschwister": [
+   {
+    "id": "kab4fugenmasse",
+    "t": "Fugenmasse: Dimensionierung und Hinterfüllung",
+    "neu": true
+   },
+   {
+    "id": "kab4wartungsfuge",
+    "t": "Wartungsfuge oder dauerhaft dichte Fuge",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4wartungsfuge",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3abdichtfuge",
+  "t": "Wartungsfuge oder dauerhaft dichte Fuge",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "pbl2gewaehr",
+    "t": "Gewährleistung und Verjährungsfristen"
+   },
+   {
+    "id": "kab3verbund",
+    "t": "Verbundabdichtung unter Fliesenbelag"
+   }
+  ],
+  "eltern": {
+   "id": "kab3abdichtfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Abdichten von Fugen: Fugenband und Fugenmasse",
+   "t1": "Eine Bewegungsfuge muss trotz ständiger Bewegung dicht bleiben, wofür entweder ein elastisches Fugenband einbetoniert oder eine dauerelastische Fugenmasse nachträglich eingebracht wird. Beide Systeme haben eine begrenzte Lebensdauer und gehören deshalb zu den wenigen Bauteilen, deren Wartung von Anfang an mitgeplant werden sollte."
+  },
+  "geschwister": [
+   {
+    "id": "kab4fugenmasse",
+    "t": "Fugenmasse: Dimensionierung und Hinterfüllung",
+    "neu": true
+   },
+   {
+    "id": "kab4fugenband",
+    "t": "Fugenband und Fugenblech",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4anschlusstrocken",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3anschlussfuge",
+  "t": "Anschluss Trockenbau an Massivbau",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kiw1",
+    "t": "Innenwände und Trockenbau"
+   },
+   {
+    "id": "k6trocken",
+    "t": "Anschluss an Trockenbau vs. Massivwand"
+   }
+  ],
+  "eltern": {
+   "id": "kab3anschlussfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Anschlussfugen an Bauteilübergängen",
+   "t1": "Anders als die Bewegungsfuge trennt die Anschlussfuge keine gleichartigen Bauteile, sondern verbindet unterschiedliche, etwa ein Fensterelement mit dem Mauerwerk, und muss deren unterschiedliches Bewegungsverhalten ausgleichen. Sie ist die eigentliche Belastungsprobe jeder Fassadenabdichtung, weil hier die meisten Materialwechsel zusammenkommen."
+  },
+  "geschwister": [
+   {
+    "id": "kab4anschlussfenster",
+    "t": "Anschlussfuge Fenster: Maß und Bewegung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4anschlussfenster",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3anschlussfuge",
+  "t": "Anschlussfuge Fenster: Maß und Bewegung",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe3raldicht",
+    "t": "Die drei Dichtungsebenen der RAL-Montage"
+   },
+   {
+    "id": "kfe4dichtmitte",
+    "t": "Mittlere Ebene: Fugendämmung und Hohlraum"
+   }
+  ],
+  "eltern": {
+   "id": "kab3anschlussfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Anschlussfugen an Bauteilübergängen",
+   "t1": "Anders als die Bewegungsfuge trennt die Anschlussfuge keine gleichartigen Bauteile, sondern verbindet unterschiedliche, etwa ein Fensterelement mit dem Mauerwerk, und muss deren unterschiedliches Bewegungsverhalten ausgleichen. Sie ist die eigentliche Belastungsprobe jeder Fassadenabdichtung, weil hier die meisten Materialwechsel zusammenkommen."
+  },
+  "geschwister": [
+   {
+    "id": "kab4anschlusstrocken",
+    "t": "Anschluss Trockenbau an Massivbau",
+    "neu": true
+   }
+  ]
+ }
+]

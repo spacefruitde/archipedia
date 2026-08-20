@@ -1,0 +1,762 @@
+k1 [k1] Türen
+k2i [k2] Innentüren
+k3blatt [k3] Türblatt
+k3zarge [k3] Zarge
+k3besch [k3] Beschläge
+k3oeff [k3] Öffnungsarten
+k2a [k2] Außen- und Haustüren
+k3waerme [k3] Aufbau und Wärmeschutz
+k3rc [k3] Einbruchschutz: RC-Klassen
+k3schwelle [k3] Schwelle und Barrierefreiheit
+k2f [k2] Funktionstüren
+k3t30 [k3] Brandschutztüren (T30/T60/T90)
+k3rs [k3] Rauchschutztüren (RS)
+k3schall [k3] Schallschutztüren
+k3kombi [k3] Kombinationsanforderungen
+k2b [k2] Türen im Bestand
+k3hist [k3] Aufarbeitung historischer Türen
+k3ertuecht [k3] Ertüchtigung im Denkmal
+e1 [e1] Die Tür als Entwurfselement
+e2schwelle [e2] Schwelle und Übergang
+e3zaesur [e3] Die Tür als räumliche Zäsur
+e3schwellenr [e3] Schwellenräume: Windfang, Vorraum, Nische
+e2prop [e2] Proportion und Format
+e3raumhoch [e3] Raumhohe Türen und der aufgelöste Sturz
+e3breite [e3] Türbreiten zwischen Norm und Geste
+e2artik [e2] Artikulation vs. Verschwinden
+e3portal [e3] Die betonte Tür: Portal, Rahmung, Gewände
+e3unsichtbar [e3] Die unsichtbare Tür
+e2hand [e2] Die Tür als Berührungspunkt
+e3druecker [e3] Der Drücker als Handschlag des Gebäudes
+e2folge [e2] Türen in der Raumfolge
+e3enfilade [e3] Enfilade und Sichtachse
+e3position [e3] Türposition im Raum: Ecke oder Mitte
+x1 [x1] Margarethenhöhe, Essen
+x2staedt [x2] Städtebau der Gartenstadt
+x3tor [x3] Torhaus und Brückenzugang
+x3platz [x3] Platzfolgen und Straßenräume
+x2typ [x2] Gebäudetypen
+x3reihe [x3] Reihenhaustypen und ihre Variation
+x2fass [x2] Fassadenelemente
+x3haustuer [x3] Haustüren der Margarethenhöhe
+kt1 [k1] Treppen
+kt2geo [k2] Laufgeometrie und Podeste
+kt3steig [k3] Steigungsverhältnis und Schrittmaß
+kt3form [k3] Grundformen: gerade, gewendelt, gewunden
+kt3podest [k3] Podeste, Antritt, Austritt
+kt3kopf [k3] Kopfhöhe und Durchgangshöhe
+kt2konst [k2] Konstruktionen nach Material
+kt3beton [k3] Stahlbetontreppen
+kt3holz [k3] Holztreppen
+kt3stahl [k3] Stahl- und Spindeltreppen
+kt3fertig [k3] System- und Raumspartreppen
+kt2gel [k2] Geländer und Handläufe
+kt3gelh [k3] Geländerhöhen und Öffnungsmaße
+kt3hand [k3] Handlauf: Ergonomie und Pflicht
+kt3fuell [k3] Füllungen: Stab, Fläche, Netz
+kt2not [k2] Notwendige Treppen und Fluchtwege
+kt3nutz [k3] Nutzbare Laufbreite
+kt3raum [k3] Der notwendige Treppenraum
+kt3aussen [k3] Außentreppen als Rettungsweg
+kt2rampe [k2] Rampen und Aufzüge
+kt3rampe [k3] Rampen
+kt3aufzug [k3] Aufzüge: Schacht und Schnittstellen
+et1 [e1] Die Treppe als Entwurfselement
+et2skulptur [e2] Die Treppe als Raumskulptur
+et2prom [e2] Promenade: Steigen als Sequenz
+et2ort [e2] Die Treppe als Ort
+et2licht [e2] Treppe und Licht
+et2zeigen [e2] Treppen zeigen oder verbergen
+kgr1 [k1] Gründung und erdberührte Bauteile
+kgr2fund [k2] Flach- und Tiefgründungen
+kgr3streifen [k3] Streifen- und Einzelfundamente
+kgr3platte [k3] Bodenplatte
+kgr3pfahl [k3] Pfahlgründung
+kgr3wahl [k3] Baugrunduntersuchung und Gründungswahl
+kgr2keller [k2] Kellerwände und Weiße Wanne
+kgr3wu [k3] Weiße Wanne: Konstruktionsprinzip
+kgr3schwarz [k3] Schwarze und Braune Wanne im Vergleich
+kgr3ziegel [k3] Kellerwand aus Mauerwerk
+kgr3durchdring [k3] Durchdringungen der Weißen Wanne
+kgr2abdicht [k2] Abdichtung erdberührter Bauteile
+kgr3weklasse [k3] Wassereinwirkungsklassen im Überblick
+kgr3bitumen [k3] Bitumen- und Kunststoffbahnen
+kgr3fluessig [k3] Flüssigabdichtung
+kgr3drainage [k3] Drainage und Sickerwasser
+kgr2perim [k2] Perimeterdämmung und Sockelausbildung
+kgr3perimmat [k3] Perimeterdämmung: Materialwahl
+kgr3sockel [k3] Sockelausbildung und Spritzwasserschutz
+kgr3waermebr [k3] Wärmebrücke am Gebäudesockel
+kro1 [k1] Tragwerk und Rohbau
+kro2mauer [k2] Mauerwerksbau
+kro3steine [k3] Mauerwerksarten und Steinformate
+kro3tragend [k3] Tragende und aussteifende Wände
+kro3knick [k3] Schlankheit und Knicklänge im Mauerwerk
+kro2beton [k2] Stahlbetonbau: Ortbeton und Fertigteile
+kro3ortbeton [k3] Ortbeton: Schalung und Bewehrung
+kro3fertig [k3] Betonfertigteile und Elementbauweise
+kro2holz [k2] Holzbau: Massivholz, Skelett, Rahmen
+kro3massiv [k3] Massivholzbau (Brettsperrholz)
+kro3skelett [k3] Holzskelettbau
+kro3rahmen [k3] Holzrahmenbau
+kro2stahl [k2] Stahl- und Hybridbau
+kro3profile [k3] Stahlskelettbau und Profile
+kro3verbund [k3] Verbundbau: Stahl und Beton kombiniert
+kro3brand [k3] Brandschutz im Stahlbau
+kro2decken [k2] Decken und Unterzüge
+kro3decksys [k3] Deckensysteme im Vergleich
+kro3unterzug [k3] Unterzüge und Spannweiten
+kro2aussteif [k2] Aussteifung und Fugen
+kro3ausstbau [k3] Aussteifende Bauteile
+kro3fugen [k3] Bauwerksfugen: Dehnung, Setzung, Trennung
+kro3schwinden [k3] Schwinden und Kriechen im Tragwerk
+kfa1 [k1] Außenwand und Fassade
+kfa2mono [k2] Monolithische Außenwände
+kfa3ziegelmono [k3] Hochlochziegel und Leichtbeton
+kfa3grenzmono [k3] Grenzen der monolithischen Bauweise
+kfa2wdvs [k2] WDVS
+kfa3daemmwdvs [k3] Dämmstoffe im WDVS
+kfa3schwachwdvs [k3] Schwachstellen am WDVS
+kfa2vhf [k2] Vorgehängte hinterlüftete Fassade
+kfa3ukonvhf [k3] Unterkonstruktion und Hinterlüftung
+kfa3bekleidvhf [k3] Bekleidungsmaterialien im Überblick
+kfa3befestvhf [k3] Befestigung und Wärmebrücken
+kfa2sicht [k2] Sichtmauerwerk und Verblendschalen
+kfa3verblend [k3] Verblendschale und Luftschicht
+kfa3anker [k3] Ankertechnik und Mauerwerksanker
+kfa2pfriegel [k2] Pfosten-Riegel- und Elementfassaden
+kfa3pfsystem [k3] Pfosten-Riegel-Systeme
+kfa3element [k3] Elementfassaden: Vorfertigung und Montage
+kfa3dicht [k3] Dichtungsebenen und Entwässerung
+kfa2sichtbeton [k2] Sichtbeton als Fassade
+kfa3schaltech [k3] Schalungstechnik für Sichtbeton
+kfa3fugenbild [k3] Fugenbild und Ansichtsplanung
+kfa2gruen [k2] Fassadenbegrünung und Solarfassade
+kfa3boden [k3] Bodengebundene und wandgebundene Begrünung
+kfa3pv [k3] Photovoltaik und Solarthermie in der Fassade
+kda1 [k1] Dach
+kda2geneigt [k2] Geneigtes Dach
+kda3aufbau [k3] Kaltdach und Warmdach
+kda3deckung [k3] Deckungsarten: Ziegel, Schiefer, Metall
+kda3daemm [k3] Dämmebenen im Sparrenfeld
+kda2flach [k2] Flachdach
+kda3warmdach [k3] Warmdach und Umkehrdach
+kda3abdicht [k3] Abdichtungsbahnen und Systeme
+kda3gefaelle [k3] Gefälledämmung und Entwässerungsgefälle
+kda2entw [k2] Dachentwässerung
+kda3rinne [k3] Außenliegende Rinne und Fallrohr
+kda3innen [k3] Innenliegende Entwässerung und Gully
+kda3notabl [k3] Notentwässerung und Überflutungsnachweis
+kda2gauben [k2] Gauben, Öffnungen, Durchdringungen
+kda3gaubenform [k3] Gaubenformen
+kda3lichtkuppel [k3] Dachflächenfenster und Lichtkuppeln
+kda3durchdring [k3] Durchdringungen der Dachfläche
+kda2gruen [k2] Gründach und Retentionsdach
+kda3extensiv [k3] Extensive Begrünung
+kda3intensiv [k3] Intensive Begrünung und Dachgarten
+kda3retention [k3] Retentionsdach und Regenwassermanagement
+kda2terrasse [k2] Dachterrassen und begehbare Flächen
+kda3belag [k3] Belagsaufbau: Plattenlager und Holz
+kda3abdichtterrasse [k3] Abdichtung unter der Nutzschicht
+kda3attika [k3] Attika und Geländeranschluss
+kfe1 [k1] Fenster und Verglasung
+kfe2konstr [k2] Fensterkonstruktionen und Rahmenmaterialien
+kfe3rahmen [k3] Rahmenmaterialien
+kfe4rahmholz [k4] Holzrahmen
+kfe5holzschutz [k5] Oberflächenschutz und Wartung
+kfe4rahmholzalu [k4] Holz-Aluminium-Rahmen
+kfe5holzaluschale [k5] Aluminiumschale: Hinterlüftung und Dichtung
+kfe4rahmkunst [k4] Kunststoffrahmen
+kfe5kammer [k5] Kammersystem und Bautiefe
+kfe4rahmalu [k4] Aluminiumrahmen
+kfe5thermtrenn [k5] Thermische Trennung im Aluminiumprofil
+kfe3fluegel [k3] Flügeltypen und Öffnungsarten
+kfe4drehkipp [k4] Dreh-Kipp-Fenster
+kfe5fluegelgewicht [k5] Flügelgröße, Gewicht und Bedienkraft
+kfe5beschlag [k5] Beschlag: Tragkraft und Fehlbedienung
+kfe4hebeschiebe [k4] Hebeschiebeelemente
+kfe5hsstatik [k5] Elementgröße, Statik und Transport
+kfe5hsschwelle [k5] Nullschwelle am Hebeschiebeelement
+kfe4fix [k4] Festverglasung und Fixfelder
+kfe5fixreinigung [k5] Reinigung und Austausch großer Fixfelder
+kfe3profil [k3] Profilsysteme und Bautiefe
+kfe4profdenkmal [k4] Profile im Denkmal: Nachbau und Kastenfenster
+kfe4profansicht [k4] Ansichtsbreite und schlanke Profile
+kfe4profbautiefe [k4] Bautiefe, Kammern und Uf-Wert
+kfe2glas [k2] Verglasung (Wärme-, Sonnen-, Schallschutz)
+kfe3waermeglas [k3] Wärmeschutzverglasung
+kfe4randverbund [k4] Randverbund und warme Kante
+kfe5abstandhalter [k5] Abstandhalterprofile im Vergleich
+kfe6psi [k6] Psi-Wert: Kennwert und Nachweis
+kfe7lvkante [k7] LV-Position: Warme Kante im Fenster-LV
+kfe6tau [k6] Oberflächentemperatur und Kondensat am Rand
+kfe6sicht [k6] Sichtbare Kante: Farbe, Breite, Sprossen
+kfe5dicht [k5] Dichtstoffe und Trockenmittel im Randverbund
+kfe3sonnenglas [k3] Sonnenschutzverglasung und g-Wert
+kfe4sommer [k4] Sommerschutz: Glas oder Verschattung
+kfe4beschichtung [k4] Beschichtungslage und Farbwirkung der Scheibe
+kfe4gwert [k4] g-Wert, Lichttransmission und Selektivität
+kfe3schallglas [k3] Schallschutzverglasung
+kfe4schallfuge [k4] Schwachstellen: Fugen, Lüfter, Kästen
+kfe4rw [k4] Rw der Scheibe und Rw des Fensters
+kfe4schallaufbau [k4] Asymmetrischer Aufbau und Schallschutzfolie
+kfe2montage [k2] Baukörperanschluss und Montage (RAL)
+kfe3raldicht [k3] Die drei Dichtungsebenen der RAL-Montage
+kfe4dichtecke [k4] Ecken, Stöße und Durchdringungen
+kfe4dichtaussen [k4] Äußere Ebene: Kompriband, Folie, Schlagregen
+kfe4dichtmitte [k4] Mittlere Ebene: Fugendämmung und Hohlraum
+kfe4dichtinnen [k4] Innere Ebene: Folien und Luftdichtheit
+kfe3laibung [k3] Laibung, Sturz und Brüstung
+kfe4laibinnen [k4] Innenlaibung: Trockenbau und Putz
+kfe4laibaussen [k4] Außenlaibung: Wärmedämmverbundsystem
+kfe5laibwdvs [k5] Laibungsdämmung und Anputzleiste
+kfe4laibvhf [k4] Außenlaibung: hinterlüftete Fassade
+kfe5laibblech [k5] Laibungsblech, Entwässerung und Bewegungsfuge
+kfe3daemmkeil [k3] Montagelage in der Dämmebene
+kfe4montagewand [k4] Montage in der Wandebene
+kfe5montagebefest [k5] Befestigung: Dübel, Laschen, Lastabtrag
+kfe4montagevorgesetzt [k4] Vorgesetzte Montage mit Konsolen
+kfe5konsole [k5] Montagekonsolen: Statik und Ausführung
+kfe4montagevorgemauert [k4] Vorgemauerte Montage in Vormauerschale
+kfe2sonnenschutz [k2] Sonnenschutz und Verschattung
+kfe3aussenliegend [k3] Außenliegender Sonnenschutz
+kfe4raffstore [k4] Raffstoren mit Lamellen
+kfe5lamelle [k5] Lamellenprofil und Antriebsart
+kfe4rollladen [k4] Rollläden
+kfe5rollkasten [k5] Rollladenkasten: Aufsatz, Vorbau, Einbau
+kfe4screen [k4] Screens als textiler Sonnenschutz
+kfe5gewebe [k5] Screengewebe und Offenheitsgrad
+kfe4klappladen [k4] Klappläden
+kfe5klappbefest [k5] Kloben und Befestigung im WDVS
+kfe3innenliegend [k3] Innenliegender und integrierter Sonnenschutz
+kfe4innenjalousie [k4] Innen liegende Jalousien und Vorhänge
+kfe4integriertlamelle [k4] Scheibenintegrierte Lamellen
+kfe3steuerung [k3] Steuerung und Verschattungsautomation
+kfe4bus [k4] Gebäudeautomation und Nutzerübersteuerung
+kfe4wind [k4] Wind- und Sonnenwächter
+kfe2bank [k2] Fensterbänke innen/außen
+kfe3bankaussen [k3] Außenfensterbank und Entwässerung
+kfe4bankalu [k4] Aluminium-Fensterbank außen
+kfe5alubesonder [k5] Alu-Bank: Endstücke, Dehnung, Dämpfung
+kfe4banksteinaussen [k4] Stein- und Kunststeinbank außen
+kfe4bankneigung [k4] Neigungen und Tropfkanten im Detail
+kfe4bankmontage [k4] Montage und zweite Dichtebene
+kfe5bankwaermebruecke [k5] Wärmebrücke am unteren Fensteranschluss
+kfe4bankgewerke [k4] Gewerke und Ausschreibung
+kfe3bankinnen [k3] Innenfensterbank als Möbel und Übergang
+kfe4bankheiz [k4] Innenbank über dem Heizkörper: Luftführung
+kfe4banksitz [k4] Sitzfenster und tiefe Innenbank
+kfe3bankmat [k3] Materialwahl der Fensterbank
+kfe4banknatur [k4] Naturstein- und Kunststeinbänke
+kfe4bankmetall [k4] Metallbänke
+kfe4bankholz [k4] Holz- und Kunststoffbänke innen
+kfe2absturz [k2] Absturzsicherung am Fenster
+kfe3absturzhoehe [k3] Brüstungshöhen und Sicherungspflicht
+kfe4bodentief [k4] Bodentiefe Fenster: Lösungen im Vergleich
+kfe4bruestung [k4] Brüstungshöhe messen: Aufstiegshilfen
+kfe3absturzglas [k3] Absturzsichernde Verglasung
+kfe4absturzkat [k4] Kategorien A, B, C und Nachweisführung
+kfe4vsg [k4] VSG-Aufbau und Folientyp
+kfe3absturzgel [k3] Vorgesetzte Geländer und Fenstergitter
+kfe4gelfranz [k4] Französischer Balkon: Stab, Glas, Lochblech
+kfe4gelinnen [k4] Innengeländer: Befestigung in der Laibung
+kiw1 [k1] Innenwände und Trockenbau
+kiw2massiv [k2] Massive Innenwände
+kiw3mauerwerk [k3] Mauerwerk als Innenwand
+kiw3beton [k3] Stahlbetoninnenwände
+kiw3porenbeton [k3] Porenbeton und Trennwandplatten
+kiw2trocken [k2] Trockenbauwände (Ständerwerk, Beplankung)
+kiw3staender [k3] Ständerwerk: Profile und Dimensionierung
+kiw3beplank [k3] Beplankung: Gipskarton, Gipsfaser, Zement
+kiw3daemmung [k3] Dämmung im Ständerhohlraum
+kiw3tuerintegr [k3] Türöffnungen und Aussteifung im Ständerwerk
+kiw2vorsatz [k2] Vorsatzschalen und Installationswände
+kiw3vorsatz [k3] Vorsatzschale vor Massivwand
+kiw3installwand [k3] Installationswand für Sanitärobjekte
+kiw3schacht [k3] Schächte und Revisionsöffnungen
+kiw2schall [k2] Schallschutz im Innenausbau
+kiw3trennwand [k3] Trennwände zwischen Nutzungseinheiten
+kiw3flankierend [k3] Flankierende Bauteile und Schallnebenwege
+kiw3tuerfuge [k3] Türen und Fugen als Schallschwäche
+kiw2sonder [k2] Trennwände in Sonderfunktion
+kiw3nasszelle [k3] Wände im Nassraum
+kiw3brandwand [k3] Brandwände und Trennwände
+kiw3rauch [k3] Rauchschutzwände in Fluchtwegen
+kbo1 [k1] Böden und Beläge
+kbo2estrich [k2] Estriche und Bodenaufbauten
+kbo3zement [k3] Zementestrich
+kbo3calcium [k3] Calciumsulfatestrich (Anhydrit)
+kbo3daemm [k3] Schwimmender Estrich und Trittschall
+kbo2fbh [k2] Fußbodenheizung im Aufbau
+kbo3nassfbh [k3] Nasssystem: Rohre im Estrich
+kbo3trockenfbh [k3] Trockensystem im Bestand und Holzbau
+kbo3fbhbelag [k3] Belagseignung über Fußbodenheizung
+kbo2belag [k2] Beläge
+kbo3parkett [k3] Parkett und Holzböden
+kbo3stein [k3] Naturstein und Fliese
+kbo3elast [k3] Elastische und textile Beläge
+kbo3giess [k3] Gegossene Böden
+kbo2sockel [k2] Sockel- und Übergangsdetails
+kbo3sockelleiste [k3] Sockelleisten und Wandanschluss
+kbo3belagwechsel [k3] Übergangsprofile zwischen Belägen
+kbo3tuerueberg [k3] Bodenübergang an der Tür
+kbo2doppel [k2] Doppel- und Hohlraumböden
+kbo3doppelboden [k3] Doppelboden: Aufbau und Zugänglichkeit
+kbo3hohlraum [k3] Hohlraumboden: Nassestrich mit Kanälen
+kbo3doppelwahl [k3] Systementscheidung Doppel- vs. Hohlraumboden
+kde1 [k1] Deckenbekleidungen und Akustik
+kde2unterdecke [k2] Unterdecken und Abhangsysteme
+kde3gipskarton [k3] Gipskarton-Unterdecke
+kde3metall [k3] Metall-Rasterdecke
+kde3akustikplatte [k3] Mineralfaser- und Akustikplatten
+kde2akustik [k2] Raumakustik-Maßnahmen
+kde3nachhall [k3] Nachhallzeit als Planungsziel
+kde3absorber [k3] Absorber: Platten, Baffles, Wolken
+kde3akustikputz [k3] Akustikputz und -spachtel
+kde2sicht [k2] Sichtdecken
+kde3sichtbeton [k3] Sichtbetondecke
+kde3sichtholz [k3] Sichtholzdecke: Balken- und Massivholz
+kde3akustiksicht [k3] Akustisch wirksame Sichtdecken
+kde2technik [k2] Integration von Technik in die Decke
+kde3integration [k3] Leuchten, Sprinkler und Lüftung in der Decke
+kde3revision [k3] Revisionsöffnungen und Zugänglichkeit
+kde3kuehldecke [k3] Kühl- und Heizdecken
+kab1 [k1] Abdichtung und Bauphysik im Detail
+kab2luft [k2] Luftdichtheit und Dampfdiffusion
+kab3luftdicht [k3] Die luftdichte Ebene im Bauteilaufbau
+kab3dampfbremse [k3] Dampfbremse und Dampfsperre
+kab3blowerdoor [k3] Blower-Door-Test und Leckageortung
+kab2waermebruecke [k2] Wärmebrücken
+kab3konstruktiv [k3] Konstruktive Wärmebrücken
+kab3geometrisch [k3] Geometrische Wärmebrücken
+kab3vermeidung [k3] Wärmebrückenfreies Konstruieren
+kab2schlagregen [k2] Schlagregen und Spritzwasserschutz
+kab3fassade [k3] Schlagregenschutz an der Fassade
+kab3fenster [k3] Fenster- und Türanschluss an die Abdichtung
+kab3sockel [k3] Spritzwasserzone am Sockel
+kab2fuge [k2] Bauwerksfugen und Bewegung
+kab3bewegungsfuge [k3] Bewegungsfugen im Hochbau
+kab3abdichtfuge [k3] Abdichten von Fugen: Fugenband und Fugenmasse
+kab3anschlussfuge [k3] Anschlussfugen an Bauteilübergängen
+kab2nassraum [k2] Feuchteschutz im Bad und Nassraum
+kab3verbund [k3] Verbundabdichtung unter Fliesenbelag
+kab3ablauf [k3] Bodenablauf und Gefälle
+kab3feuchtraum [k3] Feuchträume außerhalb des Bads
+ktg1 [k1] Technische Gebäudeausrüstung
+ktg2heiz [k2] Heizung und Kühlung
+ktg3erzeug [k3] Wärmeerzeugung: System und Raumbedarf
+ktg3verteil [k3] Wärmeverteilung: Leitungsführung und Höhen
+ktg3flaeche [k3] Flächenheizung und Flächenkühlung
+ktg3kuehl [k3] Kühlung: Bauteilaktivierung und Klimageräte
+ktg2lueft [k2] Lüftung: Geräte, Führung, Auslässe
+ktg3anlagentyp [k3] Lüftungsanlagen: zentral, dezentral, hybrid
+ktg3fuehr [k3] Luftführung und Schachtbedarf
+ktg3auslass [k3] Auslässe und ihr Platz im Deckenraster
+ktg3fassade [k3] Außenluftdurchlässe an der Fassade
+ktg2elektro [k2] Elektro: Installationszonen und Verteiler
+ktg3zonen [k3] Installationszonen im Grundriss
+ktg3verteiler [k3] Verteiler und Technikräume
+ktg3pv [k3] Photovoltaik und Ladeinfrastruktur
+ktg2sanitaer [k2] Sanitär: Schächte, Vorwände, Entwässerung
+ktg3schacht [k3] Sanitärschächte: Dimensionierung und Lage
+ktg3vorwand [k3] Vorwandinstallation und Wandaufbau
+ktg3entwaesser [k3] Entwässerung: Gefälle und Rückstau
+ktg3trinkwasser [k3] Trinkwasserhygiene und Leitungslänge
+ktg2automation [k2] Gebäudeautomation und Smart Building
+ktg3bus [k3] Bussysteme und Verkabelung im Rohbau
+ktg3schnittstelle [k3] Schnittstelle zu den TGA Gewerken
+ktg3bedien [k3] Bedienstellen und ihre Platzierung im Raum
+kma1 [k1] Material- und Produktkunde
+kma2holz [k2] Holz und Holzwerkstoffe
+kma3vollholz [k3] Vollholz und Holzarten im Ausbau
+kma3werkstoff [k3] Holzwerkstoffe: Platten und Verbundstoffe
+kma2beton [k2] Beton und Betonoberflächen
+kma3sichtbeton [k3] Sichtbeton: Schalung und Ausführungsklassen
+kma3fertigteil [k3] Betonfertigteile, Oberflächen und Fugen
+kma2naturstein [k2] Naturstein und Keramik
+kma3gestein [k3] Natursteinarten und ihre Eignung
+kma3keramik [k3] Keramik und Feinsteinzeug
+kma2metall [k2] Metalle im Ausbau
+kma3stahl [k3] Stahl, Edelstahl und ihre Oberflächen
+kma3ne [k3] NE-Metalle: Aluminium, Messing, Kupfer, Zink
+kma2glas [k2] Glas
+kma3glasart [k3] Glasarten und ihre Eigenschaften
+kma3glasoberfl [k3] Glasveredelung und Bedruckung
+kma2putz [k2] Putze, Farben, Beschichtungen
+kma3putz [k3] Putzsysteme innen und außen
+kma3farbe [k3] Anstriche und Beschichtungen
+kma2kunststoff [k2] Kunststoffe und Membranen
+kma3kunststoff [k3] Kunststoffe im Bauteilaufbau
+kma3membran [k3] Membranen und Foliensysteme
+kma2lehm [k2] Lehm und alternative Baustoffe
+kma3lehmbau [k3] Lehmbaustoffe und ihre Anwendung
+kma3alternativ [k3] Weitere alternative Baustoffe
+kbe1 [k1] Bauen im Bestand
+kbe2aufnahme [k2] Bestandsaufnahme und Schadensbilder
+kbe3aufmass [k3] Aufmaß, Bauteilöffnung und Bestandspläne
+kbe3schad [k3] Schadensbilder lesen: Ursache vor Symptom
+kbe3schadstoff [k3] Schadstoffe im Bestand erkennen
+kbe3zustand [k3] Bauzustandsbewertung und Beweissicherung
+kbe2ertuecht [k2] Ertüchtigung: Statik, Brandschutz, Energie
+kbe3statik [k3] Statisch ertüchtigen statt ersetzen
+kbe3brand [k3] Brandschutzertüchtigung im laufenden Betrieb
+kbe3energ [k3] Energetische Ertüchtigung und ihre Grenzen
+kbe3install [k3] Haustechnik im Bestand nachrüsten
+kbe2denkmal [k2] Denkmalpflege: Prinzipien und Praxis
+kbe3prinz [k3] Substanzschutz und Reversibilität als Prinzip
+kbe3ansatz [k3] Rekonstruktion, Ergänzung oder Kontrast
+kbe3verfahren [k3] Genehmigungsverfahren und Denkmalbehörde
+kbe3material [k3] Historische Materialien und Handwerk
+kbe2umbau [k2] Anbauen, Aufstocken, Umnutzen
+kbe3anbau [k3] Anbau: Fügung an den Bestand
+kbe3aufstock [k3] Aufstockung: Lastreserven und Leichtbau
+kbe3umnutz [k3] Umnutzung: neue Funktion, altes Tragwerk
+kbe3ruecksb [k3] Rückbau und Bauteilrecycling
+kau1 [k1] Außenanlagen und Übergänge
+kau2belag [k2] Beläge und Entwässerung außen
+kau3pflaster [k3] Pflasterbeläge: Aufbau und Fugenbild
+kau3wasser [k3] Wassergebundene und sickerfähige Beläge
+kau3entw [k3] Entwässerung: Gefälle, Rinnen, Versickerung
+kau3terrasse [k3] Terrassenbeläge und Plattenlager
+kau2einfried [k2] Einfriedungen und Stützmauern
+kau3zaun [k3] Zäune und Hecken als Grundstücksgrenze
+kau3mauer [k3] Stützmauern: Erddruck und Material
+kau3sockelmauer [k3] Sockelmauerwerk und Spritzwasserschutz
+kau3tor [k3] Einfahrtstore und Zugangssituationen
+kau2uebergang [k2] Der Übergang Gebäude/Gelände
+kau3sockelanschl [k3] Sockelanschluss und Spritzwasserschutz
+kau3gefaelle [k3] Gefälle vom Gebäude weg als Grundregel
+kau3vordach [k3] Vordach und Rücksprung als Wetterschutz
+kau2barriere [k2] Barrierefreie Außenerschließung
+kau3rampenweg [k3] Rampen und Wege im Freien
+kau3stellplatz [k3] Barrierefreie Stellplätze und Absenkung
+kau3leitsystem [k3] Taktile Leitsysteme im Außenraum
+efe1 [e1] Das Fenster als Entwurfselement
+efe2detail [e2] Die Ansicht im Detail
+efe3ecke [e3] Eckfenster und rahmenlose Ecke
+efe3material [e3] Rahmenmaterial als Ausdruck
+efe3rahmenschmal [e3] Schlanker Rahmen, verdeckter Flügel
+efe2laibung [e2] Laibung, Tiefe und Schatten
+efe3sitz [e3] Sitzfenster und bewohnte Laibung
+efe3buendig [e3] Fassadenbündig: die dünne Haut
+efe3laibtief [e3] Tiefe Laibung: Schatten und Massivität
+efe2format [e2] Teilung, Rhythmus und Reihung
+efe3reihung [e3] Lochfassade, Band und Feld: die Reihung
+efe3teilung [e3] Sprossen und Teilung: Maßstab der Fassade
+erp1 [e1] Raum und Proportion
+erp2mass [e2] Raumproportionen und Maßsysteme
+erp3verhaeltnis [e3] Seitenverhältnisse und Raumcharakter
+erp3modulor [e3] Maßsysteme: vom Goldenen Schnitt zum Modulor
+erp3achsmass [e3] Konstruktionsraster und Achsmaß
+erp3wahrnehm [e3] Proportion als Wahrnehmungssache
+erp2hoehe [e2] Raumhöhe als Entwurfsmittel
+erp3standard [e3] Normalhöhe und ihre Wirkung
+erp3hochraum [e3] Hohe Räume: Geste und Konsequenz
+erp3niedrig [e3] Niedrige Zonen als Kompression
+erp3schnitt [e3] Höhenstaffelung im Schnitt
+erp2offen [e2] Offenheit und Fassung
+erp3fassung [e3] Der gefasste Raum
+erp3fliess [e3] Der fließende Raum
+erp3zonier [e3] Zonierung ohne Wand
+erp3massstab [e3] Maßstab im offenen Raum
+eli1 [e1] Licht
+eli2tag [e2] Tageslichtführung
+eli3seite [e3] Einseitiges Licht und Raumtiefe
+eli3zwei [e3] Licht von zwei Seiten und Eckfenster
+eli3oben [e3] Oberlicht und Zenitlicht
+eli3lenk [e3] Lichtlenkung durch Material und Farbe
+eli3jahreszeit [e3] Lichteinfall im Jahresverlauf
+eli2verh [e2] Öffnung und Wand: das Verhältnis
+eli3anteil [e3] Öffnungsanteil und Fassadencharakter
+eli3format [e3] Fensterformat: liegend, stehend, raumhoch
+eli3wandanteil [e3] Die geschlossene Wand als Gegenpart
+eli3privat [e3] Öffnung und Einsichtnahme
+eli2kunst [e2] Kunstlicht als Architektur
+eli3grundlicht [e3] Grundlicht und Akzentlicht
+eli3indirekt [e3] Indirektes Licht
+eli3fassnacht [e3] Fassaden und Wege bei Nacht
+eer1 [e1] Erschließung und Bewegung
+eer2ankommen [e2] Ankommen und Adressbildung
+eer3vorplatz [e3] Vorplatz und Ankunftszone
+eer3lesbar [e3] Die Lesbarkeit des Eingangs
+eer3adresse [e3] Adressbildung im Geschosswohnungsbau
+eer3barriere [e3] Ankommen ohne Hindernis
+eer2weg [e2] Wegeführung, Sequenz, Promenade
+eer3sequenz [e3] Raumfolge als Sequenz
+eer3umweg [e3] Der bewusste Umweg
+eer3blick [e3] Blickachsen entlang des Wegs
+eer3tempo [e3] Wegbreite und Bewegungstempo
+eer2flure [e2] Flure, die keine Flure sind
+eer3verteiler [e3] Der reine Verteilerflur
+eer3nutzflur [e3] Erschließung mit Zusatznutzen
+eer3flurlicht [e3] Licht im Flur
+eer3galerie [e3] Der Flur als Galerie
+esw1 [e1] Schwelle und Übergang
+esw2innen [e2] Innen und außen
+esw3abrupt [e3] Der abrupte Übergang
+esw3gestuft [e3] Der gestufte Übergang
+esw3fliess [e3] Der fließende Übergang
+esw3klima [e3] Klimapuffer als Übergangszone
+esw2oeffprivat [e2] Öffentlich und privat
+esw3vorgarten [e3] Der Vorgarten als weiche Grenze
+esw3sockel [e3] Sockel und Niveauwechsel als Grenze
+esw3transparenz [e3] Transparenz als Kontrolle der Öffentlichkeit
+esw3gemeinschaft [e3] Gemeinschaftliche Schwellen im Wohnungsbau
+esw2raum [e2] Schwellenräume
+esw3windfang [e3] Windfang und Klimaschleuse
+esw3loggia [e3] Loggia und Laube
+esw3innenhof [e3] Der Innenhof als introvertierte Schwelle
+esw3temp [e3] Saisonale Schwellenräume
+ema1 [e1] Material und Fügung
+ema2mat [e2] Materialität und Alterung
+ema3patina [e3] Patina als Entwurfsabsicht
+ema3haptik [e3] Haptik und Sinneserfahrung
+ema3lebensdauer [e3] Materialalterung und Lebenszyklus
+ema3rohbau [e3] Rohe vs. veredelte Oberfläche
+ema2tekt [e2] Tektonik: Konstruktion zeigen
+ema3lastfluss [e3] Lastfluss sichtbar machen
+ema3fuegung [e3] Die Fuge als Aussage
+ema3schichten [e3] Schichtenaufbau zeigen oder verbergen
+ema3massiv [e3] Massivbau vs. Skelettbau
+ema2detail [e2] Das Detail als Haltung
+ema3masssystem [e3] Das Detail als Maßsystem
+ema3anschluss [e3] Der Anschluss als Entwurfsmoment
+ema3reduktion [e3] Reduktion und das Weglassen
+ema3handwerk [e3] Handwerkliche Präzision
+ema2farbe [e2] Farbe
+ema3materialfarbe [e3] Materialfarbe vs. Anstrich
+ema3kontrast [e3] Farbe als Kontrast und Rahmung
+ema3licht [e3] Farbe im Licht über den Tag
+ema3palette [e3] Die kuratierte Farbpalette
+ety1 [e1] Typologie und Programm
+ety2wohn [e2] Wohnungsbau: Typen und Grundriss
+ety3grundriss [e3] Grundrisstypen: Zeile, Punkt, Hof
+ety3zimmer [e3] Zimmerlogik vs. offene Wohnform
+ety3erschl [e3] Erschließungstypen im Wohnungsbau
+ety3flex [e3] Flexible und teilbare Grundrisse
+ety3aussenraum [e3] Private Freiräume: Loggia, Garten
+ety2programm [e2] Arbeiten, Bildung, Kultur
+ety3buero [e3] Bürotypologien: Zelle bis Open Space
+ety3bildung [e3] Schulbau: Cluster statt Flur
+ety3kultur [e3] Kulturbauten: Bühne und Foyer
+ety3gesundheit [e3] Gesundheitsbau: Funktion und Atmosphäre
+ety2hybrid [e2] Hybride und Umnutzbarkeit
+ety3mischnutz [e3] Mischnutzung im selben Haus
+ety3umnutz [e3] Umnutzbarkeit als Entwurfsprinzip
+ety3strukturoffen [e3] Strukturelle Offenheit
+eko1 [e1] Kontext und Ort
+eko2einfuegen [e2] Einfügen, Absetzen, Weiterbauen
+eko3kontinuitaet [e3] Weiterbauen als Entwurfshaltung
+eko3kontrast [e3] Bewusster Kontrast zum Bestand
+eko3massstab [e3] Maßstabssprung und Nachbarschaft
+eko3materialbezug [e3] Materialbezug zur Umgebung
+eko3fassadenlinie [e3] Baulinie, Rücksprung, Vorgarten
+eko2koernung [e2] Städtebauliche Figur und Körnung
+eko3parzelle [e3] Parzellenlogik und Blockrand
+eko3dichte [e3] Dichte, Höhe, Körnung im Vergleich
+eko3fuge [e3] Der Straßenraum als räumliche Fuge
+eko3dachlandschaft [e3] Dachlandschaft und Silhouette
+eko2landschaft [e2] Landschaft und Topographie
+eko3topografie [e3] Bauen im Hang: Sockel, Terrasse
+eko3ausblick [e3] Ausblick als Entwurfsparameter
+eko3freiraum [e3] Freiraum zwischen den Häusern
+eko3wasser [e3] Wasser und Topographie
+eor1 [e1] Ordnung und Struktur
+eor2raster [e2] Raster, Achse, Reihung
+eor3konstrraster [e3] Konstruktions- und Entwurfsraster
+eor3achse [e3] Die Achse als Ordnungsmittel
+eor3reihung [e3] Reihung und Rhythmus
+eor3modul [e3] Modulares Bauen und Wiederholung
+eor2symmetrie [e2] Symmetrie und ihre Brüche
+eor3achsensymm [e3] Achsensymmetrie und Repräsentation
+eor3bruch [e3] Der bewusste Bruch der Symmetrie
+eor3asymm [e3] Asymmetrische Komposition
+eor2struktur [e2] Struktur und Freiheit
+eor3primaer [e3] Primärstruktur als Ordnungsgeber
+eor3sekundaer [e3] Sekundärstruktur und Ausbaufreiheit
+eor3traeger [e3] Das tragende Raster als Freiheit
+eor3flexibel [e3] Strukturelle Reserve für Umnutzung
+xws1 [x1] Weißenhofsiedlung, Stuttgart
+xha1 [x1] Siedlung Halen, Bern
+xbs1 [x1] Borneo-Sporenburg, Amsterdam
+xun1 [x1] Unité d'habitation, Marseille
+xga1 [x1] Gallaratese, Mailand
+xwr1 [x1] Wohnregal und Baugruppenprojekte Berlin
+xnn1 [x1] Neue Nationalgalerie, Berlin
+xtv1 [x1] Therme Vals
+xkl1 [x1] Kolumba, Köln
+xph1 [x1] Philharmonie, Berlin
+xre1 [x1] Reformarchitektur und Gartenstadt
+xre2howard [x2] Die englische Gartenstadtidee
+xre2werkbund [x2] Deutscher Werkbund und Formreform
+xre2heimat [x2] Heimatschutzstil und regionales Bauen
+xre2siedlung [x2] Genossenschaftlicher Wohnungsbau vor 1914
+xre2kritik [x2] Kritik an der Mietskaserne
+xkm1 [x1] Klassische Moderne
+xkm2neuesbauen [x2] Prinzipien des Neuen Bauens
+xkm2bauhaus [x2] Bauhaus als Schule und Netzwerk
+xkm2existenz [x2] Existenzminimum und serielles Bauen
+xkm2ciam [x2] CIAM und die funktionale Stadt
+xkm2ende [x2] Bruch 1933 und Weiterleben im Exil
+xnb1 [x1] Nachkriegsmoderne und Brutalismus
+xnb2wiederaufbau [x2] Wiederaufbau und Wohnungsnot
+xnb2brutalismus [x2] Brutalismus und Sichtbeton
+xnb2grossstruktur [x2] Megastrukturen und Großformen
+xnb2organisch [x2] Organische Gegenentwürfe
+xnb2erbe [x2] Umgang mit dem Betonerbe heute
+xkr1 [x1] Kritischer Regionalismus
+xkr2frampton [x2] Kenneth Framptons Theorie
+xkr2material [x2] Lokales Material als Prinzip
+xkr2klima [x2] Klima und Topografie als Entwurfsgrundlage
+xkr2vertreter [x2] Wichtige Vertreter und Positionen
+xkr2kritik [x2] Grenzen und Kritik
+xzp1 [x1] Zeitgenössische Positionen
+xzp2niemals [x2] Umbauen statt abreißen
+xzp2klima [x2] Klimagerechtes und ressourcenschonendes Bauen
+xzp2einfach [x2] Einfaches und robustes Bauen
+xzp2beteilig [x2] Partizipation und Baugemeinschaften
+xzp2sergison [x2] Die gewöhnliche Stadt als Vorbild
+pab1 [p1] Projektablauf und Leistungsbild
+pab2phasen [p2] Phasenmodelle im Vergleich
+pab3grundlagen [p3] Grundlagenermittlung und Bedarfsplanung
+pab3vorentwurf [p3] Vorplanung und Entwurfsplanung
+pab3genehmigung [p3] Genehmigungsplanung
+pab3ausfuehrung [p3] Ausführungsplanung und Vergabevorbereitung
+pab3bauueberw [p3] Bauüberwachung und Objektbetreuung
+pab2org [p2] Projektorganisation und Rollen
+pab3objektpl [p3] Objektplaner und Generalplaner
+pab3fachpl [p3] Fachplaner und Sonderfachleute
+pab3pm [p3] Projektsteuerung und Projektmanagement
+pab3bauherr [p3] Bauherr und Bauherrenvertretung
+pab2termin [p2] Termin- und Ablaufplanung
+pab3terminplan [p3] Terminplanarten und Steuerungsebenen
+pab3ablauf [p3] Ablauf- und Kapazitätsplanung im Bauablauf
+pab3verzug [p3] Verzug, Bauzeitverlängerung und Pönale
+pab2digital [p2] Digitale Methoden
+pab3bim [p3] BIM-Abwicklungsplan (BAP)
+pab3aia [p3] Auftraggeber-Informationsanforderungen (AIA)
+pab3bimrolle [p3] BIM-Koordination: Rollen im Projekt
+pho1 [p1] Honorar und Vertrag
+pho2honorar [p2] Honorarermittlung
+pho3honorarzone [p3] Honorarzonen und Bewertungskriterien
+pho3honorarmodelle [p3] Vergütungsmodelle: Pauschal, Zeit, Prozent
+pho3nebenkosten [p3] Nebenkosten und Erstattungen
+pho3honorarstreit [p3] Honorarstreitigkeiten und Nachweispflicht
+pho2vertrag [p2] Architektenvertrag, Haftung und Urheberrecht
+pho3vertragstyp [p3] Vertragstypen und Vertragsschluss
+pho3leistungsbild [p3] Leistungsbild und Leistungsumfang im Vertrag
+pho3haftung [p3] Planerhaftung und Mängelhaftung
+pho3urheber [p3] Urheberrecht am Bauwerk und Änderungsbefugnis
+pho2haftpfl [p2] Berufshaftpflicht und Deckung
+pho3deckung [p3] Deckungssummen und Versicherungsumfang
+pho3schadenfall [p3] Schadenfall und Anzeigepflichten
+pho3nachhaft [p3] Nachhaftung nach Vertragsende
+pho2wettb [p2] Wettbewerb und Vergabe für Planungsleistungen
+pho3wettbverfahren [p3] Wettbewerbsverfahren und Auslobung
+pho3preisgericht [p3] Preisgericht und Beurteilung
+pho3realisierung [p3] Realisierungsfolge nach Wettbewerbsgewinn
+pba1 [p1] Baurecht und Genehmigung
+pba2planungsr [p2] Bauplanungsrecht
+pba3flaechenwid [p3] Flächenwidmung und Nutzungsplanung
+pba3bebauungspl [p3] Bebauungsplan und Festsetzungen
+pba3innenaussen [p3] Bauen im Innen- und Außenbereich
+pba2ordnungsr [p2] Bauordnungsrecht
+pba3gebklasse [p3] Gebäudeklassen und Anwendungsbereich
+pba3brandabschn [p3] Brandschutzanforderungen der Bauordnung
+pba3stellplatz [p3] Stellplatzpflicht und Erschließung
+pba2verfahren [p2] Genehmigungsverfahren und Bauvorlagen
+pba3verfahrensart [p3] Verfahrensarten: frei, vereinfacht, voll
+pba3bauvorlagen [p3] Bauvorlagen und Antragsunterlagen
+pba3baubeginn [p3] Baubeginn und Fertigstellungsanzeigen
+pba3nachbarbet [p3] Nachbarbeteiligung im Verfahren
+pba2abstand [p2] Abstandsflächen und Nachbarrecht
+pba3abstandsflberech [p3] Berechnung der Abstandsfläche
+pba3grenzbebauung [p3] Grenzbebauung und Ausnahmen
+pba3nachbarzust [p3] Nachbarzustimmung und Nachbarrechtsbehelfe
+pba2sonder [p2] Sonderbauten und Abweichungen
+pba3sonderbautypen [p3] Typen von Sonderbauten
+pba3abweichung [p3] Abweichungen, Ausnahmen und Befreiungen
+pba3brandschutzkonz [p3] Brandschutzkonzept bei Sonderbauten
+pko1 [p1] Kosten
+pko2gliederung [p2] Kostenplanung und Gliederung
+pko3kostengruppen [p3] Kostengruppen und Gliederungstiefe
+pko3systematikvgl [p3] Nationale Gliederungssysteme im Vergleich
+pko3kostenrahmen [p3] Kostenrahmen und Budgetstruktur
+pko2ermittlung [p2] Kostenschätzung, -berechnung und -steuerung
+pko3schaetzung [p3] Kostenschätzung in der Vorplanung
+pko3berechnung [p3] Kostenberechnung in der Entwurfsplanung
+pko3anschlag [p3] Kostenanschlag und Kostenfeststellung
+pko3steuerung [p3] Kostensteuerung und Abweichungsmanagement
+pko2benchmark [p2] Benchmarks und Kostenkennwerte
+pko3kennwerte [p3] Kostenkennwerte je Flächen und Rauminhalt
+pko3indexierung [p3] Baupreisindex und regionale Anpassung
+pko3vergleichbark [p3] Vergleichbarkeit von Kostenkennwerten
+pko2lebenszyklus [p2] Lebenszykluskosten
+pko3investnutzung [p3] Investitions- und Nutzungskosten
+pko3nutzungskost [p3] Nutzungskosten und Betriebskostensystematik
+pko3lebenszyklusanalyse [p3] Lebenszyklusanalyse als Entscheidungshilfe
+pav1 [p1] Ausschreibung und Vergabe
+pav2lb [p2] Leistungsbeschreibung und LV
+pav3lvfenster [p3] Fenster-LV: Element, Glas, Montage
+pav3funk [p3] Funktional oder detailliert ausschreiben
+pav3pos [p3] Positionen, Mengen und Vordersätze
+pav3gaa [p3] Gewerkeaufteilung und Vergabeeinheiten
+pav3lv30 [p3] Sonderfall Brandschutztüren im LV
+pav2vertrag [p2] Bauvertragsordnungen
+pav3preis [p3] Vergütungsarten im Vergleich
+pav3frist [p3] Fristen, Verzug und Behinderung
+pav3zahlung [p3] Zahlungsplan und Sicherheiten
+pav3kuend [p3] Kündigung und vorzeitige Vertragsbeendigung
+pav2verg [p2] Öffentliche Vergabe
+pav3verfahren [p3] Vergabeverfahren im Überblick
+pav3eign [p3] Eignung und Zuschlagskriterien
+pav3schwell [p3] Schwellenwerte und Losgrenzen
+pav3nachpr [p3] Nachprüfung und Vergaberechtsschutz
+pav2nachtrag [p2] Nachtragsmanagement
+pav3ursache [p3] Typische Nachtragsursachen
+pav3anspr [p3] Anspruch dem Grunde und der Höhe nach
+pav3preisfort [p3] Preisfortschreibung bei Änderungen
+pav3streit [p3] Umgang mit strittigen Nachträgen
+pbl1 [p1] Bauleitung und Qualität
+pbl2bau [p2] Bauüberwachung und Dokumentation
+pbl3bemuster [p3] Bemusterung und Freigabe von Fenstern
+pbl3tageb [p3] Bautagebuch und Baustellendokumentation
+pbl3besprech [p3] Baubesprechung und Protokollführung
+pbl3anordnung [p3] Anordnungsrecht und Bedenkenanzeige
+pbl3qualsich [p3] Bemusterung und Prüfpläne
+pbl2abnahme [p2] Abnahme und ihre Rechtsfolgen
+pbl3form [p3] Abnahmeformen: förmlich, konkludent, fiktiv
+pbl3vorbehalt [p3] Mängelvorbehalt bei der Abnahme
+pbl3rechtsfolgen [p3] Rechtsfolgen der Abnahme
+pbl3teilabnahme [p3] Teilabnahme und Zwischenabnahmen
+pbl2gewaehr [p2] Gewährleistung und Verjährungsfristen
+pbl3frist [p3] Regelfristen im Vergleich
+pbl3ruege [p3] Rügeobliegenheit und Anzeigefristen
+pbl3verjaehr [p3] Verjährungsbeginn und Hemmung
+pbl3sicherh [p3] Gewährleistungssicherheit und Einbehalt
+pbl2maengel [p2] Mängelmanagement
+pbl3ruegeform [p3] Mängelrüge: Form, Frist, Beweissicherung
+pbl3nacherf [p3] Nacherfüllung, Selbstvornahme, Minderung
+pbl3vorrecht [p3] Nachbesserungsrecht des Unternehmers
+pbl3fluchtweg [p3] Mängel an sicherheitsrelevanten Bauteilen
+pna1 [p1] Nachhaltigkeit und Förderung
+pna2zert [p2] Zertifizierungssysteme
+pna3kriterien [p3] Kriteriengruppen und Bewertungslogik
+pna3koppel [p3] Kopplung an Förderung
+pna3aufwand [p3] Zertifizierungsaufwand im Projektablauf
+pna3systemvergl [p3] Systemvergleich: Substanz statt Label
+pna2energie [p2] Energierecht
+pna3anforderung [p3] Anforderungsniveau: Neubau vs. Bestand
+pna3nachweis [p3] Energieausweis und Nachweisverfahren
+pna3anlagentech [p3] Pflichten zu erneuerbaren Energien
+pna3klimaschutz [p3] Schnittstelle zu Klimaschutzgesetzen
+pna2foerder [p2] Förderlandschaft
+pna3foerderarten [p3] Förderarten: Zuschuss, Kredit, Steuervorteil
+pna3foerderweg [p3] Antragsweg und Zeitpunkt im Projekt
+pna3kombi [p3] Kombination und Kumulierung von Förderungen
+pna3risiko [p3] Förderrisiko und Rückforderung
+pna2zirk [p2] Zirkularität, Rückbau, Wiederverwendung
+pna3design [p3] Trennbarkeit als Entwurfsprinzip
+pna3passport [p3] Materialpass und Rückbaudokumentation
+pna3rueckbau [p3] Rückbau statt Abriss: Verwertungsquote
+pna3wiederverw [p3] Wiederverwendung von Bauteilen

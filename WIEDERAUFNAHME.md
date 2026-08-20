@@ -1,17 +1,28 @@
-# Projektstand (19.08.2026) und offene Punkte
+# Wiederaufnahme (Stand 21.08.2026, Laptop zugeklappt mitten in Welle 2)
 
-MVP Stufe 1 ist komplett: 700 Knoten (Themenlandkarte bis E3 mit T1, Muster-Äste tiefer) live auf https://ao-prototyp.netlify.app, Supabase (Projekt „Architektur", ygdorhwlautrfekhvlbd) ist führend und deckungsgleich mit data.mjs (Rundlauf pull-data → build verifiziert, 0 Abweichungen). 302 verifizierte src-Einträge an 120 Prozess-Knoten (26 Kernquellen, geprueft 2026-08-19), check-links grün (337 Links). UI: Perspektiven-Einstieg, Themen-Menü, Land/Region-Umschalter (DE/AT/CH plus Bundesland/Kanton, localStorage).
+## Wo wir stehen
+- Live: https://ao-prototyp.pages.dev, 790 Knoten. Fenster-Welle inkl. Opus-Gegenlesung ist komplett eingespielt und deployt (docs/gegenlesung-fenster-2026-08-21.md).
+- Welle 2 (Abdichtung/Bauphysik `kab` 42 neue Knoten + 15 Bestands-T3, Licht `eli` 27 neue Knoten) läuft: Struktur in docs/struktur-bauphysik-licht.md (Freigabe pauschal durch Ben), Sonnet-Texte 5 von 6 Gruppen fertig, Gruppe b5x (Nassraum + 15 Bestands-T3) war beim Zuklappen noch nicht fertig.
+- 10 neue Schemazeichnungen für Welle 2 liegen in images/ (kab4luftdurch, kab4feuchtevar, kab4balkon, kab4ecke, kab4anschlussunten, kab4fugenmasse, kab4wandboden, eli4raumtiefe, eli4eckfenster, eli4sonnenstand), sichtgeprüft, noch nicht mit Knoten verknüpft (passiert beim Merge über IMAGES in struct-kab-eli.mjs).
+- Landkarte: Stufe-2-Reihenfolge auf Netzdichte umgestellt (docs/themenlandkarte.md).
 
-## Offene Punkte
+## Arbeitsdateien (ins Repo gesichert, Original im Session-Scratchpad)
+staging/welle2/
+- struct-kab-eli.mjs: Struktur + IMAGES (Single Source)
+- gen-prep2.mjs: erzeugt gen2/shared.md, ids.txt, task-*.json (benötigt Pfad zum Scratchpad; beim Wiederaufnehmen Pfade auf staging/welle2 umbiegen)
+- gen2/: shared.md (Vorgaben inkl. Negativliste), ids.txt, task-b1/b2/b34/b5x/l1/l2.json, out-b1/b2/b34/l1/l2.json (fertig); out-b5x.json FEHLT ggf.
+- merge2.mjs: Merge + Validierung (`node merge2.mjs` Trockenlauf, `--write` schreibt data.mjs, legt docs/pruefliste-bauphysik-licht-2026-08-21.md an)
+- apply-review.mjs, manual.mjs: Einspielen von Opus-Befunden (satzgenau), Beispiel aus Welle 1
+- gen1/: review-anleitung.md (Opus-Gegenlesung), ergebnis-r1..r4.json der Fenster-Welle
 
-1. **kma1 (K13 Material) hat 8 Kinder**, Spec erlaubt 7; Build warnt. Entscheidung Ben: Gruppen zusammenlegen oder Regel für Wurzelknoten lockern.
-2. **31 unverifizierte Quellen-Schlüssel** in `staging/pruefliste-offen.json` (u. a. ABGB, IVöB, SIA 142/143/2051, MuKEn, VKF, BEG/KfW/BAFA, ÖGNI, NPK, UVgO, MBO, ÖNORM A 2063/A 6241/LM.VM): per Websuche verifizieren und an die betroffenen Knoten hängen (Fable-Arbeit).
-3. **Querverweis-Backlog**: `staging/lnwunsch.json` (rund 90 Wünsche der Generierungs-Agenten); viele Ziele existieren inzwischen, Kuratierung steht aus.
-4. **Landesspezifische Inhalte**: Der Region-Umschalter ist vorbereitet, aber unterhalb der Nationalebene gibt es noch keine Inhalte; dach-Felder können später je Land Objekte statt Strings tragen (Schema jsonb, kein Migrationsbedarf).
-5. **Bilder** (SVG-Schemazeichnungen, Wikimedia Commons mit Lizenz ins images-Feld): noch nicht begonnen.
-6. **Stufe 2, Tiefe in Wellen** laut Landkarte: Fenster → Flachdach → Abdichtung/Bauphysik → Baurecht (P3) → Trockenbau → Böden → Kosten (P4). Ablauf je Welle: Sonnet generiert T2/T3 gegen Spec mit Musterknoten, Fable verifiziert alle Norm-/Rechtsangaben per Websuche und macht den Stil-Pass, danach DB-Update (Sonnet), pull-data, build, deploy.
-7. **Auto-Deploy**: derzeit manuell (`netlify deploy --prod --dir dist`, Konto ben@spacefruit.de, Team Archi-tektur); optional GitHub-Repo anlegen und mit Netlify verknüpfen.
+## Nächste Schritte, in dieser Reihenfolge
+1. Prüfen, ob gen2/out-b5x.json existiert und 22 Einträge hat. Sonst Sonnet-Agent für task-b5x.json neu starten (Prompt wie die anderen: shared.md lesen, task lesen, out-b5x.json schreiben; bestandT3-Einträge nur {id,t3,pruefen}).
+2. `node staging/welle2/merge2.mjs` (Pfade DIR/STRUCT auf staging/welle2 anpassen), Befunde lesen, dann `--write`; `npm run build`; Querverweis-Kuration (eingehende Links auf neue Knoten prüfen).
+3. Opus-Gegenlesung: review-Pakete aus data.mjs + pruefen bauen (wie in Welle 1: review-rX.json mit id, t, eltern, t1, t2, t3, dach, pruefen), 4 bis 5 Opus-Agenten mit review-anleitung.md, Ergebnisse ergebnis-rX.json.
+4. Befunde satzgenau einspielen (apply-review.mjs, Pfade anpassen), Anomalie-Scan (Doppelpunkt, Punkt-Komma, Gedankenstriche, Marker-Sätze), manuelle Reste, Build, Deploy (`npx wrangler pages deploy dist --project-name ao-prototyp --branch master --commit-dirty=true`), Protokoll docs/gegenlesung-bauphysik-licht-<datum>.md, CLAUDE.md-Status aktualisieren.
+5. Offen aus früheren Runden: Sidebar-Dubletten (UI), archipedia.eu aufschalten (Cloudflare Pages Custom Domain, sobald Ben die Domain aktiviert hat).
 
-## Arbeitsregeln-Merker
-
-Modellstrategie und Supabase-Zugang: siehe CLAUDE.md. Reihenfolge bei Datenänderungen: erst Supabase aktualisieren, dann `npm run pull-data && npm run build && npm run check-links`, dann deployen. data.mjs nie mehr von Hand als führend behandeln.
+## Regeln, die sich bewährt haben
+- Sonnet schreibt, Opus liest gegen (mit Websuche, nur amtliche Portale), Fable macht Struktur, Kuration, Zeichnungen, Stil-Pass.
+- Befunde immer satzgenau ersetzen (ganzer Satz, wenn der Ersatz ein ganzer Satz ist).
+- Jede Zeichnung: viewBox 480x320, Stilvorlage images/STIL.md, Sichtprüfung (QuickLook: `qlmanage -t -s 960 -o <dir> <svg>` als Ersatz, wenn Chrome nicht verbunden ist).

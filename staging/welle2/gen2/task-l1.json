@@ -1,0 +1,505 @@
+[
+ {
+  "id": "eli4raumtiefe",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3seite",
+  "t": "Raumtiefe und Sturzhöhe: die Faustregel",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "erp1",
+    "t": "Raum und Proportion"
+   },
+   {
+    "id": "kfe4profbautiefe",
+    "t": "Bautiefe, Kammern und Uf-Wert"
+   }
+  ],
+  "eltern": {
+   "id": "eli3seite",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Einseitiges Licht und Raumtiefe",
+   "t1": "Licht von nur einer Seite erzeugt einen klaren Hell-Dunkel-Verlauf im Raum, der die hintere Zone spürbar abwertet, sobald die Raumtiefe das Zwei- bis Dreifache der Fensterhöhe überschreitet. Diese einfache Faustregel entscheidet oft schon in der Grundrissphase über die Möblierbarkeit eines Zimmers."
+  },
+  "geschwister": [
+   {
+    "id": "eli4decke",
+    "t": "Helle Decke und Sturz als Reflektor",
+    "neu": true
+   },
+   {
+    "id": "eli4lichtband",
+    "t": "Lichtband unter der Decke",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4decke",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3seite",
+  "t": "Helle Decke und Sturz als Reflektor",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ema3licht",
+    "t": "Farbe im Licht über den Tag"
+   },
+   {
+    "id": "kde1",
+    "t": "Deckenbekleidungen und Akustik"
+   }
+  ],
+  "eltern": {
+   "id": "eli3seite",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Einseitiges Licht und Raumtiefe",
+   "t1": "Licht von nur einer Seite erzeugt einen klaren Hell-Dunkel-Verlauf im Raum, der die hintere Zone spürbar abwertet, sobald die Raumtiefe das Zwei- bis Dreifache der Fensterhöhe überschreitet. Diese einfache Faustregel entscheidet oft schon in der Grundrissphase über die Möblierbarkeit eines Zimmers."
+  },
+  "geschwister": [
+   {
+    "id": "eli4raumtiefe",
+    "t": "Raumtiefe und Sturzhöhe: die Faustregel",
+    "neu": true
+   },
+   {
+    "id": "eli4lichtband",
+    "t": "Lichtband unter der Decke",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4lichtband",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3seite",
+  "t": "Lichtband unter der Decke",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "efe3reihung",
+    "t": "Lochfassade, Band und Feld: die Reihung"
+   },
+   {
+    "id": "kfe4fix",
+    "t": "Festverglasung und Fixfelder"
+   }
+  ],
+  "eltern": {
+   "id": "eli3seite",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Einseitiges Licht und Raumtiefe",
+   "t1": "Licht von nur einer Seite erzeugt einen klaren Hell-Dunkel-Verlauf im Raum, der die hintere Zone spürbar abwertet, sobald die Raumtiefe das Zwei- bis Dreifache der Fensterhöhe überschreitet. Diese einfache Faustregel entscheidet oft schon in der Grundrissphase über die Möblierbarkeit eines Zimmers."
+  },
+  "geschwister": [
+   {
+    "id": "eli4raumtiefe",
+    "t": "Raumtiefe und Sturzhöhe: die Faustregel",
+    "neu": true
+   },
+   {
+    "id": "eli4decke",
+    "t": "Helle Decke und Sturz als Reflektor",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4eckfenster",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3zwei",
+  "t": "Eckfenster: Licht um die Kante",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "efe3ecke",
+    "t": "Eckfenster und rahmenlose Ecke"
+   },
+   {
+    "id": "kfe4fix",
+    "t": "Festverglasung und Fixfelder"
+   }
+  ],
+  "eltern": {
+   "id": "eli3zwei",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Licht von zwei Seiten und Eckfenster",
+   "t1": "Zwei gegenüberliegende oder über Eck stehende Lichtquellen heben Schlagschatten auf und lassen einen Raum gleichmäßiger und größer wirken, als es seine Fläche hergibt. Das Eckfenster ist dabei das wirkungsvollste, aber auch konstruktiv anspruchsvollste Mittel."
+  },
+  "geschwister": [
+   {
+    "id": "eli4durchblick",
+    "t": "Gegenüberliegende Öffnungen und Durchblick",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4durchblick",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3zwei",
+  "t": "Gegenüberliegende Öffnungen und Durchblick",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "erp1",
+    "t": "Raum und Proportion"
+   },
+   {
+    "id": "eer1",
+    "t": "Erschließung und Bewegung"
+   }
+  ],
+  "eltern": {
+   "id": "eli3zwei",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Licht von zwei Seiten und Eckfenster",
+   "t1": "Zwei gegenüberliegende oder über Eck stehende Lichtquellen heben Schlagschatten auf und lassen einen Raum gleichmäßiger und größer wirken, als es seine Fläche hergibt. Das Eckfenster ist dabei das wirkungsvollste, aber auch konstruktiv anspruchsvollste Mittel."
+  },
+  "geschwister": [
+   {
+    "id": "eli4eckfenster",
+    "t": "Eckfenster: Licht um die Kante",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4shed",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3oben",
+  "t": "Sheddach und Nordlicht",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kda1",
+    "t": "Dach"
+   },
+   {
+    "id": "ety1",
+    "t": "Typologie und Programm"
+   }
+  ],
+  "eltern": {
+   "id": "eli3oben",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Oberlicht und Zenitlicht",
+   "t1": "Licht von oben erreicht auch fensterferne Raumtiefen und Innenzonen ohne Außenwand, verhält sich aber im Jahresverlauf und bei direkter Sonne anders als seitliches Licht und braucht deshalb ein eigenes Blendschutzkonzept.",
+   "t2": "Drei Grundformen prägen Oberlicht im Entwurf: das lineare Lichtband entlang einer Traufe oder eines Sheddachs, das punktuelle Oculus über einem zentralen Raum und das flächige Sheddach mit wiederkehrenden geneigten Verglasungen. Das Lichtband eignet sich für lang gestreckte Grundrisse und liefert gleichmäßiges Licht über die ganze Raumtiefe, das Oculus wirkt dagegen als Ereignis über einem einzelnen, meist zentralen Ort und verträgt keine Wiederholung, ohne seine Wirkung zu verlieren. Sheddächer gewinnen bei großflächigen, gewerblich genutzten Räumen, weil sie im Gegensatz zum reinen Flachdach-Lichtband die Blendung durch eine geneigte, meist nordorientierte Verglasung von vornherein reduzieren. Der typische Entwurfsfehler ist ein Oberlicht, das im Modell überzeugt, aber sommerliche Überhitzung und Blendung erst in der Nutzung offenbart, weil der Sonnenstand nie über den Tages- und Jahresverlauf geprüft wurde."
+  },
+  "geschwister": [
+   {
+    "id": "eli4kuppel",
+    "t": "Lichtkuppel und Lichtschacht",
+    "neu": true
+   },
+   {
+    "id": "eli4treppenlicht",
+    "t": "Oberlicht im Treppenhaus",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4kuppel",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3oben",
+  "t": "Lichtkuppel und Lichtschacht",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kda1",
+    "t": "Dach"
+   },
+   {
+    "id": "kab4attika",
+    "t": "Attika und Dachrand (neu, entsteht parallel)"
+   }
+  ],
+  "eltern": {
+   "id": "eli3oben",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Oberlicht und Zenitlicht",
+   "t1": "Licht von oben erreicht auch fensterferne Raumtiefen und Innenzonen ohne Außenwand, verhält sich aber im Jahresverlauf und bei direkter Sonne anders als seitliches Licht und braucht deshalb ein eigenes Blendschutzkonzept.",
+   "t2": "Drei Grundformen prägen Oberlicht im Entwurf: das lineare Lichtband entlang einer Traufe oder eines Sheddachs, das punktuelle Oculus über einem zentralen Raum und das flächige Sheddach mit wiederkehrenden geneigten Verglasungen. Das Lichtband eignet sich für lang gestreckte Grundrisse und liefert gleichmäßiges Licht über die ganze Raumtiefe, das Oculus wirkt dagegen als Ereignis über einem einzelnen, meist zentralen Ort und verträgt keine Wiederholung, ohne seine Wirkung zu verlieren. Sheddächer gewinnen bei großflächigen, gewerblich genutzten Räumen, weil sie im Gegensatz zum reinen Flachdach-Lichtband die Blendung durch eine geneigte, meist nordorientierte Verglasung von vornherein reduzieren. Der typische Entwurfsfehler ist ein Oberlicht, das im Modell überzeugt, aber sommerliche Überhitzung und Blendung erst in der Nutzung offenbart, weil der Sonnenstand nie über den Tages- und Jahresverlauf geprüft wurde."
+  },
+  "geschwister": [
+   {
+    "id": "eli4shed",
+    "t": "Sheddach und Nordlicht",
+    "neu": true
+   },
+   {
+    "id": "eli4treppenlicht",
+    "t": "Oberlicht im Treppenhaus",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4treppenlicht",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3oben",
+  "t": "Oberlicht im Treppenhaus",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "et2licht",
+    "t": "Treppe und Licht"
+   },
+   {
+    "id": "et1",
+    "t": "Die Treppe als Entwurfselement"
+   }
+  ],
+  "eltern": {
+   "id": "eli3oben",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Oberlicht und Zenitlicht",
+   "t1": "Licht von oben erreicht auch fensterferne Raumtiefen und Innenzonen ohne Außenwand, verhält sich aber im Jahresverlauf und bei direkter Sonne anders als seitliches Licht und braucht deshalb ein eigenes Blendschutzkonzept.",
+   "t2": "Drei Grundformen prägen Oberlicht im Entwurf: das lineare Lichtband entlang einer Traufe oder eines Sheddachs, das punktuelle Oculus über einem zentralen Raum und das flächige Sheddach mit wiederkehrenden geneigten Verglasungen. Das Lichtband eignet sich für lang gestreckte Grundrisse und liefert gleichmäßiges Licht über die ganze Raumtiefe, das Oculus wirkt dagegen als Ereignis über einem einzelnen, meist zentralen Ort und verträgt keine Wiederholung, ohne seine Wirkung zu verlieren. Sheddächer gewinnen bei großflächigen, gewerblich genutzten Räumen, weil sie im Gegensatz zum reinen Flachdach-Lichtband die Blendung durch eine geneigte, meist nordorientierte Verglasung von vornherein reduzieren. Der typische Entwurfsfehler ist ein Oberlicht, das im Modell überzeugt, aber sommerliche Überhitzung und Blendung erst in der Nutzung offenbart, weil der Sonnenstand nie über den Tages- und Jahresverlauf geprüft wurde."
+  },
+  "geschwister": [
+   {
+    "id": "eli4shed",
+    "t": "Sheddach und Nordlicht",
+    "neu": true
+   },
+   {
+    "id": "eli4kuppel",
+    "t": "Lichtkuppel und Lichtschacht",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4laibungfarbe",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3lenk",
+  "t": "Weiße und farbige Laibung",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "efe2laibung",
+    "t": "Laibung, Tiefe und Schatten"
+   },
+   {
+    "id": "ema1",
+    "t": "Material und Fügung"
+   }
+  ],
+  "eltern": {
+   "id": "eli3lenk",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Lichtlenkung durch Material und Farbe",
+   "t1": "Helle, matte Oberflächen streuen Licht tief in den Raum, dunkle oder glänzende schlucken oder spiegeln es gezielt. Wände und Decken sind damit ein ebenso wirksames Lichtwerkzeug wie das Fenster selbst, und ein deutlich günstigeres."
+  },
+  "geschwister": [
+   {
+    "id": "eli4lamellen",
+    "t": "Lichtlenkende Lamellen und Prismen",
+    "neu": true
+   },
+   {
+    "id": "eli4glanz",
+    "t": "Glanz und Mattigkeit der Oberflächen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4lamellen",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3lenk",
+  "t": "Lichtlenkende Lamellen und Prismen",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4integriertlamelle",
+    "t": "Scheibenintegrierte Lamellen"
+   },
+   {
+    "id": "kfe3innenliegend",
+    "t": "Innenliegender und integrierter Sonnenschutz"
+   }
+  ],
+  "eltern": {
+   "id": "eli3lenk",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Lichtlenkung durch Material und Farbe",
+   "t1": "Helle, matte Oberflächen streuen Licht tief in den Raum, dunkle oder glänzende schlucken oder spiegeln es gezielt. Wände und Decken sind damit ein ebenso wirksames Lichtwerkzeug wie das Fenster selbst, und ein deutlich günstigeres."
+  },
+  "geschwister": [
+   {
+    "id": "eli4laibungfarbe",
+    "t": "Weiße und farbige Laibung",
+    "neu": true
+   },
+   {
+    "id": "eli4glanz",
+    "t": "Glanz und Mattigkeit der Oberflächen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4glanz",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3lenk",
+  "t": "Glanz und Mattigkeit der Oberflächen",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ema1",
+    "t": "Material und Fügung"
+   },
+   {
+    "id": "kma1",
+    "t": "Material- und Produktkunde"
+   }
+  ],
+  "eltern": {
+   "id": "eli3lenk",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Lichtlenkung durch Material und Farbe",
+   "t1": "Helle, matte Oberflächen streuen Licht tief in den Raum, dunkle oder glänzende schlucken oder spiegeln es gezielt. Wände und Decken sind damit ein ebenso wirksames Lichtwerkzeug wie das Fenster selbst, und ein deutlich günstigeres."
+  },
+  "geschwister": [
+   {
+    "id": "eli4laibungfarbe",
+    "t": "Weiße und farbige Laibung",
+    "neu": true
+   },
+   {
+    "id": "eli4lamellen",
+    "t": "Lichtlenkende Lamellen und Prismen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4sonnenstand",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3jahreszeit",
+  "t": "Sonnenstand und Verschattung im Entwurf",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe3aussenliegend",
+    "t": "Außenliegender Sonnenschutz"
+   },
+   {
+    "id": "kfe4sommer",
+    "t": "Sommerschutz: Glas oder Verschattung"
+   }
+  ],
+  "eltern": {
+   "id": "eli3jahreszeit",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Lichteinfall im Jahresverlauf",
+   "t1": "Sonnenstand und Tageslänge verändern Lichtqualität und Schattenwurf eines Raums über das Jahr erheblich: Ein Fenster, das im Winter blendet, kann im Sommer beschatten, oder umgekehrt. Wer nur den bequemsten Zeitpunkt prüft, plant am eigentlich kritischen vorbei."
+  },
+  "geschwister": [
+   {
+    "id": "eli4ueberstand",
+    "t": "Dachüberstand: Winterlicht tief, Sommer hoch",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4ueberstand",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3jahreszeit",
+  "t": "Dachüberstand: Winterlicht tief, Sommer hoch",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kda1",
+    "t": "Dach"
+   },
+   {
+    "id": "kfe4sommer",
+    "t": "Sommerschutz: Glas oder Verschattung"
+   }
+  ],
+  "eltern": {
+   "id": "eli3jahreszeit",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2tag",
+   "t": "Lichteinfall im Jahresverlauf",
+   "t1": "Sonnenstand und Tageslänge verändern Lichtqualität und Schattenwurf eines Raums über das Jahr erheblich: Ein Fenster, das im Winter blendet, kann im Sommer beschatten, oder umgekehrt. Wer nur den bequemsten Zeitpunkt prüft, plant am eigentlich kritischen vorbei."
+  },
+  "geschwister": [
+   {
+    "id": "eli4sonnenstand",
+    "t": "Sonnenstand und Verschattung im Entwurf",
+    "neu": true
+   }
+  ]
+ }
+]

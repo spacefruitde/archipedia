@@ -1,0 +1,547 @@
+[
+  {
+    "id": "kfe5beschlag",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t1",
+        "art": "fehler",
+        "zitat": "über Bänder und Eckumlenkungen, die vollständig im Falz verborgen liegen",
+        "problem": "Beim gängigen Dreh-Kipp-Beschlag liegen Ecklager, Schere und Bandseite sichtbar am Flügel an, vollständig im Falz verschwinden nur verdeckt liegende Sonderbeschläge.",
+        "ersatz": "Der Dreh-Kipp-Beschlag trägt den Flügel nicht am sichtbaren Rand, sondern über eine im Falz umlaufende Treibstange mit Ecklager und Schere, deren Lager bei der Standardausführung an Band- und Kippseite sichtbar bleiben und erst bei verdeckt liegenden Beschlägen ganz im Falz verschwinden."
+      },
+      {
+        "feld": "t2",
+        "art": "unbelegt",
+        "zitat": "lassen sich in drei Tragkraftgruppen einteilen",
+        "problem": "Die Zahl der Tragkraftgruppen ist keine normative Größe, sondern eine Festlegung des jeweiligen Beschlagsystems, für drei Gruppen gibt es keinen Beleg.",
+        "ersatz": "Verdeckt liegende Beschläge werden nach der zulässigen Flügelmasse in Tragkraftgruppen eingeteilt, deren Stufung das jeweilige Beschlagsystem festlegt, wobei die nächsthöhere Gruppe erst bei tatsächlicher Annäherung an die Gewichtsgrenze der niedrigeren gewählt werden sollte, weil überdimensionierte Beschläge unnötig schwergängig werden."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Beschlaggruppen sind meist in Stufen von etwa 100 bis 130 kg zulässigem Flügelgewicht gestaffelt",
+        "problem": "Die Stufung 100 bis 130 kg ließ sich auf den zulässigen Portalen nicht belegen, DIN EN 13126-8 prüft und klassifiziert Dreh-Kipp-Beschläge nach Flügelmasse, ohne dass diese Staffelung öffentlich einsehbar wäre.",
+        "ersatz": "Dreh-Kipp-Beschläge werden nach DIN EN 13126-8 unter anderem nach der geprüften Flügelmasse klassifiziert, die zulässige Flügelmasse der jeweiligen Beschlaggruppe ergibt sich aus der Systemfreigabe des Beschlagsystems."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Die Fehlbedienungssperre ist nach den einschlägigen Beschlagsnormen für Dreh-Kipp-Fenster gefordert",
+        "problem": "Die Norm wird nicht benannt, und ob DIN EN 13126-8 die Fehlbedienungssperre zwingend fordert oder nur als klassifiziertes Merkmal führt, ließ sich auf den zulässigen Portalen nicht klären.",
+        "ersatz": "Die Fehlbedienungssperre ist Bestandteil der nach DIN EN 13126-8 geprüften Dreh-Kipp-Beschläge und gehört bei dieser Öffnungsart zum vereinbarten Lieferumfang."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "darf werkseitig nicht ausgebaut werden, da sonst die Zulassung des Elements erlischt",
+        "problem": "Fenster tragen keine bauaufsichtliche Zulassung, sondern eine CE-Kennzeichnung mit Leistungserklärung nach DIN EN 14351-1, es kann also keine Zulassung erlöschen.",
+        "ersatz": "Sie darf nicht entfernt werden, weil das Fenster sonst von der Ausführung abweicht, die der Leistungserklärung und der CE-Kennzeichnung nach DIN EN 14351-1 zugrunde liegt."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN EN 13126-8 Beschläge für Fenster und Fenstertüren, Dreh-Kipp-, Kipp-Dreh- und Drehbeschläge", "u": "https://www.dinmedia.de/en/standard/din-en-13126-8/270097742", "stand": "Ausgabe 2018-01, ersetzt Ausgabe 2006-05", "geprueft": "2026-08-21" },
+      { "t": "DIN EN 14351-1 Fenster und Türen, Produktnorm, Leistungseigenschaften", "u": "https://www.dinmedia.de/en/standard/din-en-14351-1/261176988", "stand": "Ausgabe 2016-12, EN 14351-1:2006+A2:2016", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Der Text nennt keine einzige Norm beim Namen, obwohl Beschlagprüfung und CE-Kennzeichnung eindeutig normiert sind."
+  },
+  {
+    "id": "kfe5fluegelgewicht",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "übliche Grenzwerte liegen im niedrigen zweistelligen Newtonbereich für Fenster ohne motorische Unterstützung",
+        "problem": "Die Klassengrenzen der Bedienkräfte stehen in DIN EN 13115 und waren auf den zulässigen Portalen nicht einsehbar, die für Fenster übliche Klasse 1 ist dort belegbar, ihr Zahlenwert nicht, der niedrige zweistellige Bereich ist damit nicht gedeckt.",
+        "ersatz": "Die maximale Bedienkraft am Fenstergriff wird nach DIN EN 13115 klassifiziert, für Fenster ohne motorische Unterstützung wird üblicherweise die Klasse 1 vereinbart, deren Grenzwert in der Ausschreibung als Klasse und nicht als freie Zahl anzugeben ist."
+      },
+      {
+        "feld": "t3",
+        "art": "dach",
+        "zitat": "Für barrierefrei nutzbare Fenster gilt eine engere, länderspezifisch geregelte Grenze, die bei der Planung gegen das jeweils geltende Regelwerk zu prüfen ist.",
+        "problem": "Der Knoten hat kein dach-Feld, und das Regelwerk bleibt ungenannt, obwohl es in allen drei Ländern eindeutig benennbar ist.",
+        "ersatz": "Für barrierefrei nutzbare Fenster ist zusätzlich das am Bauort geltende Regelwerk zur Barrierefreiheit heranzuziehen, in Deutschland DIN 18040-1 und DIN 18040-2, in Österreich ÖNORM B 1600 zusammen mit der OIB-Richtlinie 4, in der Schweiz SIA 500."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN EN 13115 Fenster, Klassifizierung mechanischer Eigenschaften, Vertikallasten, Verwindung und Bedienkräfte", "u": "https://www.dinmedia.de/en/standard/din-en-13115/321732957", "stand": "Ausgabe 2020-11, ersetzt Ausgabe 2001-11", "geprueft": "2026-08-21" },
+      { "t": "DIN 18040-2 Barrierefreies Bauen, Planungsgrundlagen, Wohnungen", "u": "https://www.dinmedia.de/en/standard/din-18040-2/142706210", "stand": "Ausgabe 2011-09, gültig", "geprueft": "2026-08-21" },
+      { "t": "ÖNORM B 1600 Barrierefreies Bauen, Planungsgrundlagen", "u": "https://www.austrian-standards.at/en/shop/onorm-b-1600-2023-05-01~p2660558", "stand": "Ausgabe 2023-05-01", "geprueft": "2026-08-21" },
+      { "t": "SIA 500 Hindernisfreie Bauten", "u": "https://shop.sia.ch/normenwerk/architekt/sia%20500/d/D/Product", "stand": "Ausgabe 2009 mit Korrigenda C1 bis C4, Entwurf prSIA 500:2025-07 als Ersatz vorgesehen", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Die Angabe in t2, dass Dreifachverglasung mehrere Kilogramm je Quadratmeter zusätzlich einbringt, ist eher untertrieben als falsch und bleibt stehen."
+  },
+  {
+    "id": "kfe5hsschwelle",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Barrierefrei nutzbare Schwellen halten in der Regel eine Aufkantung von wenigen Millimetern ein",
+        "problem": "Wenige Millimeter ist ein Produktversprechen, keine Regelwerksgrenze, DIN 18040-2 lässt untere Anschläge bis 2 Zentimeter zu, wenn sie technisch unabdingbar sind, SIA 500 an Türen ins Freie bis 25 Millimeter.",
+        "ersatz": "Die Regelwerke zur Barrierefreiheit lassen untere Anschläge nur zu, wenn sie technisch unabdingbar sind, DIN 18040-2 begrenzt sie dann auf 2 Zentimeter und SIA 500 lässt an Türen ins Freie bis 25 Millimeter zu, marktübliche Nullschwellen für Hebeschiebeelemente bleiben deutlich darunter."
+      },
+      {
+        "feld": "t3",
+        "art": "dach",
+        "zitat": "die genaue Obergrenze richtet sich nach dem am Bauort geltenden Regelwerk zur Barrierefreiheit und ist dort zu prüfen",
+        "problem": "Der Knoten hat kein dach-Feld, obwohl die Schwellenhöhe genau der Fall ist, in dem sich DE, AT und CH unterscheiden, und die Formulierung verschiebt eine belegbare Zahl in eine Prüfaufforderung.",
+        "ersatz": "Maßgebend ist das am Bauort geltende Regelwerk, in Deutschland DIN 18040-1 und DIN 18040-2, in Österreich ÖNORM B 1600 zusammen mit der OIB-Richtlinie 4, in der Schweiz SIA 500 mit ihrer Grenze von 25 Millimetern für Türen ins Freie."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "meist über eine Rinne mit Gefälle im niedrigen Prozentbereich",
+        "problem": "Für das Rinnengefälle ließ sich auf den zulässigen Portalen kein Wert finden, der Satz trägt auch ohne Zahl.",
+        "ersatz": "Die Entwässerung erfolgt bei flachen Schienen meist über eine Rinne mit Gefälle zum Ablauf, bei besonders exponierten Lagen ergänzt um eine Pumpe."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN 18040-2 Barrierefreies Bauen, Planungsgrundlagen, Wohnungen", "u": "https://www.dinmedia.de/en/standard/din-18040-2/142706210", "stand": "Ausgabe 2011-09, gültig", "geprueft": "2026-08-21" },
+      { "t": "DIN 18040-1 Barrierefreies Bauen, Planungsgrundlagen, öffentlich zugängliche Gebäude", "u": "https://www.dinmedia.de/en/standard/din-18040-1/133692028", "stand": "Ausgabe 2010-10, gültig", "geprueft": "2026-08-21" },
+      { "t": "SIA 500 Hindernisfreie Bauten", "u": "https://shop.sia.ch/normenwerk/architekt/sia%20500/d/D/Product", "stand": "Ausgabe 2009 mit Korrigenda C1 bis C4, Türen ins Freie bis 25 mm Schwellenhöhe zulässig", "geprueft": "2026-08-21" },
+      { "t": "ÖNORM B 1600 Barrierefreies Bauen, Planungsgrundlagen", "u": "https://www.austrian-standards.at/en/shop/onorm-b-1600-2023-05-01~p2660558", "stand": "Ausgabe 2023-05-01", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Für DIN 18040 läuft eine Neufassung, der Entwurf streicht den Passus zu technisch unabdingbaren Schwellen für Wohnungen, das ist bei der nächsten Verifikationswelle nachzuziehen."
+  },
+  {
+    "id": "kfe5hsstatik",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Die Linienlast unter der Laufschiene ergibt sich aus Flügelgewicht und Anzahl der Laufwagen",
+        "problem": "Der Satz widerspricht t1 und t2, wo zutreffend von punktueller Lasteinleitung über die Laufwagen die Rede ist, aus Flügelgewicht und Laufwagenzahl ergeben sich Einzellasten, die die Schiene erst verteilt.",
+        "ersatz": "Die Lasten unter der Laufschiene ergeben sich aus Flügelgewicht und Anzahl der Laufwagen und wirken als Einzellasten, die die Schiene in den Bodenaufbau verteilt, sie sind vom Tragwerksplaner gegen die tatsächliche Deckenkonstruktion zu prüfen, nicht nur gegen die Herstellerangabe des Fensterbauers."
+      }
+    ],
+    "quellen": [],
+    "notiz": "Die Gewichtsangabe mehrere hundert Kilogramm liegt im Bereich der marktüblichen Hebeschiebebeschläge und bleibt stehen."
+  },
+  {
+    "id": "kfe5fixreinigung",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "",
+        "problem": "t3 fehlt vollständig, obwohl der Knoten mit Prüfumfang t1, t2, t3 geführt wird, damit fehlen auch die Ausschreibungsangaben und der geforderte Absprung.",
+        "ersatz": "Die Erreichbarkeit der Außenseite ist bereits im Entwurf festzulegen, weil Anschlagpunkte, Befahranlagen und Aufstellflächen für Hebebühnen bauliche Vorleistungen brauchen, die sich nachträglich kaum ergänzen lassen. Das Gewicht einer großformatigen Dreifach-Isolierverglasung übersteigt regelmäßig das, was zwei Personen von Hand versetzen können, weshalb Erstmontage und Austausch Glassauger und meist ein Hebezeug erfordern. In der Ausschreibung sind das Zugangskonzept für die Reinigung, die Anschlagpunkte für die Sicherung der Reinigungskräfte und die Austauschbarkeit der größten Scheibe getrennt zu benennen. Ab hier: Fachplanung der Fassadenbefahranlage und Nachweis der Anschlagpunkte."
+      },
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "Die Scheibe selbst ist beim Fixfeld günstiger als bei einem vergleichbar großen öffenbaren Flügel",
+        "problem": "Die Scheibe ist in beiden Fällen dieselbe, günstiger ist das Element, weil Flügelrahmen und Beschlag entfallen.",
+        "ersatz": "Kostenlogik: Das Fixfeld ist beim gleichen Öffnungsmaß günstiger als ein öffenbarer Flügel, weil Flügelrahmen und Beschlag entfallen, die höheren Lebenszykluskosten entstehen erst durch wiederkehrende Zugangstechnik für die Reinigung und einen möglichen Kraneinsatz bei Glasbruch."
+      }
+    ],
+    "quellen": [],
+    "notiz": "Ohne t3 verletzt der Knoten die Vorgabe, dass jede T3-Ebene mit einem Absprung endet, der Build würde das anmerken."
+  },
+  {
+    "id": "kfe5laibwdvs",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t1",
+        "art": "fehler",
+        "zitat": "Der Anputzstreifen aus schmalem, hochwertigem Dämmstoff schließt die Laibung nach außen ab",
+        "problem": "Anputzstreifen ist der falsche Begriff für den Dämmstoff, die Anputzleiste ist das Kunststoffprofil mit Dichtband, der Dämmstoff heißt Laibungsdämmung, der Fehlbegriff zieht sich durch t1, t2 und t3.",
+        "ersatz": "Ein schmaler Streifen hochwertiger Laibungsdämmung schließt die Laibung nach außen ab und wird an der Rahmenaußenkante mit einer Anputzleiste gefasst, die ein Dichtband gegen Bewegungen enthält."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "üblich sind Streifenbreiten im niedrigen zweistelligen Zentimeterbereich",
+        "problem": "Die planungsrelevante Größe ist nicht die Breite des Streifens, die ohnehin der Laibungstiefe folgt, sondern seine Dicke, die im unteren zweistelligen Millimeterbereich liegt, in der jetzigen Fassung ist der Satz nicht prüfbar.",
+        "ersatz": "Die Laibungsdämmung wird meist aus einem druckfesten, wasserabweisenden Dämmstoff mit niedrigerer Wärmeleitfähigkeit als die Hauptdämmung ausgeführt, ihre Breite folgt der Laibungstiefe, ihre Dicke dem verbleibenden Maß zwischen Rahmenaußenkante und Fassadendämmung und ist im Wärmebrückennachweis anzusetzen."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Das Anputzprofil überlappt die Fassadendämmung um mehrere Zentimeter",
+        "problem": "Das Überlappungsmaß ist eine Systemgröße des jeweiligen Profils und ließ sich auf den zulässigen Portalen nicht belegen.",
+        "ersatz": "Die Anputzleiste überlappt die Fassadendämmung um das vom Profil vorgegebene Maß und nimmt über ihr integriertes Dichtband Bewegungen zwischen Putz und Rahmen auf."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN 4108 Beiblatt 2 Wärmeschutz und Energie-Einsparung in Gebäuden, Wärmebrücken, Planungs- und Ausführungsbeispiele", "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077", "stand": "Ausgabe 2019-06, dazu Berichtigung 1 mit Ausgabe 2025-02", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Der Knoten nennt keine Norm, obwohl DIN 4108 Beiblatt 2 für den Fensteranschluss im WDVS die Gleichwertigkeitsnachweise liefert und als Beleg zu ergänzen wäre."
+  },
+  {
+    "id": "kfe5laibblech",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Das Gefälle des Laibungsblechs liegt meist im niedrigen einstelligen Bereich",
+        "problem": "Die Einheit fehlt, niedriger einstelliger Bereich kann Grad oder Prozent meinen und ist damit weder prüfbar noch ausschreibbar.",
+        "ersatz": "Das Laibungsblech erhält ein Gefälle nach außen, das Wasser sicher zur Tropfkante führt, ohne den Hinterlüftungsspalt zu verengen, es ist im Detail in Grad festzulegen und gegen die Fachregeln der Klempnerarbeiten nach VOB Teil C, ATV DIN 18339, zu prüfen."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Die Bewegungsfuge zwischen Laibungsblech und Fassadenbekleidung wird als offene Fuge mit Insektenschutzgitter ausgeführt, um die Hinterlüftung durchgängig zu halten.",
+        "problem": "Bewegungsaufnahme und Lüftungsquerschnitt sind zwei Funktionen, der geforderte freie Lüftungsquerschnitt hinterlüfteter Außenwandbekleidungen ist nach DIN 18516-1 nachzuweisen und wird durch ein Insektenschutzgitter eingeengt.",
+        "ersatz": "Die Fuge zwischen Laibungsblech und Fassadenbekleidung nimmt die Bewegung der Bekleidung auf und hält zugleich die Hinterlüftung offen, ihr freier Lüftungsquerschnitt ist nach DIN 18516-1 nachzuweisen, ein Insektenschutzgitter darf ihn nicht unzulässig verengen."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN 18516-1 Außenwandbekleidungen, hinterlüftet, Anforderungen, Prüfgrundsätze", "u": "https://www.dinmedia.de/en/standard/din-18516-1/382252032", "stand": "Ausgabe 2024-10, ersetzt Ausgabe 2010-06", "geprueft": "2026-08-21" },
+      { "t": "DIN 18339 VOB Teil C, ATV Klempnerarbeiten", "u": "https://www.dinmedia.de/en/standard/din-18339/310833406", "stand": "Ausgabe 2019-09, ersetzt Ausgabe 2016-09", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Ein Zahlenwert für das Mindestgefälle war auf den zulässigen Portalen nicht einsehbar, die 5 Grad aus den Klempner-Fachregeln bleiben nicht verifiziert."
+  },
+  {
+    "id": "kfe5montagebefest",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Der Achsabstand der Befestigungspunkte liegt bei tragfähigem Untergrund meist im Bereich weniger Dezimeter",
+        "problem": "Wenige Dezimeter unterschreitet die eingeführte Regel deutlich, der Montageleitfaden von RAL-Gütegemeinschaft und ift Rosenheim nennt 700 Millimeter bei Kunststofffenstern und 800 Millimeter bei Holz- und Metallfenstern.",
+        "ersatz": "Der Achsabstand der Befestigungspunkte beträgt nach dem Montageleitfaden von RAL-Gütegemeinschaft und ift Rosenheim in der Regel höchstens 700 Millimeter bei Kunststofffenstern und höchstens 800 Millimeter bei Holz- und Metallfenstern, zusätzlich sind Punkte nahe der Ecken und beschlagsnahe Bereiche wie Bänder und Verriegelungen zwingend zu besetzen."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "richtet sich nach der bauaufsichtlichen Zulassung des Dübels oder der Lasche für den jeweiligen Untergrund",
+        "problem": "Befestigungsmittel für Beton und Mauerwerk werden heute überwiegend über eine Europäische Technische Bewertung geführt, die allgemeine bauaufsichtliche Zulassung ist nur einer von mehreren Verwendbarkeitsnachweisen und deckt den Markt nicht mehr ab.",
+        "ersatz": "Die zulässige Last je Befestigungspunkt richtet sich nach dem Verwendbarkeitsnachweis des Befestigungsmittels für den jeweiligen Untergrund, also nach der Europäischen Technischen Bewertung oder der allgemeinen bauaufsichtlichen Zulassung des Dübels oder der Lasche."
+      }
+    ],
+    "quellen": [
+      { "t": "Leitfaden zur Montage von Fenstern und Haustüren, RAL-Gütegemeinschaft Fenster, Fassaden und Haustüren und ift Rosenheim", "u": "https://shop.ift-rosenheim.de/leitfaden-zur-montage-von-fenstern-und-haustueren-2024-03-montageleitfaden", "stand": "Ausgabe 2024-03", "geprueft": "2026-08-21" },
+      { "t": "DIN 18055 Kriterien für die Anwendung von Fenstern und Außentüren nach DIN EN 14351-1", "u": "https://www.dinmedia.de/en/standard/din-18055/321515051", "stand": "Ausgabe 2020-09, ersetzt Ausgabe 2014-11", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Der Begriff bauaufsichtliche Zulassung taucht auch in kfe5klappbefest und kfe4montagevorgesetzt auf und sollte in allen drei Knoten gleich korrigiert werden."
+  },
+  {
+    "id": "kfe5rollkasten",
+    "urteil": "unsicher",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Revisionsöffnungen für Wartung und Gurtwechsel sind bei allen drei Bauarten zwingend vorzusehen",
+        "problem": "Zwingend behauptet eine Pflicht ohne Regelwerksbezug, bei Vorbaukästen erfolgt der Zugang zudem von außen und nicht über eine Öffnung zum Innenraum.",
+        "ersatz": "Revisionsöffnungen für Wartung und Wechsel von Gurt oder Motor sind bei allen drei Bauarten vorzusehen und in Lage und Größe mit der Innenausbauplanung abzustimmen, bei Vorbaukästen erfolgt der Zugang von außen."
+      }
+    ],
+    "quellen": [
+      { "t": "GEG Anlage 1, Technische Ausführung des Referenzgebäudes, Wohngebäude, Nummer 1.1 Außenwand einschließlich Einbauten wie Rollladenkästen", "u": "https://www.gesetze-im-internet.de/geg/anlage_1.html", "stand": "Fundstelle BGBl. I 2020, 1767 bis 1768, Referenzwert U gleich 0,28 W je Quadratmeter und Kelvin", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Die Kernaussage, der Dämmwert der Kastenschale sei auf den Wandaufbau und nicht auf das Fenster zu beziehen, ist durch GEG Anlage 1 Nummer 1.1 gedeckt und sollte dort auch belegt werden."
+  },
+  {
+    "id": "kfe5klappbefest",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "die den Abstand zwischen tragendem Untergrund und Putzoberfläche exakt überbrückt und dabei die Anpressung der Dämmung an dieser Stelle sichert",
+        "problem": "Die Wirkung ist umgekehrt beschrieben, die Distanzhülse leitet die Druckkraft der Verschraubung am Dämmstoff vorbei, damit dieser beim Anziehen gerade nicht zusammengedrückt wird.",
+        "ersatz": "Die Befestigung erfolgt meist über einen Kloben mit Distanzhülse, die den Abstand zwischen tragendem Untergrund und Putzoberfläche überbrückt und die Druckkraft der Verschraubung am Dämmstoff vorbei in das Mauerwerk leitet, damit die Dämmung beim Anziehen nicht zusammengedrückt wird."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "richtet sich nach der bauaufsichtlichen Zulassung des Befestigungsmittels für den jeweiligen Wandbaustoff",
+        "problem": "Befestigungsmittel für Beton und Mauerwerk werden heute überwiegend über eine Europäische Technische Bewertung geführt, die allgemeine bauaufsichtliche Zulassung deckt nur einen Teil des Marktes ab.",
+        "ersatz": "Die zulässige Last je Kloben richtet sich nach dem Verwendbarkeitsnachweis des Befestigungsmittels für den jeweiligen Wandbaustoff, also nach der Europäischen Technischen Bewertung oder der allgemeinen bauaufsichtlichen Zulassung, und ist bei Metallklappläden gegen das tatsächliche Flügelgewicht statisch nachzuweisen."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "wird um die Bohrung herum mit einem eigenen Dichtring gegen Wassereintritt in die Dämmung gesichert",
+        "problem": "Der Dichtring ist eine Systemlösung einzelner Befestigungssysteme, ein allgemeiner Beleg ließ sich auf den zulässigen Portalen nicht finden.",
+        "ersatz": "Die Distanzhülse überbrückt üblicherweise die volle Dämmstoffdicke des Wärmedämmverbundsystems, die Durchdringung ist nach der Freigabe des Systemherstellers gegen Wassereintritt in die Dämmung abzudichten."
+      }
+    ],
+    "quellen": [],
+    "notiz": "Für die Klobenbefestigung im Wärmedämmverbundsystem war auf den zulässigen Portalen kein Regelwerk auffindbar, die Aussagen bleiben an die Systemfreigabe gebunden."
+  },
+  {
+    "id": "kfe5holzaluschale",
+    "urteil": "unsicher",
+    "befunde": [
+      {
+        "feld": "t2",
+        "art": "unbelegt",
+        "zitat": "damit ein tatsächlicher Luftstrom entsteht und nicht nur ein abgeschlossener, stehender Luftraum",
+        "problem": "Der Zwischenraum von Holz-Aluminium-Profilen wird üblicherweise als belüfteter, nach außen entwässerter Hohlraum mit Dampfdruckausgleich ausgeführt, ein gerichteter Luftstrom wie bei einer hinterlüfteten Fassade ist dort weder üblich noch auf den zulässigen Portalen belegbar.",
+        "ersatz": "Der Zwischenraum braucht definierte Öffnungen nach außen, damit Feuchte als Dampf ausgleichen und eingedrungenes Wasser nach unten abfließen kann, ein vollständig geschlossener Hohlraum sammelt dagegen Kondensat."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "ihr freier Querschnitt muss für einen wirksamen Luftaustausch ausreichend bemessen sein",
+        "problem": "Ausreichend bemessen ohne Bemessungsregel ist keine prüfbare Aussage, eine allgemeingültige Regel für Holz-Aluminium-Profile ließ sich nicht finden.",
+        "ersatz": "Die Öffnungen am oberen und unteren Profilabschluss sind nach der Freigabe des Profilsystems auszuführen, eine allgemeingültige Bemessungsregel für ihren freien Querschnitt besteht nicht."
+      }
+    ],
+    "quellen": [],
+    "notiz": "Der Knoten stützt sich durchgängig auf den Begriff Hinterlüftung, der aus der vorgehängten Fassade stammt und auf den Profilzwischenraum nur eingeschränkt passt."
+  },
+  {
+    "id": "kfe4montagevorgesetzt",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Der punktuelle Wärmebrückenverlust der Konsole lässt sich orientierend nach DIN 4108 Beiblatt 2 abschätzen",
+        "problem": "DIN 4108 Beiblatt 2 liefert Planungs- und Ausführungsbeispiele mit längenbezogenen Wärmedurchgangskoeffizienten für linienförmige Wärmebrücken, punktförmige Wärmebrücken wie eine Konsole werden dort nicht abgebildet, sie sind nach DIN EN ISO 10211 zu berechnen.",
+        "ersatz": "Der punktförmige Wärmebrückenverlust der Konsole ist nach DIN EN ISO 10211 zu berechnen, die Planungs- und Ausführungsbeispiele in DIN 4108 Beiblatt 2 decken nur die längenbezogenen Wärmebrücken des Fensteranschlusses ab, und der Verlust sollte im Wärmebrückennachweis des Gebäudes gesondert erfasst werden."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "erfolgt über bauaufsichtlich zugelassene Dübelsysteme",
+        "problem": "Dübelsysteme für Beton und Mauerwerk werden heute überwiegend über eine Europäische Technische Bewertung geführt, die bauaufsichtliche Zulassung ist nur einer von mehreren Verwendbarkeitsnachweisen.",
+        "ersatz": "Die Befestigung im tragenden Untergrund erfolgt über Dübelsysteme mit Verwendbarkeitsnachweis für den jeweiligen Untergrund, also mit Europäischer Technischer Bewertung oder allgemeiner bauaufsichtlicher Zulassung, deren Tragfähigkeit vom Untergrund abhängt und im Einzelfall nachzuweisen ist, ein pauschaler Dübeltyp für alle Wandbaustoffe existiert nicht."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "liegt bei mittelschweren Fenstern häufig zwischen 50 und 70 Zentimetern",
+        "problem": "Für den Achsabstand von Montagekonsolen ließ sich auf den zulässigen Portalen kein Wert finden, maßgebend ist die Freigabe des Konsolensystems.",
+        "ersatz": "Der Achsabstand richtet sich nach Elementgewicht und Konsolensystem und wird über dessen Freigabe festgelegt, schwere Hebe-Schiebe-Elemente verlangen engere Abstände oder zusätzliche Mittelkonsolen."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN 4108 Beiblatt 2 Wärmebrücken, Planungs- und Ausführungsbeispiele", "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077", "stand": "Ausgabe 2019-06, dazu Berichtigung 1 mit Ausgabe 2025-02", "geprueft": "2026-08-21" },
+      { "t": "DIN EN ISO 10211 Wärmebrücken im Hochbau, Wärmeströme und Oberflächentemperaturen, detaillierte Berechnungen", "u": "https://www.dinmedia.de/en/standard/din-en-iso-10211/255670040", "stand": "Ausgabe 2018-03, ersetzt Ausgabe 2008-04", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Der Text nennt DIN 4108 Beiblatt 2 ohne Ausgabestand, korrekt ist die Ausgabe 2019-06 mit Berichtigung 1 von 2025-02."
+  },
+  {
+    "id": "kfe4montagevorgemauert",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "mit einer Breite von 8 bis 15 Millimetern geplant und mit einem dauerelastischen, UV-beständigen Fugendichtstoff nach DIN 18540 verschlossen",
+        "problem": "DIN 18540 gilt nach ihrem Anwendungsbereich für Außenwandfugen zwischen Bauteilen aus Ortbeton, Betonfertigteilen, Mauerwerk und Naturstein, nicht für die Anschlussfuge zwischen Fensterrahmen und Vormauerschale, und sie gibt keine feste Breite von 8 bis 15 Millimetern vor, sondern leitet die Breite aus der zu erwartenden Bewegung und der zulässigen Gesamtverformung des Dichtstoffs von 25 Prozent ab.",
+        "ersatz": "Die Bewegungsfuge zwischen Fensterrahmen und Vormauerschale wird mit einem dauerelastischen, UV-beständigen Fugendichtstoff verschlossen, ihre Breite ergibt sich aus der zu erwartenden temperaturbedingten Verformung der Klinkerschale und der zulässigen Gesamtverformung des Dichtstoffs von 25 Prozent, wie sie DIN 18540 für Außenwandfugen zugrunde legt."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "bleibt am Fenstersturz und an der Laibung durchgängig hinterlüftet, eine Unterbrechung durch die Fensterlaibung ist zu vermeiden",
+        "problem": "Die Luftschicht des zweischaligen Mauerwerks wird an der Fensteröffnung zwangsläufig unterbrochen, gelöst wird das nicht durch Vermeiden, sondern über eine Sperrschicht mit Wasserableitung und offenen Stoßfugen über dem Sturz.",
+        "ersatz": "Die Luftschicht zwischen tragender Innenschale und Vormauerschale wird an der Fensteröffnung zwangsläufig unterbrochen, über dem Sturz ist deshalb eine Sperrschicht mit Wasserableitung und offenen Stoßfugen vorzusehen, damit Wasser aus der Luftschicht nach außen abgeführt wird und die Belüftung ober- und unterhalb der Öffnung erhalten bleibt."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN 18540 Abdichten von Außenwandfugen im Hochbau mit Fugendichtstoffen", "u": "https://www.dinmedia.de/en/standard/din-18540/209078087", "stand": "Ausgabe 2014-09, ersetzt Ausgabe 2006-12, Anwendungsbereich Fugen zwischen Ortbeton, Betonfertigteilen, Mauerwerk und Naturstein, zulässige Gesamtverformung 25 Prozent", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Der Text nennt DIN 18540 ohne Ausgabestand, korrekt ist 2014-09."
+  },
+  {
+    "id": "kfe4raffstore",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Die Windwiderstandsklasse nach EN 13561 reicht über mehrere Stufen",
+        "problem": "Falsche Norm, EN 13561 gilt für Markisen, Raffstoren sind Außenjalousien und fallen unter DIN EN 13659, das zugehörige Prüfverfahren für den Windwiderstand ist DIN EN 1932.",
+        "ersatz": "Die Windwiderstandsklasse wird für Raffstoren nach DIN EN 13659 in Verbindung mit dem Prüfverfahren DIN EN 1932 bestimmt, für exponierte Fassaden ab mehreren Obergeschossen sind die oberen Klassen zu wählen und im Windwächter entsprechend zu hinterlegen."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Die Lamellen lassen sich um bis zu 180 Grad drehen und erlauben damit auch eine leicht geöffnete Stellung mit Lichteinfall von oben bei gleichzeitigem Sichtschutz von der Seite.",
+        "problem": "Der Wendebereich hängt von der Lamellenform ab und ließ sich auf den zulässigen Portalen nicht belegen, außerdem folgt die beschriebene Wirkung schon aus einer leicht geneigten Stellung und nicht aus 180 Grad.",
+        "ersatz": "Die Lamellen lassen sich stufenlos wenden, der mögliche Wendebereich hängt von der Lamellenform ab und ist der Systemunterlage zu entnehmen, schon eine leicht geneigte Stellung lässt Licht von oben einfallen und hält den Blick von der Seite verdeckt."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN EN 13659 Abschlüsse außen und Außenjalousien, Leistungs- und Sicherheitsanforderungen", "u": "https://www.dinmedia.de/en/standard/din-en-13659/234094516", "stand": "Ausgabe 2015-07, ersetzt Ausgabe 2011-06", "geprueft": "2026-08-21" },
+      { "t": "DIN EN 1932 Abschlüsse und Jalousien, Windwiderstand, Prüfverfahren und Leistungskriterien", "u": "https://www.dinmedia.de/en/standard/din-en-1932/155544204", "stand": "Ausgabe 2013-09, ersetzt Ausgabe 2001-08", "geprueft": "2026-08-21" },
+      { "t": "DIN EN 12216 Abschlüsse, Jalousien und Markisen, Begriffe", "u": "https://www.austrian-standards.at/de/shop/din-en-12216-2018-12~p2453138", "stand": "Ausgabe 2018-12", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Die Normverwechslung EN 13561 statt EN 13659 betrifft nur den Raffstore, beim Screen ist EN 13561 korrekt."
+  },
+  {
+    "id": "kfe4rollladen",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Der Rollladenkasten sollte einen Wärmedurchgangskoeffizienten in der Größenordnung des übrigen Fensterelements erreichen",
+        "problem": "Falsche Bezugsgröße, GEG Anlage 1 rechnet Einbauten wie Rollladenkästen der Außenwand zu und setzt für sie im Referenzgebäude 0,28 W je Quadratmeter und Kelvin an, während das Referenzfenster bei 1,3 liegt, der Kasten am Fenster zu messen wäre also um ein Vielfaches zu großzügig.",
+        "ersatz": "Der Rollladenkasten zählt bilanziell zur Außenwand, das Referenzgebäude nach GEG Anlage 1 setzt für Außenwände einschließlich Einbauten wie Rollladenkästen einen Wärmedurchgangskoeffizienten von 0,28 W je Quadratmeter und Kelvin an, integrierte oder gedämmte Kästen kommen diesem Wert deutlich näher als einfache Aufsatzkästen ohne zusätzliche Dämmschicht."
+      },
+      {
+        "feld": "t3",
+        "art": "stand",
+        "zitat": "Bei einbruchhemmender Ausführung nach DIN EN 1627",
+        "problem": "Die Norm wird ohne Ausgabestand genannt, gültig ist DIN EN 1627:2021-11, die die Ausgabe 2011-09 ersetzt hat.",
+        "ersatz": "Bei einbruchhemmender Ausführung nach DIN EN 1627, Ausgabe 2021-11, verhindert eine Hochschubsicherung, dass der heruntergelassene Panzer von außen angehoben wird, das ist bei der Widerstandsklasse RC2 die übliche Zusatzausstattung."
+      }
+    ],
+    "quellen": [
+      { "t": "GEG Anlage 1, Technische Ausführung des Referenzgebäudes, Wohngebäude, Nummer 1.1 und 1.4", "u": "https://www.gesetze-im-internet.de/geg/anlage_1.html", "stand": "Fundstelle BGBl. I 2020, 1767 bis 1768, Außenwand einschließlich Rollladenkästen U gleich 0,28, Fenster U gleich 1,3 W je Quadratmeter und Kelvin", "geprueft": "2026-08-21" },
+      { "t": "GEG Anlage 7, Höchstwerte der Wärmedurchgangskoeffizienten bei Änderung von Außenbauteilen", "u": "https://www.gesetze-im-internet.de/geg/anlage_7.html", "stand": "Fundstelle BGBl. I 2020, 1783 bis 1786, keine eigene Zeile für Rollladenkästen", "geprueft": "2026-08-21" },
+      { "t": "DIN EN 1627 Türen, Fenster, Vorhangfassaden, Gitterelemente und Abschlüsse, Einbruchhemmung, Anforderungen und Klassifizierung", "u": "https://www.dinmedia.de/en/standard/din-en-1627/332355073", "stand": "Ausgabe 2021-11, ersetzt Ausgabe 2011-09", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Die Zuordnung des Rollladenkastens zur Außenwand ist der eigentliche Planungshebel des Knotens und derzeit falsch herum formuliert."
+  },
+  {
+    "id": "kfe4screen",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Der Sonnenschutzfaktor des Gewebes wird als Gesamtenergiedurchlassgrad angegeben",
+        "problem": "Der Gesamtenergiedurchlassgrad ist eine Eigenschaft der Kombination aus Verglasung und Sonnenschutz und wird nach DIN EN ISO 52022-3 berechnet, das Gewebe allein trägt ihn nicht, seine Komfortwirkung wird nach DIN EN 14501 klassifiziert.",
+        "ersatz": "Die Sonnenschutzwirkung des Gewebes wird erst in Kombination mit der Verglasung als Gesamtenergiedurchlassgrad wirksam, der nach DIN EN ISO 52022-3 berechnet und nach DIN EN 14501 klassifiziert wird, und ist gegen den gewünschten Tageslichteinfall abzuwägen."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Der Offenheitsgrad handelsüblicher Screengewebe liegt meist zwischen 3 und 14 Prozent",
+        "problem": "Die Spanne ließ sich auf den zulässigen Portalen nicht belegen, der Offenheitsgrad ist eine Gewebekennzahl ohne normative Bandbreite.",
+        "ersatz": "Der Offenheitsgrad handelsüblicher Screengewebe bewegt sich im niedrigen einstelligen bis niedrigen zweistelligen Prozentbereich und ist der Gewebeunterlage zu entnehmen, ein niedriger Wert reduziert den Sonneneintrag stärker, verringert aber auch den Ausblick und die Tageslichtausbeute im Raum."
+      },
+      {
+        "feld": "t3",
+        "art": "stand",
+        "zitat": "nach der Windwiderstandsklasse gemäß EN 13561 beurteilt",
+        "problem": "Die Zuordnung ist richtig, Screens sind Senkrechtmarkisen, es fehlt aber der Ausgabestand, gültig ist DIN EN 13561:2015-08 mit Berichtigung 1 von 2017-01, das Prüfverfahren ist DIN EN 1932.",
+        "ersatz": "Das Gewebe besteht überwiegend aus glasfaserverstärktem oder beschichtetem Polyestergarn und wird nach der Windwiderstandsklasse gemäß DIN EN 13561, Ausgabe 2015-08, in Verbindung mit dem Prüfverfahren DIN EN 1932 beurteilt, wobei eine seitliche Zwangsführung des Behangs eine deutlich höhere Klasse erreicht als eine frei geführte Ausführung."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN EN 13561 Abschlüsse und Markisen, Leistungs- und Sicherheitsanforderungen", "u": "https://www.dinmedia.de/en/standard/din-en-13561/234094477", "stand": "Ausgabe 2015-08, dazu Berichtigung 1 mit Ausgabe 2017-01, Geltungsbereich schließt Senkrechtmarkisen ein", "geprueft": "2026-08-21" },
+      { "t": "DIN EN ISO 52022-3 Energieeffizienz von Gebäuden, solare und tageslichtbezogene Eigenschaften von Sonnenschutz in Kombination mit Verglasungen", "u": "https://www.dinmedia.de/en/standard/din-en-iso-52022-3/259924375", "stand": "Ausgabe 2018-01, ersetzt DIN EN 13363-2:2005-06", "geprueft": "2026-08-21" },
+      { "t": "DIN EN 14501 Abschlüsse, thermischer und visueller Komfort, Leistungsanforderungen und Klassifizierung", "u": "https://www.dinmedia.de/en/standard/din-en-14501/386959501", "stand": "Ausgabe 2025-04, EN 14501:2021+A1:2025, ersetzt Ausgabe 2021-09", "geprueft": "2026-08-21" },
+      { "t": "DIN EN 1932 Abschlüsse und Jalousien, Windwiderstand, Prüfverfahren und Leistungskriterien", "u": "https://www.dinmedia.de/en/standard/din-en-1932/155544204", "stand": "Ausgabe 2013-09", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Die im Ersatztext gestrichene Materialangabe PVC-beschichtet ist sachlich haltbar, wurde aber zugunsten der neutralen Formulierung beschichtet zusammengefasst."
+  },
+  {
+    "id": "kfe4klappladen",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "müssen die Windlast nach den Windlastregeln der jeweiligen Landesbauordnung aufnehmen, die genaue Windzone ist projektspezifisch nachzuweisen",
+        "problem": "Landesbauordnungen enthalten keine Windlastregeln, Windlasten und die Windzonenkarte stehen in DIN EN 1991-1-4 mit ihrem Nationalen Anhang, die Landesbauordnungen führen diese nur über die Technischen Baubestimmungen ein.",
+        "ersatz": "Die Beschläge, insbesondere die Anschlagbänder und Halteösen zur Fixierung im geöffneten Zustand, müssen die Windlast nach DIN EN 1991-1-4 und ihrem Nationalen Anhang aufnehmen, die dort geregelte Windzone ist projektspezifisch anzusetzen."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "liegt bei zweiflügeligen Ausführungen meist zwischen 40 und 70 Zentimetern je Flügel",
+        "problem": "Für die Flügelbreite von Klappläden ließ sich auf den zulässigen Portalen kein Wert finden, die Größe folgt ohnehin dem halben Öffnungsmaß.",
+        "ersatz": "Die Flügelbreite orientiert sich bei zweiflügeligen Ausführungen am halben Öffnungsmaß des Fensters, größere Breiten verlangen entsprechend kräftigere Anschlagbänder."
+      },
+      {
+        "feld": "t3",
+        "art": "dach",
+        "zitat": "nach den Windlastregeln der jeweiligen Landesbauordnung",
+        "problem": "Die Formulierung ist rein deutsch gedacht und hat kein dach-Feld, Österreich und die Schweiz führen den Eurocode über eigene nationale Anhänge ein.",
+        "ersatz": "Maßgebend ist der jeweils national eingeführte Windlast-Eurocode, in Deutschland DIN EN 1991-1-4 mit dem Nationalen Anhang, in Österreich und der Schweiz die dort eingeführten nationalen Anhänge derselben Norm."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN EN 1991-1-4 Eurocode 1, Einwirkungen auf Tragwerke, Windlasten", "u": "https://www.dinmedia.de/en/standard/din-en-1991-1-4/127478352", "stand": "Ausgabe 2010-12", "geprueft": "2026-08-21" },
+      { "t": "DIN EN 1991-1-4/NA Nationaler Anhang, national festgelegte Parameter, Windlasten", "u": "https://www.dinmedia.de/en/standard/din-en-1991-1-4-na/379080426", "stand": "Ausgabe 2024-08, ersetzt Ausgabe 2010-12", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Der Nationale Anhang wurde 2024 neu ausgegeben, ältere Angaben zur Windzonenkarte sind gegen die Fassung 2024-08 zu prüfen."
+  },
+  {
+    "id": "kfe4innenjalousie",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "dach",
+        "zitat": "Vorhangstoffe für öffentliche Gebäude und Fluchtwege müssen häufig eine Anforderung an schwer entflammbares Material erfüllen, ein Nachweis der Brandklasse ist bei der Textilauswahl in Sonderbauten einzuholen.",
+        "problem": "Sonderbau und schwer entflammbar sind deutsche Rechtsbegriffe, die Anforderung folgt aus der jeweiligen Sonderbauverordnung des Landes, der Knoten hat kein dach-Feld und gibt die deutsche Systematik als allgemeingültig aus.",
+        "ersatz": "Vorhangstoffe in öffentlich zugänglichen Gebäuden und in Fluchtwegen unterliegen Anforderungen an das Brandverhalten, die sich aus dem am Bauort geltenden Sonderbaurecht ergeben, das Brennverhalten von Vorhängen und Gardinen wird nach DIN EN 13773 klassifiziert und ist bei der Textilauswahl nachzuweisen."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "werden meist mit Lamellenbreiten um 25 Millimeter ausgeführt",
+        "problem": "Für die übliche Lamellenbreite innen liegender Jalousien ließ sich auf den zulässigen Portalen kein Beleg finden, marktüblich sind mehrere Breiten nebeneinander.",
+        "ersatz": "Innen liegende Lamellenjalousien werden in mehreren gebräuchlichen Lamellenbreiten angeboten und lassen sich stufenlos zwischen offen und geschlossen neigen, ähnlich wie ein Raffstore, jedoch ohne dessen Wetterbeanspruchung."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN EN 13773 Textilien und textile Erzeugnisse, Brennverhalten, Vorhänge und Gardinen, Klassifizierungsschema", "u": "https://www.dinmedia.de/en/standard/din-en-13773/57284236", "stand": "Ausgabe 2003-05, ersetzt DIN 66082:1980-12", "geprueft": "2026-08-21" },
+      { "t": "DIN EN ISO 52022-3 solare Eigenschaften von Sonnenschutz in Kombination mit Verglasungen", "u": "https://www.dinmedia.de/en/standard/din-en-iso-52022-3/259924375", "stand": "Ausgabe 2018-01", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Die Aussage zur hellen, reflektierenden Außenseite ist fachlich richtig und ließe sich über DIN EN ISO 52022-3 belegen."
+  },
+  {
+    "id": "kfe4bankmetall",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Ecklösungen werden meist gehrt und verschweißt",
+        "problem": "Beschichtete und eloxierte Aluminiumbleche werden nicht geschweißt, weil die Oberfläche dabei zerstört wird, üblich sind Formteile, geklebte oder genietete Gehrungen.",
+        "ersatz": "Ecklösungen werden mit vorgefertigten Formteilen oder mit geklebten und genieteten Gehrungen ausgeführt, bei beschichteten und eloxierten Blechen scheidet Schweißen aus, weil die Oberfläche dabei zerstört wird, eine saubere Eckausbildung verhindert Undichtigkeiten an dieser besonders beanspruchten Stelle."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "in Materialstärken zwischen 1,5 und 3 Millimetern verarbeitet, verzinkter Stahl etwas dünner",
+        "problem": "Die Spanne ließ sich auf den zulässigen Portalen nicht belegen, 3 Millimeter liegen für eine Fensterbank ungewöhnlich hoch.",
+        "ersatz": "Die Blechstärke von Aluminiumfensterbänken folgt der Spannweite und der zulässigen Durchbiegung zwischen den Befestigungspunkten und ist in der Ausschreibung als Zahlenwert festzulegen, verzinkter Stahl wird bei gleicher Spannweite dünner ausgeführt."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "erhält ein Gefälle von mindestens 5 Grad zur Ableitung von Niederschlag",
+        "problem": "Der Wert entspricht der verbreiteten Praxis, ließ sich aber auf den zulässigen Portalen nicht belegen, maßgebend sind die Fachregeln der Klempnerarbeiten nach VOB Teil C, ATV DIN 18339.",
+        "ersatz": "Die Außenbank erhält ein Gefälle zur Ableitung von Niederschlag sowie eine Tropfkante an der Vorderkante, die den Wasserablauf von der Fassade fernhält, das Mindestgefälle ist gegen die Fachregeln der Klempnerarbeiten nach VOB Teil C, ATV DIN 18339, festzulegen."
+      }
+    ],
+    "quellen": [
+      { "t": "DIN 18339 VOB Teil C, ATV Klempnerarbeiten", "u": "https://www.dinmedia.de/en/standard/din-18339/310833406", "stand": "Ausgabe 2019-09, ersetzt Ausgabe 2016-09", "geprueft": "2026-08-21" }
+    ],
+    "notiz": "Der Knoten arbeitet ganz ohne Regelwerksbezug, obwohl Fensterbänke aus Blech als Klempnerarbeit ausgeschrieben werden."
+  },
+  {
+    "id": "kfe4bankholz",
+    "urteil": "unsicher",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "meist in Stärken um 18 bis 22 Millimeter ausgeführt",
+        "problem": "Die Spanne entspricht gängigen Plattenstärken, ließ sich aber auf den zulässigen Portalen nicht belegen.",
+        "ersatz": "Innenfensterbänke aus beschichteter Spanplatte oder MDF werden in den gängigen Plattenstärken ausgeführt, Massivholzbänke etwas dicker, maßgebend ist die Spannweite zwischen den Auflagern."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "ist ein Luftspalt von mindestens einigen Zentimetern zwischen Bankunterseite und Heizkörperoberkante einzuplanen",
+        "problem": "Mindestens einige Zentimeter ist keine prüfbare Angabe, maßgebend ist der freie Querschnitt über dem Heizkörper, für den sich kein Regelwert finden ließ.",
+        "ersatz": "Über einem Heizkörper ist ein Luftspalt zwischen Bankunterseite und Heizkörperoberkante einzuplanen, dessen freier Querschnitt die Konvektionswärme ungehindert in den Raum aufsteigen lässt, statt sie unter der Bank zu stauen und diese thermisch zu belasten."
+      }
+    ],
+    "quellen": [],
+    "notiz": "Die Aussage zur höheren Dimensionsstabilität von Kunststoff gegenüber Holzwerkstoffen bei Feuchtewechseln ist fachlich unstrittig."
+  }
+]

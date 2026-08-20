@@ -1,0 +1,410 @@
+[
+ {
+  "id": "kab4luftfenster",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3luftdicht",
+  "t": "Anschluss der luftdichten Ebene an Fenster",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4dichtinnen",
+    "t": "Innere Ebene: Folien und Luftdichtheit"
+   },
+   {
+    "id": "kfe3raldicht",
+    "t": "Die drei Dichtungsebenen der RAL-Montage"
+   }
+  ],
+  "eltern": {
+   "id": "kab3luftdicht",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Die luftdichte Ebene im Bauteilaufbau",
+   "t1": "Die luftdichte Ebene muss als durchgehende Linie im Schnitt nachweisbar sein, von der Bodenplatte bis zum First, ohne eine einzige Lücke an Anschlüssen, Durchdringungen oder Bauteilwechseln. Schon eine vergessene Steckdose in der Außenwand kann die gesamte Luftdichtheit des Hauses messbar verschlechtern."
+  },
+  "geschwister": [
+   {
+    "id": "kab4luftdurch",
+    "t": "Durchdringungen: Leitungen, Balken, Dosen",
+    "neu": true
+   },
+   {
+    "id": "kab4luftinst",
+    "t": "Installationsebene vor der Luftdichtheit",
+    "neu": true
+   },
+   {
+    "id": "kab4luftstoss",
+    "t": "Stöße, Überlappung und Verklebung von Bahnen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4luftdurch",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3luftdicht",
+  "t": "Durchdringungen: Leitungen, Balken, Dosen",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   },
+   {
+    "id": "kiw1",
+    "t": "Innenwände und Trockenbau"
+   }
+  ],
+  "eltern": {
+   "id": "kab3luftdicht",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Die luftdichte Ebene im Bauteilaufbau",
+   "t1": "Die luftdichte Ebene muss als durchgehende Linie im Schnitt nachweisbar sein, von der Bodenplatte bis zum First, ohne eine einzige Lücke an Anschlüssen, Durchdringungen oder Bauteilwechseln. Schon eine vergessene Steckdose in der Außenwand kann die gesamte Luftdichtheit des Hauses messbar verschlechtern."
+  },
+  "geschwister": [
+   {
+    "id": "kab4luftfenster",
+    "t": "Anschluss der luftdichten Ebene an Fenster",
+    "neu": true
+   },
+   {
+    "id": "kab4luftinst",
+    "t": "Installationsebene vor der Luftdichtheit",
+    "neu": true
+   },
+   {
+    "id": "kab4luftstoss",
+    "t": "Stöße, Überlappung und Verklebung von Bahnen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4luftinst",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3luftdicht",
+  "t": "Installationsebene vor der Luftdichtheit",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kiw1",
+    "t": "Innenwände und Trockenbau"
+   },
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   }
+  ],
+  "eltern": {
+   "id": "kab3luftdicht",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Die luftdichte Ebene im Bauteilaufbau",
+   "t1": "Die luftdichte Ebene muss als durchgehende Linie im Schnitt nachweisbar sein, von der Bodenplatte bis zum First, ohne eine einzige Lücke an Anschlüssen, Durchdringungen oder Bauteilwechseln. Schon eine vergessene Steckdose in der Außenwand kann die gesamte Luftdichtheit des Hauses messbar verschlechtern."
+  },
+  "geschwister": [
+   {
+    "id": "kab4luftfenster",
+    "t": "Anschluss der luftdichten Ebene an Fenster",
+    "neu": true
+   },
+   {
+    "id": "kab4luftdurch",
+    "t": "Durchdringungen: Leitungen, Balken, Dosen",
+    "neu": true
+   },
+   {
+    "id": "kab4luftstoss",
+    "t": "Stöße, Überlappung und Verklebung von Bahnen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4luftstoss",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3luftdicht",
+  "t": "Stöße, Überlappung und Verklebung von Bahnen",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4dichtecke",
+    "t": "Ecken, Stöße und Durchdringungen"
+   }
+  ],
+  "eltern": {
+   "id": "kab3luftdicht",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Die luftdichte Ebene im Bauteilaufbau",
+   "t1": "Die luftdichte Ebene muss als durchgehende Linie im Schnitt nachweisbar sein, von der Bodenplatte bis zum First, ohne eine einzige Lücke an Anschlüssen, Durchdringungen oder Bauteilwechseln. Schon eine vergessene Steckdose in der Außenwand kann die gesamte Luftdichtheit des Hauses messbar verschlechtern."
+  },
+  "geschwister": [
+   {
+    "id": "kab4luftfenster",
+    "t": "Anschluss der luftdichten Ebene an Fenster",
+    "neu": true
+   },
+   {
+    "id": "kab4luftdurch",
+    "t": "Durchdringungen: Leitungen, Balken, Dosen",
+    "neu": true
+   },
+   {
+    "id": "kab4luftinst",
+    "t": "Installationsebene vor der Luftdichtheit",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4sdwert",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3dampfbremse",
+  "t": "sd-Wert und Diffusionswiderstand",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kma1",
+    "t": "Material- und Produktkunde"
+   }
+  ],
+  "eltern": {
+   "id": "kab3dampfbremse",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Dampfbremse und Dampfsperre",
+   "t1": "Die Dampfbremse lässt Wasserdampf kontrolliert und langsam hindurch, die Dampfsperre praktisch gar nicht, welche der beiden richtig ist, hängt vom restlichen Bauteilaufbau und der Rücktrocknungsfähigkeit nach außen ab. Die falsche Wahl kann Tauwasser im Bauteilinneren einschließen, wo es niemand sieht, bis der Schaden längst da ist."
+  },
+  "geschwister": [
+   {
+    "id": "kab4feuchtevar",
+    "t": "Feuchtevariable Dampfbremse",
+    "neu": true
+   },
+   {
+    "id": "kab4dampfsperre",
+    "t": "Dampfsperre im Flachdach und Holzbau",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4feuchtevar",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3dampfbremse",
+  "t": "Feuchtevariable Dampfbremse",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kda1",
+    "t": "Dach"
+   },
+   {
+    "id": "kbe1",
+    "t": "Bauen im Bestand"
+   }
+  ],
+  "eltern": {
+   "id": "kab3dampfbremse",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Dampfbremse und Dampfsperre",
+   "t1": "Die Dampfbremse lässt Wasserdampf kontrolliert und langsam hindurch, die Dampfsperre praktisch gar nicht, welche der beiden richtig ist, hängt vom restlichen Bauteilaufbau und der Rücktrocknungsfähigkeit nach außen ab. Die falsche Wahl kann Tauwasser im Bauteilinneren einschließen, wo es niemand sieht, bis der Schaden längst da ist."
+  },
+  "geschwister": [
+   {
+    "id": "kab4sdwert",
+    "t": "sd-Wert und Diffusionswiderstand",
+    "neu": true
+   },
+   {
+    "id": "kab4dampfsperre",
+    "t": "Dampfsperre im Flachdach und Holzbau",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4dampfsperre",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3dampfbremse",
+  "t": "Dampfsperre im Flachdach und Holzbau",
+  "t3": true,
+  "dach": false,
+  "hint": "Knotentyp Zielkonflikt (Muster k3kombi): Bedingung nennen, unter der die Sperre richtig und unter der sie falsch ist (Rücktrocknung).",
+  "lnKandidaten": [
+   {
+    "id": "kda1",
+    "t": "Dach"
+   }
+  ],
+  "eltern": {
+   "id": "kab3dampfbremse",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Dampfbremse und Dampfsperre",
+   "t1": "Die Dampfbremse lässt Wasserdampf kontrolliert und langsam hindurch, die Dampfsperre praktisch gar nicht, welche der beiden richtig ist, hängt vom restlichen Bauteilaufbau und der Rücktrocknungsfähigkeit nach außen ab. Die falsche Wahl kann Tauwasser im Bauteilinneren einschließen, wo es niemand sieht, bis der Schaden längst da ist."
+  },
+  "geschwister": [
+   {
+    "id": "kab4sdwert",
+    "t": "sd-Wert und Diffusionswiderstand",
+    "neu": true
+   },
+   {
+    "id": "kab4feuchtevar",
+    "t": "Feuchtevariable Dampfbremse",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4n50",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3blowerdoor",
+  "t": "Messverfahren und Kennwerte n50 und q50",
+  "t3": true,
+  "dach": true,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "pna3nachweis",
+    "t": "Energieausweis und Nachweisverfahren"
+   },
+   {
+    "id": "pbl2bau",
+    "t": "Bauüberwachung und Dokumentation"
+   }
+  ],
+  "eltern": {
+   "id": "kab3blowerdoor",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Blower-Door-Test und Leckageortung",
+   "t1": "Beim Blower-Door-Test erzeugt ein Gebläse einen Unter- oder Überdruck im Gebäude, sodass sich undichte Stellen der Hülle als spürbarer Luftzug oder mit Nebel und Wärmebildkamera sichtbar aufspüren lassen. Der Test lohnt sich schon während des Rohbaus, denn dann sind gefundene Lecks noch mit vertretbarem Aufwand zu schließen."
+  },
+  "geschwister": [
+   {
+    "id": "kab4messzeit",
+    "t": "Zeitpunkt der Messung im Bauablauf",
+    "neu": true
+   },
+   {
+    "id": "kab4leckagen",
+    "t": "Typische Leckagen und ihre Ortung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4messzeit",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3blowerdoor",
+  "t": "Zeitpunkt der Messung im Bauablauf",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "pbl2bau",
+    "t": "Bauüberwachung und Dokumentation"
+   },
+   {
+    "id": "pab2termin",
+    "t": "Termin- und Ablaufplanung"
+   }
+  ],
+  "eltern": {
+   "id": "kab3blowerdoor",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Blower-Door-Test und Leckageortung",
+   "t1": "Beim Blower-Door-Test erzeugt ein Gebläse einen Unter- oder Überdruck im Gebäude, sodass sich undichte Stellen der Hülle als spürbarer Luftzug oder mit Nebel und Wärmebildkamera sichtbar aufspüren lassen. Der Test lohnt sich schon während des Rohbaus, denn dann sind gefundene Lecks noch mit vertretbarem Aufwand zu schließen."
+  },
+  "geschwister": [
+   {
+    "id": "kab4n50",
+    "t": "Messverfahren und Kennwerte n50 und q50",
+    "neu": true
+   },
+   {
+    "id": "kab4leckagen",
+    "t": "Typische Leckagen und ihre Ortung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4leckagen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3blowerdoor",
+  "t": "Typische Leckagen und ihre Ortung",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe3raldicht",
+    "t": "Die drei Dichtungsebenen der RAL-Montage"
+   },
+   {
+    "id": "kiw1",
+    "t": "Innenwände und Trockenbau"
+   }
+  ],
+  "eltern": {
+   "id": "kab3blowerdoor",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Blower-Door-Test und Leckageortung",
+   "t1": "Beim Blower-Door-Test erzeugt ein Gebläse einen Unter- oder Überdruck im Gebäude, sodass sich undichte Stellen der Hülle als spürbarer Luftzug oder mit Nebel und Wärmebildkamera sichtbar aufspüren lassen. Der Test lohnt sich schon während des Rohbaus, denn dann sind gefundene Lecks noch mit vertretbarem Aufwand zu schließen."
+  },
+  "geschwister": [
+   {
+    "id": "kab4n50",
+    "t": "Messverfahren und Kennwerte n50 und q50",
+    "neu": true
+   },
+   {
+    "id": "kab4messzeit",
+    "t": "Zeitpunkt der Messung im Bauablauf",
+    "neu": true
+   }
+  ]
+ }
+]

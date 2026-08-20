@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt durch eine Dachschräge mit luftdichter Ebene, die von einem Rohr durchdrungen wird; eine Manschette schließt die Ebene wieder">
+  <!-- Sparrenlage mit Dämmung, stumme Kontur -->
+  <path d="M40 250 L440 90" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M40 190 L440 30" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M60 236 q8 -10 16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6 t16 -6" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- luftdichte Ebene unterhalb der Dämmung -->
+  <path d="M40 262 L200 198 M280 166 L440 102" fill="none" stroke="#1c1a17" stroke-width="2.2" stroke-dasharray="7 3"/>
+  <!-- Rohr durch die Ebene -->
+  <rect x="224" y="60" width="32" height="230" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Manschette: Akzent, überbrückt die Unterbrechung -->
+  <path d="M196 200 L224 188 V178 L256 165 V175 L284 163" fill="none" stroke="#b05c3a" stroke-width="2.2"/>
+  <path d="M196 200 L224 188 L224 210 L196 222 Z M256 165 L284 153 L284 175 L256 187 Z" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1"/>
+  <!-- Beschriftungen -->
+  <line x1="120" y1="230" x2="100" y2="282" stroke="#1c1a17" stroke-width="1.1"/><circle cx="120" cy="230" r="1.6" fill="#1c1a17"/>
+  <text x="100" y="298" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">luftdichte Ebene, gestrichelt</text>
+  <line x1="240" y1="80" x2="300" y2="60" stroke="#1c1a17" stroke-width="1.1"/><circle cx="240" cy="80" r="1.6" fill="#1c1a17"/>
+  <text x="306" y="56" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Rohr durchdringt die Ebene</text>
+  <line x1="270" y1="170" x2="306" y2="230" stroke="#b05c3a" stroke-width="1.1"/><circle cx="270" cy="170" r="1.6" fill="#b05c3a"/>
+  <text x="300" y="246" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Manschette, verklebt:</text>
+  <text x="300" y="258" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">schließt die Ebene wieder</text>
+  <text x="340" y="300" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Dämmung zwischen den Sparren, Schnitt</text>
+  <text x="60" y="150" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">innen</text>
+</svg>

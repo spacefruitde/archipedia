@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Grundriss einer Gebäudeaußenecke mit Isothermen: In der Fläche laufen sie parallel zur Wand, an der Ecke drängen sie sich und die innere Oberfläche wird kalt">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Außenwand als L, geschnitten -->
+  <path d="M60 40 H140 V200 H380 V280 H60 Z" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Isothermen: parallel in der Fläche, gedrängt an der Ecke -->
+  <path d="M120 40 V180 H380" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <path d="M100 40 V190 Q100 200 110 200 H380" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <path d="M80 40 V230 Q80 260 110 260 H380" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <!-- kritische Isotherme an der Innenoberfläche der Ecke, Akzent -->
+  <path d="M134 40 V194 Q134 200 140 200 H380" fill="none" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- kalte Innenecke markiert -->
+  <circle cx="144" cy="196" r="7" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1"/>
+  <!-- Beschriftungen -->
+  <text x="260" y="120" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">innen</text>
+  <text x="40" y="300" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">außen</text>
+  <line x1="147" y1="192" x2="210" y2="150" stroke="#b05c3a" stroke-width="1.1"/><circle cx="147" cy="192" r="1.6" fill="#b05c3a"/>
+  <text x="214" y="146" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Innenecke: Isothermen gedrängt,</text>
+  <text x="214" y="158" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Oberfläche am kältesten</text>
+  <line x1="300" y1="260" x2="386" y2="294" stroke="#1c1a17" stroke-width="1.1"/><circle cx="300" cy="260" r="1.6" fill="#1c1a17"/>
+  <text x="390" y="308" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Isothermen in der Fläche</text>
+  <text x="90" y="26" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Grundriss</text>
+</svg>

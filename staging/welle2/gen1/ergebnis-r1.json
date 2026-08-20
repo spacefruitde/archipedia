@@ -1,0 +1,670 @@
+[
+  {
+    "id": "kfe4profbautiefe",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "Die Zahl der Kammern liegt bei Kunststoff- und Holz-Aluminiumprofilen meist zwischen zwei und sechs",
+        "problem": "Holz-Aluminium-Profile sind im Kern massiv und haben keine Kammergliederung, die Kammernzahl beschreibt Kunststoffprofile und die Isolierzone thermisch getrennter Aluminiumprofile.",
+        "ersatz": "Die Zahl der Kammern liegt bei Kunststoffprofilen meist zwischen drei und sieben, bei thermisch getrennten Aluminiumprofilen beschreibt sie die Hohlräume der Isolierzone, während Holz und Holz-Aluminium massiv aufgebaut sind und über Holzart und Rahmendicke dämmen, wobei jede zusätzliche Kammer den Uf-Wert nur noch wenig verbessert, sobald die Luft in den äußeren Kammern kaum noch zirkuliert."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Kunststoffprofile erreichen bei vier bis sechs Kammern und Bautiefen ab etwa 70 mm Uf-Werte um 1,0 W/m²K, zusätzlich mit Dämmschaum gefüllte Kammern senken den Wert auf teils unter 0,8 W/m²K",
+        "problem": "Für die Kopplung von 70 mm Bautiefe an einen Uf-Wert um 1,0 W/m²K findet sich auf keinem Normen- oder Herausgeberportal ein Beleg, marktübliche Systeme dieser Bautiefe liegen häufig darüber.",
+        "ersatz": "Kunststoffprofile mit fünf und mehr Kammern erreichen je nach Bautiefe, Verstärkung und Kammerfüllung Uf-Werte im Bereich von etwa 1,3 bis unter 1,0 W/m²K, maßgeblich ist allein der für die konkrete Profilkombination nach DIN EN ISO 10077-2 nachgewiesene Wert und nicht die Bautiefenangabe."
+      },
+      {
+        "feld": "t3",
+        "art": "stand",
+        "zitat": "nach dem in EN ISO 10077-2 festgelegten Verfahren",
+        "problem": "Die Norm ist richtig benannt, die aktuelle Ausgabe ist DIN EN ISO 10077-2:2025-06 und ersetzt die Ausgabe 2018-01, der Stand gehört in die Quellenangabe.",
+        "ersatz": ""
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN EN ISO 10077-2, Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen, Teil 2: Numerisches Verfahren für Rahmen",
+        "u": "https://www.dinmedia.de/en/standard/din-en-iso-10077-2/388400131",
+        "stand": "Ausgabe 2025-06, ersetzt DIN EN ISO 10077-2:2018-01",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die Kernaussage, dass der geprüfte Uf-Wert und nicht die Bautiefe entscheidet, trägt; die Zahlen darunter tragen nicht."
+  },
+  {
+    "id": "kfe4profansicht",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Bei Kunststoff- und Holzfenstern liegen Standard-Ansichtsbreiten am Blendrahmen bei etwa 100 bis 120 mm",
+        "problem": "Die Größenordnung 100 bis 120 mm gilt für die gesamte sichtbare Rahmenbreite aus Blendrahmen und Flügel, nicht für den Blendrahmen allein, damit ist die Bezugsgröße falsch benannt.",
+        "ersatz": "Bei Kunststoff- und Holzfenstern liegt die gesamte Ansichtsbreite aus Blendrahmen und Flügel im Standard bei etwa 100 bis 120 mm, wovon der Blendrahmen nur einen Teil ausmacht, schlanke Sonderprofile kommen auf etwa 70 bis 90 mm."
+      },
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "Schlanke Ansichtsbreiten unter etwa 60 mm verlangen fast immer eine innenliegende Stahlverstärkung im Flügel",
+        "problem": "Die innenliegende Stahlverstärkung ist ein Merkmal von Kunststoffprofilen, Aluminium- und Stahlprofile tragen über den Profilquerschnitt selbst und begrenzen stattdessen die zulässige Flügelgröße.",
+        "ersatz": "Schlanke Ansichtsbreiten verlangen bei Kunststoffprofilen fast immer eine innenliegende Stahlverstärkung im Flügel, weil das Rahmenmaterial allein die Lasten großer Flügel nicht mehr sicher trägt, bei Aluminium und Stahl trägt das Profil selbst und die Schlankheit wird stattdessen über die zulässige Flügelgröße begrenzt."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Aluminiumprofile mit verdecktem Flügel und innenliegender Stahlverstärkung kommen auf Ansichtsbreiten von 40 bis 60 mm",
+        "problem": "Die Spanne 40 bis 60 mm ist auf keinem zulässigen Portal belegbar und verbindet zudem Aluminium mit einer Stahlverstärkung, die dort nicht systemtypisch ist.",
+        "ersatz": "Aluminiumprofile mit verdeckt liegendem Flügel erreichen deutlich schlankere Ansichtsbreiten als Kunststoff, die im Einzelfall mögliche Breite ist dem Systemnachweis zu entnehmen und lässt sich nicht pauschal beziffern."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "historisierende Stahlprofile ohne Wärmedämmung sind bei Neubauten aus energetischen Gründen kaum noch im Einsatz",
+        "problem": "Die Aussage lässt offen, dass thermisch getrennte Stahlprofile verfügbar sind und im Neubau genau dort eingesetzt werden, wo die schlanke Stahloptik gefordert ist.",
+        "ersatz": "Ungedämmte Stahlprofile scheiden im Neubau aus energetischen Gründen aus, thermisch getrennte Stahlprofile erreichen dagegen sehr schlanke Ansichtsbreiten bei nachweisbarem Uf-Wert und sind der übliche Weg, wenn die Stahloptik gefordert ist."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN EN 14351-1, Fenster und Türen, Produktnorm, Leistungseigenschaften, Teil 1: Fenster und Außentüren",
+        "u": "https://www.dinmedia.de/en/standard/din-en-14351-1/261176988",
+        "stand": "Ausgabe 2016-12, Deutsche Fassung EN 14351-1:2006+A2:2016",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Der Zusammenhang Ansichtsbreite, Verstärkung und zulässige Flügelgröße ist richtig gedacht, die konkreten Millimeterangaben sind nicht belegt."
+  },
+  {
+    "id": "kfe4profdenkmal",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "dach.at",
+        "art": "fehler",
+        "zitat": "die OIB-Richtlinie 6 sieht eigene Ausnahmen für erhaltenswerte Bausubstanz vor",
+        "problem": "In der OIB-Richtlinie 6, Ausgabe Mai 2023, kommen weder Denkmalschutz noch erhaltenswerte Bausubstanz vor, Abweichungen laufen ausschließlich über die landesrechtlichen Bestimmungen bei nachgewiesenem gleichem Schutzniveau.",
+        "ersatz": "Das Denkmalschutzgesetz ist Bundesrecht, jede Veränderung eines Denkmals bedarf nach Paragraf 5 der Bewilligung des Bundesdenkmalamts, energetische Erleichterungen kennt die OIB-Richtlinie 6 selbst nicht, sie sind nur über die landesrechtlichen Bestimmungen möglich, wenn der Bauwerber ein gleichwertiges Schutzniveau nachweist."
+      },
+      {
+        "feld": "dach.ch",
+        "art": "fehler",
+        "zitat": "SIA 380/1 lässt für geschützte Bauten reduzierte energetische Zielwerte zu",
+        "problem": "SIA 380/1:2016 enthält keine denkmalbezogene Ausnahme, Erleichterungen für geschützte Bauten stehen in den kantonalen Energiegesetzen.",
+        "ersatz": "Denkmalschutz liegt in kantonaler Zuständigkeit, die kantonalen Denkmalpflegeämter legen die Anforderungen fest, Erleichterungen von den Zielwerten nach SIA 380/1 ergeben sich nicht aus der Norm, sondern aus dem kantonalen Energierecht."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Erreichbare Uw-Werte liegen beim Kastenfenster oft bei 1,0 bis 1,3 W/m²K, während ein reiner Nachbau mit modernem Isolierglas meist bei 1,6 bis 2,0 W/m²K bleibt",
+        "problem": "Weder die Uw-Spannen noch der Luftraum von 8 bis 15 cm sind auf einem Normen- oder Herausgeberportal belegbar, beide hängen vollständig vom vorhandenen Wandaufbau und vom Glasaufbau je Ebene ab.",
+        "ersatz": "Ein Kastenfenster besteht aus zwei getrennten Fensterebenen mit einem Luftraum dazwischen, dessen Tiefe sich aus der vorhandenen Laibung ergibt, wobei die äußere Ebene die historische Profilierung zeigt und die innere Ebene Wärme und Schallschutz übernimmt, der erreichbare Uw-Wert ist für den konkreten Aufbau zu rechnen und liegt deutlich unter dem eines reinen Nachbaus mit Isolierglas."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "Denkmalschutzgesetz (Österreich), Paragraf 5, Bewilligungspflicht für Zerstörung und Veränderung",
+        "u": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10009184&Paragraf=5",
+        "stand": "Bundesrecht konsolidiert, tagesaktuelle Fassung, abgerufen 21.08.2026",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "OIB-Richtlinie 6, Energieeinsparung und Wärmeschutz",
+        "u": "https://www.oib.or.at/wp-content/uploads/richtlinien/richtlinie_2023/oib-rl_6_ausgabe_mai_2023.pdf",
+        "stand": "Ausgabe Mai 2023, OIB-330.6-036/23; eine Fassung der Richtlinie 6 aus dem Jahr 2025 liegt zusätzlich vor",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "SIA 380/1, Heizwärmebedarf",
+        "u": "http://shop.sia.ch/normenwerk/architekt/380-1_2016_d/D/Product",
+        "stand": "Ausgabe 2016, mit Korrigenda C1:2019, gültig ab 01.03.2019",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die deutsche Aussage zum Landesrecht ist korrekt, die österreichische und die schweizerische stützen sich auf Regelwerke, die die behauptete Ausnahme nicht enthalten."
+  },
+  {
+    "id": "kfe4gwert",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t2",
+        "art": "unbelegt",
+        "zitat": "Werte über etwa 1,6 gelten als hoch selektiv, einfache getönte Gläser liegen oft nur bei 1,0 bis 1,2",
+        "problem": "Die Schwelle 1,6 und die Spanne 1,0 bis 1,2 sind auf keinem Normen- oder Herausgeberportal belegbar, der Herausgeber führt für Sonnenschutzgläser nur g-Werte von etwa 0,20 bis 0,50 an.",
+        "ersatz": "Der Selektivitätsindex ergibt sich aus dem Verhältnis von Lichttransmission zu g-Wert, je höher er liegt, desto mehr Tageslicht kommt bei gleicher durchgelassener Sonnenenergie in den Raum, einfache getönte Gläser liegen nahe bei eins, hoch selektive Beschichtungen deutlich darüber."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "marktübliche Sonnenschutzgläser erreichen Werte zwischen etwa 1,0 und 2,0, Spitzenprodukte liegen darüber",
+        "problem": "Die Spanne ist nicht belegbar und altert schnell, ohne sie trägt der Satz über die Definition des Index vollständig.",
+        "ersatz": "Der Selektivitätsindex wird als Quotient aus Lichttransmissionsgrad und g-Wert angegeben, die im Einzelfall erreichbaren Werte sind dem Datenblatt des jeweiligen Glasaufbaus zu entnehmen."
+      },
+      {
+        "feld": "t3",
+        "art": "stand",
+        "zitat": "werden nach einem europäischen Prüfverfahren für den Strahlungsdurchgang von Verglasungen ermittelt",
+        "problem": "Das Verfahren hat eine Nummer und einen Titel, die Umschreibung macht den Satz für die Ausschreibung unbrauchbar.",
+        "ersatz": "Beide Kennwerte, Lichttransmission und g-Wert, werden nach DIN EN 410 für die lichttechnischen und strahlungsphysikalischen Kenngrößen von Verglasungen ermittelt und sind im Datenblatt des Glasherstellers auszuweisen."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN EN 410, Glas im Bauwesen, Bestimmung der lichttechnischen und strahlungsphysikalischen Kenngrößen von Verglasungen",
+        "u": "https://www.dinmedia.de/en/standard/din-en-410/138424295",
+        "stand": "Ausgabe 2011-04, Deutsche Fassung EN 410:2011; ein Entwurf prEN 410:2024 liegt vor",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Definition und Argumentation sind fachlich richtig, nur die Zahlenspannen sind ohne Beleg."
+  },
+  {
+    "id": "kfe4beschichtung",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "während Position drei an der inneren Scheibe die Fassade von außen neutraler und dunkler wirken lässt",
+        "problem": "Der Satz behandelt die Beschichtungslage als reine Gestaltungsfrage und verschweigt, dass eine Sonnenschutzschicht auf Position drei einen erheblichen Teil ihrer Wirkung verliert, weil die bereits in der Außenscheibe aufgenommene Wärme zum Raum hin abgegeben wird.",
+        "ersatz": "Beschichtungen auf Position zwei liegen im Scheibenzwischenraum an der äußeren Scheibe und erzeugen von außen eine stärkere, oft leicht farbige Reflexion, Position drei an der inneren Scheibe lässt die Fassade neutraler und dunkler wirken, kostet den Sonnenschutz aber einen Teil seiner Wirkung, weil die in der Außenscheibe aufgenommene Wärme dann zum Raum hin abgegeben wird."
+      },
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "Wo eine neutrale, wenig reflektierende Fassade das Ziel ist, liegt die Beschichtung meist auf Position drei",
+        "problem": "So formuliert wird die Position allein aus der Fassadenwirkung abgeleitet, obwohl der g-Wert des Aufbaus mit der Position wandert und der Nachweis des sommerlichen Wärmeschutzes daran hängt.",
+        "ersatz": "Wo eine neutrale, wenig reflektierende Fassade das Ziel ist, kommt eine Beschichtung auf Position drei infrage, allerdings nur, wenn der für diese Position ausgewiesene g-Wert den sommerlichen Wärmeschutz noch trägt, sonst bleibt es bei Position zwei mit der kräftigeren Außenwirkung."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN EN 410, Glas im Bauwesen, Bestimmung der lichttechnischen und strahlungsphysikalischen Kenngrößen von Verglasungen",
+        "u": "https://www.dinmedia.de/en/standard/din-en-410/138424295",
+        "stand": "Ausgabe 2011-04, Deutsche Fassung EN 410:2011",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die Unterscheidung pyrolytisch gegen gesputtert und die Zuordnung der gesputterten Schicht in den geschützten Scheibenzwischenraum sind korrekt; der Knoten hat kein t3, die prüfpflichtige Liste ist leer."
+  },
+  {
+    "id": "kfe4sommer",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "dach.at",
+        "art": "fehler",
+        "zitat": "Der Nachweis erfolgt nach OIB-Richtlinie 3 über einen sommertauglichen Kühlbedarf oder eine vereinfachte Kennwertmethode je Bundesland-Fassung.",
+        "problem": "Falsche Richtlinie und falscher Mechanismus: OIB-Richtlinie 3 regelt Hygiene, Gesundheit und Umweltschutz, der sommerliche Wärmeschutz steht in OIB-Richtlinie 6, Punkt 4.9, und arbeitet für Wohngebäude mit der operativen Temperatur beziehungsweise einem gtot der Abschattung von höchstens 0,15.",
+        "ersatz": "Der Nachweis erfolgt nach der OIB-Richtlinie 6, Punkt 4.9, bei Wohngebäuden über die operative Temperatur im Aufenthaltsraum oder ersatzweise über außenliegende Abschattungseinrichtungen mit einem gtot von höchstens 0,15, bei Nicht-Wohngebäuden zusätzlich über den außeninduzierten Kühlbedarf."
+      },
+      {
+        "feld": "dach.ch",
+        "art": "fehler",
+        "zitat": "SIA 180, die den sommerlichen Wärmeschutz über die Kühlleistungsgrenze und den g-Wert-Grenzwert je Fensterfläche regelt",
+        "problem": "SIA 180:2014 kennt keine Kühlleistungsgrenze, sie fordert entweder die Einhaltung konstruktiver Anforderungen an den Sonnenschutz über den Gesamtenergiedurchlassgrad oder den rechnerischen Nachweis der operativen Raumtemperatur.",
+        "ersatz": "Maßgebend ist SIA 180, die den sommerlichen Wärmeschutz entweder über Anforderungen an den Gesamtenergiedurchlassgrad des Sonnenschutzes oder über den rechnerischen Nachweis der operativen Raumtemperatur regelt."
+      },
+      {
+        "feld": "dach.de",
+        "art": "stand",
+        "zitat": "Der sommerliche Wärmeschutz wird nach DIN 4108-2 über den Sonneneintragskennwert je Raum nachgewiesen, alternativ per thermischer Simulation.",
+        "problem": "Die Norm ist richtig, der beschriebene Weg stammt aber aus der abgelösten Ausgabe 2013-02, aktuell ist DIN 4108-2:2026-05, deren Verfahren vor einer Festlegung im Text geprüft werden muss.",
+        "ersatz": "Der sommerliche Wärmeschutz wird nach DIN 4108-2 nachgewiesen, wahlweise über das vereinfachte Verfahren der Norm oder über eine thermische Gebäudesimulation, wobei die aktuelle Ausgabe der Norm zugrunde zu legen ist."
+      },
+      {
+        "feld": "t3",
+        "art": "dach",
+        "zitat": "vergleicht den vorhandenen mit dem zulässigen Sonneneintragskennwert je Raum",
+        "problem": "Der Sonneneintragskennwert ist eine deutsche Kenngröße und wird hier als das allgemeine DACH-Verfahren dargestellt, Österreich rechnet mit operativer Temperatur und Kühlbedarf, die Schweiz mit dem Gesamtenergiedurchlassgrad des Sonnenschutzes.",
+        "ersatz": "Der rechnerische Nachweis des sommerlichen Wärmeschutzes setzt die solare Last je Raum ins Verhältnis zu einem zulässigen Grenzwert, wobei Fensterfläche, Ausrichtung, Neigung und die Wirkung der Verschattung eingehen, die Kenngröße selbst und das Verfahren unterscheiden sich zwischen den DACH-Ländern, siehe DACH-Kasten."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "OIB-Richtlinie 6, Energieeinsparung und Wärmeschutz, Punkt 4.9 Sommerlicher Wärmeschutz",
+        "u": "https://www.oib.or.at/wp-content/uploads/richtlinien/richtlinie_2023/oib-rl_6_ausgabe_mai_2023.pdf",
+        "stand": "Ausgabe Mai 2023, OIB-330.6-036/23; eine Fassung der Richtlinie 6 aus dem Jahr 2025 liegt zusätzlich vor",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "DIN 4108-2, Wärmeschutz und Energie-Einsparung in Gebäuden, Teil 2: Wärmeschutz, Anforderungen, Berechnungsverfahren und Hinweise für Planung und Ausführung",
+        "u": "https://www.dinmedia.de/en/standard/din-4108-2/401017482",
+        "stand": "Ausgabe 2026-05, ersetzt DIN 4108-2:2013-02",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "SIA 180, Wärmeschutz, Feuchteschutz und Raumklima in Gebäuden",
+        "u": "https://shop.sia.ch/normenwerk/architekt/sia%20180/d/2014/D/Product",
+        "stand": "Ausgabe 2014, gültig ab 01.07.2014, mit Korrigenda C1:2015; ersetzt SIA 180:1999",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die Argumentation Verschattung vor Glas trägt und der Hinweis, dass Abminderungsfaktor und g-Wert multiplikativ zusammenwirken statt sich zu addieren, ist richtig."
+  },
+  {
+    "id": "kfe4schallaufbau",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Der Scheibenzwischenraum liegt bei Schallschutzverglasung häufig bei 12 bis 16 mm, breiter als bei reiner Wärmeschutzverglasung",
+        "problem": "Die Richtung stimmt nicht: Wärmeschutz-Isolierglas hat regelmäßig sechzehn Millimeter Scheibenzwischenraum, Schallschutzaufbauten gehen darüber hinaus, zwölf Millimeter liegen darunter.",
+        "ersatz": "Der Scheibenzwischenraum wirkt sich unmittelbar aus, je breiter er ist, desto höher fällt das Schalldämmmaß in der Regel aus, weshalb Schallschutzaufbauten über die bei reiner Wärmeschutzverglasung üblichen sechzehn Millimeter hinausgehen, was allerdings die Bautiefe des Glasfalzes und das Flügelgewicht erhöht."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Schallschutzfolien in Verbundsicherheitsglas bestehen aus mehreren dünnen Glasschichten mit einer viskoelastischen Zwischenschicht und erreichen bei vergleichbarem Scheibengewicht ein um bis zu drei bis fünf Dezibel höheres Schalldämmmaß als einfaches Floatglas gleicher Dicke",
+        "problem": "Die Folie besteht nicht aus Glasschichten, sondern ist die Zwischenschicht zwischen zwei Glasscheiben, und die Verbesserung von drei bis fünf Dezibel ist auf keinem Herausgeberportal belegbar.",
+        "ersatz": "Verbundsicherheitsglas mit Schallschutzfolie verbindet zwei Einzelscheiben über eine viskoelastische Zwischenschicht und kombiniert so hohe Scheibenmasse mit geringer Biegesteifigkeit, was die Dämmung im unteren wie im oberen Frequenzbereich gegenüber monolithischem Glas gleicher Dicke verbessert, der erreichte Wert ist am konkreten Aufbau zu messen."
+      },
+      {
+        "feld": "t2",
+        "art": "unbelegt",
+        "zitat": "Das Dickenverhältnis der beiden Scheiben sollte im Regelfall bei mindestens 30 Prozent liegen",
+        "problem": "Das Herausgeberregelwerk formuliert nur eine Tendenz, je asymmetrischer desto besser, eine Schwelle von dreißig Prozent findet sich dort nicht.",
+        "ersatz": "Die Dicken der beiden Scheiben sollten sich deutlich unterscheiden, denn je asymmetrischer der Aufbau bei gleicher Gesamtglasdicke ausfällt, desto höher liegt in der Regel das Schalldämmmaß, weil die Koinzidenzfrequenzen der Einzelscheiben dann auseinanderfallen, ein Verhältnis von vier zu sechs Millimetern gilt als wirksame Grundkombination."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Ein Dickenverhältnis der Einzelscheiben von mindestens 30 Prozent gilt als wirksame Asymmetrie",
+        "problem": "Dieselbe unbelegte Schwelle wiederholt sich in der Fachtiefe und wird dort als Regel gesetzt.",
+        "ersatz": "Als wirksame Asymmetrie gilt ein deutlicher Dickenunterschied der Einzelscheiben, gängige Kombinationen liegen bei vier zu sechs oder sechs zu acht Millimetern."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "BF-Merkblatt 017, Schallschutzglas, Bundesverband Flachglas",
+        "u": "https://www.bundesverband-flachglas.de/wp-content/uploads/simple-file-list/bf-merkblaetter/BF-Merkblatt_017-2014_Schallschutzglas.pdf",
+        "stand": "Ausgabe 2014, Änderungsindex 1, Oktober 2022",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "DIN EN ISO 717-1, Akustik, Bewertung der Schalldämmung in Gebäuden und von Bauteilen, Teil 1: Luftschalldämmung",
+        "u": "https://www.dinmedia.de/en/standard/din-en-iso-717-1/329418506",
+        "stand": "Ausgabe 2021-05, ersetzt DIN EN ISO 717-1:2013-06",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Ergänzenswert: Dreifach-Isolierglas ist bei nominell gleicher Dicke und Masse schalltechnisch etwas ungünstiger als Zweifach-Isolierglas, das widerspricht der verbreiteten Erwartung im Entwurf."
+  },
+  {
+    "id": "kfe4rw",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "Zwischen dem Rw der Scheibe und dem Rw des fertigen Fensters liegen üblicherweise zwei bis fünf Dezibel Differenz",
+        "problem": "Die pauschale Spanne ist nicht belegbar und steht dem Herausgeberregelwerk entgegen, das bis etwa vierzig Dezibel einen geringen Einfluss des Rahmens ausweist.",
+        "ersatz": "Wie weit das Rw des fertigen Fensters unter dem Rw der Scheibe liegt, hängt von Rahmen, Flügelfalzdichtung und Aufbau ab, bis etwa vierzig Dezibel ist der Einfluss des Rahmens gering, darüber entscheidet er zunehmend über das Ergebnis des Gesamtelements."
+      },
+      {
+        "feld": "t1",
+        "art": "fehler",
+        "zitat": "weshalb ein Fenster mit einer Scheibe von Rw 42 dB fast nie selbst 42 dB erreicht",
+        "problem": "Der Effekt existiert, wird hier aber als durchgängige Regel behauptet, obwohl er erst im oberen Wertebereich relevant wird.",
+        "ersatz": "Rahmen, Flügelfalz und Fuge bestimmen mit, was vom Wert der Scheibe im eingebauten Fenster übrig bleibt, weshalb ein Fenster mit einer Scheibe von Rw 42 dB diesen Wert nicht ohne eigenen Nachweis am Gesamtelement erreicht."
+      },
+      {
+        "feld": "t3",
+        "art": "stand",
+        "zitat": "wird im Prüfstand nach der Normreihe für die Bauakustik bestimmt und liegt praktisch immer unter dem Rw der eingebauten Scheibe, üblich sind zwei bis fünf Dezibel Differenz",
+        "problem": "Die Normen haben Nummern: gemessen wird nach DIN EN ISO 10140, bewertet nach DIN EN ISO 717-1, die Angabe am Fenster folgt DIN EN 14351-1 und DIN 4109; die Dezibelspanne ist unbelegt.",
+        "ersatz": "Das bewertete Schalldämmmaß Rw des Gesamtfensters wird im Prüfstand gemessen und nach DIN EN ISO 717-1 bewertet, für die Angabe am Fenster gelten die Verfahren nach DIN EN 14351-1 und DIN 4109, der Wert liegt unter dem Rw der eingebauten Scheibe."
+      },
+      {
+        "feld": "dach.de",
+        "art": "fehler",
+        "zitat": "die Bauaufsicht der Länder legt das erforderliche resultierende Schalldämmmaß der Außenbauteile je Lärmpegelbereich fest",
+        "problem": "Die Anforderung steht in DIN 4109-1 selbst, die Länder führen die Norm über die Verwaltungsvorschriften Technische Baubestimmungen ein, und die Anforderung richtet sich an das gesamte Außenbauteil aus Wand, Fenster und Tür.",
+        "ersatz": "Die Einordnung erfolgt über Lärmpegelbereiche nach DIN 4109-1, die Anforderung gilt dem resultierenden Schalldämmmaß des gesamten Außenbauteils aus Wand, Fenster und Tür, bauaufsichtlich eingeführt ist die Norm über die Verwaltungsvorschriften Technische Baubestimmungen der Länder."
+      },
+      {
+        "feld": "dach.at",
+        "art": "dach",
+        "zitat": "ÖNORM B 8115, die den erforderlichen Rw des Fensters direkt aus dem maßgeblichen Außenlärmpegel und der Raumnutzung ableitet, ohne den Umweg über Lärmpegelbereiche",
+        "problem": "Der Unterschied ist nicht verifiziert und die Anforderung gilt auch in Österreich dem gesamten Außenbauteil, außerdem fehlt der bauordnungsrechtliche Weg über die OIB-Richtlinie 5.",
+        "ersatz": "Maßgeblich ist ÖNORM B 8115-2, bauordnungsrechtlich eingebunden über die OIB-Richtlinie 5, die Anforderung wird aus dem maßgeblichen Außenlärmpegel und der Raumnutzung abgeleitet und gilt dem gesamten Außenbauteil."
+      },
+      {
+        "feld": "dach.ch",
+        "art": "unbelegt",
+        "zitat": "SIA 181 verlangt den Nachweis über Empfindlichkeitsstufen der Nutzung",
+        "problem": "Empfindlichkeitsstufen sind ein Begriff der Lärmschutz-Verordnung und beschreiben den Standort, nicht die Nutzung; die Zuordnung in SIA 181:2020 ließ sich in zwei Suchgängen nicht verifizieren.",
+        "ersatz": "SIA 181 verlangt den Nachweis aus der Lärmempfindlichkeit der Raumnutzung und der Lärmbelastung am Standort, die Vollzugshilfen der Kantone konkretisieren die Anforderung an Fenster."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN 4109-1, Schallschutz im Hochbau, Teil 1: Mindestanforderungen",
+        "u": "https://www.dinmedia.de/en/standard/din-4109-1/280079001",
+        "stand": "Ausgabe 2018-01, ersetzt DIN 4109-1:2016-07",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "DIN EN ISO 717-1, Akustik, Bewertung der Schalldämmung, Teil 1: Luftschalldämmung",
+        "u": "https://www.dinmedia.de/en/standard/din-en-iso-717-1/329418506",
+        "stand": "Ausgabe 2021-05",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "DIN EN 14351-1, Fenster und Türen, Produktnorm, Leistungseigenschaften, Teil 1",
+        "u": "https://www.dinmedia.de/en/standard/din-en-14351-1/261176988",
+        "stand": "Ausgabe 2016-12",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "ÖNORM B 8115-2, Schallschutz und Raumakustik im Hochbau, Teil 2",
+        "u": "https://www.austrian-standards.at/en/shop/onorm-b-8115-2-2021-04-15~p2572709",
+        "stand": "Ausgabe 2021-04-15, ersetzt ÖNORM B 8115-2:2006-12-01",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "SIA 181, Schallschutz im Hochbau",
+        "u": "https://shop.sia.ch/normenwerk/architekt/181_2020_d/D/Product",
+        "stand": "Ausgabe 2020, gültig ab 01.11.2020, ersetzt SIA 181:2006",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "BF-Merkblatt 017, Schallschutzglas, Bundesverband Flachglas",
+        "u": "https://www.bundesverband-flachglas.de/wp-content/uploads/simple-file-list/bf-merkblaetter/BF-Merkblatt_017-2014_Schallschutzglas.pdf",
+        "stand": "Ausgabe 2014, Änderungsindex 1, Oktober 2022",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die Aussagen zu C und Ctr und der Vorrang des geprüften Gesamtfensters gegenüber dem Scheibenwert sind fachlich richtig."
+  },
+  {
+    "id": "kfe4schallfuge",
+    "urteil": "unsicher",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "Ein ungedämmter Falzlüfter kann den Rw-Wert des Gesamtfensters gegenüber dem ungestörten Element um 5 bis 10 Dezibel senken",
+        "problem": "Die Spanne ließ sich auf keinem der zulässigen Portale belegen, der zugängliche Fachbeitrag der Prüfstelle war über zwei Zugriffe nicht erreichbar, also nicht verifiziert.",
+        "ersatz": "Ein ungedämmter Falzlüfter kann das Schalldämmmaß des Gesamtfensters spürbar senken, schallgedämmte Lüfter mit internem Absorber begrenzen den Verlust, erreichen aber nicht die Dämmung des geschlossenen Fensters, die tatsächliche Minderung ist dem Prüfzeugnis des jeweiligen Lüfters zu entnehmen."
+      },
+      {
+        "feld": "t2",
+        "art": "unbelegt",
+        "zitat": "kostet gegenüber der Standardausführung einen Aufpreis im niedrigen zwei- bis dreistelligen Bereich pro Element",
+        "problem": "Preisangabe ohne Währung, Bezugsjahr und Quelle, damit weder prüfbar noch haltbar.",
+        "ersatz": "Kostenlogik: Ein schallgedämmter Rollladenkasten oder Falzlüfter kostet gegenüber der Standardausführung einen Aufpreis, der im Verhältnis zum Preis der Schallschutzscheibe gering ausfällt."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "eine offene oder nur einseitig abgedichtete Fuge unterläuft jede Schalldämmklasse der Scheibe",
+        "problem": "Schallschutzklassen von Fenstern stammen aus einem zurückgezogenen Regelwerk, die heutige Angabe erfolgt über Rw mit C und Ctr.",
+        "ersatz": "Die Fuge zwischen Rahmen und Wand ist nach den Grundsätzen der dreiebenigen Fugenabdichtung auszubilden, eine offene oder nur einseitig abgedichtete Fuge unterläuft jeden am Element nachgewiesenen Rw-Wert."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN 4109-1, Schallschutz im Hochbau, Teil 1: Mindestanforderungen",
+        "u": "https://www.dinmedia.de/en/standard/din-4109-1/280079001",
+        "stand": "Ausgabe 2018-01",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die Bauarten Aufsatz, Vorbau und Einbau sind korrekt benannt, die akustische Rangfolge zwischen ihnen ist plausibel, aber nicht verifiziert."
+  },
+  {
+    "id": "kfe4bruestung",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Als Aufstiegshilfe gilt in der Praxis jedes vorspringende Bauteil mit einer nutzbaren Standtiefe ab etwa 20 cm, das sich im Bereich bis etwa 50 cm unterhalb der geforderten Sicherungshöhe befindet",
+        "problem": "Beide Maße sind nicht belegbar und kollidieren mit dem einzigen bezifferten Regelwerk im DACH-Raum: die OIB-Richtlinie 4 verbietet horizontale und schräge Elemente der Absturzsicherung im Bereich von 15 bis 60 cm über der Standfläche und nutzt die 20 cm umgekehrt als obere Brüstungstiefe, die die geforderte Höhe mindert.",
+        "ersatz": "Eine feste Maßregel, ab welcher Tiefe und in welcher Höhe ein Vorsprung als Aufstiegshilfe gilt, gibt es in Deutschland nicht, in Österreich ist dagegen beziffert, dass im Bereich von fünfzehn bis sechzig Zentimetern über der Standfläche keine horizontalen oder schrägen Elemente der Absturzsicherung liegen dürfen, sofern das Hochklettern von Kindern nicht durch die Ausbildung des Bauteils erschwert wird."
+      },
+      {
+        "feld": "t1",
+        "art": "dach",
+        "zitat": "Die Brüstungshöhe wird nicht am Rohbau gemessen, sondern vom fertigen Fußboden bis zur Oberkante der Sicherung",
+        "problem": "Das österreichische Regelwerk misst ausdrücklich von der Standfläche, was bei Podesten, Stufen und Aufbauten vom Fertigfußboden abweicht.",
+        "ersatz": "Die Brüstungshöhe wird nicht am Rohbau gemessen, sondern von der fertigen Standfläche bis zur Oberkante der Sicherung, und genau dieser Bezugspunkt wird in der Bemusterung oft übersehen, etwa wenn ein Bodenaufbau nachträglich höher ausfällt als geplant."
+      },
+      {
+        "feld": "dach.at",
+        "art": "fehler",
+        "zitat": "benennt Vorsprünge, die als Steighilfe wirken können, ausdrücklich als eigenen Prüfpunkt bei der Bemessung der Absturzsicherung",
+        "problem": "Der Inhalt der Richtlinie ist ein anderer und deutlich konkreter als hier wiedergegeben, sie beziffert Höhen, den Minderungsmechanismus über die Brüstungstiefe und die Kletterzone.",
+        "ersatz": "Die OIB-Richtlinie 4 beziffert die Absturzsicherung mit mindestens 1,00 m und ab einer Absturzhöhe von mehr als 12 m mit 1,10 m, gemessen von der Standfläche, mindert die erforderliche Höhe bei einer oberen Brüstungstiefe ab 20 cm um die halbe Brüstungstiefe bis auf mindestens 85 cm und verbietet im Bereich von 15 bis 60 cm über der Standfläche horizontale oder schräge Elemente, die Kindern das Hochklettern erleichtern."
+      },
+      {
+        "feld": "dach.de",
+        "art": "dach",
+        "zitat": "In Deutschland ist die Bewertung von Aufstiegshilfen nicht in der Musterbauordnung beziffert",
+        "problem": "Der deutsche Eintrag nennt als einziger keinen einzigen Wert, obwohl die Landesbauordnungen die Brüstungshöhen beziffern; so wirkt Deutschland ungeregelt, wo es geregelt ist.",
+        "ersatz": "In Deutschland regeln die Landesbauordnungen die Umwehrung, in Nordrhein-Westfalen müssen Fensterbrüstungen bei einer Absturzhöhe bis 12 m mindestens 0,80 m und darüber mindestens 0,90 m hoch sein, die Bewertung von Aufstiegshilfen ist dagegen nicht beziffert und trifft die Bauaufsichtsbehörde im Einzelfall."
+      },
+      {
+        "feld": "dach.ch",
+        "art": "unbelegt",
+        "zitat": "die Aufstiegshilfen als Teil der maßgeblichen Nutzhöhe definiert und damit unabhängig von den deutschen und österreichischen Bauordnungen behandelt",
+        "problem": "Der Begriff maßgebliche Nutzhöhe ließ sich in SIA 358 nicht verifizieren, und der Nachsatz zur Unabhängigkeit von anderen Bauordnungen sagt nichts aus.",
+        "ersatz": "Die Schweiz regelt Geländer und Brüstungen über die eigenständige Norm SIA 358, die Absturzhöhe, Mindesthöhen und die Vermeidung von Klettermöglichkeiten dort zusammenfasst, wo Deutschland und Österreich Bauordnung und Richtlinie trennen."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "OIB-Richtlinie 4, Nutzungssicherheit und Barrierefreiheit, Punkt 4.2 Anforderungen an Absturzsicherungen",
+        "u": "https://www.oib.or.at/wp-content/uploads/richtlinien/richtlinie_2023/oib-rl_4_ausgabe_mai_2023.pdf",
+        "stand": "Ausgabe Mai 2023, OIB-330.4-026/23",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "Bauordnung für das Land Nordrhein-Westfalen (BauO NRW 2018), Paragraf 38 Umwehrungen",
+        "u": "https://recht.nrw.de/system/files/pdf/state-law-and-regulations/2018/08/08/c3e1a4/2024-01-01-bauordnung-fuer-das-land-nordrhein-west.pdf",
+        "stand": "Fassung vom 01.01.2024",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "SIA 358, Geländer und Brüstungen",
+        "u": "http://shop.sia.ch/normenwerk/architekt/sia%20358/dfi/D/Product",
+        "stand": "Ausgabe 2010, Teilrevision der Ausgabe 1996",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Der deutsche Wert stammt aus einer Landesbauordnung und ist nicht auf alle Bundesländer übertragbar, das gehört im Text kenntlich gemacht."
+  },
+  {
+    "id": "kfe4bodentief",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Wird stattdessen eine niedrige Aufkantung von einigen Zentimetern als Rest-Schwelle beibehalten, mindert das die geforderte Sicherungshöhe von Verglasung oder Geländer entsprechend",
+        "problem": "Falsch: die Höhe der Absturzsicherung wird von der Standfläche aus gemessen, eine wenige Zentimeter hohe Schwelle ändert daran nichts; gemindert wird die erforderliche Höhe nur durch eine Brüstung mit ausreichender oberer Tiefe oder durch eine geringere Absturzhöhe.",
+        "ersatz": "Wird stattdessen eine niedrige Aufkantung als Rest-Schwelle beibehalten, ändert das an der geforderten Höhe der Absturzsicherung nichts, weil diese von der Standfläche gemessen wird, gemindert wird sie nur durch eine Brüstung mit ausreichender oberer Tiefe, und der Übergang ist ohnehin gegen die Anforderungen an die Barrierefreiheit abzuwägen."
+      },
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Bei reiner Festverglasung ist die Kategorie der absturzsichernden Verglasung nach der tatsächlichen Nutzung des Innenraums festzulegen",
+        "problem": "Die Kategorie folgt aus Lagerung und Stützung der Verglasung, die Nutzung bestimmt dagegen die anzusetzende Horizontallast; hier sind zwei Größen vertauscht.",
+        "ersatz": "Bei reiner Festverglasung folgt die Kategorie der absturzsichernden Verglasung aus der Art der Lagerung und Stützung, die Nutzung des Innenraums bestimmt dagegen die anzusetzende Horizontallast, beides ist getrennt festzulegen."
+      },
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "eine Kombination beider Systeme wird selten gefordert",
+        "problem": "Die Häufigkeitsaussage ist ohne Quelle und trägt nichts zur Entscheidung bei.",
+        "ersatz": "Bei begehbaren bodentiefen Elementen mit barrierefreier, nahezu schwellenloser Schwelle entfällt jede aufstehende Restbrüstung als zusätzliche Sicherung, die Absturzsicherung muss dann vollständig über Verglasung oder Geländer laufen."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN 18008-4, Glas im Bauwesen, Bemessungs- und Konstruktionsregeln, Teil 4: Zusatzanforderungen an absturzsichernde Verglasungen",
+        "u": "https://www.dinmedia.de/en/standard/din-18008-4/382244655",
+        "stand": "Ausgabe 2024-12, ersetzt DIN 18008-4:2013-07",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die Leitunterscheidung Festverglasung gegen begehbare Tür trägt und ist die richtige Eingangsfrage."
+  },
+  {
+    "id": "kfe4vsg",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "fehler",
+        "zitat": "Der Nachweis der Resttragfähigkeit erfolgt über einen Pendelschlagversuch nach den Vorgaben für absturzsichernde Verglasungen",
+        "problem": "Der Pendelschlagversuch nach DIN EN 12600 weist die Stoßsicherheit nach und liefert die Klassifizierung, die Resttragfähigkeit deckt DIN 18008-4 über Anforderungen an die Zwischenschicht des Verbundsicherheitsglases ab.",
+        "ersatz": "Der Pendelschlagversuch nach DIN EN 12600 weist die Stoßsicherheit nach und liefert die Klassifizierung des Aufbaus, die Resttragfähigkeit dagegen deckt DIN 18008-4 über Anforderungen an die Zwischenschicht des Verbundsicherheitsglases ab, ergänzt um einen gesonderten Nachweis, wo davon abgewichen wird."
+      },
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "Die Anzahl der laminierten Scheiben steigt mit der geforderten Kategorie der absturzsichernden Verglasung, nicht mit der reinen Wunschgröße der Fläche.",
+        "problem": "Die Kategorie beschreibt Lagerung und Zusatzsicherung, nicht die Dicke des Aufbaus; die Scheibenzahl folgt aus der Bemessung für Stützweite, Horizontallast und Lagerung.",
+        "ersatz": "Die Anzahl der laminierten Scheiben folgt aus der Bemessung für Stützweite, Horizontallast und Art der Lagerung, nicht aus der Wunschgröße der Fläche und auch nicht unmittelbar aus der Kategorie."
+      },
+      {
+        "feld": "t2",
+        "art": "unbelegt",
+        "zitat": "hier gewinnt im Regelfall eine Ionoplast-Folie, die auch im gebrochenen Zustand deutlich formstabiler bleibt",
+        "problem": "Das deutsche Regelwerk knüpft die angenommene Resttragfähigkeit an Polyvinylbutyral mit definierten Eigenschaften, für steifere Zwischenschichten ist ein eigener Verwendbarkeitsnachweis zu führen; der Regelfall ist damit umgekehrt.",
+        "ersatz": "Bei großen, nur punktuell oder an wenigen Kanten gehaltenen Scheiben reicht diese Steifigkeit oft nicht, hier kommt eine steifere Ionoplast-Zwischenschicht infrage, für die allerdings ein eigener Verwendbarkeitsnachweis zu führen ist, weil das Regelwerk die Resttragfähigkeit an Polyvinylbutyral mit definierten Eigenschaften knüpft."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN 18008-4, Glas im Bauwesen, Bemessungs- und Konstruktionsregeln, Teil 4: Zusatzanforderungen an absturzsichernde Verglasungen",
+        "u": "https://www.dinmedia.de/en/standard/din-18008-4/382244655",
+        "stand": "Ausgabe 2024-12, ersetzt DIN 18008-4:2013-07",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "DIN EN 12600, Glas im Bauwesen, Pendelschlagversuch, Verfahren für die Stoßprüfung und Klassifizierung von Flachglas",
+        "u": "https://www.dinmedia.de/en/standard/din-en-12600/51198893",
+        "stand": "Ausgabe 2003-04, Deutsche Fassung EN 12600:2002, ersetzt DIN 52337:1985-09",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "BF-Merkblatt 013, Verbundsicherheitsglas (VSG) für die Anwendung im Bauwesen, Bundesverband Flachglas",
+        "u": "https://www.bundesverband-flachglas.de/wp-content/uploads/simple-file-list/bf-merkblaetter/BF-Merkblatt_013-2013_AE_10-2021_-_VSG_im_Bauwesen.pdf",
+        "stand": "Ausgabe 2013, Änderungsindex 1, August 2022",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Die Folienstärken von 0,38 mm und ihre Vielfachen sind belegt, der Regelaufbau 4 mm Glas, 0,76 mm Zwischenschicht, 4 mm Glas steht so im Herausgeberregelwerk."
+  },
+  {
+    "id": "kfe4absturzkat",
+    "urteil": "korrigieren",
+    "befunde": [
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "Kategorie C ergänzt eine Zwischenabstützung in festgelegten Abständen und ist damit oft die wirtschaftlichste Lösung bei größeren Flächen",
+        "problem": "Falsch: Kategorie C erfasst Verglasungen, die als Ausfachung in einer tragenden Konstruktion sitzen und die Horizontallast in der geforderten Höhe gar nicht abtragen, eine Zwischenabstützung in festgelegten Abständen ist nicht das Merkmal der Kategorie.",
+        "ersatz": "Kategorie C erfasst Verglasungen, die als Ausfachung in einer tragenden Konstruktion sitzen und die Horizontallast in der geforderten Höhe nicht selbst abtragen, sie stellt an den Glasaufbau die geringsten Anforderungen und ist bei größeren Flächen deshalb meist die wirtschaftlichste Lösung."
+      },
+      {
+        "feld": "t1",
+        "art": "fehler",
+        "zitat": "allein durch das Glas, durch einen zusätzlichen Handlauf oder durch zwischengesetzte Stützungen",
+        "problem": "Die dritte Kategorie ist falsch beschrieben, sie ist nicht die Verglasung mit Zwischenstützen, sondern die Verglasung als Ausfachung ohne eigene Lastabtragung.",
+        "ersatz": "Die Kategorien A, B und C unterscheiden nicht die Glasqualität, sondern wie die Horizontallast abgetragen wird: allein durch das linienförmig gelagerte Glas, über einen durchgehenden Handlauf oder gar nicht, weil das Glas nur als Ausfachung in einer tragenden Konstruktion sitzt."
+      },
+      {
+        "feld": "t2",
+        "art": "fehler",
+        "zitat": "entscheidend für die Wahl ist die verfügbare Konstruktionstiefe für Handlauf oder Zwischenpfosten",
+        "problem": "Der Zwischenpfosten ist kein Merkmal der Kategorien, entscheidend ist, ob eine lastabtragende Konstruktion aus Handlauf oder Rahmen überhaupt zugelassen wird.",
+        "ersatz": "Entscheidend für die Wahl ist, ob eine lastabtragende Konstruktion aus Handlauf oder Rahmen gestalterisch zugelassen wird, denn erst sie erlaubt die Einordnung in Kategorie B oder C."
+      },
+      {
+        "feld": "dach.de",
+        "art": "stand",
+        "zitat": "regelt die deutsche Norm für absturzsichernde Verglasung die Kategorien A, B und C samt Unterkategorien, verbindlich eingeführt über die Landesbauordnungen",
+        "problem": "Die Norm hat eine Nummer und einen aktuellen Stand, DIN 18008-4:2024-12, und sie wird über die Verwaltungsvorschriften Technische Baubestimmungen der Länder eingeführt, nicht unmittelbar über die Landesbauordnungen.",
+        "ersatz": "In Deutschland regelt DIN 18008-4 die Kategorien A, B und C samt Unterkategorien, bauaufsichtlich eingeführt über die Verwaltungsvorschriften Technische Baubestimmungen der Länder."
+      },
+      {
+        "feld": "dach.at",
+        "art": "unbelegt",
+        "zitat": "eine eigene Kategorisierung A bis C in dieser Form kennt das österreichische Regelwerk nicht",
+        "problem": "Die einschlägige Norm ist ÖNORM B 3716-3 für vertikale Verglasungen mit absturzsichernder Funktion, ihr Inhalt war über den Webshop nicht einsehbar, die Verneinung ist damit nicht verifiziert.",
+        "ersatz": "Österreich führt die Anforderungen an absturzsichernde Verglasung über die OIB-Richtlinie 4 in Verbindung mit ÖNORM B 3716-3 für vertikale Verglasungen mit absturzsichernder Funktion, deren Einteilung eigenen Kriterien folgt und nicht mit den deutschen Kategorien gleichzusetzen ist."
+      },
+      {
+        "feld": "dach.ch",
+        "art": "unbelegt",
+        "zitat": "Die Schweiz stützt sich auf die SIA-Normen des Glasbaus",
+        "problem": "Die Sammelformel benennt kein Dokument, gemeint ist das Merkblatt SIA 2057 Glasbau neben SIA 358.",
+        "ersatz": "Die Schweiz stützt sich auf das Merkblatt SIA 2057 Glasbau und auf SIA 358 für Geländer und Brüstungen, die Einordnung erfolgt dort nach eigenen Kriterien statt nach den deutschen Kategorien A bis C."
+      }
+    ],
+    "quellen": [
+      {
+        "t": "DIN 18008-4, Glas im Bauwesen, Bemessungs- und Konstruktionsregeln, Teil 4: Zusatzanforderungen an absturzsichernde Verglasungen",
+        "u": "https://www.dinmedia.de/en/standard/din-18008-4/382244655",
+        "stand": "Ausgabe 2024-12, ersetzt DIN 18008-4:2013-07",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "ÖNORM B 3716-3, Glas im Bauwesen, Konstruktiver Glasbau, Teil 3: Vertikale Verglasungen mit absturzsichernder Funktion",
+        "u": "https://www.austrian-standards.at/en/shop/onorm-b-3716-3-2015-01-01~p2111680",
+        "stand": "Ausgabe 2015-01-01, gültig",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "SIA 2057, Glasbau",
+        "u": "https://shop.sia.ch/normenwerk/ingenieur/glasbau/D/Product/",
+        "stand": "Ausgabe 2021, gültig ab 01.08.2021",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "SIA 358, Geländer und Brüstungen",
+        "u": "http://shop.sia.ch/normenwerk/architekt/sia%20358/dfi/D/Product",
+        "stand": "Ausgabe 2010",
+        "geprueft": "2026-08-21"
+      },
+      {
+        "t": "OIB-Richtlinie 4, Nutzungssicherheit und Barrierefreiheit",
+        "u": "https://www.oib.or.at/wp-content/uploads/richtlinien/richtlinie_2023/oib-rl_4_ausgabe_mai_2023.pdf",
+        "stand": "Ausgabe Mai 2023, OIB-330.4-026/23",
+        "geprueft": "2026-08-21"
+      }
+    ],
+    "notiz": "Der gravierendste Befund der Runde: die Kategorie C ist im Kern falsch beschrieben, dadurch tragen auch die daraus abgeleitete Entwurfs- und Kostenaussage nur zufällig."
+  },
+  {
+    "id": "kfe4gelinnen",
+    "urteil": "unsicher",
+    "befunde": [
+      {
+        "feld": "t3",
+        "art": "unbelegt",
+        "zitat": "in der Praxis liegt der Abstand der Befestigungspunkte häufig zwischen etwa 60 und 90 cm",
+        "problem": "Die Spanne ist auf keinem zulässigen Portal belegbar und widerspricht der im selben Absatz richtig aufgestellten Regel, dass sich solche Maße nur aus Last und Zulassung ergeben.",
+        "ersatz": "Die Befestigungspunkte des Geländers in der Laibung sind so zu verteilen, dass kein Einzelpunkt mehr als die rechnerisch zulässige Last je Dübel aufnehmen muss, Anzahl und Abstand ergeben sich aus der anzusetzenden Horizontallast und der Zulassung des Befestigungssystems und lassen sich nicht pauschal angeben."
+      }
+    ],
+    "quellen": [],
+    "notiz": "Methodisch der sauberste Knoten der Runde: er verweigert an drei Stellen bewusst pauschale Maße und verweist auf Zulassung und Nachweis, nur die eine Zahlenspanne fällt aus dieser Linie."
+  },
+  {
+    "id": "kfe4gelfranz",
+    "urteil": "ok",
+    "befunde": [],
+    "quellen": [],
+    "notiz": "Keine prüfpflichtigen Zahlen, Normen oder DACH-Aussagen im Text; die Füllungsvergleiche sind qualitativ und fachlich haltbar, offen bleibt nur, dass Lochblech und Stabfüllung zusätzlich die Anforderungen an Öffnungsweite und Klettersicherheit der Absturzsicherung erfüllen müssen, was der Knoten noch nicht erwähnt."
+  }
+]

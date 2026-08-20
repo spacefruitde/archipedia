@@ -1,0 +1,386 @@
+[
+ {
+  "id": "kab4balkon",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3konstruktiv",
+  "t": "Balkonplatte und thermische Trennung",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfa1",
+    "t": "Außenwand und Fassade"
+   },
+   {
+    "id": "pna3nachweis",
+    "t": "Energieausweis und Nachweisverfahren"
+   }
+  ],
+  "eltern": {
+   "id": "kab3konstruktiv",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Konstruktive Wärmebrücken",
+   "t1": "Konstruktive Wärmebrücken entstehen, wo ein durchgehendes Bauteil, etwa eine Balkonplatte oder ein Ringanker, die Dämmebene unterbricht und Wärme gewissermaßen an der Dämmung vorbeileitet. Sie lassen sich meist nur durch eine gezielte thermische Trennung im Bauteil selbst lösen, nicht durch dickere Dämmung an anderer Stelle."
+  },
+  "geschwister": [
+   {
+    "id": "kab4stuetze",
+    "t": "Stütze und Deckenrand in der Außenwand",
+    "neu": true
+   },
+   {
+    "id": "kab4wbfenster",
+    "t": "Fensteranschluss als Wärmebrücke",
+    "neu": true
+   },
+   {
+    "id": "kab4wbsockel",
+    "t": "Sockel und Kelleraußenwand",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4stuetze",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3konstruktiv",
+  "t": "Stütze und Deckenrand in der Außenwand",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfa1",
+    "t": "Außenwand und Fassade"
+   }
+  ],
+  "eltern": {
+   "id": "kab3konstruktiv",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Konstruktive Wärmebrücken",
+   "t1": "Konstruktive Wärmebrücken entstehen, wo ein durchgehendes Bauteil, etwa eine Balkonplatte oder ein Ringanker, die Dämmebene unterbricht und Wärme gewissermaßen an der Dämmung vorbeileitet. Sie lassen sich meist nur durch eine gezielte thermische Trennung im Bauteil selbst lösen, nicht durch dickere Dämmung an anderer Stelle."
+  },
+  "geschwister": [
+   {
+    "id": "kab4balkon",
+    "t": "Balkonplatte und thermische Trennung",
+    "neu": true
+   },
+   {
+    "id": "kab4wbfenster",
+    "t": "Fensteranschluss als Wärmebrücke",
+    "neu": true
+   },
+   {
+    "id": "kab4wbsockel",
+    "t": "Sockel und Kelleraußenwand",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4wbfenster",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3konstruktiv",
+  "t": "Fensteranschluss als Wärmebrücke",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4montagewand",
+    "t": "Montage in der Wandebene"
+   },
+   {
+    "id": "kfe3daemmkeil",
+    "t": "Montagelage in der Dämmebene"
+   },
+   {
+    "id": "kfe6tau",
+    "t": "Oberflächentemperatur und Kondensat am Rand"
+   }
+  ],
+  "eltern": {
+   "id": "kab3konstruktiv",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Konstruktive Wärmebrücken",
+   "t1": "Konstruktive Wärmebrücken entstehen, wo ein durchgehendes Bauteil, etwa eine Balkonplatte oder ein Ringanker, die Dämmebene unterbricht und Wärme gewissermaßen an der Dämmung vorbeileitet. Sie lassen sich meist nur durch eine gezielte thermische Trennung im Bauteil selbst lösen, nicht durch dickere Dämmung an anderer Stelle."
+  },
+  "geschwister": [
+   {
+    "id": "kab4balkon",
+    "t": "Balkonplatte und thermische Trennung",
+    "neu": true
+   },
+   {
+    "id": "kab4stuetze",
+    "t": "Stütze und Deckenrand in der Außenwand",
+    "neu": true
+   },
+   {
+    "id": "kab4wbsockel",
+    "t": "Sockel und Kelleraußenwand",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4wbsockel",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3konstruktiv",
+  "t": "Sockel und Kelleraußenwand",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kgr3waermebr",
+    "t": "Wärmebrücke am Gebäudesockel"
+   },
+   {
+    "id": "kgr2perim",
+    "t": "Perimeterdämmung und Sockelausbildung"
+   }
+  ],
+  "eltern": {
+   "id": "kab3konstruktiv",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Konstruktive Wärmebrücken",
+   "t1": "Konstruktive Wärmebrücken entstehen, wo ein durchgehendes Bauteil, etwa eine Balkonplatte oder ein Ringanker, die Dämmebene unterbricht und Wärme gewissermaßen an der Dämmung vorbeileitet. Sie lassen sich meist nur durch eine gezielte thermische Trennung im Bauteil selbst lösen, nicht durch dickere Dämmung an anderer Stelle."
+  },
+  "geschwister": [
+   {
+    "id": "kab4balkon",
+    "t": "Balkonplatte und thermische Trennung",
+    "neu": true
+   },
+   {
+    "id": "kab4stuetze",
+    "t": "Stütze und Deckenrand in der Außenwand",
+    "neu": true
+   },
+   {
+    "id": "kab4wbfenster",
+    "t": "Fensteranschluss als Wärmebrücke",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4ecke",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3geometrisch",
+  "t": "Außenecke und Innenecke",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe6tau",
+    "t": "Oberflächentemperatur und Kondensat am Rand"
+   }
+  ],
+  "eltern": {
+   "id": "kab3geometrisch",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Geometrische Wärmebrücken",
+   "t1": "Geometrische Wärmebrücken entstehen allein durch die Form des Bauteils, zum Beispiel an einer Außenecke, wo die kalte Außenfläche im Verhältnis zur warmen Innenfläche besonders groß ist. Sie lassen sich nicht wegkonstruieren, nur durch ausreichende Dämmstärke in ihrer Wirkung entschärfen."
+  },
+  "geschwister": [
+   {
+    "id": "kab4attika",
+    "t": "Attika und Dachrand",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4attika",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3geometrisch",
+  "t": "Attika und Dachrand",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kda3attika",
+    "t": "Attika und Geländeranschluss"
+   }
+  ],
+  "eltern": {
+   "id": "kab3geometrisch",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Geometrische Wärmebrücken",
+   "t1": "Geometrische Wärmebrücken entstehen allein durch die Form des Bauteils, zum Beispiel an einer Außenecke, wo die kalte Außenfläche im Verhältnis zur warmen Innenfläche besonders groß ist. Sie lassen sich nicht wegkonstruieren, nur durch ausreichende Dämmstärke in ihrer Wirkung entschärfen."
+  },
+  "geschwister": [
+   {
+    "id": "kab4ecke",
+    "t": "Außenecke und Innenecke",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4nachweis",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3vermeidung",
+  "t": "Nachweis: pauschal, gleichwertig, detailliert",
+  "t3": true,
+  "dach": true,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "pna3nachweis",
+    "t": "Energieausweis und Nachweisverfahren"
+   },
+   {
+    "id": "pna2energie",
+    "t": "Energierecht"
+   }
+  ],
+  "eltern": {
+   "id": "kab3vermeidung",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Wärmebrückenfreies Konstruieren",
+   "t1": "Wärmebrückenfreies Konstruieren bedeutet, die Dämmebene im Schnitt als durchgehende, ungestörte Linie zu zeichnen und jeden Materialwechsel des Bauteils schon im Entwurf an dieser Linie zu prüfen. Wer Wärmebrücken erst in der Ausführungsplanung sucht, findet sie meist dort, wo eine Korrektur am teuersten ist."
+  },
+  "geschwister": [
+   {
+    "id": "kab4psichi",
+    "t": "Psi und Chi: Kennwerte und Rechenregeln",
+    "neu": true
+   },
+   {
+    "id": "kab4isothermen",
+    "t": "Isothermen lesen: fRsi und Schimmelrisiko",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4psichi",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3vermeidung",
+  "t": "Psi und Chi: Kennwerte und Rechenregeln",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe6psi",
+    "t": "Psi-Wert: Kennwert und Nachweis"
+   },
+   {
+    "id": "kfe4montagewand",
+    "t": "Montage in der Wandebene"
+   }
+  ],
+  "eltern": {
+   "id": "kab3vermeidung",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Wärmebrückenfreies Konstruieren",
+   "t1": "Wärmebrückenfreies Konstruieren bedeutet, die Dämmebene im Schnitt als durchgehende, ungestörte Linie zu zeichnen und jeden Materialwechsel des Bauteils schon im Entwurf an dieser Linie zu prüfen. Wer Wärmebrücken erst in der Ausführungsplanung sucht, findet sie meist dort, wo eine Korrektur am teuersten ist."
+  },
+  "geschwister": [
+   {
+    "id": "kab4nachweis",
+    "t": "Nachweis: pauschal, gleichwertig, detailliert",
+    "neu": true
+   },
+   {
+    "id": "kab4isothermen",
+    "t": "Isothermen lesen: fRsi und Schimmelrisiko",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4isothermen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3vermeidung",
+  "t": "Isothermen lesen: fRsi und Schimmelrisiko",
+  "t3": true,
+  "dach": true,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe6tau",
+    "t": "Oberflächentemperatur und Kondensat am Rand"
+   },
+   {
+    "id": "kab2nassraum",
+    "t": "Feuchteschutz im Bad und Nassraum"
+   }
+  ],
+  "eltern": {
+   "id": "kab3vermeidung",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Wärmebrückenfreies Konstruieren",
+   "t1": "Wärmebrückenfreies Konstruieren bedeutet, die Dämmebene im Schnitt als durchgehende, ungestörte Linie zu zeichnen und jeden Materialwechsel des Bauteils schon im Entwurf an dieser Linie zu prüfen. Wer Wärmebrücken erst in der Ausführungsplanung sucht, findet sie meist dort, wo eine Korrektur am teuersten ist."
+  },
+  "geschwister": [
+   {
+    "id": "kab4nachweis",
+    "t": "Nachweis: pauschal, gleichwertig, detailliert",
+    "neu": true
+   },
+   {
+    "id": "kab4psichi",
+    "t": "Psi und Chi: Kennwerte und Rechenregeln",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab5gleichwert",
+  "p": "k",
+  "lv": 5,
+  "pa": "kab4nachweis",
+  "t": "Gleichwertigkeitsnachweis führen",
+  "t3": true,
+  "dach": false,
+  "hint": "Ausschreibungs- und Nachweisdetail: wer liefert was, wann im Ablauf.",
+  "lnKandidaten": [
+   {
+    "id": "pna3nachweis",
+    "t": "Energieausweis und Nachweisverfahren"
+   }
+  ],
+  "eltern": {
+   "id": "kab4nachweis",
+   "t": "Nachweis: pauschal, gleichwertig, detailliert (neu, entsteht parallel)",
+   "hinweis": "entsteht in derselben Welle"
+  },
+  "geschwister": []
+ }
+]

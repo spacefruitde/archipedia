@@ -1,0 +1,946 @@
+[
+ {
+  "id": "kab4wklassen",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3verbund",
+  "t": "Wassereinwirkungsklassen W0 bis W3",
+  "t3": true,
+  "dach": true,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kbo1",
+    "t": "Böden und Beläge"
+   },
+   {
+    "id": "pba2ordnungsr",
+    "t": "Bauordnungsrecht"
+   }
+  ],
+  "eltern": {
+   "id": "kab3verbund",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Verbundabdichtung unter Fliesenbelag",
+   "t1": "Die Verbundabdichtung ist eine flüssig aufgetragene oder bahnenförmige Schicht direkt unter dem Fliesenbelag, die das Wasser stoppt, bevor es in den Untergrund eindringt. Sie ist in bestimmten Beanspruchungsklassen zwingend vorgeschrieben und trotzdem eine der am häufigsten mangelhaft ausgeführten Schichten am Bau."
+  },
+  "geschwister": [
+   {
+    "id": "kab4wandboden",
+    "t": "Wand-Boden-Ecke und Durchdringungen",
+    "neu": true
+   },
+   {
+    "id": "kab4dusche",
+    "t": "Bodenebene Dusche",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4wandboden",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3verbund",
+  "t": "Wand-Boden-Ecke und Durchdringungen",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kiw1",
+    "t": "Innenwände und Trockenbau"
+   }
+  ],
+  "eltern": {
+   "id": "kab3verbund",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Verbundabdichtung unter Fliesenbelag",
+   "t1": "Die Verbundabdichtung ist eine flüssig aufgetragene oder bahnenförmige Schicht direkt unter dem Fliesenbelag, die das Wasser stoppt, bevor es in den Untergrund eindringt. Sie ist in bestimmten Beanspruchungsklassen zwingend vorgeschrieben und trotzdem eine der am häufigsten mangelhaft ausgeführten Schichten am Bau."
+  },
+  "geschwister": [
+   {
+    "id": "kab4wklassen",
+    "t": "Wassereinwirkungsklassen W0 bis W3",
+    "neu": true
+   },
+   {
+    "id": "kab4dusche",
+    "t": "Bodenebene Dusche",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4dusche",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3verbund",
+  "t": "Bodenebene Dusche",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kab3ablauf",
+    "t": "Bodenablauf und Gefälle"
+   },
+   {
+    "id": "kbo1",
+    "t": "Böden und Beläge"
+   }
+  ],
+  "eltern": {
+   "id": "kab3verbund",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Verbundabdichtung unter Fliesenbelag",
+   "t1": "Die Verbundabdichtung ist eine flüssig aufgetragene oder bahnenförmige Schicht direkt unter dem Fliesenbelag, die das Wasser stoppt, bevor es in den Untergrund eindringt. Sie ist in bestimmten Beanspruchungsklassen zwingend vorgeschrieben und trotzdem eine der am häufigsten mangelhaft ausgeführten Schichten am Bau."
+  },
+  "geschwister": [
+   {
+    "id": "kab4wklassen",
+    "t": "Wassereinwirkungsklassen W0 bis W3",
+    "neu": true
+   },
+   {
+    "id": "kab4wandboden",
+    "t": "Wand-Boden-Ecke und Durchdringungen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4gefaelle",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3ablauf",
+  "t": "Gefälle und Ablaufposition",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kbo1",
+    "t": "Böden und Beläge"
+   }
+  ],
+  "eltern": {
+   "id": "kab3ablauf",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Bodenablauf und Gefälle",
+   "t1": "Ein Bodenablauf funktioniert nur mit einem sauber ausgeführten Gefälle im gesamten umgebenden Belag, sonst bleibt Wasser stehen, statt abzulaufen. Besonders bei bodengleichen Duschen ist das Gefälle eines der planerisch anspruchsvollsten Details, weil es mit der Barrierefreiheit der Fläche konkurriert."
+  },
+  "geschwister": [
+   {
+    "id": "kab4rinne",
+    "t": "Rinne oder Punktablauf (Auswahl)",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4rinne",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3ablauf",
+  "t": "Rinne oder Punktablauf (Auswahl)",
+  "t3": true,
+  "dach": false,
+  "hint": "Varianten mit Auswahlkriterium und Regelfall-Gewinner (Spec 8.3).",
+  "lnKandidaten": [
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   }
+  ],
+  "eltern": {
+   "id": "kab3ablauf",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Bodenablauf und Gefälle",
+   "t1": "Ein Bodenablauf funktioniert nur mit einem sauber ausgeführten Gefälle im gesamten umgebenden Belag, sonst bleibt Wasser stehen, statt abzulaufen. Besonders bei bodengleichen Duschen ist das Gefälle eines der planerisch anspruchsvollsten Details, weil es mit der Barrierefreiheit der Fläche konkurriert."
+  },
+  "geschwister": [
+   {
+    "id": "kab4gefaelle",
+    "t": "Gefälle und Ablaufposition",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4kueche",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3feuchtraum",
+  "t": "Küche, Hauswirtschaft, Technikraum",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   }
+  ],
+  "eltern": {
+   "id": "kab3feuchtraum",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Feuchträume außerhalb des Bads",
+   "t1": "Küchen, Hauswirtschaftsräume und bestimmte Kellerbereiche gelten bauphysikalisch ebenfalls als feuchtebelastet, auch wenn sie im Alltag nicht als Nassraum wahrgenommen werden. Wer hier den Feuchteschutz auf das Niveau eines trockenen Wohnraums reduziert, unterschätzt eine Beanspruchung, die sich erst nach Jahren als Schimmel zeigt."
+  },
+  "geschwister": [
+   {
+    "id": "kab4schwimmbad",
+    "t": "Schwimmbad und Wellness als Sonderfall",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab4schwimmbad",
+  "p": "k",
+  "lv": 4,
+  "pa": "kab3feuchtraum",
+  "t": "Schwimmbad und Wellness als Sonderfall",
+  "t3": true,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   },
+   {
+    "id": "kma1",
+    "t": "Material- und Produktkunde"
+   }
+  ],
+  "eltern": {
+   "id": "kab3feuchtraum",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Feuchträume außerhalb des Bads",
+   "t1": "Küchen, Hauswirtschaftsräume und bestimmte Kellerbereiche gelten bauphysikalisch ebenfalls als feuchtebelastet, auch wenn sie im Alltag nicht als Nassraum wahrgenommen werden. Wer hier den Feuchteschutz auf das Niveau eines trockenen Wohnraums reduziert, unterschätzt eine Beanspruchung, die sich erst nach Jahren als Schimmel zeigt."
+  },
+  "geschwister": [
+   {
+    "id": "kab4kueche",
+    "t": "Küche, Hauswirtschaft, Technikraum",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3luftdicht",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3luftdicht",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Die luftdichte Ebene im Bauteilaufbau",
+   "t1": "Die luftdichte Ebene muss als durchgehende Linie im Schnitt nachweisbar sein, von der Bodenplatte bis zum First, ohne eine einzige Lücke an Anschlüssen, Durchdringungen oder Bauteilwechseln. Schon eine vergessene Steckdose in der Außenwand kann die gesamte Luftdichtheit des Hauses messbar verschlechtern."
+  },
+  "eltern": {
+   "id": "kab2luft",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Luftdichtheit und Dampfdiffusion",
+   "t1": "Die luftdichte Ebene verhindert, dass warme, feuchte Innenluft unkontrolliert durch die Gebäudehülle strömt und dort auskühlt, während die Dampfdiffusion den viel langsameren Weg des Wasserdampfs durch das Bauteil selbst beschreibt. Werden beide Mechanismen verwechselt, entstehen genau dort Feuchteschäden, wo man sie am wenigsten erwartet."
+  },
+  "geschwister": [
+   {
+    "id": "kab3dampfbremse",
+    "t": "Dampfbremse und Dampfsperre"
+   },
+   {
+    "id": "kab3blowerdoor",
+    "t": "Blower-Door-Test und Leckageortung"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4luftfenster",
+    "t": "Anschluss der luftdichten Ebene an Fenster",
+    "neu": true
+   },
+   {
+    "id": "kab4luftdurch",
+    "t": "Durchdringungen: Leitungen, Balken, Dosen",
+    "neu": true
+   },
+   {
+    "id": "kab4luftinst",
+    "t": "Installationsebene vor der Luftdichtheit",
+    "neu": true
+   },
+   {
+    "id": "kab4luftstoss",
+    "t": "Stöße, Überlappung und Verklebung von Bahnen",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3dampfbremse",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3dampfbremse",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Dampfbremse und Dampfsperre",
+   "t1": "Die Dampfbremse lässt Wasserdampf kontrolliert und langsam hindurch, die Dampfsperre praktisch gar nicht, welche der beiden richtig ist, hängt vom restlichen Bauteilaufbau und der Rücktrocknungsfähigkeit nach außen ab. Die falsche Wahl kann Tauwasser im Bauteilinneren einschließen, wo es niemand sieht, bis der Schaden längst da ist."
+  },
+  "eltern": {
+   "id": "kab2luft",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Luftdichtheit und Dampfdiffusion",
+   "t1": "Die luftdichte Ebene verhindert, dass warme, feuchte Innenluft unkontrolliert durch die Gebäudehülle strömt und dort auskühlt, während die Dampfdiffusion den viel langsameren Weg des Wasserdampfs durch das Bauteil selbst beschreibt. Werden beide Mechanismen verwechselt, entstehen genau dort Feuchteschäden, wo man sie am wenigsten erwartet."
+  },
+  "geschwister": [
+   {
+    "id": "kab3luftdicht",
+    "t": "Die luftdichte Ebene im Bauteilaufbau"
+   },
+   {
+    "id": "kab3blowerdoor",
+    "t": "Blower-Door-Test und Leckageortung"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4sdwert",
+    "t": "sd-Wert und Diffusionswiderstand",
+    "neu": true
+   },
+   {
+    "id": "kab4feuchtevar",
+    "t": "Feuchtevariable Dampfbremse",
+    "neu": true
+   },
+   {
+    "id": "kab4dampfsperre",
+    "t": "Dampfsperre im Flachdach und Holzbau",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3blowerdoor",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3blowerdoor",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2luft",
+   "t": "Blower-Door-Test und Leckageortung",
+   "t1": "Beim Blower-Door-Test erzeugt ein Gebläse einen Unter- oder Überdruck im Gebäude, sodass sich undichte Stellen der Hülle als spürbarer Luftzug oder mit Nebel und Wärmebildkamera sichtbar aufspüren lassen. Der Test lohnt sich schon während des Rohbaus, denn dann sind gefundene Lecks noch mit vertretbarem Aufwand zu schließen."
+  },
+  "eltern": {
+   "id": "kab2luft",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Luftdichtheit und Dampfdiffusion",
+   "t1": "Die luftdichte Ebene verhindert, dass warme, feuchte Innenluft unkontrolliert durch die Gebäudehülle strömt und dort auskühlt, während die Dampfdiffusion den viel langsameren Weg des Wasserdampfs durch das Bauteil selbst beschreibt. Werden beide Mechanismen verwechselt, entstehen genau dort Feuchteschäden, wo man sie am wenigsten erwartet."
+  },
+  "geschwister": [
+   {
+    "id": "kab3luftdicht",
+    "t": "Die luftdichte Ebene im Bauteilaufbau"
+   },
+   {
+    "id": "kab3dampfbremse",
+    "t": "Dampfbremse und Dampfsperre"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4n50",
+    "t": "Messverfahren und Kennwerte n50 und q50",
+    "neu": true
+   },
+   {
+    "id": "kab4messzeit",
+    "t": "Zeitpunkt der Messung im Bauablauf",
+    "neu": true
+   },
+   {
+    "id": "kab4leckagen",
+    "t": "Typische Leckagen und ihre Ortung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3konstruktiv",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3konstruktiv",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Konstruktive Wärmebrücken",
+   "t1": "Konstruktive Wärmebrücken entstehen, wo ein durchgehendes Bauteil, etwa eine Balkonplatte oder ein Ringanker, die Dämmebene unterbricht und Wärme gewissermaßen an der Dämmung vorbeileitet. Sie lassen sich meist nur durch eine gezielte thermische Trennung im Bauteil selbst lösen, nicht durch dickere Dämmung an anderer Stelle."
+  },
+  "eltern": {
+   "id": "kab2waermebruecke",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Wärmebrücken",
+   "t1": "Eine Wärmebrücke ist eine Stelle in der Gebäudehülle, an der mehr Wärme nach außen entweicht als in der umgebenden Fläche, meist erkennbar an einer niedrigeren Oberflächentemperatur innen. Neben dem Energieverlust ist die eigentliche Gefahr das Tauwasser- und Schimmelrisiko, das an dieser kälteren Stelle zuerst entsteht."
+  },
+  "geschwister": [
+   {
+    "id": "kab3geometrisch",
+    "t": "Geometrische Wärmebrücken"
+   },
+   {
+    "id": "kab3vermeidung",
+    "t": "Wärmebrückenfreies Konstruieren"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4balkon",
+    "t": "Balkonplatte und thermische Trennung",
+    "neu": true
+   },
+   {
+    "id": "kab4stuetze",
+    "t": "Stütze und Deckenrand in der Außenwand",
+    "neu": true
+   },
+   {
+    "id": "kab4wbfenster",
+    "t": "Fensteranschluss als Wärmebrücke",
+    "neu": true
+   },
+   {
+    "id": "kab4wbsockel",
+    "t": "Sockel und Kelleraußenwand",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3geometrisch",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3geometrisch",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Geometrische Wärmebrücken",
+   "t1": "Geometrische Wärmebrücken entstehen allein durch die Form des Bauteils, zum Beispiel an einer Außenecke, wo die kalte Außenfläche im Verhältnis zur warmen Innenfläche besonders groß ist. Sie lassen sich nicht wegkonstruieren, nur durch ausreichende Dämmstärke in ihrer Wirkung entschärfen."
+  },
+  "eltern": {
+   "id": "kab2waermebruecke",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Wärmebrücken",
+   "t1": "Eine Wärmebrücke ist eine Stelle in der Gebäudehülle, an der mehr Wärme nach außen entweicht als in der umgebenden Fläche, meist erkennbar an einer niedrigeren Oberflächentemperatur innen. Neben dem Energieverlust ist die eigentliche Gefahr das Tauwasser- und Schimmelrisiko, das an dieser kälteren Stelle zuerst entsteht."
+  },
+  "geschwister": [
+   {
+    "id": "kab3konstruktiv",
+    "t": "Konstruktive Wärmebrücken"
+   },
+   {
+    "id": "kab3vermeidung",
+    "t": "Wärmebrückenfreies Konstruieren"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4ecke",
+    "t": "Außenecke und Innenecke",
+    "neu": true
+   },
+   {
+    "id": "kab4attika",
+    "t": "Attika und Dachrand",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3vermeidung",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3vermeidung",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2waermebruecke",
+   "t": "Wärmebrückenfreies Konstruieren",
+   "t1": "Wärmebrückenfreies Konstruieren bedeutet, die Dämmebene im Schnitt als durchgehende, ungestörte Linie zu zeichnen und jeden Materialwechsel des Bauteils schon im Entwurf an dieser Linie zu prüfen. Wer Wärmebrücken erst in der Ausführungsplanung sucht, findet sie meist dort, wo eine Korrektur am teuersten ist."
+  },
+  "eltern": {
+   "id": "kab2waermebruecke",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Wärmebrücken",
+   "t1": "Eine Wärmebrücke ist eine Stelle in der Gebäudehülle, an der mehr Wärme nach außen entweicht als in der umgebenden Fläche, meist erkennbar an einer niedrigeren Oberflächentemperatur innen. Neben dem Energieverlust ist die eigentliche Gefahr das Tauwasser- und Schimmelrisiko, das an dieser kälteren Stelle zuerst entsteht."
+  },
+  "geschwister": [
+   {
+    "id": "kab3konstruktiv",
+    "t": "Konstruktive Wärmebrücken"
+   },
+   {
+    "id": "kab3geometrisch",
+    "t": "Geometrische Wärmebrücken"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4nachweis",
+    "t": "Nachweis: pauschal, gleichwertig, detailliert",
+    "neu": true
+   },
+   {
+    "id": "kab4psichi",
+    "t": "Psi und Chi: Kennwerte und Rechenregeln",
+    "neu": true
+   },
+   {
+    "id": "kab4isothermen",
+    "t": "Isothermen lesen: fRsi und Schimmelrisiko",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3fassade",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3fassade",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Schlagregenschutz an der Fassade",
+   "t1": "Der Schlagregenschutz einer Fassade entsteht aus dem Zusammenspiel mehrerer Verteidigungslinien: einer wasserabweisenden Oberfläche, einer dahinterliegenden Ebene, die eindringendes Wasser kontrolliert ableitet, und Anschlüssen, die keine wassersammelnden Kanten bilden. Eine einzelne perfekte Schicht reicht nicht, wenn die Fuge daneben offen bleibt."
+  },
+  "eltern": {
+   "id": "kab2schlagregen",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Schlagregen und Spritzwasserschutz",
+   "t1": "Schlagregen trifft die Fassade nicht senkrecht, sondern schräg und mit Druck, und genau deshalb versagen an dieser Stelle Anschlüsse, die einem ruhigen Regen ohne Wind durchaus standhalten würden. Fenster-, Tür- und Sockelanschlüsse sind die typischen Schwachstellen, weil hier mehrere Bauteile und Gewerke aufeinandertreffen."
+  },
+  "geschwister": [
+   {
+    "id": "kab3fenster",
+    "t": "Fenster- und Türanschluss an die Abdichtung"
+   },
+   {
+    "id": "kab3sockel",
+    "t": "Spritzwasserzone am Sockel"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4bgruppen",
+    "t": "Beanspruchungsgruppen I bis III",
+    "neu": true
+   },
+   {
+    "id": "kab4wasserwege",
+    "t": "Wege des Wassers in der Außenwand",
+    "neu": true
+   },
+   {
+    "id": "kab4fassfuge",
+    "t": "Fugen und Durchdringungen in der Fassade",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3fenster",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3fenster",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Fenster- und Türanschluss an die Abdichtung",
+   "t1": "Fenster- und Türanschlüsse sind die am dichtesten regulierten Stellen der Fassade, weil hier innen die luftdichte Ebene, außen die schlagregendichte Ebene und dazwischen die Wärmedämmung sauber ineinandergreifen müssen. Innen wird traditionell dichter ausgeführt als außen, damit anfallende Feuchte nach außen entweichen kann, doch das gelingt nur mit handwerklich sauberer Ausführung."
+  },
+  "eltern": {
+   "id": "kab2schlagregen",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Schlagregen und Spritzwasserschutz",
+   "t1": "Schlagregen trifft die Fassade nicht senkrecht, sondern schräg und mit Druck, und genau deshalb versagen an dieser Stelle Anschlüsse, die einem ruhigen Regen ohne Wind durchaus standhalten würden. Fenster-, Tür- und Sockelanschlüsse sind die typischen Schwachstellen, weil hier mehrere Bauteile und Gewerke aufeinandertreffen."
+  },
+  "geschwister": [
+   {
+    "id": "kab3fassade",
+    "t": "Schlagregenschutz an der Fassade"
+   },
+   {
+    "id": "kab3sockel",
+    "t": "Spritzwasserzone am Sockel"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4anschlussunten",
+    "t": "Unterer Anschluss und Fensterbank",
+    "neu": true
+   },
+   {
+    "id": "kab4anschlussseite",
+    "t": "Seitlicher und oberer Anschluss",
+    "neu": true
+   },
+   {
+    "id": "kab4bodentief",
+    "t": "Bodentiefes Element und Schwelle",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3sockel",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3sockel",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2schlagregen",
+   "t": "Spritzwasserzone am Sockel",
+   "t1": "Der Sockelbereich eines Gebäudes wird durch aufspritzendes Regenwasser deutlich stärker beansprucht als die Fassade darüber und braucht deshalb eigene, robustere Materialien und eine eigene Abdichtungsebene. Wer hier mit dem Fassadenaufbau der oberen Geschosse spart, riskiert Feuchteschäden schon im ersten Winter."
+  },
+  "eltern": {
+   "id": "kab2schlagregen",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Schlagregen und Spritzwasserschutz",
+   "t1": "Schlagregen trifft die Fassade nicht senkrecht, sondern schräg und mit Druck, und genau deshalb versagen an dieser Stelle Anschlüsse, die einem ruhigen Regen ohne Wind durchaus standhalten würden. Fenster-, Tür- und Sockelanschlüsse sind die typischen Schwachstellen, weil hier mehrere Bauteile und Gewerke aufeinandertreffen."
+  },
+  "geschwister": [
+   {
+    "id": "kab3fassade",
+    "t": "Schlagregenschutz an der Fassade"
+   },
+   {
+    "id": "kab3fenster",
+    "t": "Fenster- und Türanschluss an die Abdichtung"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4spritzhoehe",
+    "t": "Spritzwasserhöhe und Sockelabdichtung",
+    "neu": true
+   },
+   {
+    "id": "kab4sockelwdvs",
+    "t": "Sockel bei WDVS: Perimeter und Übergang",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3bewegungsfuge",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3bewegungsfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Bewegungsfugen im Hochbau",
+   "t1": "Bewegungsfugen trennen große Bauteile in Abschnitte, die sich unabhängig voneinander ausdehnen oder zusammenziehen können, üblich bei langen Fassaden, großen Bodenplatten oder am Übergang zwischen Neubau und Bestand. Ihre Lage folgt der Statik, nicht der Architektur, weshalb sie früh mit dem Tragwerksplaner abgestimmt werden muss."
+  },
+  "eltern": {
+   "id": "kab2fuge",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Bauwerksfugen und Bewegung",
+   "t1": "Gebäude bewegen sich ständig geringfügig, durch Temperatur, Schwinden des Betons oder Setzung des Baugrunds, und Bauwerksfugen sind die geplanten Stellen, an denen diese Bewegung stattfinden darf, statt unkontrolliert einen Riss zu erzeugen. Eine fehlende oder falsch bemessene Fuge zeigt sich fast immer erst Jahre später als Schaden."
+  },
+  "geschwister": [
+   {
+    "id": "kab3abdichtfuge",
+    "t": "Abdichten von Fugen: Fugenband und Fugenmasse"
+   },
+   {
+    "id": "kab3anschlussfuge",
+    "t": "Anschlussfugen an Bauteilübergängen"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4fugenabstand",
+    "t": "Fugenabstände und Fugenbreite",
+    "neu": true
+   },
+   {
+    "id": "kab4fugedurch",
+    "t": "Fuge durch alle Schichten: Dach, Wand, Boden",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3abdichtfuge",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3abdichtfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Abdichten von Fugen: Fugenband und Fugenmasse",
+   "t1": "Eine Bewegungsfuge muss trotz ständiger Bewegung dicht bleiben, wofür entweder ein elastisches Fugenband einbetoniert oder eine dauerelastische Fugenmasse nachträglich eingebracht wird. Beide Systeme haben eine begrenzte Lebensdauer und gehören deshalb zu den wenigen Bauteilen, deren Wartung von Anfang an mitgeplant werden sollte."
+  },
+  "eltern": {
+   "id": "kab2fuge",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Bauwerksfugen und Bewegung",
+   "t1": "Gebäude bewegen sich ständig geringfügig, durch Temperatur, Schwinden des Betons oder Setzung des Baugrunds, und Bauwerksfugen sind die geplanten Stellen, an denen diese Bewegung stattfinden darf, statt unkontrolliert einen Riss zu erzeugen. Eine fehlende oder falsch bemessene Fuge zeigt sich fast immer erst Jahre später als Schaden."
+  },
+  "geschwister": [
+   {
+    "id": "kab3bewegungsfuge",
+    "t": "Bewegungsfugen im Hochbau"
+   },
+   {
+    "id": "kab3anschlussfuge",
+    "t": "Anschlussfugen an Bauteilübergängen"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4fugenmasse",
+    "t": "Fugenmasse: Dimensionierung und Hinterfüllung",
+    "neu": true
+   },
+   {
+    "id": "kab4fugenband",
+    "t": "Fugenband und Fugenblech",
+    "neu": true
+   },
+   {
+    "id": "kab4wartungsfuge",
+    "t": "Wartungsfuge oder dauerhaft dichte Fuge",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3anschlussfuge",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3anschlussfuge",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2fuge",
+   "t": "Anschlussfugen an Bauteilübergängen",
+   "t1": "Anders als die Bewegungsfuge trennt die Anschlussfuge keine gleichartigen Bauteile, sondern verbindet unterschiedliche, etwa ein Fensterelement mit dem Mauerwerk, und muss deren unterschiedliches Bewegungsverhalten ausgleichen. Sie ist die eigentliche Belastungsprobe jeder Fassadenabdichtung, weil hier die meisten Materialwechsel zusammenkommen."
+  },
+  "eltern": {
+   "id": "kab2fuge",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Bauwerksfugen und Bewegung",
+   "t1": "Gebäude bewegen sich ständig geringfügig, durch Temperatur, Schwinden des Betons oder Setzung des Baugrunds, und Bauwerksfugen sind die geplanten Stellen, an denen diese Bewegung stattfinden darf, statt unkontrolliert einen Riss zu erzeugen. Eine fehlende oder falsch bemessene Fuge zeigt sich fast immer erst Jahre später als Schaden."
+  },
+  "geschwister": [
+   {
+    "id": "kab3bewegungsfuge",
+    "t": "Bewegungsfugen im Hochbau"
+   },
+   {
+    "id": "kab3abdichtfuge",
+    "t": "Abdichten von Fugen: Fugenband und Fugenmasse"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4anschlusstrocken",
+    "t": "Anschluss Trockenbau an Massivbau",
+    "neu": true
+   },
+   {
+    "id": "kab4anschlussfenster",
+    "t": "Anschlussfuge Fenster: Maß und Bewegung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3verbund",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3verbund",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Verbundabdichtung unter Fliesenbelag",
+   "t1": "Die Verbundabdichtung ist eine flüssig aufgetragene oder bahnenförmige Schicht direkt unter dem Fliesenbelag, die das Wasser stoppt, bevor es in den Untergrund eindringt. Sie ist in bestimmten Beanspruchungsklassen zwingend vorgeschrieben und trotzdem eine der am häufigsten mangelhaft ausgeführten Schichten am Bau."
+  },
+  "eltern": {
+   "id": "kab2nassraum",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Feuchteschutz im Bad und Nassraum",
+   "t1": "Im Bad trifft ständige Wasserbelastung auf empfindliche Bauteile wie Trockenbauwände und Holzdecken darunter, weshalb hier eine eigene, geprüfte Abdichtungsebene unter dem sichtbaren Belag liegt. Diese Ebene sieht man nie, ihr Fehlen aber irgendwann umso deutlicher."
+  },
+  "geschwister": [
+   {
+    "id": "kab3ablauf",
+    "t": "Bodenablauf und Gefälle"
+   },
+   {
+    "id": "kab3feuchtraum",
+    "t": "Feuchträume außerhalb des Bads"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4wklassen",
+    "t": "Wassereinwirkungsklassen W0 bis W3",
+    "neu": true
+   },
+   {
+    "id": "kab4wandboden",
+    "t": "Wand-Boden-Ecke und Durchdringungen",
+    "neu": true
+   },
+   {
+    "id": "kab4dusche",
+    "t": "Bodenebene Dusche",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3ablauf",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3ablauf",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Bodenablauf und Gefälle",
+   "t1": "Ein Bodenablauf funktioniert nur mit einem sauber ausgeführten Gefälle im gesamten umgebenden Belag, sonst bleibt Wasser stehen, statt abzulaufen. Besonders bei bodengleichen Duschen ist das Gefälle eines der planerisch anspruchsvollsten Details, weil es mit der Barrierefreiheit der Fläche konkurriert."
+  },
+  "eltern": {
+   "id": "kab2nassraum",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Feuchteschutz im Bad und Nassraum",
+   "t1": "Im Bad trifft ständige Wasserbelastung auf empfindliche Bauteile wie Trockenbauwände und Holzdecken darunter, weshalb hier eine eigene, geprüfte Abdichtungsebene unter dem sichtbaren Belag liegt. Diese Ebene sieht man nie, ihr Fehlen aber irgendwann umso deutlicher."
+  },
+  "geschwister": [
+   {
+    "id": "kab3verbund",
+    "t": "Verbundabdichtung unter Fliesenbelag"
+   },
+   {
+    "id": "kab3feuchtraum",
+    "t": "Feuchträume außerhalb des Bads"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4gefaelle",
+    "t": "Gefälle und Ablaufposition",
+    "neu": true
+   },
+   {
+    "id": "kab4rinne",
+    "t": "Rinne oder Punktablauf (Auswahl)",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "kab3feuchtraum",
+  "bestandT3": true,
+  "knoten": {
+   "id": "kab3feuchtraum",
+   "p": "k",
+   "lv": 3,
+   "pa": "kab2nassraum",
+   "t": "Feuchträume außerhalb des Bads",
+   "t1": "Küchen, Hauswirtschaftsräume und bestimmte Kellerbereiche gelten bauphysikalisch ebenfalls als feuchtebelastet, auch wenn sie im Alltag nicht als Nassraum wahrgenommen werden. Wer hier den Feuchteschutz auf das Niveau eines trockenen Wohnraums reduziert, unterschätzt eine Beanspruchung, die sich erst nach Jahren als Schimmel zeigt."
+  },
+  "eltern": {
+   "id": "kab2nassraum",
+   "p": "k",
+   "lv": 2,
+   "pa": "kab1",
+   "t": "Feuchteschutz im Bad und Nassraum",
+   "t1": "Im Bad trifft ständige Wasserbelastung auf empfindliche Bauteile wie Trockenbauwände und Holzdecken darunter, weshalb hier eine eigene, geprüfte Abdichtungsebene unter dem sichtbaren Belag liegt. Diese Ebene sieht man nie, ihr Fehlen aber irgendwann umso deutlicher."
+  },
+  "geschwister": [
+   {
+    "id": "kab3verbund",
+    "t": "Verbundabdichtung unter Fliesenbelag"
+   },
+   {
+    "id": "kab3ablauf",
+    "t": "Bodenablauf und Gefälle"
+   }
+  ],
+  "kinder": [],
+  "kinderNeu": [
+   {
+    "id": "kab4kueche",
+    "t": "Küche, Hauswirtschaft, Technikraum",
+    "neu": true
+   },
+   {
+    "id": "kab4schwimmbad",
+    "t": "Schwimmbad und Wellness als Sonderfall",
+    "neu": true
+   }
+  ]
+ }
+]

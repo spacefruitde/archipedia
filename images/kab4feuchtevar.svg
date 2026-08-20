@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Diagramm: sd-Wert einer feuchtevariablen Dampfbremse über der umgebenden relativen Feuchte; im trockenen Winterfall hoch und sperrend, im feuchten Sommerfall niedrig und offen">
+  <!-- Achsen -->
+  <line x1="70" y1="260" x2="430" y2="260" stroke="#1c1a17" stroke-width="2.2"/>
+  <line x1="70" y1="260" x2="70" y2="40" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Kurve feuchtevariabel, Akzent -->
+  <path d="M90 70 C 180 72, 220 110, 260 170 S 360 240, 410 246" fill="none" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Vergleich: konventionelle Dampfbremse konstant -->
+  <line x1="90" y1="150" x2="410" y2="150" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <!-- Bereiche Winter / Sommer -->
+  <rect x="90" y="40" width="90" height="220" fill="#1c1a17" fill-opacity="0.05" stroke="none"/>
+  <rect x="320" y="40" width="90" height="220" fill="#1c1a17" fill-opacity="0.05" stroke="none"/>
+  <!-- Beschriftungen -->
+  <text x="250" y="290" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">mittlere relative Feuchte um die Bahn</text>
+  <text x="30" y="150" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17" transform="rotate(-90 30 150)">sd-Wert, diffusionsdicht nach oben</text>
+  <text x="135" y="30" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Winter: trocken, sperrt</text>
+  <text x="365" y="30" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Sommer: feucht, öffnet</text>
+  <line x1="300" y1="200" x2="330" y2="110" stroke="#b05c3a" stroke-width="1.1"/><circle cx="300" cy="200" r="1.6" fill="#b05c3a"/>
+  <text x="334" y="106" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">feuchtevariabel</text>
+  <line x1="200" y1="150" x2="220" y2="120" stroke="#1c1a17" stroke-width="1.1"/><circle cx="200" cy="150" r="1.6" fill="#1c1a17"/>
+  <text x="224" y="116" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">konstante Dampfbremse</text>
+</svg>

@@ -1,0 +1,781 @@
+[
+ {
+  "id": "kfe4dichtinnen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "verlangt eine vorgestrichene Nagelfolie mit separater Klebemasse eine sicherere Haftung",
+    "problem": "Nagelfolie ist kein eingeführter Begriff der Fenstermontage, und der Satz verwechselt den Voranstrich des Untergrunds mit einer Folienbezeichnung.",
+    "ersatz": "Bei saugendem oder unebenem Ziegelmauerwerk ergibt ein Voranstrich des Untergrunds mit anschließend in eine separate Kleberaupe gesetzter, vlieskaschierter Anschlussfolie die sicherere Haftung und ist deshalb der Regelfall im Massivbau."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Bänder und Folien mit einem sd-Wert von in der Regel mehr als 2 Metern",
+    "problem": "Der Zahlenwert ließ sich auf den zulässigen Portalen nicht belegen, belegbar ist nur der Grundsatz, dass die innere Ebene diffusionsdichter sein muss als die äußere.",
+    "ersatz": "Für die innere Ebene gilt der Grundsatz, dass sie deutlich diffusionsdichter sein muss als die äußere, welcher sd-Wert dafür nötig ist, ergibt sich aus dem bauphysikalischen Nachweis des jeweiligen Wandaufbaus und aus den Angaben des Bandsystems."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Die Mindestverklebebreite liegt bei den meisten Systemen bei etwa 20 mm je Seite",
+    "problem": "Kein Beleg auf den zulässigen Portalen, die Breite ist eine Systemangabe und keine Normanforderung.",
+    "ersatz": "Die Mindestverklebebreite gibt das jeweilige Bandsystem vor, gemessen auf tragfähigem Untergrund und ohne Übergang über Bewegungsfugen des Bauwerks."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Blower-Door-Messung nach DIN EN ISO 9972",
+    "problem": "Normbezug richtig, der Ausgabestand fehlt in der Quellenangabe des Knotens.",
+    "ersatz": ""
+   },
+   {
+    "feld": "dach.at",
+    "art": "dach",
+    "zitat": "RAL-Montage Leitfaden",
+    "problem": "Der Knoten gibt eine rein deutsche Regelsystematik als allgemeingültig aus, obwohl Österreich eine eigene Norm dafür hat.",
+    "ersatz": "In Österreich regelt ÖNORM B 5320 Planung und Ausführung des Fenster- und Türanschlusses, die Luftdichtheitsmessung erfolgt nach ÖNORM EN ISO 9972 mit den nationalen Festlegungen der ÖNORM B 9972."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "dach",
+    "zitat": "RAL-Montage Leitfaden",
+    "problem": "Für die Schweiz fehlt der Normbezug vollständig.",
+    "ersatz": "In der Schweiz ist SIA 331 die maßgebende Baunorm für Fenster und Fenstertüren, die zugehörigen Vertragsbedingungen stehen in SIA 118/331."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 9972, Wärmetechnisches Verhalten von Gebäuden, Bestimmung der Luftdurchlässigkeit von Gebäuden, Differenzdruckverfahren",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-9972/296830636",
+    "stand": "Ausgabe 2018-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "ÖNORM B 9972, nationale Festlegungen zur Luftdurchlässigkeitsmessung",
+    "u": "https://www.dinmedia.de/de/norm/oenorm-b-9972/253223381",
+    "stand": "Ausgabe 2016-03-15",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108-7, Wärmeschutz und Energie-Einsparung in Gebäuden, Teil 7: Luftdichtheit von Gebäuden",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-7/398456216",
+    "stand": "Ausgabe 2026-04, ersetzt Ausgabe 2011-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "ÖNORM B 5320, Einbau von Fenstern und Türen in Wände, Planung und Ausführung des Bau- und des Fenster-/Türanschlusses",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-5320-2024-11-01~p3884017",
+    "stand": "Ausgabe 2024-11-01, ersetzt Ausgabe 2020-10-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 331, Fenster und Fenstertüren",
+    "u": "http://shop.sia.ch/normenwerk/architekt/sia%20331/d/2012/D/Product",
+    "stand": "Ausgabe 2012",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 118/331, Allgemeine Bedingungen für Fenster und Fenstertüren",
+    "u": "https://shop.sia.ch/normenwerk/architekt/118-331_2008_d/D/Product",
+    "stand": "Ausgabe 2008",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Ohne dach-Feld liest sich der Knoten als deutschlandweit gültige Regel, obwohl AT und CH eigene Normen führen."
+ },
+ {
+  "id": "kfe4dichtmitte",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "damit die Fuge nicht zur rechnerischen Wärmebrücke nach DIN 4108-2 wird",
+    "problem": "DIN 4108-2 legt Mindestwärmeschutz und Mindestwert des Temperaturfaktors fest, sie ist kein Berechnungsverfahren für Wärmebrücken.",
+    "ersatz": "Der Dämmstoff der mittleren Ebene sollte eine Wärmeleitfähigkeit von etwa 0,035 bis 0,040 W pro Meter und Kelvin nicht überschreiten, damit die Fuge den Mindestwärmeschutz nach DIN 4108-2 nicht gefährdet und in der Wärmebrückenberechnung nach DIN EN ISO 10211 unauffällig bleibt."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "in der Regel innerhalb weniger Minuten nachschäumfrei",
+    "problem": "Einkomponentiger Montageschaum schäumt je nach Temperatur und Luftfeuchte deutlich länger nach, klebefrei und schneidfest ist er erst nach Minuten bis Stunden.",
+    "ersatz": "Montageschaum für Fenster ist nach den Angaben des jeweiligen Systems erst nach etwa einer Stunde schneidfest, das Nachschäumen dauert je nach Temperatur und Luftfeuchte länger, und die endgültige Festigkeit erreicht er erst nach mehreren Stunden, was beim Einbau von Anschlagpunkten zu beachten ist."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Ab hier: Wärmebrückenberechnung nach DIN 4108-2",
+    "problem": "Falsche Norm für den Absprung, gerechnet wird nach DIN EN ISO 10211, Planungsbeispiele stehen in DIN 4108 Beiblatt 2.",
+    "ersatz": "Ab hier: Wärmebrückenberechnung nach DIN EN ISO 10211 mit den Planungsbeispielen aus DIN 4108 Beiblatt 2 und Verarbeitungsrichtlinie des Dämmsystems."
+   },
+   {
+    "feld": "t1",
+    "art": "unbelegt",
+    "zitat": "mit mehr als etwa 30 mm Breite sind vorkonfektionierte Mineralwollstreifen der Regelfall",
+    "problem": "Die Grenzbreite ließ sich nicht belegen, sie ist eine Systemangabe.",
+    "ersatz": "bei breiten oder unregelmäßigen Fugen sind vorkonfektionierte Mineralwollstreifen der Regelfall, weil der Schaum dort zum unkontrollierten Nachquellen neigt, die zulässige Fugenbreite je Verfüllmaterial gibt das Systemdatenblatt vor"
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-2, Wärmeschutz und Energie-Einsparung in Gebäuden, Teil 2: Mindestanforderungen an den Wärmeschutz",
+    "u": "https://www.dinmedia.de/en/standard/din-4108-2/401017482",
+    "stand": "Ausgabe 2026-05, ersetzt Ausgabe 2013-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2, Wärmebrücken, Planungs- und Ausführungsbeispiele",
+    "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077",
+    "stand": "Ausgabe 2019-06, Berichtigung 1 vom 2025-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 10211, Wärmebrücken im Hochbau, Wärmeströme und Oberflächentemperaturen, detaillierte Berechnungen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Auch dieser Knoten hängt an deutschen Normen und braucht ein dach-Feld mit ÖNORM B 5320 und SIA 331."
+ },
+ {
+  "id": "kfe4dichtaussen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Vorkomprimierte Dichtbänder werden in Beanspruchungsgruppen eingeteilt",
+    "problem": "Die Einteilung in Beanspruchungsgruppen stammt aus DIN 18542, ohne diesen Bezug ist die Angabe in der Ausschreibung nicht prüfbar.",
+    "ersatz": "Vorkomprimierte Dichtbänder werden nach DIN 18542 in Beanspruchungsgruppen eingeteilt, die sich nach Schlagregenbelastung und zulässiger Fugenbewegung richten, die Zuordnung zur jeweiligen Fassadenseite ist Teil der Montageplanung."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "zwischen etwa 1 zu 3 und 1 zu 8 des Lieferzustands zur Einbaufuge",
+    "problem": "Kein Beleg auf den zulässigen Portalen, das zulässige Verhältnis ist je Bandbreite und Beanspruchungsgruppe unterschiedlich.",
+    "ersatz": "Das zulässige Verhältnis von Lieferzustand zu Einbaufuge gibt das Banddatenblatt für jede Bandbreite an, außerhalb dieses Bereichs verliert das Band seine dichtende Wirkung."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "üblich sind Werte im Bereich um 0,3 Meter oder darunter",
+    "problem": "Kein Beleg auf den zulässigen Portalen für diesen Zahlenwert.",
+    "ersatz": "Die äußere, diffusionsoffene Folie muss einen deutlich niedrigeren sd-Wert als die innere Ebene aufweisen, damit das Diffusionsgefälle von innen nach außen erhalten bleibt, den Zielwert legt der bauphysikalische Nachweis fest."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18542, Imprägnierte Fugendichtungsbänder aus Schaumkunststoff zur Abdichtung von Außenwandfugen, Anforderungen und Prüfung",
+    "u": "https://www.dinmedia.de/en/standard/din-18542/316988836",
+    "stand": "Ausgabe 2020-04, ersetzt Ausgabe 2009-07",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Beanspruchungsgruppe ist der einzige normativ fassbare Ausschreibungsparameter des Knotens und muss deshalb an DIN 18542 hängen."
+ },
+ {
+  "id": "kfe4dichtecke",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "benötigen nach DIN 4108-7 eine Mindestüberlappung von etwa 50 mm",
+    "problem": "Die 50 mm ließen sich nicht als Anforderung der DIN 4108-7 belegen, belegbar ist nur die Forderung nach vollflächiger, dauerhafter Verklebung.",
+    "ersatz": "Bahnenstöße und Eckausbildungen der Luftdichtheitsebene benötigen nach DIN 4108-7 eine vollflächige, blasenfreie Verklebung mit der vom Bandsystem geforderten Überlappung, punktuelle Verklebung genügt nicht."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "nach DIN 4108-7",
+    "problem": "Maßgebend ist seit April 2026 die Ausgabe 2026-04, die die Ausgabe 2011-01 ersetzt.",
+    "ersatz": ""
+   },
+   {
+    "feld": "dach.at",
+    "art": "dach",
+    "zitat": "Detailplanung der Anschlusspunkte",
+    "problem": "Ecken und Durchdringungen sind in Österreich normativ anders geregelt als in Deutschland.",
+    "ersatz": "In Österreich regelt ÖNORM B 5320 die Ausbildung des Bau- und des Fensteranschlusses einschließlich der Anschlusspunkte, die Prüfung des eingebauten Anschlusses beschreibt ÖNORM B 5321."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "dach",
+    "zitat": "Detailplanung der Anschlusspunkte",
+    "problem": "Für die Schweiz fehlt der Normbezug.",
+    "ersatz": "In der Schweiz gelten für Fenster und ihren Anschluss SIA 331 und die zugehörigen Vertragsbedingungen SIA 118/331."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-7, Wärmeschutz und Energie-Einsparung in Gebäuden, Teil 7: Luftdichtheit von Gebäuden",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-7/398456216",
+    "stand": "Ausgabe 2026-04, ersetzt Ausgabe 2011-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "ÖNORM B 5320, Einbau von Fenstern und Türen in Wände, Planung und Ausführung des Bau- und des Fenster-/Türanschlusses",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-5320-2024-11-01~p3884017",
+    "stand": "Ausgabe 2024-11-01, ersetzt Ausgabe 2020-10-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 331, Fenster und Fenstertüren",
+    "u": "http://shop.sia.ch/normenwerk/architekt/sia%20331/d/2012/D/Product",
+    "stand": "Ausgabe 2012",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 118/331, Allgemeine Bedingungen für Fenster und Fenstertüren",
+    "u": "https://shop.sia.ch/normenwerk/architekt/118-331_2008_d/D/Product",
+    "stand": "Ausgabe 2008",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "ÖNORM B 5321 wurde als Prüfnorm zu B 5320 gefunden, aber nicht im Volltext geprüft."
+ },
+ {
+  "id": "kfe4wind",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "der andere blendet bei tiefstehender Sonne nicht rechtzeitig genug ab, wenn er fehlt",
+    "problem": "Der Satz beschreibt die Funktion des Sonnenwächters verdreht und ist als Aussage unbrauchbar.",
+    "ersatz": "Windwächter und Sonnenwächter sind zwei getrennte Funktionen, die oft in einem Sensor zusammengefasst werden, aber unterschiedliche Aufgaben lösen: Der eine schützt die Anlage vor Sturmschäden, der andere fährt den Behang bei hoher Einstrahlung rechtzeitig aus, bevor der Raum sich aufheizt oder Blendung entsteht."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "nach EN 13659 in Windwiderstandsklassen von 0 bis 6 eingestuft",
+    "problem": "Der Normbezug stimmt, der Klassenbereich 0 bis 6 ließ sich auf den zulässigen Portalen nicht verifizieren, und in Deutschland lautet die Bezeichnung DIN EN 13659.",
+    "ersatz": "Raffstoren und Rollläden werden nach DIN EN 13659 in Windwiderstandsklassen eingeteilt, geprüft nach DIN EN 1932, die zulässige Auslöseschwelle des Windwächters richtet sich nach der für das jeweilige Produkt zertifizierten Klasse und ist kein frei wählbarer Steuerungsparameter."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "liegt bei etwa 0,1 bis 0,2 Metern pro Sekunde",
+    "problem": "Kein Beleg auf den zulässigen Portalen, die Geschwindigkeit ist eine Antriebsangabe.",
+    "ersatz": "Die Antriebsgeschwindigkeit gibt das Datenblatt des Antriebs an, aus ihr und der Behanghöhe lässt sich die tatsächliche Einfahrzeit einer Anlage direkt berechnen."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "oberhalb von etwa 20000 bis 50000 Lux",
+    "problem": "Kein Beleg auf den zulässigen Portalen für diesen Schwellenbereich.",
+    "ersatz": "Sonnenwächter lösen oberhalb einer eingestellten Beleuchtungsstärke aus, der Schwellwert wird nutzerseitig festgelegt und unterscheidet sich von der festen, sicherheitsrelevanten Windschwelle."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Sperrzeiten von mehreren Minuten bis zu Sturmende",
+    "problem": "Keine Quelle auffindbar, die Sperrzeit ist ein Parameter der Gebäudeautomation.",
+    "ersatz": "Nach einer Windwächterauslösung bleibt eine Sperrzeit aktiv, deren Länge in der Gebäudeautomation projektweise festgelegt wird, bevor eine automatische Wiederausfahrt zugelassen wird."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN 13659, Abschlüsse außen und Außenjalousien, Leistungs- und Sicherheitsanforderungen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-13659/234094516",
+    "stand": "Ausgabe 2015-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 1932, Abschlüsse und Markisen, Widerstand gegen Windlast, Prüfverfahren und Nachweiskriterien",
+    "u": "https://www.dinmedia.de/en/standard/din-en-1932/155544204",
+    "stand": "Ausgabe 2013-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18073, Rollläden, Markisen und sonstige Abschlüsse im Bauwesen, Begriffe und Kriterien zur Anwendung",
+    "u": "https://www.dinmedia.de/en/standard/din-18073/322020783",
+    "stand": "Ausgabe 2020-11, ersetzt DIN V 18073:2008-05",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "DIN 18073 gehört als Begriffs- und Anwendungsnorm für Rollläden und Abschlüsse in die Randspalte."
+ },
+ {
+  "id": "kfe4bus",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "t1 und t2 enthalten keine Zahlen, Normen oder Rechtsangaben, die Prioritätenkette Windwächter vor Nutzerübersteuerung vor Zeit- und Sonnenstandsteuerung ist fachlich richtig."
+ },
+ {
+  "id": "kfe4banksitz",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Personenlast statt bloßer Nutzlast",
+    "problem": "Personenlasten sind Nutzlasten, die Gegenüberstellung ist fachlich falsch.",
+    "ersatz": "Ab einer Tiefe von etwa 30 cm wird die Innenbank vom reinen Ablagebrett zur Sitzfläche und muss dafür anders bemessen werden: für die Nutzlast einer sitzenden Person statt für abgestellte Gegenstände, mit tragfähigem Unterbau statt frei auskragender Konsole."
+   },
+   {
+    "feld": "t1",
+    "art": "unbelegt",
+    "zitat": "bei sitztiefen Ausführungen ab etwa 40 cm",
+    "problem": "Der Schwellenwert ist ein Entwurfsrichtwert ohne belegbare Quelle.",
+    "ersatz": "bei sitztiefen Ausführungen ist ein durchgehender, meist gemauerter oder in Leichtbau ausgeführter Unterbau der Regelfall, weil eine reine Konsolauflagerung die Last einer sitzenden Person auf Dauer nicht sicher trägt"
+   },
+   {
+    "feld": "dach.de",
+    "art": "dach",
+    "zitat": "in Konflikt mit der erforderlichen Absturzsicherung",
+    "problem": "Absturzsicherung ist in allen drei Ländern unterschiedlich geregelt, der Knoten nennt keine Rechtsgrundlage.",
+    "ersatz": "In Deutschland regeln die Landesbauordnungen die notwendige Umwehrung von Fenstern mit geringer Brüstungshöhe, absturzsichernde Verglasungen werden nach DIN 18008-4 bemessen."
+   },
+   {
+    "feld": "dach.at",
+    "art": "dach",
+    "zitat": "in Konflikt mit der erforderlichen Absturzsicherung",
+    "problem": "Für Österreich fehlt die Rechtsgrundlage.",
+    "ersatz": "In Österreich stehen die Anforderungen an Absturzsicherungen in OIB-Richtlinie 4, die die Bundesländer in ihre Bauordnungen übernehmen."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "dach",
+    "zitat": "in Konflikt mit der erforderlichen Absturzsicherung",
+    "problem": "Für die Schweiz fehlt die Rechtsgrundlage.",
+    "ersatz": "In der Schweiz gilt für Geländer und Brüstungen die Norm SIA 358, ergänzt durch die kantonalen Bauvorschriften."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18008-4, Glas im Bauwesen, Bemessungs- und Konstruktionsregeln, Teil 4: Zusatzanforderungen an absturzsichernde Verglasungen",
+    "u": "https://www.dinmedia.de/en/standard/din-18008-4/382244655",
+    "stand": "Ausgabe 2024-12, ersetzt Ausgabe 2013-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB-Richtlinie 4, Nutzungssicherheit und Barrierefreiheit",
+    "u": "https://www.oib.or.at/kernaufgaben/oib-richtlinien1/richtlinien/oib-richtlinien-2023/",
+    "stand": "OIB-Richtlinien Ausgabe 2023",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 358, Geländer und Brüstungen",
+    "u": "http://shop.sia.ch/normenwerk/architekt/sia%20358/dfi/D/Product",
+    "stand": "Ausgabe 2010, Korrigenda vom 2011-05-01",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Aussage, dass eine begehbare oder besitzbare Fläche die wirksame Brüstungshöhe verringert, ist richtig, sie braucht aber den landesrechtlichen Bezug."
+ },
+ {
+  "id": "kfe4bankheiz",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Nach Herstellerangaben und Prüfverfahren in Anlehnung an EN 442 mindert eine Vollverkleidung des Heizkörpers dessen Normwärmeleistung um etwa 10 bis 20 Prozent",
+    "problem": "DIN EN 442-2 bestimmt die Normwärmeleistung für die freie Aufstellung im Prüfraum und kennt keine verkleideten Heizkörper, der Prozentwert ließ sich auf den zulässigen Portalen nicht belegen.",
+    "ersatz": "Die Normwärmeleistung nach DIN EN 442-2 gilt für die freie Aufstellung im Prüfraum, jede Vollverkleidung mindert die tatsächliche Wärmeabgabe gegenüber diesem Wert, die Größe der Minderung ist den Angaben des Heizkörperherstellers für die geplante Einbausituation zu entnehmen."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Die Heizlastberechnung nach DIN EN 12831",
+    "problem": "DIN EN 12831:2003-08 ist ersetzt, maßgebend ist DIN EN 12831-1.",
+    "ersatz": "Die Heizlastberechnung nach DIN EN 12831-1 muss den Abminderungsfaktor der geplanten Verkleidung als Eingangswert erhalten, nicht erst nachträglich als Korrektur nach Fertigstellung."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN 442-2, Heizkörper und Konvektoren, Teil 2: Prüfverfahren und Leistungsangabe",
+    "u": "https://www.dinmedia.de/en/standard/din-en-442-2/207503152",
+    "stand": "Ausgabe 2015-03, ersetzt Ausgabe 2003-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 12831-1, Energetische Bewertung von Gebäuden, Verfahren zur Berechnung der Norm-Heizlast, Teil 1: Raumheizlast",
+    "u": "https://www.dinmedia.de/en/standard/din-en-12831-1/261292587",
+    "stand": "Ausgabe 2017-09, ersetzt DIN EN 12831:2003-08",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die bauphysikalische Kernaussage des Knotens, dass eine Verkleidung die Konvektion mindert und in der Heizlast berücksichtigt werden muss, ist richtig."
+ },
+ {
+  "id": "pav3lvfenster",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "dach.de",
+    "art": "fehler",
+    "zitat": "Deutschland gliedert Fenster-LV-Positionen meist nach GAEB-Standardtexten (STLB-Bau), Austausch als GAEB-DA-XML.",
+    "problem": "STLB-Bau ist kein GAEB-Standardtext, sondern das von DIN herausgegebene Textsystem, und der verbindliche Rahmen für Beschreibung und Abrechnung sind die ATV der VOB Teil C, die der Knoten gar nicht nennt.",
+    "ersatz": "Deutschland beschreibt Fensterleistungen nach den Allgemeinen Technischen Vertragsbedingungen der VOB Teil C, für Holz- und Kunststofffenster nach DIN 18355 Tischlerarbeiten, für Metallfenster nach DIN 18360 Metallbauarbeiten, für die Verglasung nach DIN 18361 und für Rollläden und Sonnenschutz nach DIN 18358, die Positionstexte stammen meist aus dem von DIN herausgegebenen STLB-Bau und werden im Format GAEB DA XML ausgetauscht."
+   },
+   {
+    "feld": "dach.at",
+    "art": "stand",
+    "zitat": "mit dem Austauschformat ÖNORM A 2063 (ONLV)",
+    "problem": "Die Norm erscheint seit 2021 in Teilen, maßgebend ist ÖNORM A 2063-1, und die LB-HB liegt inzwischen in Version 023 vor.",
+    "ersatz": "Österreich nutzt die Standardisierte Leistungsbeschreibung Hochbau, derzeit Version 023, mit dem Datenaustausch nach ÖNORM A 2063-1, Leistungsbücher im Format ONLB und Leistungsverzeichnisse im Format ONLV."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "fehler",
+    "zitat": "eingebunden in die Elementkostengliederung eBKP-H",
+    "problem": "NPK und eBKP-H sind zwei getrennte Standards, der NPK gliedert die Leistungsbeschreibung nach Arbeitsgattungen, eBKP-H gliedert Kosten nach Elementen, verknüpft werden sie über das eBKP-Gate.",
+    "ersatz": "Die Schweiz beschreibt die Leistungen nach dem Normpositionen-Katalog NPK des CRB, die Kosten werden davon getrennt elementweise nach dem Baukostenplan Hochbau eBKP-H gegliedert und über das eBKP-Gate mit dem NPK verknüpft, die Vertragsbedingungen für Fenster stehen in SIA 118/331."
+   },
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Für die Montage empfiehlt sich eine eigene Position je Dichtungsebene",
+    "problem": "Ob die Anschlussabdichtung mit dem Element geschuldet ist oder gesondert zu vergüten, entscheidet in Deutschland Abschnitt 4 der jeweiligen ATV, nicht die freie Wahl des Aufstellers.",
+    "ersatz": "Für die Montage empfiehlt sich eine eigene Position je Dichtungsebene, ob die Anschlussabdichtung Nebenleistung oder Besondere Leistung ist, steht in Abschnitt 4 der jeweils einschlägigen ATV und ist vor dem Aufstellen des Leistungsverzeichnisses zu prüfen."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Systematik der Positionsordnung unterscheidet sich zwischen den drei Ländern, siehe DACH-Kasten",
+    "problem": "Der Satz lässt offen, dass sich nicht nur die Ordnungssystematik, sondern auch der verbindliche Regelungsgehalt unterscheidet, in Deutschland die VOB Teil C, in der Schweiz SIA 118/331.",
+    "ersatz": "Nicht nur die Positionsordnung unterscheidet sich zwischen den drei Ländern, sondern auch die Regelwerke, die festlegen, welche Leistung in einer Position enthalten ist und wie sie abgerechnet wird, siehe DACH-Kasten."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18299, VOB Teil C, Allgemeine Regelungen für Bauarbeiten jeder Art",
+    "u": "https://www.dinmedia.de/en/standard/din-18299/369847346",
+    "stand": "Ausgabe 2023-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18355, VOB Teil C, ATV Tischlerarbeiten",
+    "u": "https://www.dinmedia.de/en/standard/din-18355/310839786",
+    "stand": "Ausgabe 2019-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18360, VOB Teil C, ATV Metallbauarbeiten",
+    "u": "https://www.dinmedia.de/en/standard/din-18360/310833805",
+    "stand": "Ausgabe 2019-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18361, VOB Teil C, ATV Verglasungsarbeiten",
+    "u": "https://www.dinmedia.de/en/standard/din-18361/369879370",
+    "stand": "Ausgabe 2023-09, ersetzt Ausgabe 2019-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18358, VOB Teil C, ATV Rollladenarbeiten",
+    "u": "https://www.dinmedia.de/en/standard/din-18358/310833758",
+    "stand": "Ausgabe 2019-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "STLB-Bau Dynamische BauDaten, herausgegeben von DIN",
+    "u": "https://www.dinmedia.de/en/info-material/stlb-bau-dynamische-baudaten-info/35404747",
+    "stand": "Infomaterial Stand 2025-04",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "GAEB DA XML, Fachdokumentation Version 3.3",
+    "u": "https://www.gaeb.de/wp-content/uploads/2023/09/Fachdokumentation_GAEB-DA-XML_3.3_2023-01.pdf",
+    "stand": "Version 3.3, Fachdokumentation Stand 2023-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "ÖNORM A 2063-1, Austausch von Daten in elektronischer Form für die Phasen Ausschreibung, Vergabe und Abrechnung, Teil 1",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-a-2063-1-2021-03-15~p2571131",
+    "stand": "Ausgabe 2021-03-15",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Standardisierte Leistungsbeschreibung Hochbau LB-HB, herausgegeben vom BMWET",
+    "u": "https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html",
+    "stand": "Version 023, gültig ab 31.12.2025",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Normpositionen-Katalog NPK des CRB",
+    "u": "https://www.crb.ch/de/normen-standards/normpositionen/normpositionen-katalog-npk",
+    "stand": "laufender Katalog, Herausgeberseite abgerufen am 21.08.2026",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Baukostenplan Hochbau eBKP-H, SN 506 511",
+    "u": "https://www.crb.ch/de/normen-standards/baukostenplane/baukostenplan-hochbau-ebkp-h",
+    "stand": "Ausgabe 2020, 1. Auflage",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 118/331, Allgemeine Bedingungen für Fenster und Fenstertüren",
+    "u": "https://shop.sia.ch/normenwerk/architekt/118-331_2008_d/D/Product",
+    "stand": "Ausgabe 2008",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die deutsche Zuordnung ist die wichtigste Korrektur: Kunststofffenster fallen unter Tischlerarbeiten, nicht unter Metallbauarbeiten."
+ },
+ {
+  "id": "pbl3bemuster",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "mindestens im Format eines Handmusters von etwa 30 mal 30 Zentimetern",
+    "problem": "Kein Beleg auf den zulässigen Portalen, das Maß ist eine Büropraxis und keine Regel.",
+    "ersatz": "Bemusterungsmuster für Rahmen und Beschichtung sollten so groß sein, dass die Farbwirkung im Tageslicht und nicht nur in der Hand beurteilbar ist, bei Sonderfarben zusätzlich ein Eckausschnitt mit sichtbarer Gehrung, weil sich Farbwirkung und Fugenbild an der Ecke am ehesten beurteilen lassen."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Der übrige Inhalt ist Verfahrensbeschreibung ohne prüfbare Zahlen und fachlich schlüssig."
+ },
+ {
+  "id": "kfe4rahmholzalu",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "liegt konstruktionsabhängig meist zwischen 10 und 20 Millimetern",
+    "problem": "Kein Beleg auf den zulässigen Portalen, das Maß hängt an der Schalenhalterung des jeweiligen Systems und ist in dieser Größenordnung zweifelhaft.",
+    "ersatz": "Die Aluminiumschale sitzt auf Haltern mit einem belüfteten Zwischenraum, dessen Maß das jeweilige Profilsystem vorgibt, er muss die unterschiedliche Wärmeausdehnung beider Materialien über die gesamte Elementlänge aufnehmen können, ohne dass die Verbindungspunkte blockieren."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "bewegt sich meist im selben günstigen Bereich wie reine Holzprofile",
+    "problem": "Kein Beleg für die Gleichsetzung, der Uf-Wert ist profilbezogen nachzuweisen.",
+    "ersatz": "Der Uf-Wert von Holz-Aluminium-Rahmen wird von der Holzschale bestimmt und ist nach DIN EN ISO 10077-2 für das konkrete Profil nachzuweisen, die Aluminiumschale trägt kaum zur Dämmwirkung bei."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10077-2, Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen, Berechnung des Wärmedurchgangskoeffizienten, Teil 2: Numerisches Verfahren für Rahmen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10077-2/388400131",
+    "stand": "Ausgabe 2025-06",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Absprung Wärmedurchgangsberechnung nach Norm sollte DIN EN ISO 10077-2 namentlich nennen."
+ },
+ {
+  "id": "kfe4rahmkunst",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "meist zwischen 0,9 und 1,3 W/m2K",
+    "problem": "Kein Beleg auf den zulässigen Portalen, der Wert ist profil- und systemabhängig.",
+    "ersatz": "Der Uf-Wert marktüblicher Kunststoffprofile hängt von Kammernzahl und Profilbautiefe ab und ist nach DIN EN ISO 10077-2 für das konkrete Profil nachzuweisen, schlanke Standardprofile mit wenigen Kammern liegen deutlich ungünstiger."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10077-2, Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen, Berechnung des Wärmedurchgangskoeffizienten, Teil 2: Numerisches Verfahren für Rahmen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10077-2/388400131",
+    "stand": "Ausgabe 2025-06",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Zusammenhang von dunklem Farbton, Mindest-Hellbezugswert und Stahlverstärkung ist als Systemangabe richtig dargestellt."
+ },
+ {
+  "id": "kfe4rahmalu",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "erreichen Uf-Werte zwischen etwa 1,0 und 1,4 W/m2K",
+    "problem": "Kein Beleg auf den zulässigen Portalen, der Wert hängt an Stegbreite und Aufbau der thermischen Trennung.",
+    "ersatz": "Gut thermisch getrennte Aluminiumprofile erreichen deutlich günstigere Uf-Werte als einfach getrennte Ausführungen, nachzuweisen ist der Wert für das konkrete Profil nach DIN EN ISO 10077-2."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "liegt bei Standardfenstern meist zwischen 60 und 90 Millimetern",
+    "problem": "Kein Beleg auf den zulässigen Portalen für diesen Bereich.",
+    "ersatz": "Die Profilbautiefe richtet sich nach Systemaufbau und Statik, bei großformatigen Pfosten-Riegel- oder Hebeschiebeelementen liegt sie deutlich höher als beim Standardfenster."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10077-2, Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen, Berechnung des Wärmedurchgangskoeffizienten, Teil 2: Numerisches Verfahren für Rahmen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10077-2/388400131",
+    "stand": "Ausgabe 2025-06",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Aussage, dass einfach thermisch getrennte Profile heutige Neubaustandards kaum erreichen, ist plausibel, aber ebenfalls nicht belegt."
+ },
+ {
+  "id": "kfe4fix",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "weil weder Falzlüftung noch Beschlagsnut den Randverbund unterbrechen",
+    "problem": "Falzlüftung und Beschlagsnut berühren den Randverbund der Scheibe nicht, der bessere Uw-Wert kommt vom kleineren Rahmenanteil, weil Blend- und Flügelrahmen nicht nebeneinander liegen.",
+    "ersatz": "Der Uw-Wert einer Festverglasung liegt meist unter dem eines vergleichbaren Dreh-Kipp-Flügels, weil der Rahmenanteil kleiner ist: Blend- und Flügelrahmen liegen nicht nebeneinander, sodass mehr Fläche auf das besser dämmende Glas entfällt, gerechnet wird nach DIN EN ISO 10077-1."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "meist trocken verklotzt und zusätzlich versiegelt statt mit umlaufendem Beschlag gehalten",
+    "problem": "Auch im öffenbaren Flügel wird die Scheibe verklotzt und von Glasleisten gehalten, der Beschlag hält den Flügel und nicht die Scheibe.",
+    "ersatz": "Die Scheibe eines Fixfelds sitzt unmittelbar im Blendrahmen und wird nach den Regeln der Verglasungsrichtlinie verklotzt und von Glasleisten gehalten, bei großen Formaten ist die Klotzung statisch nachzuweisen."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10077-1, Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen, Berechnung des Wärmedurchgangskoeffizienten, Teil 1",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10077-1/325821586",
+    "stand": "Ausgabe 2020-10",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "BF-Richtlinie 022/2018, Verglasungsrichtlinie des Bundesverbandes Flachglas",
+    "u": "https://www.bundesverband-flachglas.de/wp-content/uploads/simple-file-list/bf-merkblaetter/BF-Merkblatt_022-2018_AEI1_02-2020_Verglasungsrichtlinie.pdf",
+    "stand": "Ausgabe 2018, Änderungsindex 1 vom Februar 2020",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Gewichtsaussage ist rechnerisch plausibel, Dreifachglas wiegt je Quadratmeter rund das Zweieinhalbfache seiner Gesamtglasdicke in Millimetern."
+ },
+ {
+  "id": "kfe6sicht",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "liegt am Glasrand meist zwischen 6 und 20 Millimetern, je nach Falztiefe und Glasleiste",
+    "problem": "Der Bereich vermischt zwei Maße: sichtbar wird die Bauhöhe des Abstandhalters in der Glasebene, während 20 mm der Breite des Scheibenzwischenraums entspricht, die frontal nicht als Linie erscheint.",
+    "ersatz": "Sichtbar wird nur der Teil des Abstandhalters, den Glasfalz und Glasleiste nicht verdecken, entscheidend sind die Bauhöhe des Profils in der Glasebene und der Glaseinstand nach Verglasungsrichtlinie, nicht die Breite des Scheibenzwischenraums."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BF-Richtlinie 022/2018, Verglasungsrichtlinie des Bundesverbandes Flachglas",
+    "u": "https://www.bundesverband-flachglas.de/wp-content/uploads/simple-file-list/bf-merkblaetter/BF-Merkblatt_022-2018_AEI1_02-2020_Verglasungsrichtlinie.pdf",
+    "stand": "Ausgabe 2018, Änderungsindex 1 vom Februar 2020",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Farbpalette und Sprossenaussage sind unkritisch, der Absprung auf eine Bemusterung im Gegenlicht ist richtig."
+ },
+ {
+  "id": "kfe4laibinnen",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "t3 nennt keine Zahlen und keine Normen, die Beschreibung von Anputz- und Kantenschutzprofil mit integriertem Dichtband und die Abstimmung der Laibungstiefe auf die Fensterbank sind fachlich richtig."
+ },
+ {
+  "id": "kfe4laibaussen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Das Anputzprofil sollte die Fassadendämmung um mehrere Zentimeter überlappen, damit an der Stoßstelle keine durchgehende Kältebrücke ohne Dämmüberdeckung entsteht.",
+    "problem": "Verwechselte Bauteile: überdeckt werden muss der Blendrahmen durch die Laibungsdämmung, das Anputzprofil stellt nur den beweglichen Anschluss zum Rahmen her, und Kältebrücke ist kein Fachbegriff.",
+    "ersatz": "Die Laibungsdämmung sollte den Blendrahmen um mehrere Zentimeter überdecken, damit am Übergang zur Fassadendämmung keine ungedämmte Wärmebrücke bleibt, das Anputzprofil stellt dabei nur den beweglichen Anschluss zum Rahmen her."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "meist 2 bis 4 Zentimeter dick ausgeführt",
+    "problem": "Kein Beleg auf den zulässigen Portalen, die Dicke folgt aus dem verfügbaren Platz und der Wärmebrückenberechnung.",
+    "ersatz": "Die Laibungsdämmung wird deutlich schlanker ausgeführt als die Hauptdämmung der Fassadenfläche, weil der verfügbare Platz in der Laibungstiefe begrenzt ist, die Dicke ergibt sich aus der Wärmebrückenberechnung."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108 Beiblatt 2, Wärmebrücken, Planungs- und Ausführungsbeispiele",
+    "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077",
+    "stand": "Ausgabe 2019-06, Berichtigung 1 vom 2025-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 10211, Wärmebrücken im Hochbau, Wärmeströme und Oberflächentemperaturen, detaillierte Berechnungen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Empfehlung, in der Laibung einen Dämmstoff mit niedrigerer Wärmeleitfähigkeit als im Hauptsystem einzusetzen, ist richtig."
+ },
+ {
+  "id": "kfe4laibvhf",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "dessen Querschnitt in Summe der übrigen Hinterlüftungsöffnungen der Fassade entsprechen sollte",
+    "problem": "Diese Regel gibt es nicht, Spaltbreite und Lüftungsquerschnitt der hinterlüfteten Außenwandbekleidung sind in DIN 18516-1 geregelt.",
+    "ersatz": "Die Hinterlüftungsebene wird an der Laibung nicht komplett verschlossen, sondern mit einem insektengeschützten Spalt weitergeführt, Spaltbreite und Lüftungsquerschnitt richten sich nach DIN 18516-1."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "ein Mindestgefälle von wenigen Grad zur Außenseite sowie eine Tropfkante mit einigen Millimetern Überstand",
+    "problem": "Kein Beleg auf den zulässigen Portalen für Gefälle und Überstand.",
+    "ersatz": "Das Laibungsblech erhält ein Gefälle zur Außenseite und eine Tropfkante mit Überstand, beide Maße gibt das Ausführungsdetail des Fassadenbauers vor, damit Wasser sicher von der Fassade weg abgeleitet wird statt an der Laibung herunterzulaufen."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18516-1, Außenwandbekleidungen, hinterlüftet, Teil 1: Anforderungen, Prüfgrundsätze",
+    "u": "https://www.dinmedia.de/en/standard/din-18516-1/382252032",
+    "stand": "Ausgabe 2024-10, ersetzt Ausgabe 2010-06",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Abstimmung der Bekleidungsfuge auf das Plattenraster ist richtig und unkritisch."
+ },
+ {
+  "id": "kfe4montagewand",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Der punktuelle Wärmebrückenverlustkoeffizient (Psi-Wert)",
+    "problem": "Psi ist der längenbezogene Wärmedurchgangskoeffizient, der punktbezogene heißt Chi, und der Fensteranschluss ist eine lineare Wärmebrücke.",
+    "ersatz": "Der längenbezogene Wärmedurchgangskoeffizient des Anschlusses, der Psi-Wert, liegt bei Montage in der Wandebene deutlich über dem einer vorgesetzten Montage in der Dämmebene, weil kaum Dämmstoff vor dem Rahmen liegt und die Wärme seitlich um den Rahmen fließt."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Ab hier: Wärmebrückenberechnung und Befestigungsnachweis des Fensterbauers.",
+    "problem": "Der Absprung nennt kein Berechnungsverfahren, maßgebend sind DIN EN ISO 10211 und die Planungsbeispiele in DIN 4108 Beiblatt 2.",
+    "ersatz": "Ab hier: Wärmebrückenberechnung nach DIN EN ISO 10211 mit den Planungsbeispielen aus DIN 4108 Beiblatt 2 und Befestigungsnachweis des Fensterbauers."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211, Wärmebrücken im Hochbau, Wärmeströme und Oberflächentemperaturen, detaillierte Berechnungen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2, Wärmebrücken, Planungs- und Ausführungsbeispiele",
+    "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077",
+    "stand": "Ausgabe 2019-06, Berichtigung 1 vom 2025-02",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Richtungsaussage, dass die Wandebene ungünstiger ist als die vorgesetzte Montage, stimmt."
+ }
+]

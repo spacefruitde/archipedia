@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt durch eine Fuge zwischen zwei Bauteilen: Hinterfüllprofil im Fugengrund, darüber die Fugenmasse, die nur an den beiden Flanken haftet">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- zwei Bauteile -->
+  <rect x="60" y="80" width="150" height="180" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="270" y="80" width="150" height="180" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Hinterfüllprofil -->
+  <circle cx="240" cy="170" r="28" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Fugenmasse: Akzent, zweiflankig haftend, konkav -->
+  <path d="M210 80 V120 Q240 150 270 120 V80 Z" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- dritte Flanke unten bewusst frei -->
+  <line x1="216" y1="138" x2="264" y2="138" stroke="#b05c3a" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <!-- Maß Breite und Tiefe der Fuge -->
+  <line x1="210" y1="50" x2="270" y2="50" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="210" y1="46" x2="210" y2="54" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="270" y1="46" x2="270" y2="54" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="190" y1="80" x2="190" y2="130" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="186" y1="80" x2="194" y2="80" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="186" y1="130" x2="194" y2="130" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Beschriftungen -->
+  <text x="240" y="36" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Fugenbreite</text>
+  <text x="178" y="110" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Tiefe der</text>
+  <text x="178" y="122" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Fugenmasse</text>
+  <line x1="262" y1="104" x2="330" y2="64" stroke="#b05c3a" stroke-width="1.1"/><circle cx="262" cy="104" r="1.6" fill="#b05c3a"/>
+  <text x="334" y="60" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Fugenmasse haftet nur</text>
+  <text x="334" y="72" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">an den zwei Flanken</text>
+  <line x1="240" y1="198" x2="240" y2="284" stroke="#1c1a17" stroke-width="1.1"/><circle cx="240" cy="198" r="1.6" fill="#1c1a17"/>
+  <text x="240" y="300" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Hinterfüllprofil: verhindert die dritte Flanke</text>
+  <text x="135" y="280" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Bauteil</text>
+</svg>

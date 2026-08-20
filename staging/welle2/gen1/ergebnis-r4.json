@@ -1,0 +1,284 @@
+[
+ {
+  "id": "efe1",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "dach",
+    "zitat": "Jede Änderung an Format oder Teilung nach Baueingabe betrifft Statik, Fassadenraster und Fensterbestellung gleichzeitig",
+    "problem": "Baueingabe ist der österreichische und schweizerische Begriff, in Deutschland heißt der Vorgang Bauantrag, und die Fensterbestellung liegt zeitlich weit hinter der Genehmigungsplanung, ist zu diesem Zeitpunkt also gar nicht betroffen.",
+    "ersatz": "Kostenlogik: Eine Änderung an Format oder Teilung nach eingereichtem Bauantrag, in Österreich und der Schweiz nach der Baueingabe, betrifft Statik, Fassadenraster und Genehmigung gleichzeitig und wird dadurch überproportional teuer; ist die Ausführungsplanung durch und das Fenster bestellt, kommen Umplanung und Stornokosten hinzu."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Der Satz in t1, der Entwurf entscheide über die Ansichtsbreite, steht in Spannung zu efe2detail, wo die Ansichtsbreite aus dem Konstruktionssystem folgt; sachlich setzt der Entwurf ein Ziel, das System liefert das Maß."
+ },
+ {
+  "id": "efe2format",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "desto mehr Einzelanfertigungen ersetzen die günstigere Serienfertigung gleicher Elemente",
+    "problem": "Fenster werden im DACH-Raum ohnehin auftragsbezogen nach Maß gefertigt, eine Serienfertigung gleicher Elemente gibt es im Regelfall nicht; das abweichende Maß kostet fast nichts, teuer wird die Vielfalt an Systemen, Öffnungsarten und Details.",
+    "ersatz": "Kostenlogik: Fenster werden ohnehin nach Maß gefertigt, teuer wird deshalb nicht das abweichende Maß, sondern die Vielfalt: Je mehr unterschiedliche Formate, Öffnungsarten und Sprossenteilungen ein Projekt enthält, desto mehr Aufwand entsteht bei Planung, Bemusterung, Beschlägen und Montage, und desto weniger Wiederholung entlastet den Preis."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Übrige Aussagen zu Reihung, Rhythmus und Grundrissabgleich geprüft, nichts gefunden."
+ },
+ {
+  "id": "efe3teilung",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "während die aufgesetzte Sprosse nur eine zusätzliche Profilleiste kostet",
+    "problem": "Die aufgesetzte Sprosse wird im Regelfall beidseitig aufgeklebt und mit einer Sprosse im Scheibenzwischenraum kombiniert, damit die Teilung auch in der Durchsicht steht; sie kostet also drei Bauteile je Feldgrenze, nicht eines.",
+    "ersatz": "Kostenlogik: Jede zusätzliche echte Sprosse vervielfacht die Anzahl der Glasfelder und damit die Kosten für Randverbund und Einbau, während die aufgesetzte Sprosse mit den beidseitigen Leisten und einer Sprosse im Scheibenzwischenraum auskommt und deutlich darunter bleibt."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "bei historisierenden oder kleinteiligen Fassaden gewinnt deshalb im Regelfall die aufgesetzte Sprosse",
+    "problem": "Für denkmalgeschützte Bauten verlangt die Denkmalpflege im Regelfall die glasteilende Sprosse; die Aussage gilt nur für Neubaufassaden und darf nicht als allgemeine Regel für historisierende Fassaden stehen.",
+    "ersatz": "bei historisierenden oder kleinteiligen Neubaufassaden gewinnt deshalb im Regelfall die aufgesetzte Sprosse, weil sie den Schattenwurf der echten Sprosse annähert, ohne deren Wärmebrücken und Mehrkosten je Feld, während im geschützten Bestand die glasteilende Sprosse gefordert bleibt."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Am maßstäblichen Schnitt oder Modell lässt sich diese Wirkung deshalb zuverlässiger prüfen als am Grundriss.",
+    "problem": "Der Schattenwurf einer Sprosse zeigt sich in der maßstäblichen Ansicht und im Detailschnitt der Sprosse; der Grundriss ist an dieser Stelle kein sinnvoller Vergleichsmaßstab, weil in ihm keine Sprosse vorkommt.",
+    "ersatz": "An der maßstäblichen Ansicht zusammen mit dem Detailschnitt der Sprosse lässt sich diese Wirkung deshalb zuverlässiger prüfen als an der schematischen Fassadenzeichnung."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Zuordnung der drei Ausführungsarten und die Aussage zum fehlenden Schatten der Sprosse im Scheibenzwischenraum sind fachlich richtig."
+ },
+ {
+  "id": "efe3reihung",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "gewinnt im Regelfall das Fensterband, weil es den Öffnungsanteil ohne zusätzliche Aussteifung maximiert",
+    "problem": "Das Fensterband nimmt der Fassade gerade die aussteifenden Wandscheiben; die horizontale Aussteifung entfällt dadurch nicht, sondern muss von Kernen, inneren Wandscheiben oder Rahmentragwerken übernommen und dort nachgewiesen werden.",
+    "ersatz": "im Bürobau mit Skelett- oder Stahlbetonrahmen gewinnt im Regelfall das Fensterband, weil die Stützen die vertikale Last übernehmen und die Fassade nicht mehr tragen muss; die Aussteifung wandert dafür in Kerne, innere Wandscheiben oder Rahmentragwerke und muss dort nachgewiesen werden."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "gewinnt deshalb im Regelfall die Lochfassade, weil sie ohne Sturzverstärkung auskommt",
+    "problem": "Auch die Lochfassade braucht über jeder Öffnung einen Sturz; sie kommt lediglich mit Standardstürzen aus statt mit durchlaufenden Unterzügen oder Stahlträgern.",
+    "ersatz": "Im mehrgeschossigen Wohnungsbau mit tragenden Wänden gewinnt deshalb im Regelfall die Lochfassade, weil ihre Öffnungen mit Standardstürzen auskommen und keine durchlaufenden Unterzüge verlangen."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "erhöht aber die Kosten für Verglasung, Sonnenschutz und die im Winter benötigte Heizleistung",
+    "problem": "Bei heutigen Verglasungen ist nicht die Heizlast im Winter, sondern der sommerliche Wärmeschutz mit Kühllast und Sonnenschutz der maßgebliche Kostentreiber eines hohen Öffnungsanteils.",
+    "ersatz": "Kostenlogik: Ein hoher Öffnungsanteil senkt die Kosten für Wandfläche, erhöht aber die Kosten für Verglasung, Sonnenschutz und die Kühllast im Sommer, sodass der Öffnungsanteil eine wirtschaftliche Obergrenze hat, keinen gestalterischen Freifahrtschein."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Beschreibung der drei Anordnungstypen und ihre Abhängigkeit vom Tragwerk sind richtig."
+ },
+ {
+  "id": "efe2laibung",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "während dünnwandige Konstruktionen die fassadenbündige Lage brauchen, um überhaupt Tiefe zu erzeugen",
+    "problem": "Die fassadenbündige Lage lässt die Laibung gerade verschwinden und erzeugt keine Tiefe; der Satz widerspricht dem Kindknoten efe3buendig, der dieselbe Lage ausdrücklich als flächige, tiefenlose dünne Haut beschreibt.",
+    "ersatz": "während dünnwandige Konstruktionen die Tiefe erst über eine vorgesetzte Rahmung oder eine nach innen gerückte Fensterebene erzeugen müssen und sonst flächig bleiben."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "es sitzt fassadenbündig in der Dämmebene und wirkt flächig",
+    "problem": "Fassadenbündig meint die Ebene der äußeren Bekleidung oder des Putzes, die Dämmebene liegt bei außen gedämmten Wänden dahinter; beide Begriffe fallen nur bei sehr dünner Außenschicht zusammen, und efe3laibtief verwendet die Dämmebene folgerichtig auch innerhalb einer tiefen Laibung.",
+    "ersatz": "es sitzt bündig mit der äußeren Bekleidungs- oder Putzebene und wirkt flächig"
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "bei massiven, dickeren Außenwänden gewinnt im Regelfall die tiefe Laibung, weil sie ohne zusätzlichen Aufwand vorhanden ist",
+    "problem": "Bei außen gedämmten Massivwänden ist die tiefe Laibung nicht aufwandsfrei, weil die Fensterebene dann von der Dämmebene abrückt; efe3laibtief nennt genau diesen Mehraufwand als harte Grenze.",
+    "ersatz": "bei massiven, dickeren Außenwänden gewinnt im Regelfall die tiefe Laibung, weil die Wandstärke sie ohne zusätzliche Bauteile hergibt, solange die Fensterebene nahe an der Dämmebene bleibt"
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Wirkungsbeschreibung von Tiefe, Schatten und abgelesener Masse ist tragfähig; die Fehler liegen sämtlich in der Zuordnung der Einbaulagen."
+ },
+ {
+  "id": "efe3laibtief",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "gewinnt deshalb im Regelfall die mittige bis außenbündige Lage in der Dämmebene",
+    "problem": "Mittig in der Massivwand ist nicht die Dämmebene; bei außen gedämmten Massivwänden liegt die wärmebrückenarme Position an der äußeren Kante der tragenden Wand mit überdämmtem Rahmen oder als Vorwandmontage in der Dämmebene selbst.",
+    "ersatz": "bei außen gedämmten Massivwänden gewinnt deshalb im Regelfall die Lage an der äußeren Kante der tragenden Wand mit überdämmtem Rahmen oder die Vorwandmontage in der Dämmebene, nicht die rein gestalterisch tiefste Position."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "erzeugt einen zusätzlichen Dämmkeil oder eine Laibungsdämmung, deren Ausführung Mehrkosten gegenüber der einfachen Lage in der Ebene verursacht",
+    "problem": "Ein Dämmkeil ist kein Bauteil des Fensteranschlusses, und die Laibungsdämmung ist bei außen gedämmten Wänden ohnehin Standard; der Mehraufwand entsteht durch ihre größere Fläche und den genaueren Wärmebrückennachweis.",
+    "ersatz": "Kostenlogik: Je weiter die Fensterebene von der Dämmebene abrückt, desto mehr Laibungs- und Sturzdämmung wird nötig und desto genauer muss der Anschluss wärmebrückentechnisch nachgewiesen werden, was gegenüber der einfachen Lage in der Ebene Mehrkosten verursacht."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "sodass Sturz, Brüstung und seitliche Laibungsflächen als eigene, licht- und schattenwerfende Flächen sichtbar werden",
+    "problem": "Sichtbar wird unten nicht die Brüstung, sondern die untere Laibung mit der äußeren Fensterbank; die Brüstung ist die Wand unterhalb des Fensters und liegt in der Fassadenebene.",
+    "ersatz": "sodass die obere Laibung am Sturz, die untere Laibung mit der äußeren Fensterbank und die seitlichen Laibungsflächen als eigene, licht- und schattenwerfende Flächen sichtbar werden"
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Regel, das Fenster nahe der Dämmebene zu setzen, und der Zusammenhang zwischen Fensterebene und sichtbarer Laibungslänge sind richtig."
+ },
+ {
+  "id": "efe3buendig",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "das Fenster sitzt in der tragenden Wandebene und die Bekleidung wird bis an den Rahmen herangeführt",
+    "problem": "Bei einer gedämmten oder vorgehängten Fassade liegt der Rahmen dann um Dämmung und Hinterlüftung hinter der Bekleidungsebene, also gerade nicht bündig; dieser Weg trägt nur bei monolithischen oder außen nur dünn beschichteten Wänden.",
+    "ersatz": "Für die fassadenbündige Lage stehen zwei technische Wege offen: bei monolithischen Wänden ohne dicke Außenschicht sitzt das Fenster in der Wandebene und der Putz läuft bis an den Rahmen, bei gedämmten Wänden muss das Fenster auf Konsolen vor die tragende Wand gesetzt werden, damit es die Ebene der Bekleidung überhaupt erreicht."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "etwa vorgehängte oder hinterlüftete Konstruktionen",
+    "problem": "Die vorgehängte hinterlüftete Fassade ist ein Konstruktionstyp und kein Gegensatzpaar aus vorgehängt und hinterlüftet.",
+    "ersatz": "etwa vorgehängte hinterlüftete Fassaden oder Vorhangfassaden."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Der Knoten nennt die Fuge zwischen Rahmen und Bekleidung nur als Gestaltungsthema; fachlich ist sie zugleich die schlagregen- und luftdichte Anschlussfuge, die in der bündigen Lage ohne schützende Laibung auskommen muss, was ein Hinweis wert wäre."
+ },
+ {
+  "id": "efe3sitz",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "klärt sich erst im Abgleich mit der zulässigen Brüstungshöhe",
+    "problem": "Es gibt keine zulässige, sondern eine erforderliche Mindesthöhe der Absturzsicherung, und sie wird von der Standfläche aus gemessen, sodass die Sitzfläche der Nische die Bezugsebene anhebt und die verbleibende Höhe verkleinert.",
+    "ersatz": "Ob die Nische im Obergeschoss ohne zusätzliche Sicherung auskommt, klärt sich erst im Abgleich mit der erforderlichen Höhe der Absturzsicherung, denn diese wird von der Standfläche aus gemessen: Die Sitzfläche hebt die Bezugsebene an und verkleinert die verbleibende Höhe entsprechend."
+   },
+   {
+    "feld": "t2",
+    "art": "dach",
+    "zitat": "im Abgleich mit der zulässigen Brüstungshöhe",
+    "problem": "Die Anforderung ist länderabhängig und wird hier als allgemeingültig ausgegeben: Nordrhein-Westfalen verlangt für Fensterbrüstungen 0,80 m bis 12 m Absturzhöhe und 0,90 m darüber, Österreich 1,00 m und ab 12 m 1,10 m von der Standfläche, mit Abminderung um die halbe Brüstungstiefe ab 20 cm Tiefe und einem Mindestmaß von 85 cm, die Schweiz regelt es über eine eigene Norm.",
+    "ersatz": "Wie hoch die Sicherung sein muss und ob eine tiefe Brüstung angerechnet werden darf, ist unterschiedlich geregelt, in Deutschland über die jeweilige Landesbauordnung, in Österreich über die OIB-Richtlinie 4 und in der Schweiz über die Norm SIA 358."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BauO NRW 2018, § 37 (Fenster, Türen, sonstige Öffnungen)",
+    "u": "https://recht.nrw.de/lrgv/gesetz/01012024-bauordnung-fuer-das-land-nordrhein-westfalen-landesbauordnung-2018-bauo-nrw/",
+    "stand": "Landesbauordnung 2018 vom 21.07.2018, Fassung gültig ab 01.01.2024 (zuletzt geändert durch Gesetz vom 31.10.2023); Nachfolgefassung gültig ab 01.09.2026",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB-Richtlinie 4, Nutzungssicherheit und Barrierefreiheit, Punkt 4.1 und 4.2",
+    "u": "https://www.oib.or.at/wp-content/uploads/richtlinien/richtlinie_2023/oib-rl_4_ausgabe_mai_2023.pdf",
+    "stand": "Ausgabe Mai 2023",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 358, Geländer und Brüstungen",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20358/dfi/D/Product",
+    "stand": "Ausgabe 2010, gültig ab 01.03.2010, Revision 1 vom 01.05.2011",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Knoten braucht ein dach-Feld; gerade die österreichische Abminderungsregel für Brüstungen ab 20 cm Tiefe ist für das Sitzfenster der entscheidende Unterschied und fehlt vollständig."
+ },
+ {
+  "id": "efe2detail",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Aussagen zu Mindestquerschnitt, Prospektmaß gegen tatsächliche Flügelgröße und Preis schlanker Profile geprüft, nichts gefunden."
+ },
+ {
+  "id": "efe3rahmenschmal",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "wo eine mechanische Lüftung die natürliche Fensterlüftung ersetzt, gewinnt im Regelfall die Festverglasung",
+    "problem": "Die Lüftung ist nicht das einzige Kriterium: Führt der zweite Rettungsweg eines Aufenthaltsraums über das Fenster, verlangt die Bauordnung unabhängig von der Lüftungsanlage ein zu öffnendes Fenster mit festgelegtem lichtem Mindestmaß und begrenzter Brüstungshöhe.",
+    "ersatz": "Ausschlaggebend sind deshalb der tatsächliche Lüftungsbedarf des Raumes und der zweite Rettungsweg; wo eine mechanische Lüftung die Fensterlüftung ersetzt und der Rettungsweg nicht über das Fenster führt, gewinnt im Regelfall die Festverglasung, sonst bleibt mindestens ein zu öffnender Flügel mit verdeckter Ansicht nötig."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Häufigster Fehler ist, ein komplett festverglastes Fenster in einen Raum ohne mechanische Lüftung zu planen und die Reinigung von außen dabei zu übersehen.",
+    "problem": "Der häufigere und folgenschwerere Fehler ist das festverglaste Fenster in einem Aufenthaltsraum, dessen zweiter Rettungsweg über dieses Fenster geführt werden muss; die Reinigung ist demgegenüber nachrangig.",
+    "ersatz": "Häufigster Fehler ist, ein komplett festverglastes Fenster in einen Aufenthaltsraum zu planen, dessen zweiter Rettungsweg über das Fenster führt oder der ohne mechanische Lüftung auskommen muss, und dabei auch die Reinigung von außen zu übersehen."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BauO NRW 2018, § 37 (Fenster, Türen, sonstige Öffnungen)",
+    "u": "https://recht.nrw.de/lrgv/gesetz/01012024-bauordnung-fuer-das-land-nordrhein-westfalen-landesbauordnung-2018-bauo-nrw/",
+    "stand": "Landesbauordnung 2018 vom 21.07.2018, Fassung gültig ab 01.01.2024 (zuletzt geändert durch Gesetz vom 31.10.2023); Nachfolgefassung gültig ab 01.09.2026",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Beschreibung des verdeckt liegenden Blendrahmens und der schmalsten Ansicht durch Festverglasung sind fachlich richtig; das Rettungswegmaß ist länderweise unterschiedlich und gehört bei Vertiefung in ein dach-Feld."
+ },
+ {
+  "id": "efe3material",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Wartungsarme Materialien haben meist höhere Anschaffungskosten und niedrigere Folgekosten",
+    "problem": "Das gilt nicht allgemein: Kunststoffrahmen sind zugleich die wartungsärmsten und die günstigsten in der Anschaffung, während gerade sie sich am Ende der Nutzungsdauer nicht instandsetzen lassen.",
+    "ersatz": "Kostenlogik: Pflegebedarf und Anschaffungspreis laufen nicht parallel; Kunststoffrahmen sind günstig und wartungsarm, lassen sich aber nicht instandsetzen, Holzrahmen liegen im Preis darüber und verlangen wiederkehrende Pflege, Holz-Aluminium und schmale Metallsysteme kosten am meisten und verschieben den Aufwand fast vollständig in die Anschaffung."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Wirkungszuschreibungen zu Holz, Aluminium und Kunststoff sind als Entwurfsaussage vertretbar; die Aussage zur Reparaturfähigkeit von Aluminium betrifft genau genommen die Beschichtung, nicht das Profil."
+ },
+ {
+  "id": "efe3ecke",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "werden über eine geklebte oder verklotzte Eckfuge verbunden",
+    "problem": "Verklotzung bezeichnet die Lastübertragung der Scheibe im Rahmenfalz und ist keine Eckverbindung; die rahmenlose Ecke wird als stumpf gestoßene, dauerelastisch verklebte Fuge ausgeführt und setzt beidseitig Festverglasung voraus, weil ein Flügel an dieser Kante keinen Anschlag findet.",
+    "ersatz": "oder die Scheiben stoßen ohne Pfosten stumpf aneinander und werden über eine dauerelastisch verklebte Eckfuge verbunden, was auf beiden Seiten Festverglasung voraussetzt."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "während eine Ecke ohne zurückversetzte Stütze den sichtbaren Pfosten aus statischen Gründen meist braucht",
+    "problem": "Ein Fensterpfosten trägt Glasgewicht und Windlast, aber keine Geschosslasten; wo an der Ecke Lasten abgetragen werden müssen, braucht es eine tragende Stütze im oder hinter dem Profil, kein Rahmenprofil.",
+    "ersatz": "während eine Ecke, über der Geschosslasten stehen, eine tragende Stütze braucht, die entweder sichtbar in der Ecke steht oder deren Last über einen Unterzug ausgekragt wird; das Rahmenprofil selbst trägt nur Glasgewicht und Windlast."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Aussage, die rahmenlose Ecke verlange eigene statische Bemessung und aufwendigere Abdichtung, ist richtig; ebenso der Vorrang der Tragwerksfrage vor der Profilwahl."
+ }
+]

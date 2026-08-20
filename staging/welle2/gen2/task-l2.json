@@ -1,0 +1,501 @@
+[
+ {
+  "id": "eli4orientierung",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3anteil",
+  "t": "Öffnungsanteil nach Himmelsrichtung",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "pna2energie",
+    "t": "Energierecht"
+   },
+   {
+    "id": "kfe4gwert",
+    "t": "g-Wert, Lichttransmission und Selektivität"
+   }
+  ],
+  "eltern": {
+   "id": "eli3anteil",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Öffnungsanteil und Fassadencharakter",
+   "t1": "Der Anteil verglaster Fläche an der Fassade ist nicht nur eine Energiefrage, er bestimmt auch, ob eine Fassade als massiv oder als leicht gelesen wird. Ein hoher Glasanteil ist keine automatische Qualität, wenn er Blendung und sommerliche Überhitzung erst nachträglich lösen muss."
+  },
+  "geschwister": [
+   {
+    "id": "eli4kennwerte",
+    "t": "Tageslichtquotient und andere Kennwerte",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4kennwerte",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3anteil",
+  "t": "Tageslichtquotient und andere Kennwerte",
+  "t3": false,
+  "dach": false,
+  "hint": "Kennwerte nennen (Tageslichtquotient, Tageslichtversorgung), Normen als Orientierung in pruefen, DE/AT/CH unterschiedlich: im Text benennen, kein dach-Feld (Entwurf).",
+  "lnKandidaten": [
+   {
+    "id": "pna3nachweis",
+    "t": "Energieausweis und Nachweisverfahren"
+   },
+   {
+    "id": "pba2ordnungsr",
+    "t": "Bauordnungsrecht"
+   }
+  ],
+  "eltern": {
+   "id": "eli3anteil",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Öffnungsanteil und Fassadencharakter",
+   "t1": "Der Anteil verglaster Fläche an der Fassade ist nicht nur eine Energiefrage, er bestimmt auch, ob eine Fassade als massiv oder als leicht gelesen wird. Ein hoher Glasanteil ist keine automatische Qualität, wenn er Blendung und sommerliche Überhitzung erst nachträglich lösen muss."
+  },
+  "geschwister": [
+   {
+    "id": "eli4orientierung",
+    "t": "Öffnungsanteil nach Himmelsrichtung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4liegend",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3format",
+  "t": "Liegend: Horizont und Panorama",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "efe2format",
+    "t": "Teilung, Rhythmus und Reihung"
+   },
+   {
+    "id": "kfe4fix",
+    "t": "Festverglasung und Fixfelder"
+   }
+  ],
+  "eltern": {
+   "id": "eli3format",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Fensterformat: liegend, stehend, raumhoch",
+   "t1": "Das Format entscheidet weniger über die Lichtmenge als darüber, was man sieht und was man noch an die Wand stellen kann: Ein liegendes Fenster rahmt den Ausblick auf Augenhöhe und verbraucht Wandfläche, ein stehendes bringt Licht tiefer in den Raum und lässt Möblierung übrig, ein raumhohes Element zieht den Boden nach draußen. Die Wahl sollte deshalb aus der Nutzung des Raums und aus dem Ausblick begründet sein, nicht allein aus dem Fassadenbild. Raumhohe Verglasung zieht außerdem die Frage der Absturzsicherung nach sich, die das schöne Bild schnell wieder teilt."
+  },
+  "geschwister": [
+   {
+    "id": "eli4stehend",
+    "t": "Stehend: Aufrichtung und Tiefe",
+    "neu": true
+   },
+   {
+    "id": "eli4raumhoch",
+    "t": "Raumhoch: die Schwelle zum Außenraum",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4stehend",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3format",
+  "t": "Stehend: Aufrichtung und Tiefe",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "efe2format",
+    "t": "Teilung, Rhythmus und Reihung"
+   },
+   {
+    "id": "erp1",
+    "t": "Raum und Proportion"
+   }
+  ],
+  "eltern": {
+   "id": "eli3format",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Fensterformat: liegend, stehend, raumhoch",
+   "t1": "Das Format entscheidet weniger über die Lichtmenge als darüber, was man sieht und was man noch an die Wand stellen kann: Ein liegendes Fenster rahmt den Ausblick auf Augenhöhe und verbraucht Wandfläche, ein stehendes bringt Licht tiefer in den Raum und lässt Möblierung übrig, ein raumhohes Element zieht den Boden nach draußen. Die Wahl sollte deshalb aus der Nutzung des Raums und aus dem Ausblick begründet sein, nicht allein aus dem Fassadenbild. Raumhohe Verglasung zieht außerdem die Frage der Absturzsicherung nach sich, die das schöne Bild schnell wieder teilt."
+  },
+  "geschwister": [
+   {
+    "id": "eli4liegend",
+    "t": "Liegend: Horizont und Panorama",
+    "neu": true
+   },
+   {
+    "id": "eli4raumhoch",
+    "t": "Raumhoch: die Schwelle zum Außenraum",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4raumhoch",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3format",
+  "t": "Raumhoch: die Schwelle zum Außenraum",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe4bodentief",
+    "t": "Bodentiefe Fenster: Lösungen im Vergleich"
+   },
+   {
+    "id": "esw1",
+    "t": "Schwelle und Übergang"
+   }
+  ],
+  "eltern": {
+   "id": "eli3format",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Fensterformat: liegend, stehend, raumhoch",
+   "t1": "Das Format entscheidet weniger über die Lichtmenge als darüber, was man sieht und was man noch an die Wand stellen kann: Ein liegendes Fenster rahmt den Ausblick auf Augenhöhe und verbraucht Wandfläche, ein stehendes bringt Licht tiefer in den Raum und lässt Möblierung übrig, ein raumhohes Element zieht den Boden nach draußen. Die Wahl sollte deshalb aus der Nutzung des Raums und aus dem Ausblick begründet sein, nicht allein aus dem Fassadenbild. Raumhohe Verglasung zieht außerdem die Frage der Absturzsicherung nach sich, die das schöne Bild schnell wieder teilt."
+  },
+  "geschwister": [
+   {
+    "id": "eli4liegend",
+    "t": "Liegend: Horizont und Panorama",
+    "neu": true
+   },
+   {
+    "id": "eli4stehend",
+    "t": "Stehend: Aufrichtung und Tiefe",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4bildtraeger",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3wandanteil",
+  "t": "Die Wand als Bildträger",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ema1",
+    "t": "Material und Fügung"
+   },
+   {
+    "id": "eor1",
+    "t": "Ordnung und Struktur"
+   }
+  ],
+  "eltern": {
+   "id": "eli3wandanteil",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Die geschlossene Wand als Gegenpart",
+   "t1": "Wo eine Fassade nur noch aus Öffnungen bestünde, verliert sie ihre Fähigkeit, Rückzug und Geborgenheit anzubieten: Die geschlossene Wandfläche ist kein Rest, sondern eine eigenständige Entscheidung neben dem Fenster."
+  },
+  "geschwister": [
+   {
+    "id": "eli4strasse",
+    "t": "Geschlossene Fassade zur Straße",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4strasse",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3wandanteil",
+  "t": "Geschlossene Fassade zur Straße",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "eko1",
+    "t": "Kontext und Ort"
+   },
+   {
+    "id": "eli3privat",
+    "t": "Öffnung und Einsichtnahme"
+   }
+  ],
+  "eltern": {
+   "id": "eli3wandanteil",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Die geschlossene Wand als Gegenpart",
+   "t1": "Wo eine Fassade nur noch aus Öffnungen bestünde, verliert sie ihre Fähigkeit, Rückzug und Geborgenheit anzubieten: Die geschlossene Wandfläche ist kein Rest, sondern eine eigenständige Entscheidung neben dem Fenster."
+  },
+  "geschwister": [
+   {
+    "id": "eli4bildtraeger",
+    "t": "Die Wand als Bildträger",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4sichtschutz",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3privat",
+  "t": "Sichtschutz durch Höhe, Lage und Filter",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfe3innenliegend",
+    "t": "Innenliegender und integrierter Sonnenschutz"
+   },
+   {
+    "id": "efe2laibung",
+    "t": "Laibung, Tiefe und Schatten"
+   }
+  ],
+  "eltern": {
+   "id": "eli3privat",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Öffnung und Einsichtnahme",
+   "t1": "Je größer und tiefer eine Öffnung, desto genauer muss geklärt sein, wer von außen hineinsieht und wann. Brüstungshöhe, Verglasungsart und Ausrichtung sind die eigentlichen Stellschrauben, lange bevor ein Vorhang gebraucht wird."
+  },
+  "geschwister": [
+   {
+    "id": "eli4nachteinblick",
+    "t": "Einblick von außen bei Nacht",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4nachteinblick",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3privat",
+  "t": "Einblick von außen bei Nacht",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "eli3fassnacht",
+    "t": "Fassaden und Wege bei Nacht"
+   },
+   {
+    "id": "eli2kunst",
+    "t": "Kunstlicht als Architektur"
+   }
+  ],
+  "eltern": {
+   "id": "eli3privat",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2verh",
+   "t": "Öffnung und Einsichtnahme",
+   "t1": "Je größer und tiefer eine Öffnung, desto genauer muss geklärt sein, wer von außen hineinsieht und wann. Brüstungshöhe, Verglasungsart und Ausrichtung sind die eigentlichen Stellschrauben, lange bevor ein Vorhang gebraucht wird."
+  },
+  "geschwister": [
+   {
+    "id": "eli4sichtschutz",
+    "t": "Sichtschutz durch Höhe, Lage und Filter",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4schichten",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3grundlicht",
+  "t": "Lichtschichten: Grund, Akzent, Orientierung",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   },
+   {
+    "id": "eer1",
+    "t": "Erschließung und Bewegung"
+   }
+  ],
+  "eltern": {
+   "id": "eli3grundlicht",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2kunst",
+   "t": "Grundlicht und Akzentlicht",
+   "t1": "Eine gleichmäßige Grundhelligkeit macht einen Raum benutzbar, aber selten interessant: Erst gezielt gesetztes Akzentlicht auf Wand, Material oder Objekt gibt einem Kunstlichtkonzept eine eigene Architektur."
+  },
+  "geschwister": [
+   {
+    "id": "eli4lichtfarbe",
+    "t": "Lichtfarbe und Farbwiedergabe",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4lichtfarbe",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3grundlicht",
+  "t": "Lichtfarbe und Farbwiedergabe",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "ema3licht",
+    "t": "Farbe im Licht über den Tag"
+   },
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   }
+  ],
+  "eltern": {
+   "id": "eli3grundlicht",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2kunst",
+   "t": "Grundlicht und Akzentlicht",
+   "t1": "Eine gleichmäßige Grundhelligkeit macht einen Raum benutzbar, aber selten interessant: Erst gezielt gesetztes Akzentlicht auf Wand, Material oder Objekt gibt einem Kunstlichtkonzept eine eigene Architektur."
+  },
+  "geschwister": [
+   {
+    "id": "eli4schichten",
+    "t": "Lichtschichten: Grund, Akzent, Orientierung",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4voute",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3indirekt",
+  "t": "Voute und Lichtdecke",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kde1",
+    "t": "Deckenbekleidungen und Akustik"
+   },
+   {
+    "id": "ktg1",
+    "t": "Technische Gebäudeausrüstung"
+   }
+  ],
+  "eltern": {
+   "id": "eli3indirekt",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2kunst",
+   "t": "Indirektes Licht",
+   "t1": "Licht, das über eine Fläche reflektiert statt direkt zu blenden, wirkt weicher und lässt die Lichtquelle selbst verschwinden. Dieses Prinzip verlangt aber Disziplin in der Detailplanung, sonst wird aus der eleganten Lichtvoute ein sichtbarer Blechkasten."
+  },
+  "geschwister": []
+ },
+ {
+  "id": "eli4anstrahlen",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3fassnacht",
+  "t": "Fassadenlicht: anstrahlen oder durchleuchten",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "kfa1",
+    "t": "Außenwand und Fassade"
+   },
+   {
+    "id": "eko1",
+    "t": "Kontext und Ort"
+   }
+  ],
+  "eltern": {
+   "id": "eli3fassnacht",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2kunst",
+   "t": "Fassaden und Wege bei Nacht",
+   "t1": "Ein Gebäude, das bei Nacht nur seine Fenster zeigt, verschwindet im Stadtraum; gezielt beleuchtete Eingänge, Wege oder Fassadenausschnitte geben Orientierung und Sicherheit, ohne den Nachthimmel zu fluten."
+  },
+  "geschwister": [
+   {
+    "id": "eli4lichtverschmutzung",
+    "t": "Lichtverschmutzung und Nachbarschaft",
+    "neu": true
+   }
+  ]
+ },
+ {
+  "id": "eli4lichtverschmutzung",
+  "p": "e",
+  "lv": 4,
+  "pa": "eli3fassnacht",
+  "t": "Lichtverschmutzung und Nachbarschaft",
+  "t3": false,
+  "dach": false,
+  "hint": null,
+  "lnKandidaten": [
+   {
+    "id": "pba2abstand",
+    "t": "Abstandsflächen und Nachbarrecht"
+   },
+   {
+    "id": "pba2ordnungsr",
+    "t": "Bauordnungsrecht"
+   }
+  ],
+  "eltern": {
+   "id": "eli3fassnacht",
+   "p": "e",
+   "lv": 3,
+   "pa": "eli2kunst",
+   "t": "Fassaden und Wege bei Nacht",
+   "t1": "Ein Gebäude, das bei Nacht nur seine Fenster zeigt, verschwindet im Stadtraum; gezielt beleuchtete Eingänge, Wege oder Fassadenausschnitte geben Orientierung und Sicherheit, ohne den Nachthimmel zu fluten."
+  },
+  "geschwister": [
+   {
+    "id": "eli4anstrahlen",
+    "t": "Fassadenlicht: anstrahlen oder durchleuchten",
+    "neu": true
+   }
+  ]
+ }
+]

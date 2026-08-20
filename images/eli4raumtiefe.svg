@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Raumschnitt mit einseitigem Fenster: Das Tageslicht reicht etwa bis zur doppelten Sturzhöhe in die Tiefe, dahinter wird es dunkel">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Boden und Decke -->
+  <rect x="40" y="240" width="400" height="20" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="40" y="60" width="400" height="20" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Außenwand mit Fenster links -->
+  <rect x="40" y="80" width="24" height="40" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="40" y="200" width="24" height="40" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="48" y="120" width="8" height="80" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Lichtzone: Akzentfläche, abnehmend -->
+  <path d="M64 120 L290 240 H64 Z" fill="#b05c3a" fill-opacity="0.18" stroke="none"/>
+  <path d="M64 120 L290 240" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Maß Sturzhöhe h und Tiefe 2h -->
+  <line x1="90" y1="120" x2="90" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="86" y1="120" x2="94" y2="120" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="86" y1="240" x2="94" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="64" y1="280" x2="290" y2="280" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="64" y1="276" x2="64" y2="284" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="290" y1="276" x2="290" y2="284" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Beschriftungen -->
+  <text x="104" y="184" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Sturzhöhe h</text>
+  <text x="177" y="300" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">nutzbare Tageslichttiefe etwa 2 h</text>
+  <line x1="180" y1="180" x2="230" y2="130" stroke="#b05c3a" stroke-width="1.1"/><circle cx="180" cy="180" r="1.6" fill="#b05c3a"/>
+  <text x="234" y="126" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Tageslicht, nach hinten abnehmend</text>
+  <text x="370" y="190" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Raumtiefe ohne Tageslicht:</text>
+  <text x="370" y="202" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Kunstlicht am Tag</text>
+  <text x="30" y="160" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17" transform="rotate(-90 30 160)">außen</text>
+</svg>
