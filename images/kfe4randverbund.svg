@@ -23,8 +23,6 @@
   <rect x="202" y="172" width="6" height="34" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
   <rect x="272" y="172" width="6" height="34" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
   <!-- Beschriftungen -->
-  <text x="240" y="18" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Scheibenzwischenraum</text>
-  <line x1="240" y1="22" x2="240" y2="60" stroke="#1c1a17" stroke-width="1.1"/><circle cx="240" cy="60" r="1.6" fill="#1c1a17"/>
 
   <line x1="196" y1="90" x2="150" y2="76" stroke="#1c1a17" stroke-width="1.1"/><circle cx="196" cy="90" r="1.6" fill="#1c1a17"/>
   <text x="144" y="72" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Scheibe</text>
@@ -36,8 +34,14 @@
   <line x1="275" y1="196" x2="330" y2="196" stroke="#b05c3a" stroke-width="1.1"/><circle cx="275" cy="196" r="1.6" fill="#b05c3a"/>
   <text x="336" y="200" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Primärdichtung Butyl</text>
 
-  <line x1="262" y1="220" x2="330" y2="246" stroke="#1c1a17" stroke-width="1.1"/><circle cx="262" cy="220" r="1.6" fill="#1c1a17"/>
-  <text x="336" y="250" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Sekundärdichtung</text>
+  <line x1="262" y1="220" x2="330" y2="228" stroke="#1c1a17" stroke-width="1.1"/><circle cx="262" cy="220" r="1.6" fill="#1c1a17"/>
+  <text x="336" y="232" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Sekundärdichtung</text>
+  <!-- Maßlinie Glaseinstand ohne Zahl: Falzoberkante bis Glaskante -->
+  <line x1="300" y1="238" x2="300" y2="262" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="296" y1="238" x2="304" y2="238" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="296" y1="262" x2="304" y2="262" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="304" y1="250" x2="330" y2="256" stroke="#1c1a17" stroke-width="1.1"/><circle cx="304" cy="250" r="1.6" fill="#1c1a17"/>
+  <text x="336" y="260" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Glaseinstand</text>
 
   <line x1="184" y1="270" x2="150" y2="270" stroke="#1c1a17" stroke-width="1.1"/><circle cx="184" cy="270" r="1.6" fill="#1c1a17"/>
   <text x="144" y="274" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Glasfalz des Rahmens</text>

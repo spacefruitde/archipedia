@@ -308,7 +308,7 @@ const home = `<section id="home">
   <div class="shell">
   <div class="sekt">
     <h2 class="h2g">Vier Perspektiven</h2>
-    <p class="sekt-lead">Dieselbe Sache, vier Blickwinkel, sieben Auflösungen. Sie steigen ein, wo Ihre Frage liegt.</p>
+    <p class="sekt-lead">Dieselbe Sache, vier Blickwinkel, bis zu sieben Auflösungen. Sie steigen ein, wo Ihre Frage liegt.</p>
     <div class="praster">${PORDER.map((p,i)=>`<a class="pkarte" href="#persp-${p}" style="background:${colOf(p)}">
       <span class="pnr">0${i+1}</span>
       <span><span class="pname">${P[p].name}</span>

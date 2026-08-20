@@ -38,3 +38,21 @@ Lies nur den einen Strang, von „Wärmeschutzverglasung" bis „LV-Position: Wa
 4. **Die zwei neuen Schemazeichnungen:** Tragen sie das Prinzip, oder dekorieren sie?
 
 Format wie beim ersten Mal: kurz, messbar, ohne Höflichkeit. Was nicht trägt, zuerst.
+
+---
+
+## Nachtrag: Reaktion auf die fachliche Gegenlesung (Runde 2, 20.08.2026)
+
+Korrigiert (alle live):
+1. Psi-Grenzwert „höchstens 0,04 W/mK" aus Vordersatz und Zulagemuster entfernt; stattdessen Kriterium Σ(d·λ) ≤ 0,007 W/K nach DIN EN ISO 10077-1 Anhang G plus repräsentativer Psi-Wert des eingesetzten Systems nach BF-Datenblatt, Nachweis mit dem Angebot. Hinweis ergänzt, dass ein fester Grenzwert nur differenziert nach Rahmenwerkstoff und Scheibenzahl sinnvoll ist.
+2. „Dreifachverglasung jeweils am oberen Ende" auf Aluminium beschränkt; warme Kante jetzt „etwa 0,03 bis 0,045 W/mK je nach System und Rahmenwerkstoff, Dreifach geringfügig unter Zweifach". Aluminium „rund 0,07 bis 0,11". Uw-Gewinn am Normfenster „rund 0,1 W/m²K".
+3. Farbwiderspruch aufgelöst: beide Texte „nach Bemusterung aus dem Standardprogramm".
+4. Werkstoffvorgabe „Edelstahl oder Kunststoffverbund" gestrichen, Kriterium allein.
+5. DIN EN 14351-1 benannt und als Quelle an E6 und E7 (Ausgabe 2016-12).
+6. VOB/A § 7 im T3 der E7 als Grundlage zitiert, Quelle Bekanntmachung 2019 (verwaltungsvorschriften-im-internet.de).
+7. „höchstens 1 Prozent" Gasverlustrate gestrichen; Text nennt jetzt nur die geänderte Anforderung der Ausgabe 2018 (BF-Information 020-2021).
+8. Anhang G an allen Stellen ergänzt, an denen das 0,007-W/K-Kriterium steht.
+9. Zeichnung Taupunktisotherme neu: Rahmen mit Glasfalz und Glaseinstand-Maß, Taupunkt 9,3 °C bei 20 °C/50 % r. F. in der Legende, gestrichelte Isothermen beschriftet, Orientierung für beide Schnitte. Zeichnung Randverbund: Glaseinstand als Maßlinie ohne Zahl ergänzt.
+10. Perspektiven-Lead: „bis zu sieben Auflösungen".
+
+Nicht geändert: Thread-Teaser „bis hinunter zur Ausschreibungsposition" (Thread endet mit „Sonderfall Brandschutztüren im LV", Prozess E3; Formulierung stammt aus der Thread-Redaktion, Entscheidung Ben).
