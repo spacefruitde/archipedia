@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync, readFileSync, existsSync, cpSync } from 'fs';
+import { writeFileSync, mkdirSync, readFileSync, existsSync, cpSync, copyFileSync } from 'fs';
 import * as D from './data.mjs';
 const { P, N, ROOTS } = D;
 const THREADS = D.THREADS || [];
@@ -846,6 +846,7 @@ mkdirSync('dist', { recursive: true });
 writeFileSync('dist/index.html', html);
 cpSync('fonts', 'dist/fonts', { recursive: true });
 cpSync('images', 'dist/images', { recursive: true });
+copyFileSync('robots.txt', 'dist/robots.txt');
 console.log('nodes:', Object.keys(N).length, '· bytes:', html.length, '→ dist/index.html (+fonts)');
 
 /* Konsistenzprüfung nach Autoren-Spezifikation */
