@@ -293,7 +293,7 @@ const threadPersp = th => [...new Set(th.ids.map(i=>N[i]?.p).filter(Boolean))];
 const home = `<section id="home">
   ${themaDerWoche ? `<div class="hero" style="background:${heroFarbe}"><div class="shell hero-g">
     <div class="hero-bild">${themaDerWoche.bild
-      ? `<img src="${themaDerWoche.bild.path}" alt="${esc(themaDerWoche.titel)}">${themaDerWoche.bild.credit?`<span class="hero-credit">${esc(themaDerWoche.bild.credit)}</span>`:''}`
+      ? `<img src="${themaDerWoche.bild.path}" alt="${esc(themaDerWoche.titel)}">${themaDerWoche.bild.credit?`<span class="hero-credit">${themaDerWoche.bild.quelle?`<a href="${themaDerWoche.bild.quelle}" target="_blank" rel="noopener">${esc(themaDerWoche.bild.credit)}</a>`:esc(themaDerWoche.bild.credit)}</span>`:''}`
       : leitFoto?`<img src="${leitFoto.u.replace('w=900','w=1200')}" alt="" loading="lazy">`:''}</div>
     <div>
       <span class="labelchip">Thema der Woche</span>
@@ -569,7 +569,7 @@ const html = `<!DOCTYPE html>
   /* Startseite */
   .hero{padding:60px 0 68px}
   .hero-g{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-  .hero-bild img{width:100%;height:500px;object-fit:cover;display:block}
+  .hero-bild img{width:100%;height:auto;display:block}
   .hero-credit{display:block;margin-top:8px;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.55}
   .labelchip{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;border:1.5px solid #16161A;padding:6px 12px;margin-bottom:24px}
   .hero-t{font-size:86px;font-weight:700;line-height:.9;letter-spacing:-.05em;margin-bottom:24px;text-wrap:balance;hyphens:auto}
@@ -626,7 +626,6 @@ const html = `<!DOCTYPE html>
     .g3{grid-template-columns:minmax(0,1fr)}
     .rail-l{display:none}
     .hero-g{grid-template-columns:1fr;gap:36px}
-    .hero-bild img{height:320px}
     .hero-t{font-size:52px}
     h1.t1{font-size:52px}
     h1.t3{font-size:44px}
@@ -651,7 +650,6 @@ const html = `<!DOCTYPE html>
     .such-panel{left:0;right:0;width:auto}
     .shell{padding-left:20px;padding-right:20px}
     .hero{padding:32px 0 40px}
-    .hero-bild img{height:240px}
     .hero-t{font-size:40px}
     .hero-lead{font-size:17px}
     h1.t1{font-size:40px}

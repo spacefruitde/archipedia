@@ -203,7 +203,7 @@ export const THREADS = [
  {
   "titel": "Vom Portal zur Brandschutztür",
   "kurz": "Die festliche Portalgeste der Margarethenhöhe und die zugelassene, veränderungsverbotene Brandschutztür zeigen zwei Enden derselben Bauteilgattung, bis hinunter zur Ausschreibungsposition.",
-  "bild": {"path":"images/thread-portal.jpg","credit":"KI-generierte Illustration"},
+  "bild": {"path":"images/thread-portal.jpg","credit":"Foto: Alexander Tsang / Unsplash","lizenz":"Unsplash-Lizenz","quelle":"https://unsplash.com/photos/_frvdyMH6S0"},
   "ids": [
    "x4bogen",
    "e3portal",
