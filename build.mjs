@@ -157,7 +157,7 @@ function nodeSection(id){
     }).join('');
   }
 
-  return `<section id="${id}">
+  return `<section id="${id}" class="pp-${n.p}">
   <nav class="crumbs">${crumbs}</nav>
   <div class="meta"><span class="badge b-${pp.cls}">${pp.name}</span>
     <span class="levels">${dots}<span class="lv">Ebene ${n.lv} von 7</span></span></div>
@@ -216,6 +216,9 @@ const menu = `<details class="menu"><summary>Themen ☰</summary><div class="men
 }</div></details>`;
 
 const sections = home + perspSections + Object.keys(N).map(nodeSection).join('\n');
+
+/* Suchindex: id, Titel, Perspektive, Elterntitel, Überblick (klein) */
+const SUCHINDEX = JSON.stringify(Object.entries(N).map(([id, n]) => [id, n.t, n.p, n.pa ? N[n.pa].t : '', (n.t1 || '').toLowerCase()]));
 
 const html = `<!DOCTYPE html>
 <html lang="de">
@@ -328,6 +331,31 @@ const html = `<!DOCTYPE html>
   .child small{display:block;font-family:var(--sans);color:var(--muted);font-size:11px;margin-top:3px;letter-spacing:.03em;text-decoration:none!important}
   .endnote{font-family:var(--sans);font-size:11.5px;color:var(--muted);margin-bottom:30px}
   .hatbild{color:#8a7f6a}
+  /* Suche */
+  .such{position:relative;margin-left:auto;margin-right:10px}
+  .such input{font-family:var(--sans);font-size:12px;color:var(--ink);background:none;border:1px solid var(--line);border-radius:2px;padding:5px 10px;width:130px;transition:width .15s}
+  .such input:focus{width:200px;outline:none;border-color:var(--ink)}
+  .such-panel{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--ink);width:min(84vw,380px);max-height:64vh;overflow:auto;box-shadow:0 14px 40px rgba(20,16,10,.16);z-index:40}
+  .such-t{display:block;padding:10px 14px;border-bottom:1px solid var(--line)}
+  .such-t:hover{background:var(--tint)}
+  .such-p{display:inline-block;font-family:var(--sans);font-weight:700;font-size:9px;letter-spacing:.16em;text-transform:uppercase;margin-right:8px}
+  .such-titel{font-family:var(--sans);font-weight:600;font-size:14px}
+  .such-pfad{display:block;font-family:var(--sans);font-size:11px;color:var(--muted);margin-top:2px}
+  .such-leer{padding:12px 14px;font-family:var(--sans);font-size:12px;color:var(--muted)}
+  .landwahl{margin-left:0}
+  /* Perspektivfarbe als Leitsystem auf Knotenseiten */
+  h1.node::after{content:"";display:block;width:72px;height:6px;margin-top:14px}
+  .pp-k h1.node::after{background:var(--k)} .pp-e h1.node::after{background:var(--e)} .pp-x h1.node::after{background:var(--x)} .pp-p h1.node::after{background:var(--p)}
+  .pp-k .section,.pp-k .srcbox{border-top-color:var(--k)} .pp-e .section,.pp-e .srcbox{border-top-color:var(--e)}
+  .pp-x .section,.pp-x .srcbox{border-top-color:var(--x)} .pp-p .section,.pp-p .srcbox{border-top-color:var(--p)}
+  .pp-k .dach,.pp-k .thread{border-left-color:var(--k)} .pp-e .dach,.pp-e .thread{border-left-color:var(--e)}
+  .pp-x .dach,.pp-x .thread{border-left-color:var(--x)} .pp-p .dach,.pp-p .thread{border-left-color:var(--p)}
+  .pp-k details.depth summary:hover{color:var(--k)} .pp-e details.depth summary:hover{color:var(--e)}
+  .pp-x details.depth summary:hover{color:var(--x)} .pp-p details.depth summary:hover{color:var(--p)}
+  #persp-k .persp-card,#persp-e .persp-card,#persp-x .persp-card,#persp-p .persp-card{position:relative}
+  #persp-k .persp-card::before,#persp-e .persp-card::before,#persp-x .persp-card::before,#persp-p .persp-card::before{content:"";position:absolute;top:-2px;left:0;width:64px;height:6px}
+  #persp-k .persp-card::before{background:var(--k)} #persp-e .persp-card::before{background:var(--e)}
+  #persp-x .persp-card::before{background:var(--x)} #persp-p .persp-card::before{background:var(--p)}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px 20px}
   .xlink{font-family:var(--sans);font-size:12.5px;letter-spacing:.02em;background:none;border:0;padding:2px 0;border-bottom:1px solid var(--line);display:inline-block}
   .xl-k{color:var(--k)} .xl-e{color:var(--e)} .xl-x{color:var(--x)} .xl-p{color:var(--p)}
@@ -348,6 +376,7 @@ const html = `<!DOCTYPE html>
   .netz-note{font-family:var(--sans);font-size:11px;color:var(--muted);text-align:center;margin-top:10px}
   footer{margin-top:60px;padding:20px 0 8px;border-top:1px solid var(--line);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.7}
 </style>
+<script>var SUCHINDEX=${SUCHINDEX};</script>
 <script>(function(){var t=localStorage.getItem('ao_theme')||'auto';var d=t==='dark'||(t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';})();</script>
 </head>
 <body>
@@ -360,6 +389,7 @@ const html = `<!DOCTYPE html>
   <a class="badge b-e" href="#persp-e">Entwurf</a>
   <a class="badge b-x" href="#persp-x">Kontext</a>
   <a class="badge b-p" href="#persp-p">Prozess</a>
+  <span class="such"><input id="suche" type="search" placeholder="Suche" autocomplete="off"><div class="such-panel" id="suchpanel" hidden></div></span>
   <span class="landwahl">
     <select id="land" aria-label="Land wählen">
       <option value="alle">DACH: alle</option>
@@ -386,6 +416,38 @@ ${sections}
     window.scrollTo(0,0);
   }
   window.addEventListener('hashchange', sync); sync();
+
+  /* Stichwortsuche über Titel und Überblick */
+  var inp = document.getElementById('suche');
+  var panel = document.getElementById('suchpanel');
+  var PNAME = { k:'Konstruktion', e:'Entwurf', x:'Kontext', p:'Prozess' };
+  function suchen(){
+    var q = inp.value.trim().toLowerCase();
+    if (q.length < 2) { panel.hidden = true; panel.innerHTML = ''; return; }
+    var treffer = [];
+    for (var i = 0; i < SUCHINDEX.length; i++) {
+      var e = SUCHINDEX[i]; var t = e[1].toLowerCase();
+      var s = t === q ? 0 : t.indexOf(q) === 0 ? 1 : t.indexOf(q) >= 0 ? 2 : e[4].indexOf(q) >= 0 ? 3 : -1;
+      if (s >= 0) treffer.push([s, e]);
+    }
+    treffer.sort(function(a, b){ return a[0] - b[0]; });
+    treffer = treffer.slice(0, 12);
+    panel.innerHTML = treffer.length
+      ? treffer.map(function(x){ var e = x[1];
+          return '<a class="such-t" href="#' + e[0] + '"><span class="such-p b-' + e[2] + '">' + PNAME[e[2]] + '</span><span class="such-titel">' + e[1] + '</span>' + (e[3] ? '<span class="such-pfad">' + e[3] + '</span>' : '') + '</a>'; }).join('')
+      : '<p class="such-leer">Nichts gefunden.</p>';
+    panel.hidden = false;
+  }
+  inp.addEventListener('input', suchen);
+  inp.addEventListener('keydown', function(ev){
+    if (ev.key === 'Enter') { var a = panel.querySelector('a'); if (a) location.hash = a.getAttribute('href'); }
+    if (ev.key === 'Escape') { panel.hidden = true; inp.blur(); }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === '/' && document.activeElement !== inp && !/SELECT|INPUT|TEXTAREA/.test(document.activeElement.tagName)) { ev.preventDefault(); inp.focus(); }
+  });
+  window.addEventListener('hashchange', function(){ panel.hidden = true; inp.value = ''; });
+  document.addEventListener('click', function(ev){ if (!panel.contains(ev.target) && ev.target !== inp) panel.hidden = true; });
 
   /* Land- und Regionswahl (wie eine Sprachauswahl; Auswahl bleibt gespeichert) */
   var REGIONEN = {
