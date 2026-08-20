@@ -228,7 +228,7 @@ const html = `<!DOCTYPE html>
 <title>ArchiPedia · Navigations-Prototyp</title>
 <style>
   :root{
-    --bg:#f7f5f0; --ink:#191713; --muted:#877f73; --line:#e5dfd3; --card:#fdfcf9; --tint:#f0ece2;
+    --bg:#fcfcfb; --ink:#141310; --muted:#807b73; --line:#e3e1db; --card:#ffffff; --tint:#f1f0ec;
     --k:#2f5d7c; --k-bg:#eaf1f6; --e:#b05c3a; --e-bg:#f8ece5; --x:#4f7350; --x-bg:#ebf2ea; --p:#665a7c; --p-bg:#efecf3;
     --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
@@ -303,7 +303,7 @@ const html = `<!DOCTYPE html>
   details.depth .dbody{padding:0 0 16px;font-size:16.5px;line-height:1.72}
   .unchecked{margin-top:10px;font-family:var(--sans);font-size:10.5px;letter-spacing:.04em;color:#a2703f;background:var(--tint);padding:5px 9px;display:inline-block}
   .nohint{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-family:var(--sans);font-size:12px;color:var(--muted)}
-  figure.zeichnung{background:#fdfcfa;border:1px solid var(--line);padding:18px 18px 12px;margin:0 0 28px}
+  figure.zeichnung{background:#ffffff;border:1px solid var(--line);padding:18px 18px 12px;margin:0 0 28px}
   figure.zeichnung.foto{background:none;border:0;padding:0}
   figure.zeichnung svg{width:100%;height:auto;display:block}
   figure.zeichnung.foto img{width:100%;height:auto;display:block}
@@ -369,7 +369,7 @@ const html = `<!DOCTYPE html>
   details.netz{border-top:1px solid var(--line);padding-top:2px;margin-top:2px}
   details.netz summary{list-style:none;cursor:pointer;padding:13px 0;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
   details.netz summary::-webkit-details-marker{display:none}
-  .netzbox{background:#fdfcfa;border:1px solid var(--line);padding:8px}
+  .netzbox{background:#ffffff;border:1px solid var(--line);padding:8px}
   svg{width:100%;height:auto;display:block}
   svg text{font-size:11px;fill:#1c1a17;font-family:-apple-system,sans-serif}
   svg text.ctr{font-size:12.5px;font-weight:600}
