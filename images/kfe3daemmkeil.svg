@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Drei Montagelagen des Fensters im Wandquerschnitt">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Panel a: Wandebene -->
+  <rect x="40" y="60" width="50" height="180" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 90 66 q 6 -4 12 0 q 6 4 12 0 M 90 90 q 6 -4 12 0 q 6 4 12 0 M 90 210 q 6 -4 12 0 q 6 4 12 0 M 90 234 q 6 -4 12 0 q 6 4 12 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="90" y1="60" x2="90" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="114" y1="60" x2="114" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <rect x="48" y="120" width="20" height="70" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <text x="80" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">a · in der Wandebene</text>
+  <!-- Panel b: Wandaußenkante -->
+  <rect x="190" y="60" width="50" height="180" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 240 66 q 6 -4 12 0 q 6 4 12 0 M 240 90 q 6 -4 12 0 q 6 4 12 0 M 240 210 q 6 -4 12 0 q 6 4 12 0 M 240 234 q 6 -4 12 0 q 6 4 12 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="240" y1="60" x2="240" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="264" y1="60" x2="264" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <rect x="218" y="120" width="20" height="70" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <text x="230" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">b · an der Außenkante</text>
+  <!-- Panel c: in der Dämmebene auf Konsole (Akzent) -->
+  <rect x="340" y="60" width="50" height="180" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 390 66 q 6 -4 12 0 q 6 4 12 0 M 390 90 q 6 -4 12 0 q 6 4 12 0 M 390 210 q 6 -4 12 0 q 6 4 12 0 M 390 234 q 6 -4 12 0 q 6 4 12 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="390" y1="60" x2="390" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="414" y1="60" x2="414" y2="240" stroke="#1c1a17" stroke-width="1.1"/>
+  <rect x="392" y="120" width="20" height="70" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 390 194 L 412 194 L 390 214 Z" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <text x="396" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">c · in der Dämmebene,</text>
+  <text x="396" y="290" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">auf Konsole: ideal</text>
+  <text x="240" y="34" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Wand innen links, außenliegende Dämmung rechts der Wand</text>
+</svg>

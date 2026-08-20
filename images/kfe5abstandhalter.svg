@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Detail: Randverbund eines Dreifach-Isolierglases mit warmer Kante">
+  <!-- drei Scheiben, untere Ecke -->
+  <rect x="150" y="40" width="12" height="180" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="216" y="40" width="12" height="180" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="282" y="40" width="12" height="180" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Abstandhalter: links klassisch Alu, rechts warme Kante (Akzent) -->
+  <rect x="162" y="196" width="54" height="24" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <line x1="162" y1="204" x2="216" y2="204" stroke="#1c1a17" stroke-width="1.1"/>
+  <rect x="228" y="196" width="54" height="24" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Butyl- und Sekundärdichtung -->
+  <rect x="150" y="220" width="144" height="14" fill="#1c1a17"/>
+  <!-- Beschriftungen -->
+  <line x1="156" y1="40" x2="110" y2="28" stroke="#1c1a17" stroke-width="1.1"/><circle cx="156" cy="40" r="1.6" fill="#1c1a17"/>
+  <text x="96" y="22" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">drei Scheiben</text>
+  <line x1="189" y1="208" x2="120" y2="264" stroke="#1c1a17" stroke-width="1.1"/><circle cx="189" cy="208" r="1.6" fill="#1c1a17"/>
+  <text x="112" y="280" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Abstandhalter Aluminium:</text>
+  <text x="112" y="292" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Wärmebrücke am Glasrand</text>
+  <line x1="255" y1="208" x2="352" y2="264" stroke="#b05c3a" stroke-width="1.1"/><circle cx="255" cy="208" r="1.6" fill="#b05c3a"/>
+  <text x="360" y="280" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">warme Kante: Kunststoff</text>
+  <text x="360" y="292" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">oder Edelstahl</text>
+  <line x1="300" y1="227" x2="380" y2="227" stroke="#1c1a17" stroke-width="1.1"/><circle cx="300" cy="227" r="1.6" fill="#1c1a17"/>
+  <text x="382" y="231" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Randverbund</text>
+  <text x="222" y="308" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#6f6a61">unterer Glasrand, stark vergrößert</text>
+</svg>

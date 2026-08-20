@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Vergleich: Wärmebrücke am unteren Fensteranschluss, Mörtelbank gegen Dämmkeil">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Panel links: falsch (Mörtelbank) -->
+  <rect x="40" y="60" width="36" height="70" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="40" y="130" width="150" height="16" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="40" y="146" width="150" height="110" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 30 170 q 40 -14 74 -8 q 40 8 56 -6" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <path d="M 30 190 q 40 -14 74 -8 q 40 8 56 -6" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <circle cx="86" cy="150" r="5" fill="#b05c3a"/>
+  <line x1="86" y1="150" x2="120" y2="42" stroke="#b05c3a" stroke-width="1.1"/>
+  <text x="128" y="30" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Tauwasserrisiko innen</text>
+  <text x="128" y="42" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">an der Brüstungskante</text>
+  <text x="115" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">falsch: Mörtelbank unter dem</text>
+  <text x="115" y="290" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Rahmen, Isothermen knicken ein</text>
+  <!-- Panel rechts: richtig (Dämmkeil) -->
+  <rect x="270" y="60" width="36" height="70" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 270 130 L 420 130 L 420 146 L 270 146 Z" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <path d="M 276 140 q 8 -6 16 0 q 8 6 16 0 q 8 -6 16 0 q 8 6 16 0 q 8 -6 16 0 q 8 6 16 0 q 8 -6 16 0 q 8 6 16 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <rect x="270" y="146" width="150" height="110" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <path d="M 260 176 q 60 -4 90 -2 q 50 2 80 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <path d="M 260 196 q 60 -4 90 -2 q 50 2 80 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="346" y1="138" x2="368" y2="42" stroke="#1c1a17" stroke-width="1.1"/><circle cx="346" cy="138" r="1.6" fill="#1c1a17"/>
+  <text x="372" y="30" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Dämmkeil unter der Bank</text>
+  <text x="345" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">richtig: Dämmung durchlaufend,</text>
+  <text x="345" y="290" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Isothermen laufen ruhig durch</text>
+  <text x="230" y="312" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="10" fill="#6f6a61">feine Linien: Isothermenverlauf</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Vertikalschnitt: Fensterbankwanne als zweite Dichtebene unter der Aluminium-Fensterbank">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Blendrahmen -->
+  <rect x="96" y="40" width="70" height="90" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <line x1="96" y1="85" x2="166" y2="85" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Brüstung (Mauerwerk) -->
+  <rect x="40" y="180" width="200" height="100" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Dämmkeil auf der Brüstung -->
+  <path d="M 96 180 L 240 180 L 240 158 L 166 148 Z" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <path d="M 110 174 q 8 -6 16 0 q 8 6 16 0 q 8 -6 16 0 q 8 6 16 0 q 8 -6 16 0 q 8 6 16 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Fensterbankwanne (Akzent): U-Form mit Aufkantung hinten -->
+  <path d="M 166 130 L 166 150 L 250 160 L 250 148" fill="none" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Alu-Fensterbank mit Gefälle und Tropfkante -->
+  <path d="M 166 122 L 268 138 L 268 150" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Beschriftungen -->
+  <line x1="130" y1="40" x2="130" y2="24" stroke="#1c1a17" stroke-width="1.1"/><circle cx="130" cy="40" r="1.6" fill="#1c1a17"/>
+  <text x="130" y="18" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Blendrahmen</text>
+  <line x1="215" y1="131" x2="330" y2="72" stroke="#1c1a17" stroke-width="1.1"/><circle cx="215" cy="131" r="1.6" fill="#1c1a17"/>
+  <text x="338" y="62" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Aluminium-Fensterbank</text>
+  <text x="338" y="74" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">mit Gefälle</text>
+  <line x1="230" y1="158" x2="350" y2="126" stroke="#b05c3a" stroke-width="1.1"/><circle cx="230" cy="158" r="1.6" fill="#b05c3a"/>
+  <text x="372" y="108" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Fensterbankwanne: zweite</text>
+  <text x="372" y="120" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Dichtebene mit Aufkantung</text>
+  <line x1="176" y1="170" x2="330" y2="212" stroke="#1c1a17" stroke-width="1.1"/><circle cx="176" cy="170" r="1.6" fill="#1c1a17"/>
+  <text x="352" y="220" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Dämmkeil auf der Brüstung</text>
+  <line x1="120" y1="220" x2="120" y2="296" stroke="#1c1a17" stroke-width="1.1"/><circle cx="120" cy="220" r="1.6" fill="#1c1a17"/>
+  <text x="120" y="310" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Brüstung</text>
+</svg>

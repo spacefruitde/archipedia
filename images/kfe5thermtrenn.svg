@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Horizontalschnitt: thermisch getrenntes Aluminiumprofil mit Kunststoffsteg">
+  <!-- Außenschale Alu (links) -->
+  <path d="M 120 60 L 180 60 L 180 100 L 156 100 L 156 220 L 180 220 L 180 260 L 120 260 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <line x1="132" y1="60" x2="132" y2="260" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Innenschale Alu (rechts) -->
+  <path d="M 300 60 L 360 60 L 360 260 L 300 260 L 300 220 L 324 220 L 324 100 L 300 100 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <line x1="348" y1="60" x2="348" y2="260" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Kunststoffstege (Akzent) -->
+  <rect x="180" y="76" width="120" height="16" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <rect x="180" y="228" width="120" height="16" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Hohlkammer-Andeutung -->
+  <line x1="180" y1="110" x2="300" y2="110" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="180" y1="210" x2="300" y2="210" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <!-- Maß Stegbreite -->
+  <line x1="180" y1="290" x2="300" y2="290" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="180" y1="284" x2="180" y2="296" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="300" y1="284" x2="300" y2="296" stroke="#1c1a17" stroke-width="1.1"/>
+  <text x="240" y="312" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Stegbreite ca. 20 bis 40 mm</text>
+  <!-- Beschriftungen -->
+  <line x1="150" y1="60" x2="120" y2="34" stroke="#1c1a17" stroke-width="1.1"/><circle cx="150" cy="60" r="1.6" fill="#1c1a17"/>
+  <text x="100" y="26" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Außenschale Aluminium</text>
+  <line x1="330" y1="60" x2="376" y2="34" stroke="#1c1a17" stroke-width="1.1"/><circle cx="330" cy="60" r="1.6" fill="#1c1a17"/>
+  <text x="388" y="26" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Innenschale Aluminium</text>
+  <line x1="290" y1="84" x2="368" y2="112" stroke="#b05c3a" stroke-width="1.1"/><circle cx="290" cy="84" r="1.6" fill="#b05c3a"/>
+  <text x="404" y="130" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Kunststoffsteg:</text>
+  <text x="404" y="142" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">trennt die Schalen</text>
+  <line x1="240" y1="160" x2="240" y2="160" stroke="#1c1a17" stroke-width="1.1"/>
+  <text x="240" y="164" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Hohlkammer</text>
+  <text x="66" y="164" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#6f6a61">außen</text>
+  <text x="416" y="164" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#6f6a61">innen</text>
+</svg>
