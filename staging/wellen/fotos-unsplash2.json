@@ -54,5 +54,33 @@
     "credit": "Foto: Akbar Nemati, Unsplash",
     "lizenz": "Unsplash-Lizenz",
     "quelle": "https://unsplash.com/photos/a-close-up-view-of-a-granite-surface-cTnKAssJt9A"
+  },
+  "kma3keramik": {
+    "u": "https://images.unsplash.com/photo-1778480239771-b072c2147a13?w=900&q=80&fm=jpg",
+    "caption": "Fassadenfliesen mit floralem Ornament in Blau, Gelb und Rot und sichtbaren Fugen.",
+    "credit": "Foto: Bernd Dittrich, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/ornate-tile-pattern-with-blue-yellow-and-red-details-MqraW9NjNsE"
+  },
+  "kma2metall": {
+    "u": "https://images.unsplash.com/photo-1760355056030-38a1e8b62362?w=900&q=80&fm=jpg",
+    "caption": "Geschwungene Metallfassade aus gebogenen Lamellenpaneelen im Licht.",
+    "credit": "Foto: Santiago Franco, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/modern-building-facade-with-curved-metallic-louvers-4Wwd0xaR4sk"
+  },
+  "kma3stahl": {
+    "u": "https://images.unsplash.com/photo-1614535683569-129faaa108f7?w=900&q=80&fm=jpg",
+    "caption": "Nahaufnahme einer verwitterten Cortenstahl-Oberfläche mit rotbrauner Rostpatina.",
+    "credit": "Foto: Alex Quezada, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/weathered-metal-surface-with-rust-DHbw4hYyiu8"
+  },
+  "kma3ne": {
+    "u": "https://images.unsplash.com/photo-1781021541218-3968570b173f?w=900&q=80&fm=jpg",
+    "caption": "Türkisgrüne Kupferpatina mit rostroten Verlaufsspuren in Nahaufnahme.",
+    "credit": "Foto: Tim Mossholder, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/vibrant-teal-and-green-oxidized-metal-surface-with-reddish-brown-streaks-bP2tnerweOc"
   }
 }
