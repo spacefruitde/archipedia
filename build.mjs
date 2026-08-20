@@ -205,7 +205,7 @@ function nodeSection(id){
     kidsHTML = `<div class="sec"><div class="sec-h"><h2 class="h2g">Ebene ${Math.min(n.lv+1,7)} — tiefer</h2><span class="sec-n">${kids.length} ${kids.length===1?'Feld':'Felder'}</span></div><div class="kraster">${
       kids.map(k=>{
         const uk = kidsOf(k).length;
-        const meta = [`bis Ebene ${maxLv(k)}`].concat(uk?[`${uk} Unterthemen`]:[]).concat(imgsIn(k)?[`${imgsIn(k)} Bild${imgsIn(k)>1?'er':''}`]:[]).join(' · ');
+        const meta = [`bis Ebene ${maxLv(k)}`].concat(uk?[`${uk} Unterthemen`]:[]).join(' · ');
         return `<a class="kcard${k===fokus?' fokus':''}" href="#${k}"><span class="kt">${esc(N[k].t)}</span><span class="kfuss"><span>${meta}</span><span class="arr">→</span></span></a>`;
       }).join('')
     }</div></div>`;
@@ -369,7 +369,7 @@ const perspSections = PORDER.map(p => `<section id="persp-${p}">
   </div></div>
   <div class="shell azody">
     <div class="sec-h"><h2 class="h2g">Ebene 1 — Themenfelder</h2><span class="sec-n">${perspRoots(p).length} Felder</span></div>
-    <div class="kraster">${perspRoots(p).map(([id,desc])=>`<a class="kcard" href="#${id}"><span class="kt">${esc(N[id].t)}</span><span class="kdesc">${esc(desc)}</span><span class="kfuss"><span>bis Ebene ${maxLv(id)}${imgsIn(id)?` · ${imgsIn(id)} Bilder`:''}</span><span class="arr">→</span></span></a>`).join('')}</div>
+    <div class="kraster">${perspRoots(p).map(([id,desc])=>`<a class="kcard" href="#${id}"><span class="kt">${esc(N[id].t)}</span><span class="kdesc">${esc(desc)}</span><span class="kfuss"><span>bis Ebene ${maxLv(id)}${kidsOf(id).length?` · ${kidsOf(id).length} Unterthemen`:''}</span><span class="arr">→</span></span></a>`).join('')}</div>
   </div>
 </section>`).join('\n');
 
