@@ -1,0 +1,71 @@
+{
+ "kfe2bank": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfe1",
+  "t": "Fensterbänke innen/außen",
+  "t1": "Die Fensterbank ist ein kleines Bauteil mit großer Wirkung: außen schützt sie die Fassade unter dem Fenster vor Schlagregen, innen bildet sie die Möbelkante des Raumes. Beide Bänke werden oft getrennt betrachtet, gehören aber zum selben Anschluss und sollten gemeinsam geplant werden. Fehler an der äußeren Fensterbank zeigen sich meist erst Jahre später als Fassadenschaden.",
+  "t2": "Beide Bänke werden konstruktiv oft getrennt vergeben, gehören aber zum selben Anschluss und sollten deshalb gemeinsam geplant werden, nicht nacheinander von unterschiedlichen Gewerken. Häufigster Fehler ist, die äußere Fensterbank als reines Fassadendetail ohne funktionalen Anspruch zu behandeln, obwohl ihr Gefälle und ihre seitlichen Aufkantungen über die Dichtheit der gesamten Fassade entscheiden. Ein zweites verbreitetes Risiko ist die Kollision der Innenbank mit Heizkörper oder Sockelleiste, die erst beim Innenausbau auffällt, wenn eine Korrektur teuer wird. Kostenlogik: Die Fensterbank selbst ist ein geringer Kostenposten, ihr Versagen aber kann teure Sanierungen der gesamten Fassadenkonstruktion darunter auslösen. Wer Material, Höhe und Anschlussdetail beider Bänke früh gemeinsam festlegt, vermeidet spätere Kollisionen mit Heizkörpern, Sockelleisten oder der Fassadenbekleidung."
+ },
+ "kfe3bankaussen": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2bank",
+  "t": "Außenfensterbank und Entwässerung",
+  "t1": "Die äußere Fensterbank führt Schlagregen von der Fassade weg und braucht dafür ein durchgängiges Gefälle sowie hochgezogene, wasserdichte Seitenteile, sogenannte Aufkantungen, an den Laibungen. Wird dieser seitliche Anschluss vernachlässigt, läuft Wasser genau dort in die Fassade, wo man es am wenigsten erwartet. Material und Farbe der Bank sind eine Fassadenentscheidung, ihre Funktion aber ist reine Bauphysik.",
+  "t2": "Entscheidend ist das Zusammenspiel aus Gefälle, seitlichen Aufkantungen und Auskragung, denn erst alle drei gemeinsam garantieren, dass Wasser kontrolliert vor die Fassade abläuft statt seitlich oder rückwärtig einzudringen. Häufigster Fehler ist eine zu geringe Auskragung der Bank über die Fassadenfläche, sodass Tropfwasser an der Fassade statt frei davor abtropft und Fassade oder Sockel dauerhaft durchfeuchtet. Material und Farbe der Bank sind vor allem eine Fassadenentscheidung, ihre Funktion aber ist reine Bauphysik und sollte nicht der Optik untergeordnet werden. Kostenlogik: Eine ausreichend dimensionierte Bank mit korrekten Aufkantungen kostet kaum mehr als eine knapp bemessene, verhindert aber genau jene Feuchteschäden, deren Sanierung um ein Vielfaches teurer ist. Wer die Bank als Teil der Abdichtungsebene und nicht nur als Fassadenzierrat plant, integriert sie automatisch korrekt in den Wandaufbau.",
+  "t3": "Das Gefälle der äußeren Fensterbank sollte durchgängig ausreichend sein, üblich sind Neigungen ab etwa 5 bis 10 Prozent, damit Wasser zuverlässig abläuft, ohne stehen zu bleiben. Die seitlichen Aufkantungen müssen ausreichend hoch hinter die Laibungsdämmung oder das Fassadensystem geführt werden, üblich sind mehrere Zentimeter Anschlusshöhe, um Rückstau bei Schlagregen sicher aufzunehmen. Die Auskragung der Bank vor die Fassadenfläche sollte einen Tropfkantenabstand von einigen Zentimetern gewährleisten, damit ablaufendes Wasser nicht an die Fassade zurückschlägt. In der Ausschreibung sind Gefälle, Aufkantungshöhe, Tropfkantenmaß und die Anschlussart an Laibung und Fassadensystem getrennt zu benennen. Ab hier: Ausführungsdetail des Fassaden- und Klempnerbetriebs."
+ },
+ "kfe3bankinnen": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2bank",
+  "t": "Innenfensterbank als Möbel und Übergang",
+  "t1": "Innen wird die Fensterbank zur Ablage, Sitzfläche oder Heizkörperabdeckung und damit zu einem Möbelstück, das gleichzeitig eine bauliche Anschlussaufgabe löst. Ihre Tiefe entscheidet mit über die nutzbare Fensterlaibung als Sitzplatz, ihre Höhe über das Zusammenspiel mit einem darunterliegenden Heizkörper. Ohne Innenbank bleibt die Laibung roh, mit ihr wird sie Teil der Rauminszenierung.",
+  "t2": "Ihre Tiefe entscheidet mit über die nutzbare Fensterlaibung als Sitzplatz, ihre Höhe über das Zusammenspiel mit einem darunterliegenden Heizkörper und dessen Luftzirkulation, beide Maße sollten deshalb nicht isoliert von der übrigen Möblierung festgelegt werden. Häufigster Fehler ist eine Bank, die einen darunterliegenden Heizkörper zu weit überdeckt und dadurch dessen Wärmeabgabe in den Raum hörbar behindert. Ohne Innenbank bleibt die Laibung roh und funktional, mit sorgfältig geplanter Bank wird sie Teil der Rauminszenierung und oft ein gestalterisches Element des Innenausbaus. Kostenlogik: Die Innenbank selbst ist ein kleiner Posten im Innenausbau, ihre nachträgliche Änderung nach fertiggestelltem Heizkörper oder Bodenbelag aber wird unverhältnismäßig aufwändig. Wer die Innenbank gemeinsam mit der Heizkörperplanung und dem Bodenaufbau festlegt, vermeidet genau diese teuren Nachträge.",
+  "t3": "Die Auskragung der Innenbank über die Wandfläche liegt meist zwischen etwa 2 und 5 cm bei reinen Fensterbänken, bei zusätzlicher Nutzung als Sitzfläche deutlich mehr, oft ab 30 cm. Bei Überdeckung eines Heizkörpers ist ein ausreichender Luftspalt zur Wand einzuhalten, damit die Konvektionsströmung des Heizkörpers nicht behindert wird, üblich sind mehrere Zentimeter Abstand zwischen Bankunterseite und Heizkörperoberkante. Die Anschlussfuge zwischen Bank und Laibung wird meist mit einer elastischen Fuge statt einer starren Verklebung ausgeführt, um Bauteilbewegungen aufzunehmen. In der Ausschreibung sind Auskragung, Materialstärke, Luftspalt über einem eventuellen Heizkörper und die Fugenausbildung getrennt zu benennen. Ab hier: Ausführungsdetail des Innenausbaus und Abstimmung mit der Heizungsplanung."
+ },
+ "kfe3bankmat": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfe2bank",
+  "t": "Materialwahl der Fensterbank",
+  "t1": "Naturstein und Kunststein sind robust und pflegeleicht und deshalb der Standard für die wetterexponierte Außenbank, Holz und Kunststoff dominieren innen, wo Haptik und Wärme zählen. Metallbänke tauchen an beiden Seiten auf, außen als schlanke, moderne Alternative, innen selten wegen der geringen Wärmedämmung im Kontakt. Die Materialwahl folgt damit weniger dem Geschmack als der jeweiligen Beanspruchung.",
+  "t2": "Naturstein und Kunststein sind der Standard außen, wo Frostbeständigkeit und mechanische Belastung zählen, innen dagegen entscheiden eher Haptik, Wärme und Gewicht, weshalb dort Holz und Kunststoff dominieren. Metallbänke sind die Ausnahme, die auf beiden Seiten vorkommt: außen als schlanke Alternative zum Stein, innen selten, weil sie sich kälter anfühlen und schlechter dämmen. Häufigster Fehler ist, das Material der Bank rein nach der Optik der Fassade oder des Innenraums zu wählen und die tatsächliche Beanspruchung, etwa Frost, UV-Belastung oder mechanischen Abrieb, außer Acht zu lassen. Kostenlogik: Naturstein ist in der Regel das teuerste, aber langlebigste Material, Kunststoff das günstigste mit begrenzter Lebensdauer, die Wahl sollte die geplante Nutzungsdauer des Gebäudeteils berücksichtigen.",
+  "t3": "Außenbänke aus Naturstein oder Kunststein müssen frostbeständig und schlagregendicht ausgeführt sein, übliche Materialstärken liegen bei etwa 2 bis 3 cm, abhängig von Auskragung und Spannweite. Metallbänke außen werden meist aus beschichtetem oder eloxiertem Blech mit wenigen Millimetern Materialstärke gefertigt und benötigen eine ausreichend dimensionierte Unterkonstruktion gegen Verformung. Innenbänke aus Holz oder Kunststoff werden meist in Stärken um 2 bis 3 cm ausgeführt, die Kantenausbildung folgt denselben Prinzipien wie bei anderen Innenausbauteilen. In der Ausschreibung sind Material, Materialstärke, Oberflächenbehandlung und bei Außenbänken zusätzlich die Frostbeständigkeit getrennt zu benennen. Ab hier: Materialmuster und Bemusterung mit dem Innenausbau- beziehungsweise Fassadenbetrieb."
+ },
+ "kfe4banknatur": {
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3bankmat",
+  "t": "Naturstein- und Kunststeinbänke",
+  "t1": "Naturstein- und Kunststeinbänke sind frostbeständig, mechanisch robust und praktisch wartungsfrei, deshalb der verbreitete Standard für die wetterexponierte Außenfensterbank. Ihre Fläche kann poliert, geschliffen oder gestockt ausgeführt werden, was Griffigkeit und Wirkung deutlich verändert. Kunststein bietet dabei eine gleichmäßigere, günstigere Alternative zu Naturstein bei ähnlicher Beständigkeit.",
+  "t2": "Naturstein überzeugt durch Langlebigkeit und eine unverwechselbare, natürlich gewachsene Zeichnung, verlangt aber die sorgfältige Auswahl geeigneter, frostbeständiger Steinarten, nicht jeder dekorative Naturstein eignet sich für den Außeneinsatz. Häufigster Fehler ist, eine glatt polierte Oberfläche zu wählen, die bei Nässe und Frost rutschig wird und an stark frequentierten Fensterbänken, etwa im Erdgeschoss, zum Sicherheitsrisiko werden kann. Kunststein aus Betonwerkstein bietet eine wirtschaftliche, in Farbe und Format gleichmäßigere Alternative, erreicht aber nicht die individuelle Zeichnung von Naturstein. Kostenlogik: Naturstein ist meist die teuerste, aber langlebigste Wahl, Kunststein liegt preislich darunter bei vergleichbarer Frostbeständigkeit und eignet sich gut für große, wiederkehrende Stückzahlen.",
+  "t3": "Übliche Materialstärken liegen bei Naturstein- und Kunststeinbänken bei etwa 2 bis 3 cm, abhängig von Auskragung und Spannweite der Bank. Die Oberflächenbearbeitung reicht von poliert über geschliffen bis gestockt, wobei rutschhemmendere Oberflächen an frequentierten Bänken vorzuziehen sind. In der Ausschreibung sind Steinart oder Kunststeintyp, Materialstärke und Oberflächenbearbeitung getrennt zu benennen. Ab hier: Materialmuster und Bemusterung mit dem Fassadenbetrieb.",
+  "ln": [
+   "kma3gestein"
+  ]
+ },
+ "kfe4bankmetall": {
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3bankmat",
+  "t": "Metallbänke",
+  "t1": "Metallbänke aus beschichtetem oder eloxiertem Blech sind schlank, leicht und lassen sich passgenau auf der Baustelle ablängen, weshalb sie besonders bei modernen, schlanken Fassaden gefragt sind. Sie wiegen deutlich weniger als Stein und eignen sich deshalb gut für große Auskragungen ohne zusätzliche Unterkonstruktion. Ohne ausreichende Unterkonstruktion können dünne Bleche jedoch klappern oder sich verformen.",
+  "t2": "Der Vorteil liegt in der geringen Bauhöhe und dem geringen Gewicht, wodurch Metallbänke auch bei filigranen Fassaden ohne sichtbaren Unterbau auskommen, ein Stein- oder Kunststeinformat in gleicher Schlankheit wäre kaum realisierbar. Häufigster Fehler ist, die Unterkonstruktion aus reinem Kostendruck zu dünn oder zu weit gespannt auszuführen, wodurch das Blech bei Wind hörbar klappert oder sich sichtbar durchbiegt. Die Farbgebung folgt meist der Fassade oder den Fensterprofilen, wodurch die Bank optisch zurücktritt statt als eigenes Element zu wirken. Kostenlogik: Metallbänke liegen preislich meist zwischen Kunststoff- und Natursteinbänken, ihr Vorteil ist weniger der Preis als die schlanke, leichte Bauweise für anspruchsvolle Fassadendetails.",
+  "ln": [
+   "kma3ne"
+  ]
+ },
+ "kfe4bankholz": {
+  "p": "k",
+  "lv": 4,
+  "pa": "kfe3bankmat",
+  "t": "Holz- und Kunststoffbänke innen",
+  "t1": "Innen dominieren Holz und Kunststoff als Fensterbankmaterial, weil beide angenehm warm wirken, leicht zu bearbeiten sind und keine Frostbeständigkeit brauchen. Holzbänke lassen sich farblich auf Böden und Möbel abstimmen, Kunststoffbänke sind besonders pflegeleicht und unempfindlich gegen Feuchtigkeit, etwa unter Blumentöpfen. Beide Materialien werden meist deutlich dünner ausgeführt als eine Außenbank aus Stein.",
+  "t2": "Die Materialwahl folgt innen stärker der Gestaltung als der Beanspruchung, weil weder Frost noch Schlagregen eine Rolle spielen, wohl aber Kratzfestigkeit und Feuchteunempfindlichkeit an stark genutzten Bänken. Häufigster Fehler ist, eine Holzbank direkt über einem Heizkörper ohne ausreichenden Luftspalt zu montieren, wodurch sich das Holz durch die trockene, warme Luft verzieht oder reißt. Kunststoffbänke sind in dieser Hinsicht unempfindlicher, wirken aber weniger hochwertig und lassen sich bei Beschädigung schwerer ausbessern als Holz. Kostenlogik: Kunststoffbänke sind die günstigste Innenlösung, Holzbänke kosten mehr, lassen sich aber bei Kratzern nachschleifen und passen sich besser an hochwertige Innenausbauten an.",
+  "ln": [
+   "kma3vollholz"
+  ]
+ }
+}

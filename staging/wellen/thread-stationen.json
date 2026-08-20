@@ -1,0 +1,548 @@
+{
+ "e3portal": {
+  "p": "e",
+  "lv": 3,
+  "pa": "e2artik",
+  "t": "Die betonte Tür: Portal, Rahmung, Gewände",
+  "t1": "Die gerahmte Tür adelt den Durchgang: vom Werksteingewände bis zum farbig abgesetzten Zargenspiegel. Rahmung sagt: Hier passiert etwas Wichtiges.",
+  "ln": [
+   "x4bogen"
+  ]
+ },
+ "k3t30": {
+  "p": "k",
+  "lv": 3,
+  "pa": "k2f",
+  "t": "Brandschutztüren (T30/T60/T90)",
+  "t1": "Feuerschutzabschlüsse halten dem Feuer 30, 60 oder 90 Minuten stand und sind als Gesamtsystem zugelassen: Blatt, Zarge, Beschlag und Einbausituation gehören untrennbar zusammen.",
+  "ln": [
+   "kt3raum",
+   "pba3brandabschn"
+  ]
+ },
+ "k4t30z": {
+  "p": "k",
+  "lv": 4,
+  "pa": "k3t30",
+  "t": "Zulassung und Veränderungsverbot",
+  "t1": "An zugelassenen Feuerschutzabschlüssen darf nichts verändert werden: kein anderer Drücker, kein Kürzen, kein nachträglicher Anstrich außerhalb der Zulassung. Was verändert wird, verliert die Zulassung.",
+  "t3": "Verwendbarkeitsnachweis (allgemeine bauaufsichtliche Zulassung bzw. europäisch CE mit Klassifizierung nach EN 13501-2, z. B. EI2 30) gehört in die Objektdokumentation. Kennzeichnungsschild am Element muss dauerhaft lesbar bleiben. Zulässiges Zubehör nur aus der Zulassung des Herstellers. Ab hier: Zulassungsbescheid des konkreten Elements lesen, immer.",
+  "ln": [
+   "pav3lv30",
+   "pbl3qualsich",
+   "pbl3fluchtweg"
+  ],
+  "src": [
+   {
+    "t": "DIN EN 13501-2 Klassifizierung Feuerwiderstand",
+    "u": "https://www.dinmedia.de/de/norm/din-en-13501-2/367755282",
+    "stand": "2023-12",
+    "geprueft": "2026-08-16"
+   },
+   {
+    "t": "DIN 4102-5 (nationale Klassifizierung T30)",
+    "u": "https://www.dinmedia.de/de/norm/din-4102-5/684345",
+    "stand": "1977-09",
+    "geprueft": "2026-08-16"
+   }
+  ],
+  "dach": {
+   "at": "EI2 30 nach OIB-Richtlinie 2; ÜA-Kennzeichnung.",
+   "ch": "EI30 nach VKF-Brandschutzvorschriften; VKF-Anerkennung statt DIBt-Zulassung.",
+   "de": "T30 nach DIN 4102 bzw. EI2 30 europäisch; abZ/aBG des DIBt."
+  }
+ },
+ "pav3lv30": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pav2lb",
+  "t": "Sonderfall Brandschutztüren im LV",
+  "t1": "Zugelassene Bauteile wie Brandschutztüren dürfen im Leistungsverzeichnis nicht bis ins letzte Detail vorgeschrieben werden, weil die Ausführung an die jeweilige Zulassung des Herstellers gebunden ist. Ausgeschrieben wird deshalb die geforderte Leistungsklasse, nicht ein Konstruktionsdetail, sonst widerspricht die Ausschreibung am Ende der tatsächlich lieferbaren, zugelassenen Ware.",
+  "ln": [
+   "k3kombi",
+   "k4t30z"
+  ],
+  "src": [
+   {
+    "t": "OIB-Richtlinien",
+    "u": "https://www.oib.or.at/kernaufgaben/oib-richtlinien1/richtlinien/oib-richtlinien-2023/",
+    "stand": "Ausgabe 2023, beschlossen 25.05.2023",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "Die Leistungsbeschreibung nennt die geforderte Klassifizierung und die Kennzeichnungspflicht nach den einschlägigen OIB Vorgaben, die Ausführung bleibt der Zulassung des Produkts vorbehalten.",
+   "ch": "Ausgeschrieben wird die geforderte Feuerwiderstandsklasse mit Bezug auf die VKF Anerkennung des Produkts, die konkrete Konstruktion liegt in der Verantwortung des Herstellers.",
+   "de": "Ausgeschrieben wird die Feuerwiderstandsklasse mit Verweis auf die erforderliche bauaufsichtliche Zulassung, nicht ein konkretes Konstruktionsdetail des Herstellers."
+  }
+ },
+ "kt3rampe": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kt2rampe",
+  "t": "Rampen",
+  "t1": "Sechs Prozent Steigung fühlen sich zu Fuß nach nichts an und sind im Rollstuhl bereits Arbeit. Rampen brauchen überraschend viel Länge, und genau daran scheitern nachträgliche Lösungen.",
+  "t3": "Barrierefreie Rampen: max. 6 % Längsgefälle, kein Quergefälle, Zwischenpodest (min. 150 cm) nach max. 600 cm Lauf, beidseitige Handläufe und Radabweiser, Bewegungsflächen an Anfang und Ende. Kürzere steilere Rampen sind keine barrierefreien Rampen, sondern Schiebehilfen. Ab hier: DIN 18040 bzw. nationale Regel plus Entwässerungsdetail bei Außenrampen.",
+  "ln": [
+   "k4null",
+   "pba2ordnungsr"
+  ],
+  "src": [
+   {
+    "t": "DIN 18040-1 Barrierefreies Bauen: öffentlich zugängliche Gebäude",
+    "u": "https://www.dinmedia.de/de/norm/din-18040-1/133692028",
+    "stand": "2010-10",
+    "geprueft": "2026-08-16"
+   },
+   {
+    "t": "DIN 18040-2 Barrierefreies Bauen: Wohnungen",
+    "u": "https://www.dinmedia.de/de/norm/din-18040-2/142706210",
+    "stand": "2011-09",
+    "geprueft": "2026-08-16"
+   }
+  ],
+  "dach": {
+   "at": "ÖNORM B 1600: gleiche Systematik, teils abweichende Maße.",
+   "ch": "SIA 500: Leitwert ebenfalls 6 %, Details eigenständig.",
+   "de": "DIN 18040."
+  }
+ },
+ "kau2barriere": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kau1",
+  "t": "Barrierefreie Außenerschließung",
+  "t1": "Barrierefreiheit endet nicht an der Haustür, sie beginnt am Straßenrand: Stellplatz, Weg und Rampe müssen ebenso durchdacht sein wie der Eingang selbst. Wer die Außenerschließung erst nach dem Gebäude plant, verbaut sich oft die Fläche, die eine stufenlose Lösung eigentlich braucht."
+ },
+ "pba3abweichung": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pba2sonder",
+  "t": "Abweichungen, Ausnahmen und Befreiungen",
+  "t1": "Wo eine Regel im Einzelfall unangemessen wäre, sehen Bauordnungen Abweichungen, Ausnahmen oder Befreiungen vor, meist an eine Abwägung mit den Schutzzielen der Vorschrift gebunden. Sie sind kein Freifahrtschein, sondern verlangen eine nachvollziehbare Begründung und oft Kompensationsmaßnahmen. Gute Abweichungsanträge argumentieren mit dem Schutzziel, nicht mit dem Wunsch des Bauherrn.",
+  "src": [
+   {
+    "t": "Landesbauordnungen (DE), exemplarisch BauO NRW 2018",
+    "u": "https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&bes_id=39224&aufgehoben=N&keyword=landesbauordnung",
+    "stand": "Fassung 2018, zuletzt geändert Juli 2026",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "In Österreich können Landesbauordnungen Ausnahmen zulassen, sofern die dahinterstehenden Schutzinteressen gewahrt bleiben.",
+   "ch": "In der Schweiz erlauben kantonale Baugesetze Ausnahmebewilligungen, wenn wichtige Gründe vorliegen und öffentliche Interessen nicht überwiegen.",
+   "de": "Die Landesbauordnungen erlauben in Deutschland Abweichungen, wenn das Schutzziel der Vorschrift auf andere Weise gleichwertig erreicht wird."
+  }
+ },
+ "xnb2brutalismus": {
+  "p": "x",
+  "lv": 2,
+  "pa": "xnb1",
+  "t": "Brutalismus und Sichtbeton",
+  "t1": "Sichtbeton macht das Schalungsbild zur Fassade: Brettbreite, Stoßfuge, Ankerloch und Schalhaut sind keine Baustellenfragen mehr, sondern werden im Entwurf festgelegt und in der Ausschreibung geschuldet. Das ist die eigentliche Härte dieser Haltung, denn eine Betonoberfläche verzeiht keine Nacharbeit und trägt jede Ausbesserung sichtbar weiter. Wer heute Sichtbeton plant, erbt diese Konsequenz unabhängig davon, ob er die Ehrlichkeitsrhetorik der 1960er Jahre teilt.",
+  "ln": [
+   "kfa2sichtbeton"
+  ]
+ },
+ "xtv1": {
+  "p": "x",
+  "lv": 1,
+  "t": "Therme Vals",
+  "t1": "Die Therme Vals im Schweizer Kanton Graubünden, 1996 von Peter Zumthor fertiggestellt, ist ein Thermalbad, das fast vollständig aus dem lokalen Valser Quarzit (petrografisch ein Gneis) gemauert und in den Hang eingegraben ist. Schichtungen aus Naturstein, gedämpftes Licht aus schmalen Deckenschlitzen und der Wechsel aus engen und weiten Raumfolgen machen Baden zu einem sinnlichen, fast archaischen Erlebnis. Als Fallstudie ist sie zentral für den kritischen Regionalismus, weil sie zeigt, wie ein einziges, lokal verwurzeltes Material einen ganzen Bau trägt, konstruktiv wie atmosphärisch. Wer verstehen will, wie Material zu Architektur wird, ganz ohne Umweg über Dekoration, findet hier das Standardwerk.",
+  "ln": [
+   "kma3gestein"
+  ],
+  "images": [
+   {
+    "u": "https://commons.wikimedia.org/wiki/Special:FilePath/Felipe_camus_-_6892624822.jpg?width=900",
+    "credit": "Foto: fcamusd (Felipe Camus), Wikimedia Commons",
+    "lizenz": "CC BY 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Felipe_camus_-_6892624822.jpg",
+    "caption": "Außenansicht der Therme Vals von Peter Zumthor im Kanton Graubünden"
+   }
+  ]
+ },
+ "eli3oben": {
+  "p": "e",
+  "lv": 3,
+  "pa": "eli2tag",
+  "t": "Oberlicht und Zenitlicht",
+  "t1": "Licht von oben erreicht auch fensterferne Raumtiefen und Innenzonen ohne Außenwand, verhält sich aber im Jahresverlauf und bei direkter Sonne anders als seitliches Licht und braucht deshalb ein eigenes Blendschutzkonzept.",
+  "ln": [
+   "et2licht",
+   "xtv1"
+  ]
+ },
+ "et2licht": {
+  "p": "e",
+  "lv": 2,
+  "pa": "et1",
+  "t": "Treppe und Licht",
+  "t1": "Das Treppenauge unterm Oberlicht ist der älteste Lichtschacht der Baugeschichte: Steigen zum Licht ist eine körperliche Erfahrung, die kein Flur ersetzen kann. Umgekehrt bleibt die dunkle Treppe der unbeliebteste Raum des Hauses.",
+  "ln": [
+   "kt3kopf"
+  ]
+ },
+ "kt3kopf": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kt2geo",
+  "t": "Kopfhöhe und Durchgangshöhe",
+  "t1": "Zwei Meter lichte Höhe über der Vorderkante jeder Stufe sind das übliche Minimum. Der kritische Punkt liegt fast immer an der Deckenkante des Treppenlochs, und er entscheidet über die Länge der Öffnung.",
+  "t3": "Lichte Durchgangshöhe min. 2,00 m, lotrecht über den Stufenvorderkanten gemessen. Bei Dachgeschossen zusätzlich die Schrägen prüfen; die Kopfhöhe entlang der gesamten Lauflinie, nicht nur am Austritt. Ab hier: DIN 18065 und Maßkontrolle am Rohbau.",
+  "ln": [
+   "et2zeigen"
+  ],
+  "src": [
+   {
+    "t": "DIN 18065 Gebäudetreppen",
+    "u": "https://www.dinmedia.de/de/norm/din-18065/322316050",
+    "stand": "2020-08",
+    "geprueft": "2026-08-16"
+   }
+  ],
+  "images": [
+   {
+    "path": "images/kt3kopf.svg",
+    "credit": "Eigene Schemazeichnung",
+    "lizenz": "CC BY 4.0",
+    "caption": "Die Kopfhöhe wird lotrecht über der Stufenvorderkante gemessen und ist an der Deckenkante des Treppenlochs am knappsten."
+   }
+  ]
+ },
+ "kda3lichtkuppel": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kda2gauben",
+  "t": "Dachflächenfenster und Lichtkuppeln",
+  "t1": "Wo eine Gaube zu aufwendig ist, bringt ein in die Dachfläche eingebautes Fenster Licht ins Geschoss, ohne die Dachform zu verändern. Lichtkuppeln erweitern dieses Prinzip auf Flachdächer und größere, oft gewölbte Verglasungen für fensterlose Innenräume. Beide Bauteile verlangen einen eigenen, werkseitig geprüften Anschluss an die Dachabdichtung, improvisierte Lösungen sind hier die häufigste Leckagequelle.",
+  "ln": [
+   "kfe2glas"
+  ]
+ },
+ "x4farbe": {
+  "p": "x",
+  "lv": 4,
+  "pa": "x3haustuer",
+  "t": "Farbigkeit und Handwerksdetail",
+  "t1": "Türblätter in kräftigen Farben, Beschläge als Handwerksstücke: Die Margarethenhöhe zeigt, dass Farbe an der Tür kein Risiko ist, sondern ein System, wenn die Palette siedlungsweit kuratiert wird."
+ },
+ "e2hand": {
+  "p": "e",
+  "lv": 2,
+  "pa": "e1",
+  "t": "Die Tür als Berührungspunkt",
+  "t1": "Die Tür ist der Ort, an dem Architektur physisch berührt wird, jeden Tag, von jeder Hand. Kein anderes Bauteil rechtfertigt Materialqualität so unmittelbar.",
+  "ln": [
+   "k3besch",
+   "kt3hand"
+  ]
+ },
+ "ema3haptik": {
+  "p": "e",
+  "lv": 3,
+  "pa": "ema2mat",
+  "t": "Haptik und Sinneserfahrung",
+  "t1": "Berührt wird an einem Gebäude nur ein winziger Teil seiner Oberfläche: Griffe, Handläufe, Türblätter, Brüstungen, Fensterbänke. Genau dort gehört das Materialbudget hin und nicht in die Flächen, an denen nur der Blick vorbeigeht. Wie sich ein Material anfühlt, entscheidet dabei weniger sein Aussehen als seine Wärmeleitfähigkeit, denn Metall zieht Wärme aus der Hand und wirkt kalt, während Holz bei gleicher Raumtemperatur warm bleibt.",
+  "ln": [
+   "e3druecker"
+  ]
+ },
+ "kma3ne": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kma2metall",
+  "t": "NE-Metalle: Aluminium, Messing, Kupfer, Zink",
+  "t1": "Aluminium, Messing, Kupfer und Zink eint, dass sie nicht rosten, sondern sich mit einer eigenen Deckschicht selbst schützen, und genau diese Schicht ist ihr Erscheinungsbild. Wer sie sichtbar einsetzt, entscheidet damit über einen Alterungsverlauf und nicht über einen Farbton: Kupfer und Zink verändern sich über Jahre, Messing schon nach Monaten und je nach Handkontakt ungleichmäßig. Planungsrelevant ist vor allem die Verträglichkeit untereinander und mit ablaufendem Wasser, denn Wasser trägt Metall mit und färbt darunterliegende Flächen, und der Kontakt unterschiedlicher Metalle in feuchter Umgebung greift immer das unedlere an.",
+  "ln": [
+   "e3druecker"
+  ]
+ },
+ "k4drueck": {
+  "p": "k",
+  "lv": 4,
+  "pa": "k3besch",
+  "t": "Drücker und Schlösser",
+  "t1": "Der Drücker wird tausendfach berührt: Form, Material und Rückstellfeder entscheiden über die gefühlte Qualität des ganzen Ausbaus. Schlösser reichen vom Buntbartschloss bis zum Objektstandard mit Wechselgarnitur.",
+  "ln": [
+   "e3druecker"
+  ]
+ },
+ "ktg3bedien": {
+  "p": "k",
+  "lv": 3,
+  "pa": "ktg2automation",
+  "t": "Bedienstellen und ihre Platzierung im Raum",
+  "t1": "Ob Schalter, Taster oder Display: Jede Bedienstelle ist auch ein gestalterisches Element, das mit Türanschlag, Möblierung und Blickachsen zusammenpasst oder eben nicht. Zentrale Bedienpanels reduzieren die Zahl der Schalterstellen, verlangen aber, dass Bewohner sich in einer Menüstruktur zurechtfinden statt einen Lichtschalter zu ertasten. Die beste Automationstechnik scheitert an einer Bedienung, die niemand intuitiv findet.",
+  "ln": [
+   "k4drueck"
+  ]
+ },
+ "pba3brandabschn": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pba2ordnungsr",
+  "t": "Brandschutzanforderungen der Bauordnung",
+  "t1": "Brandschutz ist der umfangreichste Einzelbereich des Bauordnungsrechts: Rettungswege, Brandabschnitte, Feuerwiderstand von Bauteilen, alles staffelt sich nach Gebäudeklasse und Nutzung. Anders als bei Statik gibt es hier selten eine einzelne richtige Lösung, sondern ein Gesamtkonzept aus baulichen, technischen und organisatorischen Maßnahmen. Wer Brandschutz erst am Ende mitdenkt, muss das Gebäude oft nachträglich verteuern.",
+  "ln": [
+   "k3t30",
+   "k3rs",
+   "kt2not"
+  ],
+  "src": [
+   {
+    "t": "Landesbauordnungen (DE), exemplarisch BauO NRW 2018",
+    "u": "https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&bes_id=39224&aufgehoben=N&keyword=landesbauordnung",
+    "stand": "Fassung 2018, zuletzt geändert Juli 2026",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "OIB-Richtlinien",
+    "u": "https://www.oib.or.at/kernaufgaben/oib-richtlinien1/richtlinien/oib-richtlinien-2023/",
+    "stand": "Ausgabe 2023, beschlossen 25.05.2023",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "In Österreich bildet die OIB-Richtlinie 2 die zentrale Grundlage für Brandschutzanforderungen im Hochbau.",
+   "ch": "In der Schweiz setzen die Brandschutzvorschriften der Vereinigung Kantonaler Feuerversicherungen (VKF) den technischen Standard, kantonal umgesetzt.",
+   "de": "In Deutschland ergeben sich die Brandschutzanforderungen aus den Landesbauordnungen, konkretisiert durch Sonderbauverordnungen und technische Richtlinien."
+  }
+ },
+ "pbl3fluchtweg": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pbl2maengel",
+  "t": "Mängel an sicherheitsrelevanten Bauteilen",
+  "t1": "Ein Mangel an einer Brandschutztür oder an einem Fluchtweg ist kein gewöhnlicher Baumangel, sondern ein Sicherheitsrisiko, das die Nutzung des Gebäudes infrage stellen kann. Hier gilt die übliche Frist zur Nachbesserung nicht uneingeschränkt: Bauaufsicht oder Nutzer können schnelleres Handeln verlangen, unabhängig vom sonst üblichen Ablauf des Mängelmanagements.",
+  "ln": [
+   "kt2not",
+   "kt3nutz",
+   "k4t30z"
+  ],
+  "src": [
+   {
+    "t": "VOB/B (DIN 1961)",
+    "u": "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_07012016_BI78106361.htm",
+    "stand": "Ausgabe 2016, Bekanntmachung 07.01.2016, ber. 01.04.2016",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "ÖNORM B 2110 Allgemeine Vertragsbestimmungen",
+    "u": "https://shop.austrian-standards.at/action/de/public/details/728205/OENORM_B_2110_2023_05_01",
+    "stand": "2023-05-01",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "SIA 118 Allgemeine Bedingungen für Bauarbeiten",
+    "u": "https://shop.sia.ch/normenwerk/ingenieur/118_2013_d/D/Product",
+    "stand": "Ausgabe 2013",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "Bei Gefährdung kann die Übernahme nach ÖNORM B 2110 verweigert oder eingeschränkt werden, zusätzlich greifen bauordnungsrechtliche Vorgaben der Länder.",
+   "ch": "In der Schweiz können die kantonale Baubehörde und die Brandschutzbehörde die Nutzung einschränken oder untersagen, solange ein sicherheitsrelevanter Mangel besteht. Brandschutzeinrichtungen unterliegen zudem einer eigenen behördlichen Abnahme, die von der vertraglichen Mängelabwicklung nach SIA 118 unabhängig ist.",
+   "de": "Sicherheitsrelevante Mängel können eine Nutzungsuntersagung durch die Bauaufsicht nach Landesbauordnung auslösen, unabhängig vom zivilrechtlichen Mängelverfahren nach VOB/B."
+  }
+ },
+ "xzp2niemals": {
+  "p": "x",
+  "lv": 2,
+  "pa": "xzp1",
+  "t": "Umbauen statt abreißen",
+  "t1": "Lacaton und Vassal prägen mit ihrer Haltung, wonach bestehende Bausubstanz grundsätzlich erhalten und erweitert statt abgerissen werden soll, eine der einflussreichsten Positionen der letzten Jahre. Ihre Umbauten von Wohnhochhäusern zeigen, dass mehr Fläche, mehr Licht und bessere Wohnqualität oft günstiger zu erreichen sind als über einen Neubau. Die Position hat die Fachdiskussion sichtbar verschoben, vom Neubau als Normalfall hin zum Weiterbauen als erster Option.",
+  "ln": [
+   "kbe1",
+   "kbe2umbau"
+  ]
+ },
+ "kbe2umbau": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kbe1",
+  "t": "Anbauen, Aufstocken, Umnutzen",
+  "t1": "Die wirtschaftlichste Erweiterung eines Gebäudes ist oft nicht der Neubau daneben, sondern die Weiterentwicklung des Vorhandenen. Anbau, Aufstockung und Umnutzung teilen die gleiche Grundfrage: Wie viel trägt der Bestand noch, und wo endet seine Belastbarkeit, konstruktiv wie gestalterisch?",
+  "ln": [
+   "ety3umnutz"
+  ]
+ },
+ "kbe3ruecksb": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kbe2umbau",
+  "t": "Rückbau und Bauteilrecycling",
+  "t1": "Was nicht weiterverwendet werden kann, muss zumindest sortenrein zurückgebaut werden, denn ungetrennter Abbruch verschenkt Material und erzeugt vermeidbaren Deponieraum. Sichtbare Bauteile wie Balken, Türen oder Fliesen finden zunehmend über spezialisierte Handelsplätze ein zweites Leben in anderen Projekten.",
+  "ln": [
+   "pna3wiederverw"
+  ]
+ },
+ "pna2zirk": {
+  "p": "p",
+  "lv": 2,
+  "pa": "pna1",
+  "t": "Zirkularität, Rückbau, Wiederverwendung",
+  "t1": "Zirkuläres Bauen denkt ein Gebäude vom Ende her: trennbar konstruiert, dokumentiert, sodass Bauteile später zerlegt statt zerkleinert werden können. Das ist noch kein Mainstream, aber der Bereich, in dem sich künftige Anforderungen am schnellsten verschärfen dürften, weil Ressourcenschonung neben Energieeffizienz zum zweiten großen Nachhaltigkeitsthema wird.",
+  "src": [
+   {
+    "t": "DGNB Zertifizierungssystem (weiterführend)",
+    "u": "https://www.dgnb.de/en/certification/buildings/new-construction",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "QNG Qualitätssiegel Nachhaltiges Gebäude (BMWSB, weiterführend)",
+    "u": "https://www.qng.info/",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "klimaaktiv Gebäudestandard",
+    "u": "https://www.klimaaktiv.at/fachpersonen/energie-bau/gebaeudedeklaration/kriterienkatalog-2025",
+    "stand": "Kriterienkatalog 2025",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "Das Abfallwirtschaftsgesetz bildet den rechtlichen Rahmen, Zertifizierungssysteme wie klimaaktiv setzen zusätzliche freiwillige Anreize.",
+   "ch": "In der Schweiz setzt das eidgenössische Umwelt- und Abfallrecht den Rahmen für Bauabfälle, den Vollzug leisten die Kantone. SIA-Empfehlungen zu Rückbau und Entsorgung gelten daneben als anerkannte Regel der Technik.",
+   "de": "Das Kreislaufwirtschaftsgesetz setzt den abfallrechtlichen Rahmen, freiwillige Systeme wie DGNB und QNG honorieren Rückbaubarkeit zusätzlich."
+  }
+ },
+ "pna3passport": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zirk",
+  "t": "Materialpass und Rückbaudokumentation",
+  "t1": "Ein Materialpass listet auf, welche Materialien und Bauteile in welcher Menge und Verbindung verbaut wurden, damit ein späterer Rückbau nicht erst mühsam erkunden muss, was überhaupt vorhanden ist. Je früher diese Dokumentation beginnt, desto vollständiger und günstiger wird sie.",
+  "src": [
+   {
+    "t": "DGNB Zertifizierungssystem (weiterführend)",
+    "u": "https://www.dgnb.de/en/certification/buildings/new-construction",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "QNG Qualitätssiegel Nachhaltiges Gebäude (BMWSB, weiterführend)",
+    "u": "https://www.qng.info/",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "klimaaktiv Gebäudestandard",
+    "u": "https://www.klimaaktiv.at/fachpersonen/energie-bau/gebaeudedeklaration/kriterienkatalog-2025",
+    "stand": "Kriterienkatalog 2025",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "SNBS Hochbau (NNBS, weiterführend)",
+    "u": "https://nnbs.ch/standards-und-labels/",
+    "stand": "Version 2023.1",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "Vergleichbare freiwillige Systeme entstehen im Umfeld von klimaaktiv, eine flächendeckende Pflicht besteht nicht.",
+   "ch": "Materialpässe werden im Kontext von SNBS Zertifizierungen und kantonalen Vorgaben zunehmend nachgefragt.",
+   "de": "Materialpässe sind freiwillig, werden aber im Rahmen von DGNB und QNG Zertifizierungen zunehmend honoriert oder vorausgesetzt."
+  }
+ },
+ "pna3wiederverw": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pna2zirk",
+  "t": "Wiederverwendung von Bauteilen",
+  "t1": "Fenster, Türen, Träger oder Fassadenelemente aus dem Rückbau lassen sich wiederverwenden, wenn Qualität, Maße und Nachweise stimmen, doch Logistik und Verfügbarkeit sind bisher der Flaschenhals, nicht der Wille. Wer wiederverwendete Bauteile einplant, sollte das früh im Entwurf offenlassen und erst mit realer Verfügbarkeit verbindlich festlegen.",
+  "dach": {
+   "at": "Auch in Österreich ist für tragende oder sicherheitsrelevante wiederverwendete Bauteile ein eigener Nachweis erforderlich.",
+   "ch": "Die Wiederverwendung wird in der Schweiz zunehmend durch SIA Empfehlungen begleitet, ein Nachweis der Eigenschaften bleibt Voraussetzung.",
+   "de": "Wiederverwendete Bauteile benötigen im Einzelfall einen Verwendbarkeitsnachweis, da die ursprüngliche Zulassung meist nicht automatisch fortgilt."
+  }
+ },
+ "xzp2sergison": {
+  "p": "x",
+  "lv": 2,
+  "pa": "xzp1",
+  "t": "Die gewöhnliche Stadt als Vorbild",
+  "t1": "Büros wie Sergison Bates suchen bewusst in der gewöhnlichen, oft unspektakulären Stadt nach Vorbildern, in Reihenhaustypologien, Ziegelfassaden und robusten Grundrissen, statt nach spektakulären Einzelbauten. Diese Haltung würdigt das scheinbar Banale als eigentlichen Träger städtischer Qualität und stellt sich damit gegen eine Architektur der spektakulären Ikonen. Für die Praxis ist das eine Ermutigung, gute Architektur auch dort zu suchen, wo sie nicht auffällt.",
+  "ln": [
+   "eko3kontinuitaet"
+  ]
+ },
+ "eko3kontinuitaet": {
+  "p": "e",
+  "lv": 3,
+  "pa": "eko2einfuegen",
+  "t": "Weiterbauen als Entwurfshaltung",
+  "t1": "Traufhöhe, Fassadenmaterial oder Fensterrhythmus des Nachbarn aufzunehmen ist kein Verzicht auf eigene Haltung, sondern eine eigene Disziplin. Weiterbauen verlangt, die Regeln eines Ortes zuerst zu lesen, bevor man sie fortschreibt oder gezielt bricht.",
+  "ln": [
+   "x2staedt"
+  ]
+ },
+ "eko3parzelle": {
+  "p": "e",
+  "lv": 3,
+  "pa": "eko2koernung",
+  "t": "Parzellenlogik und Blockrand",
+  "t1": "Die Parzelle ist die kleinste städtebauliche Einheit, an der sich Eigentum, Erschließung und Bebauungstiefe entscheiden. Der geschlossene Blockrand entsteht aus der Addition vieler einzelner Parzellenlösungen, nicht aus einem einzigen großen Entwurf.",
+  "ln": [
+   "x2staedt",
+   "xbs1"
+  ]
+ },
+ "eko3fassadenlinie": {
+  "p": "e",
+  "lv": 3,
+  "pa": "eko2einfuegen",
+  "t": "Baulinie, Rücksprung, Vorgarten",
+  "t1": "Ob ein Gebäude exakt an der Straße steht, zurückspringt oder einen Vorgarten vorschaltet, bestimmt die Disziplin des ganzen Straßenraums. Eine einzelne abweichende Baulinie stört das Straßenbild stärker, als es die Gebäudegröße vermuten lässt.",
+  "ln": [
+   "pba3abstandsflberech"
+  ]
+ },
+ "pba3bebauungspl": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pba2planungsr",
+  "t": "Bebauungsplan und Festsetzungen",
+  "t1": "Ein Bebauungsplan konkretisiert die Widmung bis auf Maß, Bauweise und Baugrenzen eines einzelnen Grundstücks. Er ist verbindliches Ortsrecht, keine Empfehlung, Abweichungen brauchen ein eigenes Verfahren. Wer einen Bebauungsplan gründlich liest, kennt schon vor dem ersten Entwurf viele Grenzen seines Spielraums.",
+  "src": [
+   {
+    "t": "BauGB (Baugesetzbuch)",
+    "u": "https://www.gesetze-im-internet.de/bbaug/",
+    "stand": "Bekanntmachung 03.11.2017, zuletzt geändert 23.07.2026",
+    "geprueft": "2026-08-19"
+   },
+   {
+    "t": "RPG (Raumplanungsgesetz)",
+    "u": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de",
+    "stand": "SR 700, vom 22.06.1979, konsolidiert",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "In Österreich übernimmt der Bebauungsplan nach Landesrecht eine vergleichbare Funktion, oft ergänzt um Bebauungsbestimmungen der Gemeinde.",
+   "ch": "In der Schweiz konkretisieren kommunale Bau- und Zonenordnungen im Rahmen des Raumplanungsgesetzes die zulässige Bebauung.",
+   "de": "In Deutschland sind Bebauungspläne nach Baugesetzbuch verbindliche Satzungen der Gemeinde mit unmittelbarer Rechtswirkung."
+  }
+ },
+ "pba3abstandsflberech": {
+  "p": "p",
+  "lv": 3,
+  "pa": "pba2abstand",
+  "t": "Berechnung der Abstandsfläche",
+  "t1": "Ob sich das Abstandsmaß aus der Wandhöhe ableitet oder als feste Zahl im Gesetz steht, entscheidet darüber, wie stark die Fassadenhöhe die Grundstücksausnutzung steuert. Dazu kommen Sonderregeln für Dachformen, Erker oder Giebel, die kleine Höhenunterschiede spürbar in verschobene Baugrenzen übersetzen. Diese Berechnung gehört in jede Vorplanung, nicht erst in die Genehmigungsplanung.",
+  "ln": [
+   "eko3fassadenlinie"
+  ],
+  "src": [
+   {
+    "t": "Landesbauordnungen (DE), exemplarisch BauO NRW 2018",
+    "u": "https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&bes_id=39224&aufgehoben=N&keyword=landesbauordnung",
+    "stand": "Fassung 2018, zuletzt geändert Juli 2026",
+    "geprueft": "2026-08-19"
+   }
+  ],
+  "dach": {
+   "at": "Österreichische Landesbauordnungen leiten den Bauwich teils aus der Gebäudehöhe ab, setzen daneben aber eigene Mindestmaße je Bundesland, die auch bei niedrigen Bauten nicht unterschritten werden dürfen.",
+   "ch": "In der Schweiz steht meist ein festes Mindestmaß in der kommunalen Bau- und Zonenordnung, das um Zuschläge für Gebäudehöhe oder Fassadenlänge ergänzt wird. Die IVHB regelt dazu nur, wie Höhe und Abstand zu messen sind.",
+   "de": "Deutsche Landesbauordnungen berechnen die Abstandsfläche meist als Bruchteil der Wandhöhe, mit unterschiedlichen Faktoren je Bundesland."
+  }
+ }
+}

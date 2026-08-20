@@ -1,0 +1,101 @@
+{
+ "kfe5holzschutz": [
+  "Wartungsintervall werkseitige Beschichtung 8 bis 15 Jahre",
+  "Wartungsintervall Lasur 3 bis 5 Jahre"
+ ],
+ "kfe5kammer": [
+  "Kammernzahl Kunststoffprofil 5 bis 8",
+  "Bautiefe Kunststoffprofil 70 bis 90 mm",
+  "Uf-Wert Kunststoffprofil 0,9 bis 1,4 W/m²K"
+ ],
+ "kfe5thermtrenn": [
+  "Stegbreite thermische Trennung 20 bis 40 mm",
+  "Uf-Wert Aluminiumprofil mit thermischer Trennung 1,0 bis 2,2 W/m²K"
+ ],
+ "kfe4drehkipp": [
+  "Verriegelungspunkte Dreh-Kipp-Beschlag 4 bis 8"
+ ],
+ "kfe5abstandhalter": [
+  "linearer Wärmedurchgangskoeffizient Randverbund in W/mK"
+ ],
+ "kfe5lamelle": [
+  "Lamellenbreite Raffstore 80 bis 90 mm"
+ ],
+ "kfe5gewebe": [
+  "Offenheitsgrad Screengewebe 1 bis 10 Prozent"
+ ],
+ "kfe4banknatur": [
+  "Materialstärke Naturstein- und Kunststeinbank 2 bis 3 cm"
+ ],
+ "kfa2sichtbeton": [
+  "Sichtbetonklassen SB 1 bis SB 4 nach DBV-Merkblatt Sichtbeton",
+  "Musterfläche als eigene LV-Position mit Mindestgröße, gleiche Schalung und Rezeptur wie Bauteil"
+ ],
+ "kfa3schaltech": [
+  "Ankerraster ab ca. 40 x 40 cm bei Systemschalung",
+  "Ebenheitstoleranzen für Sichtflächen nach DIN 18202, verschärfte Zeile gesondert vereinbaren"
+ ],
+ "kma3sichtbeton": [
+  "Sichtbetonklassen SB 1 bis SB 4 nach DBV-Merkblatt Sichtbeton",
+  "Wasserzementwert-Grenzwert projektspezifisch mit Betontechnologe festzulegen",
+  "Konsistenzklasse nach Ausbreitmaß oder Setzfließmaß"
+ ],
+ "kde3sichtbeton": [
+  "Leerrohrdurchmesser bis ca. 20 mm in oberer Bewehrungslage, größere Querschnitte im Unterzug",
+  "Ebenheitstoleranzen der Untersicht nach DIN 18202, verschärfte Zeile für Sichtbeton gesondert vereinbaren"
+ ],
+ "kro3ortbeton": [
+  "Unterbrechungszeit zwischen Betonierlagen unter ca. 45 Minuten zur Vermeidung kalter Fugen",
+  "Ebenheitstoleranzen für Rohbauflächen nach DIN 18202"
+ ],
+ "k3t30": [
+  "DIN EN 13501-2 Klassifizierung EI2 30/60/90",
+  "DIN 4102 T30/T60/T90 (nationale Klassifizierung)",
+  "DIN EN 1154 Schließfolgeregler / Anforderung Selbstschließung"
+ ],
+ "xnb2brutalismus": [
+  "Zeitangabe 1960er/1970er Jahre (Sichtbetonfassaden Brutalismus)"
+ ],
+ "kda3lichtkuppel": [
+  "DIN EN 1873 Durchsturzsicherheit Lichtkuppeln",
+  "Flachdachrichtlinie Aufsatzkranzhöhe ca. 30 cm",
+  "Anforderung aerodynamisch wirksame Öffnungsfläche bei RWA-Lichtkuppeln"
+ ],
+ "k4drueck": [
+  "DIN 18273 Vierkantstärke 8 mm",
+  "DIN EN 1906 Klassifizierung Türdrücker",
+  "DIN EN 179 Fluchttürfunktion",
+  "DIN EN 1125 Paniktürfunktion",
+  "Drückerhöhe ca. 1050 mm OKFF"
+ ],
+ "ktg3bedien": [
+  "DIN 18040 bzw. entsprechende nationale Norm: Bedienhöhe Bedienelemente",
+  "Maßangabe ca. 85 bis 105 cm OKFF für Bedienelemente, länderspezifisch prüfen"
+ ],
+ "kbe3ruecksb": [
+  "Pflicht zur Schadstofferkundung/Schadstoffkataster vor Rückbau",
+  "Entsorgungsnachweis nach Abfallschlüssel"
+ ],
+ "kfe4bankalu": [
+  "Blechstärke Alu-Fensterbank: 1,5 bis 3 mm",
+  "Unterkonstruktionsraster: 30 bis 50 cm"
+ ],
+ "kfe5alubesonder": [
+  "Wärmeausdehnung Aluminium: ca. 0,023 mm je m und Kelvin",
+  "Fixpunkt/Gleitpunkt ab Stranglänge etwa 3 bis 4 m"
+ ],
+ "kfe4banksteinaussen": [
+  "Steinstärke am Auskragungsrand: 3 bis 5 cm"
+ ],
+ "kfe4bankneigung": [
+  "Mindestneigung glatte Oberfläche: ab 3 Prozent",
+  "Mindestneigung raue Oberfläche: 5 bis 10 Prozent",
+  "Tropfkantenabstand: mindestens 2 cm"
+ ],
+ "kfe4bankmontage": [
+  "Seitliche Aufkantung Fensterbankwanne: mindestens 3 bis 5 cm"
+ ],
+ "kfe5bankwaermebruecke": [
+  "Temperaturfaktor raumseitige Oberfläche (f_Rsi): mindestens etwa 0,7"
+ ]
+}

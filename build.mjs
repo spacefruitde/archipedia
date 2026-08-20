@@ -127,7 +127,7 @@ function nodeSection(id){
         kids.map(k=>`<a class="child" href="#${k}"><span>${esc(N[k].t)}<small>${N[k].t3?'bis Spezifikation':N[k].t2?'bis Vertiefung':'Überblick'}${kidsOf(k).length?' · '+kidsOf(k).length+' Unterthemen':''}</small></span><span class="arr">›</span></a>`).join('')
       }</div>`
     : (n.p === 'k' && !n.t3
-        ? `<p class="endnote">Dieses Thema wird in einer späteren Welle bis zur Spezifikation vertieft.</p>`
+        ? `<p class="endnote">Vertiefung und Spezifikation zu diesem Thema folgen.</p>`
         : '');
 
   const links = (n.ln||[]).filter(l=>N[l]);

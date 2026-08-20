@@ -1,0 +1,56 @@
+{
+ "ema3rohbau": {
+  "p": "e",
+  "lv": 3,
+  "pa": "ema2mat",
+  "t": "Rohe vs. veredelte Oberfläche",
+  "t1": "Sichtbeton, unverputztes Mauerwerk oder rohes Holz zeigen den Bauprozess selbst als Oberfläche, Putz, Anstrich und Verkleidung glätten ihn zur neutralen Fläche. Die Entscheidung ist selten nur ästhetisch, sie legt fest, wie viel Toleranz die Ausführung verträgt, bevor ein Fehler sichtbar bleibt.",
+  "ln": [
+   "kfa2sichtbeton",
+   "kfa2sicht",
+   "kro3ortbeton"
+  ]
+ },
+ "kfa2sichtbeton": {
+  "p": "k",
+  "lv": 2,
+  "pa": "kfa1",
+  "t": "Sichtbeton als Fassade",
+  "t1": "Sichtbeton macht die Schalhaut zur Gestaltungsebene: Jede Schalungsfuge, jeder Ankerpunkt bleibt sichtbar und muss deshalb von Anfang an geplant, nicht nachträglich kaschiert werden. Als Fassadenmaterial verlangt Sichtbeton eine Präzision im Bauablauf, die weit über statische Anforderungen hinausgeht.",
+  "ln": [
+   "kro2beton",
+   "ema2tekt"
+  ]
+ },
+ "kfa3schaltech": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kfa2sichtbeton",
+  "t": "Schalungstechnik für Sichtbeton",
+  "t1": "Die Schalhaut, ob Holz, Kunststoff oder Stahl, prägt Textur und Porenbild der fertigen Oberfläche und muss über den gesamten Betoniervorgang absolut dicht und formstabil bleiben. Ein Ausbessern nach dem Ausschalen ist bei Sichtbeton kaum möglich, ohne den Flicken sichtbar zu machen."
+ },
+ "kma3sichtbeton": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kma2beton",
+  "t": "Sichtbeton: Schalung und Ausführungsklassen",
+  "t1": "Sichtbeton wird durch die gewählte Schalhaut geprägt: glatte Stahlschalung, strukturiertes Holz oder Sonderschalungen hinterlassen jeweils eine eigene Handschrift auf der Fläche. Die Ausführungsklasse, mit der Fugenbild, Porigkeit und Farbtongleichheit vereinbart werden, gehört früh in die Ausschreibung, nicht erst zur Bemusterung. Nachträgliche Korrekturen an Sichtbeton sind aufwendig und selten unsichtbar."
+ },
+ "kde3sichtbeton": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kde2sicht",
+  "t": "Sichtbetondecke",
+  "t1": "Bei der Sichtbetondecke wird die Schalhaut selbst zur gestalterischen Entscheidung, denn jede Fuge, jeder Ankerpunkt bleibt für immer sichtbar. Nachträgliche Leitungsführung ist praktisch ausgeschlossen, weshalb Elektro- und Lüftungsplanung schon vor dem Betonieren feststehen müssen."
+ },
+ "kro3ortbeton": {
+  "p": "k",
+  "lv": 3,
+  "pa": "kro2beton",
+  "t": "Ortbeton: Schalung und Bewehrung",
+  "t1": "Ortbeton entsteht vor Ort in einer Schalung, die die endgültige Oberfläche mitbestimmt, glatt, strukturiert oder als Sichtbeton behandelt. Bewehrungsführung und Betonierabschnitte müssen früh mit dem Tragwerksplaner abgestimmt werden, weil sie Bauablauf und spätere Fugenlage festlegen.",
+  "ln": [
+   "kt3beton"
+  ]
+ }
+}
