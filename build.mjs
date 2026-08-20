@@ -35,7 +35,7 @@ const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const kidsOf = id => Object.entries(N).filter(([,n]) => n.pa === id).map(([k]) => k);
 const pathOf = id => { const p=[]; let c=id; while(c){p.unshift(c); c=N[c].pa;} return p; };
 /* Perspektivfarben: Koralle · Butter · Mint · Periwinkle (Text darauf immer ink) */
-const colOf = p => p==='k' ? '#FF6B5E' : p==='e' ? '#F2E4A8' : p==='p' ? '#C0C4F5' : '#A8DCC6';
+const colOf = p => `var(--c-${p==='k'||p==='e'||p==='p' ? p : 'x'})`;
 
 /* Satz-Extraktion aus T2: „Kostenlogik: …" und „Häufigster Fehler …" */
 const satzAb = (txt, marker) => {
@@ -81,7 +81,7 @@ function netzSVG(id){
   const kidsUnten = kids.length ? (zickzack ? 200 : 144) + 40 : 0;
   const unten = Math.max(seitUnten, kidsUnten, 0);
   const W=480, H=190+unten+42, cx=W/2, cy=176;
-  const mehr = (r, x) => r.rest ? `<text x="${cx+x}" y="${cy-86+r.zeig.length*64+4}" text-anchor="middle" font-size="10.5" fill="#8A8A90">+${r.rest} weitere</text>` : '';
+  const mehr = (r, x) => r.rest ? `<text x="${cx+x}" y="${cy-86+r.zeig.length*64+4}" text-anchor="middle" font-size="10.5" fill="var(--ink4)">+${r.rest} weitere</text>` : '';
   /* Beschriftung: zentriert, Zeilenumbruch; Zentrum darf drei Zeilen */
   const zeilenOf = (t, max) => {
     const zeilen = ['']; let z = 0;
@@ -95,7 +95,7 @@ function netzSVG(id){
     `<text x="${x}" y="${y}" text-anchor="middle" ${ctr?'class="ctr"':''}>${zeilen.map((s,i)=>`<tspan x="${x}" dy="${i?12.5:0}">${esc(s)}</tspan>`).join('')}</text>`;
   const edges = nodes.filter(m=>!m.c).map(m=>{
     const dash = m.xl ? 'stroke-dasharray="4 4"' : '';
-    const col = m.xl ? colOf(N[m.id].p) : '#C4C4C8';
+    const col = m.xl ? colOf(N[m.id].p) : 'var(--hair)';
     return `<line x1="${cx}" y1="${cy}" x2="${cx+m.x}" y2="${cy+m.y}" stroke="${col}" stroke-width="1.4" ${dash} opacity="${m.xl?0.8:1}"/>`;
   }).join('');
   const circles = nodes.map(m=>{
@@ -103,10 +103,10 @@ function netzSVG(id){
     const oben = m.id === n.pa || m.c; /* Eltern und Zentrum: Beschriftung über dem Knoten */
     const zeilen = zeilenOf(N[m.id].t, m.c ? 3 : 2);
     const ty = oben ? cy+m.y-(m.c?23:20)-12.5*(zeilen.length-1) : cy+m.y+20;
-    const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'#fff'}" stroke="${m.c?'#16161A':col}" stroke-width="${m.c?2.5:2}"/>${wrap(zeilen, cx+m.x, ty, m.c)}`;
+    const inner = `<circle cx="${cx+m.x}" cy="${cy+m.y}" r="${m.c?13:8}" fill="${m.c?col:'var(--card)'}" stroke="${m.c?'var(--ink)':col}" stroke-width="${m.c?2.5:2}"/>${wrap(zeilen, cx+m.x, ty, m.c)}`;
     return m.c ? `<g>${inner}</g>` : `<a href="#${m.id}">${inner}</a>`;
   }).join('');
-  const lgd = (rein.zeig.length?`<text x="8" y="${H-8}" font-size="10" fill="#8A8A90">← verweist hierher</text>`:'')+(raus.zeig.length?`<text x="${W-8}" y="${H-8}" font-size="10" fill="#8A8A90" text-anchor="end">verweist auf →</text>`:'');
+  const lgd = (rein.zeig.length?`<text x="8" y="${H-8}" font-size="10" fill="var(--ink4)">← verweist hierher</text>`:'')+(raus.zeig.length?`<text x="${W-8}" y="${H-8}" font-size="10" fill="var(--ink4)" text-anchor="end">verweist auf →</text>`:'');
   return `<svg viewBox="0 0 ${W} ${H}">${edges}${circles}${mehr(rein,-150)}${mehr(raus,150)}${lgd}</svg>`;
 }
 
@@ -329,7 +329,7 @@ const azListe = Object.entries(N).map(([id,n])=>({id,t:n.t,p:n.p,pa:n.pa?N[n.pa]
 const azGruppen = {};
 for (const e of azListe) { const b = e.t[0].toUpperCase(); (azGruppen[b] ||= []).push(e); }
 const azHTML = `<section id="index">
-  <div class="band bandw" style="border-top:8px solid #16161A"><div class="shell">
+  <div class="band bandw" style="border-top:8px solid var(--solid)"><div class="shell">
     <nav class="crumbs cg"><a href="#home">Start</a><span class="sep">/</span><span class="here">Themen A–Z</span></nav>
     <h1 class="t3">Themen A–Z</h1>
   </div></div>
@@ -351,7 +351,7 @@ for (const [id,n] of Object.entries(N)) for (const s of n.src||[]) {
 }
 const normListe = Object.values(NORMEN).sort((a,b)=>a.t.localeCompare(b.t,'de'));
 const normHTML = `<section id="normen">
-  <div class="band bandw" style="border-top:8px solid #16161A"><div class="shell">
+  <div class="band bandw" style="border-top:8px solid var(--solid)"><div class="shell">
     <nav class="crumbs cg"><a href="#home">Start</a><span class="sep">/</span><span class="here">Normen</span></nav>
     <h1 class="t3">Normen und Quellen</h1>
   </div></div>
@@ -391,11 +391,15 @@ const html = `<!DOCTYPE html>
   :root{
     --ink:#16161A; --ink2:#3A3A40; --ink3:#55555C; --ink4:#8A8A90;
     --surface:#F0F0F0; --card:#FFFFFF; --pill:#EDEDED; --hair:#C4C4C8; --hover:#FAFAFA;
+    --c-k:#FF6B5E; --c-e:#F2E4A8; --c-p:#C0C4F5; --c-x:#A8DCC6;
+    --solid:#16161A; --solid-h:#2E2E34; --onsolid:#FFFFFF; --foot:#16161A; --warn:#8A6A3A; --shadow:rgba(22,22,26,.18);
     --sans:'Archivo',-apple-system,BlinkMacSystemFont,sans-serif;
   }
   [data-theme="dark"]{
-    --ink:#F2F2F4; --ink2:#C9C9CE; --ink3:#A2A2A8; --ink4:#7A7A80;
-    --surface:#151517; --card:#1F1F23; --pill:#2A2A2F; --hair:#3E3E44; --hover:#26262B;
+    --ink:#ECECEE; --ink2:#C4C4C9; --ink3:#9E9EA4; --ink4:#78787E;
+    --surface:#202023; --card:#2A2A2E; --pill:#343439; --hair:#48484E; --hover:#313136;
+    --c-k:#C4665B; --c-e:#BDB283; --c-p:#9599C8; --c-x:#82B09C;
+    --solid:#ECECEE; --solid-h:#D8D8DC; --onsolid:#16161A; --foot:#151517; --warn:#C9A46A; --shadow:rgba(0,0,0,.5);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--surface);color:var(--ink);font:16px/1.6 var(--sans)}
@@ -409,14 +413,14 @@ const html = `<!DOCTYPE html>
   .hrow{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 40px;flex-wrap:wrap}
   .pills{display:flex;background:var(--pill);border-radius:999px;padding:5px}
   .pills a{font-size:13px;font-weight:500;color:var(--ink2);padding:9px 18px;border-radius:999px}
-  .pills a.on{font-weight:600;background:#16161A;color:#fff;padding:9px 20px}
+  .pills a.on{font-weight:600;background:var(--solid);color:var(--onsolid);padding:9px 20px}
   .wordmark{font-size:27px;font-weight:700;letter-spacing:-.04em;text-transform:uppercase}
   .hctl{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
   .such{position:relative;display:flex;align-items:center;gap:12px;background:var(--pill);border-radius:999px;padding:11px 20px;width:280px}
   .scope{font-size:13px;font-weight:500;white-space:nowrap;cursor:pointer}
   .strenn{width:1px;height:16px;background:var(--hair);flex:none}
   .such input{flex:1;min-width:0;background:transparent;border:0;font:inherit;font-size:13px;color:var(--ink);outline:none}
-  .such-panel{position:absolute;right:0;top:calc(100% + 10px);background:var(--card);width:min(84vw,420px);max-height:64vh;overflow:auto;z-index:40;box-shadow:0 12px 40px rgba(22,22,26,.18)}
+  .such-panel{position:absolute;right:0;top:calc(100% + 10px);background:var(--card);width:min(84vw,420px);max-height:64vh;overflow:auto;z-index:40;box-shadow:0 12px 40px var(--shadow)}
   .such-t{display:block;padding:12px 18px;border-bottom:1px solid var(--surface)}
   .such-t:hover{background:var(--hover)}
   .such-p{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-right:8px;color:var(--ink4)}
@@ -477,7 +481,7 @@ const html = `<!DOCTYPE html>
   .chev{font-size:11px;transition:transform .12s ease-out}
   details[open] > summary .chev{transform:rotate(180deg)}
   details.spez .dbody{background:var(--card);padding:4px 20px 18px;font-size:16px;line-height:1.6;color:var(--ink2)}
-  .unchecked{margin-top:12px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#8a6a3a;background:var(--surface);padding:6px 10px;display:inline-block}
+  .unchecked{margin-top:12px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--warn);background:var(--surface);padding:6px 10px;display:inline-block}
   .nohint{font-size:13px;color:var(--ink4);margin:18px 0;line-height:1.6}
   /* Bilder */
   .fig{background:var(--card);padding:24px;margin:0 0 30px}
@@ -505,9 +509,9 @@ const html = `<!DOCTYPE html>
   .kdesc{font-size:14px;line-height:1.5;color:var(--ink3)}
   .kfuss{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4)}
   .arr{display:inline-block;transition:transform .12s ease-out}
-  .kcard.fokus{background:#16161A;color:#fff}
-  .kcard.fokus .kfuss,.kcard.fokus .kdesc{color:rgba(255,255,255,.7)}
-  .kcard.fokus:hover{background:#26262B}
+  .kcard.fokus{background:var(--solid);color:var(--onsolid)}
+  .kcard.fokus .kfuss,.kcard.fokus .kdesc{color:var(--onsolid);opacity:.7}
+  .kcard.fokus:hover{background:var(--solid-h)}
   .endnote{font-size:12px;color:var(--ink4);margin:18px 0}
   /* DACH */
   .dach{background:var(--card);padding:20px 22px 14px;margin:0 0 30px}
@@ -540,9 +544,9 @@ const html = `<!DOCTYPE html>
   details.netz summary{list-style:none;cursor:pointer;padding:14px 20px;background:var(--card);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);display:flex;gap:8px;align-items:center}
   details.netz summary:hover{background:var(--hover)}
   details.netz summary::-webkit-details-marker{display:none}
-  .netzbox{background:#fff;padding:8px}
+  .netzbox{background:var(--card);padding:8px}
   svg{width:100%;height:auto;display:block}
-  svg text{font-size:11px;fill:#16161A;font-family:var(--sans)}
+  svg text{font-size:11px;fill:var(--ink);font-family:var(--sans)}
   svg text.ctr{font-size:12.5px;font-weight:600}
   .netz-note{font-size:11px;color:var(--ink4);text-align:center;margin-top:10px;line-height:1.6}
   /* Rechte Randspalte */
@@ -575,8 +579,8 @@ const html = `<!DOCTYPE html>
   .hero-t{font-size:86px;font-weight:700;line-height:.9;letter-spacing:-.05em;margin-bottom:24px;text-wrap:balance;hyphens:auto}
   .hero-lead{font-size:20px;line-height:1.45;font-weight:500;max-width:44ch;margin-bottom:30px;text-wrap:pretty}
   .hero-cta{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
-  .cta{background:#16161A;color:#fff;font-size:14px;font-weight:600;padding:13px 26px;border-radius:999px}
-  .cta:hover{background:#2E2E34}
+  .cta{background:var(--solid);color:var(--onsolid);font-size:14px;font-weight:600;padding:13px 26px;border-radius:999px}
+  .cta:hover{background:var(--solid-h)}
   .hero-meta{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
   .sekt{padding:68px 0 20px}
   .sekt:last-child{padding-bottom:68px}
@@ -598,7 +602,7 @@ const html = `<!DOCTYPE html>
   .tht{font-size:32px;font-weight:700;line-height:1.04;letter-spacing:-.035em;hyphens:auto}
   .thd{font-size:16px;line-height:1.5;color:var(--ink2);text-wrap:pretty}
   .thm{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink4)}
-  footer{background:#16161A;color:#fff;margin-top:0}
+  footer{background:var(--foot);color:#fff;margin-top:0}
   .frow{display:flex;justify-content:space-between;gap:20px;padding-top:26px;padding-bottom:26px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;flex-wrap:wrap}
   .frow button{color:rgba(255,255,255,.7);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
   .frow button:hover{color:#fff}
