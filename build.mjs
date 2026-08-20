@@ -442,7 +442,8 @@ let warn = 0;
 for (const [id,n] of Object.entries(N)) {
   if (n.pa && !N[n.pa]) { console.log('⚠ fehlender Eltern-Knoten:', id, '→', n.pa); warn++; }
   for (const l of n.ln||[]) if (!N[l]) { console.log('⚠ toter Querverweis:', id, '→', l); warn++; }
-  if (kidsOf(id).length > 7) { console.log('⚠ mehr als 7 Kinder:', id); warn++; }
+  const maxKinder = n.lv === 1 ? 10 : 7; /* Wurzelknoten dürfen bis 10 (Bens Entscheidung 20.08.2026) */
+  if (kidsOf(id).length > maxKinder) { console.log(`⚠ mehr als ${maxKinder} Kinder:`, id); warn++; }
   if (n.t3 && !/Ab hier/.test(n.t3)) { console.log('⚠ T3 ohne "Ab hier"-Absprung:', id); warn++; }
   if (!n.t1) { console.log('⚠ T1 fehlt:', id); warn++; }
 }
