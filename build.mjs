@@ -290,7 +290,9 @@ const threadPersp = th => [...new Set(th.ids.map(i=>N[i]?.p).filter(Boolean))];
 
 const home = `<section id="home">
   ${themaDerWoche ? `<div class="hero" style="background:${heroFarbe}"><div class="shell hero-g">
-    <div class="hero-bild">${leitFoto?`<img src="${leitFoto.u.replace('w=900','w=1200')}" alt="" loading="lazy">`:''}</div>
+    <div class="hero-bild">${themaDerWoche.bild
+      ? `<img src="${themaDerWoche.bild.path}" alt="${esc(themaDerWoche.titel)}">${themaDerWoche.bild.credit?`<span class="hero-credit">${esc(themaDerWoche.bild.credit)}</span>`:''}`
+      : leitFoto?`<img src="${leitFoto.u.replace('w=900','w=1200')}" alt="" loading="lazy">`:''}</div>
     <div>
       <span class="labelchip">Thema der Woche</span>
       <h1 class="hero-t">${esc(themaDerWoche.titel)}</h1>
@@ -564,6 +566,7 @@ const html = `<!DOCTYPE html>
   .hero{padding:60px 0 68px}
   .hero-g{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
   .hero-bild img{width:100%;height:500px;object-fit:cover;display:block}
+  .hero-credit{display:block;margin-top:8px;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.55}
   .labelchip{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;border:1.5px solid #16161A;padding:6px 12px;margin-bottom:24px}
   .hero-t{font-size:86px;font-weight:700;line-height:.9;letter-spacing:-.05em;margin-bottom:24px;text-wrap:balance;hyphens:auto}
   .hero-lead{font-size:20px;line-height:1.45;font-weight:500;max-width:44ch;margin-bottom:30px;text-wrap:pretty}
@@ -840,6 +843,7 @@ ${sections}
 mkdirSync('dist', { recursive: true });
 writeFileSync('dist/index.html', html);
 cpSync('fonts', 'dist/fonts', { recursive: true });
+cpSync('images', 'dist/images', { recursive: true });
 console.log('nodes:', Object.keys(N).length, '· bytes:', html.length, '→ dist/index.html (+fonts)');
 
 /* Konsistenzprüfung nach Autoren-Spezifikation */
