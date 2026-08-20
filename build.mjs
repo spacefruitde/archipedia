@@ -158,7 +158,7 @@ function nodeSection(id){
   let text = '';
   if (n.lv > 1) text += `<p class="lead">${esc(n.t1)}</p>`;
   if (n.t2) text += n.t2.split(/(?<=\.)\s+(?=[A-ZÄÖÜ„])/).map(a=>`<p class="fl">${esc(a)}</p>`).join('');
-  if (n.t3) text += `<details class="spez"><summary>Spezifikation <span class="chev">▾</span></summary><div class="dbody">${esc(n.t3)}<p class="unchecked">Status: KI-generiert, noch nicht fachgeprüft.</p></div></details>`;
+  if (n.t3) text += `<details class="spez"><summary>Spezifikation <span class="chev">▾</span></summary><div class="dbody">${esc(n.t3)}</div></details>`;
   if (!n.t3 && n.lv>=3 && n.p!=='k') {
     text += `<p class="nohint">Keine Stufe „Spezifikation": Entwurfs- und Kontextwissen endet hier bewusst mit dem Querverweis in die Konstruktions-Perspektive.</p>`;
   }
@@ -286,6 +286,7 @@ const perspCount = p => Object.values(N).filter(n => n.p === p).length;
 /* Startseite */
 const themaDerWoche = THREADS[0] || null;
 const heroNode = themaDerWoche ? N[themaDerWoche.ids[0]] : null;
+const heroEbenen = themaDerWoche ? (() => { const l = themaDerWoche.ids.map(i => N[i].lv); const a = Math.min(...l), b = Math.max(...l); return a === b ? `Ebene ${a}` : `Ebene ${a}–${b}`; })() : '';
 const heroFarbe = heroNode ? colOf(heroNode.p) : colOf('k');
 const leitFoto = (N.kfe1 && (N.kfe1.images||[]).find(i=>i.u)) || null;
 const threadPersp = th => [...new Set(th.ids.map(i=>N[i]?.p).filter(Boolean))];
@@ -299,7 +300,7 @@ const home = `<section id="home">
       <span class="labelchip">Thema der Woche</span>
       <h1 class="hero-t">${esc(themaDerWoche.titel)}</h1>
       <p class="hero-lead">${esc(themaDerWoche.kurz)}</p>
-      <p class="hero-cta"><a class="cta" href="#${themaDerWoche.ids[0]}">Thread starten</a><span class="hero-meta">${themaDerWoche.ids.length} Stationen · Ebene 1–7</span></p>
+      <p class="hero-cta"><a class="cta" href="#${themaDerWoche.ids[0]}">Thread starten</a><span class="hero-meta">${themaDerWoche.ids.length} Stationen · ${heroEbenen}</span></p>
     </div>
   </div></div>` : ''}
   <div class="shell">
@@ -386,21 +387,21 @@ const html = `<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%2316161A%27/%3E%3Cpath d=%27M9 25 L16 7 L23 25 M11.8 19 H20.2%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%272.8%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
-<title>ArchiPedia · Navigations-Prototyp</title>
+<title>ArchiPedia</title>
 <style>
   @font-face{font-family:'Archivo';src:url(fonts/Archivo-var.woff2) format('woff2');font-weight:100 900;font-display:swap}
   :root{
     --ink:#16161A; --ink2:#3A3A40; --ink3:#55555C; --ink4:#8A8A90;
     --surface:#F0F0F0; --card:#FFFFFF; --pill:#EDEDED; --hair:#C4C4C8; --hover:#FAFAFA;
     --c-k:#FF6B5E; --c-e:#F2E4A8; --c-p:#C0C4F5; --c-x:#A8DCC6;
-    --solid:#16161A; --solid-h:#2E2E34; --onsolid:#FFFFFF; --foot:#16161A; --warn:#8A6A3A; --shadow:rgba(22,22,26,.18);
+    --solid:#16161A; --solid-h:#2E2E34; --onsolid:#FFFFFF; --foot:#16161A; --shadow:rgba(22,22,26,.18);
     --sans:'Archivo',-apple-system,BlinkMacSystemFont,sans-serif;
   }
   [data-theme="dark"]{
     --ink:#ECECEE; --ink2:#C4C4C9; --ink3:#9E9EA4; --ink4:#78787E;
     --surface:#202023; --card:#2A2A2E; --pill:#343439; --hair:#48484E; --hover:#313136;
     --c-k:#C4665B; --c-e:#BDB283; --c-p:#9599C8; --c-x:#82B09C;
-    --solid:#ECECEE; --solid-h:#D8D8DC; --onsolid:#16161A; --foot:#151517; --warn:#C9A46A; --shadow:rgba(0,0,0,.5);
+    --solid:#ECECEE; --solid-h:#D8D8DC; --onsolid:#16161A; --foot:#151517; --shadow:rgba(0,0,0,.5);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--surface);color:var(--ink);font:16px/1.6 var(--sans)}
@@ -482,7 +483,6 @@ const html = `<!DOCTYPE html>
   .chev{font-size:11px;transition:transform .12s ease-out}
   details[open] > summary .chev{transform:rotate(180deg)}
   details.spez .dbody{background:var(--card);padding:4px 20px 18px;font-size:16px;line-height:1.6;color:var(--ink2)}
-  .unchecked{margin-top:12px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--warn);background:var(--surface);padding:6px 10px;display:inline-block}
   .nohint{font-size:13px;color:var(--ink4);margin:18px 0;line-height:1.6}
   /* Bilder */
   .fig{background:var(--card);padding:24px;margin:0 0 30px}
@@ -714,7 +714,7 @@ const html = `<!DOCTYPE html>
 <main>
 ${sections}
 </main>
-<footer><div class="shell frow"><span>ArchiPedia — Prototyp · Inhalte KI-generiert, nicht fachgeprüft</span><span style="display:flex;gap:24px;align-items:center"><button id="thema" type="button">◐ Auto</button><span>Impressum · Quellen · Lizenz</span></span></div></footer>
+<footer><div class="shell frow"><span>ArchiPedia</span><span style="display:flex;gap:24px;align-items:center"><button id="thema" type="button">◐ Auto</button><span>Impressum · Quellen · Lizenz</span></span></div></footer>
 <script>
 (function(){
   function sync(){
