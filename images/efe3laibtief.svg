@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Zwei Horizontalschnitte: dicke Wand mit innen liegendem Fenster und tiefer Laibung, die Schatten wirft, gegenüber dünner Wand mit außen bündigem Fenster ohne Schatten">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- links: dicke Wand, Fenster innen -->
+  <text x="130" y="22" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">tiefe Laibung: Fenster innen</text>
+  <rect x="40" y="120" width="60" height="80" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="160" y="120" width="60" height="80" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="100" y="186" width="60" height="10" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Schattenfläche in der Laibung, Akzent -->
+  <polygon points="100,120 160,120 160,186 100,186" fill="#b05c3a" fill-opacity="0.18" stroke="none"/>
+  <path d="M100 120 L160 186" stroke="#b05c3a" stroke-width="1.1"/>
+  <path d="M100 142 L144 186 M100 164 L122 186" stroke="#b05c3a" stroke-width="1.1"/>
+  <!-- rechts: dünne Wand, Fenster außen bündig -->
+  <text x="350" y="22" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">bündige Haut: Fenster außen</text>
+  <rect x="260" y="176" width="60" height="24" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="380" y="176" width="60" height="24" fill="url(#hatch)" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="320" y="176" width="60" height="10" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Sonnenrichtung schräg von außen -->
+  <line x1="60" y1="60" x2="100" y2="104" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="280" y1="60" x2="320" y2="104" stroke="#1c1a17" stroke-width="1.1"/>
+  <path d="M96 98 L100 104 L93 103" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <path d="M316 98 L320 104 L313 103" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Beschriftungen -->
+  <line x1="130" y1="150" x2="130" y2="250" stroke="#b05c3a" stroke-width="1.1"/><circle cx="130" cy="150" r="1.6" fill="#b05c3a"/>
+  <text x="130" y="266" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Schatten in der Laibung:</text>
+  <text x="130" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Öffnung liest sich als Tiefe</text>
+  <line x1="350" y1="181" x2="350" y2="250" stroke="#1c1a17" stroke-width="1.1"/><circle cx="350" cy="181" r="1.6" fill="#1c1a17"/>
+  <text x="350" y="266" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">kein Schatten:</text>
+  <text x="350" y="278" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Öffnung liest sich als Fläche</text>
+  <text x="46" y="84" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Sonne</text>
+  <text x="240" y="308" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Grundriss, außen oben, innen unten</text>
+</svg>

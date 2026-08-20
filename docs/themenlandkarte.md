@@ -122,7 +122,7 @@ Konventionen: Jede Zeile Ebene 2 wird später ein eigener Teilbaum bis maximal E
 
 ## Perspektive ENTWURF (das gestalterische Wissen)
 
-*Anders geschnitten als die Konstruktion: nicht nach Bauteilen, sondern nach Entwurfsfragen. Bauteilbezogene Entwurfsthemen (Tür als Entwurfselement, Treppe als Raumskulptur) hängen als Unteräste hier UND sind mit dem Bauteil-Ast verschränkt.*
+*Anders geschnitten als die Konstruktion: nicht nach Bauteilen, sondern nach Entwurfsfragen. Bauteilbezogene Entwurfsthemen (Tür als Entwurfselement, Treppe als Raumskulptur, Fenster als Entwurfselement; Letzteres ergänzt 20.08.2026 mit den Unterästen Teilung/Rhythmus/Reihung, Laibung/Tiefe/Schatten, Ansicht im Detail) hängen als Unteräste hier UND sind mit dem Bauteil-Ast verschränkt. Licht bleibt ein eigener Ast (E2) und wird vom Fenster-Ast verlinkt, nicht wiederholt.*
 
 ### E1 Raum und Proportion
 - Raumproportionen und Maßsysteme

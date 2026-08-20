@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Vertikalschnitt durch die Schwelle eines Hebeschiebeelements ohne Anschlag: Bodenaufbau innen, flaches Schwellenprofil, Entwässerungsrinne außen, Abdichtung unter dem Profil hochgeführt">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Rohdecke -->
+  <rect x="40" y="236" width="400" height="40" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Bodenaufbau innen: Dämmung (Wellen) und Estrich (Schraffur) -->
+  <path d="M40 222 q10 6 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <rect x="40" y="176" width="180" height="32" fill="url(#hatch)" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="40" y1="176" x2="220" y2="176" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Schwellenprofil flach, bündig mit Fertigfußboden -->
+  <rect x="220" y="178" width="48" height="30" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <line x1="220" y1="190" x2="268" y2="190" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Flügel (Glas) über dem Profil -->
+  <rect x="236" y="40" width="16" height="138" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Außen: Rinne (Akzent) und Belag auf Stelzlagern -->
+  <rect x="268" y="180" width="30" height="40" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <line x1="268" y1="186" x2="298" y2="186" stroke="#b05c3a" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <rect x="298" y="176" width="142" height="10" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <rect x="320" y="186" width="8" height="36" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <rect x="400" y="186" width="8" height="36" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Abdichtung: auf der Rohdecke, unter dem Profil hochgeführt -->
+  <path d="M440 230 H300 V224 H220 V182" fill="none" stroke="#1c1a17" stroke-width="2.2" stroke-dasharray="6 3"/>
+  <!-- Beschriftungen -->
+  <line x1="130" y1="176" x2="130" y2="130" stroke="#1c1a17" stroke-width="1.1"/><circle cx="130" cy="176" r="1.6" fill="#1c1a17"/>
+  <text x="130" y="124" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Fertigfußboden innen</text>
+  <line x1="244" y1="196" x2="160" y2="300" stroke="#1c1a17" stroke-width="1.1"/><circle cx="244" cy="196" r="1.6" fill="#1c1a17"/>
+  <text x="150" y="312" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">flaches Schwellenprofil</text>
+  <line x1="283" y1="212" x2="330" y2="300" stroke="#b05c3a" stroke-width="1.1"/><circle cx="283" cy="212" r="1.6" fill="#b05c3a"/>
+  <text x="330" y="304" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">Rinne vor der Schwelle</text>
+  <line x1="360" y1="230" x2="376" y2="256" stroke="#1c1a17" stroke-width="1.1"/><circle cx="360" cy="230" r="1.6" fill="#1c1a17"/>
+  <text x="380" y="262" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Abdichtung</text>
+  <text x="380" y="274" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">hochgeführt</text>
+  <text x="110" y="60" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">innen</text>
+  <text x="400" y="60" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">außen</text>
+</svg>

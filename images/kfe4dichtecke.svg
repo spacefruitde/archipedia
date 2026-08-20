@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Untere Fensterecke in der Ansicht von innen: In der Fuge zwischen Blendrahmen und Laibung laufen drei Dichtungsebenen um die Ecke, die innere Folie wird an der Ecke überlappt, das äußere Band stößt stumpf">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Laibung (Wand), L-förmig um die Ecke -->
+  <path d="M60 40 H120 V250 H420 V290 H60 Z" fill="url(#hatch)" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Fuge, drei Ebenen als L-Bänder von der Wand zum Rahmen -->
+  <!-- außen: Kompriband, an der Wand, auf Stoß -->
+  <path d="M120 40 H134 V236 H420 V250 H120 Z" fill="#1c1a17" fill-opacity="0.12" stroke="none"/>
+  <line x1="134" y1="236" x2="134" y2="250" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="120" y1="236" x2="134" y2="236" stroke="#1c1a17" stroke-width="1.1"/>
+  <!-- Mitte: Fugendämmung, gepunktet -->
+  <path d="M134 40 H158 V212 H420 V236 H134 Z" fill="none" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="1 4"/>
+  <!-- innen: Folie, am Rahmen, an der Ecke überlappt (Akzent) -->
+  <path d="M158 40 H170 V200 H420 V212 H158 Z" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1"/>
+  <rect x="154" y="196" width="28" height="20" fill="#b05c3a" fill-opacity="0.35" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Blendrahmen, L-Profil -->
+  <path d="M170 40 H194 V176 H420 V200 H170 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Beschriftungen -->
+  <line x1="168" y1="206" x2="244" y2="266" stroke="#b05c3a" stroke-width="1.1"/><circle cx="168" cy="206" r="1.6" fill="#b05c3a"/>
+  <text x="250" y="270" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#b05c3a">innen: Folie, an der Ecke überlappt</text>
+  <line x1="127" y1="110" x2="100" y2="116" stroke="#1c1a17" stroke-width="1.1"/><circle cx="127" cy="110" r="1.6" fill="#1c1a17"/>
+  <text x="90" y="126" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">außen: Band,</text>
+  <text x="90" y="138" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">auf Stoß</text>
+  <line x1="300" y1="224" x2="330" y2="150" stroke="#1c1a17" stroke-width="1.1"/><circle cx="300" cy="224" r="1.6" fill="#1c1a17"/>
+  <text x="334" y="146" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Mitte: Fugendämmung</text>
+  <line x1="380" y1="188" x2="400" y2="110" stroke="#1c1a17" stroke-width="1.1"/><circle cx="380" cy="188" r="1.6" fill="#1c1a17"/>
+  <text x="400" y="106" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Blendrahmen</text>
+  <text x="90" y="200" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Laibung</text>
+  <text x="240" y="310" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Ansicht von innen, Ebenen der Fuge nebeneinander gezeigt</text>
+</svg>

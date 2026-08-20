@@ -45,6 +45,10 @@ Organisation: **Spacefruit** (dort läuft auch bugsnap). Ben hat ein neues Proje
 
 Live: https://ao-prototyp.pages.dev — Cloudflare Pages, Projekt `ao-prototyp` (Direct Upload, zählt nicht gegen das 500-Builds-Limit; Free-Plan ohne Bandbreitenlimit). Deploy manuell per `npx wrangler pages deploy dist --project-name ao-prototyp --branch master --commit-dirty=true` (wrangler-Login liegt lokal vor). Wechsel am 20.08.2026, weil das Netlify-Free-Tier (Konto ben@spacefruit.de, Team „Archi-tektur") kreditbasiert ist und neue Deploys blockte; die alte Site https://ao-prototyp.netlify.app läuft noch, wird aber nicht mehr aktualisiert. Custom Domain (z. B. architektur.online) später direkt in Cloudflare aufschaltbar. Der Wortmarken-Text steckt nur in `build.mjs` (Header + Titel), Umbenennung ist eine Zeile.
 
+## Status (20.08.2026, Fenster-Welle)
+
+790 Knoten live. Fenster-Ast (`kfe1`) mit 101 Konstruktionsknoten (E4 51, E5 21, E6 3, E7 1) als erster Ast mit Tiefe; ein Strang bis E7 (Randverbund → Psi → LV-Position warme Kante) nach fachlicher Gegenlesung korrigiert; neuer Entwurfs-Ast `efe1` „Das Fenster als Entwurfselement" (12 Knoten); Prozess `pav3lvfenster`, `pbl3bemuster`. 48 Knoten und 18 Bestands-T3 in Sonnet-Welle erzeugt (Vorgaben und Ablauf: `docs/struktur-fenster-fleisch.md`), alle Status generiert; prüfpflichtige Zahlen/Normen in `docs/pruefliste-fenster-2026-08-20.md`. Build macht SVG-Pattern-IDs pro Knoten eindeutig. Nächster Ast laut Landkarte: Flachdach, gleicher Ablauf (Fable Struktur/Kuration/Zeichnungen, Sonnet Texte, Haiku Mechanik).
+
 ## Status (15.08.2026)
 
 97 Knoten live: Türen (Muster-Ast, K+E), Treppen (Testlauf nach Spec, K+E), Margarethenhöhe (Kontext). Prozess-Perspektive (`p`) in Landkarte und DB-Schema angelegt, noch ohne Knoten. Bestehende Knoten haben noch KEINE stand/geprueft-Angaben in src – das ist die offene Verifikations-Welle. MVP-Fahrplan siehe Ende der Themenlandkarte (Stufe 1: alle Äste bis E3 mit T1, ~400 Knoten; Stufe 2: Tiefe in Wellen).
