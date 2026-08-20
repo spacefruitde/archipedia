@@ -385,6 +385,7 @@ const html = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%2316161A%27/%3E%3Cpath d=%27M9 25 L16 7 L23 25 M11.8 19 H20.2%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%272.8%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
 <title>ArchiPedia · Navigations-Prototyp</title>
 <style>
   @font-face{font-family:'Archivo';src:url(fonts/Archivo-var.woff2) format('woff2');font-weight:100 900;font-display:swap}
