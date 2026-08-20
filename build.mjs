@@ -295,7 +295,9 @@ const html = `<!DOCTYPE html>
   details.depth .dbody{max-width:72ch}
   @media(min-width:960px){ h1.node{font-size:56px} .intro{font-size:76px} .raster{display:grid;grid-template-columns:1fr 1fr;column-gap:56px} }
   details.depth{border-top:1px solid var(--line);margin-top:20px;background:none}
-  details.depth summary{list-style:none;cursor:pointer;padding:13px 0;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+  details.depth summary{list-style:none;cursor:pointer;padding:14px 0;font-family:var(--sans);font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+  .pp-k details.depth summary{color:var(--k)} .pp-e details.depth summary{color:var(--e)} .pp-x details.depth summary{color:var(--x)} .pp-p details.depth summary{color:var(--p)}
+  details.depth .plus{font-weight:400}
   details.depth summary:hover{color:var(--ink)}
   details.depth summary::-webkit-details-marker{display:none}
   details.depth .plus,details.netz .plus{font-size:15px;color:var(--line)}
@@ -354,8 +356,7 @@ const html = `<!DOCTYPE html>
   .pp-x .section,.pp-x .srcbox{border-top-color:var(--x)} .pp-p .section,.pp-p .srcbox{border-top-color:var(--p)}
   .pp-k .dach,.pp-k .thread{border-left-color:var(--k)} .pp-e .dach,.pp-e .thread{border-left-color:var(--e)}
   .pp-x .dach,.pp-x .thread{border-left-color:var(--x)} .pp-p .dach,.pp-p .thread{border-left-color:var(--p)}
-  .pp-k details.depth summary:hover{color:var(--k)} .pp-e details.depth summary:hover{color:var(--e)}
-  .pp-x details.depth summary:hover{color:var(--x)} .pp-p details.depth summary:hover{color:var(--p)}
+  details.depth summary:hover{text-decoration:underline;text-underline-offset:4px}
   #persp-k .persp-card{border-top-color:var(--k)} #persp-e .persp-card{border-top-color:var(--e)}
   #persp-x .persp-card{border-top-color:var(--x)} #persp-p .persp-card{border-top-color:var(--p)}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px 20px}
