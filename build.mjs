@@ -173,7 +173,7 @@ function nodeSection(id){
 
 /* Perspektiven als Einstiegsebene */
 const PDESC = {
-  k: 'Das Bauteilwissen: vom Themenfeld bis zum Ausschreibungsdetail, in bis zu 7 Ebenen.',
+  k: 'Das Bauteilwissen: vom Themenfeld bis zum Ausschreibungsdetail, so tief wie das Thema es verlangt.',
   e: 'Das gestalterische Wissen: Entwurfsfragen quer zu den Bauteilen, von der Proportion bis zur Fügung.',
   x: 'Das Referenzwissen: Fallstudien und Haltungen, vom Städtebau bis zum Türgriff erschlossen.',
   p: 'Das Berufswissen: Ablauf, Honorar, Recht, Kosten und Vergabe, immer im Vergleich DE, AT, CH.'
@@ -191,8 +191,8 @@ const perspCards = PORDER.map(p => {
 }).join('');
 
 const home = `<section id="home">
-  <p class="intro">Ein Wissensraum, vier Perspektiven, jede Tiefe.</p>
-  <p class="intro-sub">Begehbares Gerüst der gesamten Themenlandkarte, jedes Themenfeld bis Ebene 3 mit Überblickstexten; die Muster-Äste Türen und Treppen reichen tiefer. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
+  <p class="intro">Ein Wissensraum.<br>Vier Perspektiven.<br>Jede Tiefe.</p>
+  <p class="intro-sub">Die gesamte Themenlandkarte der Architektur, kuratiert verschränkt: Konstruktion, Entwurf, Kontext und Prozess. Tiefe wächst dort, wo ein Thema sie verlangt. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
   ${perspCards}
   ${THREADS.length ? `<p class="entdecken-titel">Entdecken: kuratierte Threads quer durch die Perspektiven</p>` + THREADS.map(th=>`<a class="persp-card thread-card" href="#${th.ids[0]}">
     <h2>${esc(th.titel)}</h2><p>${esc(th.kurz)}</p>
@@ -241,10 +241,10 @@ const html = `<!DOCTYPE html>
   .wrap{max-width:768px;margin:0 auto;padding:0 22px}
   header{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:20}
   .head-in{display:flex;align-items:center;justify-content:space-between;padding:16px 0 10px}
-  .wordmark{font-family:var(--serif);font-size:25px;letter-spacing:.02em}
+  .wordmark{font-family:var(--sans);font-weight:800;font-size:24px;letter-spacing:-.02em}
   .wordmark span{color:var(--muted);font-size:10px;font-family:var(--sans);letter-spacing:.22em;text-transform:uppercase;margin-left:10px;vertical-align:2px}
   .topnav{display:flex;gap:22px;flex-wrap:wrap;align-items:center;padding-bottom:12px}
-  .topnav .badge{font-family:var(--sans);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;background:none;padding:0;border:0;border-bottom:2px solid transparent;padding-bottom:2px}
+  .topnav .badge{font-weight:700;background:none;padding:0 0 3px;border:0;border-bottom:3px solid transparent}
   .b-k{color:var(--k)} .b-e{color:var(--e)} .b-x{color:var(--x)} .b-p{color:var(--p)}
   .topnav .b-k:hover{border-color:var(--k)} .topnav .b-e:hover{border-color:var(--e)} .topnav .b-x:hover{border-color:var(--x)} .topnav .b-p:hover{border-color:var(--p)}
   .landwahl{margin-left:auto;display:flex;gap:8px}
@@ -262,29 +262,32 @@ const html = `<!DOCTYPE html>
   main>section{display:none}
   main>section:target{display:block}
   main:not(:has(section:target))>#home{display:block}
-  .intro{font-family:var(--serif);font-size:31px;line-height:1.3;margin-bottom:10px;letter-spacing:-.01em}
+  .intro{font-family:var(--sans);font-weight:800;font-size:52px;line-height:1.04;margin-bottom:18px;letter-spacing:-.03em}
   .intro-sub{color:var(--muted);font-family:var(--sans);font-size:13.5px;line-height:1.65;max-width:56ch;margin-bottom:40px}
-  .persp-card{display:block;border-top:1px solid var(--line);padding:22px 0 24px}
+  .persp-card{display:block;border-top:2px solid var(--ink);padding:20px 0 26px;position:relative}
+  .home-card::before{content:"";position:absolute;top:-2px;left:0;width:64px;height:6px}
+  .hc-k::before{background:var(--k)} .hc-e::before{background:var(--e)} .hc-x::before{background:var(--x)} .hc-p::before{background:var(--p)}
+  .thread-card::before{content:"";position:absolute;top:-2px;left:0;width:64px;height:6px;background:var(--ink)}
   .persp-card:hover h2{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
-  .persp-card .tag{display:inline-block;font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px;background:none;padding:0}
-  .persp-card h2{font-family:var(--serif);font-size:23px;font-weight:400;margin-bottom:6px;line-height:1.3}
+  .persp-card .tag{display:inline-block;font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:12px;background:none;padding:0}
+  .persp-card h2{font-family:var(--sans);font-weight:800;font-size:28px;letter-spacing:-.02em;margin-bottom:8px;line-height:1.12}
   .persp-card p{font-size:15px;color:var(--muted);line-height:1.6;max-width:60ch}
   .persp-card .counts{font-family:var(--sans);font-size:11px;margin-top:8px;letter-spacing:.03em}
   .home-card,.hc-k,.hc-e,.hc-x,.hc-p{border-left:0}
   .thread-card{border-left:0}
-  .entdecken-titel{font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:52px 0 4px}
+  .entdecken-titel{font-family:var(--sans);font-weight:800;font-size:22px;letter-spacing:-.02em;color:var(--ink);margin:64px 0 10px}
   .crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:26px;font-family:var(--sans);font-size:11px;letter-spacing:.04em}
   .crumbs a{color:var(--muted)}
   .crumbs a:hover{color:var(--ink)}
   .crumbs .sep{color:var(--line)}
   .crumbs .here{color:var(--ink)}
   .meta{display:flex;gap:14px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
-  .badge{font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;background:none;padding:0}
+  .badge{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;background:none;padding:0}
   .levels{display:flex;gap:3px;align-items:center}
   .levels i{width:5px;height:5px;border-radius:50%;background:var(--line);display:inline-block}
   .levels i.on{background:var(--muted)}
   .levels .lv{font-family:var(--sans);font-size:10px;color:var(--muted);margin-left:6px;letter-spacing:.06em}
-  h1.node{font-family:var(--serif);font-size:40px;font-weight:400;line-height:1.14;letter-spacing:-.012em;margin-bottom:22px}
+  h1.node{font-family:var(--sans);font-weight:800;font-size:44px;line-height:1.06;letter-spacing:-.025em;margin-bottom:24px}
   .content{margin-bottom:26px}
   .dlbl{display:none}
   .d1 p:last-child{font-size:20px;line-height:1.62;letter-spacing:.002em}
@@ -305,11 +308,11 @@ const html = `<!DOCTYPE html>
   figure.zeichnung.foto figcaption{color:var(--muted)}
   figure.zeichnung .credit{display:block;font-style:normal;font-family:var(--sans);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;margin-top:5px;color:#a29b8d}
   figure.zeichnung .credit a{text-decoration:underline;text-underline-offset:2px;text-transform:none;letter-spacing:.04em}
-  .dach{background:var(--tint);padding:18px 20px 12px;margin-bottom:28px}
+  .dach{background:var(--tint);border-left:6px solid var(--ink);padding:18px 22px 12px;margin-bottom:32px}
   .dach-row{display:flex;gap:14px;font-size:15px;line-height:1.65;margin-bottom:8px}
   .dach-row .cc{flex:0 0 26px;font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.1em;color:var(--muted);padding-top:4px}
   .dach-hint{font-family:var(--sans);font-size:11px;color:var(--muted);margin-top:8px;border-top:1px solid var(--line);padding-top:8px}
-  .srcbox{border-top:1px solid var(--line);padding:14px 0 6px;margin-bottom:30px}
+  .srcbox{border-top:2px solid var(--ink);padding:14px 0 6px;margin-bottom:34px}
   .srcbox ul{list-style:none}
   .srcbox li{font-family:var(--sans);font-size:13px;padding:5px 0;border-bottom:1px dotted var(--line)}
   .srcbox li:last-child{border-bottom:0}
@@ -317,9 +320,9 @@ const html = `<!DOCTYPE html>
   .srcbox a:hover{text-decoration-color:var(--ink)}
   .srcbox .stand{display:inline-block;margin-left:8px;font-size:10.5px;color:var(--muted);background:var(--tint);padding:1px 7px}
   .srcnote{font-family:var(--sans);font-size:11px;color:var(--muted);margin-top:8px}
-  .sec-title{font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
-  .section{margin-bottom:36px}
-  .child{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);padding:13px 0;font-family:var(--serif);font-size:17.5px}
+  .sec-title{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink);margin:0 0 10px}
+  .section{margin-bottom:42px;border-top:2px solid var(--ink);padding-top:14px}
+  .child{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);padding:14px 0;font-family:var(--sans);font-weight:600;font-size:16.5px;letter-spacing:-.01em}
   .child:hover span:first-child{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
   .child .arr{color:var(--line);font-size:16px;margin-left:12px}
   .child small{display:block;font-family:var(--sans);color:var(--muted);font-size:11px;margin-top:3px;letter-spacing:.03em;text-decoration:none!important}
@@ -329,7 +332,7 @@ const html = `<!DOCTYPE html>
   .xlink{font-family:var(--sans);font-size:12.5px;letter-spacing:.02em;background:none;border:0;padding:2px 0;border-bottom:1px solid var(--line);display:inline-block}
   .xl-k{color:var(--k)} .xl-e{color:var(--e)} .xl-x{color:var(--x)} .xl-p{color:var(--p)}
   .xl-k:hover{border-color:var(--k)} .xl-e:hover{border-color:var(--e)} .xl-x:hover{border-color:var(--x)} .xl-p:hover{border-color:var(--p)}
-  .thread{background:var(--tint);padding:14px 18px;margin-bottom:36px}
+  .thread{background:var(--tint);border-left:6px solid var(--ink);padding:16px 20px;margin-bottom:42px}
   .th-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:4px}
   .th-nav{font-family:var(--serif);font-size:15.5px;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}
   .th-nav:hover{text-decoration-color:var(--ink)}

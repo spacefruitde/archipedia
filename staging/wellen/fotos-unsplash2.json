@@ -1,0 +1,58 @@
+{
+  "kma2holz": {
+    "u": "https://images.unsplash.com/photo-1758239652314-b68992ea55bc?w=900&q=80&fm=jpg",
+    "caption": "Moderne Holzfassade mit vertikalen Lamellen in warmem Naturton.",
+    "credit": "Foto: Jason Leung, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/modern-wooden-building-facade-with-vertical-slats-y2i8-smk41U"
+  },
+  "kma3vollholz": {
+    "u": "https://images.unsplash.com/photo-1763392199003-27cee33bae31?w=900&q=80&fm=jpg",
+    "caption": "Nahaufnahme einer hellbraunen Holzoberfläche mit feiner Maserung.",
+    "credit": "Foto: Zoshua Colah, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/close-up-of-light-brown-wood-grain-texture-UhSCrH3p4Go"
+  },
+  "kma3werkstoff": {
+    "u": "https://images.unsplash.com/photo-1783587354816-f86ce06a373f?w=900&q=80&fm=jpg",
+    "caption": "Nahaufnahme einer Grobspanplatte mit sichtbarer Späne-Struktur im Streiflicht.",
+    "credit": "Foto: Annie Spratt, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/oriented-strand-board-surface-with-diagonal-shadows-Cg0IR2R42KA"
+  },
+  "kma2beton": {
+    "u": "https://images.unsplash.com/photo-1750056661722-8381f9012079?w=900&q=80&fm=jpg",
+    "caption": "Grau strukturierte Betonoberfläche in Nahaufnahme.",
+    "credit": "Foto: Ingmar, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/concrete-wall-texture-is-seen-up-close-v8o8Fvxxnto"
+  },
+  "kma3sichtbeton": {
+    "u": "https://images.unsplash.com/photo-1761850149117-ec0df2bfb141?w=900&q=80&fm=jpg",
+    "caption": "Sichtbetonwand mit vertikalem Schalbrettmuster im Streiflicht.",
+    "credit": "Foto: Creative Hina By.Quileen, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/modern-brutalist-architecture-with-concrete-textures-and-ceiling-lights-0I0lfvXvOhw"
+  },
+  "kma3fertigteil": {
+    "u": "https://images.unsplash.com/photo-1759661030081-285e363a9135?w=900&q=80&fm=jpg",
+    "caption": "Fertigteilfassade aus Betonelementen mit regelmäßigem Fugenraster und Fensteröffnungen.",
+    "credit": "Foto: Marc Cordeau, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/concrete-building-facade-with-repetitive-window-patterns-RTZHabQALJo"
+  },
+  "kma2naturstein": {
+    "u": "https://images.unsplash.com/photo-1755589196005-c6ec40751f97?w=900&q=80&fm=jpg",
+    "caption": "Natursteinmauer aus unregelmäßig geschichteten Bruchsteinen mit tiefen Fugen.",
+    "credit": "Foto: Mike Hindle, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/rough-stone-wall-with-varying-sizes-and-textures-awUboAYLreA"
+  },
+  "kma3gestein": {
+    "u": "https://images.unsplash.com/photo-1733085097233-66441dedba94?w=900&q=80&fm=jpg",
+    "caption": "Nahaufnahme einer polierten Granitoberfläche mit feiner Mineralkörnung.",
+    "credit": "Foto: Akbar Nemati, Unsplash",
+    "lizenz": "Unsplash-Lizenz",
+    "quelle": "https://unsplash.com/photos/a-close-up-view-of-a-granite-surface-cTnKAssJt9A"
+  }
+}
