@@ -185,7 +185,8 @@ const perspCards = PORDER.map(p => {
   const roots = perspRoots(p);
   const nodes = Object.values(N).filter(n => n.p === p).length;
   return `<a class="persp-card home-card hc-${p}" href="#persp-${p}">
-    <span class="tag b-${p}">${P[p].name}</span>
+    <span class="tag">Perspektive</span>
+    <h2>${P[p].name}</h2>
     <p>${esc(PDESC[p])}</p>
     <p class="counts">${roots.length} Themenfelder · ${nodes} Einträge</p></a>`;
 }).join('');
@@ -201,10 +202,11 @@ const home = `<section id="home">
 </section>`;
 
 const perspSections = PORDER.map(p => `<section id="persp-${p}">
-  <nav class="crumbs"><a href="#home">Start</a><span class="sep">›</span><span class="here">${P[p].name}</span></nav>
-  <div class="meta"><span class="badge b-${p}">${P[p].name}</span></div>
-  <h1 class="node">${P[p].name}</h1>
-  <p class="intro-sub">${esc(PDESC[p])}</p>
+  <div class="phero ph-${p}">
+    <nav class="crumbs"><a href="#home">Start</a><span class="sep">›</span><span class="here">${P[p].name}</span></nav>
+    <h1 class="node">${P[p].name}</h1>
+    <p class="intro-sub">${esc(PDESC[p])}</p>
+  </div>
   <div class="raster">${perspRoots(p).map(([id,desc])=>`<a class="persp-card" href="#${id}"><h2>${esc(N[id].t)}</h2><p>${esc(desc)}</p>${imgsIn(id)?`<p class="counts"><span class="hatbild">◪ ${imgsIn(id)} Bilder</span></p>`:''}</a>`).join('')}</div>
 </section>`).join('\n');
 
@@ -228,21 +230,29 @@ const html = `<!DOCTYPE html>
 <title>ArchiPedia · Navigations-Prototyp</title>
 <style>
   :root{
-    --bg:#fcfcfb; --ink:#141310; --muted:#807b73; --line:#e3e1db; --card:#ffffff; --tint:#f1f0ec;
-    --k:#0e66c2; --k-bg:#e3effb; --e:#e8501f; --e-bg:#fde9e0; --x:#0ba05f; --x-bg:#e2f6ea; --p:#7b3ff2; --p-bg:#f0e8fd;
+    /* Palette nach Le Corbusiers Polychromie architecturale: bleu outremer, rouge vermillon, vert anglais, ocre */
+    --bg:#f2efe8; --ink:#1d1a15; --muted:#7c7466; --line:#d8d2c2; --card:#fbf9f3; --tint:#e9e4d5;
+    --k:#28618e; --k-bg:#dde7ed; --e:#b1482c; --e-bg:#f0ddd2; --x:#4b7157; --x-bg:#dfe6dc; --p:#96691a; --p-bg:#eee3c9;
+    --k-tile:#28618e; --e-tile:#b1482c; --x-tile:#4b7157; --p-tile:#96691a; --tile-ink:#f6f3ea;
+    --head:#1d1a15; --head-ink:#f2ede1;
     --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
     --radius:2px;
   }
   [data-theme="dark"]{
     --bg:#171410; --ink:#eae4d9; --muted:#9d958a; --line:#332e26; --card:#1f1b16; --tint:#241f19;
-    --k:#5aa2e8; --k-bg:#152535; --e:#ff7a4d; --e-bg:#332017; --x:#42c98a; --x-bg:#15291f; --p:#b18cff; --p-bg:#251d38;
+    --k:#7dabd6; --k-bg:#1b2836; --e:#dd8261; --e-bg:#342017; --x:#8bb497; --x-bg:#1c2820; --p:#cfa14a; --p-bg:#2a2110;
+    --head:#100e0b; --head-ink:#eae4d9;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);font:17px/1.75 var(--serif);padding-bottom:64px}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1120px;margin:0 auto;padding:0 32px}
-  header{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:20}
+  header{background:var(--head);color:var(--head-ink);position:sticky;top:0;z-index:20;
+    --ink:var(--head-ink); --muted:#a89f8e; --line:#403a2f; --card:#26221b; --tint:#312c23;
+    --k:#7dabd6; --e:#e08a67; --x:#8fbf9d; --p:#d9a94f}
+  .balken{display:flex;height:5px}
+  .balken i{flex:1} .balken .bk{background:var(--k-tile)} .balken .be{background:var(--e-tile)} .balken .bx{background:var(--x-tile)} .balken .bp{background:var(--p-tile)}
   .head-in{display:flex;align-items:center;justify-content:space-between;padding:16px 0 10px}
   .wordmark{font-family:var(--sans);font-weight:800;font-size:24px;letter-spacing:-.02em}
   .wordmark span{color:var(--muted);font-size:10px;font-family:var(--sans);letter-spacing:.22em;text-transform:uppercase;margin-left:10px;vertical-align:2px}
@@ -267,15 +277,20 @@ const html = `<!DOCTYPE html>
   main:not(:has(section:target))>#home{display:block}
   .intro{font-family:var(--sans);font-weight:800;font-size:52px;line-height:1.04;margin-bottom:18px;letter-spacing:-.03em}
   .intro-sub{color:var(--muted);font-family:var(--sans);font-size:13.5px;line-height:1.65;max-width:56ch;margin-bottom:40px}
-  .persp-card{display:block;border-top:4px solid var(--ink);padding:20px 0 26px;position:relative}
-  .hc-k{border-top-color:var(--k)} .hc-e{border-top-color:var(--e)} .hc-x{border-top-color:var(--x)} .hc-p{border-top-color:var(--p)}
+  .persp-card{display:block;background:var(--card);border-top:3px solid var(--ink);padding:22px 24px 26px;margin-bottom:22px;position:relative}
   .persp-card:hover h2{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
   .persp-card .tag{display:inline-block;font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:12px;background:none;padding:0}
   .persp-card h2{font-family:var(--sans);font-weight:800;font-size:28px;letter-spacing:-.02em;margin-bottom:8px;line-height:1.12}
   .persp-card p{font-size:15px;color:var(--muted);line-height:1.6;max-width:60ch}
   .persp-card .counts{font-family:var(--sans);font-size:11px;margin-top:8px;letter-spacing:.03em}
-  .home-card,.hc-k,.hc-e,.hc-x,.hc-p{border-left:0}
-  .thread-card{border-left:0}
+  /* Startseite: Perspektiven als Vollfarb-Kacheln */
+  .home-card{border-top:0;color:var(--tile-ink);padding:26px 28px 30px}
+  .home-card.hc-k{background:var(--k-tile)} .home-card.hc-e{background:var(--e-tile)} .home-card.hc-x{background:var(--x-tile)} .home-card.hc-p{background:var(--p-tile)}
+  .home-card .tag{color:inherit;opacity:.72}
+  .home-card p{color:inherit;opacity:.92;max-width:52ch}
+  .home-card .counts{opacity:.72}
+  .home-card:hover{filter:brightness(1.07)}
+  .thread-card{border-top-width:2px}
   .entdecken-titel{font-family:var(--sans);font-weight:800;font-size:22px;letter-spacing:-.02em;color:var(--ink);margin:64px 0 10px}
   .crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:26px;font-family:var(--sans);font-size:11px;letter-spacing:.04em}
   .crumbs a{color:var(--muted)}
@@ -301,7 +316,9 @@ const html = `<!DOCTYPE html>
   details.depth summary::-webkit-details-marker{display:none}
   .chev{font-size:11px;line-height:1;transition:transform .15s ease}
   details[open] > summary .chev{transform:rotate(180deg)}
-  details.depth .dbody{padding:0 0 16px;font-size:16.5px;line-height:1.72}
+  details.depth .dbody{padding:16px 20px 18px;margin-bottom:16px;font-size:16.5px;line-height:1.72;background:var(--card)}
+  .pp-k details.depth .dbody{background:var(--k-bg)} .pp-e details.depth .dbody{background:var(--e-bg)}
+  .pp-x details.depth .dbody{background:var(--x-bg)} .pp-p details.depth .dbody{background:var(--p-bg)}
   .unchecked{margin-top:10px;font-family:var(--sans);font-size:10.5px;letter-spacing:.04em;color:#a2703f;background:var(--tint);padding:5px 9px;display:inline-block}
   .nohint{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-family:var(--sans);font-size:12px;color:var(--muted)}
   figure.zeichnung{background:#ffffff;border:1px solid var(--line);padding:18px 18px 12px;margin:0 0 28px}
@@ -319,7 +336,7 @@ const html = `<!DOCTYPE html>
   body[data-land="de"] .dach-row.dr-at,body[data-land="de"] .dach-row.dr-ch,
   body[data-land="at"] .dach-row.dr-de,body[data-land="at"] .dach-row.dr-ch,
   body[data-land="ch"] .dach-row.dr-de,body[data-land="ch"] .dach-row.dr-at{display:none}
-  .srcbox{border-top:2px solid var(--ink);padding:14px 0 6px;margin-bottom:34px}
+  .srcbox{border-top:2px solid var(--ink);background:var(--tint);padding:14px 20px 10px;margin-bottom:34px}
   .srcbox ul{list-style:none}
   .srcbox li{font-family:var(--sans);font-size:13px;padding:5px 0;border-bottom:1px dotted var(--line)}
   .srcbox li:last-child{border-bottom:0}
@@ -350,12 +367,20 @@ const html = `<!DOCTYPE html>
   /* Perspektivfarbe als Leitsystem auf Knotenseiten */
   h1.node::after{content:"";display:block;width:72px;height:6px;margin-top:14px}
   .pp-k h1.node::after{background:var(--k)} .pp-e h1.node::after{background:var(--e)} .pp-x h1.node::after{background:var(--x)} .pp-p h1.node::after{background:var(--p)}
-  #persp-k h1.node{color:var(--k)} #persp-e h1.node{color:var(--e)} #persp-x h1.node{color:var(--x)} #persp-p h1.node{color:var(--p)}
   .pp-k .section,.pp-k .srcbox{border-top-color:var(--k)} .pp-e .section,.pp-e .srcbox{border-top-color:var(--e)}
   .pp-x .section,.pp-x .srcbox{border-top-color:var(--x)} .pp-p .section,.pp-p .srcbox{border-top-color:var(--p)}
-  .pp-k .dach,.pp-k .thread{border-left-color:var(--k)} .pp-e .dach,.pp-e .thread{border-left-color:var(--e)}
-  .pp-x .dach,.pp-x .thread{border-left-color:var(--x)} .pp-p .dach,.pp-p .thread{border-left-color:var(--p)}
+  .pp-k .dach,.pp-k .thread{border-left-color:var(--k);background:var(--k-bg)} .pp-e .dach,.pp-e .thread{border-left-color:var(--e);background:var(--e-bg)}
+  .pp-x .dach,.pp-x .thread{border-left-color:var(--x);background:var(--x-bg)} .pp-p .dach,.pp-p .thread{border-left-color:var(--p);background:var(--p-bg)}
   details.depth summary:hover{text-decoration:underline;text-underline-offset:4px}
+  /* Perspektiv-Startseiten: farbige Kopf-Fläche */
+  .phero{padding:26px 30px 30px;margin-bottom:36px;color:var(--tile-ink)}
+  .ph-k{background:var(--k-tile)} .ph-e{background:var(--e-tile)} .ph-x{background:var(--x-tile)} .ph-p{background:var(--p-tile)}
+  .phero .crumbs{margin-bottom:18px}
+  .phero .crumbs a,.phero .crumbs .sep{color:inherit;opacity:.6}
+  .phero .crumbs .here{color:inherit;opacity:.9}
+  .phero h1.node{color:inherit;margin-bottom:12px}
+  .phero h1.node::after{display:none}
+  .phero .intro-sub{color:inherit;opacity:.88;margin-bottom:0}
   #persp-k .persp-card{border-top-color:var(--k)} #persp-e .persp-card{border-top-color:var(--e)}
   #persp-x .persp-card{border-top-color:var(--x)} #persp-p .persp-card{border-top-color:var(--p)}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px 20px}
@@ -376,7 +401,7 @@ const html = `<!DOCTYPE html>
   svg text{font-size:11px;fill:#1c1a17;font-family:-apple-system,sans-serif}
   svg text.ctr{font-size:12.5px;font-weight:600}
   .netz-note{font-family:var(--sans);font-size:11px;color:var(--muted);text-align:center;margin-top:10px}
-  footer{margin-top:60px;padding:20px 0 8px;border-top:1px solid var(--line);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.7}
+  footer{margin-top:70px;padding:24px 28px;background:var(--head);color:#a89f8e;font-family:var(--sans);font-size:11px;line-height:1.7}
 </style>
 <script>var SUCHINDEX=${SUCHINDEX};</script>
 <script>(function(){var t=localStorage.getItem('ao_theme')||'auto';var d=t==='dark'||(t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';})();</script>
@@ -401,7 +426,7 @@ const html = `<!DOCTYPE html>
     </select>
     <select id="region" aria-label="Region wählen" hidden></select>
   </span>
-</nav></div></header>
+</nav></div><div class="balken"><i class="bk"></i><i class="be"></i><i class="bx"></i><i class="bp"></i></div></header>
 <main class="wrap">
 ${sections}
 </main>
