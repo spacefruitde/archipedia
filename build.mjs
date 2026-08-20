@@ -240,7 +240,9 @@ function nodeSection(id){
   const quer = links.length ? `<div class="rr" style="background:${colOf('p')}"><p class="rr-t">Quer einsteigen</p>${
     links.map(l=>`<a class="rr-l" href="#${l}">${esc(N[l].t)} →</a>`).join('')}</div>` : '';
   const normen = n.src && n.src.length ? `<div class="rr rw"><p class="rr-t">Normenbezug</p><p class="rr-liste">${
-    n.src.map(s=>esc(srcKurz(s.t))).join('<br>')}</p></div>` : '';
+    n.src.map(s=> s.u
+      ? `<a href="${s.u}" target="_blank" rel="noopener" title="${esc(s.t)}">${esc(srcKurz(s.t))} ↗</a>`
+      : `<span title="${esc(s.t)}">${esc(srcKurz(s.t))}</span>`).join('<br>')}</p></div>` : '';
   const netzmini = `<button class="rr netzknopf" style="background:${colOf('x')}" type="button"><p class="rr-t">Netzansicht</p><span class="nm">
     <span class="nm-c"></span>
     <span class="nm-s" style="left:22%;top:24%"></span><span class="nm-s" style="left:74%;top:30%"></span>
@@ -554,6 +556,8 @@ const html = `<!DOCTYPE html>
   .rr-l{display:block;font-size:14px;font-weight:500;padding:5px 0}
   .rr-l:hover{text-decoration:underline;text-underline-offset:3px}
   .rr-liste{font-size:13.5px;line-height:1.75;color:var(--ink2)}
+  .rr-liste a{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--hair)}
+  .rr-liste a:hover{text-decoration-color:var(--ink);color:var(--ink)}
   .rr-z{display:flex;justify-content:space-between;gap:12px;font-size:14px;color:var(--ink2);padding:6px 0}
   .rr-z:hover{color:var(--ink)}
   .rr-z .ekz{font-size:11px;font-weight:700;color:var(--ink4)}
