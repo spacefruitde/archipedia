@@ -89,7 +89,7 @@ function nodeSection(id){
 
   let depths = `<div class="d1"><p class="dlbl">Überblick</p><p>${esc(n.t1)}</p></div>`;
   for (const [d,label] of DEPTHS.slice(1)) {
-    if (n[d]) depths += `<details class="depth"><summary>${label} <span class="plus">+</span></summary><div class="dbody">${esc(n[d])}${d==='t3'?'<p class="unchecked">Status: KI-generiert, noch nicht fachgeprüft.</p>':''}</div></details>`;
+    if (n[d]) depths += `<details class="depth"><summary>${label} <span class="chev">▾</span></summary><div class="dbody">${esc(n[d])}${d==='t3'?'<p class="unchecked">Status: KI-generiert, noch nicht fachgeprüft.</p>':''}</div></details>`;
   }
   if (!n.t3 && n.lv>=3 && n.p!=='k') {
     depths += `<p class="nohint">Keine Stufe „Spezifikation": Entwurfs- und Kontextwissen endet hier bewusst mit dem Querverweis in die Konstruktions-Perspektive.</p>`;
@@ -164,7 +164,7 @@ function nodeSection(id){
   <h1 class="node">${esc(n.t)}</h1>
   <div class="content">${depths}</div>
   ${imgHTML}${dachHTML}${srcHTML}${kidsHTML}${linksHTML}${threadHTML}
-  <details class="netz"><summary>Netz-Ansicht <span class="plus">+</span></summary>
+  <details class="netz"><summary>Netz-Ansicht <span class="chev">▾</span></summary>
     <div class="netzbox">${netzSVG(id)}</div>
     <p class="netz-note">Durchgezogen: Hierarchie (oben Eltern, unten Kinder) · Gestrichelt: Querverweise. Antippen zum Navigieren.</p>
   </details>
@@ -295,13 +295,12 @@ const html = `<!DOCTYPE html>
   details.depth .dbody{max-width:72ch}
   @media(min-width:960px){ h1.node{font-size:56px} .intro{font-size:76px} .raster{display:grid;grid-template-columns:1fr 1fr;column-gap:56px} }
   details.depth{border-top:1px solid var(--line);margin-top:20px;background:none}
-  details.depth summary{list-style:none;cursor:pointer;padding:14px 0;font-family:var(--sans);font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+  details.depth summary{list-style:none;cursor:pointer;padding:14px 0;font-family:var(--sans);font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;display:flex;gap:8px;align-items:center}
   .pp-k details.depth summary{color:var(--k)} .pp-e details.depth summary{color:var(--e)} .pp-x details.depth summary{color:var(--x)} .pp-p details.depth summary{color:var(--p)}
-  details.depth .plus{font-weight:400}
   details.depth summary:hover{color:var(--ink)}
   details.depth summary::-webkit-details-marker{display:none}
-  details.depth .plus,details.netz .plus{font-size:15px;color:var(--line)}
-  details.depth[open] .plus{display:none}
+  .chev{font-size:11px;line-height:1;transition:transform .15s ease}
+  details[open] > summary .chev{transform:rotate(180deg)}
   details.depth .dbody{padding:0 0 16px;font-size:16.5px;line-height:1.72}
   .unchecked{margin-top:10px;font-family:var(--sans);font-size:10.5px;letter-spacing:.04em;color:#a2703f;background:var(--tint);padding:5px 9px;display:inline-block}
   .nohint{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-family:var(--sans);font-size:12px;color:var(--muted)}
@@ -370,7 +369,7 @@ const html = `<!DOCTYPE html>
   .th-next{margin-left:auto;text-align:right}
   .th-ende{font-family:var(--sans);font-size:11px;color:var(--muted);margin-left:auto}
   details.netz{border-top:1px solid var(--line);padding-top:2px;margin-top:2px}
-  details.netz summary{list-style:none;cursor:pointer;padding:13px 0;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
+  details.netz summary{list-style:none;cursor:pointer;padding:13px 0;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);display:flex;gap:8px;align-items:center}
   details.netz summary::-webkit-details-marker{display:none}
   .netzbox{background:#ffffff;border:1px solid var(--line);padding:8px}
   svg{width:100%;height:auto;display:block}
