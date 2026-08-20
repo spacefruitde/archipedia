@@ -7,6 +7,15 @@ const THREADS = D.THREADS || [];
 const BACK = {};
 for (const [id, n] of Object.entries(N)) for (const l of n.ln || []) (BACK[l] ||= []).push(id);
 
+/* Bilder im Teilbaum (für die Markierung in der Navigation) */
+const IMGCACHE = {};
+const imgsIn = id => {
+  if (id in IMGCACHE) return IMGCACHE[id];
+  let n = (N[id].images || []).length;
+  for (const [kid, kn] of Object.entries(N)) if (kn.pa === id) n += imgsIn(kid);
+  return IMGCACHE[id] = n;
+};
+
 /* Thread-Zugehörigkeit je Knoten */
 const THREADPOS = {};
 THREADS.forEach((th, ti) => th.ids.forEach((id, i) => (THREADPOS[id] ||= []).push({ ti, i })));
@@ -124,7 +133,7 @@ function nodeSection(id){
   const kids = kidsOf(id);
   const kidsHTML = kids.length
     ? `<div class="section"><p class="sec-title">Tiefer eintauchen · Ebene ${Math.min(n.lv+1,7)}</p>${
-        kids.map(k=>`<a class="child" href="#${k}"><span>${esc(N[k].t)}<small>${N[k].t3?'bis Spezifikation':N[k].t2?'bis Vertiefung':'Überblick'}${kidsOf(k).length?' · '+kidsOf(k).length+' Unterthemen':''}</small></span><span class="arr">›</span></a>`).join('')
+        kids.map(k=>`<a class="child" href="#${k}"><span>${esc(N[k].t)}<small>${N[k].t3?'bis Spezifikation':N[k].t2?'bis Vertiefung':'Überblick'}${kidsOf(k).length?' · '+kidsOf(k).length+' Unterthemen':''}${imgsIn(k)?` · <span class="hatbild">◪ ${imgsIn(k)} Bild${imgsIn(k)>1?'er':''}</span>`:''}</small></span><span class="arr">›</span></a>`).join('')
       }</div>`
     : (n.p === 'k' && !n.t3
         ? `<p class="endnote">Vertiefung und Spezifikation zu diesem Thema folgen.</p>`
@@ -196,7 +205,7 @@ const perspSections = PORDER.map(p => `<section id="persp-${p}">
   <div class="meta"><span class="badge b-${p}">${P[p].name}</span></div>
   <h1 class="node">${P[p].name}</h1>
   <p class="intro-sub">${esc(PDESC[p])}</p>
-  ${perspRoots(p).map(([id,desc])=>`<a class="persp-card" href="#${id}"><h2>${esc(N[id].t)}</h2><p>${esc(desc)}</p></a>`).join('')}
+  ${perspRoots(p).map(([id,desc])=>`<a class="persp-card" href="#${id}"><h2>${esc(N[id].t)}</h2><p>${esc(desc)}</p>${imgsIn(id)?`<p class="counts"><span class="hatbild">◪ ${imgsIn(id)} Bilder</span></p>`:''}</a>`).join('')}
 </section>`).join('\n');
 
 /* Menü: alle Themenfelder, nach Perspektive gruppiert */
@@ -319,6 +328,7 @@ const html = `<!DOCTYPE html>
   .child{display:flex;justify-content:space-between;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:13px 15px;margin-bottom:8px;font-size:15px}
   .child .arr{color:#c9c2b4;font-size:16px;margin-left:10px}
   .child small{display:block;color:var(--muted);font-size:12px;margin-top:1px}
+  .hatbild{color:#8a7f6a}
   .endnote{font-size:12px;color:var(--muted);margin-bottom:26px}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px}
   .xlink{border:1px solid;border-radius:99px;padding:6px 13px;font-size:13px;background:var(--card);display:inline-block}
