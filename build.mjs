@@ -267,10 +267,8 @@ const html = `<!DOCTYPE html>
   main:not(:has(section:target))>#home{display:block}
   .intro{font-family:var(--sans);font-weight:800;font-size:52px;line-height:1.04;margin-bottom:18px;letter-spacing:-.03em}
   .intro-sub{color:var(--muted);font-family:var(--sans);font-size:13.5px;line-height:1.65;max-width:56ch;margin-bottom:40px}
-  .persp-card{display:block;border-top:2px solid var(--ink);padding:20px 0 26px;position:relative}
-  .home-card::before{content:"";position:absolute;top:-2px;left:0;width:64px;height:6px}
-  .hc-k::before{background:var(--k)} .hc-e::before{background:var(--e)} .hc-x::before{background:var(--x)} .hc-p::before{background:var(--p)}
-  .thread-card::before{content:"";position:absolute;top:-2px;left:0;width:64px;height:6px;background:var(--ink)}
+  .persp-card{display:block;border-top:4px solid var(--ink);padding:20px 0 26px;position:relative}
+  .hc-k{border-top-color:var(--k)} .hc-e{border-top-color:var(--e)} .hc-x{border-top-color:var(--x)} .hc-p{border-top-color:var(--p)}
   .persp-card:hover h2{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
   .persp-card .tag{display:inline-block;font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:12px;background:none;padding:0}
   .persp-card h2{font-family:var(--sans);font-weight:800;font-size:28px;letter-spacing:-.02em;margin-bottom:8px;line-height:1.12}
@@ -348,17 +346,15 @@ const html = `<!DOCTYPE html>
   /* Perspektivfarbe als Leitsystem auf Knotenseiten */
   h1.node::after{content:"";display:block;width:72px;height:6px;margin-top:14px}
   .pp-k h1.node::after{background:var(--k)} .pp-e h1.node::after{background:var(--e)} .pp-x h1.node::after{background:var(--x)} .pp-p h1.node::after{background:var(--p)}
-  .pp-k h1.node{color:var(--k)} .pp-e h1.node{color:var(--e)} .pp-x h1.node{color:var(--x)} .pp-p h1.node{color:var(--p)}
+  #persp-k h1.node{color:var(--k)} #persp-e h1.node{color:var(--e)} #persp-x h1.node{color:var(--x)} #persp-p h1.node{color:var(--p)}
   .pp-k .section,.pp-k .srcbox{border-top-color:var(--k)} .pp-e .section,.pp-e .srcbox{border-top-color:var(--e)}
   .pp-x .section,.pp-x .srcbox{border-top-color:var(--x)} .pp-p .section,.pp-p .srcbox{border-top-color:var(--p)}
   .pp-k .dach,.pp-k .thread{border-left-color:var(--k)} .pp-e .dach,.pp-e .thread{border-left-color:var(--e)}
   .pp-x .dach,.pp-x .thread{border-left-color:var(--x)} .pp-p .dach,.pp-p .thread{border-left-color:var(--p)}
   .pp-k details.depth summary:hover{color:var(--k)} .pp-e details.depth summary:hover{color:var(--e)}
   .pp-x details.depth summary:hover{color:var(--x)} .pp-p details.depth summary:hover{color:var(--p)}
-  #persp-k .persp-card,#persp-e .persp-card,#persp-x .persp-card,#persp-p .persp-card{position:relative}
-  #persp-k .persp-card::before,#persp-e .persp-card::before,#persp-x .persp-card::before,#persp-p .persp-card::before{content:"";position:absolute;top:-2px;left:0;width:64px;height:6px}
-  #persp-k .persp-card::before{background:var(--k)} #persp-e .persp-card::before{background:var(--e)}
-  #persp-x .persp-card::before{background:var(--x)} #persp-p .persp-card::before{background:var(--p)}
+  #persp-k .persp-card{border-top-color:var(--k)} #persp-e .persp-card{border-top-color:var(--e)}
+  #persp-x .persp-card{border-top-color:var(--x)} #persp-p .persp-card{border-top-color:var(--p)}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px 20px}
   .xlink{font-family:var(--sans);font-size:12.5px;letter-spacing:.02em;background:none;border:0;padding:2px 0;border-bottom:1px solid var(--line);display:inline-block}
   .xl-k{color:var(--k)} .xl-e{color:var(--e)} .xl-x{color:var(--x)} .xl-p{color:var(--p)}
