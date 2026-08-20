@@ -315,6 +315,9 @@ const html = `<!DOCTYPE html>
   .dach-row{display:flex;gap:14px;font-size:15px;line-height:1.65;margin-bottom:8px}
   .dach-row .cc{flex:0 0 26px;font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.1em;color:var(--muted);padding-top:4px}
   .dach-hint{font-family:var(--sans);font-size:11px;color:var(--muted);margin-top:8px;border-top:1px solid var(--line);padding-top:8px}
+  body[data-land="de"] .dach-row.dr-at,body[data-land="de"] .dach-row.dr-ch,
+  body[data-land="at"] .dach-row.dr-de,body[data-land="at"] .dach-row.dr-ch,
+  body[data-land="ch"] .dach-row.dr-de,body[data-land="ch"] .dach-row.dr-at{display:none}
   .srcbox{border-top:2px solid var(--ink);padding:14px 0 6px;margin-bottom:34px}
   .srcbox ul{list-style:none}
   .srcbox li{font-family:var(--sans);font-size:13px;padding:5px 0;border-bottom:1px dotted var(--line)}
@@ -470,6 +473,8 @@ ${sections}
     selLand.value = land;
     fuelleRegionen(land);
     if (region && !selRegion.hidden) selRegion.value = region;
+    var titel = { alle:'DACH: nationale Besonderheiten', de:'Nationale Regelung: Deutschland', at:'Nationale Regelung: Österreich', ch:'Nationale Regelung: Schweiz' };
+    document.querySelectorAll('.dach .sec-title').forEach(function(t){ t.textContent = titel[land]; });
     document.querySelectorAll('.dach-hint').forEach(function(h){
       if (land === 'alle') { h.hidden = true; return; }
       h.hidden = false;
