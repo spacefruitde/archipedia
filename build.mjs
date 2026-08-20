@@ -126,7 +126,9 @@ function nodeSection(id){
     ? `<div class="section"><p class="sec-title">Tiefer eintauchen · Ebene ${Math.min(n.lv+1,7)}</p>${
         kids.map(k=>`<a class="child" href="#${k}"><span>${esc(N[k].t)}<small>${N[k].t3?'bis Spezifikation':N[k].t2?'bis Vertiefung':'Überblick'}${kidsOf(k).length?' · '+kidsOf(k).length+' Unterthemen':''}</small></span><span class="arr">›</span></a>`).join('')
       }</div>`
-    : `<div class="section"><p class="sec-title">Ende dieses Astes</p><p class="endnote">Ab hier übernehmen Spezialquellen (Norm, Hersteller, Fachplaner). ArchiPedia verweist, statt Vollständigkeit vorzutäuschen.</p></div>`;
+    : (n.p === 'k' && !n.t3
+        ? `<p class="endnote">Dieses Thema wird in einer späteren Welle bis zur Spezifikation vertieft.</p>`
+        : '');
 
   const links = (n.ln||[]).filter(l=>N[l]);
   const linksHTML = links.length
@@ -317,7 +319,7 @@ const html = `<!DOCTYPE html>
   .child{display:flex;justify-content:space-between;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:13px 15px;margin-bottom:8px;font-size:15px}
   .child .arr{color:#c9c2b4;font-size:16px;margin-left:10px}
   .child small{display:block;color:var(--muted);font-size:12px;margin-top:1px}
-  .endnote{font-size:13.5px;color:var(--muted)}
+  .endnote{font-size:12px;color:var(--muted);margin-bottom:26px}
   .xlinks{display:flex;flex-wrap:wrap;gap:8px}
   .xlink{border:1px solid;border-radius:99px;padding:6px 13px;font-size:13px;background:var(--card);display:inline-block}
   .xl-k{color:var(--k);border-color:#bcd0de} .xl-e{color:var(--e);border-color:#e4c3b3} .xl-x{color:var(--x);border-color:#c2d4c3} .xl-p{color:var(--p);border-color:#cdc5d8}

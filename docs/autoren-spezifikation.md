@@ -38,7 +38,7 @@ IDs: Perspektiven-Präfix + Ebene + Kurzwort (`k5spiegel`, `e3zaesur`, `x4bogen`
 ## 2. Die fünf Strukturregeln
 
 1. **Maximal 7 Kinder pro Knoten; Wurzelknoten (Ebene 1) dürfen bis 10.** Mehr heißt: eine Ebene höher ist falsch geschnitten. (Lockerung für Wurzeln: Entscheidung Ben, 20.08.2026 — Themenfeld-Einstiege werden als Liste überflogen, in der Tiefe bleibt die 7 als Strukturzwang.)
-2. **Tiefe endet mit Verweis, nicht im Nichts.** Jeder T3-Text endet mit „Ab hier: …" (Norm, Zulassung, Hersteller, Fachplaner, Bemusterung). Blattknoten ohne Kinder bekommen automatisch die „Ende dieses Astes"-Notiz.
+2. **Tiefe endet mit Verweis, nicht im Nichts.** Jeder T3-Text endet mit „Ab hier: …" (Norm, Zulassung, Hersteller, Fachplaner, Bemusterung). Blattknoten tragen keine gesonderte End-Notiz mehr; die Übergabe an Spezialquellen leistet der „Ab hier"-Satz im T3 (Entscheidung Ben, 20.08.2026).
 3. **Jeder Knoten ab Ebene 3 hat mindestens einen Querverweis**, bevorzugt in eine andere Perspektive. Ein Knoten ohne Querverweis ist ein Lexikonartikel, das gibt es schon.
 4. **Entwurfs- und Kontextknoten enden meist bei T2** und verlinken für die Umsetzung in die Konstruktions-Perspektive. T3 gehört fast ausschließlich der Konstruktion.
 5. **Ebenen-Logik:** E1 Themenfeld → E2 Hauptgruppen → E3 Bauteile/Themen → E4 Varianten/Systeme → E5 Komponenten → E6 Eigenschaften/Aspekte → E7 Anschluss-/Ausschreibungsdetail. Nicht jeder Ast muss bis E7 reichen; er muss dort enden, wo Regel 2 greift.
