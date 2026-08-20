@@ -1,32 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Treppenschnitt mit Steigung s, Auftritt a und der Schrittmaßformel">
-  <!-- Boden, stumme Kontur -->
-  <line x1="40" y1="280" x2="300" y2="280" stroke="#1c1a17" stroke-width="1.1"/>
-
-  <!-- Treppenlauf als Stufenprofil (Beton, sparsame Punkt-Dreieck-Andeutung) -->
-  <path d="M 70 260 L 70 228 L 116 228 L 116 196 L 162 196 L 162 164 L 208 164 L 208 132 L 254 132 L 254 280 L 70 280 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-  <path d="M 90 268 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-  <path d="M 140 262 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-  <path d="M 190 250 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-  <path d="M 230 220 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-  <path d="M 100 245 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-
-  <!-- Referenzstufe hervorgehoben (Akzent) -->
-  <line x1="116" y1="228" x2="116" y2="196" stroke="#b05c3a" stroke-width="2.2"/>
-  <line x1="116" y1="196" x2="162" y2="196" stroke="#b05c3a" stroke-width="2.2"/>
-
-  <!-- Maßlinie s (Steigung) -->
-  <line x1="102" y1="196" x2="114" y2="196" stroke="#1c1a17" stroke-width="1.1"/>
-  <line x1="102" y1="228" x2="114" y2="228" stroke="#1c1a17" stroke-width="1.1"/>
-  <line x1="108" y1="196" x2="108" y2="228" stroke="#1c1a17" stroke-width="1.1"/>
-  <text x="97" y="216" text-anchor="end" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">s</text>
-
-  <!-- Maßlinie a (Auftritt) -->
-  <line x1="116" y1="174" x2="116" y2="186" stroke="#1c1a17" stroke-width="1.1"/>
-  <line x1="162" y1="174" x2="162" y2="186" stroke="#1c1a17" stroke-width="1.1"/>
-  <line x1="116" y1="180" x2="162" y2="180" stroke="#1c1a17" stroke-width="1.1"/>
-  <text x="139" y="172" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">a</text>
-
-  <!-- Schrittmaßformel -->
-  <text x="330" y="150" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Schrittmaß:</text>
-  <text x="330" y="168" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">2s + a = 59 bis 65 cm</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Steigungsverhältnis einer Treppe</title>
+  <desc id="desc">Treppenschnitt mit Lauflinie, hervorgehobener Steigung s und Auftritt a sowie der Schrittmaßregel.</desc>
+  <defs>
+    <marker id="arrowDark" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#1d1b18"/></marker>
+    <marker id="dimAccent" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M8 1L1 4L8 7" fill="none" stroke="#b05c3a" stroke-width="1.2"/></marker>
+    <pattern id="concrete" width="38" height="28" patternUnits="userSpaceOnUse"><circle cx="7" cy="9" r="1.2" fill="#6d6861"/><path d="M25 18l4 6h-8z" fill="none" stroke="#6d6861" stroke-width="1"/></pattern>
+    <style>.heavy{fill:url(#concrete);stroke:#1d1b18;stroke-width:3.2;stroke-linejoin:miter}.fine{fill:none;stroke:#1d1b18;stroke-width:1.5}.dim{fill:none;stroke:#b05c3a;stroke-width:2}.label{font:16px Arial,Helvetica,sans-serif;fill:#1d1b18}.small{font:14px Arial,Helvetica,sans-serif;fill:#57524c}.formula{font:bold 24px Arial,Helvetica,sans-serif;fill:#1d1b18}</style>
+  </defs>
+  <rect width="720" height="480" fill="#faf9f6"/>
+  <path d="M68 398V344H142V290H216V236H290V182H364V398Z" class="heavy"/>
+  <!-- Lauflinie -->
+  <path d="M92 326L338 145" class="fine" marker-end="url(#arrowDark)"/>
+  <text x="171" y="218" transform="rotate(-36 171 218)" class="small">Lauflinie</text>
+  <!-- akzentuiertes Maßpaar -->
+  <line x1="132" y1="292" x2="132" y2="342" class="dim" marker-start="url(#dimAccent)" marker-end="url(#dimAccent)"/>
+  <line x1="126" y1="290" x2="143" y2="290" class="dim"/><line x1="126" y1="344" x2="143" y2="344" class="dim"/>
+  <text x="116" y="321" text-anchor="end" class="label">Steigung s</text>
+  <line x1="145" y1="276" x2="213" y2="276" class="dim" marker-start="url(#dimAccent)" marker-end="url(#dimAccent)"/>
+  <line x1="142" y1="270" x2="142" y2="291" class="dim"/><line x1="216" y1="270" x2="216" y2="291" class="dim"/>
+  <text x="179" y="260" text-anchor="middle" class="label">Auftritt a</text>
+  <!-- Formel -->
+  <line x1="430" y1="150" x2="430" y2="330" stroke="#b6b1aa" stroke-width="1"/>
+  <text x="548" y="196" text-anchor="middle" class="label">Schrittmaßregel</text>
+  <text x="548" y="242" text-anchor="middle" class="formula">2s + a =</text>
+  <text x="548" y="278" text-anchor="middle" class="formula">59 bis 65 cm</text>
 </svg>

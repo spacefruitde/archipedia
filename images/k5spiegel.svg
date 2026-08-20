@@ -1,24 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt: Umfassungszarge mit Zargenspiegel, Falzbekleidung und Maulweite">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Umfassungszarge mit Zargenspiegel</title>
+  <desc id="desc">Horizontalschnitt einer Umfassungszarge. Zargenspiegel und Falzbekleidung umgreifen die Wand; die Maulweite ist als Toleranzbereich markiert.</desc>
   <defs>
-    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
-    </pattern>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#1d1b18" stroke-width="1"/></pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M8 1L1 4L8 7" fill="none" stroke="#1d1b18" stroke-width="1.2"/></marker>
+    <style>.cut{fill:url(#hatch);stroke:#1d1b18;stroke-width:3.2}.heavy{fill:none;stroke:#1d1b18;stroke-width:3.2;stroke-linejoin:miter}.fine{fill:none;stroke:#1d1b18;stroke-width:1.5}.accent{fill:#b05c3a;fill-opacity:.22;stroke:#b05c3a;stroke-width:3.2}.label{font:16px Arial,Helvetica,sans-serif;fill:#1d1b18}.small{font:14px Arial,Helvetica,sans-serif;fill:#57524c}</style>
   </defs>
-  <!-- Wand (stumme Kontur, geschnitten) -->
-  <rect x="60" y="90" width="140" height="160" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
-  <!-- Zargenspiegel (Akzent) -->
-  <rect x="200" y="78" width="65" height="12" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
-  <rect x="200" y="250" width="65" height="12" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
-  <!-- Falzbekleidung (Steg) -->
-  <rect x="255" y="78" width="10" height="184" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-  <!-- Maulweite: Maßlinie zwischen den Spiegel-Innenkanten -->
-  <line x1="207" y1="90" x2="219" y2="90" stroke="#1c1a17" stroke-width="1.1"/>
-  <line x1="207" y1="250" x2="219" y2="250" stroke="#1c1a17" stroke-width="1.1"/>
-  <line x1="213" y1="90" x2="213" y2="250" stroke="#1c1a17" stroke-width="1.1"/>
-  <text x="222" y="174" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Maulweite (Wanddickenbereich)</text>
+  <rect width="720" height="480" fill="#faf9f6"/>
+  <!-- geschnittene Wand und Zargenprofil -->
+  <rect x="86" y="156" width="355" height="168" class="cut"/>
+  <path d="M411 134H514V156H475V324H514V346H411" class="heavy"/>
+  <path d="M441 156H475V198H500V282H475V324H441" class="heavy"/>
+  <rect x="397" y="132" width="119" height="24" class="accent"/>
+  <rect x="411" y="324" width="105" height="22" fill="#faf9f6" stroke="#1d1b18" stroke-width="3.2"/>
+  <!-- Türblattfragment -->
+  <path d="M500 207H650V273H500" fill="#f3f0ea" stroke="#1d1b18" stroke-width="3.2"/>
+
+  <!-- Maulweite -->
+  <line x1="548" y1="158" x2="548" y2="322" class="fine" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="520" y1="156" x2="558" y2="156" class="fine"/>
+  <line x1="520" y1="324" x2="558" y2="324" class="fine"/>
+  <path d="M559 177h9v126h-9" fill="none" stroke="#b05c3a" stroke-width="2"/>
+  <text x="578" y="235" class="label">Maulweite</text>
+  <text x="578" y="257" class="small">Toleranzbereich</text>
+
   <!-- Beschriftungen -->
-  <line x1="230" y1="78" x2="230" y2="44" stroke="#1c1a17" stroke-width="1.1"/><circle cx="230" cy="78" r="1.6" fill="#1c1a17"/>
-  <text x="230" y="36" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Zargenspiegel 60–70 mm</text>
-  <line x1="260" y1="170" x2="330" y2="170" stroke="#1c1a17" stroke-width="1.1"/><circle cx="260" cy="170" r="1.6" fill="#1c1a17"/>
-  <text x="335" y="174" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Falzbekleidung</text>
+  <line x1="455" y1="133" x2="455" y2="84" class="fine"/>
+  <circle cx="455" cy="133" r="3" fill="#1d1b18"/>
+  <text x="455" y="70" text-anchor="middle" class="label">Zargenspiegel</text>
+  <line x1="461" y1="346" x2="461" y2="395" class="fine"/>
+  <circle cx="461" cy="346" r="3" fill="#1d1b18"/>
+  <text x="461" y="420" text-anchor="middle" class="label">Falzbekleidung</text>
+  <line x1="198" y1="238" x2="104" y2="92" class="fine"/>
+  <circle cx="198" cy="238" r="3" fill="#1d1b18"/>
+  <text x="96" y="82" text-anchor="middle" class="label">Wand</text>
 </svg>

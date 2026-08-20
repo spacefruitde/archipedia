@@ -1,23 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Horizontalschnitt durch eine Wärmeschutz-Mehrfachverglasung mit Gasfüllung und Beschichtung">
-  <!-- Rahmenfragmente (stumme Kontur) -->
-  <rect x="170" y="55" width="124" height="15" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
-  <rect x="170" y="250" width="124" height="15" fill="none" stroke="#1c1a17" stroke-width="1.1"/>
-
-  <!-- Scheiben -->
-  <rect x="180" y="70" width="8" height="180" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-  <rect x="228" y="70" width="8" height="180" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-  <rect x="276" y="70" width="8" height="180" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-
-  <!-- Wärmereflektierende Beschichtung (Akzent) -->
-  <line x1="188" y1="70" x2="188" y2="250" stroke="#b05c3a" stroke-width="2.2"/>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Wärmeschutzverglasung</title>
+  <desc id="desc">Vertikalschnitt einer Dreifach-Isolierverglasung mit drei Scheiben, zwei gasgefüllten Zwischenräumen, wärmereflektierender Beschichtung und Randverbund mit warmer Kante.</desc>
+  <defs>
+    <pattern id="gas" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="7" cy="8" r="1.3" fill="#77726b"/><circle cx="21" cy="20" r="1.3" fill="#77726b"/></pattern>
+    <style>.glass{fill:#f7fbfc;stroke:#1d1b18;stroke-width:3.2}.fine{fill:none;stroke:#1d1b18;stroke-width:1.5}.label{font:16px Arial,Helvetica,sans-serif;fill:#1d1b18}.small{font:14px Arial,Helvetica,sans-serif;fill:#57524c}</style>
+  </defs>
+  <rect width="720" height="480" fill="#faf9f6"/>
+  <!-- Drei Scheiben und zwei Gasräume -->
+  <rect x="172" y="74" width="18" height="294" class="glass"/>
+  <rect x="292" y="74" width="18" height="294" class="glass"/>
+  <rect x="412" y="74" width="18" height="294" class="glass"/>
+  <rect x="190" y="74" width="102" height="294" fill="url(#gas)" stroke="#1d1b18" stroke-width="1.2"/>
+  <rect x="310" y="74" width="102" height="294" fill="url(#gas)" stroke="#1d1b18" stroke-width="1.2"/>
+  <!-- Beschichtung auf innerer Scheibenoberfläche -->
+  <line x1="310" y1="76" x2="310" y2="366" stroke="#b05c3a" stroke-width="4"/>
+  <!-- Randverbund unten -->
+  <rect x="190" y="333" width="102" height="35" fill="#d8d3cb" stroke="#1d1b18" stroke-width="2"/>
+  <rect x="310" y="333" width="102" height="35" fill="#d8d3cb" stroke="#1d1b18" stroke-width="2"/>
+  <path d="M158 369H445L465 405H140Z" fill="#f1eee8" stroke="#1d1b18" stroke-width="3.2"/>
   <!-- Beschriftungen -->
-  <line x1="232" y1="70" x2="232" y2="40" stroke="#1c1a17" stroke-width="1.1"/><circle cx="232" cy="70" r="1.6" fill="#1c1a17"/>
-  <text x="232" y="32" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Scheibe (2- bis 3-fach)</text>
-
-  <line x1="208" y1="250" x2="208" y2="290" stroke="#1c1a17" stroke-width="1.1"/><circle cx="208" cy="250" r="1.6" fill="#1c1a17"/>
-  <text x="208" y="304" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Gasfüllung im Scheibenzwischenraum</text>
-
-  <line x1="188" y1="70" x2="188" y2="24" stroke="#1c1a17" stroke-width="1.1"/><circle cx="188" cy="70" r="1.6" fill="#1c1a17"/>
-  <text x="188" y="18" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">wärmereflektierende Beschichtung</text>
+  <line x1="181" y1="127" x2="84" y2="91" class="fine"/><circle cx="181" cy="127" r="3" fill="#1d1b18"/>
+  <text x="77" y="85" text-anchor="end" class="label">Scheiben</text>
+  <line x1="237" y1="206" x2="92" y2="206" class="fine"/><circle cx="237" cy="206" r="3" fill="#1d1b18"/>
+  <text x="84" y="212" text-anchor="end" class="label">Gasfüllung</text>
+  <line x1="310" y1="146" x2="498" y2="104" class="fine"/><circle cx="310" cy="146" r="3" fill="#1d1b18"/>
+  <text x="506" y="101" class="label">wärmereflektierende</text><text x="506" y="123" class="label">Beschichtung</text>
+  <line x1="362" y1="348" x2="512" y2="389" class="fine"/><circle cx="362" cy="348" r="3" fill="#1d1b18"/>
+  <text x="520" y="389" class="label">Randverbund /</text><text x="520" y="411" class="label">warme Kante</text>
 </svg>

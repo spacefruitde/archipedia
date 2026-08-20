@@ -1,28 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt: Trittschallentkopplung des Treppenauflagers mit Elastomerlager und freier Fuge zur Wand">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Trittschallentkopplung am Treppenauflager</title>
+  <desc id="desc">Ein Treppenlauf beziehungsweise eine Podestplatte liegt auf einem hervorgehobenen Elastomerlager. Zur angrenzenden Wand bleibt eine freie Fuge ohne Mörtelkontakt.</desc>
   <defs>
-    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
-    </pattern>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#1d1b18" stroke-width="1"/></pattern>
+    <pattern id="concrete" width="38" height="28" patternUnits="userSpaceOnUse"><circle cx="7" cy="9" r="1.2" fill="#6d6861"/><path d="M25 18l4 6h-8z" fill="none" stroke="#6d6861" stroke-width="1"/></pattern>
+    <style>.cut{fill:url(#hatch);stroke:#1d1b18;stroke-width:3.2}.slab{fill:url(#concrete);stroke:#1d1b18;stroke-width:3.2}.fine{fill:none;stroke:#1d1b18;stroke-width:1.5}.label{font:16px Arial,Helvetica,sans-serif;fill:#1d1b18}.small{font:14px Arial,Helvetica,sans-serif;fill:#57524c}</style>
   </defs>
-  <!-- Auflager / Podestwand (stumme Kontur) -->
-  <rect x="80" y="190" width="340" height="40" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
-  <!-- Angrenzende Wand -->
-  <rect x="420" y="100" width="40" height="130" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
-
-  <!-- Podestplatte (Beton, sparsame Punkt-Dreieck-Andeutung) -->
-  <rect x="100" y="140" width="300" height="40" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-  <path d="M 140 165 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-  <path d="M 220 170 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-  <path d="M 300 165 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-  <path d="M 360 170 l 4 0 l -2 -4 z" fill="#1c1a17"/>
-
-  <!-- Elastomerlager (Akzent) -->
-  <rect x="140" y="180" width="60" height="10" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
-  <rect x="320" y="180" width="60" height="10" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
-
+  <rect width="720" height="480" fill="#faf9f6"/>
+  <!-- Auflager und angrenzende Wand -->
+  <rect x="84" y="310" width="482" height="78" class="cut"/>
+  <rect x="598" y="75" width="78" height="313" class="cut"/>
+  <!-- Treppenlauf / Podestplatte -->
+  <path d="M126 182H566V286H126Z" class="slab"/>
+  <!-- durchgehendes Elastomerlager -->
+  <rect x="164" y="286" width="362" height="24" rx="2" fill="#b05c3a" fill-opacity=".24" stroke="#b05c3a" stroke-width="3.2"/>
+  <path d="M176 298h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14m10 0h14" stroke="#b05c3a" stroke-width="2"/>
+  <!-- freie Fuge -->
+  <path d="M566 167h32M566 182h32M566 286h32M582 182v104" fill="none" stroke="#1d1b18" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <line x1="582" y1="226" x2="498" y2="104" class="fine"/><circle cx="582" cy="226" r="3" fill="#1d1b18"/>
+  <text x="492" y="90" text-anchor="middle" class="label">freie Fuge</text>
+  <text x="492" y="112" text-anchor="middle" class="small">kein Mörtelkontakt</text>
   <!-- Beschriftungen -->
-  <line x1="170" y1="185" x2="130" y2="260" stroke="#1c1a17" stroke-width="1.1"/><circle cx="170" cy="185" r="1.6" fill="#1c1a17"/>
-  <text x="126" y="274" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Elastomerlager</text>
-  <line x1="410" y1="165" x2="350" y2="70" stroke="#1c1a17" stroke-width="1.1"/><circle cx="410" cy="165" r="1.6" fill="#1c1a17"/>
-  <text x="350" y="58" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">freie Fuge, kein Mörtelkontakt</text>
+  <line x1="251" y1="218" x2="164" y2="122" class="fine"/><circle cx="251" cy="218" r="3" fill="#1d1b18"/>
+  <text x="157" y="116" text-anchor="end" class="label">Treppenlauf / Podest</text>
+  <line x1="345" y1="298" x2="345" y2="429" class="fine"/><circle cx="345" cy="298" r="3" fill="#1d1b18"/>
+  <text x="345" y="451" text-anchor="middle" class="label">Elastomerlager</text>
+  <line x1="164" y1="348" x2="86" y2="423" class="fine"/><circle cx="164" cy="348" r="3" fill="#1d1b18"/>
+  <text x="79" y="435" text-anchor="end" class="label">Auflager</text>
 </svg>

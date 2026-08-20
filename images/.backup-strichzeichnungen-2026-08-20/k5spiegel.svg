@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Schnitt: Umfassungszarge mit Zargenspiegel, Falzbekleidung und Maulweite">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Wand (stumme Kontur, geschnitten) -->
+  <rect x="60" y="90" width="140" height="160" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Zargenspiegel (Akzent) -->
+  <rect x="200" y="78" width="65" height="12" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <rect x="200" y="250" width="65" height="12" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="2.2"/>
+  <!-- Falzbekleidung (Steg) -->
+  <rect x="255" y="78" width="10" height="184" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <!-- Maulweite: Maßlinie zwischen den Spiegel-Innenkanten -->
+  <line x1="207" y1="90" x2="219" y2="90" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="207" y1="250" x2="219" y2="250" stroke="#1c1a17" stroke-width="1.1"/>
+  <line x1="213" y1="90" x2="213" y2="250" stroke="#1c1a17" stroke-width="1.1"/>
+  <text x="222" y="174" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Maulweite (Wanddickenbereich)</text>
+  <!-- Beschriftungen -->
+  <line x1="230" y1="78" x2="230" y2="44" stroke="#1c1a17" stroke-width="1.1"/><circle cx="230" cy="78" r="1.6" fill="#1c1a17"/>
+  <text x="230" y="36" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Zargenspiegel 60–70 mm</text>
+  <line x1="260" y1="170" x2="330" y2="170" stroke="#1c1a17" stroke-width="1.1"/><circle cx="260" cy="170" r="1.6" fill="#1c1a17"/>
+  <text x="335" y="174" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Falzbekleidung</text>
+</svg>

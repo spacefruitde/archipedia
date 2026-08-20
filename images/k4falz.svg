@@ -1,25 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Zwei Schnitte: gefälztes Türblatt im Vergleich zu stumpf einschlagendem Türblatt">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Gefälztes und stumpf einschlagendes Türblatt</title>
+  <desc id="desc">Zwei Horizontalschnitte vergleichen die Überdeckung eines gefälzten Türblatts mit der feinen Fuge eines flächenbündigen stumpfen Türblatts.</desc>
   <defs>
-    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#1d1b18" stroke-width="1"/>
     </pattern>
+    <style>
+      .cut{fill:url(#hatch);stroke:#1d1b18;stroke-width:3.2;stroke-linejoin:miter}.heavy{fill:none;stroke:#1d1b18;stroke-width:3.2;stroke-linecap:square;stroke-linejoin:miter}.fine{fill:none;stroke:#1d1b18;stroke-width:1.5}.guide{fill:none;stroke:#8a857d;stroke-width:1.2;stroke-dasharray:5 6}.accent{fill:#b05c3a;stroke:#b05c3a}.label{font:16px Arial,Helvetica,sans-serif;fill:#1d1b18}.small{font:14px Arial,Helvetica,sans-serif;fill:#57524c}.panel{font:bold 15px Arial,Helvetica,sans-serif;letter-spacing:1.5px;fill:#1d1b18}
+    </style>
   </defs>
-  <!-- Trennlinie zwischen den beiden Details -->
-  <line x1="240" y1="60" x2="240" y2="260" stroke="#1c1a17" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <rect width="720" height="480" fill="#faf9f6"/>
+  <line x1="360" y1="62" x2="360" y2="402" class="guide"/>
 
-  <!-- Panel A: gefälzt (überdeckend) -->
-  <rect x="95" y="100" width="20" height="120" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
-  <rect x="108" y="90" width="45" height="140" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-  <rect x="108" y="100" width="7" height="120" fill="#b05c3a" fill-opacity="0.18" stroke="#b05c3a" stroke-width="1.1"/>
+  <!-- gefälzt -->
+  <text x="180" y="54" text-anchor="middle" class="panel">GEFÄLZT</text>
+  <rect x="58" y="138" width="148" height="190" class="cut"/>
+  <path d="M206 120H254V346H206M206 146H236V320H206" class="heavy"/>
+  <path d="M236 190H263V173H319V293H263V276H236Z" fill="#f3f0ea" stroke="#1d1b18" stroke-width="3.2"/>
+  <rect x="231" y="187" width="35" height="92" rx="1" fill="#b05c3a" fill-opacity=".22"/>
+  <path d="M236 190H263V173M236 276H263V293" fill="none" stroke="#b05c3a" stroke-width="3.2"/>
+  <line x1="251" y1="232" x2="288" y2="102" class="fine"/>
+  <circle cx="251" cy="232" r="3" fill="#1d1b18"/>
+  <text x="292" y="96" class="label">Überdeckung</text>
+  <text x="180" y="386" text-anchor="middle" class="label">Blatt überdeckt Zarge,</text>
+  <text x="180" y="409" text-anchor="middle" class="small">toleranzverzeihend</text>
 
-  <!-- Panel B: stumpf einschlagend -->
-  <rect x="355" y="100" width="20" height="120" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
-  <rect x="377" y="90" width="45" height="140" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
-  <line x1="376" y1="100" x2="376" y2="220" stroke="#b05c3a" stroke-width="2.2"/>
-
-  <!-- Beschriftungen -->
-  <line x1="115" y1="150" x2="130" y2="270" stroke="#1c1a17" stroke-width="1.1"/><circle cx="115" cy="150" r="1.6" fill="#1c1a17"/>
-  <text x="130" y="284" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">gefälzt: Blatt überdeckt Zarge</text>
-  <line x1="376" y1="150" x2="350" y2="270" stroke="#1c1a17" stroke-width="1.1"/><circle cx="376" cy="150" r="1.6" fill="#1c1a17"/>
-  <text x="350" y="284" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">stumpf: Blatt schließt flächig</text>
+  <!-- stumpf -->
+  <text x="540" y="54" text-anchor="middle" class="panel">STUMPF</text>
+  <rect x="401" y="138" width="148" height="190" class="cut"/>
+  <path d="M549 120H597V346H549M549 146H579V320H549" class="heavy"/>
+  <rect x="579" y="190" width="82" height="86" fill="#f3f0ea" stroke="#1d1b18" stroke-width="3.2"/>
+  <line x1="576" y1="190" x2="576" y2="276" stroke="#b05c3a" stroke-width="3.2"/>
+  <line x1="576" y1="232" x2="625" y2="102" class="fine"/>
+  <circle cx="576" cy="232" r="3" fill="#1d1b18"/>
+  <text x="629" y="96" class="label">feine Fuge</text>
+  <text x="540" y="386" text-anchor="middle" class="label">flächenbündig,</text>
+  <text x="540" y="409" text-anchor="middle" class="small">präzisionsbedürftig</text>
 </svg>

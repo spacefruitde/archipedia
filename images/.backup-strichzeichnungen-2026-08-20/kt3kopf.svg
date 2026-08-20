@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Treppenschnitt mit lotrechtem Maß von 2,00 m Kopfhöhe über der Stufenvorderkante an der Deckenkante">
+  <defs>
+    <pattern id="schraffur" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1a17" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Boden, stumme Kontur -->
+  <line x1="40" y1="290" x2="290" y2="290" stroke="#1c1a17" stroke-width="1.1"/>
+
+  <!-- Decke über dem unteren Laufabschnitt, endet an der Treppenlochkante -->
+  <rect x="20" y="54" width="160" height="14" fill="url(#schraffur)" stroke="#1c1a17" stroke-width="2.2"/>
+
+  <!-- Treppenlauf -->
+  <path d="M 60 270 L 60 242 L 100 242 L 100 214 L 140 214 L 140 186 L 180 186 L 180 158 L 220 158 L 220 130 L 260 130 L 260 290 L 60 290 Z" fill="none" stroke="#1c1a17" stroke-width="2.2"/>
+  <circle cx="180" cy="186" r="1.6" fill="#1c1a17"/>
+
+  <!-- Lotrechtes Maß 2,00 m (Akzent) -->
+  <line x1="174" y1="68" x2="186" y2="68" stroke="#b05c3a" stroke-width="1.1"/>
+  <line x1="174" y1="186" x2="186" y2="186" stroke="#b05c3a" stroke-width="1.1"/>
+  <line x1="180" y1="68" x2="180" y2="186" stroke="#b05c3a" stroke-width="2.2"/>
+  <text x="196" y="130" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">≥ 2,00 m lichte Höhe</text>
+
+  <!-- Beschriftungen -->
+  <line x1="90" y1="54" x2="110" y2="26" stroke="#1c1a17" stroke-width="1.1"/><circle cx="90" cy="54" r="1.6" fill="#1c1a17"/>
+  <text x="110" y="18" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Deckenkante (Treppenlochkante)</text>
+  <line x1="180" y1="186" x2="230" y2="220" stroke="#1c1a17" stroke-width="1.1"/>
+  <text x="234" y="224" text-anchor="start" font-family="-apple-system,sans-serif" font-size="11" fill="#1c1a17">Stufenvorderkante</text>
+</svg>

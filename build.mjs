@@ -24,7 +24,7 @@ const DEPTHS = [['t1','Überblick'],['t2','Vertiefung'],['t3','Spezifikation']];
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const kidsOf = id => Object.entries(N).filter(([,n]) => n.pa === id).map(([k]) => k);
 const pathOf = id => { const p=[]; let c=id; while(c){p.unshift(c); c=N[c].pa;} return p; };
-const colOf = p => p==='k' ? '#2f5d7c' : p==='e' ? '#b05c3a' : p==='p' ? '#665a7c' : '#4f7350';
+const colOf = p => p==='k' ? '#0e66c2' : p==='e' ? '#e8501f' : p==='p' ? '#7b3ff2' : '#0ba05f';
 
 function netzSVG(id){
   const n = N[id];
@@ -132,9 +132,9 @@ function nodeSection(id){
 
   const kids = kidsOf(id);
   const kidsHTML = kids.length
-    ? `<div class="section"><p class="sec-title">Tiefer eintauchen · Ebene ${Math.min(n.lv+1,7)}</p>${
+    ? `<div class="section"><p class="sec-title">Tiefer eintauchen · Ebene ${Math.min(n.lv+1,7)}</p><div class="raster">${
         kids.map(k=>`<a class="child" href="#${k}"><span>${esc(N[k].t)}<small>${N[k].t3?'bis Spezifikation':N[k].t2?'bis Vertiefung':'Überblick'}${kidsOf(k).length?' · '+kidsOf(k).length+' Unterthemen':''}${imgsIn(k)?` · <span class="hatbild">◪ ${imgsIn(k)} Bild${imgsIn(k)>1?'er':''}</span>`:''}</small></span><span class="arr">›</span></a>`).join('')
-      }</div>`
+      }</div></div>`
     : (n.p === 'k' && !n.t3
         ? `<p class="endnote">Vertiefung und Spezifikation zu diesem Thema folgen.</p>`
         : '');
@@ -193,10 +193,10 @@ const perspCards = PORDER.map(p => {
 const home = `<section id="home">
   <p class="intro">Ein Wissensraum.<br>Vier Perspektiven.<br>Jede Tiefe.</p>
   <p class="intro-sub">Die gesamte Themenlandkarte der Architektur, kuratiert verschränkt: Konstruktion, Entwurf, Kontext und Prozess. Tiefe wächst dort, wo ein Thema sie verlangt. Querverweise verbinden die Perspektiven, DACH-Kästen zeigen nationale Unterschiede.</p>
-  ${perspCards}
-  ${THREADS.length ? `<p class="entdecken-titel">Entdecken: kuratierte Threads quer durch die Perspektiven</p>` + THREADS.map(th=>`<a class="persp-card thread-card" href="#${th.ids[0]}">
+  <div class="raster">${perspCards}</div>
+  ${THREADS.length ? `<p class="entdecken-titel">Entdecken: kuratierte Threads quer durch die Perspektiven</p><div class="raster">` + THREADS.map(th=>`<a class="persp-card thread-card" href="#${th.ids[0]}">
     <h2>${esc(th.titel)}</h2><p>${esc(th.kurz)}</p>
-    <p class="counts">${th.ids.length} Stationen: ${th.ids.map(i=>esc((N[i]||{t:i}).t)).join(' › ')}</p></a>`).join('') : ''}
+    <p class="counts">${th.ids.length} Stationen: ${th.ids.map(i=>esc((N[i]||{t:i}).t)).join(' › ')}</p></a>`).join('')+'</div>' : ''}
   <footer>ArchiPedia Prototyp · Stand 08/2026 · Inhalte sind Demonstrationstexte (KI-generiert, nicht fachgeprüft) und zeigen Struktur, Tonlage und Tiefenstaffelung, nicht finale Fachinformation. Normbezüge ohne Gewähr.</footer>
 </section>`;
 
@@ -205,7 +205,7 @@ const perspSections = PORDER.map(p => `<section id="persp-${p}">
   <div class="meta"><span class="badge b-${p}">${P[p].name}</span></div>
   <h1 class="node">${P[p].name}</h1>
   <p class="intro-sub">${esc(PDESC[p])}</p>
-  ${perspRoots(p).map(([id,desc])=>`<a class="persp-card" href="#${id}"><h2>${esc(N[id].t)}</h2><p>${esc(desc)}</p>${imgsIn(id)?`<p class="counts"><span class="hatbild">◪ ${imgsIn(id)} Bilder</span></p>`:''}</a>`).join('')}
+  <div class="raster">${perspRoots(p).map(([id,desc])=>`<a class="persp-card" href="#${id}"><h2>${esc(N[id].t)}</h2><p>${esc(desc)}</p>${imgsIn(id)?`<p class="counts"><span class="hatbild">◪ ${imgsIn(id)} Bilder</span></p>`:''}</a>`).join('')}</div>
 </section>`).join('\n');
 
 /* Menü: alle Themenfelder, nach Perspektive gruppiert */
@@ -229,19 +229,19 @@ const html = `<!DOCTYPE html>
 <style>
   :root{
     --bg:#fcfcfb; --ink:#141310; --muted:#807b73; --line:#e3e1db; --card:#ffffff; --tint:#f1f0ec;
-    --k:#2f5d7c; --k-bg:#eaf1f6; --e:#b05c3a; --e-bg:#f8ece5; --x:#4f7350; --x-bg:#ebf2ea; --p:#665a7c; --p-bg:#efecf3;
+    --k:#0e66c2; --k-bg:#e3effb; --e:#e8501f; --e-bg:#fde9e0; --x:#0ba05f; --x-bg:#e2f6ea; --p:#7b3ff2; --p-bg:#f0e8fd;
     --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
     --radius:2px;
   }
   [data-theme="dark"]{
     --bg:#171410; --ink:#eae4d9; --muted:#9d958a; --line:#332e26; --card:#1f1b16; --tint:#241f19;
-    --k:#82abc9; --k-bg:#1e2933; --e:#d69275; --e-bg:#33251e; --x:#96b797; --x-bg:#212b20; --p:#a99cbd; --p-bg:#282232;
+    --k:#5aa2e8; --k-bg:#152535; --e:#ff7a4d; --e-bg:#332017; --x:#42c98a; --x-bg:#15291f; --p:#b18cff; --p-bg:#251d38;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);font:17px/1.75 var(--serif);padding-bottom:64px}
   a{color:inherit;text-decoration:none}
-  .wrap{max-width:768px;margin:0 auto;padding:0 22px}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 32px}
   header{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:20}
   .head-in{display:flex;align-items:center;justify-content:space-between;padding:16px 0 10px}
   .wordmark{font-family:var(--sans);font-weight:800;font-size:24px;letter-spacing:-.02em}
@@ -293,7 +293,9 @@ const html = `<!DOCTYPE html>
   h1.node{font-family:var(--sans);font-weight:800;font-size:44px;line-height:1.06;letter-spacing:-.025em;margin-bottom:24px}
   .content{margin-bottom:26px}
   .dlbl{display:none}
-  .d1 p:last-child{font-size:20px;line-height:1.62;letter-spacing:.002em}
+  .d1 p:last-child{font-size:20px;line-height:1.62;letter-spacing:.002em;max-width:72ch}
+  details.depth .dbody{max-width:72ch}
+  @media(min-width:960px){ h1.node{font-size:56px} .intro{font-size:76px} .raster{display:grid;grid-template-columns:1fr 1fr;column-gap:56px} }
   details.depth{border-top:1px solid var(--line);margin-top:20px;background:none}
   details.depth summary{list-style:none;cursor:pointer;padding:13px 0;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
   details.depth summary:hover{color:var(--ink)}
@@ -346,6 +348,7 @@ const html = `<!DOCTYPE html>
   /* Perspektivfarbe als Leitsystem auf Knotenseiten */
   h1.node::after{content:"";display:block;width:72px;height:6px;margin-top:14px}
   .pp-k h1.node::after{background:var(--k)} .pp-e h1.node::after{background:var(--e)} .pp-x h1.node::after{background:var(--x)} .pp-p h1.node::after{background:var(--p)}
+  .pp-k h1.node{color:var(--k)} .pp-e h1.node{color:var(--e)} .pp-x h1.node{color:var(--x)} .pp-p h1.node{color:var(--p)}
   .pp-k .section,.pp-k .srcbox{border-top-color:var(--k)} .pp-e .section,.pp-e .srcbox{border-top-color:var(--e)}
   .pp-x .section,.pp-x .srcbox{border-top-color:var(--x)} .pp-p .section,.pp-p .srcbox{border-top-color:var(--p)}
   .pp-k .dach,.pp-k .thread{border-left-color:var(--k)} .pp-e .dach,.pp-e .thread{border-left-color:var(--e)}
