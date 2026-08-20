@@ -1,0 +1,29 @@
+# Bild-Briefs für die Neugenerierung der Schemazeichnungen
+
+## Stil-Block (jedem Auftrag voranstellen)
+
+Reduzierte architektonische Schemazeichnung im Stil klassischer Fachheft-Strichzeichnungen (Vorbild DETAIL): klare schwarze Linien in zwei Strichstärken (kräftig für Schnittkanten, fein für Maßlinien und Hinweislinien), genau EINE Akzentfarbe Terrakotta (#b05c3a) für das eine Element, um das es geht. Geschnittenes Mauerwerk als 45-Grad-Schraffur, Dämmung als lockere Wellenlinien. Heller, neutraler Hintergrund. Wenige, klar gesetzte deutsche Beschriftungen mit dünnen Hinweislinien. Keine Fotorealistik, keine Verläufe, keine Schatten, keine Menschen. Querformat etwa 3:2. Nur die genannten Maße verwenden, keine zusätzlichen Zahlen erfinden.
+
+## Die elf Zeichnungen
+
+**1. k5spiegel · Zargenspiegel (Horizontalschnitt).** Umfassungszarge einer Innentür, die eine geschnittene Wand beidseitig umgreift. Zu zeigen: Wand schraffiert, Zargenprofil umgreifend, der sichtbare Zargenspiegel (Akzentfarbe) auf der Bandseite, gegenüber die Falzbekleidung, dazwischen die Maulweite als Maßbereich mit Toleranzpfeil. Beschriftungen: Zargenspiegel, Falzbekleidung, Maulweite (Toleranzbereich), Wand. Kernaussage: Der Spiegel überdeckt den Wandanschluss und macht die Maulweite zum kritischen Bestellmaß.
+
+**2. k4falz · Gefälzt vs. stumpf (zwei Schnitte nebeneinander).** Links: gefälztes Türblatt, dessen Falz die Zarge überdeckt (Überdeckung als Akzent). Rechts: stumpf einschlagendes Blatt, flächenbündig in der Zarge mit sichtbarer feiner Fuge (Akzent). Beschriftungen: „gefälzt: Blatt überdeckt Zarge, toleranzverzeihend" / „stumpf: flächenbündig, präzisionsbedürftig". Kernaussage: kleine Konstruktionsentscheidung, große Wirkung auf Anmutung und Toleranzbedarf.
+
+**3. k6trocken · Türöffnung im Ständerwerk (Ansicht).** Metallständerwand in Ansicht: regelmäßige CW-Ständer, in der Mitte eine Türöffnung, deren beide Seiten durch kräftigere UA-Verstärkungsprofile (Akzent) gebildet werden, darüber ein Sturzprofil. Beschriftungen: CW-Ständer, UA-Verstärkungsprofil, Sturz, Hinweis „ab ca. 25 kg Blattgewicht". Kernaussage: Schwere Türblätter brauchen die UA-Verstärkung, sonst fehlt der Zarge der Halt.
+
+**4. k7fuge · Drei Fugenlösungen (drei Detailschnitte nebeneinander).** Jeweils Zargenspiegel trifft Wand: (a) Pressfuge, Spiegel liegt direkt an; (b) Acrylfuge, kleine verspachtelte Kehle; (c) Schattenfuge, bewusste offene Fuge von ca. 5 mm (Akzent). Beschriftungen: Pressfuge, Acrylfuge, Schattenfuge ca. 5 mm. Kernaussage: drei Antworten auf denselben Übergang, von kaschierend bis bewusst gezeigt.
+
+**5. kt3steig · Steigungsverhältnis (Treppenschnitt).** Seitlicher Schnitt durch drei bis vier Stufen mit Lauflinie. Vermaßung: Steigung s (vertikal) und Auftritt a (horizontal) an einer Stufe (Akzent auf dem Maßpaar), daneben die Formel „2s + a = 59 bis 65 cm". Beschriftungen: Steigung s, Auftritt a, Schrittmaßregel. Kernaussage: Das Verhältnis, nicht die Einzelmaße, macht die Treppe bequem.
+
+**6. kt3kopf · Kopfhöhe (Treppenschnitt mit Deckenöffnung).** Treppenlauf führt durch eine geschnittene Geschossdecke; von der Vorderkante einer Stufe ein lotrechtes Maß 2,00 m bis zur Deckenunterkante; die kritische Engstelle an der Deckenkante als Akzent markieren. Beschriftungen: lichte Durchgangshöhe min. 2,00 m (lotrecht über Stufenvorderkante), Deckenkante = kritische Stelle. Kernaussage: Die Kopfhöhe entscheidet sich an der Kante des Treppenlochs.
+
+**7. kt4schall · Trittschallentkopplung (Auflagerdetail).** Schnitt: Treppenlauf bzw. Podestplatte liegt auf einem Elastomerlager (Akzent) auf dem Auflager; ringsum eine durchgehend freie Fuge zur Wand, ausdrücklich ohne Mörtelkontakt. Beschriftungen: Elastomerlager, freie Fuge (kein Mörtelkontakt), Treppenlauf, Auflager. Kernaussage: Entkoppelt wird am Auflager, nicht am Belag; jede Mörtelbrücke ist eine Schallbrücke.
+
+**8. kfe3waermeglas · Wärmeschutzverglasung (Vertikalschnitt).** Dreifach-Isolierglas im Schnitt: drei Scheiben, zwei gasgefüllte Scheibenzwischenräume, die wärmereflektierende Beschichtung als feine Akzentlinie auf einer inneren Scheibenoberfläche, unten der Randverbund mit Abstandhalter („warme Kante"). Beschriftungen: Scheiben, Gasfüllung, Beschichtung, Randverbund/warme Kante. Kernaussage: Der Wärmeschutz sitzt in Beschichtung, Gasfüllung und Randverbund, nicht im Glas selbst.
+
+**9. kfe3raldicht · Drei Dichtebenen der Fenstermontage (Horizontalschnitt).** Anschluss Fensterrahmen an geschnittene Wand: die Montagefuge mit drei nummerierten Ebenen: 1 innen luftdicht (Akzent), 2 Mitte Dämmung (Wellenlinien), 3 außen schlagregendicht, aber diffusionsoffen (gestrichelt). Links „innen", rechts „außen"; ein kleiner Terrakotta-Pfeil zeigt die Trocknungsrichtung der Feuchte nach außen. Kernaussage: Innen dichter als außen, damit die Fuge nach außen trocknen kann.
+
+**10. kau3sockelanschl · Sockelanschluss (Vertikalschnitt).** Außenwand trifft Gelände: Abdichtung an der Wand ca. 15 cm über Oberkante Gelände hochgeführt (Maß, Akzent auf der Abdichtungslinie), davor Spritzwasserzone mit Kiesstreifen, Gelände mit Gefälle vom Gebäude weg. Beschriftungen: Abdichtung ca. 15 cm über Gelände, Spritzwasserzone, Gefälle vom Gebäude weg. Kernaussage: Der Sockel braucht Anschlusshöhe gegen Spritzwasser.
+
+**11. muster-nullschwelle (Knoten k4null) · Nullschwelle (Vertikalschnitt).** Bodentiefes Türelement: innen Estrich mit Belag, unter der Tür ein flaches Schwellenprofil, außen direkt davor eine Entwässerungsrinne mit Gitterrost (Akzent) und freiem Ablauf, Außenbelag mit 2 % Gefälle vom Gebäude weg, Abdichtung seitlich hochgeführt (gestrichelt). Beschriftungen: Rinne mit freiem Ablauf, Abdichtung hochgeführt, Gefälle 2 % vom Gebäude weg, Estrich innen. Kernaussage: Die Nullschwelle funktioniert nur als System aus mehreren Verteidigungslinien.
