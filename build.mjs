@@ -192,7 +192,8 @@ function nodeSection(id){
       n.src.map(s=>{
         const stand = s.stand ? `<span class="stand">Stand: ${esc(s.stand)}</span>` : '';
         const body = s.u ? `<a href="${s.u}" target="_blank" rel="noopener">${esc(s.t)} ↗</a>` : esc(s.t);
-        return `<div class="src-row"><span>${body}${stand}</span><span class="typ">${srcTyp(s.t)}</span></div>`;
+        const lese = s.lese ? `<a class="lese" href="${s.lese}" target="_blank" rel="noopener" title="kostenloser Lesezugang">lesen ↗</a>` : '';
+        return `<div class="src-row"><span>${body}${stand}${lese}</span><span class="typ">${srcTyp(s.t)}</span></div>`;
       }).join('')
     }<p class="srcnote">Im Projekt stets aktuelle Fassung und Landesrecht prüfen; Angaben ohne Stand sind noch nicht quellengeprüft.</p></div>`;
   }
@@ -350,6 +351,7 @@ for (const [id,n] of Object.entries(N)) for (const s of n.src||[]) {
   NORMEN[key].anz++;
   if (!NORMEN[key].u && s.u) NORMEN[key].u = s.u;
   if (!NORMEN[key].stand && s.stand) NORMEN[key].stand = s.stand;
+  if (!NORMEN[key].lese && s.lese) NORMEN[key].lese = s.lese;
 }
 const normListe = Object.values(NORMEN).sort((a,b)=>a.t.localeCompare(b.t,'de'));
 const normHTML = `<section id="normen">
@@ -359,7 +361,7 @@ const normHTML = `<section id="normen">
   </div></div>
   <div class="shell azody">
     <p class="normhinweis">${normListe.length} Quellen im Bestand, sortiert nach Titel. Zahl rechts: Themen, die darauf verweisen. Angaben ohne Stand sind noch nicht quellengeprüft.</p>
-    ${normListe.map(s=>`<div class="src-row"><span>${s.u?`<a href="${s.u}" target="_blank" rel="noopener">${esc(s.t)} ↗</a>`:esc(s.t)}${s.stand?`<span class="stand">Stand: ${esc(s.stand)}</span>`:''}</span><span class="typ">${srcTyp(s.t)} · ${s.anz}</span></div>`).join('')}
+    ${normListe.map(s=>`<div class="src-row"><span>${s.u?`<a href="${s.u}" target="_blank" rel="noopener">${esc(s.t)} ↗</a>`:esc(s.t)}${s.stand?`<span class="stand">Stand: ${esc(s.stand)}</span>`:''}${s.lese?`<a class="lese" href="${s.lese}" target="_blank" rel="noopener" title="kostenloser Lesezugang">lesen ↗</a>`:''}</span><span class="typ">${srcTyp(s.t)} · ${s.anz}</span></div>`).join('')}
   </div>
 </section>`;
 
@@ -529,6 +531,7 @@ const html = `<!DOCTYPE html>
   .src-row a:hover{text-decoration-color:var(--ink)}
   .src-row .typ{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);white-space:nowrap;padding-top:3px}
   .src-row .stand{display:inline-block;margin-left:10px;font-size:11px;font-weight:600;color:var(--ink4)}
+  .src-row .lese{display:inline-block;margin-left:10px;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
   .srcnote{font-size:12px;color:var(--ink4);margin-top:6px;line-height:1.6}
   /* Threads am Knoten */
   .thread{background:var(--card);padding:18px 22px;margin-bottom:30px}
