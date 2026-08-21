@@ -195,7 +195,7 @@ function nodeSection(id){
         const lese = s.lese ? `<a class="lese" href="${s.lese}" target="_blank" rel="noopener" title="kostenloser Lesezugang">lesen ↗</a>` : '';
         return `<div class="src-row"><span>${body}${stand}${lese}</span><span class="typ">${srcTyp(s.t)}</span></div>`;
       }).join('')
-    }<p class="srcnote">Im Projekt stets aktuelle Fassung und Landesrecht prüfen; Angaben ohne Stand sind noch nicht quellengeprüft.</p></div>`;
+    }<p class="srcnote">Im Projekt stets aktuelle Fassung und Landesrecht prüfen; Angaben ohne Stand sind noch nicht quellengeprüft. Normen-Links führen zur Herausgeberseite (Titel, Ausgabe, Bezug); Gesetze, OIB-Richtlinien und harmonisierte europäische Normen (Kennzeichen „lesen") sind online kostenlos lesbar, übrige Normen an den Normen-Infopoints von DIN.</p></div>`;
   }
 
   /* Kinder als Kartenraster in der Mitte, auf JEDER Ebene gleich (gelernter Klick-Flow);
