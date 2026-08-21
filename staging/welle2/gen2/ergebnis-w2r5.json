@@ -1,0 +1,283 @@
+[
+ {
+  "id": "eli4orientierung",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Nordfassaden liefern gleichmäßiges, blendarmes Licht, aber keinen solaren Gewinn, während Ost und West flache Morgen- oder Abendsonne einfangen, die sich mit festen Elementen kaum abschatten lässt.",
+    "problem": "In den Breiten des DACH-Raums geht die Sonne im Sommerhalbjahr nördlich der Ost-West-Achse auf und unter und trifft dann flach auch auf Nordfassaden, die Aussage keinen solaren Gewinn ist als absolute Behauptung falsch.",
+    "ersatz": "Nordfassaden liefern gleichmäßiges, blendarmes Licht und über das Jahr kaum nutzbaren solaren Gewinn, bekommen im Sommerhalbjahr morgens und abends aber durchaus flache Direktsonne ab, während Ost und West die flache Morgen- oder Abendsonne einfangen, die sich mit festen Elementen kaum abschatten lässt."
+   },
+   {
+    "feld": "t2",
+    "art": "dach",
+    "zitat": "Nach Norden lässt sich ein größerer Öffnungsanteil eher verantworten, weil die fehlende direkte Einstrahlung auch keine Überhitzung erzeugt.",
+    "problem": "Der Satz lädt dazu ein, die Nordseite beliebig zu öffnen, verschweigt aber den fehlenden solaren Ausgleich der Transmissionsverluste und die bauordnungsrechtliche Grenze, dass in Nordrhein-Westfalen eine reine Nordlage aller Wohn- und Schlafräume unzulässig ist.",
+    "ersatz": "Nach Norden lässt sich ein größerer Öffnungsanteil eher verantworten, weil die weitgehend fehlende direkte Einstrahlung auch keine Überhitzung erzeugt, dafür fehlt der solare Gewinn, der die Wärmeverluste der größeren Glasfläche im Winter ausgleichen würde, und einzelne Landesbauordnungen setzen eine harte Grenze, in Nordrhein-Westfalen ist eine reine Nordlage aller Wohn- und Schlafräume ausdrücklich unzulässig."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BauO NRW 2018",
+    "u": "https://recht.nrw.de/lrgv/gesetz/01012024-bauordnung-fuer-das-land-nordrhein-westfalen-landesbauordnung-2018-bauo-nrw/",
+    "stand": "Landesbauordnung 2018 vom 21. Juli 2018, konsolidierte Fassung gueltig ab 1. Januar 2024",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Aussage zur maximalen Wintereinstrahlung auf Südfassaden ist für die Breiten des DACH-Raums richtig und bleibt unverändert."
+ },
+ {
+  "id": "eli4kennwerte",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Ergänzend beschreibt die Tageslichtversorgung, wie zuverlässig ein Raum über das Jahr hinweg ausreichend Tageslicht erhält, statt nur einen Momentwert bei bedecktem Himmel abzubilden.",
+    "problem": "Der Tageslichtquotient ist kein Momentwert, sondern ein von Tageszeit und Jahreszeit unabhängiges Verhältnis für einen bedeckten Modellhimmel, die Gegenüberstellung trifft damit den falschen Unterschied.",
+    "ersatz": "Ergänzend beschreibt die Tageslichtversorgung, wie zuverlässig ein Raum über das Jahr hinweg ausreichend Tageslicht erhält, statt nur ein festes Verhältnis für einen bedeckten Modellhimmel abzubilden."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Der Tageslichtquotient eignet sich vor allem als einfacher Momentwert an einem festen Punkt im Raum, während die dynamische Tageslichtversorgung besser zeigt, wie sich die Belichtung über verschiedene Jahreszeiten und Tagesverläufe verhält, gerade in tiefen Räumen.",
+    "problem": "Der Tageslichtquotient wird als Momentwert beschrieben, obwohl er gerade zeit- und richtungsunabhängig definiert ist, genau darin liegt seine Schwäche gegenüber den klimabasierten Kennwerten.",
+    "ersatz": "Der Tageslichtquotient ist kein Momentwert, sondern ein festes Verhältnis für den bedeckten Modellhimmel, das von Tageszeit, Jahreszeit und Himmelsrichtung unabhängig bleibt und deshalb weder Sonnenbahn noch Direktlicht abbildet, während die klimabasierte Tageslichtversorgung mit echten Wetterdaten zeigt, wie sich die Belichtung über Jahreszeiten und Tagesverläufe verhält, gerade in tiefen Räumen."
+   },
+   {
+    "feld": "t2",
+    "art": "dach",
+    "zitat": "Grenzwerte für beide Kennwerte sind je nach Land unterschiedlich verortet: in Deutschland über die einschlägige DIN-Normenreihe zum Tageslicht, in Österreich über OIB-Richtlinien und die zugehörige ÖNORM, in der Schweiz über die SIA-Normen zur Beleuchtung.",
+    "problem": "Verbindlich ist in keinem der drei Länder ein Kennwert aus einer Norm, sondern ein geometrischer Flächenanteil im Baurecht, die OIB-Richtlinie 3 nennt gar keine ÖNORM zum Tageslicht, und die schweizerische Beleuchtungsnorm regelt das Kunstlicht, nicht das Tageslicht.",
+    "ersatz": "Verbindlich ist in allen drei Ländern nicht ein Kennwert, sondern ein geometrischer Mindestanteil der Öffnungsfläche im Baurecht: In Deutschland verlangen die Landesbauordnungen im Regelfall ein Rohbaumaß der Fensteröffnungen von mindestens einem Achtel der Netto-Grundfläche des Raumes, in Österreich fordert die OIB-Richtlinie 3 eine Lichteintrittsfläche von mindestens 12 Prozent der Bodenfläche und zusätzlich einen freien Lichteinfallswinkel von 45 Grad, in der Schweiz regeln das die kantonalen Bauordnungen. Der Tageslichtquotient und die Kriterien der Tageslichtnorm, in Deutschland DIN EN 17037, in der Schweiz SN EN 17037, kommen erst darüber hinaus ins Spiel, als Nachweis der Qualität, nicht als Genehmigungsvoraussetzung."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BauO NRW 2018",
+    "u": "https://recht.nrw.de/lrgv/gesetz/01012024-bauordnung-fuer-das-land-nordrhein-westfalen-landesbauordnung-2018-bauo-nrw/",
+    "stand": "Landesbauordnung 2018 vom 21. Juli 2018, konsolidierte Fassung gueltig ab 1. Januar 2024",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB-Richtlinie 3 Hygiene, Gesundheit und Umweltschutz",
+    "u": "https://www.oib.or.at/wp-content/uploads/richtlinien/richtlinie_2023/oib-rl_3_ausgabe_mai_2023.pdf",
+    "stand": "Ausgabe Mai 2023, OIB-330.3-011/23",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 17037 Tageslicht in Gebaeuden",
+    "u": "https://www.dinmedia.de/de/norm/din-en-17037/348494031",
+    "stand": "DIN EN 17037:2022-05, deutsche Fassung EN 17037:2018+AC:2021+A1:2021",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SN EN 17037+A1 Tageslicht in Gebaeuden",
+    "u": "https://www.dinmedia.de/de/norm/sn-en-17037-a1/351071413",
+    "stand": "SN EN 17037+A1:2022-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 5034-1 Tageslicht in Innenraeumen, Begriffe und Mindestanforderungen",
+    "u": "https://www.dinmedia.de/de/norm/din-5034-1/337708525",
+    "stand": "DIN 5034-1:2021-08",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die österreichische Regelung staffelt die geforderte Lichteintrittsfläche zusätzlich nach Auskragung und Raumtiefe, ab mehr als 5,00 Meter Raumtiefe je angefangenem Meter um 1 Prozent der Bodenfläche mehr, das trägt die Aussage des Knotens zur Raumtiefe und liesse sich in t3 ausbauen."
+ },
+ {
+  "id": "eli4liegend",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Sturz- und Pfeilerlogik im tragenden Mauerwerk gegen die Skelettbauweise geprüft, keine Abweichung gefunden."
+ },
+ {
+  "id": "eli4stehend",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Dafür bleibt unterhalb des Fensters weniger durchgehende Wandlänge für ein Sideboard oder ein Bett übrig als bei einer liegenden Öffnung gleicher Fläche.",
+    "problem": "Geometrisch ist es umgekehrt, eine stehende Öffnung gleicher Fläche ist schmaler und lässt daneben mehr durchgehende Wandlänge frei, der wirkliche Nachteil ist die tiefer gezogene Brüstung und damit die kleinere nutzbare Wandhöhe.",
+    "ersatz": "Dafür reicht das stehende Format meist tiefer herunter, sodass die Brüstung niedriger liegt und unter dem Fenster weniger nutzbare Wandhöhe für ein Sideboard oder ein Bett bleibt als bei einer liegenden Öffnung gleicher Fläche."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Eine höher gezogene Sturzoberkante bringt mehr Tiefenwirkung als eine breitere Fensteröffnung in Regelhöhe, verlangt aber im tragenden Mauerwerk oft einen größeren Sturz oder eine Unterbrechung des Ringankers.",
+    "problem": "Ein Ringanker muss in sich geschlossen umlaufen und darf nicht unterbrochen werden, wo eine Öffnung bis unter die Decke reicht, wird er als bewehrter Ringbalken über die Öffnung geführt und übernimmt dort zugleich die Sturzfunktion.",
+    "ersatz": "Eine höher gezogene Sturzoberkante bringt mehr Tiefenwirkung als eine breitere Fensteröffnung in Regelhöhe, verlangt aber im tragenden Mauerwerk oft einen größeren Sturz oder einen bewehrten Ringbalken, der über der Öffnung Ringanker und Sturz zugleich ist, denn der umlaufende Ringanker darf nicht einfach unterbrochen werden."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Kostenlogik: Eine hochgezogene Sturzhöhe an einer stehenden Öffnung in tragendem Mauerwerk verlangt einen größeren Sturz oder eine Ringankerunterbrechung, die im Rohbau mehr kostet als eine Öffnung in Regelhöhe.",
+    "problem": "Wie im Satz davor unterstellt die Kostenlogik eine zulässige Unterbrechung des Ringankers, die es so nicht gibt, teuer wird der bewehrte Ringbalken mit eigenem statischen Nachweis.",
+    "ersatz": "Kostenlogik: Eine hochgezogene Sturzhöhe an einer stehenden Öffnung in tragendem Mauerwerk verlangt einen größeren Sturz oder einen bewehrten Ringbalken mit eigenem statischen Nachweis, der im Rohbau mehr kostet als eine Öffnung in Regelhöhe."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Aussage, dass die Oberkante der Verglasung die Eindringtiefe des Tageslichts bestimmt, ist richtig, die dort erwähnte Faustregel bleibt bewusst unbeziffert und ist damit unproblematisch."
+ },
+ {
+  "id": "eli4raumhoch",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Sobald die Brüstungshöhe unterschritten wird, kommt zusätzlich die Absturzsicherung ins Spiel, die entweder in die Verglasung selbst integriert oder als vorgesetztes Geländer gelöst werden muss.",
+    "problem": "Auslöser der Absturzsicherung ist nicht die Brüstungshöhe, sondern die Absturzhöhe hinter der Öffnung, eine raumhohe Verglasung auf eine niveaugleiche Terrasse braucht gar keine, während das Bauordnungsrecht bei Absturzhöhen bis 12 Meter mindestens 0,80 Meter und darüber mindestens 0,90 Meter Brüstungshöhe oder eine gleichwertige Sicherung verlangt.",
+    "ersatz": "Ob eine Absturzsicherung nötig wird, entscheidet nicht die Brüstungshöhe, sondern die Absturzhöhe hinter der Öffnung: Auf eine niveaugleiche Terrasse im Erdgeschoss darf raumhoch verglast werden, sobald dahinter aber ein Absturz entsteht, verlangen die Landesbauordnungen, in Nordrhein-Westfalen Paragraf 38 der Bauordnung, eine Fensterbrüstung von mindestens 0,80 Meter bei Absturzhöhen bis 12 Meter und mindestens 0,90 Meter darüber oder eine gleichwertige Sicherung, die entweder in die Verglasung integriert oder als vorgesetztes Geländer gelöst wird."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BauO NRW 2018",
+    "u": "https://recht.nrw.de/lrgv/gesetz/01012024-bauordnung-fuer-das-land-nordrhein-westfalen-landesbauordnung-2018-bauo-nrw/",
+    "stand": "Landesbauordnung 2018 vom 21. Juli 2018, konsolidierte Fassung gueltig ab 1. Januar 2024",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die österreichischen und schweizerischen Werte weichen ab, der Knoten hat noch kein dach-Feld, das wäre für die Brüstungshöhen nachzutragen."
+ },
+ {
+  "id": "eli4bildtraeger",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Kostenlogik: Eine als Bildträger komponierte Wand mit durchdachtem Fugenbild oder Materialwechsel kostet in der Ausführung selten mehr als eine gedankenlos verputzte Restfläche, verlangt aber mehr Planungszeit im Vorfeld.",
+    "problem": "Für das Fugenbild im ohnehin vorgesehenen Material stimmt die Aussage, für einen Materialwechsel nicht, der eine zweite Fassadenposition mit eigenem Aufbau, eigenen Anschlüssen und eigenem Gewerk erzeugt und damit sehr wohl teurer ist.",
+    "ersatz": "Kostenlogik: Ein durchdachtes Fugenbild im ohnehin vorgesehenen Material kostet in der Ausführung kaum mehr als eine gedankenlos verputzte Restfläche und verlangt vor allem mehr Planungszeit im Vorfeld, ein zusätzlicher Materialwechsel dagegen schon, weil er eine zweite Fassadenposition mit eigenem Aufbau, eigenen Anschlüssen und eigenem Gewerk erzeugt."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die gestalterischen Aussagen sind nicht prüfbar im Sinne von richtig oder falsch, nur die Kostenaussage war zu weit gefasst."
+ },
+ {
+  "id": "eli4strasse",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Keine Norm-, Rechts- oder Zahlenangabe im Text, die typologischen Aussagen sind belegbar und widerspruchsfrei."
+ },
+ {
+  "id": "eli4sichtschutz",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die drei genannten Stellschrauben sind sachlich richtig geordnet und stehen nicht im Widerspruch zum Nachtknoten, der ausdrücklich anschließt."
+ },
+ {
+  "id": "eli4nachteinblick",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Tagsüber ist die Straße meist heller als der Rauminnere, weshalb Blicke selten weit ins Zimmer reichen; nach Einbruch der Dunkelheit kehrt sich dieses Verhältnis um, und ein beleuchteter Raum leuchtet gegen die dunkle Fassade förmlich nach außen.",
+    "problem": "Der Satz ist grammatisch falsch, es müsste das Rauminnere heißen, und der eigentliche Grund ist nicht die Helligkeit allein, sondern die Spiegelung der hellen Umgebung an der Scheibe vor dem dunkleren Innenraum.",
+    "ersatz": "Tagsüber ist es draußen meist heller als im Raum, die Scheibe spiegelt dann die helle Umgebung und Blicke reichen selten weit ins Zimmer; nach Einbruch der Dunkelheit kehrt sich dieses Verhältnis um, und ein beleuchteter Raum leuchtet gegen die dunkle Fassade förmlich nach außen."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Zuordnung beweglicher blickdichter Elemente zu Schlaf- und Sanitärräumen ist plausibel und ohne Zahlenangabe formuliert."
+ },
+ {
+  "id": "eli4schichten",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Kostenlogik: Mehrere kleine, gezielt positionierte Leuchten für die drei Schichten kosten in Summe oft nicht mehr als ein durchgehendes Rasterlicht, verteilen das Budget aber auf die richtigen Stellen statt auf die Fläche.",
+    "problem": "Die Behauptung ist nicht belegbar und im Regelfall eher umgekehrt, weil jede zusätzliche Schicht eigene Auslässe, Leitungswege und Schaltkreise braucht, was in der Elektroinstallation und nicht bei den Leuchten den Ausschlag gibt.",
+    "ersatz": "Kostenlogik: Die Aufteilung in drei Lichtschichten verteilt das Budget nicht nur auf mehr Leuchten, sondern vor allem auf mehr Auslässe, Leitungswege und Schaltkreise, was in der Elektroplanung früh feststehen muss, weil eine nachträglich ergänzte Schicht Schlitze, Leitungen und Deckenöffnungen verlangt."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Zuordnung der drei Schichten zu Nutzungsarten ist fachlich üblich und unbeanstandet."
+ },
+ {
+  "id": "eli4lichtfarbe",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Lichtfarbe in Kelvin, Farbwiedergabe als getrennte Größe und die Unabhängigkeit beider Werte sind korrekt dargestellt; anzumerken bleibt, dass der Farbwiedergabeindex immer gegen eine Referenzlichtquelle gleicher Farbtemperatur gemessen wird und deshalb keinen Vergleich über verschiedene Lichtfarben hinweg erlaubt, das wäre ein Punkt für t3."
+ },
+ {
+  "id": "eli4voute",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Eine Voute ist eine geformte Aussparung, meist am Übergang von Wand zu Decke, die eine Lichtlinie verbirgt und das Licht nach oben oder über die Decke wäscht, sodass die Leuchte selbst unsichtbar bleibt.",
+    "problem": "Die Voute ist zunächst die Hohlkehle am Übergang von Wand zu Decke, das lichttechnische Bauteil heißt Lichtvoute, ohne diese Unterscheidung wird ein allgemeiner Bauteilbegriff auf eine Leuchtenlösung verengt.",
+    "ersatz": "Als Voute wird zunächst die Hohlkehle am Übergang von Wand zu Decke bezeichnet, als Lichtvoute eine bewusst geformte Aussparung an dieser Stelle, die eine Lichtlinie verbirgt und das Licht nach oben über die Decke wäscht, sodass die Leuchte selbst unsichtbar bleibt."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Gegenüberstellung von Bautiefe, Wartungszugang und Lichtwirkung zwischen Lichtvoute und Lichtdecke ist sachlich richtig."
+ },
+ {
+  "id": "eli4anstrahlen",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Der Knoten warnt vor Streulicht in Nachthimmel und Nachbargrundstücke und deckt sich darin mit eli4lichtverschmutzung, kein Widerspruch, keine Zahlen- oder Normangabe zu prüfen."
+ },
+ {
+  "id": "eli4lichtverschmutzung",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "dach",
+    "zitat": "Wie stark Lichtimmissionen rechtlich eine Rolle spielen, unterscheidet sich je nach Land: in Deutschland betrifft es vor allem das Nachbarrecht und den Immissionsschutz im Rahmen der jeweiligen Landesbauordnung, in Österreich das zivilrechtliche Nachbarrecht und länderspezifische Bauvorschriften, in der Schweiz zusätzlich kantonale Vorgaben zur Lichtemission.",
+    "problem": "Der Immissionsschutz für Licht steht in Deutschland im Bundes-Immissionsschutzgesetz, das Licht in Paragraf 3 Absatz 2 ausdrücklich als Immission nennt, und nicht in der Landesbauordnung; in Österreich fehlt der Beurteilungsmaßstab der ÖNORM O 1052 zum nachbarrechtlichen Paragrafen 364 des ABGB; in der Schweiz greift primär das eidgenössische Umweltschutzgesetz mit der Emissionsbegrenzung an der Quelle und die Norm SIA 491, nicht in erster Linie kantonales Recht.",
+    "ersatz": "Wie Lichtimmissionen rechtlich gefasst sind, unterscheidet sich je nach Land: In Deutschland nennt das Bundes-Immissionsschutzgesetz Licht ausdrücklich als Immission und verlangt, schädliche Umwelteinwirkungen zu vermeiden, daneben greift das nachbarrechtliche Abwehrrecht des Bürgerlichen Gesetzbuchs; in Österreich wehrt Paragraf 364 des Allgemeinen Bürgerlichen Gesetzbuchs ortsunübliche Immissionen ab und die ÖNORM O 1052 liefert dazu den Beurteilungsmaßstab; in der Schweiz verlangt das Umweltschutzgesetz, Emissionen schon an der Quelle zu begrenzen, und die Norm SIA 491 beschreibt, wie unnötige Lichtemissionen im Außenraum vermieden werden."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BImSchG Paragraf 3 Begriffsbestimmungen",
+    "u": "https://www.gesetze-im-internet.de/bimschg/__3.html",
+    "stand": "Bundes-Immissionsschutzgesetz in der Fassung der Bekanntmachung vom 17. Mai 2013, konsolidierte Fassung gesetze-im-internet.de",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "BGB Paragraf 906 Zufuehrung unwaegbarer Stoffe",
+    "u": "https://www.gesetze-im-internet.de/bgb/__906.html",
+    "stand": "Buergerliches Gesetzbuch, konsolidierte Fassung gesetze-im-internet.de",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "ABGB Paragraf 364 Beschraenkung der Eigentumsrechte",
+    "u": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=364",
+    "stand": "Fassung in Kraft seit 1. Juli 2004, BGBl. I Nr. 91/2003",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM O 1052 Lichtimmissionen, Messung und Beurteilung",
+    "u": "https://shop.austrian-standards.at/action/de/public/details/1233514/OENORM_O_1052_2022_10_15",
+    "stand": "OENORM O 1052:2022-10-15",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 491 Vermeidung unnoetiger Lichtemissionen im Aussenraum",
+    "u": "https://shop.sia.ch/normenwerk/architekt/491_2013_d/D/Product",
+    "stand": "SIA 491:2013, SN 586491, gueltig ab 1. Maerz 2013",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der oft zitierte Paragraf 41a des Bundesnaturschutzgesetzes zur insektenfreundlichen Beleuchtung ist auf gesetze-im-internet.de weiterhin als zukünftig in Kraft geführt und darf deshalb nicht als geltendes Recht genannt werden."
+ }
+]

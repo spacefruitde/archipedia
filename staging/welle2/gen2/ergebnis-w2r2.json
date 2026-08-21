@@ -1,0 +1,971 @@
+[
+ {
+  "id": "kab4bgruppen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Die Beanspruchungsgruppen I bis III ordnen jeden Standort einer Stufe der Schlagregenbelastung zu, abhängig von Windzone und mittlerem Jahresniederschlag.",
+    "problem": "DIN 4108-3 stuft nach Jahresniederschlagsmenge und örtlichen Windverhältnissen ein; Windzone ist der Begriff der Windlastnorm und keine Eingangsgröße der Schlagregeneinstufung.",
+    "ersatz": "Die Beanspruchungsgruppen I bis III ordnen jeden Standort einer Stufe der Schlagregenbelastung zu, abhängig von der Jahresniederschlagsmenge und den örtlichen Windverhältnissen am Standort."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Ein und dasselbe Gebäude kann an der Wetterseite eine höhere Gruppe haben als an der windabgewandten Seite.",
+    "problem": "Die Beanspruchungsgruppe nach DIN 4108-3 ist standortbezogen und wird nicht je Fassadenseite vergeben; unterschiedliche Exposition wird über Wandaufbau und Anschlussdetail berücksichtigt.",
+    "ersatz": "Die Beanspruchungsgruppe gilt für den Standort und nicht je Fassadenseite; unterschiedlich stark bewitterte Seiten werden über den Wandaufbau und die Anschlussdetails berücksichtigt."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Vor dem Fassadenentwurf sollte die Beanspruchungsgruppe je Fassadenseite ermittelt und dem Fassadenplaner mitgeteilt werden.",
+    "problem": "Folgefehler der falschen Annahme, die Gruppe werde je Fassadenseite vergeben.",
+    "ersatz": "Vor dem Fassadenentwurf sollte die Beanspruchungsgruppe des Standorts ermittelt und zusammen mit der Bewertung besonders exponierter Fassadenseiten an den Fassadenplaner übergeben werden."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Häufigster Fehler ist, eine einzige Beanspruchungsgruppe für das gesamte Gebäude anzusetzen, obwohl Wetterseite, Ecklagen und obere Geschosse real unterschiedlich beansprucht sind.",
+    "problem": "Eine einzige Gruppe für das Gebäude ist normgerecht; der reale Fehler ist, die zusätzliche Beanspruchung an Ecken, oberen Geschossen und Wetterseiten nicht durch schärfere Details aufzufangen.",
+    "ersatz": "Häufigster Fehler ist, es bei der Standortgruppe zu belassen und die höhere reale Beanspruchung an Wetterseite, Ecklagen und oberen Geschossen nicht durch schärfere Anschlussdetails oder ein anderes Fassadensystem aufzufangen."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "In Österreich und der Schweiz gilt eine von der deutschen Systematik unabhängige Einstufung, siehe DACH-Kasten.",
+    "problem": "In Österreich und der Schweiz existiert keine der deutschen Dreiergliederung entsprechende Einstufung der Schlagregenbeanspruchung; die Formulierung behauptet ein Gegenstück, das nicht belegbar ist.",
+    "ersatz": "In Österreich und der Schweiz gibt es keine der deutschen Dreiergliederung entsprechende Einstufung, siehe DACH-Kasten."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Ab hier: die einschlägige Klimaschutz- und Abdichtungsnorm sowie der Systemnachweis des jeweiligen Fassadenherstellers.",
+    "problem": "DIN 4108-3 regelt den klimabedingten Feuchteschutz, nicht den Klimaschutz; die Bezeichnung Klimaschutznorm ist falsch.",
+    "ersatz": "Ab hier: DIN 4108-3 für den klimabedingten Feuchteschutz sowie der Systemnachweis des jeweiligen Fassadenherstellers."
+   },
+   {
+    "feld": "dach.de",
+    "art": "fehler",
+    "zitat": "In Deutschland ordnet die einschlägige Klimaschutznorm DIN 4108-3 den Standort über Windzone und Jahresniederschlag einer von drei Beanspruchungsgruppen zu.",
+    "problem": "Zwei Fehler in einem Satz: DIN 4108-3 ist die Norm für klimabedingten Feuchteschutz, und sie stuft über Jahresniederschlagsmenge und örtliche Windverhältnisse ein, nicht über die Windzone.",
+    "ersatz": "In Deutschland ordnet DIN 4108-3, die Norm für den klimabedingten Feuchteschutz, den Standort über die Jahresniederschlagsmenge und die örtlichen Windverhältnisse einer von drei Beanspruchungsgruppen zu."
+   },
+   {
+    "feld": "dach.at",
+    "art": "dach",
+    "zitat": "In Österreich regelt die Einstufung eine eigene, von der deutschen Dreiergliederung unabhängige Abdichtungsnorm mit eigener Zuordnung von Standort und Bauteil.",
+    "problem": "Die im Prüffeld genannte ÖNORM B 3691 gilt für Dachabdichtungen und nicht für die Schlagregenbeanspruchung von Fassaden; eine österreichische Norm mit vergleichbarer Einstufung ist nicht belegbar.",
+    "ersatz": "In Österreich gibt es keine der deutschen Dreiergliederung entsprechende Einstufung der Schlagregenbeanspruchung; die Anforderungen ergeben sich aus der jeweiligen Fassadennorm und für den Fenster- und Türanschluss aus der ÖNORM B 5320."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "dach",
+    "zitat": "In der Schweiz legt die einschlägige Abdichtungsnorm die Anforderungen an die Schlagregendichtheit je Bauteil und Exposition eigenständig fest, ohne die deutsche Einteilung in drei Gruppen zu übernehmen.",
+    "problem": "SIA 271 regelt Abdichtungen von Hochbauten einschliesslich Gebäudesockel, nicht die Schlagregendichtheit der Fassadenfläche; die behauptete eigenständige Einstufung ist nicht belegbar.",
+    "ersatz": "In der Schweiz gibt es keine Einteilung in drei Beanspruchungsgruppen; die Norm SIA 271 regelt Abdichtungen von Hochbauten einschliesslich Gebäudesockel, die Schlagregendichtheit der Fassadenfläche ergibt sich aus der jeweiligen Fassadennorm und dem Systemnachweis."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-3",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-3/373925063",
+    "stand": "Ausgabe 2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 3691",
+    "u": "https://www.austrian-standards.at/de/shop/onorm-b-3691-2019-05-01~p2471121",
+    "stand": "Ausgabe 2019-05-01, Planung und Ausfuehrung von Dachabdichtungen",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 5320",
+    "u": "https://www.austrian-standards.at/de/shop/onorm-b-5320-2024-11-01~p3884017",
+    "stand": "Ausgabe 2024-11-01, ersetzt OENORM B 5320:2020-10-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 271",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20271/d/2021/D/Product",
+    "stand": "Ausgabe 2021, Abdichtungen von Hochbauten, mit Korrigenda C1:2022 und C2:2024",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Volltext von DIN 4108-3 ist nicht frei einsehbar; die Änderungsliste der Ausgabe 2024-03 nennt ausdrücklich die Schlagregenschutzprinzipien für Außenwände in Abschnitt 6.3."
+ },
+ {
+  "id": "kab4wasserwege",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Bei hinterlüfteten Konstruktionen übernimmt der Hinterlüftungsraum die Ableitung, dessen Mindestquerschnitt und Be- und Entlüftungsöffnungen die Fachregel des Wandbekleidungsgewerks festlegen.",
+    "problem": "Für hinterlüftete Außenwandbekleidungen gilt DIN 18516-1 mit Anforderungen und Prüfgrundsätzen; die Zuordnung allein an eine Gewerkefachregel ist falsch.",
+    "ersatz": "Bei hinterlüfteten Konstruktionen übernimmt der Hinterlüftungsraum die Ableitung, dessen Mindestquerschnitt sowie dessen Be- und Entlüftungsöffnungen DIN 18516-1 für hinterlüftete Außenwandbekleidungen festlegt."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Bei diffusionsoffenen einschaligen Wänden ist die Wasseraufnahme des Oberputzes die maßgebliche Kenngröße, die der Systemnachweis des Putzherstellers ausweist; sie begrenzt, wie viel Feuchte kurzzeitig gespeichert werden darf, ohne dass sie die Dämmebene erreicht.",
+    "problem": "Der Grenzwert, ab dem ein Putz als wasserabweisend gilt, steht in DIN 4108-3 und nicht im Systemnachweis; der Hersteller weist nur den Wert des konkreten Systems aus.",
+    "ersatz": "Bei diffusionsoffenen einschaligen Wänden ist der Wasseraufnahmekoeffizient des Außenputzes die maßgebliche Kenngröße; DIN 4108-3 legt fest, ab welchem Wert ein Putz als wasserabweisend gilt, der Systemnachweis des Putzherstellers weist den Wert für das konkrete System aus."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: die Systemnachweise der Putz- und Fassadenhersteller sowie die Fachregeln des Stuckateur- und Fassadenbauhandwerks.",
+    "problem": "Die maßgeblichen Normen fehlen im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 4108-3 für den klimabedingten Feuchteschutz, DIN 18516-1 für hinterlüftete Außenwandbekleidungen sowie die Systemnachweise der Putz- und Fassadenhersteller."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18516-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18516-1/382252032",
+    "stand": "Ausgabe 2024-10, ersetzt DIN 18516-1:2010-06",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108-3",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-3/373925063",
+    "stand": "Ausgabe 2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "DIN 18516-1:2010-06 ist zurückgezogen und durch die Ausgabe 2024-10 ersetzt; ältere Zitate im Bestand sind zu prüfen."
+ },
+ {
+  "id": "kab4fassfuge",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Jede Durchdringung braucht eine eigene Abdichtungsmanschette oder ein vergleichbares Formteil, das die wasserführende Ebene der Fassade lückenlos an das durchdringende Bauteil anschließt; die Ausführung regelt die Fachregel des jeweiligen Gewerks oder der Systemnachweis des Fassadenherstellers.",
+    "problem": "Für Außenwandfugen mit Fugendichtstoffen gilt DIN 18540, für hinterlüftete Bekleidungen DIN 18516-1; beide fehlen, obwohl sie die Ausführung normativ regeln.",
+    "ersatz": "Jede Durchdringung braucht eine eigene Abdichtungsmanschette oder ein vergleichbares Formteil, das die wasserführende Ebene der Fassade lückenlos an das durchdringende Bauteil anschließt; für Außenwandfugen mit Fugendichtstoffen gilt DIN 18540, für hinterlüftete Bekleidungen DIN 18516-1, ergänzt um den Systemnachweis des Fassadenherstellers."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "An offenen Fugen vorgehängter Bekleidungen muss die dahinterliegende Ebene die Wassermenge aufnehmen können, die durch den offenen Spalt eindringt, was der Systemnachweis der hinterlüfteten Konstruktion ausweist.",
+    "problem": "Eine Bemessungsregel für die eindringende Wassermenge an offenen Fugen ist über die zugelassenen Portale nicht verifizierbar; die Aussage bleibt eine plausible Behauptung.",
+    "ersatz": ""
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18540",
+    "u": "https://www.dinmedia.de/de/norm/din-18540/209078087",
+    "stand": "Ausgabe 2014-09, ersetzt DIN 18540:2006-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18516-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18516-1/382252032",
+    "stand": "Ausgabe 2024-10, ersetzt DIN 18516-1:2010-06",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Keine Fachfehler gefunden, aber der Knoten benennt für Fugen und Durchdringungen keine einzige Norm."
+ },
+ {
+  "id": "kab4anschlussunten",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Die äußere Fensterbank erhält ein Gefälle nach außen, dessen Mindestwert die Fachregel des Klempner- oder Metallbauerhandwerks vorgibt, ergänzt um eine Tropfkante, die einen ausreichenden Abstand zur Fassadenfläche einhält, damit Wasser frei abtropft statt an der Fassade zu laufen.",
+    "problem": "Mindestgefälle und Mindestüberstand der Tropfkante sind über die zugelassenen amtlichen Portale und Herausgeber nicht verifizierbar; die Fachregeln des Klempnerhandwerks liegen dort nicht vor.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: die Fachregeln des Klempner- und Metallbauhandwerks sowie die Montageanleitungen der Fensterbankhersteller.",
+    "problem": "Der Weiterlesehinweis nennt keine Norm für den Bauanschluss, obwohl der untere Fensteranschluss in Österreich durch die ÖNORM B 5320 geregelt ist.",
+    "ersatz": "Ab hier: die Fachregeln des Klempner- und Metallbauhandwerks, für den Bauanschluss in Österreich die ÖNORM B 5320 sowie die Montageanleitungen der Fensterbankhersteller."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "OENORM B 5320",
+    "u": "https://www.austrian-standards.at/de/shop/onorm-b-5320-2024-11-01~p3884017",
+    "stand": "Ausgabe 2024-11-01, ersetzt OENORM B 5320:2020-10-01",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Zwei Suchläufe auf den zugelassenen Portalen ergaben keinen belastbaren Zahlenwert für Bankgefälle und Tropfkantenabstand, nicht verifiziert."
+ },
+ {
+  "id": "kab4anschlussseite",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Nach außen übernimmt in der Regel ein diffusionsoffenes, aber schlagregendichtes Band oder eine entsprechend geprüfte Folie die Aufgabe, die am unteren Anschluss die Fensterbank übernimmt; die Auswahl zwischen Kompriband und Folie richtet sich danach, ob die Fassade dahinter eine Putz- oder eine hinterlüftete Konstruktion ist.",
+    "problem": "Kompriband ist ein eingeführter Handelsname und kein Gattungsbegriff; die Gattung heißt imprägniertes Dichtungsband aus Schaumkunststoff und ist in DIN 18542 geregelt.",
+    "ersatz": "Nach außen übernimmt in der Regel ein diffusionsoffenes, aber schlagregendichtes imprägniertes Dichtungsband nach DIN 18542 oder eine entsprechend geprüfte Folie die Aufgabe, die am unteren Anschluss die Fensterbank übernimmt; die Auswahl zwischen Dichtungsband und Folie richtet sich danach, ob die Fassade dahinter eine Putz- oder eine hinterlüftete Konstruktion ist."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Die äußere Ebene ist diffusionsoffen und schlagregendicht auszuführen, ihre Anforderung an die Wasserdichtheit weist der Systemnachweis des jeweiligen Dichtbandes oder der Folie aus, nicht eine pauschale Materialdicke.",
+    "problem": "Für imprägnierte Dichtungsbänder legt DIN 18542 die Beanspruchungsgruppen und die Anforderungen an die Schlagregendichtheit fest; die Zuordnung allein an den Systemnachweis unterschlägt die Norm.",
+    "ersatz": "Die äußere Ebene ist diffusionsoffen und schlagregendicht auszuführen; für imprägnierte Dichtungsbänder legt DIN 18542 die Beanspruchungsgruppen und die Anforderungen an die Schlagregendichtheit fest, für Folien weist sie der jeweilige Systemnachweis aus, nicht eine pauschale Materialdicke."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: die Systemnachweise der Anschlussband- und Fassadenhersteller sowie die Montagerichtlinie für den fachgerechten Fenstereinbau.",
+    "problem": "Die Montagerichtlinie bleibt namenlos, obwohl der Bauanschluss in Österreich mit der ÖNORM B 5320 normativ geregelt ist.",
+    "ersatz": "Ab hier: DIN 18542 für imprägnierte Dichtungsbänder, in Österreich die ÖNORM B 5320 für den Bau- und Fensteranschluss sowie die Systemnachweise der Anschlussband- und Fassadenhersteller."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18542",
+    "u": "https://www.dinmedia.de/de/norm/din-18542/316988836",
+    "stand": "Ausgabe 2020-04",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 5320",
+    "u": "https://www.austrian-standards.at/de/shop/onorm-b-5320-2024-11-01~p3884017",
+    "stand": "Ausgabe 2024-11-01, ersetzt OENORM B 5320:2020-10-01",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": ""
+ },
+ {
+  "id": "kab4bodentief",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Bei der abgesenkten Schwelle übernimmt eine Entwässerungsrinne mit Gefälle von der Tür weg die Ableitung des Wassers, ihre Mindestbreite und ihr Aufbau richten sich nach dem Systemnachweis des jeweiligen Schwellenprofils, nicht nach einem festen Regelmaß.",
+    "problem": "Die Anschlusshöhe an der Schwelle ist normativ geregelt: DIN 18533-1 verlangt mindestens 15 Zentimeter über der wasserführenden Schicht und lässt abgesenkte Anschlüsse nur mit entlastenden Ersatzmaßnahmen zu; der Systemnachweis des Profils ersetzt das nicht.",
+    "ersatz": "Bei der abgesenkten Schwelle übernimmt eine Entwässerungsrinne mit Gefälle von der Tür weg die Ableitung des Wassers; DIN 18533-1 verlangt am Tür- und Fensteranschluss eine Anschlusshöhe von mindestens 15 Zentimetern über der wasserführenden Schicht und lässt abgesenkte Anschlüsse nur mit entlastenden Ersatzmaßnahmen und zusätzlichen konstruktiven Anforderungen zu, Aufbau und Mindestbreite der Rinne folgen darüber hinaus dem Systemnachweis des Schwellenprofils."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Ab hier: die Systemnachweise der Schwellenprofile sowie die einschlägige Norm zur Barrierefreiheit.",
+    "problem": "Der Weiterlesehinweis nennt weder die Abdichtungsnorm noch die Norm zur Barrierefreiheit beim Namen.",
+    "ersatz": "Ab hier: DIN 18533-1 für den Tür- und Fensteranschluss der Abdichtung, DIN 18040-2 für die Barrierefreiheit in Wohnungen und in der Schweiz die Norm SIA 500 sowie die Systemnachweise der Schwellenprofile."
+   },
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Kostenlogik: Die abgesenkte Schwelle kostet in Bauteil und Montage deutlich mehr als die klassische Ausführung und verlangt zusätzlich eine dauerhafte Wartung der Entwässerungsrinne, die bei der klassischen Schwelle entfällt.",
+    "problem": "Der Mehrkostenvergleich ist nicht belegbar, trägt den Satz aber auch ohne Quantifizierung.",
+    "ersatz": ""
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18533-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18533-1/399850897",
+    "stand": "Ausgabe 2026-06, ersetzt DIN 18533-1:2017-07 und DIN 18533-1/A1:2018-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18040-2",
+    "u": "https://www.dinmedia.de/de/norm/din-18040-2/142706210",
+    "stand": "Ausgabe 2011-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 500",
+    "u": "https://cms.sia.ch/de/api/getMedia/674",
+    "stand": "Ausgabe 2009, Hindernisfreie Bauten, SIA Publikationsverzeichnis Stand 30.07.2026",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Ausgabe DIN 18533-1:2026-06 hat Abschnitt 9 zu Tür- und Fensteranschlüssen neu gefasst und abgesenkte Anschlüsse mit hred ab 5 Zentimetern ausdrücklich geregelt; der Knoten sollte darauf aufsetzen."
+ },
+ {
+  "id": "kab4spritzhoehe",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Häufigster Fehler ist, die Spritzwasserhöhe pauschal nach der optischen Sockelhöhe des gewählten Materials zu bemessen, statt sie aus der tatsächlichen Geländesituation herzuleiten.",
+    "problem": "Der Text stellt die Spritzwasserhöhe als frei herzuleitendes Maß dar; DIN 18533-1 setzt für den Anschluss der Abdichtung ein Mindestmaß von 15 Zentimetern über der wasserführenden Schicht.",
+    "ersatz": "Häufigster Fehler ist, die Sockelabdichtung nach der optischen Sockelhöhe des gewählten Materials zu bemessen, statt vom normativen Mindestmaß von 15 Zentimetern über der wasserführenden Schicht auszugehen und es an der tatsächlichen Geländesituation zu prüfen."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Nach der einschlägigen Abdichtungsnorm ist der Übergang von der Wandabdichtung zur Sockelabdichtung als geplanter Anschluss mit eigenem Detail auszuweisen, nicht als beiläufige Fortsetzung der Wandfläche.",
+    "problem": "Die Norm bleibt namenlos, obwohl sie eindeutig ist: DIN 18533 regelt die Abdichtung erdberührter Bauteile einschließlich des Sockelanschlusses.",
+    "ersatz": "Nach DIN 18533 für die Abdichtung erdberührter Bauteile ist der Übergang von der Wandabdichtung zur Sockelabdichtung als geplanter Anschluss mit eigenem Detail und mit einer Anschlusshöhe von mindestens 15 Zentimetern über der wasserführenden Schicht auszuweisen, nicht als beiläufige Fortsetzung der Wandfläche."
+   },
+   {
+    "feld": "dach.de",
+    "art": "fehler",
+    "zitat": "In Deutschland wird die Sockelabdichtung im Kontext der einschlägigen Abdichtungsnormenreihe für Bauwerksabdichtungen behandelt, deren genauer Anwendungsbereich für die Sockelzone im Einzelfall zu prüfen ist.",
+    "problem": "Die Zuordnung ist eindeutig und nicht im Einzelfall zu prüfen: Innerhalb der Reihe DIN 18531 bis DIN 18535 gilt für den Sockel DIN 18533.",
+    "ersatz": "In Deutschland regelt DIN 18533 die Abdichtung erdberührter Bauteile einschließlich des Sockelanschlusses und verlangt dort eine Anschlusshöhe von mindestens 15 Zentimetern über der wasserführenden Schicht."
+   },
+   {
+    "feld": "dach.at",
+    "art": "fehler",
+    "zitat": "In Österreich fällt die Sockelabdichtung unter die einschlägige österreichische Abdichtungsnorm, die eine eigene Systematik für erdberührte und spritzwasserbeanspruchte Bauteile führt.",
+    "problem": "Das Prüffeld nennt dafür die ÖNORM B 3691, die ausschließlich für Dachabdichtungen gilt; zuständig ist die ÖNORM B 3692 für Bauwerksabdichtungen mit der Werkvertragsnorm ÖNORM B 2209.",
+    "ersatz": "In Österreich regelt die ÖNORM B 3692 die Planung und Ausführung von Bauwerksabdichtungen einschließlich erdberührter Bauteile, ergänzt um die Werkvertragsnorm ÖNORM B 2209; die ÖNORM B 3691 gilt dagegen nur für Dachabdichtungen."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "fehler",
+    "zitat": "In der Schweiz regelt die einschlägige Schweizer Abdichtungsnormenreihe die Sockelzone mit einer eigenen Zuordnung von Bauteil und Beanspruchung, unabhängig von der deutschen Normenreihe.",
+    "problem": "Die zuständige Norm ist benennbar: SIA 271 umfasst Abdichtungen von Hochbauten ausdrücklich einschliesslich Gebäudesockel, für Bauteile unter Terrain gilt SIA 272.",
+    "ersatz": "In der Schweiz regelt die Norm SIA 271 die Abdichtungen von Hochbauten einschliesslich des Gebäudesockels, für Bauteile unter Terrain gilt die Norm SIA 272."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18533-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18533-1/399850897",
+    "stand": "Ausgabe 2026-06, ersetzt DIN 18533-1:2017-07 und DIN 18533-1/A1:2018-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 3692",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-3692-2014-11-15~p2100296",
+    "stand": "Ausgabe 2014-11-15, Planung und Ausfuehrung von Bauwerksabdichtungen",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 2209",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-2209-2014-11-15~p2100314",
+    "stand": "Ausgabe 2014-11-15, Bauwerksabdichtungsarbeiten, Werkvertragsnorm",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 3691",
+    "u": "https://www.austrian-standards.at/de/shop/onorm-b-3691-2019-05-01~p2471121",
+    "stand": "Ausgabe 2019-05-01, Planung und Ausfuehrung von Dachabdichtungen",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 271",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20271/d/2021/D/Product",
+    "stand": "Ausgabe 2021, Abdichtungen von Hochbauten, mit Korrigenda C1:2022 und C2:2024",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 272",
+    "u": "https://cms.sia.ch/de/api/getMedia/674",
+    "stand": "Ausgabe 2024, Abdichtungen und Entwaesserungen von Bauten unter Terrain und im Untertagbau, SIA Publikationsverzeichnis Stand 30.07.2026",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die im Prüffeld genannte ÖNORM B 3691 ist für diesen Knoten durchgehend die falsche Norm."
+ },
+ {
+  "id": "kab4sockelwdvs",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Der Anschluss zwischen Fassadendämmung und Perimeterdämmung ist als Fuge mit dauerelastischer Abdichtung oder mit einem Fugendichtband auszuführen, nicht als starrer Stoß, weil beide Ebenen unterschiedlich arbeiten.",
+    "problem": "Die Ausführung des Sockelübergangs am Wärmedämmverbundsystem ist über die zugelassenen Portale nicht verifizierbar und systemabhängig.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Die Perimeterdämmung selbst muss bis zur ermittelten Spritzwasserhöhe hinaufreichen, damit kein Übergang unterhalb dieser Höhe in der druckweichen Fassadendämmung liegt.",
+    "problem": "Der Bezug auf die frei ermittelte Spritzwasserhöhe geht am normativen Mindestmaß vorbei; DIN 18533-1 verlangt für den Anschluss der Abdichtung mindestens 15 Zentimeter über der wasserführenden Schicht.",
+    "ersatz": "Die Perimeterdämmung muss mindestens bis über die Anschlusshöhe der Abdichtung nach DIN 18533-1 hinaufreichen, damit kein Übergang unterhalb dieser Höhe in der druckweichen Fassadendämmung liegt."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18533-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18533-1/399850897",
+    "stand": "Ausgabe 2026-06, ersetzt DIN 18533-1:2017-07 und DIN 18533-1/A1:2018-09",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Ob DIN 55699 für Anwendung und Verarbeitung von Wärmedämmverbundsystemen hier als Regelwerk zu nennen ist, war über die zugelassenen Portale nicht abschließend zu klären."
+ },
+ {
+  "id": "kab4fugenabstand",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Fugenbreite bemisst sich aus der zu erwartenden Bewegung des Bauteils zwischen den Grenzzuständen von Temperatur und Feuchte, die der Tragwerksplaner oder der Systemnachweis des Fassadensystems ermittelt, nicht aus einem festen Prozentsatz der Fugenlänge.",
+    "problem": "Für Außenwandfugen im Hochbau ist die Bemessung normativ geregelt: DIN 18540 legt die Anforderungen an Fugenausbildung und Fugendichtstoff fest und geht von einer zulässigen Gesamtverformung des Dichtstoffs von 25 Prozent aus.",
+    "ersatz": "Die Fugenbreite bemisst sich aus der zu erwartenden Bewegung des Bauteils zwischen den Grenzzuständen von Temperatur und Feuchte; für Außenwandfugen im Hochbau legt DIN 18540 die Anforderungen an Fugenausbildung und Fugendichtstoff fest und geht dabei von einer zulässigen Gesamtverformung des Dichtstoffs von 25 Prozent aus."
+   },
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Der Systemnachweis des jeweiligen Fassadensystems liefert die zulässige maximale Fugenlänge, ab der zwingend eine zusätzliche Bewegungsfuge einzuplanen ist.",
+    "problem": "Für Außenwandfugen ist DIN 18540 die vorrangige Regel; die alleinige Zuweisung an den Systemnachweis ist zu eng.",
+    "ersatz": "Für Außenwandfugen gibt DIN 18540 die Regeln für Fugenbreite und Fugendichtstoff vor, der Systemnachweis des jeweiligen Fassadensystems ergänzt sie um die zulässige maximale Fugenlänge, ab der eine zusätzliche Bewegungsfuge einzuplanen ist."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: der Systemnachweis des Fassadensystems sowie die Abstimmung mit dem Tragwerksplaner.",
+    "problem": "Die maßgebliche Norm fehlt im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 18540 für Außenwandfugen im Hochbau, der Systemnachweis des Fassadensystems sowie die Abstimmung mit dem Tragwerksplaner."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18540",
+    "u": "https://www.dinmedia.de/de/norm/din-18540/209078087",
+    "stand": "Ausgabe 2014-09, ersetzt DIN 18540:2006-12",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": ""
+ },
+ {
+  "id": "kab4fugedurch",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "An Übergängen von der Dachabdichtung zur Fassadenabdichtung ist ein Übergangsprofil oder ein vergleichbares Formteil erforderlich, das beide Abdichtungsebenen dicht miteinander verbindet, dessen Ausführung der jeweilige Systemnachweis regelt.",
+    "problem": "Eine normative Pflicht zum Übergangsprofil ist über die zugelassenen Portale nicht verifizierbar; die Aussage bleibt eine Regel der Praxis.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: die Abstimmung mit dem Tragwerksplaner sowie die Systemnachweise der jeweiligen Abdichtungs- und Fugensysteme je Schicht.",
+    "problem": "Der Weiterlesehinweis nennt keine der einschlägigen Fugennormen.",
+    "ersatz": "Ab hier: DIN 18540 für Außenwandfugen, DIN 18197 für Fugen in Beton mit Fugenbändern, in der Schweiz die Norm SIA 274 für die Abdichtung von Fugen in Bauten sowie die Abstimmung mit dem Tragwerksplaner."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18540",
+    "u": "https://www.dinmedia.de/de/norm/din-18540/209078087",
+    "stand": "Ausgabe 2014-09, ersetzt DIN 18540:2006-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18197",
+    "u": "https://www.dinmedia.de/de/norm/din-18197/280597520",
+    "stand": "Ausgabe 2018-01, laut DIN Media ersetzt durch DIN 18197:2026-08",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 274",
+    "u": "https://cms.sia.ch/de/api/getMedia/674",
+    "stand": "Ausgabe 2021, Abdichtung von Fugen in Bauten, SIA Publikationsverzeichnis Stand 30.07.2026",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Keine Fachfehler gefunden."
+ },
+ {
+  "id": "kab4fugenmasse",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Dimensionierung der Fugenmasse folgt dem im Systemnachweis des Herstellers angegebenen zulässigen Verhältnis von Fugenbreite zu Fugentiefe sowie der maximal zulässigen Gesamtdehnung, die aus der Bewegung des Bauteils ermittelt wird.",
+    "problem": "Die zulässige Gesamtverformung ist für Außenwandfugen normativ mit 25 Prozent festgelegt, und die Bewegungsfähigkeit von Dichtstoffen wird nach DIN EN ISO 11600 in Klassen eingeteilt; beides steht nicht zur Disposition des Herstellers.",
+    "ersatz": "Die Dimensionierung der Fugenmasse folgt für Außenwandfugen der DIN 18540, die von einer zulässigen Gesamtverformung des Dichtstoffs von 25 Prozent ausgeht, und der Bewegungsfähigkeitsklasse des Dichtstoffs nach DIN EN ISO 11600; der Systemnachweis des Herstellers ergänzt das zulässige Verhältnis von Fugenbreite zu Fugentiefe für das konkrete Produkt."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: die Systemnachweise der Fugenmassehersteller sowie die Fachregel des jeweiligen Ausführungsgewerks.",
+    "problem": "Die beiden maßgeblichen Normen fehlen im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 18540 für Außenwandfugen, DIN EN ISO 11600 für die Einteilung der Dichtstoffe sowie die Systemnachweise der Fugenmassehersteller."
+   },
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Die Fugenmasse selbst ist ein kleiner Materialposten, ihre fachgerechte Erneuerung nach Ablauf der Lebensdauer aber ein wiederkehrender Wartungsposten, der von Anfang an in die Instandhaltungsplanung gehört.",
+    "problem": "Ein belastbares Erneuerungsintervall ist über die zugelassenen Portale nicht zu belegen; der Satz trägt ohne Zahlenwert.",
+    "ersatz": ""
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18540",
+    "u": "https://www.dinmedia.de/de/norm/din-18540/209078087",
+    "stand": "Ausgabe 2014-09, ersetzt DIN 18540:2006-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 11600",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-11600/140528822",
+    "stand": "Ausgabe 2011-11, ersetzt DIN EN ISO 11600:2004-04",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "DIN 18540:2014-09 stellt zusätzlich auf Fugendichtstoffe nach DIN EN 15651-1 mit niedrigem Elastizitätsmodul ab; der Knoten kann das aufnehmen."
+ },
+ {
+  "id": "kab4fugenband",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Das Fugenband wird nach dem statischen Nachweis der Fugenbewegung dimensioniert und zentrisch in der Bauteildicke angeordnet, wenn drückendes Wasser ansteht; die zulässige Bewegungsaufnahme und die Einbautiefe gibt der Systemnachweis des Herstellers vor.",
+    "problem": "DIN 18197 regelt Fugenbänder für Bodenfeuchte, nicht drückendes und drückendes Wasser und kennt innenliegende wie außenliegende Fugenbänder; eine Pflicht zur zentrischen Anordnung bei drückendem Wasser gibt es nicht.",
+    "ersatz": "Das Fugenband wird nach der zu erwartenden Fugenbewegung dimensioniert; DIN 18197 regelt Auswahl und Einbau von Fugenbändern in Beton für Bodenfeuchte, nicht drückendes und drückendes Wasser und lässt dabei sowohl innenliegende als auch außenliegende Fugenbänder zu, die zulässige Bewegungsaufnahme und die Einbaulage gibt der Systemnachweis des Herstellers vor."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Bei erdberührten, drückendem Wasser ausgesetzten Bauteilen gewinnt im Regelfall das mittig eingebaute Fugenband, weil es unter der Wasserlast dichter bleibt als ein außenliegendes Blech mit zusätzlichen Anschlussfugen.",
+    "problem": "Die Bevorzugung des innenliegenden Fugenbands bei drückendem Wasser ist keine Regel der Norm; außenliegende Fugenbänder auf der Wasserdruckseite sind für diesen Fall ebenso vorgesehen.",
+    "ersatz": "Bei erdberührten, drückendem Wasser ausgesetzten Bauteilen sind nach DIN 18197 sowohl innenliegende als auch außenliegende Fugenbänder zulässig; die Wahl folgt der Zugänglichkeit, der Bewehrungsdichte und der Betonierbarkeit, nicht einer pauschalen Rangfolge."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: der Systemnachweis des Fugenbandherstellers sowie die Fachregel für erdberührte Abdichtung.",
+    "problem": "Die maßgeblichen Normen fehlen im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 18197 für das Abdichten von Fugen in Beton mit Fugenbändern, DIN 18533 für die Abdichtung erdberührter Bauteile sowie der Systemnachweis des Fugenbandherstellers."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18197",
+    "u": "https://www.dinmedia.de/de/norm/din-18197/280597520",
+    "stand": "Ausgabe 2018-01, laut DIN Media ersetzt durch DIN 18197:2026-08",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18533-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18533-1/399850897",
+    "stand": "Ausgabe 2026-06, ersetzt DIN 18533-1:2017-07 und DIN 18533-1/A1:2018-09",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "DIN 18197:2018-01 ist laut DIN Media durch die Ausgabe 2026-08 ersetzt; der Stand ist beim Einspielen auf die neue Ausgabe zu setzen."
+ },
+ {
+  "id": "kab4wartungsfuge",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Gewährleistungsrechtlich ist zu unterscheiden, ob ein Mangel an der Fugenmasse als erwartbarer Verschleiß oder als Ausführungsfehler zu werten ist, was im Streitfall die Fachplanung begutachten muss.",
+    "problem": "Die gewährleistungsrechtliche Einordnung von Wartungsfugen ist über die zugelassenen amtlichen Portale nicht zu belegen; sie beruht auf Rechtsprechung und Verbandsmerkblättern.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: die Instandhaltungsplanung des Gebäudes sowie die Fachregel für Wartungsfugen im jeweiligen Gewerk.",
+    "problem": "Für Außenwandfugen ist DIN 18540 die vorrangige Norm und fehlt im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 18540 für Außenwandfugen im Hochbau, DIN 18197 für einbetonierte Fugenbänder sowie die Instandhaltungsplanung des Gebäudes."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18540",
+    "u": "https://www.dinmedia.de/de/norm/din-18540/209078087",
+    "stand": "Ausgabe 2014-09, ersetzt DIN 18540:2006-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18197",
+    "u": "https://www.dinmedia.de/de/norm/din-18197/280597520",
+    "stand": "Ausgabe 2018-01, laut DIN Media ersetzt durch DIN 18197:2026-08",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Einordnung der Wartungsfuge als vertraglich hinweispflichtige Leistung wäre über die VOB Teil C zu prüfen, die über die zugelassenen Portale nicht frei einsehbar ist, nicht verifiziert."
+ },
+ {
+  "id": "kab4anschlusstrocken",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Der Anschluss einer Trockenbauwand an eine massive Wand oder Decke muss zwei unterschiedliche Bewegungsverhalten ausgleichen: Der Massivbau setzt sich über Jahre kaum noch, während die Trockenbaukonstruktion durch Temperatur und Feuchte des Raumklimas spürbar arbeitet.",
+    "problem": "Die Ursache ist umgekehrt zugeordnet: Der maßgebliche Bewegungsanteil kommt aus der Durchbiegung sowie dem Schwinden und Kriechen des Massivbauteils, weshalb Deckenanschlüsse gleitend ausgebildet werden.",
+    "ersatz": "Der Anschluss einer Trockenbauwand an eine massive Wand oder Decke muss zwei unterschiedliche Bewegungsverhalten ausgleichen: Die Massivdecke biegt sich unter Last durch und verkürzt sich durch Schwinden und Kriechen, während die leichte Trockenbaukonstruktion diese Bewegung nicht mitmachen darf."
+   },
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Bei tragenden oder aussteifenden Massivbauteilen ist die Fuge zwingend, bei nichttragenden Trennwänden zum Massivbau kann sie unter bestimmten Systemvorgaben entfallen, wenn der Systemnachweis des Trockenbausystems dies für die konkrete Wandlänge zulässt.",
+    "problem": "Der zulässige Verzicht auf die Anschlussfuge ist über die zugelassenen Portale nicht verifizierbar.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Bei erhöhten Schallschutzanforderungen ist die Fuge zusätzlich mit einem dauerelastischen Dichtstoff auf der Rückseite der Beplankung zu schließen, damit kein Luftschall über die Fuge selbst übertragen wird.",
+    "problem": "Üblich ist die Anschlussdichtung unter dem Anschlussprofil in Verbindung mit einer elastischen Verfugung des Beplankungsrandes; die Angabe zur Rückseite der Beplankung ist nicht belegbar.",
+    "ersatz": "Bei erhöhten Schallschutzanforderungen wird der Anschluss zusätzlich mit einer Anschlussdichtung unter dem Anschlussprofil und einer dauerelastischen Verfugung des Beplankungsrandes geschlossen, damit kein Luftschall über die Fuge übertragen wird."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Für den Anschluss von Trockenbau an Massivbau war über die zugelassenen Portale keine zitierfähige Norm zu ermitteln, nicht verifiziert."
+ },
+ {
+  "id": "kab4anschlussfenster",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Befestigung des Rahmens erfolgt punktuell über Dübel mit einer Europäischen Technischen Bewertung oder einer allgemeinen Bauartgenehmigung, nicht durch die Ausschäumung der Fuge, die allein keine tragende Funktion übernehmen darf.",
+    "problem": "Dübel sind Bauprodukte; der nationale Verwendbarkeitsnachweis dafür ist die allgemeine bauaufsichtliche Zulassung, die allgemeine Bauartgenehmigung betrifft Bauarten, nicht das Bauprodukt.",
+    "ersatz": "Die Befestigung des Rahmens erfolgt punktuell über Dübel mit einer Europäischen Technischen Bewertung oder einer allgemeinen bauaufsichtlichen Zulassung, nicht durch die Ausschäumung der Fuge, die allein keine tragende Funktion übernehmen darf."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Mindestfugenbreite ergibt sich aus der Rohbautoleranz nach der einschlägigen Toleranznorm zuzüglich der thermischen Längenänderung des Rahmenmaterials, die der Systemnachweis des Fensterherstellers für die jeweilige Bauteillänge ausweist.",
+    "problem": "Die Toleranznorm ist benennbar, und die thermische Längenänderung folgt aus dem Ausdehnungskoeffizienten des Rahmenmaterials, nicht aus einem Systemnachweis.",
+    "ersatz": "Die Mindestfugenbreite ergibt sich aus der Rohbautoleranz nach DIN 18202 für Toleranzen im Hochbau zuzüglich der thermischen Längenänderung, die sich aus dem Ausdehnungskoeffizienten des Rahmenmaterials und der Bauteillänge errechnet."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: die Systemnachweise der Fensterhersteller sowie die Montagerichtlinie für den fachgerechten Fenstereinbau.",
+    "problem": "Die Montagerichtlinie bleibt namenlos, obwohl der Bau- und Fensteranschluss in Österreich mit der ÖNORM B 5320 normativ geregelt ist.",
+    "ersatz": "Ab hier: DIN 18202 für die Rohbautoleranzen, in Österreich die ÖNORM B 5320 für die Planung und Ausführung des Bau- und Fensteranschlusses sowie die Systemnachweise der Fensterhersteller."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18202",
+    "u": "https://www.dinmedia.de/de/norm/din-18202/307314612",
+    "stand": "Ausgabe 2019-07, Entwurf E DIN 18202:2025-09 laeuft",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 5320",
+    "u": "https://www.austrian-standards.at/de/shop/onorm-b-5320-2024-11-01~p3884017",
+    "stand": "Ausgabe 2024-11-01, ersetzt OENORM B 5320:2020-10-01",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Rangfolge der drei Ebenen, innen dichter als außen, ist fachlich korrekt dargestellt."
+ },
+ {
+  "id": "kab4wklassen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "In Deutschland unterscheidet die einschlägige Abdichtungsnorm für Innenräume vier Wassereinwirkungsklassen von W0-I für Flächen ohne unmittelbaren Wasseranfall bis W3-I für Flächen mit zusätzlicher chemischer oder thermischer Belastung, etwa in gewerblichen Küchen oder Schwimmbadbereichen.",
+    "problem": "W3-I ist über die Höhe der Wassereinwirkung definiert, nicht über eine chemische oder thermische Zusatzbelastung; chemische Beanspruchung ist eine gesondert nachzuweisende Einwirkung außerhalb des Anwendungsbereichs von DIN 18534.",
+    "ersatz": "In Deutschland unterscheidet DIN 18534 für die Abdichtung von Innenräumen vier Wassereinwirkungsklassen, von W0-I für Flächen mit geringer Wassereinwirkung bis W3-I für Flächen mit sehr hoher Wassereinwirkung wie Schwimmbeckenumgänge und gewerbliche Küchen; eine chemische oder thermische Zusatzbeanspruchung ist keine eigene Klasse, sondern gesondert nachzuweisen."
+   },
+   {
+    "feld": "dach.de",
+    "art": "stand",
+    "zitat": "Der Nachweis erfolgt über die Wassereinwirkungsklassen W0-I bis W3-I nach DIN 18534, getrennt für Wand- und Bodenflächen.",
+    "problem": "Inhaltlich richtig, aber ohne Stand; DIN 18534-1 liegt seit Oktober 2025 in neuer Ausgabe vor und ersetzt die Ausgabe 2017-07.",
+    "ersatz": ""
+   },
+   {
+    "feld": "dach.at",
+    "art": "dach",
+    "zitat": "Die Klassifizierung folgt der ÖNORM B 3407 mit einer eigenen Einteilung der Beanspruchungsstufen, die sich in Bezeichnung und Abgrenzung von den deutschen Wassereinwirkungsklassen unterscheidet.",
+    "problem": "Die Norm ist richtig gewählt, die Bezeichnung Beanspruchungsstufen ist aber nicht verifizierbar, und der für Architekten wichtige Ausschluss von Schwimmbecken und Fassadenbelägen fehlt.",
+    "ersatz": "In Österreich regelt die ÖNORM B 3407 die Planung und Ausführung von Fliesen-, Platten- und Mosaiklegearbeiten samt der erforderlichen Verbundabdichtungen mit einer eigenen Systematik, die sich in Bezeichnung und Abgrenzung von den deutschen Wassereinwirkungsklassen unterscheidet; für Schwimmbecken, Thermalbecken und Fassadenbeläge gilt sie nicht."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "stand",
+    "zitat": "Der Feuchtigkeitsschutz von Innenräumen wird nach SIA 271 und den zugehörigen Merkblättern beurteilt, mit einer eigenen Systematik der Beanspruchungsklassen statt der deutschen W-Klassen.",
+    "problem": "Veraltet: Seit Mai 2025 gilt in der Schweiz die eigene Norm SIA 271/1 für Abdichtungen von Innenräumen, SIA 271 deckt Hochbauabdichtungen ab.",
+    "ersatz": "In der Schweiz gilt seit 2025 die Norm SIA 271/1 für Abdichtungen von Innenräumen mit einer eigenen Systematik der Beanspruchung statt der deutschen W-Klassen; die Norm SIA 271 bleibt für Abdichtungen von Hochbauten maßgebend."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Dazwischen liegen W1-I für mäßig beanspruchte Wandflächen im Spritzwasserbereich ohne Bodenablauf und W2-I für Bodenflächen mit Ablauf in häuslichen Bädern sowie für Wandflächen in gewerblich genutzten Nassräumen.",
+    "problem": "Die Zuordnung ist in der Sache plausibel, der Normtext ist aber nicht frei einsehbar; insbesondere die pauschale Zuordnung gewerblicher Wandflächen zu W2-I ist zu prüfen, da gewerbliche Duschanlagen höher eingestuft werden können.",
+    "ersatz": ""
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18534-1/391755876",
+    "stand": "Ausgabe 2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 3407",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-3407-2026-01-01~p4629469",
+    "stand": "Ausgabe 2026-01-01, ersetzt OENORM B 3407:2022-10-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 271/1",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20271-1/d/2025/D/Product",
+    "stand": "Ausgabe 2025, Abdichtungen von Innenraeumen, gueltig ab 01.05.2025",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 271",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20271/d/2021/D/Product",
+    "stand": "Ausgabe 2021, Abdichtungen von Hochbauten, mit Korrigenda C1:2022 und C2:2024",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Volltext von DIN 18534-1 ist kostenpflichtig; die Klassenzuordnung im Detail sollte am Normtext gegengelesen werden."
+ },
+ {
+  "id": "kab4wandboden",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Für die Wassereinwirkungsklasse der angrenzenden Fläche gilt die einschlägige Abdichtungsnorm für Innenräume.",
+    "problem": "Die Norm ist eindeutig benennbar und sollte hier stehen.",
+    "ersatz": "Für die Wassereinwirkungsklasse der angrenzenden Fläche gilt DIN 18534 für die Abdichtung von Innenräumen."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Überlappungsbreiten zwischen Formteil und Flächenabdichtung legt die Systemfreigabe fest, ebenso wie die Frage, ob die Ecke vor oder nach der ersten Lage der Flächenabdichtung eingebaut wird.",
+    "problem": "Konkrete Überlappungsbreiten sind über die zugelassenen Portale nicht verifizierbar; die Zuweisung an die Systemfreigabe ist zulässig, aber unbelegt.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: Verlegerichtlinie und Systemfreigabe des jeweiligen Abdichtungsherstellers.",
+    "problem": "Die maßgebliche Norm fehlt im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 18534 für die Abdichtung von Innenräumen, in Österreich die ÖNORM B 3407, sowie Verlegerichtlinie und Systemfreigabe des jeweiligen Abdichtungsherstellers."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18534-1/391755876",
+    "stand": "Ausgabe 2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 3407",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-3407-2026-01-01~p4629469",
+    "stand": "Ausgabe 2026-01-01, ersetzt OENORM B 3407:2022-10-01",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": ""
+ },
+ {
+  "id": "kab4dusche",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Für die bodenebene Dusche gilt an Boden und angrenzender Wand mindestens die Wassereinwirkungsklasse für Bodenflächen mit Ablauf; die genaue Einstufung hängt von der Nutzung ab.",
+    "problem": "Die Klasse ist benennbar: Bodenflächen mit Ablauf im häuslichen Bad fallen nach DIN 18534 unter W2-I; die Umschreibung verschenkt die einzige harte Information des Satzes.",
+    "ersatz": "Für die bodenebene Dusche gilt an Boden und angrenzender Wand nach DIN 18534 mindestens die Klasse W2-I für Bodenflächen mit Ablauf, bei gewerblicher Nutzung kann die Einstufung höher liegen."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: Herstellersystem für Ablaufkörper und Bauhöhe sowie Fachplanung der Rohdeckenabsenkung.",
+    "problem": "Weder die Abdichtungsnorm noch die Norm zur Barrierefreiheit sind genannt.",
+    "ersatz": "Ab hier: DIN 18534 für die Abdichtung von Innenräumen, DIN 18040-2 für die Barrierefreiheit in Wohnungen sowie das Herstellersystem für Ablaufkörper und Bauhöhe."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18534-1/391755876",
+    "stand": "Ausgabe 2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18040-2",
+    "u": "https://www.dinmedia.de/de/norm/din-18040-2/142706210",
+    "stand": "Ausgabe 2011-09",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die maximale Anstauhöhe im Anwendungsbereich von DIN 18534-1 beträgt 10 Zentimeter; bei planmäßig höherem Anstau greift die Norm nicht mehr."
+ },
+ {
+  "id": "kab4gefaelle",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Die erforderliche Gefällehöhe legt das Fachregelwerk des Fliesen- und Estrichlegerhandwerks in Abhängigkeit von der Entfernung zum Ablauf fest, eine feste Prozentangabe gilt nicht pauschal für jede Fläche.",
+    "problem": "Die Zahlenwerte stehen in Merkblättern der Fachverbände, die über die zugelassenen Portale nicht einsehbar sind; die Aussage ist nicht verifiziert.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Der tiefste Punkt der Fläche liegt immer am Ablauf, alle übrigen Punkte müssen nachweislich höher liegen, was bei der Bauabnahme mit einer Wasserprobe geprüft werden kann.",
+    "problem": "Die Wasserprobe als Abnahmeprüfung des Gefälles ist nicht normativ belegbar; DIN 18534 begrenzt die Anstauhöhe im Anwendungsbereich auf 10 Zentimeter.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: Fachregel des Fliesenlegerhandwerks und Systemfreigabe des Ablaufherstellers.",
+    "problem": "Die Abdichtungsnorm fehlt im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 18534 für die Abdichtung von Innenräumen, die Fachregeln des Fliesenlegerhandwerks sowie die Systemfreigabe des Ablaufherstellers."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18534-1/391755876",
+    "stand": "Ausgabe 2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Zwei Suchläufe auf den zugelassenen Portalen ergaben keinen belastbaren Mindestwert für das Gefälle in Duschflächen, nicht verifiziert."
+ },
+ {
+  "id": "kab4rinne",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Beide Systeme sind bauartgleich zugelassene Bodenabläufe, unterscheiden sich aber deutlich in Einbaulage und Anschlussmöglichkeiten.",
+    "problem": "Bauartgleich zugelassen ist keine bauordnungsrechtliche Kategorie; Bodenabläufe sind harmonisierte Bauprodukte nach DIN EN 1253 und tragen eine Leistungserklärung mit CE-Kennzeichnung.",
+    "ersatz": "Beide Systeme sind Bodenabläufe nach DIN EN 1253 und unterscheiden sich nicht im Nachweis, sondern deutlich in Einbaulage und Anschlussmöglichkeiten."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Bodenabläufe für den Innenbereich müssen die Anforderungen an Abläufe für Gebäude nach der einschlägigen Produktnorm erfüllen; die freigegebene Ablaufleistung in Liter pro Zeiteinheit legt der Hersteller je Modell fest.",
+    "problem": "Die Produktnorm ist benennbar: DIN EN 1253-1 gilt für Bodenabläufe mit Geruchverschluss ab einer Geruchverschlusshöhe von 50 Millimetern.",
+    "ersatz": "Bodenabläufe für den Innenbereich müssen die Anforderungen der DIN EN 1253-1 für Bodenabläufe mit Geruchverschluss erfüllen, die eine Geruchverschlusshöhe von mindestens 50 Millimetern voraussetzt; die Ablaufleistung weist der Hersteller je Modell aus."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: Herstellerangaben zu Anschlusshöhe und Ablaufleistung nach der einschlägigen Norm für Bodenabläufe.",
+    "problem": "Die Norm bleibt namenlos.",
+    "ersatz": "Ab hier: DIN EN 1253-1 für Bodenabläufe sowie die Herstellerangaben zu Anschlusshöhe und Ablaufleistung."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN 1253-1",
+    "u": "https://www.dinmedia.de/de/norm/din-en-1253-1/210175148",
+    "stand": "Ausgabe 2015-03",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": ""
+ },
+ {
+  "id": "kab4kueche",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Für Wandflächen mit begrenzter Spritzwasserbelastung, etwa hinter der Spüle, reicht in der Regel die niedrigste Wassereinwirkungsklasse ohne gesonderte Verbundabdichtung.",
+    "problem": "Die Klasse ist benennbar, die Zuordnung der Küchenwand zu W0-I ließ sich am Normtext aber nicht verifizieren.",
+    "ersatz": "Für Wandflächen mit begrenzter Spritzwasserbelastung, etwa hinter der Spüle, reicht in der Regel die niedrigste Wassereinwirkungsklasse W0-I nach DIN 18534 ohne gesonderte Verbundabdichtung."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Bodenflächen mit Ablauf in Hauswirtschafts- oder Technikräumen sind dagegen wie Bodenflächen im Bad mit Ablauf einzustufen und entsprechend abzudichten.",
+    "problem": "Die Gleichsetzung ist plausibel, aber am Normtext nicht verifiziert.",
+    "ersatz": ""
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: Fachplanung der technischen Gebäudeausrüstung für Bodenablauf, Leckageschutz und Aufstellbedingungen der Geräte.",
+    "problem": "Die Abdichtungsnorm fehlt im Weiterlesehinweis.",
+    "ersatz": "Ab hier: DIN 18534 für die Abdichtung von Innenräumen sowie die Fachplanung der technischen Gebäudeausrüstung für Bodenablauf, Leckageschutz und Aufstellbedingungen der Geräte."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18534-1/391755876",
+    "stand": "Ausgabe 2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": ""
+ },
+ {
+  "id": "kab4schwimmbad",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Beckenumgangsflächen fallen in die höchste Wassereinwirkungsklasse mit zusätzlicher chemischer oder thermischer Belastung.",
+    "problem": "Die höchste Klasse W3-I ist über die sehr hohe Wassereinwirkung definiert, nicht über eine chemische oder thermische Zusatzbelastung; diese ist gesondert nachzuweisen.",
+    "ersatz": "Beckenumgangsflächen fallen nach DIN 18534 in die höchste Wassereinwirkungsklasse W3-I für sehr hohe Wassereinwirkung; eine chemische Beanspruchung durch die Beckenwasseraufbereitung ist zusätzlich und gesondert nachzuweisen."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Für Schwimmbecken und Behälter im Innenbereich gilt eine eigene, von der Nassraumabdichtung getrennte Abdichtungsnorm mit höheren Anforderungen an die Beständigkeit gegen Beckenwasserchemie und dauerhafte Wasserlast.",
+    "problem": "Die Norm ist benennbar: DIN 18535 regelt die Abdichtung von Behältern und Becken.",
+    "ersatz": "Für Schwimmbecken und Behälter im Innenbereich gilt mit DIN 18535 eine eigene, von der Abdichtung der Innenräume getrennte Norm mit höheren Anforderungen an die Beständigkeit gegen Beckenwasserchemie und dauerhafte Wasserlast."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Ab hier: Fachplanung Schwimmbadtechnik und Beckenabdichtung nach der einschlägigen Norm für Behälter und Becken.",
+    "problem": "Die Normen bleiben namenlos; für Österreich ist zudem wichtig, dass die ÖNORM B 3407 Schwimmbecken und Thermalbecken ausdrücklich ausnimmt.",
+    "ersatz": "Ab hier: DIN 18535 für die Abdichtung von Behältern und Becken, DIN 18534 für die angrenzenden Beckenumgänge sowie die Fachplanung der Schwimmbadtechnik; in Österreich nimmt die ÖNORM B 3407 Schwimmbecken und Thermalbecken ausdrücklich aus."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18535-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18535-1/272712977",
+    "stand": "Ausgabe 2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18534-1",
+    "u": "https://www.dinmedia.de/de/norm/din-18534-1/391755876",
+    "stand": "Ausgabe 2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 3407",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-3407-2026-01-01~p4629469",
+    "stand": "Ausgabe 2026-01-01, ersetzt OENORM B 3407:2022-10-01",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "DIN 18535 liegt in den Teilen 1 bis 3 in der Ausgabe 2017-07 vor, Teil 2 mit Änderung A1:2019-09."
+ }
+]

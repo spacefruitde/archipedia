@@ -1,0 +1,5 @@
+const { N } = await import('/Users/ben/Documents/AO/data.mjs?t='+Date.now());
+const ids=Object.keys(N); const pats=[[/\.\s*,/,'Punkt-Komma'],[/\s{2,}/,'Doppelleer'],[/[a-zäöüß]\. [a-zäöüß]/,'klein nach Punkt'],[/[–—]/,'Gedankenstrich'],[/\.\./,'Doppelpunkt'],[/,\s*,/,'Doppelkomma']];
+let n=0; for(const id of ids){ if(!/^(kab|eli)/.test(id)) continue; const node=N[id]; for(const f of ['t1','t2','t3']){ const v=node[f]; if(!v) continue; for(const [re,name] of pats){ const mm=v.match(re); if(mm){ n++; console.log(id,f,name,'…'+v.slice(Math.max(0,mm.index-70),mm.index+70)+'…'); } } } if(node.dach) for(const cc of ['de','at','ch']){ const v=node.dach[cc]||''; for(const [re,name] of pats){ if(re.test(v)){n++; console.log(id,'dach.'+cc,name);} } } }
+let mk=0; for(const id of ids){ if(!/^(kab|eli)/.test(id)) continue; const n2=N[id]; if(n2.t2&&n2.lv>=2&&(!/Häufigster Fehler/.test(n2.t2)||!/Kostenlogik:/.test(n2.t2))) {mk++; console.log('MARKER',id);} if(n2.t3&&!/Ab hier:/.test(n2.t3)) {mk++; console.log('ABHIER',id);} }
+console.log('Anomalien:',n,'Marker-Probleme:',mk);

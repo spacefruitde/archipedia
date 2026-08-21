@@ -1,0 +1,909 @@
+[
+ {
+  "id": "kab4luftfenster",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "unbelegt",
+    "zitat": "Der Fensteranschluss ist der Punkt, an dem die luftdichte Ebene der Wand auf den Rahmen übergeht, und zugleich die Stelle mit der größten Bewegungsfuge im ganzen Haus, weil Fenster und Wand thermisch unterschiedlich arbeiten.",
+    "problem": "Der Superlativ ist nicht belegbar und im Regelfall falsch, weil Gebäudetrennfugen und Dachrandanschlüsse deutlich größere Bewegungen aufnehmen als die Anschlussfuge eines Fensters.",
+    "ersatz": "Der Fensteranschluss ist der Punkt, an dem die luftdichte Ebene der Wand auf den Rahmen übergeht, und zugleich eine der bewegungsintensivsten Fugen der Gebäudehülle, weil Rahmen und Wand sich bei Temperatur- und Feuchtewechsel unterschiedlich stark verformen."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Maßgeblich für die Ausführung ist die einschlägige Montagerichtlinie für den Baukörperanschluss von Fenstern, die die Dichtungsebenen von innen nach außen dichter zu diffusionsoffener beschreibt.",
+    "problem": "Das maßgebliche Werk hat einen festen Titel und einen Stand, der genannt gehört, und der Satzteil zur Reihenfolge der Ebenen ist so verkürzt, dass er die Aussage verdreht.",
+    "ersatz": "Maßgeblich für die Ausführung ist der Leitfaden zur Montage von Fenstern und Haustüren in der Ausgabe 2024-03, der den Anschluss in drei Ebenen beschreibt und verlangt, dass die raumseitige Ebene luftdicht und diffusionsdichter ausgeführt wird als die äußere Wetterschutzebene."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "Leitfaden zur Montage von Fenstern und Haustueren",
+    "u": "https://shop.ift-rosenheim.de/leitfaden-zur-montage-von-fenstern-und-haustueren-2024-03-montageleitfaden",
+    "stand": "Ausgabe 2024-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "ift-Richtlinie MO-01/1, Baukoerperanschluss von Fenstern, Abdichtungssysteme",
+    "u": "https://shop.ift-rosenheim.de/ift-richtlinie-mo-01/1-baukoerperanschluss-v.-fenstern-ermittlung-d.-gebrauchstauglichkeit",
+    "stand": "Ausgabedatum auf der Herausgeberseite nicht ausgewiesen, geprueft 21.08.2026",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18542",
+    "u": "https://www.dinmedia.de/de/norm/din-18542/316988836",
+    "stand": "Ausgabe 2020-04",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der exakte Name der Gütegemeinschaft ist auf den zulässigen Portalen uneinheitlich: Der ift-Shop führt sie als RAL-Gütegemeinschaft Fenster und Haustüren e.V., ein ift-Meldungstext als RAL-Gütegemeinschaft Fenster, Fassaden und Haustüren; die Umbenennung ist nicht verifiziert, der Wortlaut in t3 bleibt deshalb unangetastet."
+ },
+ {
+  "id": "kab4luftdurch",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Bündelungen mehrerer Leitungen durch eine gemeinsame Manschette sind zulässig, solange die Manschette für die Bündelstärke freigegeben ist; unkontrollierte Nachbelegung mit zusätzlichen Kabeln nach der Verklebung zerstört die Dichtheit.",
+    "problem": "Der entscheidende physikalische Punkt fehlt: Luft strömt in den Zwickeln zwischen den Einzelkabeln eines Bündels weiter, deshalb ist eine gemeinsame Abdichtung nur mit ausdrücklich für mehrere Leitungen geprüften Manschetten und nur bei Abstand zwischen den Kabeln dicht.",
+    "ersatz": "Ein Kabelbündel darf nur dann gemeinsam abgedichtet werden, wenn die Manschette ausdrücklich für mehrere Leitungen geprüft ist und die Einzelkabel darin auf Abstand geführt werden, denn sonst strömt die Luft in den Zwickeln zwischen den Kabeln weiter und das Bündel bleibt selbst der Leckageweg; unkontrollierte Nachbelegung nach der Verklebung zerstört die Dichtheit ohnehin."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Vor dem Schließen der Bekleidung sind alle Durchdringungen fotografisch zu dokumentieren, weil sie nach der Blower-Door-Messung nicht mehr zugänglich sind.",
+    "problem": "Die Begründung stimmt zeitlich nicht: Unzugänglich werden die Durchdringungen durch das Schließen der Bekleidung, nicht durch die Messung.",
+    "ersatz": "Vor dem Schließen der Bekleidung sind alle Durchdringungen fotografisch zu dokumentieren, weil sie danach nicht mehr zugänglich sind und eine später gemessene Leckage sonst nur durch Öffnen der Fläche zu finden wäre."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-7",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-7/398456216",
+    "stand": "Ausgabe 2026-04, ersetzt DIN 4108-7:2011-01",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4luftinst",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Sieh die Installationsebene deshalb bei jeder Außenwand und jeder obersten Geschossdecke als Regelaufbau vor, nicht als Sonderlösung für einzelne Räume.",
+    "problem": "Die Installationsebene ist ein Thema des Holz- und Leichtbaus, wo eine Bahn die luftdichte Ebene bildet; bei massiven Außenwänden übernimmt der durchgehende Innenputz diese Rolle, dort ist eine Vorsatzebene kein Regelaufbau.",
+    "ersatz": "Sieh die Installationsebene überall dort als Regelaufbau vor, wo eine Bahn die luftdichte Ebene bildet, also im Holz- und Leichtbau und unter gedämmten Dachschrägen, während bei massiven Wänden der durchgehende Innenputz die luftdichte Ebene bildet und die Dosen unmittelbar darin abgedichtet werden."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Tiefe der Installationsebene richtet sich nach der größten vorgesehenen Dose zuzüglich eines Bewegungsspielraums für die Leitungsführung; ein festes Regelmaß gibt es nicht, das Fachplaner-Detail legt sie je nach Elektroplanung fest.",
+    "problem": "Nicht nur der Platzbedarf begrenzt die Tiefe: Eine gedämmte Installationsebene verschiebt Dämmwirkung auf die warme Seite der Dampfbremse und senkt deren Temperatur, bis dort Tauwasser ausfällt. Dieser Feuchteschutzaspekt fehlt vollständig.",
+    "ersatz": "Die Tiefe der Installationsebene richtet sich nach der größten vorgesehenen Dose zuzüglich eines Bewegungsspielraums für die Leitungsführung und, wenn die Ebene gedämmt ist, zusätzlich nach dem Feuchteschutz, weil zu viel Dämmung auf der warmen Seite der Bahn die Temperatur an der Dampfbremse absenkt und dort Tauwasser ausfallen lässt; welcher Anteil am Gesamtdämmwert zulässig bleibt, ergibt der rechnerische Feuchteschutznachweis."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Ebene liegt konsequent auf der warmen, raumseitigen Seite der luftdichten Ebene, niemals davor, weil sie sonst selbst zur Durchdringung würde.",
+    "problem": "Der Satz widerspricht sich: Raumseitig heißt aus Sicht des Raums genau davor. Gemeint ist die kalte Seite der Bahn.",
+    "ersatz": "Die Ebene liegt konsequent auf der warmen, raumseitigen Seite der luftdichten Ebene und nie auf deren kalter Seite, weil sonst jede Dose und jede Leitung die Bahn durchstoßen würde."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-7",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-7/398456216",
+    "stand": "Ausgabe 2026-04, ersetzt DIN 4108-7:2011-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108-3",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-3/373925063",
+    "stand": "Ausgabe 2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4luftstoss",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Überlappungen an Bahnenden sollten immer im Gefälle der voraussichtlichen Wasserführung liegen, damit anfallende Feuchte nicht in den Stoß läuft, sondern über ihn ablaufen kann.",
+    "problem": "Das ist die Regel für die außenliegenden Unterdeck- und Unterspannbahnen. Die luftdichte Ebene liegt raumseitig und führt kein Wasser, die Regel führt am Innenstoß in die Irre.",
+    "ersatz": "Die Regel, Überlappungen im Gefälle der Wasserführung anzuordnen, gilt für die außenliegenden Unterdeck- und Unterspannbahnen; die raumseitige luftdichte Ebene führt kein Wasser, dort entscheidet allein die Zugänglichkeit des Stoßes für Verklebung und Anpressung."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Mindestüberlappung von Bahn zu Bahn und die zulässige Verarbeitungstemperatur legt die Verarbeitungsrichtlinie des jeweiligen Bahnensystems fest, eine einheitliche Zahl für alle Systeme gibt es nicht.",
+    "problem": "Die deutsche Regelwerksebene fehlt: Anforderungen sowie Planungs- und Ausführungsempfehlungen für die luftdichte Ebene stehen in DIN 4108-7, seit April 2026 in einer neuen Ausgabe mit eigenem Abschnitt zum Luftdichtheitskonzept.",
+    "ersatz": "Die Mindestüberlappung von Bahn zu Bahn und die zulässige Verarbeitungstemperatur legt die Verarbeitungsrichtlinie des jeweiligen Bahnensystems fest, eine einheitliche Zahl für alle Systeme gibt es nicht; den übergeordneten Rahmen für Planung und Ausführung der luftdichten Ebene setzt in Deutschland DIN 4108-7."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Stichprobenartige Zugprüfungen an bereits verklebten Stößen gehören vor dem Verschließen der Bekleidung zur Qualitätssicherung, weil sich eine mangelhafte Verklebung optisch kaum erkennen lässt.",
+    "problem": "Eine Zugprüfung am eingebauten Stoß zerstört genau die Verklebung, die sie prüfen soll; üblich sind Haftproben an eigens angelegten Probestreifen sowie Sicht- und Anpresskontrolle am Bauteil.",
+    "ersatz": "Weil sich eine mangelhafte Verklebung optisch kaum erkennen lässt, gehören vor dem Verschließen der Bekleidung eine Sicht- und Anpresskontrolle aller Stöße sowie Haftproben an eigens angelegten Probestreifen zur Qualitätssicherung, nicht die Zugprüfung am eingebauten Stoß, die die Verklebung selbst zerstören würde."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-7",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-7/398456216",
+    "stand": "Ausgabe 2026-04, ersetzt DIN 4108-7:2011-01",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4sdwert",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Der sd-Wert wird in Metern angegeben und ergibt sich aus der Bahndicke multipliziert mit der materialspezifischen Diffusionswiderstandszahl mü, die der Hersteller in seiner Leistungserklärung angibt.",
+    "problem": "Bei dünnen Bahnen deklariert der Hersteller nach den Produktnormen für Dampfsperrbahnen nicht mü, sondern den gemessenen sd-Wert selbst; mü wird für Baustoffschichten angegeben.",
+    "ersatz": "Der sd-Wert wird in Metern angegeben und ergibt sich aus der Schichtdicke multipliziert mit der materialspezifischen Diffusionswiderstandszahl mü; bei dünnen Bahnen deklariert der Hersteller allerdings nicht mü, sondern den geprüften sd-Wert selbst in der Leistungserklärung."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Ob ein Bauteilaufbau tauwasserfrei bleibt, weist eine rechnerische Prüfung nach der einschlägigen Berechnungsnorm für den Feuchteschutz nach, eine allgemeingültige Mindestzahl für den sd-Wert allein gibt es nicht.",
+    "problem": "Die maßgebliche Norm in Deutschland ist DIN 4108-3, und sie hat sich mit der Ausgabe 2024-03 verändert: Das Glaser-Verfahren heißt dort Periodenbilanzverfahren, und es gilt ein dreistufiges Nachweiskonzept von der nachweisfreien Konstruktion bis zur hygrothermischen Simulation.",
+    "ersatz": "Ob ein Bauteilaufbau tauwasserfrei bleibt, weist in Deutschland eine Prüfung nach DIN 4108-3 nach, die seit der Ausgabe 2024-03 dreistufig aufgebaut ist, von der nachweisfreien Konstruktion über das Periodenbilanzverfahren bis zur hygrothermischen Simulation; eine allgemeingültige Mindestzahl für den sd-Wert allein gibt es nicht."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-3",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-3/373925063",
+    "stand": "Ausgabe 2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 13788",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-13788/165528681",
+    "stand": "Ausgabe 2013-05",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 13984",
+    "u": "https://www.dinmedia.de/de/norm/din-en-13984/170974513",
+    "stand": "Ausgabe 2013-05",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 13970",
+    "u": "https://www.dinmedia.de/de/norm/din-en-13970/73422355",
+    "stand": "Ausgabe 2005-02, geaendert durch A1:2007-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 15026",
+    "u": "https://www.dinmedia.de/de/norm/din-en-15026/369808466",
+    "stand": "Ausgabe 2023-12, ersetzt DIN EN 15026:2007-07",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4feuchtevar",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Die rechnerische Prüfung der Tauwasserfreiheit erfolgt nach der einschlägigen Berechnungsnorm für den Feuchteschutz und muss die tatsächlichen sd-Wert-Zustände der Bahn berücksichtigen, nicht nur einen Einzelwert.",
+    "problem": "Die Norm ist zu benennen und ihr Stand hat sich geändert: DIN 4108-3 in der Ausgabe 2024-03 verlangt für feuchtevariable Bahnen faktisch die höhere Nachweisstufe, weil das Periodenbilanzverfahren einen feuchteabhängigen sd-Wert nicht abbildet.",
+    "ersatz": "Die rechnerische Prüfung der Tauwasserfreiheit erfolgt in Deutschland nach DIN 4108-3 und muss die tatsächlichen sd-Wert-Zustände der Bahn berücksichtigen, nicht nur einen Einzelwert; weil ein feuchteabhängiger sd-Wert im Periodenbilanzverfahren nicht abbildbar ist, führt der Nachweis bei diesen Bahnen regelmäßig zur hygrothermischen Simulation."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Die Verlegung folgt denselben Regeln für Überlappung und Verklebung wie bei fester Dampfbremse, eine gesonderte Verarbeitungsrichtlinie für den Stoß gibt es nicht.",
+    "problem": "Die Behauptung, es gebe keine gesonderte Verarbeitungsrichtlinie, ist nicht belegbar und in der Sache irreführend, weil jedes Bahnensystem eine eigene Richtlinie mit eigenen Klebemitteln und Überlappungsmaßen hat.",
+    "ersatz": "Die Verlegung folgt denselben Regeln für Überlappung und Verklebung wie bei fester Dampfbremse; maßgeblich bleibt in beiden Fällen die Verarbeitungsrichtlinie des jeweiligen Bahnensystems, weil Klebemittel und Mindestüberlappung produktabhängig sind."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-3",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-3/373925063",
+    "stand": "Ausgabe 2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 15026",
+    "u": "https://www.dinmedia.de/de/norm/din-en-15026/369808466",
+    "stand": "Ausgabe 2023-12, ersetzt DIN EN 15026:2007-07",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4dampfsperre",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Kostenlogik: Eine Dampfsperre kostet in der Regel nicht mehr als eine Dampfbremse, das eigentliche Kostenrisiko liegt in der Sanierung eines eingeschlossenen Feuchteschadens, die ein Vielfaches der Materialkosten erreichen kann.",
+    "problem": "Die Preisaussage ist nicht belegt und in der Tendenz falsch, weil metall- oder bitumenkaschierte Dampfsperren je Quadratmeter über einfachen Dampfbremsen liegen.",
+    "ersatz": "Kostenlogik: Der Preisunterschied zwischen Dampfsperre und Dampfbremse fällt gegenüber dem eigentlichen Risiko kaum ins Gewicht, denn die Sanierung eines eingeschlossenen Feuchteschadens erreicht ein Vielfaches der Materialkosten beider Varianten."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Beim Umkehrdach entfällt die Dampfsperre auf der warmen Seite, weil die Dämmung dort oberhalb der Abdichtung liegt und anders funktioniert als beim klassischen Warmdach.",
+    "problem": "Der eigentliche Grund fehlt: Beim Umkehrdach übernimmt die unter der Dämmung liegende Abdichtung selbst die Funktion der Dampfsperre, deshalb ist keine zweite Lage nötig.",
+    "ersatz": "Beim Umkehrdach entfällt eine gesonderte Dampfsperre auf der warmen Seite, weil die Dämmung dort oberhalb der Abdichtung liegt und die Abdichtung selbst die Aufgabe der Dampfsperre übernimmt."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Ob ein Flachdachaufbau eine Dampfsperre oder eine Dampfbremse braucht, weist die rechnerische Prüfung der Tauwasserfreiheit nach der einschlägigen Berechnungsnorm für den Feuchteschutz nach, unter Ansatz der tatsächlichen Schichtdicken und sd-Werte aller beteiligten Lagen.",
+    "problem": "Die Norm gehört benannt: DIN 4108-3 in der Ausgabe 2024-03; für unbelüftete Holzkonstruktionen führt sie den Nachweis regelmäßig in die hygrothermische Simulation, das Periodenbilanzverfahren reicht dort nicht.",
+    "ersatz": "Ob ein Flachdachaufbau eine Dampfsperre oder eine Dampfbremse braucht, weist in Deutschland die Prüfung nach DIN 4108-3 nach, unter Ansatz der tatsächlichen Schichtdicken und sd-Werte aller beteiligten Lagen; bei unbelüfteten Holzkonstruktionen reicht dafür das Periodenbilanzverfahren in der Regel nicht aus und der Nachweis führt zur hygrothermischen Simulation."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-3",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-3/373925063",
+    "stand": "Ausgabe 2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 15026",
+    "u": "https://www.dinmedia.de/de/norm/din-en-15026/369808466",
+    "stand": "Ausgabe 2023-12, ersetzt DIN EN 15026:2007-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 13970",
+    "u": "https://www.dinmedia.de/de/norm/din-en-13970/73422355",
+    "stand": "Ausgabe 2005-02, geaendert durch A1:2007-02",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4n50",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "dach",
+    "zitat": "Je nach Land ist ein anderer der beiden Werte der maßgebliche Nachweiswert, siehe DACH-Kasten.",
+    "problem": "In Deutschland hängt die Bezugsgröße nicht nur vom Land ab, sondern zusätzlich von der Gebäudegröße: Bis 1500 Kubikmeter Luftvolumen gilt der volumenbezogene, darüber der hüllflächenbezogene Wert.",
+    "ersatz": "Welcher der beiden Werte maßgeblich ist, hängt vom Land und in Deutschland zusätzlich von der Gebäudegröße ab, siehe DACH-Kasten."
+   },
+   {
+    "feld": "t2",
+    "art": "dach",
+    "zitat": "Für die Bewertung des Messergebnisses stehen n50 und q50 als Bezugsgröße zur Wahl, wobei die Wahl nicht dem Planer freisteht, sondern vom geforderten Nachweisverfahren im jeweiligen Land vorgegeben ist, siehe DACH-Kasten.",
+    "problem": "Unvollständig: In Deutschland gibt nicht das Nachweisverfahren, sondern das beheizte oder gekühlte Luftvolumen des Gebäudes die Bezugsgröße vor.",
+    "ersatz": "Für die Bewertung des Messergebnisses stehen n50 und q50 als Bezugsgröße zur Wahl, wobei die Wahl nicht dem Planer freisteht, sondern vom Regelwerk des jeweiligen Landes und in Deutschland zusätzlich vom beheizten oder gekühlten Luftvolumen des Gebäudes vorgegeben ist, siehe DACH-Kasten."
+   },
+   {
+    "feld": "t3",
+    "art": "dach",
+    "zitat": "Der Grenzwert für n50 beziehungsweise q50 hängt vom Lüftungskonzept des Gebäudes ab und wird durch das jeweils geltende Regelwerk festgelegt, nicht durch eine feste, länderübergreifende Zahl; die konkreten Werte je Land stehen im DACH-Kasten.",
+    "problem": "Das Lüftungskonzept ist nicht das einzige Kriterium; in Deutschland kommt das Luftvolumen als zweites Kriterium hinzu.",
+    "ersatz": "Der Grenzwert hängt vom Lüftungskonzept und in Deutschland zusätzlich vom beheizten oder gekühlten Luftvolumen ab und wird durch das jeweils geltende Regelwerk festgelegt, nicht durch eine feste, länderübergreifende Zahl; die konkreten Werte je Land stehen im DACH-Kasten."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Messung selbst erfolgt bei Unter- und Überdruck in mehreren Druckstufen um 50 Pascal, aus denen der Kennwert über eine Regressionsrechnung ermittelt wird, wie es die einschlägige Prüfnorm für die Gebäudedichtheitsmessung vorschreibt.",
+    "problem": "Gemessen wird nicht in Stufen um 50 Pascal, sondern über einen Druckbereich, der von etwa zehn Pascal bis über fünfzig Pascal reicht; der Wert bei genau 50 Pascal wird aus der Regressionsgeraden abgelesen. Zudem fehlt, dass der Höchstwert in Deutschland bei Über- und Unterdruck getrennt einzuhalten ist.",
+    "ersatz": "Gemessen wird bei Unter- und Überdruck über eine Reihe von Druckstufen, die von etwa zehn Pascal bis über fünfzig Pascal reicht, und aus der Regression über alle Stufen wird der Volumenstrom bei genau fünfzig Pascal abgelesen; in Deutschland gilt dafür der nationale Anhang NA der DIN EN ISO 9972 in der Ausgabe 2018-12, und der Höchstwert ist bei Überdruck und bei Unterdruck getrennt einzuhalten."
+   },
+   {
+    "feld": "dach.de",
+    "art": "fehler",
+    "zitat": "Das GEG nennt für den Nachweis der Luftdichtheit den Kennwert n50, die stündliche Luftwechselrate bei 50 Pascal Druckdifferenz bezogen auf das beheizte Gebäudevolumen, mit unterschiedlichen Grenzwerten für Gebäude mit und ohne raumlufttechnische Anlage.",
+    "problem": "Falsch in drei Punkten: Das Gesetz heißt seit dem 29. Juli 2026 amtlich Gebäudemodernisierungsgesetz, es verwendet die Formelzeichen n50 und q50 überhaupt nicht, und es kennt neben dem volumenbezogenen auch einen hüllflächenbezogenen Grenzwert für Gebäude über 1500 Kubikmeter Luftvolumen. Die Fundstelle ist Paragraph 26 Absatz 2 und 3.",
+    "ersatz": "Das deutsche Gebäudeenergiegesetz, seit der Änderung vom 23. Juli 2026 amtlich Gebäudemodernisierungsgesetz, regelt die Grenzwerte in Paragraph 26 und ohne die Formelzeichen n50 und q50: Bis 1500 Kubikmeter beheiztem oder gekühltem Luftvolumen darf der bei 50 Pascal gemessene Volumenstrom höchstens das Dreifache des Luftvolumens betragen, mit raumlufttechnischer Anlage das Eineinhalbfache; über 1500 Kubikmeter höchstens das Viereinhalbfache der Hüllfläche in Quadratmetern, mit raumlufttechnischer Anlage das Zweieinhalbfache."
+   },
+   {
+    "feld": "dach.at",
+    "art": "dach",
+    "zitat": "Die OIB-Richtlinie 6 fordert den n50-Nachweis mit eigenen, von Deutschland abweichenden Grenzwerten je nach Lüftungskonzept und Gebäudekategorie.",
+    "problem": "Falsch: Punkt 4.8 der OIB-Richtlinie 6 in der Ausgabe September 2025 nennt genau dieselben Zahlen wie Deutschland, nämlich 3,00 pro Stunde ohne und 1,50 pro Stunde mit mechanischer Lüftungsanlage. Hier wird ein Unterschied behauptet, wo keiner besteht. Der echte Unterschied liegt woanders: Gemessen wird nach Verfahren 1 der ÖNORM B 9972, und der Wert ist je Haus beziehungsweise je Wohneinheit einzuhalten, ein Mitteln über mehrere Wohnungen ist ausdrücklich unzulässig.",
+    "ersatz": "Die OIB-Richtlinie 6 in der Ausgabe September 2025 fordert in Punkt 4.8 ebenfalls n50 und nennt dieselben Zahlen wie Deutschland, höchstens 3,00 pro Stunde und mit mechanisch betriebener Lüftungsanlage höchstens 1,50 pro Stunde; der Unterschied liegt in der Anwendung, denn gemessen wird nach Verfahren 1 der ÖNORM B 9972 und der Wert ist je Haus beziehungsweise je Wohneinheit einzuhalten, ein Mitteln über mehrere Wohnungen ist unzulässig."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "dach",
+    "zitat": "Die SIA 180 bezieht den Kennwert stattdessen auf die Gebäudehüllfläche als spezifischen Leckagestrom q50, nicht auf das beheizte Volumen wie n50.",
+    "problem": "Das Formelzeichen q50 ist für SIA 180 nicht belegbar; die Norm arbeitet in Ziffer 3.6 mit einem Leckagekoeffizienten der Hüllfläche. Belegt ist außerdem, dass die Ausgabe 2014 den Bezugsdruck von 4 auf 50 Pascal umgestellt hat, was für einen Vergleich mit Altbeständen wichtiger ist als der Buchstabe.",
+    "ersatz": "Die SIA 180 in der Ausgabe 2014 hat den Bezugsdruck für die Luftdichtheit von 4 auf 50 Pascal umgestellt und bewertet sie in Ziffer 3.6 über einen Leckagekoeffizienten der Hüllfläche statt über eine auf das beheizte Volumen bezogene Luftwechselrate."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "GModG Paragraph 26, Pruefung der Dichtheit eines Gebaeudes",
+    "u": "https://www.gesetze-im-internet.de/geg/__26.html",
+    "stand": "Fassung vom 08.08.2020, zuletzt geaendert durch Gesetz vom 23.07.2026, abgerufen 21.08.2026",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "GModG (bisher GEG), Gebaeudemodernisierungsgesetz",
+    "u": "https://www.gesetze-im-internet.de/geg/BJNR172810020.html",
+    "stand": "Fassung vom 08.08.2020, zuletzt geaendert durch Gesetz vom 23.07.2026 (BGBl. 2026 I Nr. 226), Kurzbezeichnung GModG mit Wirkung vom 29.07.2026",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 9972",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-9972/296830636",
+    "stand": "Ausgabe 2018-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB-Richtlinie 6, Energieeinsparung und Waermeschutz, OIB-330.6-138/25",
+    "u": "https://www.oib.or.at/wp-content/uploads/oib-rl_6_september_2025.pdf",
+    "stand": "Ausgabe September 2025, Generalversammlungsbeschluss 29.08.2025, loest die Ausgaben Mai 2023 und April 2019 ab",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB, Zitierte Normen und sonstige technische Regelwerke, OIB-330-014/25",
+    "u": "https://www.oib.or.at/wp-content/uploads/oib-rl_zitierte-normen-und-sonstige-technische-regelwerke_ausgabe_september_2025.pdf",
+    "stand": "Ausgabe September 2025",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 180, Waermeschutz, Feuchteschutz und Raumklima in Gebaeuden, SN 520180",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20180/d/2014/D/Product",
+    "stand": "Ausgabe 2014, gueltig ab 01.07.2014, mit Korrigenda C1 vom 01.03.2015 und C2 vom 01.10.2020",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Redaktionell wichtig über diesen Knoten hinaus: Die Kurzbezeichnung GEG ist seit dem 29.08.2026 nicht mehr amtlich, das Gesetz heisst Gebaeudemodernisierungsgesetz, GModG. Jeder Knoten der Plattform, der GEG als Gesetzesnamen fuehrt, ist zu pruefen."
+ },
+ {
+  "id": "kab4messzeit",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Zwischenmessung setzt voraus, dass alle Öffnungen wie Lüftungsdurchlässe und noch nicht eingebaute Türen provisorisch abgedichtet sind, damit das Messergebnis nicht durch bekannte, geplante Öffnungen verfälscht wird; welche Öffnungen provisorisch zu schließen sind, regelt die einschlägige Prüfnorm für die Gebäudedichtheitsmessung.",
+    "problem": "Die Prüfnorm kennt mehrere Verfahren mit unterschiedlichem Umgang mit Öffnungen; welches gilt, ist keine freie Entscheidung, sondern folgt aus dem Zweck der Messung, und für den Nachweis in Deutschland aus dem nationalen Anhang NA der DIN EN ISO 9972.",
+    "ersatz": "Die Zwischenmessung setzt voraus, dass alle Öffnungen wie Lüftungsdurchlässe und noch nicht eingebaute Türen provisorisch abgedichtet sind, damit das Messergebnis nicht durch bekannte, geplante Öffnungen verfälscht wird; wie mit diesen Öffnungen umzugehen ist, hängt vom gewählten Verfahren nach DIN EN ISO 9972 ab, und für den Nachweis in Deutschland gilt der nationale Anhang NA dieser Norm."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 9972",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-9972/296830636",
+    "stand": "Ausgabe 2018-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "GModG Paragraph 26, Pruefung der Dichtheit eines Gebaeudes",
+    "u": "https://www.gesetze-im-internet.de/geg/__26.html",
+    "stand": "Fassung vom 08.08.2020, zuletzt geaendert durch Gesetz vom 23.07.2026, abgerufen 21.08.2026",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4leckagen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Wärmebildaufnahmen sind nur bei ausreichender Temperaturdifferenz zwischen innen und außen aussagekräftig; welche Differenz dafür nötig ist, ergibt sich aus der Kamera- und Prüfnormpraxis, nicht aus einem festen Pauschalwert.",
+    "problem": "Für das Infrarot-Verfahren am Gebäude gibt es eine eigene Norm mit Randbedingungen, DIN EN ISO 6781-1 in der Ausgabe 2023-11, die die alte DIN EN 13187 ersetzt; der Verweis auf eine unbestimmte Kamerapraxis ist unnötig unscharf.",
+    "ersatz": "Wärmebildaufnahmen sind nur bei ausreichender Temperaturdifferenz zwischen innen und außen aussagekräftig; die Randbedingungen dafür regelt die Norm für das Infrarot-Verfahren am Gebäude, DIN EN ISO 6781-1, nicht ein pauschaler Erfahrungswert."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 6781-1",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-6781-1/372148116",
+    "stand": "Ausgabe 2023-11, ersetzt DIN EN 13187:1999-05",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 9972",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-9972/296830636",
+    "stand": "Ausgabe 2018-12",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4balkon",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Drei Wege trennen die Platte thermisch: ein werkseitig vorgefertigtes Element mit Druck und Zugstäben aus tragfähigem, wärmedämmendem Aufbau in der Fuge, eine vollständig vom Baukörper gelöste Balkonkonstruktion auf eigenen Stützen, oder der Verzicht auf Trennung zugunsten einer massiven Vorsatzdämmung, die die Wärmebrücke nur mindert statt beseitigt.",
+    "problem": "Ein tragendes Trennelement führt Zug- und Querkraft über Stäbe, Druck dagegen über eingelegte Drucklager; Drucklager sind keine Stäbe, und die Dämmfuge selbst ist nicht tragfähig.",
+    "ersatz": "Drei Wege trennen die Platte thermisch: ein werkseitig vorgefertigtes Element, das Zug und Querkraft über Bewehrungsstäbe und Druck über eingelegte Drucklager durch eine Dämmfuge führt, eine vollständig vom Baukörper gelöste Balkonkonstruktion auf eigenen Stützen, oder der Verzicht auf Trennung zugunsten einer massiven Vorsatzdämmung, die die Wärmebrücke nur mindert statt beseitigt."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Am seitlichen Rand und im Bereich der Attika kommt zur linearen Wärmebrücke der Platte eine punktbezogene Wärmebrücke am Auflager hinzu, die gesondert als Chi-Wert nach DIN EN ISO 10211 zu erfassen ist.",
+    "problem": "Eine Attika gibt es an der Balkonplatte nicht, das ist ein Bauteil des Dachrands. Zudem sind die Enden einer linearen Wärmebrücke Schnittpunkte linienförmiger Anschlüsse und laufen in deren Psi-Werten mit; punktbezogene Chi-Werte gelten für Bauteile, die die Dämmebene einzeln durchstoßen.",
+    "ersatz": "Punktbezogene Wärmebrücken entstehen an der Balkonplatte dort, wo einzelne Bauteile die Dämmebene durchstoßen, etwa die Befestigung einer Absturzsicherung oder ein Einzelauflager, und sind dann als Chi-Wert nach DIN EN ISO 10211 zu erfassen; die Enden der Platte selbst laufen im längenbezogenen Psi-Wert des Anschlusses mit."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Zur Zulassungsfrage aus der Prueflliste: In Deutschland laufen tragende thermische Trennelemente ueber eine Europaeische Technische Bewertung mit CE-Kennzeichnung und zusaetzlich eine Bauartgenehmigung; der Begriff allgemeine bauaufsichtliche Zulassung ist nach der Umstellung auf Bauartgenehmigungen ueberholt. Auf den zulaessigen Portalen nicht verifizierbar, weil das DIBt nicht dazugehoert, deshalb keine Textaenderung."
+ },
+ {
+  "id": "kab4stuetze",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Für den Deckenrand selbst entscheidet die gewählte Fassadenkonstruktion: Bei der vorgehängten hinterlüfteten Fassade lässt sich die Dämmebene über eine durchlaufende Unterkonstruktion vor den Deckenrand ziehen, beim Wärmedämmverbundsystem braucht der Deckenrand meist einen Dämmkeil, weil die Putzträgerplatte allein die Kante nicht ausreichend übergreift.",
+    "problem": "Beim Wärmedämmverbundsystem läuft die Dämmung ohnehin durchgehend über die Deckenstirn hinweg, ein Dämmkeil ist dort nicht üblich; kritisch wird der Deckenrand bei monolithischem Mauerwerk ohne zusätzliche Dämmschicht. Und bei der vorgehängten Fassade ist nicht die Unterkonstruktion die Lösung, sondern die thermische Trennung ihrer Konsolen das Problem.",
+    "ersatz": "Für den Deckenrand selbst entscheidet die gewählte Fassadenkonstruktion: Beim Wärmedämmverbundsystem läuft die Dämmung ohnehin durchgehend über die Deckenstirn hinweg, bei der vorgehängten hinterlüfteten Fassade ebenfalls, dort durchstoßen aber die Konsolen der Unterkonstruktion die Dämmebene punktuell und sollten thermisch getrennt ausgeführt werden; im monolithischen Mauerwerk ohne zusätzliche Dämmschicht bleibt nur, die Deckenstirn mit einer schmalen Dämmschale oder einem Randdämmelement zu überdecken."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Bei Sichtbeton-Stützen vor der Fassade ist die Oberflächentemperatur an der Innenseite zusätzlich auf Tauwasserfreiheit zu prüfen, weil der große Bauteilquerschnitt die Auskühlung verstärkt.",
+    "problem": "Maßgeblich ist nicht die Tauwasserfreiheit, sondern der strengere Schimmelnachweis über den Temperaturfaktor fRsi: Bei 20 Grad und 50 Prozent Raumluftfeuchte liegt die Taupunkttemperatur bei 9,3 Grad, die schimmelkritische Oberflächentemperatur dagegen bereits bei 12,6 Grad.",
+    "ersatz": "Bei Sichtbetonstützen vor der Fassade ist die raumseitige Oberflächentemperatur zusätzlich über den Temperaturfaktor fRsi nachzuweisen, weil der große Bauteilquerschnitt die Auskühlung verstärkt und das Schimmelkriterium schon deutlich vor dem Taupunkt greift."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108-2 (im Gesetz datiert zitierte Ausgabe)",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-2/167922321",
+    "stand": "Ausgabe 2013-02, zurueckgezogen, aber in Paragraph 11 GModG datiert in Bezug genommen",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4wbfenster",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Regelfall im Neubau mit durchgehender Fassadendämmung ist deshalb die Montage in oder vor der Dämmebene, in der Wandebene bleibt die Ausnahme für ungedämmte oder denkmalgeschützte Wandaufbauten.",
+    "problem": "Regelfall im normalen Neubau ist die Montage in der Wandebene mit überdämmtem Blendrahmen und überdämmter Laibung; die vollständig in die Dämmebene versetzte oder vorgesetzte Montage bleibt hohen Effizienzstandards und großen Dämmstärken vorbehalten.",
+    "ersatz": "Regelfall im Neubau mit durchgehender Fassadendämmung ist die Montage in der Wandebene mit überdämmtem Blendrahmen und überdämmter Laibung, weil sie Lastabtrag und Abdichtung am einfachsten löst; die in die Dämmebene versetzte oder ganz vorgesetzte Montage bleibt hohen Effizienzstandards und großen Dämmstärken vorbehalten."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Der umlaufende Fensteranschluss wird im Wärmebrückennachweis als eigener längenbezogener Psi-Wert erfasst, getrennt vom Psi-Wert des Glasrandverbunds am Scheibenübergang, weil beide an unterschiedlichen Stellen wirken und sich addieren.",
+    "problem": "Falsch: Der Psi-Wert des Glasrandverbunds steckt bereits im Wärmedurchgangskoeffizienten des Fensters nach DIN EN ISO 10077-1 und darf in der Wärmebrückenbilanz des Gebäudes nicht ein zweites Mal angesetzt werden. Addiert wird dort allein der Einbau-Psi-Wert.",
+    "ersatz": "Der umlaufende Fensteranschluss wird im Wärmebrückennachweis als eigener längenbezogener Einbauwert erfasst und zur Gebäudebilanz addiert, während der Psi-Wert des Glasrandverbunds bereits im Wärmedurchgangskoeffizienten des Fensters nach DIN EN ISO 10077-1 enthalten ist und dort kein zweites Mal angesetzt werden darf."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "An den vier Ecken der Öffnung entsteht zusätzlich ein punktbezogener Anteil, der als Chi-Wert nach DIN EN ISO 10211 zu erfassen ist; ob er im gewählten Nachweisverfahren gesondert oder zusammen mit dem linearen Wert der Kante geführt wird, legt das Verfahren selbst fest.",
+    "problem": "Die Öffnungsecken sind Schnittpunkte linearer Wärmebrücken und werden im Nachweis nicht als eigener Chi-Wert geführt; punktbezogene Werte werden für Bauteile angesetzt, die die Dämmebene einzeln durchstoßen, etwa die Konsolen einer vorgesetzten Montage.",
+    "ersatz": "Die vier Ecken der Öffnung sind Schnittpunkte linearer Wärmebrücken und laufen in den Psi-Werten von Sturz, Laibung und Brüstung mit; ein punktbezogener Chi-Wert nach DIN EN ISO 10211 wird erst dort angesetzt, wo einzelne Bauteile die Dämmebene durchstoßen, etwa die Konsolen einer vorgesetzten Montage."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10077-1",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10077-1/325821586",
+    "stand": "Ausgabe 2020-10",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Leitfaden zur Montage von Fenstern und Haustueren",
+    "u": "https://shop.ift-rosenheim.de/leitfaden-zur-montage-von-fenstern-und-haustueren-2024-03-montageleitfaden",
+    "stand": "Ausgabe 2024-03",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4wbsockel",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "unbelegt",
+    "zitat": "Am Übergang von der gedämmten Außenwand zur erdberührten Kelleraußenwand oder zur Bodenplatte trifft eine ungestörte Wanddämmung auf eine Perimeterdämmung, die anderen Anforderungen genügen muss und deshalb oft dünner ausfällt.",
+    "problem": "Perimeterdämmung muss druckfest und praktisch nicht wasseraufnehmend sein, sie fällt deshalb nicht systematisch dünner aus; der Sprung in der Dämmstärke ist eine Planungsentscheidung, keine Materialeigenschaft.",
+    "ersatz": "Am Übergang von der gedämmten Außenwand zur erdberührten Kelleraußenwand oder zur Bodenplatte trifft die Wanddämmung auf eine Perimeterdämmung, die zusätzlich druckfest und praktisch nicht wasseraufnehmend sein muss und deshalb aus anderen Dämmstoffen und oft in anderer Dämmstärke ausgeführt wird."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Am Wandfußpunkt wird die Wärmebrücke im differenzierten Nachweis als längenbezogener Psi-Wert nach DIN EN ISO 10211 berechnet, an einzelnen Durchdringungen wie Kellerlichtschächten oder Hauseingangspodesten dagegen als punktbezogener Chi-Wert nach derselben Norm.",
+    "problem": "Für erdberührte Bauteile reicht DIN EN ISO 10211 allein nicht, weil das Erdreich als Rechengebiet mit erfasst werden muss; die Randbedingungen dafür regelt DIN EN ISO 13370.",
+    "ersatz": "Am Wandfußpunkt wird die Wärmebrücke im differenzierten Nachweis als längenbezogener Psi-Wert nach DIN EN ISO 10211 berechnet, an einzelnen Durchdringungen wie Kellerlichtschächten oder Hauseingangspodesten dagegen als punktbezogener Chi-Wert nach derselben Norm; weil das Detail erdberührt ist, sind zusätzlich die Randbedingungen für den Wärmestrom über das Erdreich nach DIN EN ISO 13370 anzusetzen."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 13370",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-13370/259116218",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4ecke",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Bei WDVS und Putzfassaden lässt sich die Eckwirkung meist mit einer über die übliche Stärke hinaus verbreiterten Dämmplatte im Eckbereich ausgleichen, ohne die Konstruktion zu ändern.",
+    "problem": "Eine örtliche Aufdickung nur im Eckbereich ist im WDVS nicht üblich und erzeugt einen sichtbaren Absatz in der Fassade; die geometrische Eckwirkung wird über die insgesamt gewählte Dämmstärke beherrscht.",
+    "ersatz": "Bei WDVS und Putzfassaden wird die Eckwirkung nicht örtlich ausgeglichen, sondern über die insgesamt gewählte Dämmstärke beherrscht, denn eine Aufdickung allein im Eckbereich erzeugt einen sichtbaren Absatz in der Fassade und ist unüblich."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Bei vorgehängten hinterlüfteten Fassaden ist der Eckbereich der Unterkonstruktion kritischer, weil dort zusätzliche Halter oder Eckprofile die Dämmebene lokal schwächen, sodass ein eigens gedämmtes Eckelement notwendig wird.",
+    "problem": "Eckprofile der vorgehängten Fassade tragen die Bekleidung und liegen außerhalb der Dämmebene; die eigentliche Schwächung sind die durchstoßenden Konsolen, und die Gegenmaßnahme ist ihre thermische Trennung, nicht ein gedämmtes Eckelement.",
+    "ersatz": "Bei vorgehängten hinterlüfteten Fassaden ist der Eckbereich kritischer, weil sich dort die Konsolen der Unterkonstruktion häufen und die Dämmebene punktuell durchstoßen; die Gegenmaßnahme ist die thermisch getrennte Konsole, nicht ein gedämmtes Eckprofil."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Regelfall bei mehrschichtigen Außenwänden ist die lokale Aufdickung im WDVS beziehungsweise das gedämmte Eckprofil in der VHF, weil beide ohne Systemwechsel auskommen.",
+    "problem": "Folgefehler der beiden vorangegangenen Sätze: Es gibt keinen Regelfall der lokalen Aufdickung, die Geometrie der Ecke selbst lässt sich nicht wegplanen.",
+    "ersatz": "Regelfall bei mehrschichtigen Außenwänden ist die durchgehende Dämmstärke mit sauber verzahnter, fugenfreier Eckausbildung, weil sich die Geometrie der Ecke selbst nicht verändern lässt und die Dämmstärke die einzige wirksame Stellschraube bleibt."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Häufigster Fehler ist, die Eckdämmung im Ausführungsdetail auf die Regeldicke der Wand zu reduzieren, weil das Zuschneiden der Platten an der Ecke sonst Verschnitt spart.",
+    "problem": "Setzt die widerlegte Prämisse einer aufgedickten Eckdämmung fort; der tatsächlich häufige Ausführungsfehler an der Ecke ist die durchgehende Stoßfuge statt einer Verzahnung der Platten.",
+    "ersatz": "Häufigster Fehler ist, die Dämmplatten an der Ecke auf Stoß zu setzen statt sie zu verzahnen, wodurch eine durchgehende Fuge über die volle Geschosshöhe entsteht und die ohnehin kälteste Kante zusätzlich geschwächt wird."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Kostenlogik: Die zusätzliche Dämmstärke an der Ecke kostet nur im schmalen Eckstreifen mehr, während eine unterdimensionierte Ecke im Betrieb dauerhaft als Kältezone und Schimmelrisiko sichtbar bleibt.",
+    "problem": "Folgefehler derselben Prämisse; die Kosten entstehen nicht durch Dämmstärke im Eckstreifen, sondern durch Verlegezeit.",
+    "ersatz": "Kostenlogik: Eine sorgfältig verzahnte, fugenfreie Eckausbildung kostet nur Verlegezeit, während eine geschwächte Ecke im Betrieb dauerhaft als Kältezone und Schimmelrisiko sichtbar bleibt und sich nur durch Öffnen der Fassade korrigieren lässt."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Bei gedämmten Eckelementen in der VHF ist die Systemzulassung des Elements maßgeblich für den anzusetzenden Psi-Wert, ein eigener rechnerischer Nachweis ist nur bei Sonderkonstruktionen ohne Zulassung nötig.",
+    "problem": "Gedämmte Eckelemente gibt es in der vorgehängten Fassade nicht; maßgeblich sind die Konsolen der Unterkonstruktion, und deren Kennwert ist punktbezogen, also ein Chi-Wert.",
+    "ersatz": "Für die Konsolen der vorgehängten hinterlüfteten Fassade liefert die Systemzulassung den anzusetzenden punktbezogenen Chi-Wert, ein eigener rechnerischer Nachweis ist nur bei Sonderkonstruktionen ohne Zulassung nötig."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2",
+    "u": "https://www.dinmedia.de/de/technische-regel/din-4108-beiblatt-2/305990077",
+    "stand": "Ausgabe 2019-06",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4attika",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Die Attika addiert zur reinen Eckgeometrie noch die Durchdringung der Dachabdichtung und meist eine Befestigung für Geländer oder Attikaabdeckung, deshalb zählt sie zu den auskühlungsintensivsten Stellen der Gebäudehülle.",
+    "problem": "Die Dachabdichtung wird an der Attika hochgeführt und angeschlossen, nicht durchdrungen; durchdrungen wird die Dämmebene durch die Befestigung von Abdeckung und Absturzsicherung.",
+    "ersatz": "Die Attika addiert zur reinen Eckgeometrie noch den Hochzug und Abschluss der Dachabdichtung und meist eine Befestigung für Geländer oder Attikaabdeckung, die die Dämmebene punktuell durchstößt, deshalb zählt sie zu den auskühlungsintensivsten Stellen der Gebäudehülle."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Kostenlogik: Die durchgezogene Dämmung über der Attika kostet im Material kaum mehr als der Abbruch an der Wandoberkante, die sichtbare Sichtbetonscheibe kostet über die höhere Restwärmebrücke im Betrieb und meist über einen zusätzlichen Wärmebrückennachweis.",
+    "problem": "Abbruch an der Wandoberkante ist im Bauwesen der Rückbau; gemeint ist, die Dämmung dort enden zu lassen. Der Satz ist so nicht lesbar.",
+    "ersatz": "Kostenlogik: Die über die Attikakrone gezogene Dämmung kostet im Material kaum mehr, als die Dämmung an der Wandoberkante enden zu lassen, während die sichtbare Sichtbetonscheibe über die höhere Restwärmebrücke im Betrieb und meist über einen zusätzlichen Wärmebrückennachweis zu Buche schlägt."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4nachweis",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "dach.de",
+    "art": "fehler",
+    "zitat": "Das Gebäudeenergiegesetz akzeptiert einen pauschalen Zuschlag ohne Einzelnachweis, einen reduzierten Zuschlag bei Gleichwertigkeit zu den Konstruktionsbeispielen der DIN 4108 Beiblatt 2, oder den detaillierten Nachweis nach DIN EN ISO 10211.",
+    "problem": "Das Gesetz heißt seit dem 29. Juli 2026 amtlich Gebäudemodernisierungsgesetz. Paragraph 24 verweist für die Vorgehensweise auf DIN V 18599-2 und für die Gleichwertigkeit auf DIN 4108 Beiblatt 2 in der Ausgabe 2019-06 mit den Kategorien A und B; DIN EN ISO 10211 wird im Gesetzestext überhaupt nicht zitiert.",
+    "ersatz": "Das deutsche Gebäudeenergiegesetz, seit dem 29. Juli 2026 amtlich Gebäudemodernisierungsgesetz, verlangt in Paragraph 24, den verbleibenden Einfluss der Wärmebrücken nach DIN V 18599-2 zu berücksichtigen, und lässt bei nachgewiesener Gleichwertigkeit zu den Planungsbeispielen der DIN 4108 Beiblatt 2 in der Ausgabe 2019-06 den reduzierten pauschalen Zuschlag nach Kategorie A oder Kategorie B zu; die detaillierte Berechnung einzelner Anschlüsse nennt das Gesetz selbst nicht, sie läuft über DIN EN ISO 10211."
+   },
+   {
+    "feld": "dach.de",
+    "art": "stand",
+    "zitat": "Das deutsche Gebäudeenergiegesetz, seit dem 29. Juli 2026 amtlich Gebäudemodernisierungsgesetz",
+    "problem": "Die konkreten pauschalen Zuschlagswerte für den Wärmebrückenzuschlag stehen nur in DIN 4108 Beiblatt 2:2019-06 und DIN V 18599-2:2018-09 und sind auf keinem zulässigen Portal frei belegbar. Der Text nennt sie richtigerweise nicht; falls sie später ergänzt werden sollen, braucht es die gekauften Normen.",
+    "ersatz": ""
+   },
+   {
+    "feld": "dach.at",
+    "art": "stand",
+    "zitat": "Der Wärmebrückenzuschlag geht als eigener Faktor in die Berechnung des Heizwärmebedarfs nach ÖNORM B 8110-6 ein; ein eigenständiger Gleichwertigkeitsnachweis wie in Deutschland ist darin nicht vorgesehen, stattdessen wird pauschal oder mit im Detail nachgewiesenen Werten gerechnet.",
+    "problem": "Die Norm heißt seit der Aufteilung der Reihe ÖNORM B 8110-6-1 und liegt in der Ausgabe 2025-10-15 vor; ÖNORM B 8110-6 ohne Zusatz gibt es nicht mehr. Inhaltlich stimmt die Aussage: Die Norm kennt die detaillierte Berechnung der Leitwertzuschläge für zwei- und dreidimensionale Wärmebrücken und daneben eine vereinfachte Berücksichtigung, aber keinen Gleichwertigkeitsnachweis. Wichtig auch: Die OIB-Richtlinie 6 selbst regelt Wärmebrücken nicht, der Begriff kommt dort nicht vor.",
+    "ersatz": "In Österreich geht der Wärmebrückenzuschlag als Leitwertzuschlag in die Berechnung des Heizwärmebedarfs nach ÖNORM B 8110-6-1 ein, entweder detailliert über die Zuschläge für zweidimensionale und dreidimensionale Wärmebrücken oder über die vereinfachte Berücksichtigung; einen eigenständigen Gleichwertigkeitsnachweis wie in Deutschland kennt die Norm nicht, und die OIB-Richtlinie 6 selbst regelt Wärmebrücken gar nicht."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "fehler",
+    "zitat": "Der Wärmebrückenverlust fließt als Zuschlag in den Nachweis des Heizwärmebedarfs nach SIA 380/1 ein, der Planer kann ihn pauschal ansetzen oder durch Einzelnachweis der Anschlüsse reduzieren.",
+    "problem": "Falsch: SIA 380/1 in der Ausgabe 2016 verlangt die konsequente Berücksichtigung jeder Wärmebrücke, einen pauschalen Zuschlag anstelle des Einzelnachweises sieht die Norm nicht vor. Der Satz überträgt die deutsche Wahlfreiheit auf die Schweiz.",
+    "ersatz": "In der Schweiz verlangt SIA 380/1 in der Ausgabe 2016 die konsequente Erfassung jeder einzelnen Wärmebrücke im Nachweis des Heizwärmebedarfs, mit Psi-Werten für linienförmige und Chi-Werten für punktförmige Anschlüsse; einen pauschalen Zuschlag anstelle des Einzelnachweises kennt die Norm nicht."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "GModG (bisher GEG), Gebaeudemodernisierungsgesetz",
+    "u": "https://www.gesetze-im-internet.de/geg/BJNR172810020.html",
+    "stand": "Fassung vom 08.08.2020, zuletzt geaendert durch Gesetz vom 23.07.2026 (BGBl. 2026 I Nr. 226), Kurzbezeichnung GModG mit Wirkung vom 29.07.2026",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2",
+    "u": "https://www.dinmedia.de/de/technische-regel/din-4108-beiblatt-2/305990077",
+    "stand": "Ausgabe 2019-06",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2 Berichtigung 1",
+    "u": "https://www.dinmedia.de/de/technische-regel/din-4108-beiblatt-2-berichtigung-1/381836517",
+    "stand": "Ausgabe 2025-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB-Richtlinie 6, Energieeinsparung und Waermeschutz, OIB-330.6-138/25",
+    "u": "https://www.oib.or.at/wp-content/uploads/oib-rl_6_september_2025.pdf",
+    "stand": "Ausgabe September 2025, Generalversammlungsbeschluss 29.08.2025, loest die Ausgaben Mai 2023 und April 2019 ab",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 8110-6-1, Waermeschutz im Hochbau, Grundlagen und Ermittlung des Heizwaermebedarfs und des Kuehlbedarfs",
+    "u": "https://www.austrian-standards.at/de/shop/onorm-b-8110-6-1-2025-10-15~p4487890",
+    "stand": "Ausgabe 2025-10-15, ersetzt 2024-03-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 380/1, Heizwaermebedarf, SN 520380/1",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20380-1/d/2016/D/Product",
+    "stand": "Ausgabe 2016, gueltig ab 01.12.2016, mit Korrigenda C1 vom 01.03.2019",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Beiblatt 2 ist seit 2025-02 durch Berichtigung 1 berichtigt; das Gesetz verweist datiert auf die Ausgabe 2019-06, die Berichtigung gilt daher zusaetzlich. Die konkreten Psi-Grenzwerte der SIA 380/1:2016 sind kostenpflichtig und nicht verifiziert."
+ },
+ {
+  "id": "kab4psichi",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Psi und Chi sind die beiden Kennwerte, mit denen sich eine Wärmebrücke in eine Zahl übersetzen lässt: Psi beschreibt den zusätzlichen Wärmeverlust je laufendem Meter einer linienförmigen Wärmebrücke wie einer Attikakante oder eines Fensteranschlags, Chi den Verlust an einer einzelnen punktförmigen Stelle wie einem durchstoßenden Geländerpfosten.",
+    "problem": "Der Fensteranschlag ist der Rahmenfalz und keine Wärmebrücke, gemeint ist der Fensteranschluss. Zudem ist Psi kein reiner Zuschlag, sondern die Korrektur zwischen tatsächlichem und eindimensional gerechnetem Wärmestrom, was das mögliche negative Vorzeichen erst erklärt.",
+    "ersatz": "Psi und Chi sind die beiden Kennwerte, mit denen sich eine Wärmebrücke in eine Zahl übersetzen lässt: Psi beschreibt je laufendem Meter einer linienförmigen Wärmebrücke wie einer Attikakante oder eines Fensteranschlusses den Unterschied zwischen dem tatsächlichen und dem eindimensional gerechneten Wärmestrom, Chi denselben Unterschied an einer einzelnen punktförmigen Stelle wie einem durchstoßenden Geländerpfosten."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Beide Werte werden zum ohnehin vorhandenen Wärmeverlust der ungestörten Bauteilfläche addiert, sie ersetzen also nichts, sondern kommen zusätzlich hinzu.",
+    "problem": "Sie kommen nicht zwingend hinzu: Psi-Werte können negativ sein und den Flächenverlust dann verringern. Der Satz widerspricht dem, was t3 richtig über negative Werte sagt.",
+    "ersatz": "Beide Werte werden zum Wärmeverlust der ungestörten Bauteilfläche addiert, sie ersetzen ihn also nicht, und sie können je nach Bezugsmaß auch negativ ausfallen und ihn dann verringern."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Psi wird in Watt pro Meter und Kelvin angegeben, Chi in Watt pro Kelvin, beide Kennwerte werden nach DIN EN ISO 10211 aus dem zwei- oder dreidimensionalen Temperaturfeld des Anschlusses errechnet.",
+    "problem": "Die Zuordnung ist nicht wahlfrei: Psi folgt aus einem zweidimensionalen, Chi zwingend aus einem dreidimensionalen Temperaturfeld, weil eine punktförmige Störung zweidimensional gar nicht abbildbar ist.",
+    "ersatz": "Psi wird in Watt pro Meter und Kelvin angegeben, Chi in Watt pro Kelvin; Psi folgt nach DIN EN ISO 10211 aus einem zweidimensionalen Temperaturfeld, Chi zwingend aus einem dreidimensionalen, weil eine punktförmige Störung im ebenen Schnitt nicht abbildbar ist."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Vorzeichenkonvention ist wichtig: Ein negativer Psi-Wert ist möglich und bedeutet, dass der Anschluss besser gedämmt ist als die rechnerisch ungestörte Bauteilfläche, das kommt bei konsequent überdämmten Details vor und ist kein Rechenfehler.",
+    "problem": "Die genannte Ursache ist die seltenere. Der Regelfall für negative Psi-Werte ist das Bezugsmaß: Beim in Deutschland üblichen Außenmaßbezug geht an jeder Gebäudeaußenecke Fläche doppelt in die Bilanz ein, und der Psi-Wert gleicht diesen Überschuss aus.",
+    "ersatz": "Die Vorzeichenkonvention ist wichtig: Ein negativer Psi-Wert ist kein Rechenfehler, sondern entsteht regelmäßig aus dem Bezugsmaß, weil beim in Deutschland üblichen Außenmaßbezug an jeder Gebäudeaußenecke Fläche doppelt in die Bilanz eingeht und der Psi-Wert diesen Überschuss ausgleicht; auch konsequent überdämmte Anschlüsse können negativ werden."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2",
+    "u": "https://www.dinmedia.de/de/technische-regel/din-4108-beiblatt-2/305990077",
+    "stand": "Ausgabe 2019-06",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2 Berichtigung 1",
+    "u": "https://www.dinmedia.de/de/technische-regel/din-4108-beiblatt-2-berichtigung-1/381836517",
+    "stand": "Ausgabe 2025-02",
+    "geprueft": "2026-08-21"
+   }
+  ]
+ },
+ {
+  "id": "kab4isothermen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "dach.de",
+    "art": "fehler",
+    "zitat": "Der Mindestwärmeschutz nach DIN 4108-2 verlangt für Regelräume einen Temperaturfaktor fRsi von mindestens 0,70, an kritischen Stellen ist dieser Wert in der Wärmebrückenberechnung nachzuweisen.",
+    "problem": "Der Wert stimmt, die Einordnung fehlt: Er gilt an der ungünstigsten Stelle, beruht auf festen Randbedingungen von 20 Grad Raumluft, 50 Prozent relativer Luftfeuchte und minus 5 Grad Außenluft, und er ist ein Schimmelkriterium bei 80 Prozent relativer Feuchte an der Oberfläche, nicht ein Tauwasserkriterium. Ohne diese Angabe ist der Wert nicht nachvollziehbar und wird in der Praxis regelmäßig mit dem Taupunkt verwechselt.",
+    "ersatz": "Der Mindestwärmeschutz nach DIN 4108-2 verlangt an der ungünstigsten Stelle einen Temperaturfaktor fRsi von mindestens 0,70, was bei 20 Grad Raumluft, 50 Prozent relativer Luftfeuchte und minus 5 Grad Außenluft einer raumseitigen Oberflächentemperatur von 12,6 Grad entspricht; Kriterium ist die Schimmelfreiheit bei 80 Prozent relativer Feuchte an der Oberfläche, nicht die Tauwasserfreiheit, deren Grenze bei 9,3 Grad läge."
+   },
+   {
+    "feld": "dach.de",
+    "art": "stand",
+    "zitat": "Der Mindestwärmeschutz nach DIN 4108-2 verlangt an der ungünstigsten Stelle einen Temperaturfaktor fRsi von mindestens 0,70",
+    "problem": "Normstand-Divergenz, die ein Mensch entscheiden muss: DIN 4108-2 liegt seit 2026-05 in einer neuen Ausgabe mit geändertem Titel, neugestalteter Tabelle 3 und einer neuen alternativen Nachweismöglichkeit über Mindestoberflächentemperaturen vor, während Paragraph 11 des Gesetzes weiterhin datiert auf die zurückgezogene Ausgabe 2013-02 verweist. Der Wert 0,70 ist für 2013-02 belegt, für 2026-05 nicht verifiziert.",
+    "ersatz": ""
+   },
+   {
+    "feld": "dach.at",
+    "art": "dach",
+    "zitat": "Der Nachweis des Mindestwärmeschutzes läuft über die OIB-Richtlinie 6 und die zugehörigen ÖNORMEN der Reihe B 8110, mit einem eigenen Grenzwert für die kritische Oberflächentemperatur, der von der deutschen Systematik in der Bezugsgröße abweicht.",
+    "problem": "Zu unbestimmt und in einem Punkt falsch: Österreich kennt keinen festen Grenzwert, sondern berechnet nach ÖNORM B 8110-2 in der Ausgabe 2020-01-01 einen Bemessungstemperaturfaktor. Die Randbedingungen sind das Außenklima des kältesten Monats bei 95 Prozent relativer Luftfeuchte am Standort und das Innenklima nach den Nutzungsprofilen der ÖNORM B 8110-5.",
+    "ersatz": "In Österreich verweist die OIB-Richtlinie 6 in der Ausgabe September 2025 für diesen Nachweis auf ÖNORM B 8110-2, die keinen festen Grenzwert nennt, sondern einen Bemessungstemperaturfaktor berechnet, mit dem Außenklima des kältesten Monats bei 95 Prozent relativer Luftfeuchte am Standort und dem Innenklima nach den Nutzungsprofilen der ÖNORM B 8110-5."
+   },
+   {
+    "feld": "dach.ch",
+    "art": "dach",
+    "zitat": "Die Anforderung an die raumseitige Oberflächentemperatur regelt SIA 180, mit einem eigenen Kriterium für die relative Luftfeuchte an der kältesten Stelle statt eines direkten fRsi-Grenzwerts wie in Deutschland.",
+    "problem": "Im Kern richtig, aber ohne den Zahlenwert wertlos: SIA 180 in der Ausgabe 2014 gilt als erfüllt, wenn die relative Feuchte der oberflächennahen Luftschicht 80 Prozent nicht übersteigt. Ein Temperaturfaktor von 0,70 kommt dort vor, aber nur als Rechenrandbedingung für die zulässige Raumluftfeuchte, und er wurde erst durch die Korrigenda C1 von 2015 aus dem ursprünglichen Wert 0,75 korrigiert.",
+    "ersatz": "Die Anforderung an die raumseitige Oberflächentemperatur regelt SIA 180 in der Ausgabe 2014: Sie gilt als erfüllt, wenn die relative Feuchte der oberflächennahen Luftschicht 80 Prozent nicht übersteigt. Ein Temperaturfaktor von 0,70 taucht dort nur als Rechenrandbedingung für die zulässige Raumluftfeuchte auf, nicht als eigenständiger Grenzwert wie in Deutschland."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-2",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-2/401017482",
+    "stand": "Ausgabe 2026-05, ersetzt DIN 4108-2:2013-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108-2 (im Gesetz datiert zitierte Ausgabe)",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-2/167922321",
+    "stand": "Ausgabe 2013-02, zurueckgezogen, aber in Paragraph 11 GModG datiert in Bezug genommen",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Spitzner, Neue DIN 4108-2, Mindestanforderungen an den Waermeschutz, ift Rosenheim",
+    "u": "https://www.ift-rosenheim.de/2013/neue-din-4108-2-mindestanforderungen-an-den-waermeschutz",
+    "stand": "Fachartikel 2013 zur Ausgabe DIN 4108-2:2013-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB-Richtlinie 6, Energieeinsparung und Waermeschutz, OIB-330.6-138/25",
+    "u": "https://www.oib.or.at/wp-content/uploads/oib-rl_6_september_2025.pdf",
+    "stand": "Ausgabe September 2025, Generalversammlungsbeschluss 29.08.2025, loest die Ausgaben Mai 2023 und April 2019 ab",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 8110-2, Waermeschutz im Hochbau, Wasserdampfdiffusion, Wasserdampfkonvektion und Schutz vor Kondensation",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-8110-2-2020-01-01~p2506841",
+    "stand": "Ausgabe 2020-01-01, ersetzt 2003-07-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 180, Waermeschutz, Feuchteschutz und Raumklima in Gebaeuden, SN 520180",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20180/d/2014/D/Product",
+    "stand": "Ausgabe 2014, gueltig ab 01.07.2014, mit Korrigenda C1 vom 01.03.2015 und C2 vom 01.10.2020",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der fRsi-Wert ist normativ in DIN EN ISO 10211 definiert, das Kriterium der kritischen Oberflaechenfeuchte von 80 Prozent stammt aus DIN EN ISO 13788."
+ },
+ {
+  "id": "kab5gleichwert",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "dach",
+    "zitat": "Ein Gleichwertigkeitsnachweis vergleicht das tatsächlich geplante Detail mit einem geprüften Referenzdetail aus der amtlichen Beispielsammlung und übernimmt dessen Kennwert, wenn Aufbau und Dämmstärken innerhalb der zulässigen Abweichung liegen.",
+    "problem": "Der Gleichwertigkeitsnachweis ist ein deutsches Verfahren nach DIN 4108 Beiblatt 2 und wird hier ohne Länderbezug als allgemeingültig dargestellt; außerdem ist Beiblatt 2 eine Norm und keine amtliche Beispielsammlung. Der Knoten hat kein dach-Feld, obwohl das ganze Thema länderabhängig ist.",
+    "ersatz": "Der Gleichwertigkeitsnachweis ist ein deutsches Verfahren: Er vergleicht das tatsächlich geplante Detail mit einem Planungsbeispiel der DIN 4108 Beiblatt 2 und übernimmt dessen Kennwert, wenn Aufbau und Dämmstärken innerhalb der zulässigen Abweichung liegen."
+   },
+   {
+    "feld": "t3",
+    "art": "dach",
+    "zitat": "Die zulässige Abweichung zwischen Ausführung und Referenzdetail legt das jeweilige Nachweisverfahren fest, üblicherweise über Grenzen bei Dämmstärke, Wärmeleitfähigkeit der Bauteilschichten und Anschlussgeometrie; wo diese Grenzen überschritten werden, kippt der Nachweis in den detaillierten Einzelnachweis.",
+    "problem": "Das Verfahren gehört benannt und der Länderbezug ergänzt, sonst liest sich der Knoten als DACH-weit gültig.",
+    "ersatz": "Die zulässige Abweichung zwischen Ausführung und Referenzdetail legt in Deutschland DIN 4108 Beiblatt 2 fest, über Grenzen bei Dämmstärke, Wärmeleitfähigkeit der Bauteilschichten und Anschlussgeometrie; wo diese Grenzen überschritten werden, kippt der Nachweis in den detaillierten Einzelnachweis nach DIN EN ISO 10211."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108 Beiblatt 2",
+    "u": "https://www.dinmedia.de/de/technische-regel/din-4108-beiblatt-2/305990077",
+    "stand": "Ausgabe 2019-06",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2 Berichtigung 1",
+    "u": "https://www.dinmedia.de/de/technische-regel/din-4108-beiblatt-2-berichtigung-1/381836517",
+    "stand": "Ausgabe 2025-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 10211",
+    "u": "https://www.dinmedia.de/de/norm/din-en-iso-10211/255670040",
+    "stand": "Ausgabe 2018-03",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Knoten braucht ein dach-Feld: Ein Gleichwertigkeitsnachweis in dieser Form existiert nur in Deutschland, Oesterreich und die Schweiz rechnen den Waermebrueckenzuschlag anders."
+ }
+]

@@ -1,0 +1,461 @@
+[
+ {
+  "id": "eli4raumtiefe",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Die häufig zitierte Faustregel, dass eine Raumzone bis zum Zwei- bis Dreifachen der Fensterhöhe noch als hell gilt, hat einen Hebel, der oft übersehen wird: nicht die Fensterbreite, sondern die Sturzhöhe, also die Oberkante der Verglasung.",
+    "problem": "Die Faustregel bezieht sich nicht auf die Fensterhöhe, sondern auf die Höhe der Verglasungsoberkante über dem Fußboden, und die verbreitete Spanne endet bei etwa dem Zweieinhalbfachen, nicht beim Dreifachen.",
+    "ersatz": "Die häufig zitierte Faustregel, dass eine Raumzone bis etwa zum Zwei- bis Zweieinhalbfachen der Sturzhöhe über dem Fußboden noch als hell gilt, wird meist falsch zitiert: Bezugsmaß ist weder die Fensterbreite noch die Fensterhöhe, sondern die Höhe der Verglasungsoberkante über dem fertigen Fußboden."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Wird der Sturz angehoben, verschiebt sich die nutzbare Tiefe im selben Verhältnis nach hinten, ohne dass die Fensterbreite oder die Fassadenfläche wächst.",
+    "problem": "Die Tiefe wächst um ein Mehrfaches der Sturzanhebung, nicht im selben Verhältnis, und die Glasfläche nimmt dabei sehr wohl zu, solange die Brüstung nicht mitwandert.",
+    "ersatz": "Wird der Sturz angehoben, verschiebt sich die nutzbare Tiefe um mehr als das Doppelte dieses Maßes nach hinten, ohne dass die Fensterbreite oder die Fassadenfläche wächst; die Glasfläche selbst nimmt allerdings zu, solange die Brüstung nicht mitwandert, was auf Wärmeschutz und Sonnenschutz zurückwirkt."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN 17037 Tageslicht in Gebaeuden",
+    "u": "https://www.dinmedia.de/en/standard/din-en-17037/348494031",
+    "stand": "Ausgabe 2022-05, Deutsche Fassung EN 17037:2018+AC:2021+A1:2021",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 5034-1 Tageslicht in Innenraeumen, Teil 1: Begriffe und Mindestanforderungen",
+    "u": "https://www.dinmedia.de/en/standard/din-5034-1/337708525",
+    "stand": "Ausgabe 2021-08",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Bezugswert muss gemeinsam mit dem Elternknoten eli3seite geändert werden, sonst bleiben Eltern und Kind widersprüchlich."
+ },
+ {
+  "id": "eli4decke",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Eine helle, matte Fläche wirft das Licht in flachem Winkel weiter in den Raum, eine dunkle oder tief abgehängte Decke schluckt genau den Anteil, der die hintere Zone erreichen könnte.",
+    "problem": "Eine matte Fläche reflektiert diffus in alle Richtungen und gerade nicht gerichtet in flachem Winkel; die gerichtete Reflexion beschreibt eine glänzende Fläche, was dem Knoten eli4glanz direkt widerspricht.",
+    "ersatz": "Eine helle, matte Fläche streut das auftreffende Licht diffus in alle Richtungen, sodass ein Teil davon die hintere Raumzone erreicht, während eine dunkle oder tief abgehängte Decke genau diesen Anteil schluckt."
+   },
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Der Effekt wirkt unabhängig vom Fenstermaß und lässt sich nachträglich kaum korrigieren, sobald Material und Farbe der Deckenfläche gewählt sind.",
+    "problem": "Die weitergegebene Lichtmenge hängt am einfallenden Licht und damit am Fenstermaß, und ein neuer Anstrich ist die billigste aller Korrekturen, was der eigenen Kostenlogik im t2 und dem Elternknoten eli3lenk widerspricht.",
+    "ersatz": "Wie viel die Decke weitergibt, hängt am einfallenden Licht und damit auch am Fenstermaß; die Farbe lässt sich zwar jederzeit durch einen neuen Anstrich korrigieren, die Geometrie einer abgehängten Decke dagegen nur mit Rückbau."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli4lichtband",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Ein umlaufendes oder langes Lichtband ersetzt in einer tragenden oder aussteifenden Wand einen erheblichen Teil der Wandscheibe, die für die Gebäudeaussteifung sonst mitwirkt; diese Funktion muss durch andere Bauteile wie Kerne, Scheiben oder eine Rahmenkonstruktion übernommen werden, bevor das Band im Grundriss fixiert wird.",
+    "problem": "Bei einem Band unmittelbar unter der Decke ist zuerst das Deckenauflager betroffen und nicht die Aussteifung; über die gesamte Bandlänge fehlt der Wandkopf, auf dem die Decke sonst aufliegt.",
+    "ersatz": "Ein Band unmittelbar unter der Decke nimmt der tragenden Wand zuerst das Deckenauflager, sodass ein durchlaufender Unterzug oder Riegel die Deckenlast über die volle Bandlänge abfangen muss; zusätzlich entfällt der Anteil der Wandscheibe an der Gebäudeaussteifung, der dann von Kernen, anderen Scheiben oder einer Rahmenkonstruktion übernommen werden muss, bevor das Band im Grundriss fixiert wird."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli4eckfenster",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Im Eckfenster fehlt genau dieser Eckpfeiler, und die Vertikallast der Ecke muss über einen Riegel, eine Stütze im Glasfeld oder eine geklebte Glasecke abgetragen werden.",
+    "problem": "Eine geklebte Glasecke trägt keine Vertikallast aus dem Gebäude; sie setzt voraus, dass die Last bereits über dem Glas durch eine auskragende Decke oder einen Unterzug abgefangen ist.",
+    "ersatz": "Im Eckfenster fehlt genau dieser Eckpfeiler, und die Vertikallast der Ecke muss über eine Stütze im Glasfeld, einen Unterzug oder eine auskragende Decke abgetragen werden; eine geklebte Glasecke trägt selbst nichts davon, sie setzt vielmehr voraus, dass die Last bereits oberhalb des Glases abgefangen ist."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Drei Lösungen stehen zur Wahl: der sichtbare Eckpfosten aus Rahmenprofil oder Stahl, die im Rahmen verdeckte Stahlstütze und die geklebte Glasecke ohne jeden Pfosten.",
+    "problem": "Ein Fensterrahmenprofil ohne Stützenkern nimmt nur Windlast auf, keine Vertikallast aus dem Gebäude, und die geklebte Glasecke ist keine eigene Lastabtragung, sondern die Folge einer Auskragung darüber.",
+    "ersatz": "Drei Lösungen stehen zur Wahl: die sichtbare Eckstütze aus Stahl oder Stahlbeton, die im Rahmenprofil verdeckte Stahlstütze und die pfostenfreie geklebte Glasecke unter einer auskragenden Decke; ein reines Rahmenprofil ohne Stützenkern nimmt dabei nur Windlast auf, keine Vertikallast aus dem Gebäude."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli4durchblick",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Zwei Öffnungen, die sich im Grundriss gegenüberliegen, erzeugen nicht nur eine gleichmäßigere Belichtung als das Eckfenster, sondern auch eine Blickachse, die den Raum optisch über seine eigenen Wände hinaus verlängert.",
+    "problem": "Der Elternknoten eli3zwei nennt das Eckfenster das wirkungsvollste Mittel, dieser Knoten stuft es gegenüber gegenüberliegenden Öffnungen zurück; einer der beiden Sätze muss weichen.",
+    "ersatz": "Zwei Öffnungen, die sich im Grundriss gegenüberliegen, belichten die Raumtiefe von beiden Enden her und erzeugen zusätzlich eine Blickachse, die den Raum optisch über seine eigenen Wände hinaus verlängert, während das Eckfenster seine Wirkung vor allem an der Gebäudeecke entfaltet, an der es sitzt."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Korrektur greift nur zusammen mit der Anpassung des t1 von eli3zwei."
+ },
+ {
+  "id": "eli4shed",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Ein Sheddach besteht aus einer Reihe gleich ausgerichteter Schotten, deren verglaste Nordseite steil und deren opake Südseite flacher geneigt ist, um die sommerliche Aufheizung durch die geschlossene Fläche zu begrenzen und die Schneelast auf der Verglasung gering zu halten.",
+    "problem": "Die Begründung ist verdreht: Eine flach geneigte Südfläche nimmt bei hohem Sommersonnenstand mehr Strahlung auf, nicht weniger, und Schnee gleitet von der steilen Nordverglasung ab, nicht wegen der flachen Südseite.",
+    "ersatz": "Ein Sheddach besteht aus einer Reihe gleich ausgerichteter Schotten, deren verglaste Nordseite steil steht, damit sie viel diffuses Himmelslicht aufnimmt und Regen wie Schnee von selbst abgleiten, während die opake Südseite flacher geneigt als eigentliche Dachfläche zwischen den Bindern spannt und die direkte Sommersonne von der Verglasung fernhält."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Aussage im t1 zur streifenden Nordost- und Nordwestsonne um die Sommersonnenwende ist für die Breiten des DACH-Raums richtig und widerspricht der Behauptung im Knoten eli3jahreszeit, eine Nordfassade verändere sich über das Jahr kaum."
+ },
+ {
+  "id": "eli4kuppel",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Bei größerer Aufbauhöhe lohnt es sich deshalb, den Schacht nach unten leicht aufzuweiten und seine Innenflächen hell und glatt auszuführen, statt allein die Kuppelgröße zu erhöhen.",
+    "problem": "Maßgebend ist der Reflexionsgrad der Schachtinnenflächen, nicht ihre Glätte; eine glänzende Fläche spiegelt gerichtet und verteilt das Licht im Raum ungleichmäßiger.",
+    "ersatz": "Bei größerer Aufbauhöhe lohnt es sich deshalb, den Schacht nach unten aufzuweiten und seine Innenflächen mit möglichst hohem Reflexionsgrad auszuführen, also hell und matt, statt allein die Kuppelgröße zu erhöhen."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Häufigster Fehler: Die Öffnung im Dachaufbau wird nach der sichtbaren Kuppelgröße bemessen, ohne den Aufsatzkranz und die umlaufende Dämmanschlussfuge mitzurechnen, sodass die tatsächliche Rohbauöffnung größer ausfällt als geplant.",
+    "problem": "Die Größenangabe einer Lichtkuppel bezieht sich üblicherweise auf das Rohbaumaß beziehungsweise das lichte Maß des Aufsatzkranzes, die von außen sichtbare Kuppel ragt darüber hinaus; der beschriebene Fehler läuft daher in die falsche Richtung.",
+    "ersatz": "Häufigster Fehler: Die erwartete Lichtmenge wird nach der von außen sichtbaren Kuppelgröße abgeschätzt, obwohl Aufsatzkranz, Dämmanschluss und Schachtlaibung die im Raum wirksame Lichtöffnung deutlich kleiner ausfallen lassen als die Kuppel."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Gegenüberstellung von gewölbter Kuppel und ebenem Flachdachfenster einschließlich der besseren Ausbeute der Wölbung bei flachem Einfallswinkel ist fachlich richtig."
+ },
+ {
+  "id": "eli4treppenlicht",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Weil die Treppe häufig auch der zweite oder einzige bauliche Rettungsweg ist, wird das Oberlicht am Treppenkopf oft zugleich als Rauch- und Wärmeabzug gefordert; das setzt eine motorisierte, im Bedarfsfall auslösbare Öffnung voraus und schließt eine reine Festverglasung an dieser Stelle aus.",
+    "problem": "Ein Motor ist nicht gefordert; verlangt ist eine Vorrichtung, die vom Erdgeschoss und vom obersten Treppenabsatz aus bedient werden kann, was auch ein mechanischer Seilzug leistet, und Auslöser der Anforderung ist der notwendige Treppenraum mit seiner Gebäudeklasse, nicht die Rettungswegfunktion an sich.",
+    "ersatz": "Weil die Treppe häufig ein notwendiger Treppenraum ist, verlangt das Bauordnungsrecht je nach Gebäudeklasse an der obersten Stelle eine Öffnung zur Rauchableitung; sie muss vom Erdgeschoss und vom obersten Treppenabsatz aus bedient werden können, wofür auch ein mechanischer Seilzug genügt, schließt an dieser Stelle aber eine reine Festverglasung aus."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Für die reine Tageslichtfunktion würde eine Festverglasung reichen, für die Rauchabzugsfunktion nicht, deshalb entscheidet die Rettungswegfunktion der Treppe darüber, welches Produkt infrage kommt, nicht die gewünschte Lichtmenge.",
+    "problem": "Nicht die Rettungswegfunktion entscheidet, sondern die Einstufung als notwendiger Treppenraum und die Gebäudeklasse; bei Treppenräumen mit öffenbaren Fenstern in jedem Geschoss wird die Öffnung am Treppenkopf erst ab der obersten Gebäudeklasse verlangt.",
+    "ersatz": "Für die reine Tageslichtfunktion würde eine Festverglasung reichen, für die Rauchableitung nicht, deshalb entscheidet die bauordnungsrechtliche Einstufung des Treppenraums und die Gebäudeklasse darüber, welches Produkt infrage kommt, nicht die gewünschte Lichtmenge."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Kostenlogik: Eine motorisierte, auslösbare Öffnung kostet in Anschaffung, Antrieb und Wartung deutlich mehr als eine feste Verglasung gleicher Größe, dafür entfällt bei ihrem Einsatz oft ein separates Rauchabzugsgerät an anderer Stelle.",
+    "problem": "Der Satz setzt die auslösbare Öffnung mit der motorisierten gleich und überzeichnet damit die Kosten der Regellösung.",
+    "ersatz": "Kostenlogik: Eine auslösbare Öffnung kostet in Anschaffung und Wartung mehr als eine feste Verglasung gleicher Größe, wobei die mechanisch über Seilzug bediente Ausführung deutlich günstiger bleibt als die motorisierte mit Antrieb, Steuerung und wiederkehrender Prüfung."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "BauO NRW 2018, Paragraf 35 Absatz 8, Notwendige Treppenraeume",
+    "u": "https://recht.nrw.de/system/files/BH/39224-23716.htm",
+    "stand": "Landesbauordnung 2018, Fassung vom 21.07.2018, konsolidierter Text recht.nrw.de",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Freier Querschnitt von mindestens einem Quadratmeter und die Gebäudeklassen sind deutsche Werte aus den Landesbauordnungen; für AT (OIB-Richtlinie 2) und CH (VKF-Brandschutzvorschriften) braucht der Knoten später ein dach-Feld, in dieser Runde nicht geprüft."
+ },
+ {
+  "id": "eli4laibungfarbe",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Eine gedämmte Außenlaibung lässt sich zudem nicht beliebig aufweiten, weil die Dämmstärke die Schräge begrenzt, sodass der reflektierende Effekt bei stark gedämmten Wänden geringer ausfällt als bei schlanken Bestandswänden.",
+    "problem": "Der Satz verwechselt äußere und innere Laibung und dreht die Ursache um: Den Lichtgewinn liefert die innere Laibung, und gerade die dicke gedämmte Wand macht die Laibung tief, verengt den Himmelsausschnitt und macht das Aufweiten nach innen wichtiger statt unmöglich.",
+    "ersatz": "Den Lichtgewinn liefert vor allem die innere Laibung, und gerade bei dicken, stark gedämmten Wänden ist sie tief und verengt den sichtbaren Himmelsausschnitt, weshalb die helle, nach innen aufgeweitete Ausführung dort mehr bringt als bei einer schlanken Bestandswand."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli4lamellen",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Anders als eine gewöhnliche Lamelle, die Licht blockiert oder streut, lenkt eine lichtlenkende Lamelle den einfallenden Sonnenstrahl gezielt nach oben an die Decke, während der Blick auf Augenhöhe frei bleibt.",
+    "problem": "Der Blick bleibt nicht deshalb frei, weil die Lamelle umlenkt, sondern weil lichtlenkende Lamellen in einer eigenen Oberlichtzone über dem Sichtfeld sitzen; im Sichtbereich selbst bleibt ein eigener Blendschutz nötig.",
+    "ersatz": "Anders als eine gewöhnliche Lamelle, die Licht blockiert oder streut, lenkt eine lichtlenkende Lamelle den einfallenden Sonnenstrahl gezielt nach oben an die Decke; frei bleibt der Blick auf Augenhöhe dabei nur, weil solche Lamellen in einer eigenen Oberlichtzone über dem Sichtfeld sitzen und der Sichtbereich darunter seinen eigenen Blendschutz behält."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Die feste Geometrie ist der Regelfall bei einer Fassadenorientierung mit engem nutzbarem Sonnenwinkelbereich, weil sie ohne Antrieb, Steuerung und Wartung auskommt; die nachgeführte Lösung gewinnt erst, wenn die Fassade einen weiten Winkelbereich abdecken muss, etwa an einer Südwest- oder Rundumfassade.",
+    "problem": "Der Regelfall wird über einen unbestimmten Winkelbereich beschrieben statt über die Orientierung; feste Lichtlenkgeometrien funktionieren an der Südfassade, weil dort nur die Sonnenhöhe wechselt, und versagen an Ost und West, wo die Sonne flach und über einen weiten Azimutbereich einfällt.",
+    "ersatz": "Die feste Geometrie ist der Regelfall an der Südfassade, weil dort über das Jahr vor allem die Sonnenhöhe wechselt und der Azimut in einem engen Bereich bleibt, sodass eine einmal abgestimmte Lamellenform ohne Antrieb, Steuerung und Wartung auskommt; an Ost-, West- und Südwestfassaden trifft die Sonne dagegen flach und über einen weiten Azimutbereich auf, dort lenkt nur eine nachgeführte Lamelle zuverlässig."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli4glanz",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Eine glänzende Fläche spiegelt gerichtet, wirft also punktuell auch das Bild der Lichtquelle selbst zurück und kann blenden, während eine matte Fläche das Licht diffus in viele Richtungen streut und dabei gleichmäßiger, aber insgesamt schwächer wirkt.",
+    "problem": "Wie viel Licht insgesamt zurückkommt, entscheidet der Reflexionsgrad und nicht der Glanzgrad; der Glanz verteilt dieselbe Lichtmenge nur anders, sodass die matte Fläche nicht insgesamt schwächer, sondern je Richtung schwächer wirkt.",
+    "ersatz": "Eine glänzende Fläche spiegelt gerichtet, wirft also punktuell auch das Bild der Lichtquelle selbst zurück und kann blenden, während eine matte Fläche dieselbe Lichtmenge diffus verteilt und deshalb in jede einzelne Richtung schwächer, dafür aber gleichmäßig und unabhängig vom Blickwinkel wirkt; wie viel Licht insgesamt zurückkommt, entscheidet der Reflexionsgrad der Fläche, nicht ihr Glanzgrad."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Aussage zur Reflexblendung durch glänzende Bodenbeläge bei tief stehender Sonne ist richtig."
+ },
+ {
+  "id": "eli4sonnenstand",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "An Ost- und Westfassaden bleibt der Sonnenstand dagegen über das ganze Jahr tief, dort hilft eine horizontale Auskragung kaum, und nur ein beweglicher oder vertikal wirkender Sonnenschutz schafft Abhilfe.",
+    "problem": "Der Sonnenstand ist an Ost- und Westfassaden nicht generell tief, die Sonne steigt im Tagesverlauf hoch; entscheidend ist, dass sie zu den Stunden, in denen sie diese Fassaden überhaupt trifft, flach und fast frontal einfällt.",
+    "ersatz": "An Ost- und Westfassaden trifft die Sonne dagegen genau zu den Stunden, in denen sie überhaupt auf die Fassade scheint, flach und nahezu frontal auf, sodass eine horizontale Auskragung kaum hilft und nur ein beweglicher oder vertikal wirkender Sonnenschutz Abhilfe schafft."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Häufigster Fehler: Ein fester Dachüberstand wird für die Südfassade berechnet und anschließend unverändert an der Ost- oder Westseite desselben Gebäudes übernommen, wo er die tief stehende Sonne gar nicht erreicht.",
+    "problem": "Der Überstand erreicht nicht die Sonne, sondern fängt sie ab oder eben nicht; die Formulierung verkehrt die Wirkrichtung.",
+    "ersatz": "Häufigster Fehler: Ein fester Dachüberstand wird für die Südfassade berechnet und anschließend unverändert an der Ost- oder Westseite desselben Gebäudes übernommen, wo er die flach einfallende Sonne gar nicht abfängt."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Aussage, dass der kritische Winkel von der geografischen Breite abhängt und eine standortbezogene Sonnenstandsstudie braucht, ist richtig."
+ },
+ {
+  "id": "eli4ueberstand",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Seine Tiefe ist ein Kompromiss: Je weiter er auskragt, desto zuverlässiger hält er die hoch stehende Sommersonne ab, aber desto mehr schneidet er auch vom tief stehenden, erwünschten Winterlicht ab, weil beide über denselben geometrischen Winkel gesteuert werden.",
+    "problem": "Die tief stehende Wintersonne läuft auch unter einer tiefen Auskragung noch durch; der reale Verlust ist der dauerhaft verdeckte Himmelsausschnitt und die Tatsache, dass der Überstand nur den Sonnenstand kennt und deshalb im warmen September genauso verschattet wie im kühlen März.",
+    "ersatz": "Seine Tiefe ist ein Kompromiss: Je weiter er auskragt, desto zuverlässiger hält er die hoch stehende Sommersonne ab, während die tief stehende Wintersonne meist auch darunter noch durchläuft; verloren geht vor allem der Teil des Himmels, den der Überstand ganzjährig verdeckt, und er verschattet im noch warmen September genauso wie im kühlen März, weil er nur den Sonnenstand kennt und nicht die Jahreszeit."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Bei einem geneigten Dach lässt sich der Überstand meist einfach durch verlängerte Sparren erzeugen, die Dämmebene bleibt dabei im Sparrenfeld ungestört.",
+    "problem": "Das gilt nur für die Zwischensparrendämmung; bei Aufsparrendämmung durchstoßen die verlängerten Sparren die Dämmebene, und der Anschluss wird zur nachweispflichtigen Wärmebrücke.",
+    "ersatz": "Bei einem geneigten Dach mit Zwischensparrendämmung lässt sich der Überstand meist einfach durch verlängerte Sparren erzeugen, ohne die Dämmebene im Sparrenfeld zu stören, während bei Aufsparrendämmung dieselben Sparren die Dämmebene durchstoßen und der Anschluss wie beim Flachdach eigens auf Wärmebrücken geprüft werden muss."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli2tag",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die Faustregel am Ende ist als grobe Orientierung gekennzeichnet und qualitativ richtig, weil der Lichteintrag in die hintere Zone an der Sturzhöhe hängt und nicht an der Fensterbreite."
+ },
+ {
+  "id": "eli3seite",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Licht von nur einer Seite erzeugt einen klaren Hell-Dunkel-Verlauf im Raum, der die hintere Zone spürbar abwertet, sobald die Raumtiefe das Zwei- bis Dreifache der Fensterhöhe überschreitet.",
+    "problem": "Bezugsmaß der Faustregel ist die Höhe der Verglasungsoberkante über dem Fußboden, nicht die Fensterhöhe, und die verbreitete Spanne endet bei etwa dem Zweieinhalbfachen.",
+    "ersatz": "Licht von nur einer Seite erzeugt einen klaren Hell-Dunkel-Verlauf im Raum, der die hintere Zone spürbar abwertet, sobald die Raumtiefe etwa das Zwei- bis Zweieinhalbfache der Sturzhöhe über dem Fußboden überschreitet."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN 17037 Tageslicht in Gebaeuden",
+    "u": "https://www.dinmedia.de/en/standard/din-en-17037/348494031",
+    "stand": "Ausgabe 2022-05, Deutsche Fassung EN 17037:2018+AC:2021+A1:2021",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 5034-1 Tageslicht in Innenraeumen, Teil 1: Begriffe und Mindestanforderungen",
+    "u": "https://www.dinmedia.de/en/standard/din-5034-1/337708525",
+    "stand": "Ausgabe 2021-08",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Das t1 ist Bestandstext, muss aber mitgeändert werden, weil das Kind eli4raumtiefe genau auf dieser Zahl aufbaut; das neue t2 ist ohne Befund."
+ },
+ {
+  "id": "eli3zwei",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t1",
+    "art": "fehler",
+    "zitat": "Das Eckfenster ist dabei das wirkungsvollste, aber auch konstruktiv anspruchsvollste Mittel.",
+    "problem": "Widerspruch zum Kindknoten eli4durchblick, der gegenüberliegenden Öffnungen die gleichmäßigere Belichtung zuschreibt; belichtungstechnisch ist das Eckfenster nicht das wirkungsvollste Mittel, weil beide Öffnungen dieselbe Raumecke bedienen.",
+    "ersatz": "Das Eckfenster ist dabei das räumlich auffälligste, aber auch konstruktiv anspruchsvollste Mittel, während zwei gegenüberliegende Öffnungen die Raumtiefe gleichmäßiger belichten."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Das neue t2 ist ohne Befund."
+ },
+ {
+  "id": "eli3lenk",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Der Planungsschritt gehört deshalb an das Ende der Lichtplanung, nicht an den Anfang, wenn Oberflächen, Farben und Materialien ohnehin noch offen sind.",
+    "problem": "Der Satz widerspricht dem eigenen letzten Satz desselben t2 und allen drei Kindknoten, die Deckenfläche, Laibung und Lamellenzone ausdrücklich früh im Schnitt festgelegt sehen wollen.",
+    "ersatz": "In der Reihenfolge kommt dieser Schritt nach der Festlegung von Fensterposition und Format, gehört aber noch in die Entwurfsplanung, weil Deckenhöhe, Laibungstiefe und eine mögliche Lamellenzone im Schnitt mitentschieden werden und sich später nicht durch Farbe allein nachholen lassen."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Die Aussage, dass Material und Farbe vorhandenes Licht nur umverteilen und keines schaffen, ist richtig."
+ },
+ {
+  "id": "eli3jahreszeit",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Eine Nordfassade verändert sich über das Jahr kaum, eine Süd- oder Westfassade dagegen erheblich, weshalb sich der Prüfaufwand auf die kritischen Himmelsrichtungen konzentrieren sollte.",
+    "problem": "Die Nordfassade verändert sich sehr wohl: Im Winterhalbjahr bekommt sie gar keine direkte Sonne, um die Sommersonnenwende dagegen streifend am frühen Morgen und späten Abend, was der richtigen Aussage im Knoten eli4shed direkt widerspricht.",
+    "ersatz": "Eine Nordfassade bekommt im Winterhalbjahr überhaupt keine direkte Sonne und um die Sommersonnenwende nur streifend am frühen Morgen und am späten Abend, während sich Süd- und Westfassaden über das ganze Jahr erheblich verändern, weshalb sich der Prüfaufwand auf die kritischen Himmelsrichtungen konzentrieren sollte."
+   },
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Für eine erste Einschätzung reicht oft schon ein Blick auf den Sonnenstand zur Sommer- und Wintersonnenwende an der jeweiligen Fassadenseite.",
+    "problem": "Die beiden Sonnenwenden allein lassen den für feste Verschattungen kritischen Fall aus, weil der Sonnenstand um die Tagundnachtgleiche symmetrisch ist und der September bei tiefer Sonne noch warm ist.",
+    "ersatz": "Für eine erste Einschätzung lohnt der Blick auf den Sonnenstand zur Sommer- und Wintersonnenwende und zusätzlich zur Tagundnachtgleiche, weil gerade der September mit tiefer Sonne bei noch warmer Witterung für feste Verschattungen der kritische Fall ist und zwischen den beiden Sonnenwenden durchfällt."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli2verh",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Kostenlogik: Jeder zusätzliche Quadratmeter Glasfläche verursacht über Wärmeschutz, Sonnenschutz und Statik laufende Mehrkosten, während dieselbe Fläche als gedämmte Wand deutlich günstiger bleibt, sodass sich der Öffnungsanteil immer gegen einen konkreten Nutzen rechtfertigen sollte.",
+    "problem": "Die Aussage ist richtungsblind formuliert: Glasflächen verlieren zwar mehr Wärme als gedämmte Wand, gewinnen an der Südseite aber solare Energie, die in der Energiebilanz einen Teil davon zurückholt.",
+    "ersatz": "Kostenlogik: Jeder zusätzliche Quadratmeter Glasfläche kostet in Herstellung, Sonnenschutz und Anschluss mehr als dieselbe Fläche gedämmter Wand und verliert im Winter mehr Wärme, holt an der Südseite über solare Gewinne aber einen Teil davon zurück, sodass sich der Öffnungsanteil je Fassadenseite gegen einen konkreten Nutzen rechtfertigen sollte."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli3anteil",
+  "urteil": "unsicher",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Ein stimmiger Öffnungsanteil entsteht nicht aus einem einzelnen Zielwert, sondern aus dem Abgleich mehrerer Kennwerte und der jeweiligen Fassadenausrichtung, die beide erst den tatsächlichen Bedarf an Glasfläche zeigen.",
+    "problem": "Der Text nennt weder die Kennwerte noch die zugehörigen Nachweise, sodass die Aussage nicht prüfbar ist und der Leser nichts damit anfangen kann.",
+    "ersatz": "Ein stimmiger Öffnungsanteil entsteht nicht aus einem einzelnen Zielwert, sondern aus dem Abgleich der Nachweise zum sommerlichen Wärmeschutz, zur Tageslichtversorgung und zum Gesamtenergiebedarf mit der jeweiligen Fassadenausrichtung."
+   },
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Häufigster Fehler ist, den Öffnungsanteil als gestalterische Setzung zu behandeln und die Kennwertprüfung erst nachzuschieben, wenn die Fassade im Entwurf schon feststeht.",
+    "problem": "Auch hier bleibt offen, welche Prüfung gemeint ist; ohne Benennung des Nachweises trägt der Satz keine Information.",
+    "ersatz": "Häufigster Fehler ist, den Öffnungsanteil als gestalterische Setzung zu behandeln und den Nachweis des sommerlichen Wärmeschutzes erst nachzuschieben, wenn die Fassade im Entwurf schon feststeht."
+   }
+  ],
+  "quellen": [],
+  "notiz": "Welche Nachweise konkret greifen, unterscheidet sich zwischen DE, AT und CH; der Knoten braucht dafür später ein dach-Feld, das in dieser Runde nicht Gegenstand war."
+ },
+ {
+  "id": "eli3format",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die Zuordnung von liegendem, stehendem und raumhohem Format zu Ausblick, Lichttiefe und Möblierbarkeit ist konsistent mit dem Elternknoten, das neue t2 enthält keine prüfpflichtige Tatsachenbehauptung."
+ },
+ {
+  "id": "eli3wandanteil",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Keine prüfpflichtige Zahl oder Norm; die Kostenaussage zugunsten der geschlossenen Wandfläche ist mit dem Elternknoten eli2verh konsistent."
+ },
+ {
+  "id": "eli3privat",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "unbelegt",
+    "zitat": "Wichtig ist dabei der Unterschied zwischen der Situation bei Tag, in der meist die eigene Wahrnehmung im Vordergrund steht, und jener bei Nacht, in der sich die Blickbeziehung faktisch umkehrt.",
+    "problem": "Die Ursache der Umkehr bleibt ungenannt, dadurch wirkt der Satz wie eine Behauptung; maßgebend ist das Helligkeitsgefälle zwischen innen und außen.",
+    "ersatz": "Entscheidend ist das Helligkeitsgefälle zwischen innen und außen: Tagsüber ist es draußen heller, die Scheibe wirkt von außen wie ein Spiegel und schützt von selbst, nachts kehrt sich das Verhältnis um und der beleuchtete Innenraum liegt offen im Blick."
+   }
+  ],
+  "quellen": [],
+  "notiz": ""
+ },
+ {
+  "id": "eli2kunst",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Keine prüfpflichtige Zahl oder Norm; die Forderung, Kunstlicht und Tageslicht in derselben Entwurfsphase zu bearbeiten, steht nicht im Widerspruch zu den Kindknoten."
+ },
+ {
+  "id": "eli3grundlicht",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Sobald für den Arbeitsraum eine Grundhelligkeit in Zahlen ergänzt wird, ist sie normativ gebunden (DIN EN 12464-1 und ASR A3.4 in DE) und braucht dann Quelle und dach-Feld; im vorliegenden Text steht keine Zahl."
+ },
+ {
+  "id": "eli3indirekt",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die lichttechnische Aussage, dass nur helle matte Flächen diffus zurückstrahlen, ist richtig und stimmt mit eli4glanz überein."
+ },
+ {
+  "id": "eli3fassnacht",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die Empfehlung, wenige Punkte zu beleuchten und Lichtverschmutzung zu begrenzen, ist fachlich richtig; ob dafür in Deutschland zusätzlich Paragraf 41a BNatSchG greift, ließ sich in zwei Suchläufen nicht belastbar klären (der Volltext ist auf gesetze-im-internet.de nicht als Einzelnorm abrufbar), deshalb hier nicht verifiziert und keine Rechtsquelle ergänzt."
+ }
+]

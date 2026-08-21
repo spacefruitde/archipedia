@@ -1,0 +1,506 @@
+[
+ {
+  "id": "kab3luftdicht",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Die Ausführung richtet sich nach der einschlägigen Norm zur Luftdichtheit von Gebäuden, vermutlich DIN 4108-7, während der Nachweis über die gemessene Luftwechselrate erfolgt.",
+    "problem": "Die Norm ist bestätigt, die Vermutungsformel gehört nicht in einen T3-Text, und die geltende Ausgabe DIN 4108-7:2026-04 hat die Ausgabe 2011-01 abgelöst und ein eigenes Kapitel zum Luftdichtheitskonzept aufgenommen.",
+    "ersatz": "Die Ausführung richtet sich nach der Norm zur Luftdichtheit von Gebäuden, die in ihrer geltenden Ausgabe ein eigenes Kapitel zum Luftdichtheitskonzept enthält, während der Nachweis über den bei fünfzig Pascal gemessenen Volumenstrom bezogen auf das beheizte Luftvolumen erfolgt."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-7 Luftdichtheit von Gebaeuden",
+    "u": "https://www.dinmedia.de/de/norm/din-4108-7/398456216",
+    "stand": "DIN 4108-7:2026-04, Waermeschutz und Energie-Einsparung in Gebaeuden, Teil 7: Luftdichtheit von Gebaeuden, ersetzt DIN 4108-7:2011-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 9972 Bestimmung der Luftdurchlaessigkeit von Gebaeuden, Differenzdruckverfahren",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-9972/296830636",
+    "stand": "DIN EN ISO 9972:2018-12, ersetzt DIN EN ISO 9972:2015-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Gebaeudemodernisierungsgesetz GModG, frueher Gebaeudeenergiegesetz GEG, Paragraf 26 Pruefung der Dichtheit eines Gebaeudes",
+    "u": "https://www.gesetze-im-internet.de/geg/__26.html",
+    "stand": "GModG vom 08.08.2020, zuletzt geaendert durch Artikel 4 des Gesetzes vom 23.07.2026, BGBl. 2026 I Nr. 226",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Inhaltlich sonst tragfähig; die luftdichte Ebene und die Dampfbremse werden korrekt als zwei Funktionen unterschieden."
+ },
+ {
+  "id": "kab3dampfbremse",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Ob eine feuchtevariable Dampfbremse, eine klassische Dampfbremse oder eine Dampfsperre richtig ist, entscheidet sich am rechnerischen Nachweis der Tauwasserfreiheit für den konkreten Bauteilaufbau, meist nach dem Glaser-Verfahren oder einer hygrothermischen Simulation nach der einschlägigen Norm zum klimabedingten Feuchteschutz.",
+    "problem": "Der Satz ordnet beide Verfahren derselben Norm zu; das Glaser-Verfahren steht in der Norm zum klimabedingten Feuchteschutz, die hygrothermische Simulation wird dagegen nach einer eigenen europäischen Norm zur numerischen Simulation der Feuchteübertragung geführt.",
+    "ersatz": "Ob eine feuchtevariable Dampfbremse, eine klassische Dampfbremse oder eine Dampfsperre richtig ist, entscheidet sich am rechnerischen Nachweis der Tauwasserfreiheit für den konkreten Bauteilaufbau, entweder nach dem Glaser-Verfahren der Norm zum klimabedingten Feuchteschutz oder nach der eigenen europäischen Norm zur numerischen Simulation der Feuchteübertragung, die instationäre Randbedingungen abbildet."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-3 Klimabedingter Feuchteschutz",
+    "u": "https://www.dinmedia.de/en/standard/din-4108-3/373925063",
+    "stand": "DIN 4108-3:2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN 15026 Bewertung der Feuchteuebertragung durch numerische Simulation",
+    "u": "https://www.dinmedia.de/en/standard/din-en-15026/369808466",
+    "stand": "DIN EN 15026:2023-12, ersetzt DIN EN 15026:2007-07",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "sd-Wert korrekt als wasserdampfdiffusionsäquivalente Luftschichtdicke in Metern beschrieben."
+ },
+ {
+  "id": "kab3blowerdoor",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Der Blower-Door-Test misst die Luftdurchlässigkeit nach einem genormten Differenzdruckverfahren, einschlägig ist die entsprechende ISO-Norm zur Bestimmung der Luftdurchlässigkeit von Gebäuden, vermutlich DIN EN ISO 9972.",
+    "problem": "Die Norm ist bestätigt, das deutsche Energierecht verweist ausdrücklich auf DIN EN ISO 9972 in der Ausgabe 2018-12 mit ihrem nationalen Anhang NA, die Vermutungsformel ist damit hinfällig.",
+    "ersatz": "Der Blower-Door-Test misst die Luftdurchlässigkeit nach dem Differenzdruckverfahren der DIN EN ISO 9972, auf die das deutsche Energierecht mit ihrem nationalen Anhang ausdrücklich verweist."
+   },
+   {
+    "feld": "t3",
+    "art": "stand",
+    "zitat": "Ergebnisgröße ist die Luftwechselrate n50, deren zulässiger Grenzwert vom Lüftungskonzept des Gebäudes abhängt und im Gebäudeenergiegesetz beziehungsweise den jeweiligen nationalen Regelwerken festgelegt wird.",
+    "problem": "Das deutsche Gesetz heißt seit der Novelle Gebäudemodernisierungsgesetz und nicht mehr Gebäudeenergiegesetz, und der Höchstwert hängt nicht vom Lüftungskonzept ab, sondern davon, ob raumlufttechnische Anlagen vorhanden sind und ob das beheizte oder gekühlte Luftvolumen über fünfzehnhundert Kubikmetern liegt.",
+    "ersatz": "Ergebnisgröße ist die Luftwechselrate n50, deren Höchstwert davon abhängt, ob das Gebäude raumlufttechnische Anlagen hat und wie groß sein beheiztes oder gekühltes Luftvolumen ist; in Deutschland steht dieser Wert im Gebäudemodernisierungsgesetz, in Österreich und der Schweiz in den jeweiligen nationalen Regelwerken."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 9972 Bestimmung der Luftdurchlaessigkeit von Gebaeuden, Differenzdruckverfahren",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-9972/296830636",
+    "stand": "DIN EN ISO 9972:2018-12, ersetzt DIN EN ISO 9972:2015-12",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Gebaeudemodernisierungsgesetz GModG, frueher Gebaeudeenergiegesetz GEG, Paragraf 26 Pruefung der Dichtheit eines Gebaeudes",
+    "u": "https://www.gesetze-im-internet.de/geg/__26.html",
+    "stand": "GModG vom 08.08.2020, zuletzt geaendert durch Artikel 4 des Gesetzes vom 23.07.2026, BGBl. 2026 I Nr. 226",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Ohne raumlufttechnische Anlage das Dreifache, mit Anlage das Eineinhalbfache des beheizten Luftvolumens bei fünfzig Pascal; ab fünfzehnhundert Kubikmetern gilt stattdessen der Bezug auf die Hüllfläche."
+ },
+ {
+  "id": "kab3konstruktiv",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Die thermische Trennung einer konstruktiven Wärmebrücke ist stets ein bemessenes Bauteil, etwa ein Trennelement mit definiertem Querschnitt und definierter Wärmeleitfähigkeit, dessen statische und thermische Eignung eine Systemprüfung nachweist.",
+    "problem": "Eine Systemprüfung genügt für ein tragendes thermisches Trennelement nicht; erforderlich ist ein bauaufsichtlicher Verwendbarkeits- und Anwendbarkeitsnachweis, in Deutschland in der Regel eine Europäische Technische Bewertung zusammen mit einer allgemeinen Bauartgenehmigung.",
+    "ersatz": "Die thermische Trennung einer konstruktiven Wärmebrücke ist stets ein bemessenes Bauteil, etwa ein Trennelement mit definiertem Querschnitt und definierter Wärmeleitfähigkeit, dessen statische und thermische Eignung ein bauaufsichtlicher Verwendbarkeitsnachweis belegt, in Deutschland meist eine Europäische Technische Bewertung zusammen mit einer allgemeinen Bauartgenehmigung."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211 Waermebruecken im Hochbau, Waermestroeme und Oberflaechentemperaturen, detaillierte Berechnungen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10211/255670040",
+    "stand": "DIN EN ISO 10211:2018-03, ersetzt DIN EN ISO 10211:2008-04",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2 Waermebruecken, Planungs- und Ausfuehrungsbeispiele",
+    "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077",
+    "stand": "DIN 4108 Beiblatt 2:2019-06, dazu Berichtigung 1:2025-02",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Zuordnung chi-Wert punktbezogen und psi-Wert längenbezogen ist korrekt; der bauaufsichtliche Nachweisweg für Trennelemente wurde nicht an einem amtlichen Portal im Volltext verifiziert."
+ },
+ {
+  "id": "kab3geometrisch",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Weil sich die Geometrie selbst nicht ändern lässt, ist die einzige wirksame Stellschraube die Dämmstärke in der Umgebung der Kante, insbesondere an Außenecken und am Dachrand.",
+    "problem": "Nicht nur die Dämmstärke wirkt, sondern vor allem die Lage der Dämmebene, denn dieselbe Außenecke verhält sich bei außenliegender Dämmung deutlich günstiger als bei innenliegender, und eine über die Kante durchlaufende Dämmung wirkt stärker als zusätzliche Dicke in der Fläche.",
+    "ersatz": "Weil sich die Geometrie selbst nicht ändern lässt, bleiben als Stellschrauben die Lage der Dämmebene und ihre Stärke im Bereich der Kante, denn dieselbe Außenecke verhält sich bei außenliegender Dämmung deutlich günstiger als bei innenliegender, und eine über die Kante durchlaufende Dämmung wirkt stärker als zusätzliche Dicke in der Fläche."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 10211 Waermebruecken im Hochbau, Waermestroeme und Oberflaechentemperaturen, detaillierte Berechnungen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10211/255670040",
+    "stand": "DIN EN ISO 10211:2018-03, ersetzt DIN EN ISO 10211:2008-04",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2 Waermebruecken, Planungs- und Ausfuehrungsbeispiele",
+    "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077",
+    "stand": "DIN 4108 Beiblatt 2:2019-06, dazu Berichtigung 1:2025-02",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Gleichwertigkeitsnachweis über Standarddetails ist korrekt beschrieben; das Beiblatt unterscheidet dabei zwei Kategorien mit unterschiedlichem pauschalem Zuschlag."
+ },
+ {
+  "id": "kab3vermeidung",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Ob eine Konstruktion tatsächlich funktioniert, zeigt am Ende die raumseitige Oberflächentemperatur an der kritischen Stelle, ausgedrückt als Temperaturfaktor fRsi, dessen Mindestwert die einschlägige Norm zum Feuchteschutz festlegt.",
+    "problem": "Der Mindestwert des Temperaturfaktors fRsi steht nicht in der Norm zum klimabedingten Feuchteschutz, sondern in der Norm zum Mindestwärmeschutz, die den Wärmeschutz von Bauteilen und im Bereich von Wärmebrücken einschließlich des Kriteriums gegen Schimmelbildung regelt.",
+    "ersatz": "Ob eine Konstruktion tatsächlich funktioniert, zeigt am Ende die raumseitige Oberflächentemperatur an der kritischen Stelle, ausgedrückt als Temperaturfaktor fRsi, dessen Mindestwert die Norm zum Mindestwärmeschutz als Kriterium gegen Schimmelbildung festlegt."
+   },
+   {
+    "feld": "t3",
+    "art": "unbelegt",
+    "zitat": "Für den Nachweis wärmebrückenfreien Konstruierens stehen drei Wege offen: ein pauschaler Zuschlag auf den Wärmedurchgang, ein Gleichwertigkeitsnachweis über anerkannte Standarddetails oder eine detaillierte Berechnung der einzelnen Anschlüsse, wobei die Wahl über den energetischen Nachweis des Gebäudes entschieden wird.",
+    "problem": "Wärmebrückenfrei ist kein Begriff des deutschen Energierechts; dort geht es um die Höhe des verbleibenden Wärmebrückenzuschlags, und beim Gleichwertigkeitsnachweis stehen seit der Ausgabe 2019 des Beiblatts zwei Kategorien mit unterschiedlichen Zuschlägen zur Wahl.",
+    "ersatz": "Für die Berücksichtigung von Wärmebrücken stehen drei Wege offen: ein pauschaler Zuschlag auf den Wärmedurchgang, ein Gleichwertigkeitsnachweis über anerkannte Standarddetails, der je nach erreichter Kategorie einen kleineren Zuschlag erlaubt, oder eine detaillierte Berechnung der einzelnen Anschlüsse, wobei die Wahl über den energetischen Nachweis des Gebäudes entschieden wird."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-2 Waermeschutz, Mindestanforderungen",
+    "u": "https://www.dinmedia.de/en/standard/din-4108-2/401017482",
+    "stand": "DIN 4108-2:2026-05, Waermeschutz, Anforderungen, Berechnungsverfahren und Hinweise fuer Planung und Ausfuehrung, ersetzt DIN 4108-2:2013-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108 Beiblatt 2 Waermebruecken, Planungs- und Ausfuehrungsbeispiele",
+    "u": "https://www.dinmedia.de/en/technical-rule/din-4108-beiblatt-2/305990077",
+    "stand": "DIN 4108 Beiblatt 2:2019-06, dazu Berichtigung 1:2025-02",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Gebaeudemodernisierungsgesetz GModG, Paragraf 24 Einfluss von Waermebruecken",
+    "u": "https://www.gesetze-im-internet.de/geg/__24.html",
+    "stand": "GModG vom 08.08.2020, zuletzt geaendert durch Artikel 4 des Gesetzes vom 23.07.2026, BGBl. 2026 I Nr. 226",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN EN ISO 10211 Waermebruecken im Hochbau, Waermestroeme und Oberflaechentemperaturen, detaillierte Berechnungen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-10211/255670040",
+    "stand": "DIN EN ISO 10211:2018-03, ersetzt DIN EN ISO 10211:2008-04",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Aussage, eine gute mittlere Bilanz schließe eine gefährliche Einzelstelle nicht aus, ist fachlich richtig und deckt sich mit der Trennung von energetischem Nachweis und Mindestwärmeschutz."
+ },
+ {
+  "id": "kab3fassade",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Wie stark eine Fassade durch Schlagregen beansprucht wird, ordnet die einschlägige Norm zum klimabedingten Feuchteschutz in Beanspruchungsgruppen ein, die von Windzone, Gebäudehöhe und Lage abhängen und die Anforderung an jede einzelne Schicht bestimmen.",
+    "problem": "Die Zuordnung zu den drei Schlagregenbeanspruchungsgruppen richtet sich zuerst nach der Jahresniederschlagsmenge am Standort und wird erst danach durch örtliche Windverhältnisse, Gebäudehöhe und Lage angepasst; Windzone ist ein Begriff der Windlastnorm und gehört nicht hierher.",
+    "ersatz": "Wie stark eine Fassade durch Schlagregen beansprucht wird, ordnet die einschlägige Norm zum klimabedingten Feuchteschutz in drei Schlagregenbeanspruchungsgruppen ein, maßgeblich sind zuerst die Jahresniederschlagsmenge am Standort und danach die örtlichen Windverhältnisse, die Gebäudehöhe und die Lage, und daraus folgt die Anforderung an jede einzelne Schicht."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 4108-3 Klimabedingter Feuchteschutz",
+    "u": "https://www.dinmedia.de/en/standard/din-4108-3/373925063",
+    "stand": "DIN 4108-3:2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Einteilung in drei Gruppen ist bestätigt, die konkreten Niederschlagsschwellen konnten an einem frei zugänglichen amtlichen Portal nicht im Volltext verifiziert werden und stehen deshalb bewusst nicht im Ersatztext."
+ },
+ {
+  "id": "kab3fenster",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [
+   {
+    "t": "DIN EN 14351-1 Fenster und Tueren, Produktnorm, Leistungseigenschaften, Teil 1: Fenster und Aussentueren",
+    "u": "https://www.dinmedia.de/en/standard/din-en-14351-1/261176988",
+    "stand": "DIN EN 14351-1:2016-12, EN 14351-1:2006+A2:2016",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "Leitfaden zur Montage von Fenstern und Haustueren, RAL-Montageleitfaden",
+    "u": "https://shop.ift-rosenheim.de/leitfaden-zur-montage-von-fenstern-und-haustueren-2024-03-montageleitfaden",
+    "stand": "Ausgabe 2024-03, Herausgeber RAL-Guetegemeinschaft Fenster und Haustueren e.V., ISBN 978-3-00-077706-6",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108-3 Klimabedingter Feuchteschutz",
+    "u": "https://www.dinmedia.de/en/standard/din-4108-3/373925063",
+    "stand": "DIN 4108-3:2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "CE-Kennzeichnung mit Leistungserklärung statt bauaufsichtlicher Zulassung, die drei Funktionsebenen und die Regel innen dichter als außen sind korrekt wiedergegeben; der Montageleitfaden liegt in der Ausgabe 2024-03 vor."
+ },
+ {
+  "id": "kab3sockel",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Die Spritzwasserzone endet nicht an einer festen Höhe für alle Gebäude, sondern hängt von Traufhöhe, Dachüberstand, Geländeneigung und Bewuchs vor der Fassade ab, die genaue Höhe legt der Fachplaner im Einzelfall fest, orientiert an der einschlägigen Norm zum klimabedingten Feuchteschutz.",
+    "problem": "Falsche Normzuordnung und falsche Grundregel: Den Spritzwasserbereich am Sockel regelt die Norm zur Abdichtung erdberührter Bauteile, und sie gibt dafür ein Regelmaß über der Geländeoberkante vor, von dem nur mit gesonderter Begründung abgewichen werden darf; die Norm zum klimabedingten Feuchteschutz behandelt hier nur die Schlagregenbeanspruchung der Fassade.",
+    "ersatz": "Die Abdichtung im Spritzwasserbereich am Sockel regelt die Norm zur Abdichtung erdberührter Bauteile, die dafür ein Regelmaß über der fertigen Geländeoberkante vorgibt; unterschritten werden darf dieses Maß nur, wenn Traufhöhe, Dachüberstand, Geländeneigung, Bewuchs und eine geplante Entwässerung vor der Fassade dies im Einzelfall rechtfertigen und der Fachplaner es festlegt."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18533-1 Abdichtung von erdberuehrten Bauteilen, Anforderungen, Planungs- und Ausfuehrungsgrundsaetze",
+    "u": "https://www.dinmedia.de/de/norm/din-18533-1/399850897",
+    "stand": "DIN 18533-1:2026-06, ersetzt DIN 18533-1:2017-07 und DIN 18533-1/A1:2018-09",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 4108-3 Klimabedingter Feuchteschutz",
+    "u": "https://www.dinmedia.de/en/standard/din-4108-3/373925063",
+    "stand": "DIN 4108-3:2024-03, ersetzt DIN 4108-3:2018-10",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Übergang von Fassaden- auf Perimeterdämmung mit eigener Abdichtung und geplanter Überlappung ist fachlich richtig beschrieben."
+ },
+ {
+  "id": "kab3bewegungsfuge",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Keine Norm- oder Zahlenangabe im Text; die Aussagen zur Fugenlage aus der Tragwerksplanung und zum Durchlaufen der Fuge durch alle Schichten sind bautechnisch zutreffend."
+ },
+ {
+  "id": "kab3abdichtfuge",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Fugendichtstoffe werden nach ihrem Rückstellvermögen in elastische und plastische Systeme eingeteilt, wofür die einschlägige Norm zur Klassifizierung von Fugendichtstoffen maßgeblich ist, die Wahl folgt aus der zu erwartenden Bewegungsbreite der Fuge, nicht aus der Optik.",
+    "problem": "Die einschlägige Norm teilt Fugendichtstoffe zuerst nach Verwendungstyp für Fassade oder Verglasung und nach der zulässigen Gesamtverformung in Klassen ein; die Unterscheidung elastisch oder plastisch ist nur eine Unterklasse der kleinsten Bewegungsklasse, für die höheren Klassen gilt stattdessen die Unterscheidung nach niedrigem oder hohem Elastizitätsmodul.",
+    "ersatz": "Fugendichtstoffe werden nach ihrem Verwendungstyp für Fassade oder Verglasung und nach der zulässigen Gesamtverformung in Klassen eingeteilt, wofür die einschlägige Norm zur Klassifizierung von Fugendichtstoffen maßgeblich ist, und die Wahl folgt aus der zu erwartenden Bewegungsbreite der Fuge, nicht aus der Optik."
+   },
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Bei wasserundurchlässigen Betonbauteilen ist das Fugenband zusätzlich Teil des Abdichtungskonzepts und muss zur gewählten WU-Klasse passen, das regelt die einschlägige Richtlinie für wasserundurchlässige Bauwerke aus Beton.",
+    "problem": "Eine WU-Klasse gibt es in der Richtlinie nicht; sie unterscheidet Nutzungsklassen für die zulässige Feuchteerscheinung im Innern und Beanspruchungsklassen für die Wassereinwirkung von außen.",
+    "ersatz": "Bei wasserundurchlässigen Betonbauteilen ist das Fugenband zusätzlich Teil des Abdichtungskonzepts und muss zur gewählten Nutzungsklasse und Beanspruchungsklasse passen, das regelt die einschlägige Richtlinie für wasserundurchlässige Bauwerke aus Beton."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 11600 Hochbau, Fugendichtstoffe, Einteilung und Anforderungen von Dichtungsmassen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-11600/140528822",
+    "stand": "DIN EN ISO 11600:2011-11, ersetzt DIN EN ISO 11600:2004-04",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DAfStb-Richtlinie Wasserundurchlaessige Bauwerke aus Beton, WU-Richtlinie",
+    "u": "https://www.dinmedia.de/en/technical-rule/dafstb-wasserundurchlaessige-bauwerke/283927896",
+    "stand": "Ausgabe 2017-12, aktuell",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Absatz Ab hier verweist ebenfalls auf ein WU-Konzept; dort passt der Begriff, weil das Abdichtungskonzept gemeint ist und keine Klasse."
+ },
+ {
+  "id": "kab3anschlussfuge",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [
+   {
+    "t": "DIN EN ISO 11600 Hochbau, Fugendichtstoffe, Einteilung und Anforderungen von Dichtungsmassen",
+    "u": "https://www.dinmedia.de/en/standard/din-en-iso-11600/140528822",
+    "stand": "DIN EN ISO 11600:2011-11, ersetzt DIN EN ISO 11600:2004-04",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Ableitung der Fugenbreite aus der Bewegungsdifferenz zweier Bauteile und der Hinweis auf zwei unterschiedliche Haftflächen sind fachlich zutreffend."
+ },
+ {
+  "id": "kab3verbund",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Verbundabdichtung und Fliesenverlegung sind zwei unterschiedliche Gewerke mit unterschiedlicher Gewährleistung, weshalb die Abnahme der Abdichtung vor dem Verfliesen als eigener Schritt dokumentiert werden sollte.",
+    "problem": "Die Abdichtung im Verbund ist nach der Vergabe- und Vertragsordnung für Bauleistungen eine Besondere Leistung innerhalb der Fliesen- und Plattenarbeiten und wird deshalb im Regelfall von demselben Auftragnehmer mit derselben Gewährleistung erbracht; die Behauptung zweier Gewerke stimmt so nicht.",
+    "ersatz": "Die Verbundabdichtung ist keine Nebenleistung der Fliesenarbeiten, sondern eine gesondert zu vereinbarende und gesondert zu vergütende Leistung, die meist derselbe Auftragnehmer erbringt, weshalb ihre Abnahme vor dem Verfliesen als eigener Schritt dokumentiert werden sollte."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1 Abdichtung von Innenraeumen, Anforderungen, Planungs- und Ausfuehrungsgrundsaetze",
+    "u": "https://www.dinmedia.de/en/standard/din-18534-1/391755876",
+    "stand": "DIN 18534-1:2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "VOB Teil C, ATV DIN 18352 Fliesen- und Plattenarbeiten",
+    "u": "https://www.dinmedia.de/en/standard/din-18352/310833611",
+    "stand": "DIN 18352:2019-09, ersetzt DIN 18352:2016-09",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Die Einordnung als Besondere Leistung stammt aus der ATV Fliesen- und Plattenarbeiten; der Volltext ist kostenpflichtig und wurde nicht eingesehen."
+ },
+ {
+  "id": "kab3ablauf",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Das erforderliche Gefälle zum Bodenablauf legt die einschlägige Norm zur Abdichtung von Innenräumen im Zusammenspiel mit der Verlegeanleitung des Belags fest, zu wenig Gefälle lässt Wasser stehen, zu viel erschwert das Begehen und widerspricht der Barrierefreiheit.",
+    "problem": "Die Norm zur Abdichtung von Innenräumen regelt die Abdichtung und ihre Wassereinwirkungsklassen, nicht das Gefälle des Belags; Gefälleanforderungen kommen aus den Fachregeln des ausführenden Gewerks, aus der Verlegeanleitung und bei barrierefreien Duschplätzen aus der Norm zum barrierefreien Bauen.",
+    "ersatz": "Das erforderliche Gefälle zum Bodenablauf legt nicht die Abdichtungsnorm fest, sondern die Fachregeln des ausführenden Gewerks und die Verlegeanleitung des Belags, bei barrierefreien Duschplätzen zusätzlich die Norm zum barrierefreien Bauen, denn zu wenig Gefälle lässt Wasser stehen und zu viel erschwert das Begehen."
+   },
+   {
+    "feld": "t3",
+    "art": "dach",
+    "zitat": "wobei sich diese Regelwerke zwischen den Ländern unterscheiden: in Deutschland etwa DIN 18040-2, in Österreich die ÖNORM B 1600 mit der OIB-Richtlinie 4, in der Schweiz die SIA 500.",
+    "problem": "Die Zuordnung stimmt, verschweigt aber, dass keines dieser Regelwerke aus sich heraus gilt; verbindlich werden sie erst über die Landesbauordnungen und die jeweiligen technischen Baubestimmungen beziehungsweise das kantonale Recht.",
+    "ersatz": "wobei sich diese Regelwerke zwischen den Ländern unterscheiden und jeweils erst über das Bau- und Landesrecht verbindlich werden: in Deutschland DIN 18040-2, in Österreich die ÖNORM B 1600 zusammen mit der OIB-Richtlinie 4, in der Schweiz die SIA 500."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1 Abdichtung von Innenraeumen, Anforderungen, Planungs- und Ausfuehrungsgrundsaetze",
+    "u": "https://www.dinmedia.de/en/standard/din-18534-1/391755876",
+    "stand": "DIN 18534-1:2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18040-2 Barrierefreies Bauen, Planungsgrundlagen, Teil 2: Wohnungen",
+    "u": "https://www.dinmedia.de/en/standard/din-18040-2/142706210",
+    "stand": "DIN 18040-2:2011-09, teilweise ersetzt durch DIN EN 17210:2021-08, Entwurf E DIN 18040-2:2023-02 noch nicht in Kraft",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OENORM B 1600 Barrierefreies Bauen, Planungsgrundlagen",
+    "u": "https://www.austrian-standards.at/en/shop/onorm-b-1600-2023-05-01~p2660558",
+    "stand": "OENORM B 1600:2023-05-01",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "OIB-Richtlinie 4 Nutzungssicherheit und Barrierefreiheit",
+    "u": "https://www.oib.or.at/de/oib-richtlinien",
+    "stand": "OIB-Richtlinien Ausgabe 2023, beschlossen am 25.05.2023",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "SIA 500 Hindernisfreie Bauten",
+    "u": "https://shop.sia.ch/normenwerk/architekt/sia%20500/d/D/Product",
+    "stand": "SIA 500:2009, gueltig ab 01.01.2009, Revision 3 vom 01.10.2019, Entwurf prSIA 500:2025-07 in Vernehmlassung",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "DIN 18040-2 steht unverändert in der Ausgabe 2011-09 und ist teilweise durch DIN EN 17210:2021-08 überlagert; ÖNORM B 1600 liegt in der Ausgabe 2023-05-01 vor, die OIB-Richtlinien in der Ausgabe 2023, SIA 500 unverändert in der Ausgabe 2009."
+ },
+ {
+  "id": "kab3feuchtraum",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t3",
+    "art": "fehler",
+    "zitat": "Ein Schwimmbad oder ein Wellnessbereich fällt dabei in eine höhere Einwirkungsklasse als ein normaler Nassraum, weil hier dauerhafter Wasserkontakt statt gelegentlicher Beanspruchung vorliegt.",
+    "problem": "Die Norm zur Abdichtung von Innenräumen erfasst nur die umgebenden Flächen und endet bei ihrer höchsten Wassereinwirkungsklasse; das Becken selbst fällt nicht unter sie, sondern unter die eigene Norm zur Abdichtung von Behältern und Becken.",
+    "ersatz": "Die Umgebungsflächen eines Schwimmbads oder Wellnessbereichs fallen dabei in die höchste Wassereinwirkungsklasse dieser Norm, das Becken selbst dagegen unter die eigene Norm zur Abdichtung von Behältern und Becken, weil dort dauerhafter Wasserkontakt statt gelegentlicher Beanspruchung vorliegt."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1 Abdichtung von Innenraeumen, Anforderungen, Planungs- und Ausfuehrungsgrundsaetze",
+    "u": "https://www.dinmedia.de/en/standard/din-18534-1/391755876",
+    "stand": "DIN 18534-1:2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "DIN 18535-1 Abdichtung von Behaeltern und Becken",
+    "u": "https://www.dinmedia.de/en/standard/din-18535-1/272712977",
+    "stand": "DIN 18535-1:2017-07",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Der Grundgedanke, dass die Nutzungsbezeichnung im Grundriss nicht über die Einstufung entscheidet, ist richtig und deckt sich mit der flächenbezogenen Systematik der Wassereinwirkungsklassen."
+ },
+ {
+  "id": "kab2luft",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die Trennung von Luftdichtheit und Dampfdiffusion und der Hinweis, dass beide Eigenschaften getrennt nachzuweisen sind, sind fachlich zutreffend; keine prüfpflichtige Zahl oder Norm im Text."
+ },
+ {
+  "id": "kab2waermebruecke",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die Abgrenzung nach dem Abfall der raumseitigen Oberflächentemperatur und dem daraus folgenden Tauwasserrisiko trifft den maßgeblichen Bewertungsmaßstab; keine prüfpflichtige Zahl oder Norm im Text."
+ },
+ {
+  "id": "kab2schlagregen",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die Aussage zu wachsender Beanspruchung mit Gebäudehöhe und exponierter Lage deckt sich mit der Systematik der Schlagregenbeanspruchungsgruppen; keine prüfpflichtige Zahl oder Norm im Text."
+ },
+ {
+  "id": "kab2fuge",
+  "urteil": "ok",
+  "befunde": [],
+  "quellen": [],
+  "notiz": "Die Unterscheidung von Bewegungsfuge und Anschlussfuge ist korrekt und deckungsgleich mit den beiden Kinderknoten; keine prüfpflichtige Zahl oder Norm im Text."
+ },
+ {
+  "id": "kab2nassraum",
+  "urteil": "korrigieren",
+  "befunde": [
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Welche Bereiche tatsächlich als Nassraum gelten, ist dabei weiter gefasst als der Alltagsbegriff Bad vermuten lässt, denn auch Küche oder Hauswirtschaftsraum können in dieselbe Beanspruchungsklasse fallen.",
+    "problem": "Die Norm zur Abdichtung von Innenräumen kennt keine Beanspruchungsklasse, sondern Wassereinwirkungsklassen; die Kinderknoten verwenden bereits den richtigen Begriff, der Elternknoten weicht davon ab.",
+    "ersatz": "Welche Bereiche tatsächlich als Nassraum gelten, ist dabei weiter gefasst als der Alltagsbegriff Bad vermuten lässt, denn auch Küche oder Hauswirtschaftsraum können in dieselbe Wassereinwirkungsklasse fallen."
+   },
+   {
+    "feld": "t2",
+    "art": "fehler",
+    "zitat": "Häufigster Fehler ist, die Abdichtung als reine Voraussetzung für die Fliesenverlegung zu betrachten, statt sie als eigenständiges, abzunehmendes Gewerk mit eigener Gewährleistung zu behandeln.",
+    "problem": "Die Abdichtung im Verbund ist nach der Vergabe- und Vertragsordnung für Bauleistungen eine Besondere Leistung innerhalb der Fliesen- und Plattenarbeiten und damit kein eigenes Gewerk mit eigener Gewährleistung.",
+    "ersatz": "Häufigster Fehler ist, die Abdichtung als selbstverständliche Vorarbeit der Fliesenverlegung zu betrachten, statt sie als gesondert zu vereinbarende, gesondert zu vergütende und vor dem Verfliesen abzunehmende Leistung zu behandeln."
+   }
+  ],
+  "quellen": [
+   {
+    "t": "DIN 18534-1 Abdichtung von Innenraeumen, Anforderungen, Planungs- und Ausfuehrungsgrundsaetze",
+    "u": "https://www.dinmedia.de/en/standard/din-18534-1/391755876",
+    "stand": "DIN 18534-1:2025-10, ersetzt DIN 18534-1:2017-07",
+    "geprueft": "2026-08-21"
+   },
+   {
+    "t": "VOB Teil C, ATV DIN 18352 Fliesen- und Plattenarbeiten",
+    "u": "https://www.dinmedia.de/en/standard/din-18352/310833611",
+    "stand": "DIN 18352:2019-09, ersetzt DIN 18352:2016-09",
+    "geprueft": "2026-08-21"
+   }
+  ],
+  "notiz": "Gleicher Befund wie bei kab3verbund; beide Texte sollten dieselbe Formulierung übernehmen."
+ }
+]

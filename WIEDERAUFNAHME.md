@@ -1,6 +1,9 @@
-# Wiederaufnahme (Stand 21.08.2026, Laptop zugeklappt mitten in Welle 2)
+# Wiederaufnahme (Stand 21.08.2026, Welle 2 abgeschlossen und deployt)
 
 ## Wo wir stehen
+- AKTUALISIERT: Welle 2 ist komplett (Merge, Gegenlesung, Deploy). Die Schritte unten sind erledigt; offen sind nur noch die Redaktionsentscheidungen in docs/gegenlesung-bauphysik-licht-2026-08-21.md (GEG/GModG plattformweit, Normstand-Divergenz), Sidebar-Dubletten und archipedia.eu.
+
+## Stand vor Abschluss (historisch)
 - Live: https://ao-prototyp.pages.dev, 790 Knoten. Fenster-Welle inkl. Opus-Gegenlesung ist komplett eingespielt und deployt (docs/gegenlesung-fenster-2026-08-21.md).
 - Welle 2 (Abdichtung/Bauphysik `kab` 42 neue Knoten + 15 Bestands-T3, Licht `eli` 27 neue Knoten) läuft: Struktur in docs/struktur-bauphysik-licht.md (Freigabe pauschal durch Ben), Sonnet-Texte 5 von 6 Gruppen fertig, Gruppe b5x (Nassraum + 15 Bestands-T3) war beim Zuklappen noch nicht fertig.
 - 10 neue Schemazeichnungen für Welle 2 liegen in images/ (kab4luftdurch, kab4feuchtevar, kab4balkon, kab4ecke, kab4anschlussunten, kab4fugenmasse, kab4wandboden, eli4raumtiefe, eli4eckfenster, eli4sonnenstand), sichtgeprüft, noch nicht mit Knoten verknüpft (passiert beim Merge über IMAGES in struct-kab-eli.mjs).
