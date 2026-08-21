@@ -203,12 +203,11 @@ function nodeSection(id){
   let kidsHTML = '';
   if (kids.length) {
     const tiefstes = kids.reduce((a,b)=> maxLv(b) > maxLv(a) ? b : a, kids[0]);
-    const fokus = kids.length >= 4 && kids.filter(k=>maxLv(k)===maxLv(tiefstes)).length === 1 ? tiefstes : null;
     kidsHTML = `<div class="sec"><div class="sec-h"><h2 class="h2g">Ebene ${Math.min(n.lv+1,7)} — tiefer</h2><span class="sec-n">${kids.length} ${kids.length===1?'Feld':'Felder'}</span></div><div class="kraster">${
       kids.map(k=>{
         const uk = kidsOf(k).length;
         const meta = [`bis Ebene ${maxLv(k)}`].concat(uk?[`${uk} Unterthemen`]:[]).join(' · ');
-        return `<a class="kcard${k===fokus?' fokus':''}" href="#${k}"><span class="kt">${esc(N[k].t)}</span><span class="kfuss"><span>${meta}</span><span class="arr">→</span></span></a>`;
+        return `<a class="kcard" href="#${k}"><span class="kt">${esc(N[k].t)}</span><span class="kfuss"><span>${meta}</span><span class="arr">→</span></span></a>`;
       }).join('')
     }</div></div>`;
   } else if (n.p === 'k' && !n.t3) {
@@ -512,9 +511,6 @@ const html = `<!DOCTYPE html>
   .kdesc{font-size:14px;line-height:1.5;color:var(--ink3)}
   .kfuss{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4)}
   .arr{display:inline-block;transition:transform .12s ease-out}
-  .kcard.fokus{background:var(--solid);color:var(--onsolid)}
-  .kcard.fokus .kfuss,.kcard.fokus .kdesc{color:var(--onsolid);opacity:.7}
-  .kcard.fokus:hover{background:var(--solid-h)}
   .endnote{font-size:12px;color:var(--ink4);margin:18px 0}
   /* DACH */
   .dach{background:var(--card);padding:20px 22px 14px;margin:0 0 30px}
