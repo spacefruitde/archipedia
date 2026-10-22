@@ -7,3 +7,7 @@ seed_0*.sql
 
 # Local Netlify folder
 .netlify
+
+# Lokale Tool-Caches
+.wrangler/
+.DS_Store
